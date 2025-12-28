@@ -17,6 +17,7 @@ import {
   Input,
   Main,
   usePageTitle,
+  getErrorMessage,
 } from '@mochi/common'
 import { ArrowLeft, Upload, Copy, Check } from 'lucide-react'
 import { toast } from 'sonner'
@@ -338,8 +339,8 @@ function UploadVersionDialog({
           }
           onOpenChange(false)
         },
-        onError: () => {
-          toast.error('Failed to upload version')
+        onError: (error) => {
+          toast.error(getErrorMessage(error, 'Failed to upload version'))
         },
       }
     )

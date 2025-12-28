@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from '@tanstack/react-router'
-import { usePageTitle } from '@mochi/common'
 import {
+  usePageTitle,
   Dialog,
   DialogContent,
   DialogDescription,
@@ -15,6 +15,7 @@ import {
   CardTitle,
   Input,
   Main,
+  getErrorMessage,
 } from '@mochi/common'
 import { Package, Plus } from 'lucide-react'
 import { toast } from 'sonner'
@@ -120,8 +121,8 @@ function CreateAppDialog({
           setPrivacy('public')
           onSuccess(data.id)
         },
-        onError: () => {
-          toast.error('Failed to create app')
+        onError: (error) => {
+          toast.error(getErrorMessage(error, 'Failed to create app'))
         },
       }
     )
