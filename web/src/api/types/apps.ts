@@ -4,6 +4,7 @@ export interface App {
   privacy: string
   version?: string
   fingerprint?: string
+  default_track?: string
 }
 
 export interface Track {

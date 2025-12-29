@@ -67,11 +67,61 @@ const uploadVersion = async (
   return response
 }
 
+const createTrack = async (
+  appId: string,
+  track: string,
+  version: string
+): Promise<{ track: string; version: string }> => {
+  const response = await requestHelpers.post<{ track: string; version: string }>(
+    endpoints.apps.trackCreate(appId),
+    { app: appId, track, version }
+  )
+  return response
+}
+
+const setTrack = async (
+  appId: string,
+  track: string,
+  version: string
+): Promise<{ track: string; version: string }> => {
+  const response = await requestHelpers.post<{ track: string; version: string }>(
+    endpoints.apps.trackSet(appId),
+    { app: appId, track, version }
+  )
+  return response
+}
+
+const deleteTrack = async (
+  appId: string,
+  track: string
+): Promise<{ deleted: string }> => {
+  const response = await requestHelpers.post<{ deleted: string }>(
+    endpoints.apps.trackDelete(appId),
+    { app: appId, track }
+  )
+  return response
+}
+
+const setDefaultTrack = async (
+  appId: string,
+  track: string
+): Promise<{ default_track: string }> => {
+  const response = await requestHelpers.post<{ default_track: string }>(
+    endpoints.apps.defaultTrackSet(appId),
+    { app: appId, track }
+  )
+  return response
+}
+
 const appsApi = {
   list: listApps,
   get: getApp,
   create: createApp,
   uploadVersion,
+  createTrack,
+  setTrack,
+  deleteTrack,
+  setDefaultTrack,
 }
 
 export default appsApi

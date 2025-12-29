@@ -50,3 +50,61 @@ export const useUploadVersionMutation = () => {
     },
   })
 }
+
+export const useCreateTrackMutation = () => {
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationFn: ({
+      appId,
+      track,
+      version,
+    }: {
+      appId: string
+      track: string
+      version: string
+    }) => appsApi.createTrack(appId, track, version),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: appKeys.all() })
+    },
+  })
+}
+
+export const useSetTrackMutation = () => {
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationFn: ({
+      appId,
+      track,
+      version,
+    }: {
+      appId: string
+      track: string
+      version: string
+    }) => appsApi.setTrack(appId, track, version),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: appKeys.all() })
+    },
+  })
+}
+
+export const useDeleteTrackMutation = () => {
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationFn: ({ appId, track }: { appId: string; track: string }) =>
+      appsApi.deleteTrack(appId, track),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: appKeys.all() })
+    },
+  })
+}
+
+export const useSetDefaultTrackMutation = () => {
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationFn: ({ appId, track }: { appId: string; track: string }) =>
+      appsApi.setDefaultTrack(appId, track),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: appKeys.all() })
+    },
+  })
+}

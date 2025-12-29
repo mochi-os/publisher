@@ -3,10 +3,15 @@
 
 # Create database
 def database_create():
-	mochi.db.execute("create table apps ( id text not null primary key, name text not null, privacy text not null default 'public' )")
+	mochi.db.execute("create table apps ( id text not null primary key, name text not null, privacy text not null default 'public', default_track text not null default 'production' )")
 	mochi.db.execute("create table versions ( app references apps( id ), version text not null, file text not null, primary key ( app, version ) )")
 	mochi.db.execute("create index versions_file on versions( file )")
 	mochi.db.execute("create table tracks ( app references apps( id ), track text not null, version text not null, primary key ( app, track ) )")
+
+# Upgrade database to specified schema version
+def database_upgrade(version):
+	if version == 2:
+		mochi.db.execute("alter table apps add column default_track text not null default 'production'")
 
 # Return JSON error response
 def json_error(message, code=400):
@@ -107,6 +112,107 @@ def action_version_create(a):
 
 	return {"data": {"version": version, "app": app}}
 
+# Create a new track
+def action_track_create(a):
+	id = a.input("app")
+	if not id or len(id) > 51:
+		return json_error("Invalid app ID")
+	app = mochi.db.row("select * from apps where id=?", id)
+	if not app:
+		return json_error("App not found", 404)
+
+	track = a.input("track")
+	if not track or len(track) > 50 or not track.replace("-", "").replace("_", "").isalnum():
+		return json_error("Invalid track name")
+
+	version = a.input("version")
+	if not version or len(version) > 50:
+		return json_error("Invalid version")
+
+	# Verify version exists
+	v = mochi.db.row("select 1 from versions where app=? and version=?", id, version)
+	if not v:
+		return json_error("Version not found", 404)
+
+	# Check track doesn't already exist
+	existing = mochi.db.row("select 1 from tracks where app=? and track=?", id, track)
+	if existing:
+		return json_error("Track already exists")
+
+	mochi.db.execute("insert into tracks (app, track, version) values (?, ?, ?)", id, track, version)
+	return {"data": {"track": track, "version": version}}
+
+# Set which version a track points to
+def action_track_set(a):
+	id = a.input("app")
+	if not id or len(id) > 51:
+		return json_error("Invalid app ID")
+	app = mochi.db.row("select * from apps where id=?", id)
+	if not app:
+		return json_error("App not found", 404)
+
+	track = a.input("track")
+	if not track or len(track) > 50:
+		return json_error("Invalid track name")
+
+	version = a.input("version")
+	if not version or len(version) > 50:
+		return json_error("Invalid version")
+
+	# Verify version exists
+	v = mochi.db.row("select 1 from versions where app=? and version=?", id, version)
+	if not v:
+		return json_error("Version not found", 404)
+
+	# Verify track exists
+	t = mochi.db.row("select 1 from tracks where app=? and track=?", id, track)
+	if not t:
+		return json_error("Track not found", 404)
+
+	mochi.db.execute("update tracks set version=? where app=? and track=?", version, id, track)
+	return {"data": {"track": track, "version": version}}
+
+# Delete a track
+def action_track_delete(a):
+	id = a.input("app")
+	if not id or len(id) > 51:
+		return json_error("Invalid app ID")
+	app = mochi.db.row("select * from apps where id=?", id)
+	if not app:
+		return json_error("App not found", 404)
+
+	track = a.input("track")
+	if not track or len(track) > 50:
+		return json_error("Invalid track name")
+
+	# Don't allow deleting the default track
+	if track == app["default_track"]:
+		return json_error("Cannot delete the default track")
+
+	mochi.db.execute("delete from tracks where app=? and track=?", id, track)
+	return {"data": {"deleted": track}}
+
+# Set the default track for an app
+def action_default_track_set(a):
+	id = a.input("app")
+	if not id or len(id) > 51:
+		return json_error("Invalid app ID")
+	app = mochi.db.row("select * from apps where id=?", id)
+	if not app:
+		return json_error("App not found", 404)
+
+	track = a.input("track")
+	if not track or len(track) > 50:
+		return json_error("Invalid track name")
+
+	# Verify track exists
+	t = mochi.db.row("select 1 from tracks where app=? and track=?", id, track)
+	if not t:
+		return json_error("Track not found", 404)
+
+	mochi.db.execute("update apps set default_track=? where id=?", track, id)
+	return {"data": {"default_track": track}}
+
 # Receive a request for information about an app
 # Private apps are accessible if the requester knows the publisher ID
 def event_information(e):
@@ -118,7 +224,7 @@ def event_information(e):
 		return e.write({"status": "404", "message": "App not found"})
 
 	e.write({"status": "200"})
-	e.write(a)
+	e.write({"id": a["id"], "name": a["name"], "privacy": a["privacy"], "default_track": a["default_track"]})
 	e.write(mochi.db.rows("select track, version from tracks where app=?", a["id"]))
 
 # Receive a request to download an app
@@ -147,6 +253,7 @@ def event_get(e):
 
 # Receive a request to get version for requested track
 # Private apps are accessible if the requester knows the publisher ID
+# If no track specified, uses the app's default track
 def event_version(e):
 	app_id = e.content("app")
 	if not app_id:
@@ -155,7 +262,10 @@ def event_version(e):
 	if not a:
 		return e.write({"status": "404", "message": "App not found"})
 
-	track = e.content("track", "production")
+	# Use default track if none specified
+	track = e.content("track", "")
+	if not track:
+		track = a["default_track"]
 	if len(track) > 50:
 		return e.write({"status": "400", "message": "Invalid track"})
 
@@ -164,4 +274,4 @@ def event_version(e):
 		return e.write({"status": "404", "message": "App track not found"})
 
 	e.write({"status": "200"})
-	e.write({"version": t["version"]})
+	e.write({"version": t["version"], "track": track, "default_track": a["default_track"]})

@@ -11,9 +11,10 @@
 	"execute": ["publisher.star"],
 
 	"database": {
-		"schema": 1,
+		"schema": 2,
 		"file": "publisher.db",
-		"create": {"function": "database_create"}
+		"create": {"function": "database_create"},
+		"upgrade": {"function": "database_upgrade"}
 	},
 
 	"icons": [
@@ -28,7 +29,11 @@
 		":app": {"file": "web/dist/index.html", "public": true},
 		"view": {"function": "action_view", "public": true},
 		"create": {"function": "action_create"},
-		":app/version/create": {"function": "action_version_create"}
+		":app/version/create": {"function": "action_version_create"},
+		":app/track/create": {"function": "action_track_create"},
+		":app/track/set": {"function": "action_track_set"},
+		":app/track/delete": {"function": "action_track_delete"},
+		":app/default-track/set": {"function": "action_default_track_set"}
 	},
 
 	"events": {

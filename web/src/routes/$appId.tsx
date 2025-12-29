@@ -18,10 +18,22 @@ import {
   Main,
   usePageTitle,
   getErrorMessage,
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
 } from '@mochi/common'
-import { ArrowLeft, Upload, Copy, Check } from 'lucide-react'
+import { ArrowLeft, Upload, Copy, Check, Trash2, Plus, Star } from 'lucide-react'
 import { toast } from 'sonner'
-import { useAppQuery, useUploadVersionMutation } from '@/hooks/useApps'
+import {
+  useAppQuery,
+  useUploadVersionMutation,
+  useCreateTrackMutation,
+  useSetTrackMutation,
+  useDeleteTrackMutation,
+  useSetDefaultTrackMutation,
+} from '@/hooks/useApps'
 
 export const Route = createFileRoute('/$appId')({
   component: AppPage,
@@ -144,23 +156,12 @@ function AppPage() {
             </CardContent>
           </Card>
 
-          {tracks.length > 0 && (
-            <Card>
-              <CardHeader>
-                <CardTitle>Tracks</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className='space-y-2'>
-                  {tracks.map((track) => (
-                    <div key={track.track} className='flex justify-between'>
-                      <span className='font-medium'>{track.track}</span>
-                      <span className='font-mono text-sm'>{track.version}</span>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          )}
+          <TracksCard
+            appId={appId}
+            tracks={tracks}
+            versions={versions}
+            defaultTrack={app.default_track ?? 'production'}
+          />
 
           {versions.length > 0 && (
             <Card>
@@ -296,6 +297,210 @@ function SharePage({
         </div>
       </Main>
     </>
+  )
+}
+
+function TracksCard({
+  appId,
+  tracks,
+  versions,
+  defaultTrack,
+}: {
+  appId: string
+  tracks: { track: string; version: string }[]
+  versions: { version: string }[]
+  defaultTrack: string
+}) {
+  const [showAddTrack, setShowAddTrack] = useState(false)
+  const [newTrackName, setNewTrackName] = useState('')
+  const [newTrackVersion, setNewTrackVersion] = useState('')
+
+  const createTrackMutation = useCreateTrackMutation()
+  const setTrackMutation = useSetTrackMutation()
+  const deleteTrackMutation = useDeleteTrackMutation()
+  const setDefaultTrackMutation = useSetDefaultTrackMutation()
+
+  const handleCreateTrack = () => {
+    if (!newTrackName || !newTrackVersion) return
+    createTrackMutation.mutate(
+      { appId, track: newTrackName, version: newTrackVersion },
+      {
+        onSuccess: () => {
+          toast.success('Track created')
+          setNewTrackName('')
+          setNewTrackVersion('')
+          setShowAddTrack(false)
+        },
+        onError: (error) => {
+          toast.error(getErrorMessage(error, 'Failed to create track'))
+        },
+      }
+    )
+  }
+
+  const handleSetTrackVersion = (track: string, version: string) => {
+    setTrackMutation.mutate(
+      { appId, track, version },
+      {
+        onSuccess: () => {
+          toast.success(`Track "${track}" updated to ${version}`)
+        },
+        onError: (error) => {
+          toast.error(getErrorMessage(error, 'Failed to update track'))
+        },
+      }
+    )
+  }
+
+  const handleDeleteTrack = (track: string) => {
+    deleteTrackMutation.mutate(
+      { appId, track },
+      {
+        onSuccess: () => {
+          toast.success(`Track "${track}" deleted`)
+        },
+        onError: (error) => {
+          toast.error(getErrorMessage(error, 'Failed to delete track'))
+        },
+      }
+    )
+  }
+
+  const handleSetDefaultTrack = (track: string) => {
+    setDefaultTrackMutation.mutate(
+      { appId, track },
+      {
+        onSuccess: () => {
+          toast.success(`Default track set to "${track}"`)
+        },
+        onError: (error) => {
+          toast.error(getErrorMessage(error, 'Failed to set default track'))
+        },
+      }
+    )
+  }
+
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>Tracks</CardTitle>
+        <CardDescription>
+          Tracks allow users to follow a release channel (e.g., stable, beta)
+        </CardDescription>
+      </CardHeader>
+      <CardContent className='space-y-4'>
+        {tracks.length === 0 ? (
+          <p className='text-muted-foreground text-sm'>No tracks defined</p>
+        ) : (
+          <div className='space-y-2'>
+            {tracks.map((track) => (
+              <div
+                key={track.track}
+                className='flex items-center gap-2 py-1 px-2 rounded bg-muted/50'
+              >
+                <button
+                  onClick={() => handleSetDefaultTrack(track.track)}
+                  className='text-muted-foreground hover:text-foreground'
+                  title={
+                    track.track === defaultTrack
+                      ? 'Default track'
+                      : 'Set as default'
+                  }
+                >
+                  <Star
+                    className={`h-4 w-4 ${
+                      track.track === defaultTrack
+                        ? 'fill-yellow-500 text-yellow-500'
+                        : ''
+                    }`}
+                  />
+                </button>
+                <span className='font-medium min-w-24'>{track.track}</span>
+                <Select
+                  value={track.version}
+                  onValueChange={(v) => handleSetTrackVersion(track.track, v)}
+                >
+                  <SelectTrigger className='w-32 h-8'>
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {versions.map((v) => (
+                      <SelectItem key={v.version} value={v.version}>
+                        {v.version}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+                <Button
+                  variant='ghost'
+                  size='sm'
+                  onClick={() => handleDeleteTrack(track.track)}
+                  disabled={track.track === defaultTrack}
+                  title={
+                    track.track === defaultTrack
+                      ? 'Cannot delete default track'
+                      : 'Delete track'
+                  }
+                >
+                  <Trash2 className='h-4 w-4' />
+                </Button>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {showAddTrack ? (
+          <div className='flex items-center gap-2 pt-2 border-t'>
+            <Input
+              placeholder='Track name'
+              value={newTrackName}
+              onChange={(e) => setNewTrackName(e.target.value)}
+              className='w-32'
+            />
+            <Select value={newTrackVersion} onValueChange={setNewTrackVersion}>
+              <SelectTrigger className='w-32'>
+                <SelectValue placeholder='Version' />
+              </SelectTrigger>
+              <SelectContent>
+                {versions.map((v) => (
+                  <SelectItem key={v.version} value={v.version}>
+                    {v.version}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <Button
+              size='sm'
+              onClick={handleCreateTrack}
+              disabled={!newTrackName || !newTrackVersion || createTrackMutation.isPending}
+            >
+              Add
+            </Button>
+            <Button
+              variant='ghost'
+              size='sm'
+              onClick={() => {
+                setShowAddTrack(false)
+                setNewTrackName('')
+                setNewTrackVersion('')
+              }}
+            >
+              Cancel
+            </Button>
+          </div>
+        ) : (
+          <Button
+            variant='outline'
+            size='sm'
+            onClick={() => setShowAddTrack(true)}
+            disabled={versions.length === 0}
+          >
+            <Plus className='h-4 w-4 mr-2' />
+            Add track
+          </Button>
+        )}
+      </CardContent>
+    </Card>
   )
 }
 
