@@ -16,9 +16,9 @@ import {
   Input,
   Main,
   getErrorMessage,
+  toast,
 } from '@mochi/common'
 import { Package, Plus } from 'lucide-react'
-import { toast } from 'sonner'
 import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
 
 export function Apps() {

@@ -23,9 +23,9 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
+  toast,
 } from '@mochi/common'
 import { ArrowLeft, Upload, Copy, Check, Trash2, Plus, Star } from 'lucide-react'
-import { toast } from 'sonner'
 import {
   useAppQuery,
   useUploadVersionMutation,
