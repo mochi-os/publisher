@@ -46,13 +46,17 @@ const uploadVersion = async (
   appId: string,
   file: File,
   install: boolean,
-  force: boolean
-): Promise<{ version: string; app: App }> => {
+  force: boolean,
+  tracks?: string[]
+): Promise<{ version: string; app: App; tracks: string[] }> => {
   const formData = new FormData()
   formData.append('file', file)
   formData.append('install', install ? 'yes' : 'no')
   if (force) {
     formData.append('force', 'yes')
+  }
+  if (tracks && tracks.length > 0) {
+    formData.append('tracks', tracks.join(','))
   }
 
   const response = await requestHelpers.post<UploadVersionResponse>(

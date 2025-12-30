@@ -40,4 +40,5 @@ export interface CreateAppResponse {
 export interface UploadVersionResponse {
   version: string
   app: App
+  tracks: string[]
 }

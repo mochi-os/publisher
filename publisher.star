@@ -3,7 +3,7 @@
 
 # Create database
 def database_create():
-	mochi.db.execute("create table apps ( id text not null primary key, name text not null, privacy text not null default 'public', default_track text not null default 'production' )")
+	mochi.db.execute("create table apps ( id text not null primary key, name text not null, privacy text not null default 'public', default_track text not null default 'Production' )")
 	mochi.db.execute("create table versions ( app references apps( id ), version text not null, file text not null, primary key ( app, version ) )")
 	mochi.db.execute("create index versions_file on versions( file )")
 	mochi.db.execute("create table tracks ( app references apps( id ), track text not null, version text not null, primary key ( app, track ) )")
@@ -11,15 +11,15 @@ def database_create():
 # Upgrade database to specified schema version
 def database_upgrade(version):
 	if version == 2:
-		mochi.db.execute("alter table apps add column default_track text not null default 'production'")
+		mochi.db.execute("alter table apps add column default_track text not null default 'Production'")
 
 # Return JSON error response
 def json_error(message, code=400):
-	return {"status": code, "error": message, "data": {}}
+	return {"status": code, "error": message}
 
 # List apps
 def action_list(a):
-	apps = mochi.db.rows("select a.*, t.version from apps a left join tracks t on a.id = t.app and t.track = 'production' order by a.name")
+	apps = mochi.db.rows("select a.*, t.version from apps a left join tracks t on a.id = t.app and t.track = a.default_track order by a.name")
 	return {"data": {"apps": apps}}
 
 # View an app (supports both authenticated and anonymous access)
@@ -107,10 +107,20 @@ def action_version_create(a):
 
 	# Use insert or ignore to prevent duplicate version entries from concurrent requests
 	mochi.db.execute("insert or ignore into versions ( app, version, file ) values ( ?, ?, ? )", app["id"], version, file)
-	# Track update: last concurrent request wins (acceptable for admin operations)
-	mochi.db.execute("replace into tracks ( app, track, version ) values ( ?, 'production', ? )", app["id"], version)
 
-	return {"data": {"version": version, "app": app}}
+	# Update specified tracks, or default to app's default track if none specified
+	tracks_input = a.input("tracks")
+	if tracks_input:
+		tracks = tracks_input.split(",")
+	else:
+		tracks = [app.get("default_track", "Production")]
+
+	for track in tracks:
+		track = track.strip()
+		if track:
+			mochi.db.execute("replace into tracks ( app, track, version ) values ( ?, ?, ? )", app["id"], track, version)
+
+	return {"data": {"version": version, "app": app, "tracks": tracks}}
 
 # Create a new track
 def action_track_create(a):
@@ -216,7 +226,7 @@ def action_default_track_set(a):
 # Receive a request for information about an app
 # Private apps are accessible if the requester knows the publisher ID
 def event_information(e):
-	app_id = e.content("app")
+	app_id = e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
@@ -230,7 +240,7 @@ def event_information(e):
 # Receive a request to download an app
 # Private apps are accessible if the requester knows the publisher ID
 def event_get(e):
-	app_id = e.content("app")
+	app_id = e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
@@ -255,7 +265,7 @@ def event_get(e):
 # Private apps are accessible if the requester knows the publisher ID
 # If no track specified, uses the app's default track
 def event_version(e):
-	app_id = e.content("app")
+	app_id = e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)

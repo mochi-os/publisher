@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react'
-import { createFileRoute, useNavigate } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import {
   Button,
   Card,
@@ -7,13 +7,17 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
+  cn,
   Dialog,
   DialogContent,
   DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
-  Header,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
   Input,
   Main,
   usePageTitle,
@@ -25,7 +29,7 @@ import {
   SelectValue,
   toast,
 } from '@mochi/common'
-import { ArrowLeft, Upload, Copy, Check, Trash2, Plus, Star } from 'lucide-react'
+import { Upload, Copy, Check, Plus, MoreHorizontal } from 'lucide-react'
 import {
   useAppQuery,
   useUploadVersionMutation,
@@ -35,52 +39,38 @@ import {
   useSetDefaultTrackMutation,
 } from '@/hooks/useApps'
 
-export const Route = createFileRoute('/$appId')({
+export const Route = createFileRoute('/_authenticated/$appId')({
   component: AppPage,
 })
 
 function AppPage() {
   const { appId } = Route.useParams()
-  const navigate = useNavigate()
   const { data, isLoading, isError } = useAppQuery(appId)
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [copied, setCopied] = useState(false)
-
-  const handleBack = () => {
-    navigate({ to: '/' })
-  }
+  const [activeTab, setActiveTab] = useState<'details' | 'versions' | 'tracks'>('details')
 
   usePageTitle(data?.app?.name ?? 'App')
 
   if (isLoading) {
     return (
-      <>
-        <Header fixed>
-          <h1 className='text-lg font-semibold'>Loading...</h1>
-        </Header>
-        <Main>
-          <div className='flex h-64 items-center justify-center'>
-            <div className='text-muted-foreground'>Loading app details...</div>
-          </div>
-        </Main>
-      </>
+      <Main>
+        <div className='flex h-64 items-center justify-center'>
+          <div className='text-muted-foreground'>Loading app details...</div>
+        </div>
+      </Main>
     )
   }
 
   if (isError || !data || !data.app) {
     return (
-      <>
-        <Header fixed>
-          <h1 className='text-lg font-semibold'>App not found</h1>
-        </Header>
-        <Main>
-          <div className='flex h-64 items-center justify-center'>
-            <div className='text-muted-foreground'>
-              The requested app could not be found.
-            </div>
+      <Main>
+        <div className='flex h-64 items-center justify-center'>
+          <div className='text-muted-foreground'>
+            The requested app could not be found.
           </div>
-        </Main>
-      </>
+        </div>
+      </Main>
     )
   }
 
@@ -96,21 +86,37 @@ function AppPage() {
 
   // Show management page for administrators
   return (
-    <>
-      <Header fixed>
-        <Button variant='ghost' size='sm' onClick={handleBack} className='mr-2'>
-          <ArrowLeft className='h-4 w-4' />
-        </Button>
-        <h1 className='text-lg font-semibold'>{app.name}</h1>
-      </Header>
+    <Main className='space-y-6'>
+      <div className='flex items-center justify-between border-b'>
+        <div className='flex gap-1'>
+          {(['details', 'versions', 'tracks'] as const).map((tab) => (
+            <button
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              className={cn(
+                'px-4 py-2 text-sm font-medium transition-colors',
+                'border-b-2 -mb-px capitalize',
+                activeTab === tab
+                  ? 'border-primary text-foreground'
+                  : 'border-transparent text-muted-foreground hover:text-foreground'
+              )}
+            >
+              {tab}
+            </button>
+          ))}
+        </div>
+        {activeTab === 'versions' && (
+          <Button onClick={() => setShowUploadDialog(true)} className='mb-2'>
+            <Upload className='mr-2 h-4 w-4' />
+            Upload version
+          </Button>
+        )}
+      </div>
 
-      <Main>
-        <div className='space-y-6'>
-          <Card>
-            <CardHeader>
-              <CardTitle>App details</CardTitle>
-            </CardHeader>
-            <CardContent className='space-y-3'>
+      <div>
+        {activeTab === 'details' && (
+          <div className='space-y-6'>
+            <div className='space-y-3'>
               <div>
                 <span className='font-medium'>ID:</span>{' '}
                 <span className='font-mono text-sm'>{app.id}</span>
@@ -123,17 +129,13 @@ function AppPage() {
                 <span className='font-medium'>Privacy:</span>{' '}
                 <span className='capitalize'>{app.privacy}</span>
               </div>
-            </CardContent>
-          </Card>
+            </div>
 
-          <Card>
-            <CardHeader>
-              <CardTitle>Share</CardTitle>
-              <CardDescription>
+            <div className='space-y-2'>
+              <label className='text-sm font-medium'>Share</label>
+              <p className='text-muted-foreground text-sm'>
                 Share this ID to allow others to install this app
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
+              </p>
               <div className='flex items-center gap-2'>
                 <Input
                   readOnly
@@ -153,62 +155,49 @@ function AppPage() {
                   {copied ? <Check className='h-4 w-4' /> : <Copy className='h-4 w-4' />}
                 </Button>
               </div>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
+        )}
 
-          <TracksCard
+        {activeTab === 'versions' && (
+          <div className='space-y-4'>
+            {versions.length === 0 ? (
+              <p className='text-muted-foreground text-sm'>No versions uploaded yet</p>
+            ) : (
+              <div className='space-y-2'>
+                {[...versions].reverse().map((version) => (
+                  <div key={version.version} className='flex justify-between py-1 px-2 rounded bg-muted/50'>
+                    <span className='font-mono text-sm'>
+                      {version.version}
+                    </span>
+                    <span className='text-muted-foreground text-sm'>
+                      {version.file}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {activeTab === 'tracks' && (
+          <TracksTab
             appId={appId}
             tracks={tracks}
             versions={versions}
-            defaultTrack={app.default_track ?? 'production'}
+            defaultTrack={app.default_track ?? 'Production'}
           />
+        )}
+      </div>
 
-          {versions.length > 0 && (
-            <Card>
-              <CardHeader>
-                <CardTitle>Versions</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className='space-y-2'>
-                  {versions.map((version) => (
-                    <div key={version.version} className='flex justify-between'>
-                      <span className='font-mono text-sm'>
-                        {version.version}
-                      </span>
-                      <span className='text-muted-foreground text-sm'>
-                        {version.file}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
-          )}
-
-          <Card>
-            <CardHeader>
-              <CardTitle>Upload new version</CardTitle>
-              <CardDescription>
-                Upload a new version of your app as a zip file
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Button onClick={() => setShowUploadDialog(true)}>
-                <Upload className='mr-2 h-4 w-4' />
-                Upload version
-              </Button>
-            </CardContent>
-          </Card>
-        </div>
-
-        <UploadVersionDialog
-          open={showUploadDialog}
-          onOpenChange={setShowUploadDialog}
-          appId={appId}
-          showInstallOption={administrator}
-        />
-      </Main>
-    </>
+      <UploadVersionDialog
+        open={showUploadDialog}
+        onOpenChange={setShowUploadDialog}
+        appId={appId}
+        showInstallOption={administrator}
+        availableTracks={tracks.map((t) => t.track)}
+      />
+    </Main>
   )
 }
 
@@ -226,12 +215,7 @@ function SharePage({
   setCopied: (v: boolean) => void
 }) {
   return (
-    <>
-      <Header fixed>
-        <h1 className='text-lg font-semibold'>{app.name}</h1>
-      </Header>
-
-      <Main>
+    <Main>
         <div className='space-y-6'>
           <Card>
             <CardHeader>
@@ -295,12 +279,11 @@ function SharePage({
             </Card>
           )}
         </div>
-      </Main>
-    </>
+    </Main>
   )
 }
 
-function TracksCard({
+function TracksTab({
   appId,
   tracks,
   versions,
@@ -381,41 +364,35 @@ function TracksCard({
   }
 
   return (
-    <Card>
-      <CardHeader>
-        <CardTitle>Tracks</CardTitle>
-        <CardDescription>
-          Tracks allow users to follow a release channel (e.g., stable, beta)
-        </CardDescription>
-      </CardHeader>
-      <CardContent className='space-y-4'>
-        {tracks.length === 0 ? (
-          <p className='text-muted-foreground text-sm'>No tracks defined</p>
-        ) : (
-          <div className='space-y-2'>
-            {tracks.map((track) => (
-              <div
-                key={track.track}
-                className='flex items-center gap-2 py-1 px-2 rounded bg-muted/50'
-              >
-                <button
-                  onClick={() => handleSetDefaultTrack(track.track)}
-                  className='text-muted-foreground hover:text-foreground'
-                  title={
-                    track.track === defaultTrack
-                      ? 'Default track'
-                      : 'Set as default'
-                  }
-                >
-                  <Star
-                    className={`h-4 w-4 ${
-                      track.track === defaultTrack
-                        ? 'fill-yellow-500 text-yellow-500'
-                        : ''
-                    }`}
-                  />
-                </button>
-                <span className='font-medium min-w-24'>{track.track}</span>
+    <div className='space-y-4'>
+      <div className='flex justify-end'>
+        <Button
+          variant='outline'
+          size='sm'
+          onClick={() => setShowAddTrack(true)}
+          disabled={versions.length === 0}
+        >
+          <Plus className='h-4 w-4 mr-2' />
+          Add track
+        </Button>
+      </div>
+
+      {tracks.length === 0 ? (
+        <p className='text-muted-foreground text-sm'>No tracks defined</p>
+      ) : (
+        <div className='space-y-2'>
+          {tracks.map((track) => (
+            <div
+              key={track.track}
+              className='flex items-center justify-between py-1 px-2 rounded bg-muted/50'
+            >
+              <span className='font-medium'>
+                {track.track}
+                {track.track === defaultTrack && (
+                  <span className='text-muted-foreground font-normal'> (default)</span>
+                )}
+              </span>
+              <div className='flex items-center gap-2'>
                 <Select
                   value={track.version}
                   onValueChange={(v) => handleSetTrackVersion(track.track, v)}
@@ -424,83 +401,100 @@ function TracksCard({
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    {versions.map((v) => (
+                    {[...versions].reverse().map((v) => (
                       <SelectItem key={v.version} value={v.version}>
                         {v.version}
                       </SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
-                <Button
-                  variant='ghost'
-                  size='sm'
-                  onClick={() => handleDeleteTrack(track.track)}
-                  disabled={track.track === defaultTrack}
-                  title={
-                    track.track === defaultTrack
-                      ? 'Cannot delete default track'
-                      : 'Delete track'
-                  }
-                >
-                  <Trash2 className='h-4 w-4' />
-                </Button>
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <Button variant='ghost' size='sm'>
+                      <MoreHorizontal className='h-4 w-4' />
+                    </Button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align='end'>
+                    <DropdownMenuItem
+                      onClick={() => handleSetDefaultTrack(track.track)}
+                      disabled={track.track === defaultTrack}
+                    >
+                      Set as default
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                      onClick={() => handleDeleteTrack(track.track)}
+                      disabled={track.track === defaultTrack}
+                      variant='destructive'
+                    >
+                      Delete
+                    </DropdownMenuItem>
+                  </DropdownMenuContent>
+                </DropdownMenu>
               </div>
-            ))}
-          </div>
-        )}
+            </div>
+          ))}
+        </div>
+      )}
 
-        {showAddTrack ? (
-          <div className='flex items-center gap-2 pt-2 border-t'>
-            <Input
-              placeholder='Track name'
-              value={newTrackName}
-              onChange={(e) => setNewTrackName(e.target.value)}
-              className='w-32'
-            />
-            <Select value={newTrackVersion} onValueChange={setNewTrackVersion}>
-              <SelectTrigger className='w-32'>
-                <SelectValue placeholder='Version' />
-              </SelectTrigger>
-              <SelectContent>
-                {versions.map((v) => (
-                  <SelectItem key={v.version} value={v.version}>
-                    {v.version}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+      <Dialog open={showAddTrack} onOpenChange={(open) => {
+        setShowAddTrack(open)
+        if (!open) {
+          setNewTrackName('')
+          setNewTrackVersion('')
+        }
+      }}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Add track</DialogTitle>
+            <DialogDescription>
+              Create a new track pointing to a version
+            </DialogDescription>
+          </DialogHeader>
+          <div className='space-y-4 py-4'>
+            <div className='space-y-2'>
+              <label htmlFor='trackName' className='text-sm font-medium'>
+                Track name
+              </label>
+              <Input
+                id='trackName'
+                value={newTrackName}
+                onChange={(e) => setNewTrackName(e.target.value)}
+              />
+            </div>
+            <div className='space-y-2'>
+              <label className='text-sm font-medium'>Version</label>
+              <Select value={newTrackVersion} onValueChange={setNewTrackVersion}>
+                <SelectTrigger>
+                  <SelectValue placeholder='Select version' />
+                </SelectTrigger>
+                <SelectContent>
+                  {[...versions].reverse().map((v) => (
+                    <SelectItem key={v.version} value={v.version}>
+                      {v.version}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+          <DialogFooter>
             <Button
-              size='sm'
-              onClick={handleCreateTrack}
-              disabled={!newTrackName || !newTrackVersion || createTrackMutation.isPending}
-            >
-              Add
-            </Button>
-            <Button
-              variant='ghost'
-              size='sm'
-              onClick={() => {
-                setShowAddTrack(false)
-                setNewTrackName('')
-                setNewTrackVersion('')
-              }}
+              variant='outline'
+              onClick={() => setShowAddTrack(false)}
             >
               Cancel
             </Button>
-          </div>
-        ) : (
-          <Button
-            variant='outline'
-            size='sm'
-            onClick={() => setShowAddTrack(true)}
-            disabled={versions.length === 0}
-          >
-            <Plus className='h-4 w-4 mr-2' />
-            Add track
-          </Button>
-        )}
-      </CardContent>
-    </Card>
+            <Button
+              onClick={handleCreateTrack}
+              disabled={!newTrackName || !newTrackVersion || createTrackMutation.isPending}
+            >
+              <Plus className='h-4 w-4 mr-2' />
+              {createTrackMutation.isPending ? 'Adding...' : 'Add track'}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
+    </div>
   )
 }
 
@@ -509,16 +503,25 @@ function UploadVersionDialog({
   onOpenChange,
   appId,
   showInstallOption,
+  availableTracks,
 }: {
   open: boolean
   onOpenChange: (open: boolean) => void
   appId: string
   showInstallOption: boolean
+  availableTracks: string[]
 }) {
   const [file, setFile] = useState<File | null>(null)
   const [installOption, setInstallOption] = useState<'yes' | 'yes-force' | 'no'>('yes')
+  const [selectedTracks, setSelectedTracks] = useState<string[]>(['Production'])
   const fileInputRef = useRef<HTMLInputElement>(null)
   const uploadMutation = useUploadVersionMutation()
+
+  const toggleTrack = (track: string) => {
+    setSelectedTracks((prev) =>
+      prev.includes(track) ? prev.filter((t) => t !== track) : [...prev, track]
+    )
+  }
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -531,7 +534,7 @@ function UploadVersionDialog({
     const force = installOption === 'yes-force'
 
     uploadMutation.mutate(
-      { appId, file, install, force },
+      { appId, file, install, force, tracks: selectedTracks },
       {
         onSuccess: (data) => {
           toast.success('Version uploaded', {
@@ -539,6 +542,7 @@ function UploadVersionDialog({
           })
           setFile(null)
           setInstallOption('yes')
+          setSelectedTracks(['Production'])
           if (fileInputRef.current) {
             fileInputRef.current.value = ''
           }
@@ -589,6 +593,24 @@ function UploadVersionDialog({
                   <option value='yes-force'>Yes, force</option>
                   <option value='no'>No</option>
                 </select>
+              </div>
+            )}
+            {availableTracks.length > 0 && (
+              <div className='space-y-2'>
+                <label className='text-sm font-medium'>Update tracks</label>
+                <div className='space-y-2'>
+                  {availableTracks.map((track) => (
+                    <label key={track} className='flex items-center gap-2'>
+                      <input
+                        type='checkbox'
+                        checked={selectedTracks.includes(track)}
+                        onChange={() => toggleTrack(track)}
+                        className='h-4 w-4 rounded border-gray-300'
+                      />
+                      <span className='text-sm'>{track}</span>
+                    </label>
+                  ))}
+                </div>
               </div>
             )}
           </div>

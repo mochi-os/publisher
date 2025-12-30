@@ -39,12 +39,14 @@ export const useUploadVersionMutation = () => {
       file,
       install,
       force,
+      tracks,
     }: {
       appId: string
       file: File
       install: boolean
       force: boolean
-    }) => appsApi.uploadVersion(appId, file, install, force),
+      tracks?: string[]
+    }) => appsApi.uploadVersion(appId, file, install, force, tracks),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: appKeys.all() })
     },
@@ -63,8 +65,8 @@ export const useCreateTrackMutation = () => {
       track: string
       version: string
     }) => appsApi.createTrack(appId, track, version),
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: appKeys.all() })
+    onSuccess: async () => {
+      await queryClient.invalidateQueries({ queryKey: appKeys.all() })
     },
   })
 }
