@@ -65,7 +65,7 @@ export function Apps() {
             <Card
               key={app.id}
               className='flex cursor-pointer flex-col transition-shadow hover:shadow-md'
-              onClick={() => navigate({ to: '/$appId', params: { appId: app.id } })}
+              onClick={() => navigate({ to: '/app/$appId', params: { appId: app.id } })}
             >
               <CardHeader>
                 <CardTitle className='truncate text-lg'>{app.name}</CardTitle>
@@ -83,7 +83,7 @@ export function Apps() {
         onOpenChange={setShowCreateDialog}
         onSuccess={(fingerprint) => {
           setShowCreateDialog(false)
-          navigate({ to: '/$appId', params: { appId: fingerprint } })
+          navigate({ to: '/app/$appId', params: { appId: fingerprint } })
         }}
       />
     </Main>

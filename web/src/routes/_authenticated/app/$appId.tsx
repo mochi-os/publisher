@@ -30,6 +30,7 @@ import {
   toast,
 } from '@mochi/common'
 import { Upload, Copy, Check, Plus, MoreHorizontal } from 'lucide-react'
+import {sortVersionsDesc} from '@/lib/version'
 import {
   useAppQuery,
   useUploadVersionMutation,
@@ -39,7 +40,7 @@ import {
   useSetDefaultTrackMutation,
 } from '@/hooks/useApps'
 
-export const Route = createFileRoute('/_authenticated/$appId')({
+export const Route = createFileRoute('/_authenticated/app/$appId')({
   component: AppPage,
 })
 
@@ -47,6 +48,7 @@ function AppPage() {
   const { appId } = Route.useParams()
   const { data, isLoading, isError } = useAppQuery(appId)
   const [showUploadDialog, setShowUploadDialog] = useState(false)
+  const [showAddTrack, setShowAddTrack] = useState(false)
   const [copied, setCopied] = useState(false)
   const [activeTab, setActiveTab] = useState<'details' | 'versions' | 'tracks'>('details')
 
@@ -108,7 +110,13 @@ function AppPage() {
         {activeTab === 'versions' && (
           <Button onClick={() => setShowUploadDialog(true)} className='mb-2'>
             <Upload className='mr-2 h-4 w-4' />
-            Upload version
+            Upload new version
+          </Button>
+        )}
+        {activeTab === 'tracks' && versions.length > 0 && (
+          <Button variant='outline' size='sm' onClick={() => setShowAddTrack(true)} className='mb-2'>
+            <Plus className='h-4 w-4 mr-2' />
+            New track
           </Button>
         )}
       </div>
@@ -165,7 +173,7 @@ function AppPage() {
               <p className='text-muted-foreground text-sm'>No versions uploaded yet</p>
             ) : (
               <div className='space-y-2'>
-                {[...versions].reverse().map((version) => (
+                {sortVersionsDesc(versions).map((version) => (
                   <div key={version.version} className='flex justify-between py-1 px-2 rounded bg-muted/50'>
                     <span className='font-mono text-sm'>
                       {version.version}
@@ -186,6 +194,8 @@ function AppPage() {
             tracks={tracks}
             versions={versions}
             defaultTrack={app.default_track ?? 'Production'}
+            showAddTrack={showAddTrack}
+            setShowAddTrack={setShowAddTrack}
           />
         )}
       </div>
@@ -288,13 +298,16 @@ function TracksTab({
   tracks,
   versions,
   defaultTrack,
+  showAddTrack,
+  setShowAddTrack,
 }: {
   appId: string
   tracks: { track: string; version: string }[]
   versions: { version: string }[]
   defaultTrack: string
+  showAddTrack: boolean
+  setShowAddTrack: (open: boolean) => void
 }) {
-  const [showAddTrack, setShowAddTrack] = useState(false)
   const [newTrackName, setNewTrackName] = useState('')
   const [newTrackVersion, setNewTrackVersion] = useState('')
 
@@ -314,9 +327,6 @@ function TracksTab({
           setNewTrackVersion('')
           setShowAddTrack(false)
         },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, 'Failed to create track'))
-        },
       }
     )
   }
@@ -327,9 +337,6 @@ function TracksTab({
       {
         onSuccess: () => {
           toast.success(`Track "${track}" updated to ${version}`)
-        },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, 'Failed to update track'))
         },
       }
     )
@@ -342,9 +349,6 @@ function TracksTab({
         onSuccess: () => {
           toast.success(`Track "${track}" deleted`)
         },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, 'Failed to delete track'))
-        },
       }
     )
   }
@@ -356,27 +360,12 @@ function TracksTab({
         onSuccess: () => {
           toast.success(`Default track set to "${track}"`)
         },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, 'Failed to set default track'))
-        },
       }
     )
   }
 
   return (
     <div className='space-y-4'>
-      <div className='flex justify-end'>
-        <Button
-          variant='outline'
-          size='sm'
-          onClick={() => setShowAddTrack(true)}
-          disabled={versions.length === 0}
-        >
-          <Plus className='h-4 w-4 mr-2' />
-          Add track
-        </Button>
-      </div>
-
       {tracks.length === 0 ? (
         <p className='text-muted-foreground text-sm'>No tracks defined</p>
       ) : (
@@ -401,7 +390,7 @@ function TracksTab({
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    {[...versions].reverse().map((v) => (
+                    {sortVersionsDesc(versions).map((v) => (
                       <SelectItem key={v.version} value={v.version}>
                         {v.version}
                       </SelectItem>
@@ -445,10 +434,7 @@ function TracksTab({
       }}>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>Add track</DialogTitle>
-            <DialogDescription>
-              Create a new track pointing to a version
-            </DialogDescription>
+            <DialogTitle>New track</DialogTitle>
           </DialogHeader>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
@@ -468,7 +454,7 @@ function TracksTab({
                   <SelectValue placeholder='Select version' />
                 </SelectTrigger>
                 <SelectContent>
-                  {[...versions].reverse().map((v) => (
+                  {sortVersionsDesc(versions).map((v) => (
                     <SelectItem key={v.version} value={v.version}>
                       {v.version}
                     </SelectItem>
@@ -489,7 +475,7 @@ function TracksTab({
               disabled={!newTrackName || !newTrackVersion || createTrackMutation.isPending}
             >
               <Plus className='h-4 w-4 mr-2' />
-              {createTrackMutation.isPending ? 'Adding...' : 'Add track'}
+              {createTrackMutation.isPending ? 'Creating...' : 'Create track'}
             </Button>
           </DialogFooter>
         </DialogContent>
