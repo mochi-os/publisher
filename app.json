@@ -40,5 +40,9 @@
 		"information": {"function": "event_information", "anonymous": true},
 		"get": {"function": "event_get", "anonymous": true},
 		"version": {"function": "event_version", "anonymous": true}
+	},
+
+	"functions": {
+		"tracks": {"function": "function_tracks"}
 	}
 }

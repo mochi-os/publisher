@@ -408,14 +408,14 @@ function TracksTab({
                       onClick={() => handleSetDefaultTrack(track.track)}
                       disabled={track.track === defaultTrack}
                     >
-                      Set as default
+                      Set track as default
                     </DropdownMenuItem>
                     <DropdownMenuItem
                       onClick={() => handleDeleteTrack(track.track)}
                       disabled={track.track === defaultTrack}
                       variant='destructive'
                     >
-                      Delete
+                      Delete track
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>

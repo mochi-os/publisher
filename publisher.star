@@ -283,5 +283,25 @@ def event_version(e):
 	if not t:
 		return e.write({"status": "404", "message": "App track not found"})
 
+	# Get all tracks for 0.3+ clients
+	# TODO(0.3-cleanup): Remove version/track fields when all servers are 0.3
+	all_tracks = mochi.db.rows("select track, version from tracks where app=?", a["id"])
+
 	e.write({"status": "200"})
-	e.write({"version": t["version"], "track": track, "default_track": a["default_track"]})
+	e.write({
+		"version": t["version"],           # Backward compat for 0.2 clients
+		"track": track,                     # Backward compat for 0.2 clients
+		"default_track": a["default_track"],
+		"tracks": all_tracks                # All tracks for 0.3+ clients
+	})
+
+# Service function: Get tracks for an app (for local calls from other apps)
+def function_tracks(app_id):
+	a = mochi.db.row("select * from apps where id=?", app_id)
+	if not a:
+		return None
+	tracks = mochi.db.rows("select track, version from tracks where app=?", app_id)
+	return {
+		"default_track": a["default_track"],
+		"tracks": {t["track"]: t["version"] for t in tracks}
+	}
