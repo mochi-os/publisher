@@ -93,7 +93,7 @@ function AppPage() {
       <Header>
         <h1 className='text-lg font-semibold'>{app.name}</h1>
       </Header>
-      <Main className='space-y-6'>
+      <Main className='pt-2 space-y-6'>
         <div className='flex items-center justify-between border-b'>
           <div className='flex gap-1'>
             {(['details', 'versions', 'tracks'] as const).map((tab) => (
@@ -235,7 +235,7 @@ function SharePage({
       <Header>
         <h1 className='text-lg font-semibold'>{app.name}</h1>
       </Header>
-      <Main>
+      <Main className='pt-2'>
         <div className='space-y-6'>
           <Card>
             <CardHeader>
