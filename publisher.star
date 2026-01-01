@@ -32,7 +32,7 @@ def action_view(a):
 		return json_error("App not found", 404)
 
 	app["fingerprint"] = mochi.entity.fingerprint(app["id"], True)
-	tracks = mochi.db.rows("select * from tracks where app=? order by track", app["id"])
+	tracks_all = mochi.db.rows("select * from tracks where app=? order by track", app["id"])
 
 	# Get publisher identity for share string
 	publisher = a.user.identity.id if a.user and a.user.identity else ""
@@ -40,13 +40,14 @@ def action_view(a):
 	# Check if user is authenticated and is an administrator
 	is_admin = a.user and a.user.role == "administrator"
 
-	# For anonymous users or non-admins, return public share info only
+	# For anonymous users or non-admins, return public share info only (filter empty tracks)
 	if not is_admin:
+		tracks = [t for t in tracks_all if t.get("version")]
 		return {"data": {"app": app, "tracks": tracks, "versions": [], "administrator": False, "share": True, "publisher": publisher}}
 
-	# For administrators, return full management info
+	# For administrators, return full management info including empty tracks
 	versions = mochi.db.rows("select * from versions where app=? order by version", app["id"])
-	return {"data": {"app": app, "tracks": tracks, "versions": versions, "administrator": True, "share": False, "publisher": publisher}}
+	return {"data": {"app": app, "tracks": tracks_all, "versions": versions, "administrator": True, "share": False, "publisher": publisher}}
 
 # Create new app
 def action_create(a):
@@ -135,14 +136,15 @@ def action_track_create(a):
 	if not track or len(track) > 50 or not track.replace("-", "").replace("_", "").isalnum():
 		return json_error("Invalid track name")
 
-	version = a.input("version")
-	if not version or len(version) > 50:
+	version = a.input("version", "")
+	if len(version) > 50:
 		return json_error("Invalid version")
 
-	# Verify version exists
-	v = mochi.db.row("select 1 from versions where app=? and version=?", id, version)
-	if not v:
-		return json_error("Version not found", 404)
+	# Verify version exists (only if provided)
+	if version:
+		v = mochi.db.row("select 1 from versions where app=? and version=?", id, version)
+		if not v:
+			return json_error("Version not found", 404)
 
 	# Check track doesn't already exist
 	existing = mochi.db.row("select 1 from tracks where app=? and track=?", id, track)

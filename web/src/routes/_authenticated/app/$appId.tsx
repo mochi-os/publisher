@@ -113,7 +113,7 @@ function AppPage() {
             Upload new version
           </Button>
         )}
-        {activeTab === 'tracks' && versions.length > 0 && (
+        {activeTab === 'tracks' && (
           <Button variant='outline' size='sm' onClick={() => setShowAddTrack(true)} className='mb-2'>
             <Plus className='h-4 w-4 mr-2' />
             New track
@@ -309,7 +309,7 @@ function TracksTab({
   setShowAddTrack: (open: boolean) => void
 }) {
   const [newTrackName, setNewTrackName] = useState('')
-  const [newTrackVersion, setNewTrackVersion] = useState('')
+  const [newTrackVersion, setNewTrackVersion] = useState('__none__')
 
   const createTrackMutation = useCreateTrackMutation()
   const setTrackMutation = useSetTrackMutation()
@@ -317,14 +317,15 @@ function TracksTab({
   const setDefaultTrackMutation = useSetDefaultTrackMutation()
 
   const handleCreateTrack = () => {
-    if (!newTrackName || !newTrackVersion) return
+    if (!newTrackName) return
+    const version = newTrackVersion === '__none__' ? '' : newTrackVersion
     createTrackMutation.mutate(
-      { appId, track: newTrackName, version: newTrackVersion },
+      { appId, track: newTrackName, version },
       {
         onSuccess: () => {
           toast.success('Track created')
           setNewTrackName('')
-          setNewTrackVersion('')
+          setNewTrackVersion('__none__')
           setShowAddTrack(false)
         },
       }
@@ -451,9 +452,10 @@ function TracksTab({
               <label className='text-sm font-medium'>Version</label>
               <Select value={newTrackVersion} onValueChange={setNewTrackVersion}>
                 <SelectTrigger>
-                  <SelectValue placeholder='Select version' />
+                  <SelectValue placeholder='No version' />
                 </SelectTrigger>
                 <SelectContent>
+                  <SelectItem value='__none__'>No version</SelectItem>
                   {sortVersionsDesc(versions).map((v) => (
                     <SelectItem key={v.version} value={v.version}>
                       {v.version}
@@ -472,7 +474,7 @@ function TracksTab({
             </Button>
             <Button
               onClick={handleCreateTrack}
-              disabled={!newTrackName || !newTrackVersion || createTrackMutation.isPending}
+              disabled={!newTrackName || createTrackMutation.isPending}
             >
               <Plus className='h-4 w-4 mr-2' />
               {createTrackMutation.isPending ? 'Creating...' : 'Create track'}
