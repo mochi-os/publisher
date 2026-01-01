@@ -18,6 +18,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
+  Header,
   Input,
   Main,
   usePageTitle,
@@ -88,38 +89,42 @@ function AppPage() {
 
   // Show management page for administrators
   return (
-    <Main className='space-y-6'>
-      <div className='flex items-center justify-between border-b'>
-        <div className='flex gap-1'>
-          {(['details', 'versions', 'tracks'] as const).map((tab) => (
-            <button
-              key={tab}
-              onClick={() => setActiveTab(tab)}
-              className={cn(
-                'px-4 py-2 text-sm font-medium transition-colors',
-                'border-b-2 -mb-px capitalize',
-                activeTab === tab
-                  ? 'border-primary text-foreground'
-                  : 'border-transparent text-muted-foreground hover:text-foreground'
-              )}
-            >
-              {tab}
-            </button>
-          ))}
+    <>
+      <Header>
+        <h1 className='text-lg font-semibold'>{app.name}</h1>
+      </Header>
+      <Main className='space-y-6'>
+        <div className='flex items-center justify-between border-b'>
+          <div className='flex gap-1'>
+            {(['details', 'versions', 'tracks'] as const).map((tab) => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={cn(
+                  'px-4 py-2 text-sm font-medium transition-colors',
+                  'border-b-2 -mb-px capitalize',
+                  activeTab === tab
+                    ? 'border-primary text-foreground'
+                    : 'border-transparent text-muted-foreground hover:text-foreground'
+                )}
+              >
+                {tab}
+              </button>
+            ))}
+          </div>
+          {activeTab === 'versions' && (
+            <Button onClick={() => setShowUploadDialog(true)} className='mb-2'>
+              <Upload className='mr-2 h-4 w-4' />
+              Upload new version
+            </Button>
+          )}
+          {activeTab === 'tracks' && (
+            <Button variant='outline' size='sm' onClick={() => setShowAddTrack(true)} className='mb-2'>
+              <Plus className='h-4 w-4 mr-2' />
+              New track
+            </Button>
+          )}
         </div>
-        {activeTab === 'versions' && (
-          <Button onClick={() => setShowUploadDialog(true)} className='mb-2'>
-            <Upload className='mr-2 h-4 w-4' />
-            Upload new version
-          </Button>
-        )}
-        {activeTab === 'tracks' && (
-          <Button variant='outline' size='sm' onClick={() => setShowAddTrack(true)} className='mb-2'>
-            <Plus className='h-4 w-4 mr-2' />
-            New track
-          </Button>
-        )}
-      </div>
 
       <div>
         {activeTab === 'details' && (
@@ -207,7 +212,8 @@ function AppPage() {
         showInstallOption={administrator}
         availableTracks={tracks.map((t) => t.track)}
       />
-    </Main>
+      </Main>
+    </>
   )
 }
 
@@ -225,7 +231,11 @@ function SharePage({
   setCopied: (v: boolean) => void
 }) {
   return (
-    <Main>
+    <>
+      <Header>
+        <h1 className='text-lg font-semibold'>{app.name}</h1>
+      </Header>
+      <Main>
         <div className='space-y-6'>
           <Card>
             <CardHeader>
@@ -289,7 +299,8 @@ function SharePage({
             </Card>
           )}
         </div>
-    </Main>
+      </Main>
+    </>
   )
 }
 
