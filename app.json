@@ -7,7 +7,7 @@
 	"paths": ["publisher"],
 	"services": ["publisher"],
 
-	"architecture": {"engine": "starlark", "version": 2},
+	"architecture": {"engine": "starlark", "version": 3},
 	"execute": ["publisher.star"],
 
 	"database": {

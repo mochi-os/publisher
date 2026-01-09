@@ -298,7 +298,7 @@ def event_version(e):
 	})
 
 # Service function: Get tracks for an app (for local calls from other apps)
-def function_tracks(app_id):
+def function_tracks(context, app_id):
 	a = mochi.db.row("select * from apps where id=?", app_id)
 	if not a:
 		return None
