@@ -32,7 +32,7 @@ def action_view(a):
 		return json_error("App not found", 404)
 
 	app["fingerprint"] = mochi.entity.fingerprint(app["id"], True)
-	tracks_all = mochi.db.rows("select * from tracks where app=? order by track", app["id"])
+	tracks_all = mochi.db.rows("select * from tracks where app=? order by track collate nocase", app["id"])
 
 	# Get publisher identity for share string
 	publisher = a.user.identity.id if a.user and a.user.identity else ""
