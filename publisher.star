@@ -65,6 +65,10 @@ def action_create(a):
 
 	mochi.db.execute("replace into apps ( id, name, privacy ) values ( ?, ?, ? )", id, name, privacy)
 
+	# Create default tracks
+	mochi.db.execute("insert into tracks ( app, track, version ) values ( ?, 'Production', '' )", id)
+	mochi.db.execute("insert into tracks ( app, track, version ) values ( ?, 'Development', '' )", id)
+
 	return {"data": {"id": id, "name": name}}
 
 # Create a version
