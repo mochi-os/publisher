@@ -89,7 +89,7 @@ def action_version_create(a):
 	# Validate paths match existing version (unless force=true)
 	force = a.input("force") == "yes"
 	if not force:
-		new_info = mochi.app.file.get(file)
+		new_info = mochi.app.package.get(file)
 		if not new_info:
 			mochi.file.delete(file)
 			return json_error("Failed to read app info from archive")
@@ -97,7 +97,7 @@ def action_version_create(a):
 		# Get the latest existing version
 		existing = mochi.db.row("select file from versions where app=? order by version desc limit 1", app["id"])
 		if existing and existing["file"] and mochi.file.exists(existing["file"]):
-			old_info = mochi.app.file.get(existing["file"])
+			old_info = mochi.app.package.get(existing["file"])
 			if old_info and old_info.get("paths"):
 				new_paths = new_info.get("paths") or []
 				old_paths = old_info.get("paths") or []
@@ -105,7 +105,7 @@ def action_version_create(a):
 					mochi.file.delete(file)
 					return json_error("Paths mismatch: expected " + str(old_paths) + ", got " + str(new_paths) + ". Use force=yes to override.")
 
-	version = mochi.app.file.install(app["id"], file, a.input("install") != "yes")
+	version = mochi.app.package.install(app["id"], file, a.input("install") != "yes")
 	if not version:
 		mochi.file.delete(file)
 		return json_error("Failed to install app version", 500)
