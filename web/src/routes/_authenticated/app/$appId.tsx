@@ -41,7 +41,16 @@ import {
   useSetDefaultTrackMutation,
 } from '@/hooks/useApps'
 
+type TabId = 'details' | 'versions' | 'tracks'
+
+type AppSearch = {
+  tab?: TabId
+}
+
 export const Route = createFileRoute('/_authenticated/app/$appId')({
+  validateSearch: (search: Record<string, unknown>): AppSearch => ({
+    tab: (search.tab === 'details' || search.tab === 'versions' || search.tab === 'tracks') ? search.tab : undefined,
+  }),
   component: AppPage,
 })
 
@@ -51,7 +60,13 @@ function AppPage() {
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [showAddTrack, setShowAddTrack] = useState(false)
   const [copied, setCopied] = useState(false)
-  const [activeTab, setActiveTab] = useState<'details' | 'versions' | 'tracks'>('details')
+  const navigateApp = Route.useNavigate()
+  const { tab } = Route.useSearch()
+  const activeTab = tab ?? 'details'
+
+  const setActiveTab = (newTab: TabId) => {
+    void navigateApp({ search: { tab: newTab }, replace: true })
+  }
 
   usePageTitle(data?.app?.name ?? 'App')
 
@@ -425,7 +440,6 @@ function TracksTab({
                     <DropdownMenuItem
                       onClick={() => handleDeleteTrack(track.track)}
                       disabled={track.track === defaultTrack}
-                      variant='destructive'
                     >
                       Delete track
                     </DropdownMenuItem>
