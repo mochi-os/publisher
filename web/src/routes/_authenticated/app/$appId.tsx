@@ -136,7 +136,7 @@ function AppPage() {
           {activeTab === 'tracks' && (
             <Button variant='outline' size='sm' onClick={() => setShowAddTrack(true)} className='mb-2'>
               <Plus className='h-4 w-4 mr-2' />
-              New track
+              Create track
             </Button>
           )}
         </div>
@@ -573,8 +573,8 @@ function UploadVersionDialog({
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Upload new version</DialogTitle>
-          <DialogDescription>
-            Upload a zip file containing your app
+          <DialogDescription className="sr-only">
+            Upload version
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit}>

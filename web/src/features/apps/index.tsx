@@ -43,7 +43,7 @@ export function Apps() {
       <div className='mb-6 flex justify-end'>
         <Button onClick={() => setShowCreateDialog(true)}>
           <Plus className='mr-2 h-4 w-4' />
-          New app
+          Create app
         </Button>
       </div>
 
@@ -133,8 +133,8 @@ function CreateAppDialog({
       <DialogContent>
         <DialogHeader>
           <DialogTitle>Create new app</DialogTitle>
-          <DialogDescription>
-            Create a new app to publish to others
+          <DialogDescription className="sr-only">
+            Create app
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit}>
@@ -174,7 +174,7 @@ function CreateAppDialog({
               Cancel
             </Button>
             <Button type='submit' disabled={createMutation.isPending}>
-              {createMutation.isPending ? 'Creating...' : 'Create app'}
+              {createMutation.isPending ? 'Creating...' : <><Plus className="mr-2 h-4 w-4" />Create app</>}
             </Button>
           </DialogFooter>
         </form>
