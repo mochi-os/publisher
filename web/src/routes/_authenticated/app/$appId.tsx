@@ -29,6 +29,7 @@ import {
   SelectTrigger,
   SelectValue,
   toast,
+  Skeleton,
 } from '@mochi/common'
 import { Upload, Copy, Check, Plus, MoreHorizontal } from 'lucide-react'
 import {sortVersionsDesc} from '@/lib/version'
@@ -72,9 +73,24 @@ function AppPage() {
 
   if (isLoading) {
     return (
-      <Main>
-        <div className='flex h-64 items-center justify-center'>
-          <div className='text-muted-foreground'>Loading app details...</div>
+      <Main className='pt-2 space-y-6'>
+        <div className='flex items-center justify-between border-b pb-2'>
+          <Skeleton className='h-8 w-48' />
+        </div>
+        <div className='space-y-6'>
+          <div className='space-y-3'>
+            <Skeleton className='h-5 w-64' />
+            <Skeleton className='h-5 w-72' />
+            <Skeleton className='h-5 w-32' />
+          </div>
+          <div className='space-y-2'>
+            <Skeleton className='h-5 w-24' />
+            <Skeleton className='h-4 w-64' />
+            <div className='flex items-center gap-2'>
+              <Skeleton className='h-9 w-full' />
+              <Skeleton className='h-9 w-9' />
+            </div>
+          </div>
         </div>
       </Main>
     )

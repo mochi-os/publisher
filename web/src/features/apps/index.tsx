@@ -17,6 +17,7 @@ import {
   Main,
   getErrorMessage,
   toast,
+  Skeleton,
 } from '@mochi/common'
 import { Package, Plus } from 'lucide-react'
 import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
@@ -31,8 +32,18 @@ export function Apps() {
   if (isLoading && !apps) {
     return (
       <Main>
-        <div className='flex h-64 items-center justify-center'>
-          <div className='text-muted-foreground'>Loading apps...</div>
+        <div className='flex justify-end mb-6'>
+          <Skeleton className='h-10 w-32' />
+        </div>
+        <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-3'>
+          {Array.from({ length: 6 }).map((_, i) => (
+            <Card key={i} className='flex flex-col'>
+              <CardHeader>
+                <Skeleton className='h-6 w-3/4 mb-2' />
+                <Skeleton className='h-4 w-1/4' />
+              </CardHeader>
+            </Card>
+          ))}
         </div>
       </Main>
     )
