@@ -2,11 +2,6 @@ import { useState, useRef } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import {
   Button,
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
   cn,
   Dialog,
   DialogContent,
@@ -30,9 +25,13 @@ import {
   SelectValue,
   toast,
   Skeleton,
+  Section,
+  FieldRow,
+  DataChip,
+  EmptyState,
 } from '@mochi/common'
-import { Upload, Copy, Check, Plus, MoreHorizontal } from 'lucide-react'
-import {sortVersionsDesc} from '@/lib/version'
+import { Upload, Plus, MoreHorizontal, Package, Shield, Globe, Lock } from 'lucide-react'
+import { sortVersionsDesc } from '@/lib/version'
 import {
   useAppQuery,
   useUploadVersionMutation,
@@ -60,7 +59,6 @@ function AppPage() {
   const { data, isLoading, isError } = useAppQuery(appId)
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [showAddTrack, setShowAddTrack] = useState(false)
-  const [copied, setCopied] = useState(false)
   const navigateApp = Route.useNavigate()
   const { tab } = Route.useSearch()
   const activeTab = tab ?? 'details'
@@ -77,21 +75,7 @@ function AppPage() {
         <div className='flex items-center justify-between border-b pb-2'>
           <Skeleton className='h-8 w-48' />
         </div>
-        <div className='space-y-6'>
-          <div className='space-y-3'>
-            <Skeleton className='h-5 w-64' />
-            <Skeleton className='h-5 w-72' />
-            <Skeleton className='h-5 w-32' />
-          </div>
-          <div className='space-y-2'>
-            <Skeleton className='h-5 w-24' />
-            <Skeleton className='h-4 w-64' />
-            <div className='flex items-center gap-2'>
-              <Skeleton className='h-9 w-full' />
-              <Skeleton className='h-9 w-9' />
-            </div>
-          </div>
-        </div>
+        <Skeleton className='h-64 w-full rounded-xl' />
       </Main>
     )
   }
@@ -99,11 +83,11 @@ function AppPage() {
   if (isError || !data || !data.app) {
     return (
       <Main>
-        <div className='flex h-64 items-center justify-center'>
-          <div className='text-muted-foreground'>
-            The requested app could not be found.
-          </div>
-        </div>
+        <EmptyState
+          icon={Package}
+          title="App not found"
+          description="The requested app could not be found."
+        />
       </Main>
     )
   }
@@ -115,7 +99,7 @@ function AppPage() {
 
   // Show share page for unauthenticated users or non-admins
   if (share) {
-    return <SharePage app={app} tracks={tracks} shareString={shareString} copied={copied} setCopied={setCopied} />
+    return <SharePage app={app} tracks={tracks} shareString={shareString} />
   }
 
   // Show management page for administrators
@@ -144,7 +128,7 @@ function AppPage() {
             ))}
           </div>
           {activeTab === 'versions' && (
-            <Button onClick={() => setShowUploadDialog(true)} className='mb-2'>
+            <Button onClick={() => setShowUploadDialog(true)} className='mb-2' size="sm">
               <Upload className='mr-2 h-4 w-4' />
               Upload new version
             </Button>
@@ -157,92 +141,96 @@ function AppPage() {
           )}
         </div>
 
-      <div>
-        {activeTab === 'details' && (
-          <div className='space-y-6'>
-            <div className='space-y-3'>
-              <div>
-                <span className='font-medium'>ID:</span>{' '}
-                <span className='font-mono text-sm'>{app.id}</span>
-              </div>
-              <div>
-                <span className='font-medium'>Fingerprint:</span>{' '}
-                <span className='font-mono text-sm'>{app.fingerprint}</span>
-              </div>
-              <div>
-                <span className='font-medium'>Privacy:</span>{' '}
-                <span className='capitalize'>{app.privacy}</span>
-              </div>
-            </div>
+        <div className="pt-2">
+          {activeTab === 'details' && (
+            <div className='space-y-6'>
+              <Section title="Identity" description="Core identification for this application">
+                <div className="divide-y-0">
+                  <FieldRow label="Application ID">
+                    <DataChip value={app.id} />
+                  </FieldRow>
+                  <FieldRow label="Fingerprint">
+                    <DataChip value={app.fingerprint || ''} />
+                  </FieldRow>
+                  <FieldRow label="Privacy Policy">
+                    <div className="flex items-center gap-2">
+                      {app.privacy === 'public' ? (
+                        <DataChip value="Public" icon={<Globe className="size-3.5" />} copyable={false} />
+                      ) : (
+                        <DataChip value="Private" icon={<Lock className="size-3.5" />} copyable={false} />
+                      )}
+                    </div>
+                  </FieldRow>
+                </div>
+              </Section>
 
-            <div className='space-y-2'>
-              <label className='text-sm font-medium'>Share</label>
-              <p className='text-muted-foreground text-sm'>
-                Share this ID to allow others to install this app
-              </p>
-              <div className='flex items-center gap-2'>
-                <Input
-                  readOnly
-                  value={shareString}
-                  className='font-mono text-sm'
-                />
-                <Button
-                  variant='outline'
-                  size='icon'
-                  onClick={() => {
-                    navigator.clipboard.writeText(shareString)
-                    setCopied(true)
-                    setTimeout(() => setCopied(false), 2000)
-                    toast.success('App ID copied to clipboard')
-                  }}
-                >
-                  {copied ? <Check className='h-4 w-4' /> : <Copy className='h-4 w-4' />}
-                </Button>
-              </div>
-            </div>
-          </div>
-        )}
-
-        {activeTab === 'versions' && (
-          <div className='space-y-4'>
-            {versions.length === 0 ? (
-              <p className='text-muted-foreground text-sm'>No versions uploaded yet</p>
-            ) : (
-              <div className='space-y-2'>
-                {sortVersionsDesc(versions).map((version) => (
-                  <div key={version.version} className='flex justify-between py-1 px-2 rounded bg-muted/50'>
-                    <span className='font-mono text-sm'>
-                      {version.version}
-                    </span>
-                    <span className='text-muted-foreground text-sm'>
-                      {version.file}
-                    </span>
+              <Section 
+                title="Sharing" 
+                description="Share this ID to allow others to install this app"
+              >
+                <div className="space-y-4">
+                  <p className='text-muted-foreground text-sm'>
+                    Users can install this application by pasting this identifier into their Apps management page.
+                  </p>
+                  <div className="max-w-md">
+                    <FieldRow label="Installation ID">
+                      <DataChip value={shareString} chipClassName="bg-primary/5 border-primary/20 text-primary" />
+                    </FieldRow>
                   </div>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
+                </div>
+              </Section>
+            </div>
+          )}
 
-        {activeTab === 'tracks' && (
-          <TracksTab
-            appId={appId}
-            tracks={tracks}
-            versions={versions}
-            defaultTrack={app.default_track ?? 'Production'}
-            showAddTrack={showAddTrack}
-            setShowAddTrack={setShowAddTrack}
-          />
-        )}
-      </div>
+          {activeTab === 'versions' && (
+            <Section title="Version History" description="All uploaded build files for this application">
+              {versions.length === 0 ? (
+                <div className="py-8">
+                  <EmptyState
+                    icon={Package}
+                    title="No versions"
+                    description="Upload your first build to get started"
+                  />
+                </div>
+              ) : (
+                <div className='divide-y border rounded-lg overflow-hidden'>
+                  {sortVersionsDesc(versions).map((version) => (
+                    <div key={version.version} className='flex items-center justify-between py-3 px-4 hover:bg-muted/30 transition-colors'>
+                      <div className="flex items-center gap-3">
+                        <Package className="size-4 text-muted-foreground" />
+                        <span className='font-mono text-sm font-semibold'>
+                          {version.version}
+                        </span>
+                      </div>
+                      <span className='text-muted-foreground text-xs font-mono bg-muted px-2 py-0.5 rounded'>
+                        {version.file}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </Section>
+          )}
 
-      <UploadVersionDialog
-        open={showUploadDialog}
-        onOpenChange={setShowUploadDialog}
-        appId={appId}
-        showInstallOption={administrator}
-        availableTracks={tracks.map((t) => t.track)}
-      />
+          {activeTab === 'tracks' && (
+            <TracksTab
+              appId={appId}
+              tracks={tracks}
+              versions={versions}
+              defaultTrack={app.default_track ?? 'Production'}
+              showAddTrack={showAddTrack}
+              setShowAddTrack={setShowAddTrack}
+            />
+          )}
+        </div>
+
+        <UploadVersionDialog
+          open={showUploadDialog}
+          onOpenChange={setShowUploadDialog}
+          appId={appId}
+          showInstallOption={administrator}
+          availableTracks={tracks.map((t) => t.track)}
+        />
       </Main>
     </>
   )
@@ -252,14 +240,10 @@ function SharePage({
   app,
   tracks,
   shareString,
-  copied,
-  setCopied,
 }: {
   app: { id: string; name: string; privacy: string; fingerprint?: string }
   tracks: { track: string; version: string }[]
   shareString: string
-  copied: boolean
-  setCopied: (v: boolean) => void
 }) {
   return (
     <>
@@ -268,66 +252,43 @@ function SharePage({
       </Header>
       <Main className='pt-2'>
         <div className='space-y-6'>
-          <Card>
-            <CardHeader>
-              <CardTitle>Install this app</CardTitle>
-              <CardDescription>
-                Copy this ID and paste it in your Mochi server's Apps page to install
-              </CardDescription>
-            </CardHeader>
-            <CardContent className='space-y-4'>
-              <div className='space-y-2'>
-                <label className='text-sm font-medium'>App ID</label>
-                <Input readOnly value={shareString} className='font-mono text-sm' />
-              </div>
-              <Button
-                variant='outline'
-                className='w-full'
-                onClick={() => {
-                  navigator.clipboard.writeText(shareString)
-                  setCopied(true)
-                  setTimeout(() => setCopied(false), 2000)
-                  toast.success('Copied to clipboard')
-                }}
-              >
-                {copied ? <Check className='mr-2 h-4 w-4' /> : <Copy className='mr-2 h-4 w-4' />}
-                Copy app ID
-              </Button>
-            </CardContent>
-          </Card>
+          <Section title="Install App" description="Install this application to your server">
+            <div className="space-y-4">
+              <p className='text-muted-foreground text-sm'>
+                Copy this ID and paste it in your Mochi server's Apps page to install.
+              </p>
+              <FieldRow label="App ID">
+                <DataChip value={shareString} chipClassName="bg-primary/5 border-primary/20 text-primary" />
+              </FieldRow>
+            </div>
+          </Section>
 
-          <Card>
-            <CardHeader>
-              <CardTitle>App details</CardTitle>
-            </CardHeader>
-            <CardContent className='space-y-3'>
-              <div>
-                <span className='font-medium'>Fingerprint:</span>{' '}
-                <span className='font-mono text-sm'>{app.fingerprint}</span>
-              </div>
-              <div>
-                <span className='font-medium'>Privacy:</span>{' '}
-                <span className='capitalize'>{app.privacy}</span>
-              </div>
-            </CardContent>
-          </Card>
+          <Section title="Details" description="Metadata and configuration">
+            <div className="divide-y-0">
+              <FieldRow label="Fingerprint">
+                <DataChip value={app.fingerprint || 'N/A'} />
+              </FieldRow>
+              <FieldRow label="Privacy">
+                <DataChip 
+                  value={app.privacy} 
+                  icon={app.privacy === 'public' ? <Globe className="size-3.5" /> : <Lock className="size-3.5" />} 
+                  copyable={false} 
+                />
+              </FieldRow>
+            </div>
+          </Section>
 
           {tracks.length > 0 && (
-            <Card>
-              <CardHeader>
-                <CardTitle>Available version</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className='space-y-2'>
-                  {tracks.map((track) => (
-                    <div key={track.track} className='flex justify-between'>
-                      <span className='font-medium'>{track.track}</span>
-                      <span className='font-mono text-sm'>{track.version}</span>
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
+            <Section title="Available Versions" description="Release tracks currently active">
+              <div className='divide-y border rounded-lg overflow-hidden'>
+                {tracks.map((track) => (
+                  <div key={track.track} className='flex items-center justify-between py-3 px-4'>
+                    <span className='font-medium text-sm'>{track.track}</span>
+                    <DataChip value={track.version} copyable={false} />
+                  </div>
+                ))}
+              </div>
+            </Section>
           )}
         </div>
       </Main>
@@ -408,33 +369,46 @@ function TracksTab({
   }
 
   return (
-    <div className='space-y-4'>
+    <Section 
+      title="Release Tracks" 
+      description="Manage deployment environments and their versions"
+    >
       {tracks.length === 0 ? (
-        <p className='text-muted-foreground text-sm'>No tracks defined</p>
+        <div className="py-8">
+          <EmptyState
+            icon={Shield}
+            title="No tracks"
+            description="Create your first release track to manage deployments"
+          />
+        </div>
       ) : (
-        <div className='space-y-2'>
+        <div className='divide-y border rounded-lg overflow-hidden'>
           {tracks.map((track) => (
             <div
               key={track.track}
-              className='flex items-center justify-between py-1 px-2 rounded bg-muted/50'
+              className='flex items-center justify-between py-3 px-4 hover:bg-muted/10 transition-colors'
             >
-              <span className='font-medium'>
-                {track.track}
-                {track.track === defaultTrack && (
-                  <span className='text-muted-foreground font-normal'> (default)</span>
-                )}
-              </span>
-              <div className='flex items-center gap-2'>
+              <div className="flex flex-col">
+                <span className='font-semibold text-sm flex items-center gap-2'>
+                  {track.track}
+                  {track.track === defaultTrack && (
+                    <span className='text-[10px] uppercase tracking-wider bg-primary/10 text-primary px-1.5 py-0.5 rounded-full'>default</span>
+                  )}
+                </span>
+                <span className="text-xs text-muted-foreground">Active version</span>
+              </div>
+              
+              <div className='flex items-center gap-3'>
                 <Select
                   value={track.version}
                   onValueChange={(v) => handleSetTrackVersion(track.track, v)}
                 >
-                  <SelectTrigger className='w-32 h-8'>
+                  <SelectTrigger className='w-32 h-8 text-xs font-mono'>
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
                     {sortVersionsDesc(versions).map((v) => (
-                      <SelectItem key={v.version} value={v.version}>
+                      <SelectItem key={v.version} value={v.version} className="font-mono text-xs">
                         {v.version}
                       </SelectItem>
                     ))}
@@ -442,7 +416,7 @@ function TracksTab({
                 </Select>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant='ghost' size='sm'>
+                    <Button variant='ghost' size='icon' className="h-8 w-8">
                       <MoreHorizontal className='h-4 w-4' />
                     </Button>
                   </DropdownMenuTrigger>
@@ -450,12 +424,14 @@ function TracksTab({
                     <DropdownMenuItem
                       onClick={() => handleSetDefaultTrack(track.track)}
                       disabled={track.track === defaultTrack}
+                      className="text-xs"
                     >
-                      Set track as default
+                      Set as default
                     </DropdownMenuItem>
                     <DropdownMenuItem
                       onClick={() => handleDeleteTrack(track.track)}
                       disabled={track.track === defaultTrack}
+                      className="text-xs text-destructive"
                     >
                       Delete track
                     </DropdownMenuItem>
@@ -476,29 +452,33 @@ function TracksTab({
       }}>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>New track</DialogTitle>
+            <DialogTitle>New Release Track</DialogTitle>
+            <DialogDescription>
+              Create a new environment (e.g. Beta, Staging) to deploy builds.
+            </DialogDescription>
           </DialogHeader>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
               <label htmlFor='trackName' className='text-sm font-medium'>
-                Track name
+                Track Name
               </label>
               <Input
                 id='trackName'
+                placeholder="e.g. Staging"
                 value={newTrackName}
                 onChange={(e) => setNewTrackName(e.target.value)}
               />
             </div>
             <div className='space-y-2'>
-              <label className='text-sm font-medium'>Version</label>
+              <label className='text-sm font-medium'>Initial Version</label>
               <Select value={newTrackVersion} onValueChange={setNewTrackVersion}>
                 <SelectTrigger>
                   <SelectValue placeholder='No version' />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value='__none__'>No version</SelectItem>
+                  <SelectItem value='__none__ text-muted-foreground'>Leave empty</SelectItem>
                   {sortVersionsDesc(versions).map((v) => (
-                    <SelectItem key={v.version} value={v.version}>
+                    <SelectItem key={v.version} value={v.version} className="font-mono">
                       {v.version}
                     </SelectItem>
                   ))}
@@ -517,13 +497,12 @@ function TracksTab({
               onClick={handleCreateTrack}
               disabled={!newTrackName || createTrackMutation.isPending}
             >
-              <Plus className='h-4 w-4 mr-2' />
-              {createTrackMutation.isPending ? 'Creating...' : 'Create track'}
+              {createTrackMutation.isPending ? 'Creating...' : 'Create Track'}
             </Button>
           </DialogFooter>
         </DialogContent>
       </Dialog>
-    </div>
+    </Section>
   )
 }
 
@@ -588,16 +567,16 @@ function UploadVersionDialog({
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>Upload new version</DialogTitle>
-          <DialogDescription className="sr-only">
-            Upload version
+          <DialogTitle>Upload New Version</DialogTitle>
+          <DialogDescription>
+            Upload a .zip build file for your application.
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit}>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
               <label htmlFor='file' className='text-sm font-medium'>
-                File
+                Build File (.zip)
               </label>
               <Input
                 ref={fileInputRef}
@@ -610,7 +589,7 @@ function UploadVersionDialog({
             {showInstallOption && (
               <div className='space-y-2'>
                 <label htmlFor='install' className='text-sm font-medium'>
-                  Install locally
+                  Install Locally
                 </label>
                 <select
                   id='install'
@@ -626,15 +605,15 @@ function UploadVersionDialog({
             )}
             {availableTracks.length > 0 && (
               <div className='space-y-2'>
-                <label className='text-sm font-medium'>Update tracks</label>
-                <div className='space-y-2'>
+                <label className='text-sm font-medium'>Update Tracks</label>
+                <div className='grid grid-cols-2 gap-2'>
                   {availableTracks.map((track) => (
-                    <label key={track} className='flex items-center gap-2'>
+                    <label key={track} className='flex items-center gap-2 p-2 border rounded-md hover:bg-muted/50 cursor-pointer transition-colors'>
                       <input
                         type='checkbox'
                         checked={selectedTracks.includes(track)}
                         onChange={() => toggleTrack(track)}
-                        className='h-4 w-4 rounded border-gray-300'
+                        className='h-4 w-4 rounded border-gray-300 accent-primary'
                       />
                       <span className='text-sm'>{track}</span>
                     </label>
@@ -652,7 +631,7 @@ function UploadVersionDialog({
               Cancel
             </Button>
             <Button type='submit' disabled={uploadMutation.isPending}>
-              {uploadMutation.isPending ? 'Uploading...' : 'Upload'}
+              {uploadMutation.isPending ? 'Uploading...' : 'Upload Version'}
             </Button>
           </DialogFooter>
         </form>
