@@ -10,7 +10,6 @@ import {
   DialogTitle,
   Button,
   Card,
-  CardContent,
   CardHeader,
   CardTitle,
   Input,
@@ -18,9 +17,12 @@ import {
   getErrorMessage,
   toast,
   CardSkeleton,
+  Skeleton,
+  EmptyState,
 } from '@mochi/common'
 import { Package, Plus } from 'lucide-react'
 import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
+import type { App } from '@/api/types/apps'
 
 export function Apps() {
   usePageTitle('Publisher')
@@ -47,10 +49,7 @@ export function Apps() {
     return (
       <Main>
         <div className='flex justify-end mb-6'>
-          <Button disabled variant="outline">
-             <Plus className='mr-2 h-4 w-4' />
-             Create app
-          </Button>
+          <Skeleton className='h-10 w-28' />
         </div>
         <CardSkeleton count={6} />
       </Main>
@@ -67,20 +66,19 @@ export function Apps() {
       </div>
 
       {apps?.length === 0 ? (
-        <Card>
-          <CardContent className='py-12'>
-            <div className='text-muted-foreground text-center'>
-              <Package className='mx-auto mb-4 h-12 w-12 opacity-50' />
-              <p className='text-lg font-medium'>No apps yet</p>
-              <p className='mt-1 text-sm'>
-                Create your first app to get started
-              </p>
-            </div>
-          </CardContent>
-        </Card>
+        <EmptyState
+          icon={Package}
+          title="No apps yet"
+          description="Create your first app to get started"
+        >
+          <Button onClick={() => setShowCreateDialog(true)}>
+            <Plus className='mr-2 h-4 w-4' />
+            Create app
+          </Button>
+        </EmptyState>
       ) : (
         <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-3'>
-          {apps?.map((app) => (
+          {apps?.map((app: App) => (
             <Card
               key={app.id}
               className='flex cursor-pointer flex-col transition-shadow hover:shadow-md'
@@ -132,7 +130,7 @@ function CreateAppDialog({
     createMutation.mutate(
       { name: name.trim(), privacy },
       {
-        onSuccess: (data) => {
+        onSuccess: (data: { id: string }) => {
           toast.success('App created', {
             description: `${name} has been created successfully.`,
           })
