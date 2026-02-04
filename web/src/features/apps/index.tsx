@@ -17,7 +17,7 @@ import {
   Main,
   getErrorMessage,
   toast,
-  Skeleton,
+  CardSkeleton,
 } from '@mochi/common'
 import { Package, Plus } from 'lucide-react'
 import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
@@ -27,24 +27,32 @@ export function Apps() {
   const navigate = useNavigate()
   const [showCreateDialog, setShowCreateDialog] = useState(false)
 
-  const { data: apps, isLoading } = useAppsQuery()
+  const { data: apps, isLoading, ErrorComponent } = useAppsQuery()
+
+  if (ErrorComponent) {
+    return (
+      <Main>
+        <div className='mb-6 flex justify-end'>
+          <Button onClick={() => setShowCreateDialog(true)}>
+            <Plus className='mr-2 h-4 w-4' />
+            Create app
+          </Button>
+        </div>
+        {ErrorComponent}
+      </Main>
+    )
+  }
 
   if (isLoading && !apps) {
     return (
       <Main>
         <div className='flex justify-end mb-6'>
-          <Skeleton className='h-10 w-32' />
+          <Button disabled variant="outline">
+             <Plus className='mr-2 h-4 w-4' />
+             Create app
+          </Button>
         </div>
-        <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-3'>
-          {Array.from({ length: 6 }).map((_, i) => (
-            <Card key={i} className='flex flex-col'>
-              <CardHeader>
-                <Skeleton className='h-6 w-3/4 mb-2' />
-                <Skeleton className='h-4 w-1/4' />
-              </CardHeader>
-            </Card>
-          ))}
-        </div>
+        <CardSkeleton count={6} />
       </Main>
     )
   }

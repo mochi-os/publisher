@@ -1,14 +1,15 @@
-import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
-import appsApi from '@/api/apps'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
+import { useQueryWithError } from '@mochi/common'
+import { appsApi, type App } from '@/api/apps'
 
-const appKeys = {
+export const appKeys = {
   all: () => ['apps'] as const,
   list: () => ['apps', 'list'] as const,
   detail: (id: string) => ['apps', 'detail', id] as const,
 }
 
 export const useAppsQuery = () =>
-  useQuery({
+  useQueryWithError<App[], Error>({
     queryKey: appKeys.list(),
     queryFn: () => appsApi.list(),
   })
