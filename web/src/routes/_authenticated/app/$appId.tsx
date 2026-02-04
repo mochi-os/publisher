@@ -544,7 +544,7 @@ function UploadVersionDialog({
     uploadMutation.mutate(
       { appId, file, install, force, tracks: selectedTracks },
       {
-        onSuccess: (data) => {
+        onSuccess: (data: { version: string }) => {
           toast.success('Version uploaded', {
             description: `Version ${data.version} has been created.`,
           })

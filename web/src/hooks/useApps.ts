@@ -1,6 +1,7 @@
-import { useMutation, useQueryClient } from '@tanstack/react-query'
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { useQueryWithError } from '@mochi/common'
-import { appsApi, type App } from '@/api/apps'
+import appsApi from '@/api/apps'
+import type { App } from '@/api/types/apps'
 
 export const appKeys = {
   all: () => ['apps'] as const,
