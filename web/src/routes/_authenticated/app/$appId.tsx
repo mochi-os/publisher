@@ -172,11 +172,9 @@ function AppPage() {
                   <p className='text-muted-foreground text-sm'>
                     Users can install this application by pasting this identifier into their Apps management page.
                   </p>
-                  <div className="max-w-md">
-                    <FieldRow label="Installation ID">
-                      <DataChip value={shareString} chipClassName="bg-primary/5 border-primary/20 text-primary" />
-                    </FieldRow>
-                  </div>
+                  <FieldRow label="Installation ID">
+                    <DataChip value={shareString} />
+                  </FieldRow>
                 </div>
               </Section>
             </div>
@@ -258,7 +256,7 @@ function SharePage({
                 Copy this ID and paste it in your Mochi server's Apps page to install.
               </p>
               <FieldRow label="App ID">
-                <DataChip value={shareString} chipClassName="bg-primary/5 border-primary/20 text-primary" />
+                <DataChip value={shareString} />
               </FieldRow>
             </div>
           </Section>

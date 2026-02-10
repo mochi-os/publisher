@@ -2,11 +2,12 @@
 // Copyright Alistair Cunningham 2025
 
 {
-	"version": "1.50",
+	"version": "1.52",
 	"label": "app_name",
 	"paths": ["publisher"],
 	"services": ["publisher"],
 
+	"classes": ["app"],
 	"architecture": {"engine": "starlark", "version": 3},
 	"execute": ["publisher.star"],
 
