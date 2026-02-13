@@ -2,7 +2,7 @@
 // Copyright Alistair Cunningham 2025
 
 {
-	"version": "1.52",
+	"version": "1.53",
 	"label": "app_name",
 	"paths": ["publisher"],
 	"services": ["publisher"],

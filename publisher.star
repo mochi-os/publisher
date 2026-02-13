@@ -105,10 +105,15 @@ def action_version_create(a):
 					mochi.file.delete(file)
 					return json_error("Paths mismatch: expected " + str(old_paths) + ", got " + str(new_paths) + ". Use force=yes to override.")
 
-	version = mochi.app.package.install(app["id"], file, a.input("install") != "yes")
+	install = a.input("install") == "yes"
+	version = mochi.app.package.install(app["id"], file, not install)
 	if not version:
 		mochi.file.delete(file)
 		return json_error("Failed to install app version", 500)
+
+	# Set the installed version as the system default
+	if install:
+		mochi.app.version.set(app["id"], version, "")
 
 	# Use insert or ignore to prevent duplicate version entries from concurrent requests
 	mochi.db.execute("insert or ignore into versions ( app, version, file ) values ( ?, ?, ? )", app["id"], version, file)
