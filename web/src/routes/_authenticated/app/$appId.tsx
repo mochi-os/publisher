@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react'
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, useNavigate } from '@tanstack/react-router'
 import {
   Button,
   cn,
@@ -13,7 +13,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-  Header,
+  PageHeader,
   Input,
   Main,
   usePageTitle,
@@ -56,6 +56,7 @@ export const Route = createFileRoute('/_authenticated/app/$appId')({
 
 function AppPage() {
   const { appId } = Route.useParams()
+  const navigate = useNavigate()
   const { data, isLoading, isError } = useAppQuery(appId)
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [showAddTrack, setShowAddTrack] = useState(false)
@@ -66,29 +67,39 @@ function AppPage() {
   const setActiveTab = (newTab: TabId) => {
     void navigateApp({ search: { tab: newTab }, replace: true })
   }
+  const goBackToApps = () => navigate({ to: '/' })
 
   usePageTitle(data?.app?.name ?? 'App')
 
   if (isLoading) {
     return (
-      <Main className='pt-2 space-y-6'>
-        <div className='flex items-center justify-between border-b pb-2'>
-          <Skeleton className='h-8 w-48' />
-        </div>
-        <Skeleton className='h-64 w-full rounded-xl' />
-      </Main>
+      <>
+        <PageHeader
+          title={<Skeleton className='h-8 w-48' />}
+          back={{ label: 'Back to apps', onFallback: goBackToApps }}
+        />
+        <Main className='pt-2 space-y-6'>
+          <div className='flex items-center justify-between border-b pb-2'>
+            <Skeleton className='h-8 w-48' />
+          </div>
+          <Skeleton className='h-64 w-full rounded-xl' />
+        </Main>
+      </>
     )
   }
 
   if (isError || !data || !data.app) {
     return (
-      <Main>
-        <EmptyState
-          icon={Package}
-          title="App not found"
-          description="The requested app could not be found."
-        />
-      </Main>
+      <>
+        <PageHeader title='App not found' back={{ label: 'Back to apps', onFallback: goBackToApps }} />
+        <Main>
+          <EmptyState
+            icon={Package}
+            title="App not found"
+            description="The requested app could not be found."
+          />
+        </Main>
+      </>
     )
   }
 
@@ -99,15 +110,13 @@ function AppPage() {
 
   // Show share page for unauthenticated users or non-admins
   if (share) {
-    return <SharePage app={app} tracks={tracks} shareString={shareString} />
+    return <SharePage app={app} tracks={tracks} shareString={shareString} onBack={goBackToApps} />
   }
 
   // Show management page for administrators
   return (
     <>
-      <Header>
-        <h1 className='text-lg font-semibold'>{app.name}</h1>
-      </Header>
+      <PageHeader title={app.name} back={{ label: 'Back to apps', onFallback: goBackToApps }} />
       <Main className='pt-2 space-y-6'>
         <div className='flex items-center justify-between border-b'>
           <div className='flex gap-1'>
@@ -238,16 +247,16 @@ function SharePage({
   app,
   tracks,
   shareString,
+  onBack,
 }: {
   app: { id: string; name: string; privacy: string; fingerprint?: string }
   tracks: { track: string; version: string }[]
   shareString: string
+  onBack: () => void | Promise<void>
 }) {
   return (
     <>
-      <Header>
-        <h1 className='text-lg font-semibold'>{app.name}</h1>
-      </Header>
+      <PageHeader title={app.name} back={{ label: 'Back to apps', onFallback: onBack }} />
       <Main className='pt-2'>
         <div className='space-y-6'>
           <Section title="Install App" description="Install this application to your server">
