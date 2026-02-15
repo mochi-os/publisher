@@ -8,7 +8,7 @@
 	"services": ["publisher"],
 
 	"classes": ["app"],
-	"architecture": {"engine": "starlark", "version": 3},
+	"architecture": {"engine": "starlark", "version": 4},
 	"execute": ["publisher.star"],
 
 	"database": {
