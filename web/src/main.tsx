@@ -2,22 +2,16 @@ import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 import { QueryClientProvider } from '@tanstack/react-query'
 import { RouterProvider, createRouter } from '@tanstack/react-router'
-import { createQueryClient } from '@mochi/common'
+import { createQueryClient, getRouterBasepath } from '@mochi/common'
 import { routeTree } from './routeTree.gen'
 import './styles/index.css'
 
 const queryClient = createQueryClient()
 
-const getBasepath = () => {
-  const pathname = window.location.pathname
-  const match = pathname.match(/^(\/[^/]+)/)
-  return match ? match[1] + '/' : '/'
-}
-
 const router = createRouter({
   routeTree,
   context: { queryClient },
-  basepath: getBasepath(),
+  basepath: getRouterBasepath(),
   defaultPreload: 'intent',
   defaultPreloadStaleTime: 0,
 })
