@@ -156,10 +156,10 @@ function AppPage() {
               <Section title="Identity" description="Core identification for this application">
                 <div className="divide-y-0">
                   <FieldRow label="Application ID">
-                    <DataChip value={app.id} />
+                    <DataChip value={app.id} truncate='middle' />
                   </FieldRow>
                   <FieldRow label="Fingerprint">
-                    <DataChip value={app.fingerprint || ''} />
+                    <DataChip value={app.fingerprint || ''} truncate='middle' />
                   </FieldRow>
                   <FieldRow label="Privacy Policy">
                     <div className="flex items-center gap-2">
@@ -182,7 +182,7 @@ function AppPage() {
                     Users can install this application by pasting this identifier into their Apps management page.
                   </p>
                   <FieldRow label="Installation ID">
-                    <DataChip value={shareString} />
+                    <DataChip value={shareString} truncate='middle' />
                   </FieldRow>
                 </div>
               </Section>
@@ -265,7 +265,7 @@ function SharePage({
                 Copy this ID and paste it in your Mochi server's Apps page to install.
               </p>
               <FieldRow label="App ID">
-                <DataChip value={shareString} />
+                <DataChip value={shareString} truncate='middle' />
               </FieldRow>
             </div>
           </Section>
@@ -273,7 +273,7 @@ function SharePage({
           <Section title="Details" description="Metadata and configuration">
             <div className="divide-y-0">
               <FieldRow label="Fingerprint">
-                <DataChip value={app.fingerprint || 'N/A'} />
+                <DataChip value={app.fingerprint || 'N/A'} truncate='middle' />
               </FieldRow>
               <FieldRow label="Privacy">
                 <DataChip 
