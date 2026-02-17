@@ -24,11 +24,13 @@ import {
   SelectTrigger,
   SelectValue,
   toast,
-  Skeleton,
   Section,
   FieldRow,
   DataChip,
   EmptyState,
+  GeneralError,
+  ListSkeleton,
+  ApiError,
 } from '@mochi/common'
 import { Upload, Plus, MoreHorizontal, Package, Shield, Globe, Lock } from 'lucide-react'
 import { sortVersionsDesc } from '@/lib/version'
@@ -57,7 +59,7 @@ export const Route = createFileRoute('/_authenticated/app/$appId')({
 function AppPage() {
   const { appId } = Route.useParams()
   const navigate = useNavigate()
-  const { data, isLoading, isError } = useAppQuery(appId)
+  const { data, isLoading, isError, error } = useAppQuery(appId)
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [showAddTrack, setShowAddTrack] = useState(false)
   const navigateApp = Route.useNavigate()
@@ -75,20 +77,43 @@ function AppPage() {
     return (
       <>
         <PageHeader
-          title={<Skeleton className='h-8 w-48' />}
+          title='Loading app...'
           back={{ label: 'Back to apps', onFallback: goBackToApps }}
         />
-        <Main className='pt-2 space-y-6'>
-          <div className='flex items-center justify-between border-b pb-2'>
-            <Skeleton className='h-8 w-48' />
-          </div>
-          <Skeleton className='h-64 w-full rounded-xl' />
+        <Main className='pt-2'>
+          <ListSkeleton variant='card' count={3} />
         </Main>
       </>
     )
   }
 
-  if (isError || !data || !data.app) {
+  if (isError) {
+    if (error instanceof ApiError && error.status === 404) {
+      return (
+        <>
+          <PageHeader title='App not found' back={{ label: 'Back to apps', onFallback: goBackToApps }} />
+          <Main>
+            <EmptyState
+              icon={Package}
+              title="App not found"
+              description="The requested app could not be found."
+            />
+          </Main>
+        </>
+      )
+    }
+
+    return (
+      <>
+        <PageHeader title='App' back={{ label: 'Back to apps', onFallback: goBackToApps }} />
+        <Main>
+          <GeneralError error={error} minimal mode='inline' />
+        </Main>
+      </>
+    )
+  }
+
+  if (!data || !data.app) {
     return (
       <>
         <PageHeader title='App not found' back={{ label: 'Back to apps', onFallback: goBackToApps }} />
