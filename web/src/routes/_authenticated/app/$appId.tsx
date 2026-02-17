@@ -227,14 +227,14 @@ function AppPage() {
               ) : (
                 <div className='divide-y border rounded-lg overflow-hidden'>
                   {sortVersionsDesc(versions).map((version) => (
-                    <div key={version.version} className='flex items-center justify-between py-3 px-4 hover:bg-muted/30 transition-colors'>
+                    <div key={version.version} className='flex items-center justify-between px-4 py-3 transition-colors hover:bg-surface-2'>
                       <div className="flex items-center gap-3">
                         <Package className="size-4 text-muted-foreground" />
                         <span className='font-mono text-sm font-semibold'>
                           {version.version}
                         </span>
                       </div>
-                      <span className='text-muted-foreground text-xs font-mono bg-muted px-2 py-0.5 rounded'>
+                      <span className='text-muted-foreground bg-surface-2 text-xs font-mono rounded px-2 py-0.5'>
                         {version.file}
                       </span>
                     </div>
@@ -418,7 +418,7 @@ function TracksTab({
           {tracks.map((track) => (
             <div
               key={track.track}
-              className='flex items-center justify-between py-3 px-4 hover:bg-muted/10 transition-colors'
+              className='flex items-center justify-between px-4 py-3 transition-colors hover:bg-surface-2'
             >
               <div className="flex flex-col">
                 <span className='font-semibold text-sm flex items-center gap-2'>
@@ -640,7 +640,7 @@ function UploadVersionDialog({
                 <label className='text-sm font-medium'>Update Tracks</label>
                 <div className='grid grid-cols-2 gap-2'>
                   {availableTracks.map((track) => (
-                    <label key={track} className='flex items-center gap-2 p-2 border rounded-md hover:bg-muted/50 cursor-pointer transition-colors'>
+                    <label key={track} className='flex cursor-pointer items-center gap-2 rounded-md border p-2 transition-colors hover:bg-interactive-hover active:bg-interactive-active'>
                       <input
                         type='checkbox'
                         checked={selectedTracks.includes(track)}
