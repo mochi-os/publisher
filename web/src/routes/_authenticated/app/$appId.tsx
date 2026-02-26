@@ -59,7 +59,7 @@ export const Route = createFileRoute('/_authenticated/app/$appId')({
 function AppPage() {
   const { appId } = Route.useParams()
   const navigate = useNavigate()
-  const { data, isLoading, isError, error } = useAppQuery(appId)
+  const { data, isLoading, isError, error, refetch } = useAppQuery(appId)
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [showAddTrack, setShowAddTrack] = useState(false)
   const navigateApp = Route.useNavigate()
@@ -107,7 +107,7 @@ function AppPage() {
       <>
         <PageHeader title='App' back={{ label: 'Back to apps', onFallback: goBackToApps }} />
         <Main>
-          <GeneralError error={error} minimal mode='inline' />
+          <GeneralError error={error} minimal mode='inline' reset={refetch} />
         </Main>
       </>
     )

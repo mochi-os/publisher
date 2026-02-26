@@ -19,6 +19,7 @@ import {
   CardSkeleton,
   Skeleton,
   EmptyState,
+  GeneralError,
 } from '@mochi/common'
 import { Package, Plus } from 'lucide-react'
 import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
@@ -29,21 +30,7 @@ export function Apps() {
   const navigate = useNavigate()
   const [showCreateDialog, setShowCreateDialog] = useState(false)
 
-  const { data: apps, isLoading, ErrorComponent } = useAppsQuery()
-
-  if (ErrorComponent) {
-    return (
-      <Main>
-        <div className='mb-6 flex justify-end'>
-          <Button onClick={() => setShowCreateDialog(true)}>
-            <Plus className='mr-2 h-4 w-4' />
-            Create app
-          </Button>
-        </div>
-        {ErrorComponent}
-      </Main>
-    )
-  }
+  const { data: apps, isLoading, error, refetch } = useAppsQuery()
 
   if (isLoading && !apps) {
     return (
@@ -65,7 +52,17 @@ export function Apps() {
         </Button>
       </div>
 
-      {apps?.length === 0 ? (
+      {error ? (
+        <GeneralError
+          error={error}
+          minimal
+          mode='inline'
+          reset={refetch}
+          className='mb-6'
+        />
+      ) : null}
+
+      {error && !apps ? null : apps?.length === 0 ? (
         <EmptyState
           icon={Package}
           title="No apps yet"
