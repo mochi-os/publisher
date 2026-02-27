@@ -2,7 +2,7 @@
 // Copyright Alistair Cunningham 2025
 
 {
-	"version": "1.59",
+	"version": "1.60",
 	"label": "app_name",
 	"paths": ["publisher"],
 	"services": ["publisher"],
@@ -38,9 +38,9 @@
 	},
 
 	"events": {
-		"information": {"function": "event_information", "anonymous": true},
-		"get": {"function": "event_get", "anonymous": true},
-		"version": {"function": "event_version", "anonymous": true}
+		"information": {"function": "event_information", "anonymous": true, "services": ["apps"]},
+		"get": {"function": "event_get", "anonymous": true, "services": ["apps"]},
+		"version": {"function": "event_version", "anonymous": true, "services": ["apps"]}
 	},
 
 	"functions": {
