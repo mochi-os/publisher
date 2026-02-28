@@ -1,5 +1,4 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
-import { useQueryWithError } from '@mochi/common'
 import appsApi from '@/api/apps'
 import type { App } from '@/api/types/apps'
 
@@ -10,7 +9,7 @@ export const appKeys = {
 }
 
 export const useAppsQuery = () =>
-  useQueryWithError<App[], Error>({
+  useQuery<App[], Error>({
     queryKey: appKeys.list(),
     queryFn: () => appsApi.list(),
   })
