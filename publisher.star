@@ -13,10 +13,6 @@ def database_upgrade(version):
 	if version == 2:
 		mochi.db.execute("alter table apps add column default_track text not null default 'Production'")
 
-# Return JSON error response
-def json_error(message, code=400):
-	return {"status": code, "error": message}
-
 # List apps
 def action_list(a):
 	apps = mochi.db.rows("select a.*, t.version from apps a left join tracks t on a.id = t.app and t.track = a.default_track order by a.name")
@@ -26,10 +22,12 @@ def action_list(a):
 def action_view(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		return json_error("Invalid app ID")
+		a.error(400, "Invalid app ID")
+		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		return json_error("App not found", 404)
+		a.error(404, "App not found")
+		return
 
 	app["fingerprint"] = mochi.entity.fingerprint(app["id"], True)
 	tracks_all = mochi.db.rows("select * from tracks where app=? order by track collate nocase", app["id"])
@@ -53,15 +51,18 @@ def action_view(a):
 def action_create(a):
 	name = a.input("name")
 	if not mochi.valid(name, "name"):
-		return json_error("Invalid app name")
+		a.error(400, "Invalid app name")
+		return
 
 	privacy = a.input("privacy")
 	if not mochi.valid(privacy, "privacy"):
-		return json_error("Invalid privacy")
+		a.error(400, "Invalid privacy")
+		return
 
 	id = mochi.entity.create("app", name, privacy)
 	if not id:
-		return json_error("Failed to create app entity", 500)
+		a.error(500, "Failed to create app entity")
+		return
 
 	mochi.db.execute("replace into apps ( id, name, privacy ) values ( ?, ?, ? )", id, name, privacy)
 
@@ -75,14 +76,17 @@ def action_create(a):
 def action_version_create(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		return json_error("Invalid app ID")
+		a.error(400, "Invalid app ID")
+		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		return json_error("App not found", 404)
+		a.error(404, "App not found")
+		return
 
 	file = a.input("file")
 	if not mochi.valid(file, "filename"):
-		return json_error("File name invalid")
+		a.error(400, "File name invalid")
+		return
 
 	a.upload("file", file)
 
@@ -92,7 +96,8 @@ def action_version_create(a):
 		new_info = mochi.app.package.get(file)
 		if not new_info:
 			mochi.file.delete(file)
-			return json_error("Failed to read app info from archive")
+			a.error(400, "Failed to read app info from archive")
+			return
 
 		# Get the latest existing version
 		existing = mochi.db.row("select file from versions where app=? order by version desc limit 1", app["id"])
@@ -103,13 +108,15 @@ def action_version_create(a):
 				old_paths = old_info.get("paths") or []
 				if new_paths != old_paths:
 					mochi.file.delete(file)
-					return json_error("Paths mismatch: expected " + str(old_paths) + ", got " + str(new_paths) + ". Use force=yes to override.")
+					a.error(400, "Paths mismatch: expected " + str(old_paths) + ", got " + str(new_paths) + ". Use force=yes to override.")
+					return
 
 	install = a.input("install") == "yes"
 	version = mochi.app.package.install(app["id"], file, not install)
 	if not version:
 		mochi.file.delete(file)
-		return json_error("Failed to install app version", 500)
+		a.error(500, "Failed to install app version")
+		return
 
 	# Set the installed version as the system default
 	if install:
@@ -136,29 +143,35 @@ def action_version_create(a):
 def action_track_create(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		return json_error("Invalid app ID")
+		a.error(400, "Invalid app ID")
+		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		return json_error("App not found", 404)
+		a.error(404, "App not found")
+		return
 
 	track = a.input("track")
 	if not track or len(track) > 50 or not track.replace("-", "").replace("_", "").isalnum():
-		return json_error("Invalid track name")
+		a.error(400, "Invalid track name")
+		return
 
 	version = a.input("version", "")
 	if len(version) > 50:
-		return json_error("Invalid version")
+		a.error(400, "Invalid version")
+		return
 
 	# Verify version exists (only if provided)
 	if version:
 		v = mochi.db.row("select 1 from versions where app=? and version=?", id, version)
 		if not v:
-			return json_error("Version not found", 404)
+			a.error(404, "Version not found")
+			return
 
 	# Check track doesn't already exist
 	existing = mochi.db.row("select 1 from tracks where app=? and track=?", id, track)
 	if existing:
-		return json_error("Track already exists")
+		a.error(400, "Track already exists")
+		return
 
 	mochi.db.execute("insert into tracks (app, track, version) values (?, ?, ?)", id, track, version)
 	return {"data": {"track": track, "version": version}}
@@ -167,28 +180,34 @@ def action_track_create(a):
 def action_track_set(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		return json_error("Invalid app ID")
+		a.error(400, "Invalid app ID")
+		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		return json_error("App not found", 404)
+		a.error(404, "App not found")
+		return
 
 	track = a.input("track")
 	if not track or len(track) > 50:
-		return json_error("Invalid track name")
+		a.error(400, "Invalid track name")
+		return
 
 	version = a.input("version")
 	if not version or len(version) > 50:
-		return json_error("Invalid version")
+		a.error(400, "Invalid version")
+		return
 
 	# Verify version exists
 	v = mochi.db.row("select 1 from versions where app=? and version=?", id, version)
 	if not v:
-		return json_error("Version not found", 404)
+		a.error(404, "Version not found")
+		return
 
 	# Verify track exists
 	t = mochi.db.row("select 1 from tracks where app=? and track=?", id, track)
 	if not t:
-		return json_error("Track not found", 404)
+		a.error(404, "Track not found")
+		return
 
 	mochi.db.execute("update tracks set version=? where app=? and track=?", version, id, track)
 	return {"data": {"track": track, "version": version}}
@@ -197,18 +216,22 @@ def action_track_set(a):
 def action_track_delete(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		return json_error("Invalid app ID")
+		a.error(400, "Invalid app ID")
+		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		return json_error("App not found", 404)
+		a.error(404, "App not found")
+		return
 
 	track = a.input("track")
 	if not track or len(track) > 50:
-		return json_error("Invalid track name")
+		a.error(400, "Invalid track name")
+		return
 
 	# Don't allow deleting the default track
 	if track == app["default_track"]:
-		return json_error("Cannot delete the default track")
+		a.error(400, "Cannot delete the default track")
+		return
 
 	mochi.db.execute("delete from tracks where app=? and track=?", id, track)
 	return {"data": {"deleted": track}}
@@ -217,19 +240,23 @@ def action_track_delete(a):
 def action_default_track_set(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		return json_error("Invalid app ID")
+		a.error(400, "Invalid app ID")
+		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		return json_error("App not found", 404)
+		a.error(404, "App not found")
+		return
 
 	track = a.input("track")
 	if not track or len(track) > 50:
-		return json_error("Invalid track name")
+		a.error(400, "Invalid track name")
+		return
 
 	# Verify track exists
 	t = mochi.db.row("select 1 from tracks where app=? and track=?", id, track)
 	if not t:
-		return json_error("Track not found", 404)
+		a.error(404, "Track not found")
+		return
 
 	mochi.db.execute("update apps set default_track=? where id=?", track, id)
 	return {"data": {"default_track": track}}

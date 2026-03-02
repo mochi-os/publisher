@@ -363,6 +363,9 @@ function TracksTab({
           setNewTrackVersion('__none__')
           setShowAddTrack(false)
         },
+        onError: (error) => {
+          toast.error(getErrorMessage(error, 'Failed to create track'))
+        },
       }
     )
   }
@@ -373,6 +376,9 @@ function TracksTab({
       {
         onSuccess: () => {
           toast.success(`Track "${track}" updated to ${version}`)
+        },
+        onError: (error) => {
+          toast.error(getErrorMessage(error, 'Failed to update track'))
         },
       }
     )
@@ -385,6 +391,9 @@ function TracksTab({
         onSuccess: () => {
           toast.success(`Track "${track}" deleted`)
         },
+        onError: (error) => {
+          toast.error(getErrorMessage(error, 'Failed to delete track'))
+        },
       }
     )
   }
@@ -395,6 +404,9 @@ function TracksTab({
       {
         onSuccess: () => {
           toast.success(`Default track set to "${track}"`)
+        },
+        onError: (error) => {
+          toast.error(getErrorMessage(error, 'Failed to set default track'))
         },
       }
     )
@@ -508,7 +520,7 @@ function TracksTab({
                   <SelectValue placeholder='No version' />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value='__none__ text-muted-foreground'>Leave empty</SelectItem>
+                  <SelectItem value='__none__' className='text-muted-foreground'>Leave empty</SelectItem>
                   {sortVersionsDesc(versions).map((v) => (
                     <SelectItem key={v.version} value={v.version} className="font-mono">
                       {v.version}

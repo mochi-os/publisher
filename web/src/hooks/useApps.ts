@@ -2,7 +2,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import appsApi from '@/api/apps'
 import type { App } from '@/api/types/apps'
 
-export const appKeys = {
+const appKeys = {
   all: () => ['apps'] as const,
   list: () => ['apps', 'list'] as const,
   detail: (id: string) => ['apps', 'detail', id] as const,
