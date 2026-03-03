@@ -1,8 +1,8 @@
 // Mochi Publisher app
-// Copyright Alistair Cunningham 2025
+// Copyright Alistair Cunningham 2025-2026
 
 {
-	"version": "1.62",
+	"version": "1.63",
 	"label": "app_name",
 	"paths": ["publisher"],
 	"services": ["publisher"],

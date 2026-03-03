@@ -1,5 +1,5 @@
 # Mochi App publisher app
-# Copyright Alistair Cunningham 2025
+# Copyright Alistair Cunningham 2025-2026
 
 # Create database
 def database_create():
