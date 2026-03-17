@@ -1,5 +1,5 @@
 import { createRootRoute, Outlet } from '@tanstack/react-router'
-import { NavigationProgress, NotificationTitle, Toaster } from '@mochi/common'
+import { NavigationProgress, NotificationTitle, Toaster } from '@mochi/web'
 
 export const Route = createRootRoute({
   component: () => (

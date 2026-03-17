@@ -31,7 +31,7 @@ import {
   GeneralError,
   ListSkeleton,
   ApiError,
-} from '@mochi/common'
+} from '@mochi/web'
 import { Upload, Plus, MoreHorizontal, Package, Shield, Globe, Lock } from 'lucide-react'
 import { sortVersionsDesc } from '@/lib/version'
 import {

@@ -20,7 +20,7 @@ import {
   Skeleton,
   EmptyState,
   GeneralError,
-} from '@mochi/common'
+} from '@mochi/web'
 import { Package, Plus } from 'lucide-react'
 import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
 import type { App } from '@/api/types/apps'
