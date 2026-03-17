@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client'
 import { QueryClientProvider } from '@tanstack/react-query'
 import { RouterProvider, createRouter } from '@tanstack/react-router'
-import { createQueryClient, getRouterBasepath } from '@mochi/common'
+import { createQueryClient, getRouterBasepath } from '@mochi/web'
 import { routeTree } from './routeTree.gen'
 import './styles/index.css'
 

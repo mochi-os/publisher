@@ -1,4 +1,4 @@
-import { requestHelpers } from '@mochi/common'
+import { requestHelpers } from '@mochi/web'
 import endpoints from '@/api/endpoints'
 import type {
   AppsListResponse,
