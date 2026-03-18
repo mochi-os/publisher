@@ -10,8 +10,7 @@ def database_create():
 
 # Upgrade database to specified schema version
 def database_upgrade(version):
-	if version == 2:
-		mochi.db.execute("alter table apps add column default_track text not null default 'Production'")
+	pass
 
 # List apps
 def action_list(a):
