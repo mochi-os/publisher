@@ -77,6 +77,9 @@ def action_version_create(a):
 	if not id or len(id) > 51:
 		a.error(400, "Invalid app ID")
 		return
+	if not mochi.entity.get(id):
+		a.error(403, "Access denied")
+		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
 		a.error(404, "App not found")
@@ -144,6 +147,9 @@ def action_track_create(a):
 	if not id or len(id) > 51:
 		a.error(400, "Invalid app ID")
 		return
+	if not mochi.entity.get(id):
+		a.error(403, "Access denied")
+		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
 		a.error(404, "App not found")
@@ -181,6 +187,9 @@ def action_track_set(a):
 	if not id or len(id) > 51:
 		a.error(400, "Invalid app ID")
 		return
+	if not mochi.entity.get(id):
+		a.error(403, "Access denied")
+		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
 		a.error(404, "App not found")
@@ -217,6 +226,9 @@ def action_track_delete(a):
 	if not id or len(id) > 51:
 		a.error(400, "Invalid app ID")
 		return
+	if not mochi.entity.get(id):
+		a.error(403, "Access denied")
+		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
 		a.error(404, "App not found")
@@ -240,6 +252,9 @@ def action_default_track_set(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
 		a.error(400, "Invalid app ID")
+		return
+	if not mochi.entity.get(id):
+		a.error(403, "Access denied")
 		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
