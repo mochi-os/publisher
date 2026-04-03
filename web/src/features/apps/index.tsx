@@ -17,9 +17,9 @@ import {
   getErrorMessage,
   toast,
   CardSkeleton,
-  Skeleton,
   EmptyState,
   GeneralError,
+  PageHeader,
 } from '@mochi/web'
 import { Package, Plus } from 'lucide-react'
 import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
@@ -31,76 +31,81 @@ export function Apps() {
   const [showCreateDialog, setShowCreateDialog] = useState(false)
 
   const { data: apps, isLoading, error, refetch } = useAppsQuery()
-
-  if (isLoading && !apps) {
-    return (
-      <Main>
-        <div className='flex justify-end mb-6'>
-          <Skeleton className='h-10 w-28' />
-        </div>
-        <CardSkeleton count={6} />
-      </Main>
-    )
-  }
+  const openCreateDialog = () => setShowCreateDialog(true)
 
   return (
-    <Main>
-      <div className='mb-6 flex justify-end'>
-        <Button onClick={() => setShowCreateDialog(true)}>
-          <Plus className='mr-2 h-4 w-4' />
-          Create app
-        </Button>
-      </div>
-
-      {error ? (
-        <GeneralError
-          error={error}
-          minimal
-          mode='inline'
-          reset={refetch}
-          className='mb-6'
-        />
-      ) : null}
-
-      {error && !apps ? null : apps?.length === 0 ? (
-        <EmptyState
-          icon={Package}
-          title="No apps yet"
-          description="Create your first app to get started"
-        >
-          <Button onClick={() => setShowCreateDialog(true)}>
-            <Plus className='mr-2 h-4 w-4' />
-            Create app
+    <>
+      <PageHeader
+        title='Publisher'
+        actions={
+          <Button
+            onClick={openCreateDialog}
+            aria-label='Create app'
+            title='Create app'
+            className='h-9 w-9 px-0 sm:h-10 sm:w-auto sm:px-4'
+          >
+            <Plus className='h-4 w-4 sm:mr-2' />
+            <span className='sr-only sm:not-sr-only'>Create app</span>
           </Button>
-        </EmptyState>
-      ) : (
-        <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-3'>
-          {apps?.map((app: App) => (
-            <Card
-              key={app.id}
-              className='flex cursor-pointer flex-col transition-shadow hover:shadow-md'
-              onClick={() => navigate({ to: '/app/$appId', params: { appId: app.id } })}
-            >
-              <CardHeader>
-                <CardTitle className='truncate text-lg'>{app.name}</CardTitle>
-                {app.version && (
-                  <p className='text-muted-foreground text-sm'>{app.version}</p>
-                )}
-              </CardHeader>
-            </Card>
-          ))}
-        </div>
-      )}
-
-      <CreateAppDialog
-        open={showCreateDialog}
-        onOpenChange={setShowCreateDialog}
-        onSuccess={(fingerprint) => {
-          setShowCreateDialog(false)
-          navigate({ to: '/app/$appId', params: { appId: fingerprint } })
-        }}
+        }
       />
-    </Main>
+      <Main>
+        {isLoading && !apps ? (
+          <CardSkeleton count={6} />
+        ) : (
+          <>
+            {error ? (
+              <GeneralError
+                error={error}
+                minimal
+                mode='inline'
+                reset={refetch}
+                className='mb-6'
+              />
+            ) : null}
+
+            {error && !apps ? null : apps?.length === 0 ? (
+              <EmptyState
+                icon={Package}
+                title='No apps yet'
+                description='Create your first app to get started'
+              >
+                <Button onClick={openCreateDialog}>
+                  <Plus className='mr-2 h-4 w-4' />
+                  Create app
+                </Button>
+              </EmptyState>
+            ) : (
+              <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-3'>
+                {apps?.map((app: App) => (
+                  <Card
+                    key={app.id}
+                    className='flex cursor-pointer flex-col transition-shadow hover:shadow-md'
+                    onClick={() => navigate({ to: '/app/$appId', params: { appId: app.id } })}
+                  >
+                    <CardHeader>
+                      <CardTitle className='truncate text-lg'>{app.name}</CardTitle>
+                      {app.version && (
+                        <p className='text-muted-foreground text-sm'>{app.version}</p>
+                      )}
+                    </CardHeader>
+                  </Card>
+                ))}
+              </div>
+            )}
+          </>
+        )}
+
+        <CreateAppDialog
+          open={showCreateDialog}
+          onOpenChange={setShowCreateDialog}
+          onSuccess={(fingerprint) => {
+            setShowCreateDialog(false)
+            navigate({ to: '/app/$appId', params: { appId: fingerprint } })
+          }}
+        />
+      </Main>
+    </>
   )
 }
 
