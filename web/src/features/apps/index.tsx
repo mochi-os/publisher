@@ -37,7 +37,7 @@ export function Apps() {
     <>
       <PageHeader
         title='Publisher'
-        actions={
+        menuAction={
           <Button
             onClick={openCreateDialog}
             aria-label='Create app'
