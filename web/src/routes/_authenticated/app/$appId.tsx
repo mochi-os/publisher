@@ -3,12 +3,12 @@ import { createFileRoute, useNavigate } from '@tanstack/react-router'
 import {
   Button,
   cn,
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
+  ResponsiveDialog,
+  ResponsiveDialogContent,
+  ResponsiveDialogDescription,
+  ResponsiveDialogFooter,
+  ResponsiveDialogHeader,
+  ResponsiveDialogTitle,
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
@@ -487,20 +487,20 @@ function TracksTab({
         </div>
       )}
 
-      <Dialog open={showAddTrack} onOpenChange={(open) => {
+      <ResponsiveDialog open={showAddTrack} onOpenChange={(open) => {
         setShowAddTrack(open)
         if (!open) {
           setNewTrackName('')
           setNewTrackVersion('')
         }
       }}>
-        <DialogContent>
-          <DialogHeader>
-            <DialogTitle>New Release Track</DialogTitle>
-            <DialogDescription>
+        <ResponsiveDialogContent>
+          <ResponsiveDialogHeader>
+            <ResponsiveDialogTitle>New Release Track</ResponsiveDialogTitle>
+            <ResponsiveDialogDescription>
               Create a new environment (e.g. Beta, Staging) to deploy builds.
-            </DialogDescription>
-          </DialogHeader>
+            </ResponsiveDialogDescription>
+          </ResponsiveDialogHeader>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
               <label htmlFor='trackName' className='text-sm font-medium'>
@@ -530,7 +530,7 @@ function TracksTab({
               </Select>
             </div>
           </div>
-          <DialogFooter>
+          <ResponsiveDialogFooter>
             <Button
               variant='outline'
               onClick={() => setShowAddTrack(false)}
@@ -543,9 +543,9 @@ function TracksTab({
             >
               {createTrackMutation.isPending ? 'Creating...' : 'Create Track'}
             </Button>
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
+          </ResponsiveDialogFooter>
+        </ResponsiveDialogContent>
+      </ResponsiveDialog>
     </Section>
   )
 }
@@ -608,14 +608,14 @@ function UploadVersionDialog({
   }
 
   return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent>
-        <DialogHeader>
-          <DialogTitle>Upload New Version</DialogTitle>
-          <DialogDescription>
+    <ResponsiveDialog open={open} onOpenChange={onOpenChange}>
+      <ResponsiveDialogContent>
+        <ResponsiveDialogHeader>
+          <ResponsiveDialogTitle>Upload New Version</ResponsiveDialogTitle>
+          <ResponsiveDialogDescription>
             Upload a .zip build file for your application.
-          </DialogDescription>
-        </DialogHeader>
+          </ResponsiveDialogDescription>
+        </ResponsiveDialogHeader>
         <form onSubmit={handleSubmit}>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
@@ -666,7 +666,7 @@ function UploadVersionDialog({
               </div>
             )}
           </div>
-          <DialogFooter>
+          <ResponsiveDialogFooter>
             <Button
               type='button'
               variant='outline'
@@ -677,9 +677,9 @@ function UploadVersionDialog({
             <Button type='submit' disabled={uploadMutation.isPending}>
               {uploadMutation.isPending ? 'Uploading...' : 'Upload Version'}
             </Button>
-          </DialogFooter>
+          </ResponsiveDialogFooter>
         </form>
-      </DialogContent>
-    </Dialog>
+      </ResponsiveDialogContent>
+    </ResponsiveDialog>
   )
 }

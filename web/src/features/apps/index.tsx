@@ -2,12 +2,12 @@ import { useState } from 'react'
 import { useNavigate } from '@tanstack/react-router'
 import {
   usePageTitle,
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
+  ResponsiveDialog,
+  ResponsiveDialogContent,
+  ResponsiveDialogDescription,
+  ResponsiveDialogFooter,
+  ResponsiveDialogHeader,
+  ResponsiveDialogTitle,
   Button,
   Card,
   CardHeader,
@@ -148,14 +148,14 @@ function CreateAppDialog({
   }
 
   return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent>
-        <DialogHeader>
-          <DialogTitle>Create new app</DialogTitle>
-          <DialogDescription className="sr-only">
+    <ResponsiveDialog open={open} onOpenChange={onOpenChange}>
+      <ResponsiveDialogContent>
+        <ResponsiveDialogHeader>
+          <ResponsiveDialogTitle>Create new app</ResponsiveDialogTitle>
+          <ResponsiveDialogDescription className="sr-only">
             Create app
-          </DialogDescription>
-        </DialogHeader>
+          </ResponsiveDialogDescription>
+        </ResponsiveDialogHeader>
         <form onSubmit={handleSubmit}>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
@@ -184,7 +184,7 @@ function CreateAppDialog({
               </select>
             </div>
           </div>
-          <DialogFooter>
+          <ResponsiveDialogFooter>
             <Button
               type='button'
               variant='outline'
@@ -195,9 +195,9 @@ function CreateAppDialog({
             <Button type='submit' disabled={createMutation.isPending}>
               {createMutation.isPending ? 'Creating...' : <><Plus className="mr-2 h-4 w-4" />Create app</>}
             </Button>
-          </DialogFooter>
+          </ResponsiveDialogFooter>
         </form>
-      </DialogContent>
-    </Dialog>
+      </ResponsiveDialogContent>
+    </ResponsiveDialog>
   )
 }
