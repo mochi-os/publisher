@@ -2,7 +2,7 @@
 // Copyright Alistair Cunningham 2025-2026
 
 {
-	"version": "1.77",
+	"version": "2.1",
 	"label": "app_name",
 	"paths": ["publisher"],
 	"services": ["publisher"],
@@ -12,7 +12,7 @@
 	"execute": ["publisher.star"],
 
 	"database": {
-		"schema": 2,
+		"schema": 3,
 		"file": "publisher.db",
 		"create": {"function": "database_create"},
 		"upgrade": {"function": "database_upgrade"}
@@ -34,7 +34,8 @@
 		":app/-/track/create": {"function": "action_track_create"},
 		":app/-/track/set": {"function": "action_track_set"},
 		":app/-/track/delete": {"function": "action_track_delete"},
-		":app/-/default-track/set": {"function": "action_default_track_set"}
+		":app/-/default-track/set": {"function": "action_default_track_set"},
+		":app/-/distribution/set": {"function": "action_distribution_set"}
 	},
 
 	"events": {

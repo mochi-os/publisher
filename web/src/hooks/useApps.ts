@@ -111,3 +111,14 @@ export const useSetDefaultTrackMutation = () => {
     },
   })
 }
+
+export const useSetDistributionMutation = () => {
+  const queryClient = useQueryClient()
+  return useMutation({
+    mutationFn: ({ appId, distribution }: { appId: string; distribution: string }) =>
+      appsApi.setDistribution(appId, distribution),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: appKeys.all() })
+    },
+  })
+}

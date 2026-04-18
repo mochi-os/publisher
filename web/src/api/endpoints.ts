@@ -14,6 +14,7 @@ const endpoints = {
     trackSet: (id: string) => `${id}/-/track/set`,
     trackDelete: (id: string) => `${id}/-/track/delete`,
     defaultTrackSet: (id: string) => `${id}/-/default-track/set`,
+    distributionSet: (id: string) => `${id}/-/distribution/set`,
   },
 } as const
 

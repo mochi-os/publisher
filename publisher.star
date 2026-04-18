@@ -3,14 +3,17 @@
 
 # Create database
 def database_create():
-	mochi.db.execute("create table apps ( id text not null primary key, name text not null, privacy text not null default 'public', default_track text not null default 'Production' )")
+	mochi.db.execute("create table apps ( id text not null primary key, name text not null, privacy text not null default 'public', default_track text not null default 'Production', distribution text not null default 'published' )")
 	mochi.db.execute("create table versions ( app references apps( id ), version text not null, file text not null, primary key ( app, version ) )")
 	mochi.db.execute("create index versions_file on versions( file )")
 	mochi.db.execute("create table tracks ( app references apps( id ), track text not null, version text not null, primary key ( app, track ) )")
 
 # Upgrade database to specified schema version
 def database_upgrade(version):
-	pass
+	if version == 3:
+		cols = [r["name"] for r in mochi.db.table("apps")]
+		if "distribution" not in cols:
+			mochi.db.execute("alter table apps add column distribution text not null default 'published'")
 
 # List apps
 def action_list(a):
@@ -37,8 +40,12 @@ def action_view(a):
 	# Check if user is authenticated and is an administrator
 	is_admin = a.user and a.user.role == "administrator"
 
-	# For anonymous users or non-admins, return public share info only (filter empty tracks)
+	# For anonymous users or non-admins, return public share info only (filter empty tracks).
+	# Restricted apps deny existence to non-admins so they have no public share page.
 	if not is_admin:
+		if app.get("distribution") == "restricted":
+			a.error(404, "App not found")
+			return
 		tracks = [t for t in tracks_all if t.get("version")]
 		return {"data": {"app": app, "tracks": tracks, "versions": [], "administrator": False, "share": True, "publisher": publisher}}
 
@@ -58,12 +65,17 @@ def action_create(a):
 		a.error(400, "Invalid privacy")
 		return
 
+	distribution = a.input("distribution", "published")
+	if distribution not in ("published", "restricted"):
+		a.error(400, "Invalid distribution")
+		return
+
 	id = mochi.entity.create("app", name, privacy)
 	if not id:
 		a.error(500, "Failed to create app entity")
 		return
 
-	mochi.db.execute("replace into apps ( id, name, privacy ) values ( ?, ?, ? )", id, name, privacy)
+	mochi.db.execute("replace into apps ( id, name, privacy, distribution ) values ( ?, ?, ?, ? )", id, name, privacy, distribution)
 
 	# Create default tracks
 	mochi.db.execute("insert into tracks ( app, track, version ) values ( ?, 'Production', '' )", id)
@@ -276,13 +288,14 @@ def action_default_track_set(a):
 	return {"data": {"default_track": track}}
 
 # Receive a request for information about an app
-# Private apps are accessible if the requester knows the publisher ID
+# Private apps are accessible if the requester knows the publisher ID.
+# Apps with distribution='restricted' deny existence to remote callers.
 def event_information(e):
 	app_id = e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
-	if not a:
+	if not a or a.get("distribution") == "restricted":
 		return e.write({"status": "404", "message": "App not found"})
 
 	e.write({"status": "200"})
@@ -290,13 +303,14 @@ def event_information(e):
 	e.write(mochi.db.rows("select track, version from tracks where app=?", a["id"]))
 
 # Receive a request to download an app
-# Private apps are accessible if the requester knows the publisher ID
+# Private apps are accessible if the requester knows the publisher ID.
+# Apps with distribution='restricted' deny existence to remote callers.
 def event_get(e):
 	app_id = e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
-	if not a:
+	if not a or a.get("distribution") == "restricted":
 		return e.write({"status": "404", "message": "App not found"})
 
 	version = e.content("version")
@@ -314,14 +328,15 @@ def event_get(e):
 	e.write_from_file(v["file"])
 
 # Receive a request to get version for requested track
-# Private apps are accessible if the requester knows the publisher ID
+# Private apps are accessible if the requester knows the publisher ID.
+# Apps with distribution='restricted' deny existence to remote callers.
 # If no track specified, uses the app's default track
 def event_version(e):
 	app_id = e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
-	if not a:
+	if not a or a.get("distribution") == "restricted":
 		return e.write({"status": "404", "message": "App not found"})
 
 	# Use default track if none specified
@@ -346,6 +361,28 @@ def event_version(e):
 		"default_track": a["default_track"],
 		"tracks": all_tracks                # All tracks for 0.3+ clients
 	})
+
+# Set the distribution policy for an app (published/restricted)
+def action_distribution_set(a):
+	id = a.input("app")
+	if not id or len(id) > 51:
+		a.error(400, "Invalid app ID")
+		return
+	if not mochi.entity.get(id):
+		a.error(403, "Access denied")
+		return
+	app = mochi.db.row("select * from apps where id=?", id)
+	if not app:
+		a.error(404, "App not found")
+		return
+
+	distribution = a.input("distribution")
+	if distribution not in ("published", "restricted"):
+		a.error(400, "Invalid distribution")
+		return
+
+	mochi.db.execute("update apps set distribution=? where id=?", distribution, id)
+	return {"data": {"distribution": distribution}}
 
 # Service function: Get tracks for an app (for local calls from other apps)
 def function_tracks(context, app_id):

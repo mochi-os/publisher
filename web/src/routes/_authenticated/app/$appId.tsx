@@ -41,6 +41,7 @@ import {
   useSetTrackMutation,
   useDeleteTrackMutation,
   useSetDefaultTrackMutation,
+  useSetDistributionMutation,
 } from '@/hooks/useApps'
 
 type TabId = 'details' | 'versions' | 'tracks'
@@ -60,8 +61,23 @@ function AppPage() {
   const { appId } = Route.useParams()
   const navigate = useNavigate()
   const { data, isLoading, isError, error, refetch } = useAppQuery(appId)
+  const setDistributionMutation = useSetDistributionMutation()
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [showAddTrack, setShowAddTrack] = useState(false)
+
+  const handleSetDistribution = (distribution: string) => {
+    setDistributionMutation.mutate(
+      { appId, distribution },
+      {
+        onSuccess: () => {
+          toast.success(`Distribution set to ${distribution}`)
+        },
+        onError: (error) => {
+          toast.error(getErrorMessage(error, 'Failed to update distribution'))
+        },
+      }
+    )
+  }
   const navigateApp = Route.useNavigate()
   const { tab } = Route.useSearch()
   const activeTab = tab ?? 'details'
@@ -194,6 +210,21 @@ function AppPage() {
                         <DataChip value="Private" icon={<Lock className="size-3.5" />} copyable={false} />
                       )}
                     </div>
+                  </FieldRow>
+                  <FieldRow label="Distribution">
+                    <Select
+                      value={app.distribution ?? 'published'}
+                      onValueChange={handleSetDistribution}
+                      disabled={setDistributionMutation.isPending}
+                    >
+                      <SelectTrigger className='w-36 h-8 text-xs'>
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value='published'>Published</SelectItem>
+                        <SelectItem value='restricted'>Restricted</SelectItem>
+                      </SelectContent>
+                    </Select>
                   </FieldRow>
                 </div>
               </Section>

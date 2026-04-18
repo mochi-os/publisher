@@ -117,6 +117,17 @@ const setDefaultTrack = async (
   return response
 }
 
+const setDistribution = async (
+  appId: string,
+  distribution: string
+): Promise<{ distribution: string }> => {
+  const response = await requestHelpers.post<{ distribution: string }>(
+    endpoints.apps.distributionSet(appId),
+    { app: appId, distribution }
+  )
+  return response
+}
+
 const appsApi = {
   list: listApps,
   get: getApp,
@@ -126,6 +137,7 @@ const appsApi = {
   setTrack,
   deleteTrack,
   setDefaultTrack,
+  setDistribution,
 }
 
 export default appsApi

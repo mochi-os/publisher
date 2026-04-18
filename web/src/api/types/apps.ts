@@ -2,6 +2,7 @@ export interface App {
   id: string
   name: string
   privacy: string
+  distribution?: string
   version?: string
   fingerprint?: string
   default_track?: string

@@ -77,20 +77,27 @@ export function Apps() {
               </EmptyState>
             ) : (
               <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-3'>
-                {apps?.map((app: App) => (
-                  <Card
-                    key={app.id}
-                    className='flex cursor-pointer flex-col transition-shadow hover:shadow-md'
-                    onClick={() => navigate({ to: '/app/$appId', params: { appId: app.id } })}
-                  >
-                    <CardHeader>
-                      <CardTitle className='truncate text-lg'>{app.name}</CardTitle>
-                      {app.version && (
-                        <p className='text-muted-foreground text-sm'>{app.version}</p>
-                      )}
-                    </CardHeader>
-                  </Card>
-                ))}
+                {apps?.map((app: App) => {
+                  const privacyLabel = app.privacy === 'public' ? 'Public' : 'Private'
+                  const distributionLabel = app.distribution === 'restricted' ? 'Restricted' : 'Published'
+                  return (
+                    <Card
+                      key={app.id}
+                      className='flex cursor-pointer flex-col transition-shadow hover:shadow-md'
+                      onClick={() => navigate({ to: '/app/$appId', params: { appId: app.id } })}
+                    >
+                      <CardHeader>
+                        <CardTitle className='truncate text-lg'>{app.name}</CardTitle>
+                        {app.version && (
+                          <p className='text-muted-foreground text-sm'>{app.version}</p>
+                        )}
+                        <p className='text-muted-foreground text-xs'>
+                          {privacyLabel} · {distributionLabel}
+                        </p>
+                      </CardHeader>
+                    </Card>
+                  )
+                })}
               </div>
             )}
           </>
