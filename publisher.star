@@ -297,14 +297,16 @@ def action_default_track_set(a):
 
 # Receive a request for information about an app
 # Private apps are accessible if the requester knows the publisher ID.
-# Apps with distribution='restricted' deny existence to remote callers.
+# Apps with distribution='restricted' refuse to serve metadata to remote callers.
 def event_information(e):
 	app_id = e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
-	if not a or a.get("distribution") == "restricted":
+	if not a:
 		return e.write({"status": "404", "message": "App not found"})
+	if a.get("distribution") == "restricted":
+		return e.write({"status": "403", "message": "This app is private"})
 
 	e.write({"status": "200"})
 	e.write({"id": a["id"], "name": a["name"], "privacy": a["privacy"], "default_track": a["default_track"]})
@@ -312,14 +314,16 @@ def event_information(e):
 
 # Receive a request to download an app
 # Private apps are accessible if the requester knows the publisher ID.
-# Apps with distribution='restricted' deny existence to remote callers.
+# Apps with distribution='restricted' refuse to serve the package to remote callers.
 def event_get(e):
 	app_id = e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
-	if not a or a.get("distribution") == "restricted":
+	if not a:
 		return e.write({"status": "404", "message": "App not found"})
+	if a.get("distribution") == "restricted":
+		return e.write({"status": "403", "message": "This app is private"})
 
 	version = e.content("version")
 	if not version or len(version) > 50:
@@ -337,15 +341,17 @@ def event_get(e):
 
 # Receive a request to get version for requested track
 # Private apps are accessible if the requester knows the publisher ID.
-# Apps with distribution='restricted' deny existence to remote callers.
+# Apps with distribution='restricted' refuse to serve track info to remote callers.
 # If no track specified, uses the app's default track
 def event_version(e):
 	app_id = e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
-	if not a or a.get("distribution") == "restricted":
+	if not a:
 		return e.write({"status": "404", "message": "App not found"})
+	if a.get("distribution") == "restricted":
+		return e.write({"status": "403", "message": "This app is private"})
 
 	# Use default track if none specified
 	track = e.content("track", "")
