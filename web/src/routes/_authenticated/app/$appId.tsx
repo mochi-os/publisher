@@ -197,7 +197,7 @@ function AppPage() {
               <Section title="Identity" description="Core identification for this application">
                 <div className="divide-y-0">
                   <FieldRow label="Application ID">
-                    <DataChip value={app.id} truncate='middle' />
+                    <DataChip value={app.id} />
                   </FieldRow>
                   <FieldRow label="Fingerprint">
                     <DataChip value={app.fingerprint || ''} truncate='middle' />
@@ -238,7 +238,7 @@ function AppPage() {
                     Users can install this application by pasting this identifier into their Apps management page.
                   </p>
                   <FieldRow label="Installation ID">
-                    <DataChip value={shareString} truncate='middle' />
+                    <DataChip value={shareString} />
                   </FieldRow>
                 </div>
               </Section>
@@ -321,7 +321,7 @@ function SharePage({
                 Copy this ID and paste it in your Mochi server's Apps page to install.
               </p>
               <FieldRow label="App ID">
-                <DataChip value={shareString} truncate='middle' />
+                <DataChip value={shareString} />
               </FieldRow>
             </div>
           </Section>
