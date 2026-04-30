@@ -2,7 +2,7 @@
 // Copyright Alistair Cunningham 2025-2026
 
 {
-	"version": "2.11",
+	"version": "2.12",
 	"label": "app_name",
 	"paths": ["publisher"],
 	"services": ["publisher"],
@@ -12,7 +12,7 @@
 	"execute": ["publisher.star"],
 
 	"database": {
-		"schema": 3,
+		"schema": 4,
 		"file": "publisher.db",
 		"create": {"function": "database_create"},
 		"upgrade": {"function": "database_upgrade"}

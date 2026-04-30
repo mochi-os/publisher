@@ -14,6 +14,13 @@ def database_upgrade(version):
 		cols = [r["name"] for r in mochi.db.table("apps")]
 		if "distribution" not in cols:
 			mochi.db.execute("alter table apps add column distribution text not null default 'published'")
+	if version == 4:
+		# Restricted apps must not appear in the directory. Sync entity privacy
+		# for any locally-published restricted app whose entity is still public.
+		for app in mochi.db.rows("select id from apps where distribution='restricted'"):
+			e = mochi.entity.get(app["id"])
+			if e and e.get("privacy") == "public":
+				mochi.entity.update(app["id"], privacy="private")
 
 # List apps
 def action_list(a):
@@ -382,6 +389,14 @@ def action_distribution_set(a):
 		return
 
 	mochi.db.execute("update apps set distribution=? where id=?", distribution, id)
+
+	# Sync entity privacy: restricted apps must not appear in the directory.
+	# When un-restricting, fall back to the privacy the app was created with.
+	if distribution == "restricted":
+		mochi.entity.update(id, privacy="private")
+	else:
+		mochi.entity.update(id, privacy=app["privacy"])
+
 	return {"data": {"distribution": distribution}}
 
 # Service function: Get tracks for an app (for local calls from other apps)
