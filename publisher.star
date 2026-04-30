@@ -32,11 +32,11 @@ def action_list(a):
 def action_view(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		a.error(400, "Invalid app ID")
+		a.error_label(400, "errors.invalid_app_id")
 		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		a.error(404, "App not found")
+		a.error_label(404, "errors.app_not_found")
 		return
 
 	app["fingerprint"] = mochi.entity.fingerprint(app["id"], True)
@@ -52,7 +52,7 @@ def action_view(a):
 	# Restricted apps deny existence to non-admins so they have no public share page.
 	if not is_admin:
 		if app.get("distribution") == "restricted":
-			a.error(404, "App not found")
+			a.error_label(404, "errors.app_not_found")
 			return
 		tracks = [t for t in tracks_all if t.get("version")]
 		return {"data": {"app": app, "tracks": tracks, "versions": [], "administrator": False, "share": True, "publisher": publisher}}
@@ -65,22 +65,22 @@ def action_view(a):
 def action_create(a):
 	name = a.input("name")
 	if not mochi.valid(name, "name"):
-		a.error(400, "Invalid app name")
+		a.error_label(400, "errors.invalid_app_name")
 		return
 
 	privacy = a.input("privacy")
 	if not mochi.valid(privacy, "privacy"):
-		a.error(400, "Invalid privacy")
+		a.error_label(400, "errors.invalid_privacy")
 		return
 
 	distribution = a.input("distribution", "published")
 	if distribution not in ("published", "restricted"):
-		a.error(400, "Invalid distribution")
+		a.error_label(400, "errors.invalid_distribution")
 		return
 
 	id = mochi.entity.create("app", name, privacy)
 	if not id:
-		a.error(500, "Failed to create app entity")
+		a.error_label(500, "errors.failed_to_create_app_entity")
 		return
 
 	mochi.db.execute("replace into apps ( id, name, privacy, distribution ) values ( ?, ?, ?, ? )", id, name, privacy, distribution)
@@ -95,19 +95,19 @@ def action_create(a):
 def action_version_create(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		a.error(400, "Invalid app ID")
+		a.error_label(400, "errors.invalid_app_id")
 		return
 	if not mochi.entity.get(id):
-		a.error(403, "Access denied")
+		a.error_label(403, "errors.access_denied")
 		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		a.error(404, "App not found")
+		a.error_label(404, "errors.app_not_found")
 		return
 
 	file = a.input("file")
 	if not mochi.valid(file, "filename"):
-		a.error(400, "File name invalid")
+		a.error_label(400, "errors.file_name_invalid")
 		return
 
 	a.upload("file", file)
@@ -118,7 +118,7 @@ def action_version_create(a):
 		new_info = mochi.app.package.get(file)
 		if not new_info:
 			mochi.file.delete(file)
-			a.error(400, "Failed to read app info from archive")
+			a.error_label(400, "errors.failed_to_read_app_info_from_archive")
 			return
 
 		# Get the latest existing version
@@ -137,7 +137,7 @@ def action_version_create(a):
 	version = mochi.app.package.install(app["id"], file, not install)
 	if not version:
 		mochi.file.delete(file)
-		a.error(500, "Failed to install app version")
+		a.error_label(500, "errors.failed_to_install_app_version")
 		return
 
 	# Set the installed version as the system default
@@ -165,37 +165,37 @@ def action_version_create(a):
 def action_track_create(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		a.error(400, "Invalid app ID")
+		a.error_label(400, "errors.invalid_app_id")
 		return
 	if not mochi.entity.get(id):
-		a.error(403, "Access denied")
+		a.error_label(403, "errors.access_denied")
 		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		a.error(404, "App not found")
+		a.error_label(404, "errors.app_not_found")
 		return
 
 	track = a.input("track")
 	if not track or len(track) > 50 or not track.replace("-", "").replace("_", "").isalnum():
-		a.error(400, "Invalid track name")
+		a.error_label(400, "errors.invalid_track_name")
 		return
 
 	version = a.input("version", "")
 	if len(version) > 50:
-		a.error(400, "Invalid version")
+		a.error_label(400, "errors.invalid_version")
 		return
 
 	# Verify version exists (only if provided)
 	if version:
 		v = mochi.db.row("select 1 from versions where app=? and version=?", id, version)
 		if not v:
-			a.error(404, "Version not found")
+			a.error_label(404, "errors.version_not_found")
 			return
 
 	# Check track doesn't already exist
 	existing = mochi.db.row("select 1 from tracks where app=? and track=?", id, track)
 	if existing:
-		a.error(400, "Track already exists")
+		a.error_label(400, "errors.track_already_exists")
 		return
 
 	mochi.db.execute("insert into tracks (app, track, version) values (?, ?, ?)", id, track, version)
@@ -205,36 +205,36 @@ def action_track_create(a):
 def action_track_set(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		a.error(400, "Invalid app ID")
+		a.error_label(400, "errors.invalid_app_id")
 		return
 	if not mochi.entity.get(id):
-		a.error(403, "Access denied")
+		a.error_label(403, "errors.access_denied")
 		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		a.error(404, "App not found")
+		a.error_label(404, "errors.app_not_found")
 		return
 
 	track = a.input("track")
 	if not track or len(track) > 50:
-		a.error(400, "Invalid track name")
+		a.error_label(400, "errors.invalid_track_name")
 		return
 
 	version = a.input("version")
 	if not version or len(version) > 50:
-		a.error(400, "Invalid version")
+		a.error_label(400, "errors.invalid_version")
 		return
 
 	# Verify version exists
 	v = mochi.db.row("select 1 from versions where app=? and version=?", id, version)
 	if not v:
-		a.error(404, "Version not found")
+		a.error_label(404, "errors.version_not_found")
 		return
 
 	# Verify track exists
 	t = mochi.db.row("select 1 from tracks where app=? and track=?", id, track)
 	if not t:
-		a.error(404, "Track not found")
+		a.error_label(404, "errors.track_not_found")
 		return
 
 	mochi.db.execute("update tracks set version=? where app=? and track=?", version, id, track)
@@ -244,24 +244,24 @@ def action_track_set(a):
 def action_track_delete(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		a.error(400, "Invalid app ID")
+		a.error_label(400, "errors.invalid_app_id")
 		return
 	if not mochi.entity.get(id):
-		a.error(403, "Access denied")
+		a.error_label(403, "errors.access_denied")
 		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		a.error(404, "App not found")
+		a.error_label(404, "errors.app_not_found")
 		return
 
 	track = a.input("track")
 	if not track or len(track) > 50:
-		a.error(400, "Invalid track name")
+		a.error_label(400, "errors.invalid_track_name")
 		return
 
 	# Don't allow deleting the default track
 	if track == app["default_track"]:
-		a.error(400, "Cannot delete the default track")
+		a.error_label(400, "errors.cannot_delete_the_default_track")
 		return
 
 	mochi.db.execute("delete from tracks where app=? and track=?", id, track)
@@ -271,25 +271,25 @@ def action_track_delete(a):
 def action_default_track_set(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		a.error(400, "Invalid app ID")
+		a.error_label(400, "errors.invalid_app_id")
 		return
 	if not mochi.entity.get(id):
-		a.error(403, "Access denied")
+		a.error_label(403, "errors.access_denied")
 		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		a.error(404, "App not found")
+		a.error_label(404, "errors.app_not_found")
 		return
 
 	track = a.input("track")
 	if not track or len(track) > 50:
-		a.error(400, "Invalid track name")
+		a.error_label(400, "errors.invalid_track_name")
 		return
 
 	# Verify track exists
 	t = mochi.db.row("select 1 from tracks where app=? and track=?", id, track)
 	if not t:
-		a.error(404, "Track not found")
+		a.error_label(404, "errors.track_not_found")
 		return
 
 	mochi.db.execute("update apps set default_track=? where id=?", track, id)
@@ -380,19 +380,19 @@ def event_version(e):
 def action_distribution_set(a):
 	id = a.input("app")
 	if not id or len(id) > 51:
-		a.error(400, "Invalid app ID")
+		a.error_label(400, "errors.invalid_app_id")
 		return
 	if not mochi.entity.get(id):
-		a.error(403, "Access denied")
+		a.error_label(403, "errors.access_denied")
 		return
 	app = mochi.db.row("select * from apps where id=?", id)
 	if not app:
-		a.error(404, "App not found")
+		a.error_label(404, "errors.app_not_found")
 		return
 
 	distribution = a.input("distribution")
 	if distribution not in ("published", "restricted"):
-		a.error(400, "Invalid distribution")
+		a.error_label(400, "errors.invalid_distribution")
 		return
 
 	mochi.db.execute("update apps set distribution=? where id=?", distribution, id)
