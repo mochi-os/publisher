@@ -13,3 +13,304 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/routes/_authenticated/app/$appId.tsx:477
+msgid "Active version"
+msgstr "Version active\"#: src/routes/_authenticated/app/$appId.tsx:251"
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "All uploaded build files for this application"
+msgstr "Tous les fichiers de build téléversés pour cette application\"#: src/routes/_authenticated/app/$appId.tsx:126"
+
+#: src/routes/_authenticated/app/$appId.tsx:126
+msgid "App"
+msgstr "Application\"#: src/features/apps/index.tsx:146"
+
+#: src/features/apps/index.tsx:146
+msgid "App created"
+msgstr "Application créée\"#: src/routes/_authenticated/app/$appId.tsx:326"
+
+#: src/routes/_authenticated/app/$appId.tsx:326
+msgid "App ID"
+msgstr "ID de l'application\"#: src/routes/_authenticated/app/$appId.tsx:141"
+
+#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:116
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:141
+msgid "App not found"
+msgstr "Application introuvable\"#: src/routes/_authenticated/app/$appId.tsx:201"
+
+#: src/routes/_authenticated/app/$appId.tsx:201
+msgid "Application ID"
+msgstr "ID de l'application\"#: src/routes/_authenticated/app/$appId.tsx:348"
+
+#: src/routes/_authenticated/app/$appId.tsx:348
+msgid "Available Versions"
+msgstr "Versions disponibles\"#: src/features/apps/index.tsx:203"
+
+#: src/features/apps/index.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:711
+msgid "Cancel"
+msgstr "Annuler\"#: src/routes/_authenticated/app/$appId.tsx:324"
+
+#: src/routes/_authenticated/app/$appId.tsx:324
+msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
+msgstr "Copiez cet ID et collez-le dans la page Applications de votre serveur Mochi pour l'installer.\"#: src/routes/_authenticated/app/$appId.tsx:199"
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Core identification for this application"
+msgstr "Identification principale de cette application\"#: src/routes/_authenticated/app/$appId.tsx:536"
+
+#: src/routes/_authenticated/app/$appId.tsx:536
+msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
+msgstr "Créez un nouvel environnement (par exemple Bêta, Préproduction) pour déployer des builds.\"#: src/features/apps/index.tsx:206"
+
+#: src/features/apps/index.tsx:45
+#: src/features/apps/index.tsx:46
+#: src/features/apps/index.tsx:50
+#: src/features/apps/index.tsx:77
+#: src/features/apps/index.tsx:166
+#: src/features/apps/index.tsx:206
+msgid "Create app"
+msgstr "Créer l'application\"#: src/features/apps/index.tsx:164"
+
+#: src/features/apps/index.tsx:164
+msgid "Create new app"
+msgstr "Créer une nouvelle application\"#: src/routes/_authenticated/app/$appId.tsx:191"
+
+#: src/routes/_authenticated/app/$appId.tsx:191
+msgid "Create track"
+msgstr "Créer une piste\"#: src/features/apps/index.tsx:73"
+
+#: src/features/apps/index.tsx:73
+msgid "Create your first app to get started"
+msgstr "Créez votre première application pour commencer\"#: src/routes/_authenticated/app/$appId.tsx:460"
+
+#: src/routes/_authenticated/app/$appId.tsx:460
+msgid "Create your first release track to manage deployments"
+msgstr "Créez votre première piste de publication pour gérer les déploiements\"#: src/routes/_authenticated/app/$appId.tsx:515"
+
+#: src/routes/_authenticated/app/$appId.tsx:515
+msgid "Delete track"
+msgstr "Supprimer la piste\"#: src/routes/_authenticated/app/$appId.tsx:332"
+
+#: src/routes/_authenticated/app/$appId.tsx:332
+msgid "Details"
+msgstr "Détails\"#: src/routes/_authenticated/app/$appId.tsx:216"
+
+#: src/routes/_authenticated/app/$appId.tsx:216
+msgid "Distribution"
+msgstr "Distribution\"#: src/features/apps/index.tsx:154"
+
+#: src/features/apps/index.tsx:154
+msgid "Failed to create app"
+msgstr "Échec de la création de l'application\"#: src/routes/_authenticated/app/$appId.tsx:402"
+
+#: src/routes/_authenticated/app/$appId.tsx:402
+msgid "Failed to create track"
+msgstr "Échec de la création de la piste\"#: src/routes/_authenticated/app/$appId.tsx:430"
+
+#: src/routes/_authenticated/app/$appId.tsx:430
+msgid "Failed to delete track"
+msgstr "Échec de la suppression de la piste\"#: src/routes/_authenticated/app/$appId.tsx:444"
+
+#: src/routes/_authenticated/app/$appId.tsx:444
+msgid "Failed to set default track"
+msgstr "Échec de la définition de la piste par défaut\"#: src/routes/_authenticated/app/$appId.tsx:78"
+
+#: src/routes/_authenticated/app/$appId.tsx:78
+msgid "Failed to update distribution"
+msgstr "Échec de la mise à jour de la distribution\"#: src/routes/_authenticated/app/$appId.tsx:416"
+
+#: src/routes/_authenticated/app/$appId.tsx:416
+msgid "Failed to update track"
+msgstr "Échec de la mise à jour de la piste\"#: src/routes/_authenticated/app/$appId.tsx:640"
+
+#: src/routes/_authenticated/app/$appId.tsx:640
+msgid "Failed to upload version"
+msgstr "Échec du téléversement de la version\"#: src/routes/_authenticated/app/$appId.tsx:204"
+
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:334
+msgid "Fingerprint"
+msgstr "Empreinte\"#: src/routes/_authenticated/app/$appId.tsx:199"
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Identity"
+msgstr "Identité\"#: src/routes/_authenticated/app/$appId.tsx:552"
+
+#: src/routes/_authenticated/app/$appId.tsx:552
+msgid "Initial Version"
+msgstr "Version initiale\"#: src/routes/_authenticated/app/$appId.tsx:321"
+
+#: src/routes/_authenticated/app/$appId.tsx:321
+msgid "Install App"
+msgstr "Installer l'application\"#: src/routes/_authenticated/app/$appId.tsx:672"
+
+#: src/routes/_authenticated/app/$appId.tsx:672
+msgid "Install Locally"
+msgstr "Installer localement\"#: src/routes/_authenticated/app/$appId.tsx:321"
+
+#: src/routes/_authenticated/app/$appId.tsx:321
+msgid "Install this application to your server"
+msgstr "Installer cette application sur votre serveur\"#: src/routes/_authenticated/app/$appId.tsx:242"
+
+#: src/routes/_authenticated/app/$appId.tsx:242
+msgid "Installation ID"
+msgstr "ID d'installation\"#: src/routes/_authenticated/app/$appId.tsx:558"
+
+#: src/routes/_authenticated/app/$appId.tsx:558
+msgid "Leave empty"
+msgstr "Laisser vide\"#: src/routes/_authenticated/app/$appId.tsx:98"
+
+#: src/routes/_authenticated/app/$appId.tsx:98
+msgid "Loading app..."
+msgstr "Chargement de l'application...\"#: src/features/apps/index.tsx:184"
+
+#: src/features/apps/index.tsx:184
+msgid "Make app publicly available"
+msgstr "Rendre l'application publique\"#: src/routes/_authenticated/app/$appId.tsx:453"
+
+#: src/routes/_authenticated/app/$appId.tsx:453
+msgid "Manage deployment environments and their versions"
+msgstr "Gérer les environnements de déploiement et leurs versions\"#: src/routes/_authenticated/app/$appId.tsx:332"
+
+#: src/routes/_authenticated/app/$appId.tsx:332
+msgid "Metadata and configuration"
+msgstr "Métadonnées et configuration\"#: src/features/apps/index.tsx:179"
+
+#: src/features/apps/index.tsx:179
+msgid "My App"
+msgstr "Mon application\"#: src/features/apps/index.tsx:173"
+
+#: src/features/apps/index.tsx:173
+msgid "Name"
+msgstr "Nom\"#: src/routes/_authenticated/app/$appId.tsx:534"
+
+#: src/routes/_authenticated/app/$appId.tsx:534
+msgid "New Release Track"
+msgstr "Nouvelle piste de publication\"#: src/features/apps/index.tsx:72"
+
+#: src/features/apps/index.tsx:72
+msgid "No apps yet"
+msgstr "Aucune application pour le moment\"#: src/routes/_authenticated/app/$appId.tsx:459"
+
+#: src/routes/_authenticated/app/$appId.tsx:459
+msgid "No tracks"
+msgstr "Aucune piste\"#: src/routes/_authenticated/app/$appId.tsx:555"
+
+#: src/routes/_authenticated/app/$appId.tsx:555
+msgid "No version"
+msgstr "Aucune version\"#: src/routes/_authenticated/app/$appId.tsx:256"
+
+#: src/routes/_authenticated/app/$appId.tsx:256
+msgid "No versions"
+msgstr "Aucune version\"#: src/routes/_authenticated/app/$appId.tsx:498"
+
+#: src/routes/_authenticated/app/$appId.tsx:498
+msgid "Open track actions"
+msgstr "Ouvrir les actions de la piste\"#: src/features/apps/index.tsx:138"
+
+#: src/features/apps/index.tsx:138
+msgid "Please enter an app name"
+msgstr "Veuillez saisir un nom d'application\"#: src/routes/_authenticated/app/$appId.tsx:617"
+
+#: src/routes/_authenticated/app/$appId.tsx:617
+msgid "Please select a file"
+msgstr "Veuillez sélectionner un fichier\"#: src/routes/_authenticated/app/$appId.tsx:337"
+
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "Privacy"
+msgstr "Confidentialité\"#: src/routes/_authenticated/app/$appId.tsx:207"
+
+#: src/routes/_authenticated/app/$appId.tsx:207
+msgid "Privacy Policy"
+msgstr "Politique de confidentialité\"#: src/routes/_authenticated/app/$appId.tsx:226"
+
+#: src/routes/_authenticated/app/$appId.tsx:226
+msgid "Published"
+msgstr "Publié\"#: src/features/apps/index.tsx:41"
+
+#: src/features/apps/index.tsx:31
+#: src/features/apps/index.tsx:41
+msgid "Publisher"
+msgstr "Éditeur\"#: src/routes/_authenticated/app/$appId.tsx:452"
+
+#: src/routes/_authenticated/app/$appId.tsx:452
+msgid "Release Tracks"
+msgstr "Pistes de publication\"#: src/routes/_authenticated/app/$appId.tsx:348"
+
+#: src/routes/_authenticated/app/$appId.tsx:348
+msgid "Release tracks currently active"
+msgstr "Pistes de publication actuellement actives\"#: src/routes/_authenticated/app/$appId.tsx:227"
+
+#: src/routes/_authenticated/app/$appId.tsx:227
+msgid "Restricted"
+msgstr "Restreint\"#: src/routes/_authenticated/app/$appId.tsx:508"
+
+#: src/routes/_authenticated/app/$appId.tsx:508
+msgid "Set as default"
+msgstr "Définir par défaut\"#: src/routes/_authenticated/app/$appId.tsx:236"
+
+#: src/routes/_authenticated/app/$appId.tsx:236
+msgid "Share this ID to allow others to install this app"
+msgstr "Partagez cet ID pour permettre à d'autres d'installer cette application\"#: src/routes/_authenticated/app/$appId.tsx:235"
+
+#: src/routes/_authenticated/app/$appId.tsx:235
+msgid "Sharing"
+msgstr "Partage\"#: src/routes/_authenticated/app/$appId.tsx:142"
+
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:142
+msgid "The requested app could not be found."
+msgstr "L'application demandée est introuvable.\"#: src/routes/_authenticated/app/$appId.tsx:396"
+
+#: src/routes/_authenticated/app/$appId.tsx:396
+msgid "Track created"
+msgstr "Piste créée\"#: src/routes/_authenticated/app/$appId.tsx:542"
+
+#: src/routes/_authenticated/app/$appId.tsx:542
+msgid "Track Name"
+msgstr "Nom de la piste\"#: src/routes/_authenticated/app/$appId.tsx:688"
+
+#: src/routes/_authenticated/app/$appId.tsx:688
+msgid "Update Tracks"
+msgstr "Mettre à jour les pistes\"#: src/routes/_authenticated/app/$appId.tsx:652"
+
+#: src/routes/_authenticated/app/$appId.tsx:652
+msgid "Upload a .zip build file for your application."
+msgstr "Téléversez un fichier de build .zip pour votre application.\"#: src/routes/_authenticated/app/$appId.tsx:185"
+
+#: src/routes/_authenticated/app/$appId.tsx:185
+msgid "Upload new version"
+msgstr "Téléverser une nouvelle version\"#: src/routes/_authenticated/app/$appId.tsx:650"
+
+#: src/routes/_authenticated/app/$appId.tsx:650
+msgid "Upload New Version"
+msgstr "Téléverser une nouvelle version\"#: src/routes/_authenticated/app/$appId.tsx:257"
+
+#: src/routes/_authenticated/app/$appId.tsx:257
+msgid "Upload your first build to get started"
+msgstr "Téléversez votre premier build pour commencer\"#: src/routes/_authenticated/app/$appId.tsx:240"
+
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Users can install this application by pasting this identifier into their Apps management page."
+msgstr "Les utilisateurs peuvent installer cette application en collant cet identifiant dans leur page de gestion des applications.\"#: src/routes/_authenticated/app/$appId.tsx:251"
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "Version History"
+msgstr "Historique des versions\"#: src/routes/_authenticated/app/$appId.tsx:628"
+
+#: src/routes/_authenticated/app/$appId.tsx:628
+msgid "Version uploaded"
+msgstr "Version téléversée\"#: src/routes/_authenticated/app/$appId.tsx:680"
+
+#: src/features/apps/index.tsx:192
+#: src/routes/_authenticated/app/$appId.tsx:680
+msgid "Yes"
+msgstr "Oui\"#: src/routes/_authenticated/app/$appId.tsx:681"
+
+#: src/routes/_authenticated/app/$appId.tsx:681
+msgid "Yes, force"
+msgstr "Oui, forcer"

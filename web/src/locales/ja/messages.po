@@ -13,3 +13,304 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/routes/_authenticated/app/$appId.tsx:477
+msgid "Active version"
+msgstr "アクティブなバージョン\"#: src/routes/_authenticated/app/$appId.tsx:251"
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "All uploaded build files for this application"
+msgstr "このアプリケーションにアップロードされたすべてのビルドファイル\"#: src/routes/_authenticated/app/$appId.tsx:126"
+
+#: src/routes/_authenticated/app/$appId.tsx:126
+msgid "App"
+msgstr "アプリ\"#: src/features/apps/index.tsx:146"
+
+#: src/features/apps/index.tsx:146
+msgid "App created"
+msgstr "アプリを作成しました\"#: src/routes/_authenticated/app/$appId.tsx:326"
+
+#: src/routes/_authenticated/app/$appId.tsx:326
+msgid "App ID"
+msgstr "アプリ ID\"#: src/routes/_authenticated/app/$appId.tsx:141"
+
+#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:116
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:141
+msgid "App not found"
+msgstr "アプリが見つかりません\"#: src/routes/_authenticated/app/$appId.tsx:201"
+
+#: src/routes/_authenticated/app/$appId.tsx:201
+msgid "Application ID"
+msgstr "アプリケーション ID\"#: src/routes/_authenticated/app/$appId.tsx:348"
+
+#: src/routes/_authenticated/app/$appId.tsx:348
+msgid "Available Versions"
+msgstr "利用可能なバージョン\"#: src/features/apps/index.tsx:203"
+
+#: src/features/apps/index.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:711
+msgid "Cancel"
+msgstr "キャンセル\"#: src/routes/_authenticated/app/$appId.tsx:324"
+
+#: src/routes/_authenticated/app/$appId.tsx:324
+msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
+msgstr "この ID をコピーして Mochi サーバーのアプリページに貼り付けてインストールしてください。\"#: src/routes/_authenticated/app/$appId.tsx:199"
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Core identification for this application"
+msgstr "このアプリケーションのコア識別情報\"#: src/routes/_authenticated/app/$appId.tsx:536"
+
+#: src/routes/_authenticated/app/$appId.tsx:536
+msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
+msgstr "ビルドをデプロイするための新しい環境 (Beta、Staging など) を作成します。\"#: src/features/apps/index.tsx:206"
+
+#: src/features/apps/index.tsx:45
+#: src/features/apps/index.tsx:46
+#: src/features/apps/index.tsx:50
+#: src/features/apps/index.tsx:77
+#: src/features/apps/index.tsx:166
+#: src/features/apps/index.tsx:206
+msgid "Create app"
+msgstr "アプリを作成\"#: src/features/apps/index.tsx:164"
+
+#: src/features/apps/index.tsx:164
+msgid "Create new app"
+msgstr "新しいアプリを作成\"#: src/routes/_authenticated/app/$appId.tsx:191"
+
+#: src/routes/_authenticated/app/$appId.tsx:191
+msgid "Create track"
+msgstr "トラックを作成\"#: src/features/apps/index.tsx:73"
+
+#: src/features/apps/index.tsx:73
+msgid "Create your first app to get started"
+msgstr "最初のアプリを作成してはじめましょう\"#: src/routes/_authenticated/app/$appId.tsx:460"
+
+#: src/routes/_authenticated/app/$appId.tsx:460
+msgid "Create your first release track to manage deployments"
+msgstr "デプロイを管理するための最初のリリーストラックを作成しましょう\"#: src/routes/_authenticated/app/$appId.tsx:515"
+
+#: src/routes/_authenticated/app/$appId.tsx:515
+msgid "Delete track"
+msgstr "トラックを削除\"#: src/routes/_authenticated/app/$appId.tsx:332"
+
+#: src/routes/_authenticated/app/$appId.tsx:332
+msgid "Details"
+msgstr "詳細\"#: src/routes/_authenticated/app/$appId.tsx:216"
+
+#: src/routes/_authenticated/app/$appId.tsx:216
+msgid "Distribution"
+msgstr "配信\"#: src/features/apps/index.tsx:154"
+
+#: src/features/apps/index.tsx:154
+msgid "Failed to create app"
+msgstr "アプリの作成に失敗しました\"#: src/routes/_authenticated/app/$appId.tsx:402"
+
+#: src/routes/_authenticated/app/$appId.tsx:402
+msgid "Failed to create track"
+msgstr "トラックの作成に失敗しました\"#: src/routes/_authenticated/app/$appId.tsx:430"
+
+#: src/routes/_authenticated/app/$appId.tsx:430
+msgid "Failed to delete track"
+msgstr "トラックの削除に失敗しました\"#: src/routes/_authenticated/app/$appId.tsx:444"
+
+#: src/routes/_authenticated/app/$appId.tsx:444
+msgid "Failed to set default track"
+msgstr "デフォルトトラックの設定に失敗しました\"#: src/routes/_authenticated/app/$appId.tsx:78"
+
+#: src/routes/_authenticated/app/$appId.tsx:78
+msgid "Failed to update distribution"
+msgstr "配信の更新に失敗しました\"#: src/routes/_authenticated/app/$appId.tsx:416"
+
+#: src/routes/_authenticated/app/$appId.tsx:416
+msgid "Failed to update track"
+msgstr "トラックの更新に失敗しました\"#: src/routes/_authenticated/app/$appId.tsx:640"
+
+#: src/routes/_authenticated/app/$appId.tsx:640
+msgid "Failed to upload version"
+msgstr "バージョンのアップロードに失敗しました\"#: src/routes/_authenticated/app/$appId.tsx:204"
+
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:334
+msgid "Fingerprint"
+msgstr "フィンガープリント\"#: src/routes/_authenticated/app/$appId.tsx:199"
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Identity"
+msgstr "アイデンティティ\"#: src/routes/_authenticated/app/$appId.tsx:552"
+
+#: src/routes/_authenticated/app/$appId.tsx:552
+msgid "Initial Version"
+msgstr "初期バージョン\"#: src/routes/_authenticated/app/$appId.tsx:321"
+
+#: src/routes/_authenticated/app/$appId.tsx:321
+msgid "Install App"
+msgstr "アプリをインストール\"#: src/routes/_authenticated/app/$appId.tsx:672"
+
+#: src/routes/_authenticated/app/$appId.tsx:672
+msgid "Install Locally"
+msgstr "ローカルにインストール\"#: src/routes/_authenticated/app/$appId.tsx:321"
+
+#: src/routes/_authenticated/app/$appId.tsx:321
+msgid "Install this application to your server"
+msgstr "このアプリケーションをサーバーにインストール\"#: src/routes/_authenticated/app/$appId.tsx:242"
+
+#: src/routes/_authenticated/app/$appId.tsx:242
+msgid "Installation ID"
+msgstr "インストール ID\"#: src/routes/_authenticated/app/$appId.tsx:558"
+
+#: src/routes/_authenticated/app/$appId.tsx:558
+msgid "Leave empty"
+msgstr "空のままにする\"#: src/routes/_authenticated/app/$appId.tsx:98"
+
+#: src/routes/_authenticated/app/$appId.tsx:98
+msgid "Loading app..."
+msgstr "アプリを読み込み中...\"#: src/features/apps/index.tsx:184"
+
+#: src/features/apps/index.tsx:184
+msgid "Make app publicly available"
+msgstr "アプリを一般公開する\"#: src/routes/_authenticated/app/$appId.tsx:453"
+
+#: src/routes/_authenticated/app/$appId.tsx:453
+msgid "Manage deployment environments and their versions"
+msgstr "デプロイ環境とそのバージョンを管理\"#: src/routes/_authenticated/app/$appId.tsx:332"
+
+#: src/routes/_authenticated/app/$appId.tsx:332
+msgid "Metadata and configuration"
+msgstr "メタデータと設定\"#: src/features/apps/index.tsx:179"
+
+#: src/features/apps/index.tsx:179
+msgid "My App"
+msgstr "マイアプリ\"#: src/features/apps/index.tsx:173"
+
+#: src/features/apps/index.tsx:173
+msgid "Name"
+msgstr "名前\"#: src/routes/_authenticated/app/$appId.tsx:534"
+
+#: src/routes/_authenticated/app/$appId.tsx:534
+msgid "New Release Track"
+msgstr "新しいリリーストラック\"#: src/features/apps/index.tsx:72"
+
+#: src/features/apps/index.tsx:72
+msgid "No apps yet"
+msgstr "まだアプリがありません\"#: src/routes/_authenticated/app/$appId.tsx:459"
+
+#: src/routes/_authenticated/app/$appId.tsx:459
+msgid "No tracks"
+msgstr "トラックがありません\"#: src/routes/_authenticated/app/$appId.tsx:555"
+
+#: src/routes/_authenticated/app/$appId.tsx:555
+msgid "No version"
+msgstr "バージョンがありません\"#: src/routes/_authenticated/app/$appId.tsx:256"
+
+#: src/routes/_authenticated/app/$appId.tsx:256
+msgid "No versions"
+msgstr "バージョンがありません\"#: src/routes/_authenticated/app/$appId.tsx:498"
+
+#: src/routes/_authenticated/app/$appId.tsx:498
+msgid "Open track actions"
+msgstr "トラック操作を開く\"#: src/features/apps/index.tsx:138"
+
+#: src/features/apps/index.tsx:138
+msgid "Please enter an app name"
+msgstr "アプリ名を入力してください\"#: src/routes/_authenticated/app/$appId.tsx:617"
+
+#: src/routes/_authenticated/app/$appId.tsx:617
+msgid "Please select a file"
+msgstr "ファイルを選択してください\"#: src/routes/_authenticated/app/$appId.tsx:337"
+
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "Privacy"
+msgstr "プライバシー\"#: src/routes/_authenticated/app/$appId.tsx:207"
+
+#: src/routes/_authenticated/app/$appId.tsx:207
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー\"#: src/routes/_authenticated/app/$appId.tsx:226"
+
+#: src/routes/_authenticated/app/$appId.tsx:226
+msgid "Published"
+msgstr "公開済み\"#: src/features/apps/index.tsx:41"
+
+#: src/features/apps/index.tsx:31
+#: src/features/apps/index.tsx:41
+msgid "Publisher"
+msgstr "パブリッシャー\"#: src/routes/_authenticated/app/$appId.tsx:452"
+
+#: src/routes/_authenticated/app/$appId.tsx:452
+msgid "Release Tracks"
+msgstr "リリーストラック\"#: src/routes/_authenticated/app/$appId.tsx:348"
+
+#: src/routes/_authenticated/app/$appId.tsx:348
+msgid "Release tracks currently active"
+msgstr "現在アクティブなリリーストラック\"#: src/routes/_authenticated/app/$appId.tsx:227"
+
+#: src/routes/_authenticated/app/$appId.tsx:227
+msgid "Restricted"
+msgstr "制限付き\"#: src/routes/_authenticated/app/$appId.tsx:508"
+
+#: src/routes/_authenticated/app/$appId.tsx:508
+msgid "Set as default"
+msgstr "デフォルトに設定\"#: src/routes/_authenticated/app/$appId.tsx:236"
+
+#: src/routes/_authenticated/app/$appId.tsx:236
+msgid "Share this ID to allow others to install this app"
+msgstr "他の人がこのアプリをインストールできるよう、この ID を共有します\"#: src/routes/_authenticated/app/$appId.tsx:235"
+
+#: src/routes/_authenticated/app/$appId.tsx:235
+msgid "Sharing"
+msgstr "共有\"#: src/routes/_authenticated/app/$appId.tsx:142"
+
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:142
+msgid "The requested app could not be found."
+msgstr "指定されたアプリが見つかりませんでした。\"#: src/routes/_authenticated/app/$appId.tsx:396"
+
+#: src/routes/_authenticated/app/$appId.tsx:396
+msgid "Track created"
+msgstr "トラックを作成しました\"#: src/routes/_authenticated/app/$appId.tsx:542"
+
+#: src/routes/_authenticated/app/$appId.tsx:542
+msgid "Track Name"
+msgstr "トラック名\"#: src/routes/_authenticated/app/$appId.tsx:688"
+
+#: src/routes/_authenticated/app/$appId.tsx:688
+msgid "Update Tracks"
+msgstr "トラックを更新\"#: src/routes/_authenticated/app/$appId.tsx:652"
+
+#: src/routes/_authenticated/app/$appId.tsx:652
+msgid "Upload a .zip build file for your application."
+msgstr "アプリケーションの .zip ビルドファイルをアップロードします。\"#: src/routes/_authenticated/app/$appId.tsx:185"
+
+#: src/routes/_authenticated/app/$appId.tsx:185
+msgid "Upload new version"
+msgstr "新しいバージョンをアップロード\"#: src/routes/_authenticated/app/$appId.tsx:650"
+
+#: src/routes/_authenticated/app/$appId.tsx:650
+msgid "Upload New Version"
+msgstr "新しいバージョンをアップロード\"#: src/routes/_authenticated/app/$appId.tsx:257"
+
+#: src/routes/_authenticated/app/$appId.tsx:257
+msgid "Upload your first build to get started"
+msgstr "最初のビルドをアップロードしてはじめましょう\"#: src/routes/_authenticated/app/$appId.tsx:240"
+
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Users can install this application by pasting this identifier into their Apps management page."
+msgstr "ユーザーはアプリ管理ページにこの識別子を貼り付けることで、このアプリをインストールできます。\"#: src/routes/_authenticated/app/$appId.tsx:251"
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "Version History"
+msgstr "バージョン履歴\"#: src/routes/_authenticated/app/$appId.tsx:628"
+
+#: src/routes/_authenticated/app/$appId.tsx:628
+msgid "Version uploaded"
+msgstr "バージョンをアップロードしました\"#: src/routes/_authenticated/app/$appId.tsx:680"
+
+#: src/features/apps/index.tsx:192
+#: src/routes/_authenticated/app/$appId.tsx:680
+msgid "Yes"
+msgstr "はい\"#: src/routes/_authenticated/app/$appId.tsx:681"
+
+#: src/routes/_authenticated/app/$appId.tsx:681
+msgid "Yes, force"
+msgstr "はい、強制"

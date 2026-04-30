@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Trans, useLingui } from '@lingui/react/macro'
 import { useNavigate } from '@tanstack/react-router'
 import {
   usePageTitle,
@@ -26,7 +27,8 @@ import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
 import type { App } from '@/api/types/apps'
 
 export function Apps() {
-  usePageTitle('Publisher')
+  const { t } = useLingui()
+  usePageTitle(t`Publisher`)
   const navigate = useNavigate()
   const [showCreateDialog, setShowCreateDialog] = useState(false)
 
@@ -36,16 +38,16 @@ export function Apps() {
   return (
     <>
       <PageHeader
-        title='Publisher'
+        title={t`Publisher`}
         menuAction={
           <Button
             onClick={openCreateDialog}
-            aria-label='Create app'
-            title='Create app'
+            aria-label={t`Create app`}
+            title={t`Create app`}
             className='h-9 w-9 px-0 sm:h-10 sm:w-auto sm:px-4'
           >
             <Plus className='h-4 w-4 sm:mr-2' />
-            <span className='sr-only sm:not-sr-only'>Create app</span>
+            <span className='sr-only sm:not-sr-only'><Trans>Create app</Trans></span>
           </Button>
         }
       />
@@ -67,12 +69,12 @@ export function Apps() {
             {error && !apps ? null : apps?.length === 0 ? (
               <EmptyState
                 icon={Package}
-                title='No apps yet'
-                description='Create your first app to get started'
+                title={t`No apps yet`}
+                description={t`Create your first app to get started`}
               >
                 <Button onClick={openCreateDialog}>
                   <Plus className='mr-2 h-4 w-4' />
-                  Create app
+                  <Trans>Create app</Trans>
                 </Button>
               </EmptyState>
             ) : (
@@ -125,6 +127,7 @@ function CreateAppDialog({
   onOpenChange: (open: boolean) => void
   onSuccess: (id: string) => void
 }) {
+  const { t } = useLingui()
   const [name, setName] = useState('')
   const [privacy, setPrivacy] = useState('public')
   const createMutation = useCreateAppMutation()
@@ -132,7 +135,7 @@ function CreateAppDialog({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (!name.trim()) {
-      toast.error('Please enter an app name')
+      toast.error(t`Please enter an app name`)
       return
     }
 
@@ -140,7 +143,7 @@ function CreateAppDialog({
       { name: name.trim(), privacy },
       {
         onSuccess: (data: { id: string }) => {
-          toast.success('App created', {
+          toast.success(t`App created`, {
             description: `${name} has been created successfully.`,
           })
           setName('')
@@ -148,7 +151,7 @@ function CreateAppDialog({
           onSuccess(data.id)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, 'Failed to create app'))
+          toast.error(getErrorMessage(error, t`Failed to create app`))
         },
       }
     )
@@ -158,27 +161,27 @@ function CreateAppDialog({
     <ResponsiveDialog open={open} onOpenChange={onOpenChange}>
       <ResponsiveDialogContent>
         <ResponsiveDialogHeader>
-          <ResponsiveDialogTitle>Create new app</ResponsiveDialogTitle>
+          <ResponsiveDialogTitle><Trans>Create new app</Trans></ResponsiveDialogTitle>
           <ResponsiveDialogDescription className="sr-only">
-            Create app
+            <Trans>Create app</Trans>
           </ResponsiveDialogDescription>
         </ResponsiveDialogHeader>
         <form onSubmit={handleSubmit}>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
               <label htmlFor='name' className='text-sm font-medium'>
-                Name
+                <Trans>Name</Trans>
               </label>
               <Input
                 id='name'
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder='My App'
+                placeholder={t`My App`}
               />
             </div>
             <div className='space-y-2'>
               <label htmlFor='privacy' className='text-sm font-medium'>
-                Make app publicly available
+                <Trans>Make app publicly available</Trans>
               </label>
               <select
                 id='privacy'
@@ -186,7 +189,7 @@ function CreateAppDialog({
                 onChange={(e) => setPrivacy(e.target.value)}
                 className='border-input bg-background flex h-10 w-full rounded-md border px-3 py-2 text-sm'
               >
-                <option value='public'>Yes</option>
+                <option value='public'><Trans>Yes</Trans></option>
                 <option value='private'>No</option>
               </select>
             </div>
@@ -197,10 +200,10 @@ function CreateAppDialog({
               variant='outline'
               onClick={() => onOpenChange(false)}
             >
-              Cancel
+              <Trans>Cancel</Trans>
             </Button>
             <Button type='submit' disabled={createMutation.isPending}>
-              {createMutation.isPending ? 'Creating...' : <><Plus className="mr-2 h-4 w-4" />Create app</>}
+              {createMutation.isPending ? 'Creating...' : <><Plus className="mr-2 h-4 w-4" /><Trans>Create app</Trans></>}
             </Button>
           </ResponsiveDialogFooter>
         </form>

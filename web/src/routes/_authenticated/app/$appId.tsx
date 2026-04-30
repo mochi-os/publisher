@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import { Trans, useLingui } from '@lingui/react/macro'
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
 import {
   Button,
@@ -58,6 +59,7 @@ export const Route = createFileRoute('/_authenticated/app/$appId')({
 })
 
 function AppPage() {
+  const { t } = useLingui()
   const { appId } = Route.useParams()
   const navigate = useNavigate()
   const { data, isLoading, isError, error, refetch } = useAppQuery(appId)
@@ -73,7 +75,7 @@ function AppPage() {
           toast.success(`Distribution set to ${distribution}`)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, 'Failed to update distribution'))
+          toast.error(getErrorMessage(error, t`Failed to update distribution`))
         },
       }
     )
@@ -93,7 +95,7 @@ function AppPage() {
     return (
       <>
         <PageHeader
-          title='Loading app...'
+          title={t`Loading app...`}
           back={{ label: 'Back to apps', onFallback: goBackToApps }}
         />
         <Main className='pt-2'>
@@ -107,12 +109,12 @@ function AppPage() {
     if (error instanceof ApiError && error.status === 404) {
       return (
         <>
-          <PageHeader title='App not found' back={{ label: 'Back to apps', onFallback: goBackToApps }} />
+          <PageHeader title={t`App not found`} back={{ label: 'Back to apps', onFallback: goBackToApps }} />
           <Main>
             <EmptyState
               icon={Package}
-              title="App not found"
-              description="The requested app could not be found."
+              title={t`App not found`}
+              description={t`The requested app could not be found.`}
             />
           </Main>
         </>
@@ -121,7 +123,7 @@ function AppPage() {
 
     return (
       <>
-        <PageHeader title='App' back={{ label: 'Back to apps', onFallback: goBackToApps }} />
+        <PageHeader title={t`App`} back={{ label: 'Back to apps', onFallback: goBackToApps }} />
         <Main>
           <GeneralError error={error} minimal mode='inline' reset={refetch} />
         </Main>
@@ -132,12 +134,12 @@ function AppPage() {
   if (!data || !data.app) {
     return (
       <>
-        <PageHeader title='App not found' back={{ label: 'Back to apps', onFallback: goBackToApps }} />
+        <PageHeader title={t`App not found`} back={{ label: 'Back to apps', onFallback: goBackToApps }} />
         <Main>
           <EmptyState
             icon={Package}
-            title="App not found"
-            description="The requested app could not be found."
+            title={t`App not found`}
+            description={t`The requested app could not be found.`}
           />
         </Main>
       </>
@@ -180,13 +182,13 @@ function AppPage() {
           {activeTab === 'versions' && (
             <Button onClick={() => setShowUploadDialog(true)} className='mb-2' size="sm">
               <Upload className='mr-2 h-4 w-4' />
-              Upload new version
+              <Trans>Upload new version</Trans>
             </Button>
           )}
           {activeTab === 'tracks' && (
             <Button variant='outline' size='sm' onClick={() => setShowAddTrack(true)} className='mb-2'>
               <Plus className='h-4 w-4 mr-2' />
-              Create track
+              <Trans>Create track</Trans>
             </Button>
           )}
         </div>
@@ -194,15 +196,15 @@ function AppPage() {
         <div className="pt-2">
           {activeTab === 'details' && (
             <div className='space-y-6'>
-              <Section title="Identity" description="Core identification for this application">
+              <Section title={t`Identity`} description={t`Core identification for this application`}>
                 <div className="divide-y-0">
-                  <FieldRow label="Application ID">
+                  <FieldRow label={t`Application ID`}>
                     <DataChip value={app.id} />
                   </FieldRow>
-                  <FieldRow label="Fingerprint">
+                  <FieldRow label={t`Fingerprint`}>
                     <DataChip value={app.fingerprint || ''} truncate='middle' />
                   </FieldRow>
-                  <FieldRow label="Privacy Policy">
+                  <FieldRow label={t`Privacy Policy`}>
                     <div className="flex items-center gap-2">
                       {app.privacy === 'public' ? (
                         <DataChip value="Public" icon={<Globe className="size-3.5" />} copyable={false} />
@@ -211,7 +213,7 @@ function AppPage() {
                       )}
                     </div>
                   </FieldRow>
-                  <FieldRow label="Distribution">
+                  <FieldRow label={t`Distribution`}>
                     <Select
                       value={app.distribution ?? 'published'}
                       onValueChange={handleSetDistribution}
@@ -221,8 +223,8 @@ function AppPage() {
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value='published'>Published</SelectItem>
-                        <SelectItem value='restricted'>Restricted</SelectItem>
+                        <SelectItem value='published'><Trans>Published</Trans></SelectItem>
+                        <SelectItem value='restricted'><Trans>Restricted</Trans></SelectItem>
                       </SelectContent>
                     </Select>
                   </FieldRow>
@@ -230,14 +232,14 @@ function AppPage() {
               </Section>
 
               <Section 
-                title="Sharing" 
-                description="Share this ID to allow others to install this app"
+                title={t`Sharing`} 
+                description={t`Share this ID to allow others to install this app`}
               >
                 <div className="space-y-4">
                   <p className='text-muted-foreground text-sm'>
-                    Users can install this application by pasting this identifier into their Apps management page.
+                    <Trans>Users can install this application by pasting this identifier into their Apps management page.</Trans>
                   </p>
-                  <FieldRow label="Installation ID">
+                  <FieldRow label={t`Installation ID`}>
                     <DataChip value={shareString} />
                   </FieldRow>
                 </div>
@@ -246,13 +248,13 @@ function AppPage() {
           )}
 
           {activeTab === 'versions' && (
-            <Section title="Version History" description="All uploaded build files for this application">
+            <Section title={t`Version History`} description={t`All uploaded build files for this application`}>
               {versions.length === 0 ? (
                 <div className="py-8">
                   <EmptyState
                     icon={Package}
-                    title="No versions"
-                    description="Upload your first build to get started"
+                    title={t`No versions`}
+                    description={t`Upload your first build to get started`}
                   />
                 </div>
               ) : (
@@ -310,28 +312,29 @@ function SharePage({
   shareString: string
   onBack: () => void | Promise<void>
 }) {
+  const { t } = useLingui()
   return (
     <>
       <PageHeader title={app.name} back={{ label: 'Back to apps', onFallback: onBack }} />
       <Main className='pt-2'>
         <div className='space-y-6'>
-          <Section title="Install App" description="Install this application to your server">
+          <Section title={t`Install App`} description={t`Install this application to your server`}>
             <div className="space-y-4">
               <p className='text-muted-foreground text-sm'>
-                Copy this ID and paste it in your Mochi server's Apps page to install.
+                <Trans>Copy this ID and paste it in your Mochi server's Apps page to install.</Trans>
               </p>
-              <FieldRow label="App ID">
+              <FieldRow label={t`App ID`}>
                 <DataChip value={shareString} />
               </FieldRow>
             </div>
           </Section>
 
-          <Section title="Details" description="Metadata and configuration">
+          <Section title={t`Details`} description={t`Metadata and configuration`}>
             <div className="divide-y-0">
-              <FieldRow label="Fingerprint">
+              <FieldRow label={t`Fingerprint`}>
                 <DataChip value={app.fingerprint || 'N/A'} truncate='middle' />
               </FieldRow>
-              <FieldRow label="Privacy">
+              <FieldRow label={t`Privacy`}>
                 <DataChip 
                   value={app.privacy} 
                   icon={app.privacy === 'public' ? <Globe className="size-3.5" /> : <Lock className="size-3.5" />} 
@@ -342,7 +345,7 @@ function SharePage({
           </Section>
 
           {tracks.length > 0 && (
-            <Section title="Available Versions" description="Release tracks currently active">
+            <Section title={t`Available Versions`} description={t`Release tracks currently active`}>
               <div className='divide-y border rounded-lg overflow-hidden'>
                 {tracks.map((track) => (
                   <div key={track.track} className='flex items-center justify-between py-3 px-4'>
@@ -374,6 +377,7 @@ function TracksTab({
   showAddTrack: boolean
   setShowAddTrack: (open: boolean) => void
 }) {
+  const { t } = useLingui()
   const [newTrackName, setNewTrackName] = useState('')
   const [newTrackVersion, setNewTrackVersion] = useState('__none__')
 
@@ -389,13 +393,13 @@ function TracksTab({
       { appId, track: newTrackName, version },
       {
         onSuccess: () => {
-          toast.success('Track created')
+          toast.success(t`Track created`)
           setNewTrackName('')
           setNewTrackVersion('__none__')
           setShowAddTrack(false)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, 'Failed to create track'))
+          toast.error(getErrorMessage(error, t`Failed to create track`))
         },
       }
     )
@@ -409,7 +413,7 @@ function TracksTab({
           toast.success(`Track "${track}" updated to ${version}`)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, 'Failed to update track'))
+          toast.error(getErrorMessage(error, t`Failed to update track`))
         },
       }
     )
@@ -423,7 +427,7 @@ function TracksTab({
           toast.success(`Track "${track}" deleted`)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, 'Failed to delete track'))
+          toast.error(getErrorMessage(error, t`Failed to delete track`))
         },
       }
     )
@@ -437,7 +441,7 @@ function TracksTab({
           toast.success(`Default track set to "${track}"`)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, 'Failed to set default track'))
+          toast.error(getErrorMessage(error, t`Failed to set default track`))
         },
       }
     )
@@ -445,15 +449,15 @@ function TracksTab({
 
   return (
     <Section 
-      title="Release Tracks" 
-      description="Manage deployment environments and their versions"
+      title={t`Release Tracks`} 
+      description={t`Manage deployment environments and their versions`}
     >
       {tracks.length === 0 ? (
         <div className="py-8">
           <EmptyState
             icon={Shield}
-            title="No tracks"
-            description="Create your first release track to manage deployments"
+            title={t`No tracks`}
+            description={t`Create your first release track to manage deployments`}
           />
         </div>
       ) : (
@@ -470,7 +474,7 @@ function TracksTab({
                     <span className='text-[10px] uppercase tracking-wider bg-primary/10 text-primary px-1.5 py-0.5 rounded-full'>default</span>
                   )}
                 </span>
-                <span className="text-xs text-muted-foreground">Active version</span>
+                <span className="text-xs text-muted-foreground"><Trans>Active version</Trans></span>
               </div>
               
               <div className='flex items-center gap-3'>
@@ -491,7 +495,7 @@ function TracksTab({
                 </Select>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant='ghost' size='icon' className="h-8 w-8" aria-label='Open track actions'>
+                    <Button variant='ghost' size='icon' className="h-8 w-8" aria-label={t`Open track actions`}>
                       <MoreHorizontal className='h-4 w-4' />
                     </Button>
                   </DropdownMenuTrigger>
@@ -501,14 +505,14 @@ function TracksTab({
                       disabled={track.track === defaultTrack}
                       className="text-xs"
                     >
-                      Set as default
+                      <Trans>Set as default</Trans>
                     </DropdownMenuItem>
                     <DropdownMenuItem
                       onClick={() => handleDeleteTrack(track.track)}
                       disabled={track.track === defaultTrack}
                       className="text-xs text-destructive"
                     >
-                      Delete track
+                      <Trans>Delete track</Trans>
                     </DropdownMenuItem>
                   </DropdownMenuContent>
                 </DropdownMenu>
@@ -527,15 +531,15 @@ function TracksTab({
       }}>
         <ResponsiveDialogContent>
           <ResponsiveDialogHeader>
-            <ResponsiveDialogTitle>New Release Track</ResponsiveDialogTitle>
+            <ResponsiveDialogTitle><Trans>New Release Track</Trans></ResponsiveDialogTitle>
             <ResponsiveDialogDescription>
-              Create a new environment (e.g. Beta, Staging) to deploy builds.
+              <Trans>Create a new environment (e.g. Beta, Staging) to deploy builds.</Trans>
             </ResponsiveDialogDescription>
           </ResponsiveDialogHeader>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
               <label htmlFor='trackName' className='text-sm font-medium'>
-                Track Name
+                <Trans>Track Name</Trans>
               </label>
               <Input
                 id='trackName'
@@ -545,13 +549,13 @@ function TracksTab({
               />
             </div>
             <div className='space-y-2'>
-              <label className='text-sm font-medium'>Initial Version</label>
+              <label className='text-sm font-medium'><Trans>Initial Version</Trans></label>
               <Select value={newTrackVersion} onValueChange={setNewTrackVersion}>
                 <SelectTrigger>
-                  <SelectValue placeholder='No version' />
+                  <SelectValue placeholder={t`No version`} />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value='__none__' className='text-muted-foreground'>Leave empty</SelectItem>
+                  <SelectItem value='__none__' className='text-muted-foreground'><Trans>Leave empty</Trans></SelectItem>
                   {sortVersionsDesc(versions).map((v) => (
                     <SelectItem key={v.version} value={v.version} className="font-mono">
                       {v.version}
@@ -566,7 +570,7 @@ function TracksTab({
               variant='outline'
               onClick={() => setShowAddTrack(false)}
             >
-              Cancel
+              <Trans>Cancel</Trans>
             </Button>
             <Button
               onClick={handleCreateTrack}
@@ -594,6 +598,7 @@ function UploadVersionDialog({
   showInstallOption: boolean
   availableTracks: string[]
 }) {
+  const { t } = useLingui()
   const [file, setFile] = useState<File | null>(null)
   const [installOption, setInstallOption] = useState<'yes' | 'yes-force' | 'no'>('yes')
   const [selectedTracks, setSelectedTracks] = useState<string[]>(['Production'])
@@ -609,7 +614,7 @@ function UploadVersionDialog({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (!file) {
-      toast.error('Please select a file')
+      toast.error(t`Please select a file`)
       return
     }
 
@@ -620,7 +625,7 @@ function UploadVersionDialog({
       { appId, file, install, force, tracks: selectedTracks },
       {
         onSuccess: (data: { version: string }) => {
-          toast.success('Version uploaded', {
+          toast.success(t`Version uploaded`, {
             description: `Version ${data.version} has been created.`,
           })
           setFile(null)
@@ -632,7 +637,7 @@ function UploadVersionDialog({
           onOpenChange(false)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, 'Failed to upload version'))
+          toast.error(getErrorMessage(error, t`Failed to upload version`))
         },
       }
     )
@@ -642,9 +647,9 @@ function UploadVersionDialog({
     <ResponsiveDialog open={open} onOpenChange={onOpenChange}>
       <ResponsiveDialogContent>
         <ResponsiveDialogHeader>
-          <ResponsiveDialogTitle>Upload New Version</ResponsiveDialogTitle>
+          <ResponsiveDialogTitle><Trans>Upload New Version</Trans></ResponsiveDialogTitle>
           <ResponsiveDialogDescription>
-            Upload a .zip build file for your application.
+            <Trans>Upload a .zip build file for your application.</Trans>
           </ResponsiveDialogDescription>
         </ResponsiveDialogHeader>
         <form onSubmit={handleSubmit}>
@@ -664,7 +669,7 @@ function UploadVersionDialog({
             {showInstallOption && (
               <div className='space-y-2'>
                 <label htmlFor='install' className='text-sm font-medium'>
-                  Install Locally
+                  <Trans>Install Locally</Trans>
                 </label>
                 <select
                   id='install'
@@ -672,15 +677,15 @@ function UploadVersionDialog({
                   onChange={(e) => setInstallOption(e.target.value as 'yes' | 'yes-force' | 'no')}
                   className='border-input bg-background flex h-10 w-full rounded-md border px-3 py-2 text-sm'
                 >
-                  <option value='yes'>Yes</option>
-                  <option value='yes-force'>Yes, force</option>
+                  <option value='yes'><Trans>Yes</Trans></option>
+                  <option value='yes-force'><Trans>Yes, force</Trans></option>
                   <option value='no'>No</option>
                 </select>
               </div>
             )}
             {availableTracks.length > 0 && (
               <div className='space-y-2'>
-                <label className='text-sm font-medium'>Update Tracks</label>
+                <label className='text-sm font-medium'><Trans>Update Tracks</Trans></label>
                 <div className='grid grid-cols-2 gap-2'>
                   {availableTracks.map((track) => (
                     <label key={track} className='flex cursor-pointer items-center gap-2 rounded-md border p-2 transition-colors hover:bg-interactive-hover active:bg-interactive-active'>
@@ -703,7 +708,7 @@ function UploadVersionDialog({
               variant='outline'
               onClick={() => onOpenChange(false)}
             >
-              Cancel
+              <Trans>Cancel</Trans>
             </Button>
             <Button type='submit' disabled={uploadMutation.isPending}>
               {uploadMutation.isPending ? 'Uploading...' : 'Upload Version'}
