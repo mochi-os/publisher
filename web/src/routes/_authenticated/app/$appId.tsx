@@ -376,6 +376,7 @@ function TracksTab({
   showAddTrack: boolean
   setShowAddTrack: (open: boolean) => void
 }) {
+  const { t } = useLingui()
   const [newTrackName, setNewTrackName] = useState('')
   const [newTrackVersion, setNewTrackVersion] = useState('__none__')
 
@@ -391,13 +392,13 @@ function TracksTab({
       { appId, track: newTrackName, version },
       {
         onSuccess: () => {
-          toast.success("Track created")
+          toast.success(t`Track created`)
           setNewTrackName('')
           setNewTrackVersion('__none__')
           setShowAddTrack(false)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, "Failed to create track"))
+          toast.error(getErrorMessage(error, t`Failed to create track`))
         },
       }
     )
@@ -411,7 +412,7 @@ function TracksTab({
           toast.success(`Track "${track}" updated to ${version}`)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, "Failed to update track"))
+          toast.error(getErrorMessage(error, t`Failed to update track`))
         },
       }
     )
@@ -425,7 +426,7 @@ function TracksTab({
           toast.success(`Track "${track}" deleted`)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, "Failed to delete track"))
+          toast.error(getErrorMessage(error, t`Failed to delete track`))
         },
       }
     )
@@ -439,7 +440,7 @@ function TracksTab({
           toast.success(`Default track set to "${track}"`)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, "Failed to set default track"))
+          toast.error(getErrorMessage(error, t`Failed to set default track`))
         },
       }
     )
@@ -596,6 +597,7 @@ function UploadVersionDialog({
   showInstallOption: boolean
   availableTracks: string[]
 }) {
+  const { t } = useLingui()
   const [file, setFile] = useState<File | null>(null)
   const [installOption, setInstallOption] = useState<'yes' | 'yes-force' | 'no'>('yes')
   const [selectedTracks, setSelectedTracks] = useState<string[]>(['Production'])
@@ -611,7 +613,7 @@ function UploadVersionDialog({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (!file) {
-      toast.error("Please select a file")
+      toast.error(t`Please select a file`)
       return
     }
 
@@ -622,7 +624,7 @@ function UploadVersionDialog({
       { appId, file, install, force, tracks: selectedTracks },
       {
         onSuccess: (data: { version: string }) => {
-          toast.success("Version uploaded", {
+          toast.success(t`Version uploaded`, {
             description: `Version ${data.version} has been created.`,
           })
           setFile(null)
@@ -634,7 +636,7 @@ function UploadVersionDialog({
           onOpenChange(false)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, "Failed to upload version"))
+          toast.error(getErrorMessage(error, t`Failed to upload version`))
         },
       }
     )

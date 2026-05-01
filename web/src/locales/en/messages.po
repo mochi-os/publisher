@@ -37,7 +37,7 @@ msgstr "Account type"
 #~ msgid "Account verified"
 #~ msgstr "Account verified"
 
-#: src/routes/_authenticated/app/$appId.tsx:475
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Active version"
 msgstr "Active version"
 
@@ -95,8 +95,8 @@ msgid "App"
 msgstr "App"
 
 #: src/features/apps/index.tsx:146
-#~ msgid "App created"
-#~ msgstr "App created"
+msgid "App created"
+msgstr "App created"
 
 #: src/routes/_authenticated/app/$appId.tsx:326
 #~ msgid "App ID"
@@ -149,9 +149,9 @@ msgstr "Back to Home"
 #: ../../../lib/web/src/features/access/access-list.tsx:254
 #: ../../../lib/web/src/features/accounts/account-add.tsx:184
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:571
-#: src/routes/_authenticated/app/$appId.tsx:708
+#: src/features/apps/index.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:572
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "Cancel"
 msgstr "Cancel"
 
@@ -250,7 +250,7 @@ msgstr "Copy this ID and paste it in your Mochi server's Apps page to install."
 msgid "Core identification for this application"
 msgstr "Core identification for this application"
 
-#: src/routes/_authenticated/app/$appId.tsx:534
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Create a new environment (e.g. Beta, Staging) to deploy builds."
 
@@ -258,12 +258,12 @@ msgstr "Create a new environment (e.g. Beta, Staging) to deploy builds."
 #: src/features/apps/index.tsx:46
 #: src/features/apps/index.tsx:50
 #: src/features/apps/index.tsx:77
-#: src/features/apps/index.tsx:165
-#: src/features/apps/index.tsx:205
+#: src/features/apps/index.tsx:166
+#: src/features/apps/index.tsx:206
 msgid "Create app"
 msgstr "Create app"
 
-#: src/features/apps/index.tsx:163
+#: src/features/apps/index.tsx:164
 msgid "Create new app"
 msgstr "Create new app"
 
@@ -299,7 +299,7 @@ msgstr "Default"
 msgid "Default AI account"
 msgstr "Default AI account"
 
-#: src/routes/_authenticated/app/$appId.tsx:513
+#: src/routes/_authenticated/app/$appId.tsx:514
 msgid "Delete track"
 msgstr "Delete track"
 
@@ -340,16 +340,16 @@ msgstr "Expand sidebar"
 #~ msgstr "Failed to add account"
 
 #: src/features/apps/index.tsx:154
-#~ msgid "Failed to create app"
-#~ msgstr "Failed to create app"
+msgid "Failed to create app"
+msgstr "Failed to create app"
 
-#: src/routes/_authenticated/app/$appId.tsx:402
-#~ msgid "Failed to create track"
-#~ msgstr "Failed to create track"
+#: src/routes/_authenticated/app/$appId.tsx:401
+msgid "Failed to create track"
+msgstr "Failed to create track"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
-#~ msgid "Failed to delete track"
-#~ msgstr "Failed to delete track"
+#: src/routes/_authenticated/app/$appId.tsx:429
+msgid "Failed to delete track"
+msgstr "Failed to delete track"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:226
 #~ msgid "Failed to remove account"
@@ -359,9 +359,9 @@ msgstr "Expand sidebar"
 #~ msgid "Failed to send verification code"
 #~ msgstr "Failed to send verification code"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
-#~ msgid "Failed to set default track"
-#~ msgstr "Failed to set default track"
+#: src/routes/_authenticated/app/$appId.tsx:443
+msgid "Failed to set default track"
+msgstr "Failed to set default track"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:103
 #~ msgid "Failed to update category"
@@ -371,13 +371,13 @@ msgstr "Expand sidebar"
 msgid "Failed to update distribution"
 msgstr "Failed to update distribution"
 
-#: src/routes/_authenticated/app/$appId.tsx:416
-#~ msgid "Failed to update track"
-#~ msgstr "Failed to update track"
+#: src/routes/_authenticated/app/$appId.tsx:415
+msgid "Failed to update track"
+msgstr "Failed to update track"
 
-#: src/routes/_authenticated/app/$appId.tsx:640
-#~ msgid "Failed to upload version"
-#~ msgstr "Failed to upload version"
+#: src/routes/_authenticated/app/$appId.tsx:639
+msgid "Failed to upload version"
+msgstr "Failed to upload version"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
 msgid "Fingerprint"
@@ -436,7 +436,7 @@ msgstr "Hide"
 msgid "Identity"
 msgstr "Identity"
 
-#: src/routes/_authenticated/app/$appId.tsx:550
+#: src/routes/_authenticated/app/$appId.tsx:551
 msgid "Initial Version"
 msgstr "Initial Version"
 
@@ -448,7 +448,7 @@ msgstr "Inset"
 #~ msgid "Install App"
 #~ msgstr "Install App"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:671
 msgid "Install Locally"
 msgstr "Install Locally"
 
@@ -472,7 +472,7 @@ msgstr "Layout"
 msgid "Learn more"
 msgstr "Learn more"
 
-#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "Leave empty"
 msgstr "Leave empty"
 
@@ -504,7 +504,7 @@ msgstr "Logged out (with errors)"
 msgid "Logged out successfully"
 msgstr "Logged out successfully"
 
-#: src/features/apps/index.tsx:183
+#: src/features/apps/index.tsx:184
 msgid "Make app publicly available"
 msgstr "Make app publicly available"
 
@@ -528,11 +528,11 @@ msgstr "Menu"
 #~ msgid "My App"
 #~ msgstr "My App"
 
-#: src/features/apps/index.tsx:172
+#: src/features/apps/index.tsx:173
 msgid "Name"
 msgstr "Name"
 
-#: src/routes/_authenticated/app/$appId.tsx:532
+#: src/routes/_authenticated/app/$appId.tsx:533
 msgid "New Release Track"
 msgstr "New Release Track"
 
@@ -641,12 +641,12 @@ msgid "Owner"
 msgstr "Owner"
 
 #: src/features/apps/index.tsx:138
-#~ msgid "Please enter an app name"
-#~ msgstr "Please enter an app name"
+msgid "Please enter an app name"
+msgstr "Please enter an app name"
 
-#: src/routes/_authenticated/app/$appId.tsx:617
-#~ msgid "Please select a file"
-#~ msgstr "Please select a file"
+#: src/routes/_authenticated/app/$appId.tsx:616
+msgid "Please select a file"
+msgstr "Please select a file"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
 #~ msgid "Previous image"
@@ -809,7 +809,7 @@ msgstr "Select site direction"
 msgid "Select theme preference"
 msgstr "Select theme preference"
 
-#: src/routes/_authenticated/app/$appId.tsx:506
+#: src/routes/_authenticated/app/$appId.tsx:507
 msgid "Set as default"
 msgstr "Set as default"
 
@@ -894,11 +894,11 @@ msgstr "Toggle Sidebar"
 msgid "Toggle theme"
 msgstr "Toggle theme"
 
-#: src/routes/_authenticated/app/$appId.tsx:396
-#~ msgid "Track created"
-#~ msgstr "Track created"
+#: src/routes/_authenticated/app/$appId.tsx:395
+msgid "Track created"
+msgstr "Track created"
 
-#: src/routes/_authenticated/app/$appId.tsx:540
+#: src/routes/_authenticated/app/$appId.tsx:541
 msgid "Track Name"
 msgstr "Track Name"
 
@@ -941,11 +941,11 @@ msgstr "Unauthorized Access"
 msgid "Unverified"
 msgstr "Unverified"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Update Tracks"
 msgstr "Update Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:651
 msgid "Upload a .zip build file for your application."
 msgstr "Upload a .zip build file for your application."
 
@@ -953,7 +953,7 @@ msgstr "Upload a .zip build file for your application."
 msgid "Upload new version"
 msgstr "Upload new version"
 
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:649
 msgid "Upload New Version"
 msgstr "Upload New Version"
 
@@ -993,9 +993,9 @@ msgstr "Verify email address"
 msgid "Version History"
 msgstr "Version History"
 
-#: src/routes/_authenticated/app/$appId.tsx:628
-#~ msgid "Version uploaded"
-#~ msgstr "Version uploaded"
+#: src/routes/_authenticated/app/$appId.tsx:627
+msgid "Version uploaded"
+msgstr "Version uploaded"
 
 #: ../../../lib/web/src/components/data-table/view-options.tsx:30
 msgid "View"
@@ -1017,11 +1017,11 @@ msgstr "We'll be back online shortly."
 msgid "Website is under maintenance!"
 msgstr "Website is under maintenance!"
 
-#: src/features/apps/index.tsx:191
-#: src/routes/_authenticated/app/$appId.tsx:677
+#: src/features/apps/index.tsx:192
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Yes"
 msgstr "Yes"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Yes, force"
 msgstr "Yes, force"
