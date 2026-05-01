@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { Trans, useLingui } from '@lingui/react/macro'
 import { useNavigate } from '@tanstack/react-router'
 import {
@@ -21,6 +21,7 @@ import {
   EmptyState,
   GeneralError,
   PageHeader,
+  naturalCompare,
 } from '@mochi/web'
 import { Package, Plus } from 'lucide-react'
 import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
@@ -32,7 +33,11 @@ export function Apps() {
   const navigate = useNavigate()
   const [showCreateDialog, setShowCreateDialog] = useState(false)
 
-  const { data: apps, isLoading, error, refetch } = useAppsQuery()
+  const { data: appsRaw, isLoading, error, refetch } = useAppsQuery()
+  const apps = useMemo(
+    () => appsRaw ? [...appsRaw].sort((a, b) => naturalCompare(a.name, b.name)) : appsRaw,
+    [appsRaw]
+  )
   const openCreateDialog = () => setShowCreateDialog(true)
 
   return (

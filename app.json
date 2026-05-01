@@ -3,7 +3,7 @@
 
 {
 	"version": "2.17",
-	"label": "app_name",
+	"label": "app.name",
 	"paths": ["publisher"],
 	"services": ["publisher"],
 
@@ -19,7 +19,7 @@
 	},
 
 	"icons": [
-		{"action": "", "label": "app_name", "file": "images/icon.svg"}
+		{"action": "", "label": "app.name", "file": "images/icon.svg"}
 	],
 
 	"actions": {

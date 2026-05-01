@@ -39,7 +39,7 @@ mkdir -p "$TEMP_DIR/labels"
 cat > "$TEMP_DIR/app.json" << 'EOF'
 {
     "version": "1.0.0",
-    "label": "app_name",
+    "label": "app.name",
     "paths": ["test-app"],
     "architecture": {"engine": "starlark", "version": 2},
     "execute": ["test.star"],
@@ -55,7 +55,7 @@ def action_index(a):
 EOF
 
 cat > "$TEMP_DIR/labels/en.conf" << 'EOF'
-app_name = P2P Test App
+app.name = P2P Test App
 EOF
 
 # Create zip file with files at root

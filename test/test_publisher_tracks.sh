@@ -56,7 +56,7 @@ create_app_zip() {
     cat > "$TEMP_DIR/v$version/app.json" << EOF
 {
     "version": "$version",
-    "label": "app_name",
+    "label": "app.name",
     "paths": ["track-test"],
     "architecture": {"engine": "starlark", "version": 2},
     "execute": ["test.star"],
@@ -72,7 +72,7 @@ def action_index(a):
 EOF
 
     cat > "$TEMP_DIR/v$version/labels/en.conf" << 'EOF'
-app_name = Track Test App
+app.name = Track Test App
 EOF
 
     (cd "$TEMP_DIR/v$version" && zip -r "$zip_path" app.json test.star labels) > /dev/null 2>&1
