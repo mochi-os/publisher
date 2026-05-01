@@ -130,7 +130,7 @@ def action_version_create(a):
 				old_paths = old_info.get("paths") or []
 				if new_paths != old_paths:
 					mochi.file.delete(file)
-					a.error(400, "Paths mismatch: expected " + str(old_paths) + ", got " + str(new_paths) + ". Use force=yes to override.")
+					a.error_label(400, "errors.paths_mismatch", expected=str(old_paths), got=str(new_paths))
 					return
 
 	install = a.input("install") == "yes"
