@@ -176,7 +176,7 @@ function CreateAppDialog({
                 id='name'
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder={"My App"}
+                placeholder={t`My App`}
               />
             </div>
             <div className='space-y-2'>

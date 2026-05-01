@@ -312,28 +312,29 @@ function SharePage({
   shareString: string
   onBack: () => void | Promise<void>
 }) {
+  const { t } = useLingui()
   return (
     <>
-      <PageHeader title={app.name} back={{ label: "Back to apps", onFallback: onBack }} />
+      <PageHeader title={app.name} back={{ label: t`Back to apps`, onFallback: onBack }} />
       <Main className='pt-2'>
         <div className='space-y-6'>
-          <Section title={"Install App"} description={"Install this application to your server"}>
+          <Section title={t`Install App`} description={t`Install this application to your server`}>
             <div className="space-y-4">
               <p className='text-muted-foreground text-sm'>
                 <Trans>Copy this ID and paste it in your Mochi server's Apps page to install.</Trans>
               </p>
-              <FieldRow label={"App ID"}>
+              <FieldRow label={t`App ID`}>
                 <DataChip value={shareString} />
               </FieldRow>
             </div>
           </Section>
 
-          <Section title={"Details"} description={"Metadata and configuration"}>
+          <Section title={t`Details`} description={t`Metadata and configuration`}>
             <div className="divide-y-0">
-              <FieldRow label={"Fingerprint"}>
+              <FieldRow label={t`Fingerprint`}>
                 <DataChip value={app.fingerprint || 'N/A'} truncate='middle' />
               </FieldRow>
-              <FieldRow label={"Privacy"}>
+              <FieldRow label={t`Privacy`}>
                 <DataChip 
                   value={app.privacy} 
                   icon={app.privacy === 'public' ? <Globe className="size-3.5" /> : <Lock className="size-3.5" />} 
@@ -344,7 +345,7 @@ function SharePage({
           </Section>
 
           {tracks.length > 0 && (
-            <Section title={"Available Versions"} description={"Release tracks currently active"}>
+            <Section title={t`Available Versions`} description={"Release tracks currently active"}>
               <div className='divide-y border rounded-lg overflow-hidden'>
                 {tracks.map((track) => (
                   <div key={track.track} className='flex items-center justify-between py-3 px-4'>
@@ -448,14 +449,14 @@ function TracksTab({
 
   return (
     <Section 
-      title={"Release Tracks"} 
+      title={t`Release Tracks`} 
       description={"Manage deployment environments and their versions"}
     >
       {tracks.length === 0 ? (
         <div className="py-8">
           <EmptyState
             icon={Shield}
-            title={"No tracks"}
+            title={t`No tracks`}
             description={"Create your first release track to manage deployments"}
           />
         </div>
@@ -494,7 +495,7 @@ function TracksTab({
                 </Select>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant='ghost' size='icon' className="h-8 w-8" aria-label={"Open track actions"}>
+                    <Button variant='ghost' size='icon' className="h-8 w-8" aria-label={t`Open track actions`}>
                       <MoreHorizontal className='h-4 w-4' />
                     </Button>
                   </DropdownMenuTrigger>
@@ -551,7 +552,7 @@ function TracksTab({
               <label className='text-sm font-medium'><Trans>Initial Version</Trans></label>
               <Select value={newTrackVersion} onValueChange={setNewTrackVersion}>
                 <SelectTrigger>
-                  <SelectValue placeholder={"No version"} />
+                  <SelectValue placeholder={t`No version`} />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value='__none__' className='text-muted-foreground'><Trans>Leave empty</Trans></SelectItem>
