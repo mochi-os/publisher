@@ -181,13 +181,13 @@ function AppPage() {
           </div>
           {activeTab === 'versions' && (
             <Button onClick={() => setShowUploadDialog(true)} className='mb-2' size="sm">
-              <Upload className='mr-2 h-4 w-4' />
+              <Upload className='me-2 h-4 w-4' />
               <Trans>Upload new version</Trans>
             </Button>
           )}
           {activeTab === 'tracks' && (
             <Button variant='outline' size='sm' onClick={() => setShowAddTrack(true)} className='mb-2'>
-              <Plus className='h-4 w-4 mr-2' />
+              <Plus className='h-4 w-4 me-2' />
               <Trans>Create track</Trans>
             </Button>
           )}

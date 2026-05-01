@@ -51,7 +51,7 @@ export function Apps() {
             title={t`Create app`}
             className='h-9 w-9 px-0 sm:h-10 sm:w-auto sm:px-4'
           >
-            <Plus className='h-4 w-4 sm:mr-2' />
+            <Plus className='h-4 w-4 sm:me-2' />
             <span className='sr-only sm:not-sr-only'><Trans>Create app</Trans></span>
           </Button>
         }
@@ -78,7 +78,7 @@ export function Apps() {
                 description={t`Create your first app to get started`}
               >
                 <Button onClick={openCreateDialog}>
-                  <Plus className='mr-2 h-4 w-4' />
+                  <Plus className='me-2 h-4 w-4' />
                   <Trans>Create app</Trans>
                 </Button>
               </EmptyState>
@@ -208,7 +208,7 @@ function CreateAppDialog({
               <Trans>Cancel</Trans>
             </Button>
             <Button type='submit' disabled={createMutation.isPending}>
-              {createMutation.isPending ? 'Creating...' : <><Plus className="mr-2 h-4 w-4" /><Trans>Create app</Trans></>}
+              {createMutation.isPending ? 'Creating...' : <><Plus className="me-2 h-4 w-4" /><Trans>Create app</Trans></>}
             </Button>
           </ResponsiveDialogFooter>
         </form>
