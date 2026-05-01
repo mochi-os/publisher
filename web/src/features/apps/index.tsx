@@ -80,8 +80,8 @@ export function Apps() {
             ) : (
               <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-3'>
                 {apps?.map((app: App) => {
-                  const privacyLabel = app.privacy === 'public' ? 'Public' : 'Private'
-                  const distributionLabel = app.distribution === 'restricted' ? 'Restricted' : 'Published'
+                  const privacyLabel = app.privacy === 'public' ? t`Public` : t`Private`
+                  const distributionLabel = app.distribution === 'restricted' ? t`Restricted` : t`Published`
                   return (
                     <Card
                       key={app.id}
@@ -127,7 +127,6 @@ function CreateAppDialog({
   onOpenChange: (open: boolean) => void
   onSuccess: (id: string) => void
 }) {
-  const { t } = useLingui()
   const [name, setName] = useState('')
   const [privacy, setPrivacy] = useState('public')
   const createMutation = useCreateAppMutation()
@@ -135,7 +134,7 @@ function CreateAppDialog({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (!name.trim()) {
-      toast.error(t`Please enter an app name`)
+      toast.error("Please enter an app name")
       return
     }
 
@@ -143,7 +142,7 @@ function CreateAppDialog({
       { name: name.trim(), privacy },
       {
         onSuccess: (data: { id: string }) => {
-          toast.success(t`App created`, {
+          toast.success("App created", {
             description: `${name} has been created successfully.`,
           })
           setName('')
@@ -151,7 +150,7 @@ function CreateAppDialog({
           onSuccess(data.id)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to create app`))
+          toast.error(getErrorMessage(error, "Failed to create app"))
         },
       }
     )
@@ -176,7 +175,7 @@ function CreateAppDialog({
                 id='name'
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder={t`My App`}
+                placeholder={"My App"}
               />
             </div>
             <div className='space-y-2'>

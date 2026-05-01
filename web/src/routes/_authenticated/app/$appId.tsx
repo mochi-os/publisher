@@ -96,7 +96,7 @@ function AppPage() {
       <>
         <PageHeader
           title={t`Loading app...`}
-          back={{ label: 'Back to apps', onFallback: goBackToApps }}
+          back={{ label: t`Back to apps`, onFallback: goBackToApps }}
         />
         <Main className='pt-2'>
           <ListSkeleton variant='card' count={3} />
@@ -109,7 +109,7 @@ function AppPage() {
     if (error instanceof ApiError && error.status === 404) {
       return (
         <>
-          <PageHeader title={t`App not found`} back={{ label: 'Back to apps', onFallback: goBackToApps }} />
+          <PageHeader title={t`App not found`} back={{ label: t`Back to apps`, onFallback: goBackToApps }} />
           <Main>
             <EmptyState
               icon={Package}
@@ -123,7 +123,7 @@ function AppPage() {
 
     return (
       <>
-        <PageHeader title={t`App`} back={{ label: 'Back to apps', onFallback: goBackToApps }} />
+        <PageHeader title={t`App`} back={{ label: t`Back to apps`, onFallback: goBackToApps }} />
         <Main>
           <GeneralError error={error} minimal mode='inline' reset={refetch} />
         </Main>
@@ -134,7 +134,7 @@ function AppPage() {
   if (!data || !data.app) {
     return (
       <>
-        <PageHeader title={t`App not found`} back={{ label: 'Back to apps', onFallback: goBackToApps }} />
+        <PageHeader title={t`App not found`} back={{ label: t`Back to apps`, onFallback: goBackToApps }} />
         <Main>
           <EmptyState
             icon={Package}
@@ -159,7 +159,7 @@ function AppPage() {
   // Show management page for administrators
   return (
     <>
-      <PageHeader title={app.name} back={{ label: 'Back to apps', onFallback: goBackToApps }} />
+      <PageHeader title={app.name} back={{ label: t`Back to apps`, onFallback: goBackToApps }} />
       <Main className='pt-2 space-y-6'>
         <div className='flex items-center justify-between border-b'>
           <div className='flex gap-1'>
@@ -312,29 +312,28 @@ function SharePage({
   shareString: string
   onBack: () => void | Promise<void>
 }) {
-  const { t } = useLingui()
   return (
     <>
-      <PageHeader title={app.name} back={{ label: 'Back to apps', onFallback: onBack }} />
+      <PageHeader title={app.name} back={{ label: "Back to apps", onFallback: onBack }} />
       <Main className='pt-2'>
         <div className='space-y-6'>
-          <Section title={t`Install App`} description={t`Install this application to your server`}>
+          <Section title={"Install App"} description={"Install this application to your server"}>
             <div className="space-y-4">
               <p className='text-muted-foreground text-sm'>
                 <Trans>Copy this ID and paste it in your Mochi server's Apps page to install.</Trans>
               </p>
-              <FieldRow label={t`App ID`}>
+              <FieldRow label={"App ID"}>
                 <DataChip value={shareString} />
               </FieldRow>
             </div>
           </Section>
 
-          <Section title={t`Details`} description={t`Metadata and configuration`}>
+          <Section title={"Details"} description={"Metadata and configuration"}>
             <div className="divide-y-0">
-              <FieldRow label={t`Fingerprint`}>
+              <FieldRow label={"Fingerprint"}>
                 <DataChip value={app.fingerprint || 'N/A'} truncate='middle' />
               </FieldRow>
-              <FieldRow label={t`Privacy`}>
+              <FieldRow label={"Privacy"}>
                 <DataChip 
                   value={app.privacy} 
                   icon={app.privacy === 'public' ? <Globe className="size-3.5" /> : <Lock className="size-3.5" />} 
@@ -345,7 +344,7 @@ function SharePage({
           </Section>
 
           {tracks.length > 0 && (
-            <Section title={t`Available Versions`} description={t`Release tracks currently active`}>
+            <Section title={"Available Versions"} description={"Release tracks currently active"}>
               <div className='divide-y border rounded-lg overflow-hidden'>
                 {tracks.map((track) => (
                   <div key={track.track} className='flex items-center justify-between py-3 px-4'>
@@ -377,7 +376,6 @@ function TracksTab({
   showAddTrack: boolean
   setShowAddTrack: (open: boolean) => void
 }) {
-  const { t } = useLingui()
   const [newTrackName, setNewTrackName] = useState('')
   const [newTrackVersion, setNewTrackVersion] = useState('__none__')
 
@@ -393,13 +391,13 @@ function TracksTab({
       { appId, track: newTrackName, version },
       {
         onSuccess: () => {
-          toast.success(t`Track created`)
+          toast.success("Track created")
           setNewTrackName('')
           setNewTrackVersion('__none__')
           setShowAddTrack(false)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to create track`))
+          toast.error(getErrorMessage(error, "Failed to create track"))
         },
       }
     )
@@ -413,7 +411,7 @@ function TracksTab({
           toast.success(`Track "${track}" updated to ${version}`)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to update track`))
+          toast.error(getErrorMessage(error, "Failed to update track"))
         },
       }
     )
@@ -427,7 +425,7 @@ function TracksTab({
           toast.success(`Track "${track}" deleted`)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to delete track`))
+          toast.error(getErrorMessage(error, "Failed to delete track"))
         },
       }
     )
@@ -441,7 +439,7 @@ function TracksTab({
           toast.success(`Default track set to "${track}"`)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to set default track`))
+          toast.error(getErrorMessage(error, "Failed to set default track"))
         },
       }
     )
@@ -449,15 +447,15 @@ function TracksTab({
 
   return (
     <Section 
-      title={t`Release Tracks`} 
-      description={t`Manage deployment environments and their versions`}
+      title={"Release Tracks"} 
+      description={"Manage deployment environments and their versions"}
     >
       {tracks.length === 0 ? (
         <div className="py-8">
           <EmptyState
             icon={Shield}
-            title={t`No tracks`}
-            description={t`Create your first release track to manage deployments`}
+            title={"No tracks"}
+            description={"Create your first release track to manage deployments"}
           />
         </div>
       ) : (
@@ -495,7 +493,7 @@ function TracksTab({
                 </Select>
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                    <Button variant='ghost' size='icon' className="h-8 w-8" aria-label={t`Open track actions`}>
+                    <Button variant='ghost' size='icon' className="h-8 w-8" aria-label={"Open track actions"}>
                       <MoreHorizontal className='h-4 w-4' />
                     </Button>
                   </DropdownMenuTrigger>
@@ -552,7 +550,7 @@ function TracksTab({
               <label className='text-sm font-medium'><Trans>Initial Version</Trans></label>
               <Select value={newTrackVersion} onValueChange={setNewTrackVersion}>
                 <SelectTrigger>
-                  <SelectValue placeholder={t`No version`} />
+                  <SelectValue placeholder={"No version"} />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value='__none__' className='text-muted-foreground'><Trans>Leave empty</Trans></SelectItem>
@@ -576,7 +574,7 @@ function TracksTab({
               onClick={handleCreateTrack}
               disabled={!newTrackName || createTrackMutation.isPending}
             >
-              {createTrackMutation.isPending ? 'Creating...' : 'Create Track'}
+              {createTrackMutation.isPending ? "Creating..." : "Create Track"}
             </Button>
           </ResponsiveDialogFooter>
         </ResponsiveDialogContent>
@@ -598,7 +596,6 @@ function UploadVersionDialog({
   showInstallOption: boolean
   availableTracks: string[]
 }) {
-  const { t } = useLingui()
   const [file, setFile] = useState<File | null>(null)
   const [installOption, setInstallOption] = useState<'yes' | 'yes-force' | 'no'>('yes')
   const [selectedTracks, setSelectedTracks] = useState<string[]>(['Production'])
@@ -614,7 +611,7 @@ function UploadVersionDialog({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     if (!file) {
-      toast.error(t`Please select a file`)
+      toast.error("Please select a file")
       return
     }
 
@@ -625,7 +622,7 @@ function UploadVersionDialog({
       { appId, file, install, force, tracks: selectedTracks },
       {
         onSuccess: (data: { version: string }) => {
-          toast.success(t`Version uploaded`, {
+          toast.success("Version uploaded", {
             description: `Version ${data.version} has been created.`,
           })
           setFile(null)
@@ -637,7 +634,7 @@ function UploadVersionDialog({
           onOpenChange(false)
         },
         onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to upload version`))
+          toast.error(getErrorMessage(error, "Failed to upload version"))
         },
       }
     )
@@ -711,7 +708,7 @@ function UploadVersionDialog({
               <Trans>Cancel</Trans>
             </Button>
             <Button type='submit' disabled={uploadMutation.isPending}>
-              {uploadMutation.isPending ? 'Uploading...' : 'Upload Version'}
+              {uploadMutation.isPending ? "Uploading..." : "Upload Version"}
             </Button>
           </ResponsiveDialogFooter>
         </form>
