@@ -289,6 +289,10 @@ msgstr "Create track"
 msgid "Create your first app to get started"
 msgstr "Create your first app to get started"
 
+#: src/routes/_authenticated/app/$appId.tsx:460
+msgid "Create your first release track to manage deployments"
+msgstr "Create your first release track to manage deployments"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 msgid "Dark"
 msgstr "Dark"
@@ -308,6 +312,10 @@ msgstr "Default"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:169
 msgid "Default AI account"
 msgstr "Default AI account"
+
+#: src/routes/_authenticated/app/$appId.tsx:441
+msgid "Default track set to \"{track}\""
+msgstr "Default track set to \"{track}\""
 
 #: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Delete track"
@@ -336,6 +344,10 @@ msgstr "Displays the mobile sidebar."
 #: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Distribution"
 msgstr "Distribution"
+
+#: src/routes/_authenticated/app/$appId.tsx:75
+msgid "Distribution set to {distribution}"
+msgstr "Distribution set to {distribution}"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
 msgid "Download"
@@ -536,6 +548,10 @@ msgstr "Logged out successfully"
 msgid "Make app publicly available"
 msgstr "Make app publicly available"
 
+#: src/routes/_authenticated/app/$appId.tsx:453
+msgid "Manage deployment environments and their versions"
+msgstr "Manage deployment environments and their versions"
+
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
@@ -729,6 +745,10 @@ msgstr "Reduce interest"
 #: src/routes/_authenticated/app/$appId.tsx:452
 msgid "Release Tracks"
 msgstr "Release Tracks"
+
+#: src/routes/_authenticated/app/$appId.tsx:348
+msgid "Release tracks currently active"
+msgstr "Release tracks currently active"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:257
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:172
@@ -933,6 +953,14 @@ msgstr "Toggle theme"
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Top"
 msgstr "Top"
+
+#: src/routes/_authenticated/app/$appId.tsx:427
+msgid "Track \"{track}\" deleted"
+msgstr "Track \"{track}\" deleted"
+
+#: src/routes/_authenticated/app/$appId.tsx:413
+msgid "Track \"{track}\" updated to {version}"
+msgstr "Track \"{track}\" updated to {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx:396
 msgid "Track created"

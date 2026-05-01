@@ -76,7 +76,7 @@ msgstr "Ajouter aux notifications existantes"
 
 #: ../../../lib/web/src/components/view-tabs.tsx:57
 msgid "Add view"
-msgstr ""
+msgstr "Ajouter une vue"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:62
 msgid "Adjust the appearance and layout to suit your preferences."
@@ -289,6 +289,10 @@ msgstr "Créer une piste"
 msgid "Create your first app to get started"
 msgstr "Créez votre première application pour commencer"
 
+#: src/routes/_authenticated/app/$appId.tsx:460
+msgid "Create your first release track to manage deployments"
+msgstr "Créez votre première release track pour gérer les déploiements"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 msgid "Dark"
 msgstr "Sombre"
@@ -308,6 +312,10 @@ msgstr "Par défaut"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:169
 msgid "Default AI account"
 msgstr "Compte IA par défaut"
+
+#: src/routes/_authenticated/app/$appId.tsx:441
+msgid "Default track set to \"{track}\""
+msgstr "Track par défaut défini sur « {track} »"
 
 #: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Delete track"
@@ -336,6 +344,10 @@ msgstr "Affiche la barre latérale mobile."
 #: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Distribution"
 msgstr "Distribution"
+
+#: src/routes/_authenticated/app/$appId.tsx:75
+msgid "Distribution set to {distribution}"
+msgstr "Distribution définie sur {distribution}"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
 msgid "Download"
@@ -536,6 +548,10 @@ msgstr "Déconnexion réussie"
 msgid "Make app publicly available"
 msgstr "Rendre l'application publique"
 
+#: src/routes/_authenticated/app/$appId.tsx:453
+msgid "Manage deployment environments and their versions"
+msgstr "Gérer les environnements de déploiement et leurs versions"
+
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
@@ -730,6 +746,10 @@ msgstr "Réduire l'intérêt"
 msgid "Release Tracks"
 msgstr "Pistes de publication"
 
+#: src/routes/_authenticated/app/$appId.tsx:348
+msgid "Release tracks currently active"
+msgstr "Release tracks actives actuellement"
+
 #: ../../../lib/web/src/features/access/access-list.tsx:257
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:172
 msgid "Remove"
@@ -791,7 +811,7 @@ msgstr "Rechercher des utilisateurs"
 
 #: ../../../lib/web/src/components/person-picker.tsx:312
 msgid "Search..."
-msgstr ""
+msgstr "Rechercher…"
 
 #: ../../../lib/web/src/components/language-picker.tsx:115
 msgid "Search…"
@@ -933,6 +953,14 @@ msgstr "Basculer le thème"
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Top"
 msgstr "Meilleur"
+
+#: src/routes/_authenticated/app/$appId.tsx:427
+msgid "Track \"{track}\" deleted"
+msgstr "Track « {track} » supprimée"
+
+#: src/routes/_authenticated/app/$appId.tsx:413
+msgid "Track \"{track}\" updated to {version}"
+msgstr "Track « {track} » mise à jour vers {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx:396
 msgid "Track created"

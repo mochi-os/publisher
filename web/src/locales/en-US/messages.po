@@ -289,6 +289,10 @@ msgstr ""
 msgid "Create your first app to get started"
 msgstr ""
 
+#: src/routes/_authenticated/app/$appId.tsx:460
+msgid "Create your first release track to manage deployments"
+msgstr ""
+
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 msgid "Dark"
 msgstr ""
@@ -307,6 +311,10 @@ msgstr ""
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:169
 msgid "Default AI account"
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:441
+msgid "Default track set to \"{track}\""
 msgstr ""
 
 #: src/routes/_authenticated/app/$appId.tsx:515
@@ -335,6 +343,10 @@ msgstr ""
 
 #: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Distribution"
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:75
+msgid "Distribution set to {distribution}"
 msgstr ""
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
@@ -536,6 +548,10 @@ msgstr ""
 msgid "Make app publicly available"
 msgstr ""
 
+#: src/routes/_authenticated/app/$appId.tsx:453
+msgid "Manage deployment environments and their versions"
+msgstr ""
+
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
@@ -728,6 +744,10 @@ msgstr ""
 
 #: src/routes/_authenticated/app/$appId.tsx:452
 msgid "Release Tracks"
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:348
+msgid "Release tracks currently active"
 msgstr ""
 
 #: ../../../lib/web/src/features/access/access-list.tsx:257
@@ -932,6 +952,14 @@ msgstr ""
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Top"
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:427
+msgid "Track \"{track}\" deleted"
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:413
+msgid "Track \"{track}\" updated to {version}"
 msgstr ""
 
 #: src/routes/_authenticated/app/$appId.tsx:396

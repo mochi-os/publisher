@@ -72,7 +72,7 @@ function AppPage() {
       { appId, distribution },
       {
         onSuccess: () => {
-          toast.success(`Distribution set to ${distribution}`)
+          toast.success(t`Distribution set to ${distribution}`)
         },
         onError: (error) => {
           toast.error(getErrorMessage(error, t`Failed to update distribution`))
@@ -345,7 +345,7 @@ function SharePage({
           </Section>
 
           {tracks.length > 0 && (
-            <Section title={t`Available Versions`} description={"Release tracks currently active"}>
+            <Section title={t`Available Versions`} description={t`Release tracks currently active`}>
               <div className='divide-y border rounded-lg overflow-hidden'>
                 {tracks.map((track) => (
                   <div key={track.track} className='flex items-center justify-between py-3 px-4'>
@@ -410,7 +410,7 @@ function TracksTab({
       { appId, track, version },
       {
         onSuccess: () => {
-          toast.success(`Track "${track}" updated to ${version}`)
+          toast.success(t`Track "${track}" updated to ${version}`)
         },
         onError: (error) => {
           toast.error(getErrorMessage(error, t`Failed to update track`))
@@ -424,7 +424,7 @@ function TracksTab({
       { appId, track },
       {
         onSuccess: () => {
-          toast.success(`Track "${track}" deleted`)
+          toast.success(t`Track "${track}" deleted`)
         },
         onError: (error) => {
           toast.error(getErrorMessage(error, t`Failed to delete track`))
@@ -438,7 +438,7 @@ function TracksTab({
       { appId, track },
       {
         onSuccess: () => {
-          toast.success(`Default track set to "${track}"`)
+          toast.success(t`Default track set to "${track}"`)
         },
         onError: (error) => {
           toast.error(getErrorMessage(error, t`Failed to set default track`))
@@ -450,14 +450,14 @@ function TracksTab({
   return (
     <Section 
       title={t`Release Tracks`} 
-      description={"Manage deployment environments and their versions"}
+      description={t`Manage deployment environments and their versions`}
     >
       {tracks.length === 0 ? (
         <div className="py-8">
           <EmptyState
             icon={Shield}
             title={t`No tracks`}
-            description={"Create your first release track to manage deployments"}
+            description={t`Create your first release track to manage deployments`}
           />
         </div>
       ) : (
