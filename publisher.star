@@ -25,7 +25,7 @@ def database_upgrade(version):
 
 # List apps
 def action_list(a):
-	apps = mochi.db.rows("select a.*, t.version from apps a left join tracks t on a.id = t.app and t.track = a.default_track order by a.name")
+	apps = mochi.db.rows("select a.*, t.version from apps a left join tracks t on a.id = t.app and t.track = a.default_track")
 	return {"data": {"apps": apps}}
 
 # View an app (supports both authenticated and anonymous access)
@@ -40,7 +40,7 @@ def action_view(a):
 		return
 
 	app["fingerprint"] = mochi.entity.fingerprint(app["id"], True)
-	tracks_all = mochi.db.rows("select * from tracks where app=? order by track collate nocase", app["id"])
+	tracks_all = mochi.db.rows("select * from tracks where app=?", app["id"])
 
 	# Get publisher identity for share string
 	publisher = a.user.identity.id if a.user and a.user.identity else ""
@@ -64,12 +64,12 @@ def action_view(a):
 # Create new app
 def action_create(a):
 	name = a.input("name")
-	if not mochi.valid(name, "name"):
+	if not mochi.text.valid(name, "name"):
 		a.error_label(400, "errors.invalid_app_name")
 		return
 
 	privacy = a.input("privacy")
-	if not mochi.valid(privacy, "privacy"):
+	if not mochi.text.valid(privacy, "privacy"):
 		a.error_label(400, "errors.invalid_privacy")
 		return
 
@@ -106,7 +106,7 @@ def action_version_create(a):
 		return
 
 	file = a.input("file")
-	if not mochi.valid(file, "filename"):
+	if not mochi.text.valid(file, "filename"):
 		a.error_label(400, "errors.file_name_invalid")
 		return
 
