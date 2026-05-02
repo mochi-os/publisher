@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2026-05-02 15:23+0200\n"
+"POT-Creation-Date: 2026-05-02 17:58+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,7 +17,7 @@ msgstr "24 horas"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Absolute (date and time)"
-msgstr "Absoluto (fecha y hora)"
+msgstr "Absoluta (fecha y hora)"
 
 #: ../../../lib/web/src/features/errors/forbidden.tsx:12
 msgid "Access Forbidden"
@@ -78,7 +78,7 @@ msgstr "Añadir equipo/app"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:159
 msgid "Add to existing notifications"
-msgstr "Añadir a notificaciones existentes"
+msgstr "Añadir a las notificaciones existentes"
 
 #: ../../../lib/web/src/components/view-tabs.tsx:57
 msgid "Add view"
@@ -86,7 +86,7 @@ msgstr "Añadir vista"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:62
 msgid "Adjust the appearance and layout to suit your preferences."
-msgstr "Ajusta la apariencia y el diseño según tus preferencias."
+msgstr "Ajusta la apariencia y la disposición a tus preferencias."
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:38
 msgid "AI"
@@ -94,11 +94,11 @@ msgstr "IA"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:159
 msgid "All"
-msgstr "Todo"
+msgstr "Todos"
 
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "All uploaded build files for this application"
-msgstr "Todos los archivos de compilación subidos para esta aplicación"
+msgstr "Todos los ficheros de compilación subidos para esta aplicación"
 
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
@@ -125,7 +125,7 @@ msgstr "ID de la aplicación"
 
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:24
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
-msgstr "¿Seguro que quieres cerrar sesión? Tendrás que iniciar sesión de nuevo para acceder a tu cuenta."
+msgstr "¿Seguro que quieres cerrar sesión? Necesitarás volver a iniciar sesión para acceder a tu cuenta."
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:56
 msgid "Asc"
@@ -156,7 +156,7 @@ msgstr "Volver al inicio"
 
 #: ../../../lib/web/src/components/post-tags.tsx:160
 msgid "Boost interest"
-msgstr "Impulsar interés"
+msgstr "Aumentar interés"
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -177,15 +177,15 @@ msgstr "Categoría para esta notificación"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:115
 msgid "Change notification category"
-msgstr "Cambiar categoría de notificación"
+msgstr "Cambiar la categoría de la notificación"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:315
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
-msgstr "Elige entre modo expandido predeterminado, compacto solo iconos o diseño completo"
+msgstr "Elige entre modo expandido por defecto, compacto solo con iconos, o disposición completa"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:257
 msgid "Choose between inset, floating, or standard sidebar layout"
-msgstr "Elige entre diseño de barra lateral incrustada, flotante o estándar"
+msgstr "Elige entre disposición de barra lateral incrustada, flotante o estándar"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:358
 msgid "Choose between left-to-right or right-to-left site direction"
@@ -193,11 +193,11 @@ msgstr "Elige entre dirección del sitio de izquierda a derecha o de derecha a i
 
 #: ../../../lib/web/src/components/config-drawer.tsx:213
 msgid "Choose between system preference, light mode, or dark mode"
-msgstr "Elige entre preferencia del sistema, modo claro o modo oscuro"
+msgstr "Elige entre la preferencia del sistema, modo claro o modo oscuro"
 
 #: ../../../lib/web/src/components/language-picker.tsx:146
 msgid "Choose language"
-msgstr "Elige idioma"
+msgstr "Elige el idioma"
 
 #: ../../../lib/web/src/components/colour-picker.tsx:304
 msgid "Clear"
@@ -273,11 +273,11 @@ msgstr "Copiar"
 
 #: src/routes/_authenticated/app/$appId.tsx:324
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "Copia este ID y pégalo en la página Apps de tu servidor Mochi para instalar."
+msgstr "Copia este ID y pégalo en la página Apps de tu servidor Mochi para instalarla."
 
 #: src/routes/_authenticated/app/$appId.tsx:199
 msgid "Core identification for this application"
-msgstr "Identificación principal para esta aplicación"
+msgstr "Identificación principal de esta aplicación"
 
 #: src/routes/_authenticated/app/$appId.tsx:536
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
@@ -298,7 +298,7 @@ msgstr "Crear nueva app"
 
 #: src/routes/_authenticated/app/$appId.tsx:191
 msgid "Create track"
-msgstr "Crear track"
+msgstr "Crear canal"
 
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
@@ -306,7 +306,7 @@ msgstr "Crea tu primera app para empezar"
 
 #: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Create your first release track to manage deployments"
-msgstr "Crea tu primer track de versión para gestionar despliegues"
+msgstr "Crea tu primer canal de lanzamientos para gestionar los despliegues"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -331,11 +331,11 @@ msgstr "Cuenta de IA predeterminada"
 
 #: src/routes/_authenticated/app/$appId.tsx:441
 msgid "Default track set to \"{track}\""
-msgstr "Track predeterminado establecido a \"{track}\""
+msgstr "Canal predeterminado establecido en \"{track}\""
 
 #: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Delete track"
-msgstr "Eliminar track"
+msgstr "Eliminar canal"
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:60
 msgid "Desc"
@@ -374,7 +374,7 @@ msgstr "Distribución"
 
 #: src/routes/_authenticated/app/$appId.tsx:75
 msgid "Distribution set to {distribution}"
-msgstr "Distribución establecida a {distribution}"
+msgstr "Distribución establecida en {distribution}"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
 msgid "Download"
@@ -386,7 +386,7 @@ msgstr "Expandir barra lateral"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:217
 msgid "Failed to add account"
-msgstr "Error al agregar la cuenta"
+msgstr "Error al añadir la cuenta"
 
 #: src/features/apps/index.tsx:159
 msgid "Failed to create app"
@@ -402,7 +402,7 @@ msgstr "Error al eliminar el canal"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:226
 msgid "Failed to remove account"
-msgstr "Error al eliminar la cuenta"
+msgstr "Error al quitar la cuenta"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:249
 msgid "Failed to send verification code"
@@ -465,7 +465,7 @@ msgstr "Ir a la última página"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:112
 msgid "Go to next page"
-msgstr "Ir a la siguiente página"
+msgstr "Ir a la página siguiente"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:84
 msgid "Go to previous page"
@@ -504,7 +504,7 @@ msgstr "Versión inicial"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:239
 msgid "Inset"
-msgstr "Encajado"
+msgstr "Insertado"
 
 #: src/routes/_authenticated/app/$appId.tsx:321
 msgid "Install App"
@@ -516,7 +516,7 @@ msgstr "Instalar localmente"
 
 #: src/routes/_authenticated/app/$appId.tsx:321
 msgid "Install this application to your server"
-msgstr "Instalar esta aplicación en tu servidor"
+msgstr "Instala esta aplicación en tu servidor"
 
 #: src/routes/_authenticated/app/$appId.tsx:242
 msgid "Installation ID"
@@ -587,11 +587,11 @@ msgstr "Cerrando sesión…"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:25
 msgid "Luma (Default)"
-msgstr "Luma (Predeterminado)"
+msgstr "Luma (predeterminado)"
 
 #: src/features/apps/index.tsx:189
 msgid "Make app publicly available"
-msgstr "Hacer la app disponible públicamente"
+msgstr "Hacer la aplicación pública"
 
 #: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Manage deployment environments and their versions"
@@ -620,7 +620,7 @@ msgstr "Lunes"
 
 #: src/features/apps/index.tsx:184
 msgid "My App"
-msgstr "Mi App"
+msgstr "Mi aplicación"
 
 #: src/features/apps/index.tsx:178
 msgid "Name"
@@ -632,11 +632,11 @@ msgstr "Nuevo"
 
 #: src/routes/_authenticated/app/$appId.tsx:534
 msgid "New Release Track"
-msgstr "Nueva pista de lanzamiento"
+msgstr "Nuevo canal de lanzamiento"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
-msgstr "Imagen siguiente"
+msgstr "Siguiente imagen"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
@@ -644,7 +644,7 @@ msgstr "No hay reglas de acceso configuradas. Añade reglas para controlar quié
 
 #: src/features/apps/index.tsx:77
 msgid "No apps yet"
-msgstr "Aún no hay apps"
+msgstr "Aún no hay aplicaciones"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:287
 msgid "No connected accounts"
@@ -656,7 +656,7 @@ msgstr "No hay grupos disponibles"
 
 #: ../../../lib/web/src/components/language-picker.tsx:156
 msgid "No matches."
-msgstr "No hay coincidencias."
+msgstr "Sin coincidencias."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -673,15 +673,15 @@ msgstr "No se encontraron resultados."
 
 #: ../../../lib/web/src/components/timezone-select.tsx:64
 msgid "No time zone found."
-msgstr "No se encontró zona horaria."
+msgstr "No se encontró ninguna zona horaria."
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "No topic record yet — try again after the next notification."
-msgstr "Aún no hay registro de tema — intenta de nuevo después de la próxima notificación."
+msgstr "Aún no hay registro del tema; vuelve a intentarlo tras la próxima notificación."
 
 #: src/routes/_authenticated/app/$appId.tsx:459
 msgid "No tracks"
-msgstr "No hay pistas"
+msgstr "Sin canales"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:203
 msgid "No users found"
@@ -707,7 +707,7 @@ msgstr "Notificaciones"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx:12
 msgid "Oops! Page Not Found!"
-msgstr "¡Vaya! Página no encontrada!"
+msgstr "¡Vaya! Página no encontrada"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:150
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:151
@@ -725,11 +725,11 @@ msgstr "Abrir menú de navegación"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:51
 msgid "Open theme settings"
-msgstr "Abrir ajustes de tema"
+msgstr "Abrir ajustes del tema"
 
 #: src/routes/_authenticated/app/$appId.tsx:498
 msgid "Open track actions"
-msgstr "Abrir acciones de pista"
+msgstr "Abrir acciones del canal"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:163
 msgid "Other"
@@ -741,11 +741,11 @@ msgstr "Propietario"
 
 #: src/features/apps/index.tsx:143
 msgid "Please enter an app name"
-msgstr "Por favor, ingresa un nombre de app"
+msgstr "Introduce un nombre de aplicación"
 
 #: src/routes/_authenticated/app/$appId.tsx:617
 msgid "Please select a file"
-msgstr "Por favor, selecciona un archivo"
+msgstr "Selecciona un archivo"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
 msgid "Previous image"
@@ -780,7 +780,7 @@ msgstr "Publicado"
 #: src/features/apps/index.tsx:32
 #: src/features/apps/index.tsx:46
 msgid "Publisher"
-msgstr "Publicador"
+msgstr "Editor"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
@@ -801,15 +801,15 @@ msgstr "Relativo (5m, 3h, 2d)"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:59
 msgid "Relative within 24 hours, else absolute"
-msgstr "Relativo dentro de 24 horas, de lo contrario absoluto"
+msgstr "Relativo en las últimas 24 horas; de lo contrario, absoluto"
 
 #: src/routes/_authenticated/app/$appId.tsx:452
 msgid "Release Tracks"
-msgstr "Pistas de lanzamiento"
+msgstr "Canales de lanzamiento"
 
 #: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Release tracks currently active"
-msgstr "Pistas de lanzamiento actualmente activas"
+msgstr "Canales de lanzamiento activos actualmente"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:257
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:172
@@ -823,7 +823,7 @@ msgstr "Eliminar regla de acceso"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:249
 msgid "Remove access?"
-msgstr "¿Eliminar acceso?"
+msgstr "¿Eliminar el acceso?"
 
 #: ../../../lib/web/src/components/post-tags.tsx:190
 msgid "Remove interest"
@@ -835,7 +835,7 @@ msgstr "Restablecer"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:75
 msgid "Reset all settings to default values"
-msgstr "Restablecer todos los ajustes a los valores predeterminados"
+msgstr "Restablecer todos los ajustes a sus valores predeterminados"
 
 #: src/features/apps/index.tsx:89
 #: src/routes/_authenticated/app/$appId.tsx:227
@@ -890,7 +890,7 @@ msgstr "Buscando..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:147
 msgid "Select a user, group, or other rule to grant access."
-msgstr "Selecciona un usuario, grupo u otra regla para otorgar acceso."
+msgstr "Selecciona un usuario, grupo u otra regla para conceder acceso."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:270
 msgid "Select access rule"
@@ -936,7 +936,7 @@ msgstr "Establecer origen y destino"
 #: ../../../lib/web/src/components/layout/nav-user.tsx:145
 #: ../../../lib/web/src/components/layout/nav-user.tsx:195
 msgid "Settings"
-msgstr "Configuración"
+msgstr "Ajustes"
 
 #: src/routes/_authenticated/app/$appId.tsx:236
 msgid "Share this ID to allow others to install this app"
@@ -944,7 +944,7 @@ msgstr "Comparte este ID para permitir que otros instalen esta aplicación"
 
 #: src/routes/_authenticated/app/$appId.tsx:235
 msgid "Sharing"
-msgstr "Compartir"
+msgstr "Compartiendo"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:36
 msgid "Showing {totalShown} of {total}"
@@ -966,7 +966,7 @@ msgstr "Saltar al contenido principal"
 
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
-msgstr "¡Mantente atento!"
+msgstr "¡Permanece atento!"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
@@ -987,12 +987,12 @@ msgstr "Etiqueta"
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
-msgstr "Equipos/Aplicaciones"
+msgstr "Equipos/aplicaciones"
 
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
 msgid "The requested app could not be found."
-msgstr "No se pudo encontrar la aplicación solicitada."
+msgstr "No se ha podido encontrar la aplicación solicitada."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:181
 msgid "Theme"
@@ -1000,7 +1000,7 @@ msgstr "Tema"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:60
 msgid "Theme Settings"
-msgstr "Configuración del tema"
+msgstr "Ajustes de tema"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:72
 msgid "Thursday"
@@ -1030,19 +1030,19 @@ msgstr "Arriba"
 
 #: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Track \"{track}\" deleted"
-msgstr "Pista \"{track}\" eliminada"
+msgstr "Canal \"{track}\" eliminado"
 
 #: src/routes/_authenticated/app/$appId.tsx:413
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Pista \"{track}\" actualizada a {version}"
+msgstr "Canal \"{track}\" actualizado a {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx:396
 msgid "Track created"
-msgstr "Pista creada"
+msgstr "Canal creado"
 
 #: src/routes/_authenticated/app/$appId.tsx:542
 msgid "Track Name"
-msgstr "Nombre de la pista"
+msgstr "Nombre del canal"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:141
 msgid "Travelling"
@@ -1051,13 +1051,13 @@ msgstr "Viajando"
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:190
 #: ../../../lib/web/src/components/search-entity-page.tsx:165
 msgid "Try adjusting your search terms"
-msgstr "Intenta ajustar tus términos de búsqueda"
+msgstr "Prueba a ajustar los términos de búsqueda"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
 msgid "Try again"
-msgstr "Intentar de nuevo"
+msgstr "Volver a intentarlo"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:70
 msgid "Tuesday"
@@ -1078,7 +1078,7 @@ msgstr "Escribe para buscar..."
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94
 msgid "Unable to redirect to login. Please try again."
-msgstr "No se pudo redirigir al inicio de sesión. Inténtalo de nuevo."
+msgstr "No se ha podido redirigir al inicio de sesión. Inténtalo de nuevo."
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:143
 msgid "Unassigned"
@@ -1086,7 +1086,7 @@ msgstr "Sin asignar"
 
 #: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
 msgid "Unauthorized Access"
-msgstr "Acceso no autorizado"
+msgstr "Acceso no permitido"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:97
 msgid "United States"
@@ -1094,15 +1094,15 @@ msgstr "Estados Unidos"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:131
 msgid "Unverified"
-msgstr "No verificado"
+msgstr "Sin verificar"
 
 #: src/routes/_authenticated/app/$appId.tsx:688
 msgid "Update Tracks"
-msgstr "Actualizar pistas"
+msgstr "Actualizar canales"
 
 #: src/routes/_authenticated/app/$appId.tsx:652
 msgid "Upload a .zip build file for your application."
-msgstr "Sube un archivo .zip de compilación para tu aplicación."
+msgstr "Sube un archivo de compilación .zip para tu aplicación."
 
 #: src/routes/_authenticated/app/$appId.tsx:185
 msgid "Upload new version"
@@ -1114,7 +1114,7 @@ msgstr "Subir nueva versión"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
-msgstr "Sube tu primera compilación para comenzar"
+msgstr "Sube tu primera compilación para empezar"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
@@ -1134,7 +1134,7 @@ msgstr "Código de verificación enviado"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:240
 msgid "Verification failed"
-msgstr "Verificación fallida"
+msgstr "La verificación ha fallado"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
 msgid "Verify"
@@ -1166,7 +1166,7 @@ msgstr "Ver todas las notificaciones"
 
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
 msgid "We'll be back online shortly."
-msgstr "Volveremos a estar en línea en breve."
+msgstr "Volveremos a estar disponibles en breve."
 
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
 msgid "Website is under maintenance!"
