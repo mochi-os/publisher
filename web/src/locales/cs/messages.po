@@ -1,98 +1,92 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2026-05-02 15:03+0200\n"
+"POT-Creation-Date: 2026-05-02 15:23+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: tl\n"
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"Language: cs\n"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:52
 msgid "12 hours"
-msgstr "12 oras"
+msgstr "12 hodin"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "24 hours"
-msgstr "24 oras"
+msgstr "24 hodin"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Absolute (date and time)"
-msgstr "Absolute (petsa at oras)"
+msgstr "Absolutní (datum a čas)"
 
 #: ../../../lib/web/src/features/errors/forbidden.tsx:12
 msgid "Access Forbidden"
-msgstr "Bawal ang access"
+msgstr "Přístup zakázán"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:188
 msgid "Access level"
-msgstr "Antas ng access"
+msgstr "Úroveň přístupu"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:208
 msgid "Account added"
-msgstr "Naidagdag ang account"
+msgstr "Účet přidán"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:224
 msgid "Account removed"
-msgstr "Tinanggal ang account"
+msgstr "Účet odebrán"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:123
 msgid "Account type"
-msgstr "Uri ng account"
+msgstr "Typ účtu"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:234
 msgid "Account verified"
-msgstr "Na-verify ang account"
+msgstr "Účet ověřen"
 
 #: src/routes/_authenticated/app/$appId.tsx:477
 msgid "Active version"
-msgstr "Aktibong bersyon"
+msgstr "Aktivní verze"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
-msgstr "Magdagdag ng bagong account"
+msgstr "Přidat nový účet"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:145
 msgid "Add access"
-msgstr "Magdagdag ng access"
+msgstr "Přidat přístup"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:116
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:280
 msgid "Add account"
-msgstr "Magdagdag ng account"
+msgstr "Přidat účet"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:289
 msgid "Add an account to receive notifications and use services."
-msgstr "Magdagdag ng account para makatanggap ng notification at gamitin ang mga serbisyo."
+msgstr "Přidejte účet pro příjem oznámení a využívání služeb."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:98
 msgid "Add new account"
-msgstr "Magdagdag ng bagong account"
+msgstr "Přidat nový účet"
 
 #: ../../../lib/web/src/components/post-tags.tsx:119
 msgid "Add tag..."
-msgstr "Magdagdag ng tag..."
+msgstr "Přidat štítek..."
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:80
 msgid "Add team/app"
-msgstr "Magdagdag ng team/app"
+msgstr "Přidat tým/aplikaci"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:159
 msgid "Add to existing notifications"
-msgstr "Idagdag sa mga umiiral na notification"
+msgstr "Přidat ke stávajícím oznámením"
 
 #: ../../../lib/web/src/components/view-tabs.tsx:57
 msgid "Add view"
-msgstr "Magdagdag ng view"
+msgstr "Přidat zobrazení"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:62
 msgid "Adjust the appearance and layout to suit your preferences."
-msgstr "Ayusin ang hitsura at layout ayon sa iyong kagustuhan."
+msgstr "Upravte vzhled a rozvržení podle svých preferencí."
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:38
 msgid "AI"
@@ -100,50 +94,50 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:159
 msgid "All"
-msgstr "Lahat"
+msgstr "Vše"
 
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "All uploaded build files for this application"
-msgstr "Lahat ng na-upload na build file para sa application na ito"
+msgstr "Všechny nahrané build soubory pro tuto aplikaci"
 
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
-msgstr "App"
+msgstr "Aplikace"
 
 #: src/features/apps/index.tsx:151
 msgid "App created"
-msgstr "Nagawa ang app"
+msgstr "Aplikace vytvořena"
 
 #: src/routes/_authenticated/app/$appId.tsx:326
 msgid "App ID"
-msgstr "App ID"
+msgstr "ID aplikace"
 
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:116
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:141
 msgid "App not found"
-msgstr "Hindi nahanap ang app"
+msgstr "Aplikace nenalezena"
 
 #: src/routes/_authenticated/app/$appId.tsx:201
 msgid "Application ID"
-msgstr "Application ID"
+msgstr "ID aplikace"
 
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:24
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
-msgstr "Sigurado ka bang gusto mong mag-log out? Kakailanganin mong mag-log in muli para ma-access ang iyong account."
+msgstr "Opravdu se chcete odhlásit? Pro přístup ke svému účtu se budete muset znovu přihlásit."
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:56
 msgid "Asc"
-msgstr "Asc"
+msgstr "Vzestupně"
 
 #: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Available Versions"
-msgstr "Mga available na bersyon"
+msgstr "Dostupné verze"
 
 #: ../../../lib/web/src/components/place-picker.tsx:152
 msgid "Back"
-msgstr "Bumalik"
+msgstr "Zpět"
 
 #: src/routes/_authenticated/app/$appId.tsx:99
 #: src/routes/_authenticated/app/$appId.tsx:112
@@ -152,17 +146,17 @@ msgstr "Bumalik"
 #: src/routes/_authenticated/app/$appId.tsx:162
 #: src/routes/_authenticated/app/$appId.tsx:318
 msgid "Back to apps"
-msgstr "Bumalik sa mga app"
+msgstr "Zpět na aplikace"
 
 #: ../../../lib/web/src/features/errors/forbidden.tsx:21
 #: ../../../lib/web/src/features/errors/not-found-error.tsx:21
 #: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
 msgid "Back to Home"
-msgstr "Bumalik sa Home"
+msgstr "Zpět na hlavní stránku"
 
 #: ../../../lib/web/src/components/post-tags.tsx:160
 msgid "Boost interest"
-msgstr "Palakasin ang interes"
+msgstr "Zvýšit zájem"
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -175,119 +169,119 @@ msgstr "Palakasin ang interes"
 #: src/routes/_authenticated/app/$appId.tsx:573
 #: src/routes/_authenticated/app/$appId.tsx:711
 msgid "Cancel"
-msgstr "Kanselahin"
+msgstr "Zrušit"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:131
 msgid "Category for this notification"
-msgstr "Category para sa notification na ito"
+msgstr "Kategorie pro toto oznámení"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:115
 msgid "Change notification category"
-msgstr "Baguhin ang category ng notification"
+msgstr "Změnit kategorii oznámení"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:315
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
-msgstr "Pumili sa pagitan ng default expanded, compact icon-only, o full layout mode"
+msgstr "Vyberte mezi výchozím rozbaleným, kompaktním pouze s ikonami nebo plným režimem rozvržení"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:257
 msgid "Choose between inset, floating, or standard sidebar layout"
-msgstr "Pumili sa pagitan ng inset, floating, o standard na sidebar layout"
+msgstr "Vyberte mezi vloženým, plovoucím nebo standardním rozvržením postranního panelu"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:358
 msgid "Choose between left-to-right or right-to-left site direction"
-msgstr "Pumili sa pagitan ng kaliwa-pakanan o kanan-pakaliwa na direksyon ng site"
+msgstr "Vyberte mezi směrem stránek zleva doprava nebo zprava doleva"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:213
 msgid "Choose between system preference, light mode, or dark mode"
-msgstr "Pumili sa pagitan ng system preference, light mode, o dark mode"
+msgstr "Vyberte mezi systémovým nastavením, světlým nebo tmavým režimem"
 
 #: ../../../lib/web/src/components/language-picker.tsx:146
 msgid "Choose language"
-msgstr "Pumili ng wika"
+msgstr "Vyberte jazyk"
 
 #: ../../../lib/web/src/components/colour-picker.tsx:304
 msgid "Clear"
-msgstr "Burahin"
+msgstr "Vymazat"
 
 #: ../../../lib/web/src/components/filter-bar.tsx:64
 msgid "Clear all"
-msgstr "Burahin lahat"
+msgstr "Vymazat vše"
 
 #: ../../../lib/web/src/components/data-table/faceted-filter.tsx:137
 msgid "Clear filters"
-msgstr "Burahin ang mga filter"
+msgstr "Vymazat filtry"
 
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:164
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
 msgid "Clear selection"
-msgstr "Burahin ang piniling"
+msgstr "Zrušit výběr"
 
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:165
 msgid "Clear selection (Escape)"
-msgstr "Burahin ang piniling (Escape)"
+msgstr "Zrušit výběr (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
 msgid "Close"
-msgstr "Isara"
+msgstr "Zavřít"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:97
 msgid "Close navigation"
-msgstr "Isara ang navigation"
+msgstr "Zavřít navigaci"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:254
 msgid "Close Panel"
-msgstr "Isara ang panel"
+msgstr "Zavřít panel"
 
 #: ../../../lib/web/src/components/header-search.tsx:51
 msgid "Close search"
-msgstr "Isara ang paghahanap"
+msgstr "Zavřít hledání"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Collapse sidebar"
-msgstr "I-collapse ang sidebar"
+msgstr "Sbalit postranní panel"
 
 #: ../../../lib/web/src/components/coming-soon.tsx:9
 msgid "Coming Soon!"
-msgstr "Malapit nang dumating!"
+msgstr "Již brzy!"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:302
 msgid "Compact"
-msgstr "Compact"
+msgstr "Kompaktní"
 
 #: ../../../lib/web/src/components/place-picker.tsx:155
 #: ../../../lib/web/src/components/travelling-picker.tsx:299
 msgid "Confirm"
-msgstr "Kumpirmahin"
+msgstr "Potvrdit"
 
 #: ../../../lib/web/src/lib/query-client.ts:78
 msgid "Content not modified"
-msgstr "Hindi nabago ang nilalaman"
+msgstr "Obsah nebyl změněn"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:145
 msgid "Contextual information and details."
-msgstr "Contextual na impormasyon at detalye."
+msgstr "Kontextové informace a podrobnosti."
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:72
 msgid "Continue"
-msgstr "Magpatuloy"
+msgstr "Pokračovat"
 
 #: ../../../lib/web/src/components/ui/copy-button.tsx:60
 msgid "Copy"
-msgstr "Kopyahin"
+msgstr "Kopírovat"
 
 #: src/routes/_authenticated/app/$appId.tsx:324
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "Kopyahin ang ID na ito at i-paste sa Apps page ng iyong Mochi server para ma-install."
+msgstr "Zkopírujte toto ID a vložte jej na stránku Aplikace svého Mochi serveru pro instalaci."
 
 #: src/routes/_authenticated/app/$appId.tsx:199
 msgid "Core identification for this application"
-msgstr "Pangunahing pagkakakilanlan para sa application na ito"
+msgstr "Základní identifikace této aplikace"
 
 #: src/routes/_authenticated/app/$appId.tsx:536
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
-msgstr "Gumawa ng bagong environment (hal. Beta, Staging) para mag-deploy ng mga build."
+msgstr "Vytvořte nové prostředí (např. Beta, Staging) pro nasazení buildů."
 
 #: src/features/apps/index.tsx:50
 #: src/features/apps/index.tsx:51
@@ -296,28 +290,28 @@ msgstr "Gumawa ng bagong environment (hal. Beta, Staging) para mag-deploy ng mga
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:211
 msgid "Create app"
-msgstr "Gumawa ng app"
+msgstr "Vytvořit aplikaci"
 
 #: src/features/apps/index.tsx:169
 msgid "Create new app"
-msgstr "Gumawa ng bagong app"
+msgstr "Vytvořit novou aplikaci"
 
 #: src/routes/_authenticated/app/$appId.tsx:191
 msgid "Create track"
-msgstr "Gumawa ng track"
+msgstr "Vytvořit track"
 
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
-msgstr "Gumawa ng iyong unang app para magsimula"
+msgstr "Začněte vytvořením první aplikace"
 
 #: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Create your first release track to manage deployments"
-msgstr "Gumawa ng iyong unang release track para pamahalaan ang mga deployment"
+msgstr "Vytvořte si první release track pro správu nasazení"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
 msgid "Dark"
-msgstr "Madilim"
+msgstr "Tmavá"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:88
 #: ../../../lib/web/src/components/layout/nav-user.tsx:151
@@ -325,35 +319,35 @@ msgstr "Madilim"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:84
 #: ../../../lib/web/src/components/profile-dropdown.tsx:120
 msgid "Dark mode"
-msgstr "Dark mode"
+msgstr "Tmavý režim"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:297
 msgid "Default"
-msgstr "Default"
+msgstr "Výchozí"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:169
 msgid "Default AI account"
-msgstr "Default na AI account"
+msgstr "Výchozí AI účet"
 
 #: src/routes/_authenticated/app/$appId.tsx:441
 msgid "Default track set to \"{track}\""
-msgstr "Naitakda ang default track sa \"{track}\""
+msgstr "Výchozí track nastaven na „{track}“"
 
 #: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Delete track"
-msgstr "I-delete ang track"
+msgstr "Smazat track"
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:60
 msgid "Desc"
-msgstr "Desc"
+msgstr "Sestupně"
 
 #: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Details"
-msgstr "Mga detalye"
+msgstr "Podrobnosti"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:144
 msgid "Details Panel"
-msgstr "Details Panel"
+msgstr "Panel podrobností"
 
 #: ../../../lib/web/src/components/language-picker.tsx:124
 #: ../../../lib/web/src/components/timezone-select.tsx:43
@@ -364,210 +358,210 @@ msgstr "Details Panel"
 #: ../../../lib/web/src/lib/preference-utils.ts:82
 #: ../../../lib/web/src/lib/preference-utils.ts:94
 msgid "Detect from web browser"
-msgstr "Tukuyin mula sa web browser"
+msgstr "Detekovat z webového prohlížeče"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:327
 msgid "Direction"
-msgstr "Direksyon"
+msgstr "Směr"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
-msgstr "Ipinapakita ang mobile sidebar."
+msgstr "Zobrazí mobilní postranní panel."
 
 #: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Distribution"
-msgstr "Distribution"
+msgstr "Distribuce"
 
 #: src/routes/_authenticated/app/$appId.tsx:75
 msgid "Distribution set to {distribution}"
-msgstr "Naka-set ang distribution sa {distribution}"
+msgstr "Distribuce nastavena na {distribution}"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
 msgid "Download"
-msgstr "I-download"
+msgstr "Stáhnout"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
-msgstr "I-expand ang sidebar"
+msgstr "Rozbalit postranní panel"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:217
 msgid "Failed to add account"
-msgstr "Nabigong magdagdag ng account"
+msgstr "Nepodařilo se přidat účet"
 
 #: src/features/apps/index.tsx:159
 msgid "Failed to create app"
-msgstr "Nabigong gumawa ng app"
+msgstr "Nepodařilo se vytvořit aplikaci"
 
 #: src/routes/_authenticated/app/$appId.tsx:402
 msgid "Failed to create track"
-msgstr "Nabigong gumawa ng track"
+msgstr "Nepodařilo se vytvořit kanál"
 
 #: src/routes/_authenticated/app/$appId.tsx:430
 msgid "Failed to delete track"
-msgstr "Nabigong magdelete ng track"
+msgstr "Nepodařilo se smazat kanál"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:226
 msgid "Failed to remove account"
-msgstr "Nabigong tanggalin ang account"
+msgstr "Nepodařilo se odebrat účet"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:249
 msgid "Failed to send verification code"
-msgstr "Nabigong magpadala ng verification code"
+msgstr "Nepodařilo se odeslat ověřovací kód"
 
 #: src/routes/_authenticated/app/$appId.tsx:444
 msgid "Failed to set default track"
-msgstr "Nabigong i-set ang default track"
+msgstr "Nepodařilo se nastavit výchozí kanál"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:104
 msgid "Failed to update category"
-msgstr "Nabigong i-update ang category"
+msgstr "Nepodařilo se aktualizovat kategorii"
 
 #: src/routes/_authenticated/app/$appId.tsx:78
 msgid "Failed to update distribution"
-msgstr "Nabigong i-update ang distribution"
+msgstr "Nepodařilo se aktualizovat distribuci"
 
 #: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Failed to update track"
-msgstr "Nabigong i-update ang track"
+msgstr "Nepodařilo se aktualizovat kanál"
 
 #: src/routes/_authenticated/app/$appId.tsx:640
 msgid "Failed to upload version"
-msgstr "Nabigong mag-upload ng version"
+msgstr "Nepodařilo se nahrát verzi"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
 #: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Fingerprint"
-msgstr "Fingerprint"
+msgstr "Otisk"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
-msgstr "Floating"
+msgstr "Plovoucí"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:73
 msgid "Friday"
-msgstr "Biyernes"
+msgstr "Pátek"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:149
 msgid "From"
-msgstr "Mula sa"
+msgstr "Od"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:307
 msgid "Full layout"
-msgstr "Full layout"
+msgstr "Plné rozvržení"
 
 #: ../../../lib/web/src/features/errors/forbidden.tsx:19
 #: ../../../lib/web/src/features/errors/not-found-error.tsx:19
 #: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
 msgid "Go Back"
-msgstr "Bumalik"
+msgstr "Zpět"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:75
 msgid "Go to first page"
-msgstr "Pumunta sa unang page"
+msgstr "Přejít na první stránku"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
-msgstr "Pumunta sa huling page"
+msgstr "Přejít na poslední stránku"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:112
 msgid "Go to next page"
-msgstr "Pumunta sa next page"
+msgstr "Přejít na další stránku"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:84
 msgid "Go to previous page"
-msgstr "Pumunta sa previous page"
+msgstr "Přejít na předchozí stránku"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
-msgstr "Group"
+msgstr "Skupina"
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:67
 msgid "Hide"
-msgstr "Itago"
+msgstr "Skrýt"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
 #: ../../../lib/web/src/components/layout/top-bar.tsx:62
 #: ../../../lib/web/src/components/layout/top-bar.tsx:91
 msgid "Home"
-msgstr "Home"
+msgstr "Domů"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:41
 msgid "Hot"
-msgstr "Hot"
+msgstr "Žhavé"
 
 #: src/routes/_authenticated/app/$appId.tsx:199
 msgid "Identity"
-msgstr "Identity"
+msgstr "Identita"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:96
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "Imperiální"
 
 #: src/routes/_authenticated/app/$appId.tsx:552
 msgid "Initial Version"
-msgstr "Initial Version"
+msgstr "Počáteční verze"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:239
 msgid "Inset"
-msgstr "Inset"
+msgstr "Vložené"
 
 #: src/routes/_authenticated/app/$appId.tsx:321
 msgid "Install App"
-msgstr "I-install ang App"
+msgstr "Nainstalovat aplikaci"
 
 #: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Install Locally"
-msgstr "I-install Locally"
+msgstr "Nainstalovat lokálně"
 
 #: src/routes/_authenticated/app/$appId.tsx:321
 msgid "Install this application to your server"
-msgstr "I-install ang application na ito sa iyong server"
+msgstr "Nainstalovat tuto aplikaci na svůj server"
 
 #: src/routes/_authenticated/app/$appId.tsx:242
 msgid "Installation ID"
-msgstr "Installation ID"
+msgstr "ID instalace"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:39
 msgid "Interests"
-msgstr "Mga interest"
+msgstr "Zájmy"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:237
 msgid "Invalid verification code"
-msgstr "Invalid na verification code"
+msgstr "Neplatný ověřovací kód"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:273
 msgid "Layout"
-msgstr "Layout"
+msgstr "Rozvržení"
 
 #: ../../../lib/web/src/components/learn-more.tsx:27
 msgid "Learn more"
-msgstr "Matuto pa"
+msgstr "Zjistit více"
 
 #: src/routes/_authenticated/app/$appId.tsx:558
 msgid "Leave empty"
-msgstr "Iwanang walang laman"
+msgstr "Ponechte prázdné"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:341
 msgid "Left to Right"
-msgstr "Kaliwa pakanan"
+msgstr "Zleva doprava"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:200
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 msgid "Light"
-msgstr "Light"
+msgstr "Světlý"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
 msgid "Load more"
-msgstr "Mag-load ng higit pa"
+msgstr "Načíst další"
 
 #: src/routes/_authenticated/app/$appId.tsx:98
 msgid "Loading app..."
-msgstr "Nilo-load ang app..."
+msgstr "Načítám aplikaci..."
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
 msgid "Loading…"
-msgstr "Nilo-load…"
+msgstr "Načítám…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:98
 #: ../../../lib/web/src/components/layout/nav-user.tsx:164
@@ -577,36 +571,36 @@ msgstr "Nilo-load…"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:23
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:25
 msgid "Log out"
-msgstr "Mag-log out"
+msgstr "Odhlásit se"
 
 #: ../../../lib/web/src/hooks/use-logout.ts:16
 msgid "Logged out (with errors)"
-msgstr "Nag-log out (na may mga error)"
+msgstr "Odhlášeno (s chybami)"
 
 #: ../../../lib/web/src/hooks/use-logout.ts:14
 msgid "Logged out successfully"
-msgstr "Matagumpay na nag-log out"
+msgstr "Úspěšně odhlášeno"
 
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:25
 msgid "Logging out…"
-msgstr "Nagla-log out…"
+msgstr "Odhlašování…"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:25
 msgid "Luma (Default)"
-msgstr "Luma (Default)"
+msgstr "Luma (výchozí)"
 
 #: src/features/apps/index.tsx:189
 msgid "Make app publicly available"
-msgstr "Gawing pampublikong magagamit ang app"
+msgstr "Zveřejnit aplikaci"
 
 #: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Manage deployment environments and their versions"
-msgstr "Pamahalaan ang mga deployment environment at ang kanilang mga bersyon"
+msgstr "Spravujte prostředí nasazení a jejich verze"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
-msgstr "Markahan lahat bilang nabasa"
+msgstr "Označit vše jako přečtené"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
 msgid "Menu"
@@ -614,579 +608,579 @@ msgstr "Menu"
 
 #: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Metadata and configuration"
-msgstr "Metadata at configuration"
+msgstr "Metadata a konfigurace"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:95
 msgid "Metric"
-msgstr "Metric"
+msgstr "Metrika"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:69
 msgid "Monday"
-msgstr "Lunes"
+msgstr "Pondělí"
 
 #: src/features/apps/index.tsx:184
 msgid "My App"
-msgstr "Aking App"
+msgstr "Moje aplikace"
 
 #: src/features/apps/index.tsx:178
 msgid "Name"
-msgstr "Pangalan"
+msgstr "Název"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
-msgstr "Bago"
+msgstr "Nové"
 
 #: src/routes/_authenticated/app/$appId.tsx:534
 msgid "New Release Track"
-msgstr "Bagong Release Track"
+msgstr "Nová release větev"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
-msgstr "Susunod na imahe"
+msgstr "Další obrázek"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
-msgstr "Walang naka-configure na access rule. Magdagdag ng mga rule upang kontrolin kung sino ang maaaring mag-access sa resource na ito."
+msgstr "Nejsou nakonfigurována žádná pravidla přístupu. Přidejte pravidla pro řízení přístupu k tomuto zdroji."
 
 #: src/features/apps/index.tsx:77
 msgid "No apps yet"
-msgstr "Wala pang app"
+msgstr "Zatím žádné aplikace"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:287
 msgid "No connected accounts"
-msgstr "Walang nakakonektang account"
+msgstr "Žádné připojené účty"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
-msgstr "Walang available na grupo"
+msgstr "Žádné skupiny k dispozici"
 
 #: ../../../lib/web/src/components/language-picker.tsx:156
 msgid "No matches."
-msgstr "Walang tugma."
+msgstr "Žádné shody."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
-msgstr "Walang nakitang lugar"
+msgstr "Žádná místa nenalezena"
 
 #: ../../../lib/web/src/components/profile-dropdown.tsx:55
 msgid "No profile"
-msgstr "Walang profile"
+msgstr "Žádný profil"
 
 #: ../../../lib/web/src/components/command-menu.tsx:52
 #: ../../../lib/web/src/components/data-table/faceted-filter.tsx:87
 msgid "No results found."
-msgstr "Walang nakitang resulta."
+msgstr "Žádné výsledky nenalezeny."
 
 #: ../../../lib/web/src/components/timezone-select.tsx:64
 msgid "No time zone found."
-msgstr "Walang nakitang time zone."
+msgstr "Žádné časové pásmo nenalezeno."
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "No topic record yet — try again after the next notification."
-msgstr "Wala pang topic record — subukan muli pagkatapos ng susunod na notification."
+msgstr "Zatím žádný záznam o tématu — zkuste to znovu po dalším oznámení."
 
 #: src/routes/_authenticated/app/$appId.tsx:459
 msgid "No tracks"
-msgstr "Walang track"
+msgstr "Žádné větve"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:203
 msgid "No users found"
-msgstr "Walang nakitang user"
+msgstr "Žádní uživatelé nenalezeni"
 
 #: src/routes/_authenticated/app/$appId.tsx:555
 msgid "No version"
-msgstr "Walang bersyon"
+msgstr "Žádná verze"
 
 #: src/routes/_authenticated/app/$appId.tsx:256
 msgid "No versions"
-msgstr "Walang bersyon"
+msgstr "Žádné verze"
 
 #: ../../../lib/web/src/components/person-picker.tsx:333
 msgid "None"
-msgstr "Wala"
+msgstr "Žádné"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
 msgid "Notifications"
-msgstr "Mga Notification"
+msgstr "Oznámení"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx:12
 msgid "Oops! Page Not Found!"
-msgstr "Ay! Hindi Nahanap ang Pahina!"
+msgstr "Jejda! Stránka nenalezena!"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:150
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:151
 msgid "Open account actions"
-msgstr "Buksan ang mga aksyon ng account"
+msgstr "Otevřít akce účtu"
 
 #: ../../../lib/web/src/components/layout/top-bar.tsx:57
 msgid "Open navigation"
-msgstr "Buksan ang navigation"
+msgstr "Otevřít navigaci"
 
 #: ../../../lib/web/src/components/layout/top-nav.tsx:32
 #: ../../../lib/web/src/components/layout/top-nav.tsx:33
 msgid "Open navigation menu"
-msgstr "Buksan ang navigation menu"
+msgstr "Otevřít navigační menu"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:51
 msgid "Open theme settings"
-msgstr "Buksan ang mga setting ng theme"
+msgstr "Otevřít nastavení tématu"
 
 #: src/routes/_authenticated/app/$appId.tsx:498
 msgid "Open track actions"
-msgstr "Buksan ang mga aksyon ng track"
+msgstr "Otevřít akce větve"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:163
 msgid "Other"
-msgstr "Iba pa"
+msgstr "Ostatní"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:213
 msgid "Owner"
-msgstr "May-ari"
+msgstr "Vlastník"
 
 #: src/features/apps/index.tsx:143
 msgid "Please enter an app name"
-msgstr "Mangyaring maglagay ng pangalan ng app"
+msgstr "Zadejte název aplikace"
 
 #: src/routes/_authenticated/app/$appId.tsx:617
 msgid "Please select a file"
-msgstr "Mangyaring pumili ng file"
+msgstr "Vyberte soubor"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
 msgid "Previous image"
-msgstr "Nakaraang imahe"
+msgstr "Předchozí obrázek"
 
 #: src/routes/_authenticated/app/$appId.tsx:337
 msgid "Privacy"
-msgstr "Privacy"
+msgstr "Soukromí"
 
 #: src/routes/_authenticated/app/$appId.tsx:207
 msgid "Privacy Policy"
-msgstr "Patakaran sa Privacy"
+msgstr "Zásady ochrany osobních údajů"
 
 #: src/features/apps/index.tsx:88
 msgid "Private"
-msgstr "Pribado"
+msgstr "Soukromé"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:134
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
-msgstr "Profile"
+msgstr "Profil"
 
 #: src/features/apps/index.tsx:88
 msgid "Public"
-msgstr "Pampubliko"
+msgstr "Veřejné"
 
 #: src/features/apps/index.tsx:89
 #: src/routes/_authenticated/app/$appId.tsx:226
 msgid "Published"
-msgstr "Na-publish"
+msgstr "Publikováno"
 
 #: src/features/apps/index.tsx:32
 #: src/features/apps/index.tsx:46
 msgid "Publisher"
-msgstr "Publisher"
+msgstr "Vydavatel"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
 msgid "Recommended"
-msgstr "Inirerekomenda"
+msgstr "Doporučené"
 
 #: ../../../lib/web/src/components/layout/authenticated-layout.tsx:130
 msgid "Redirecting to login."
-msgstr "Nire-redirect sa login."
+msgstr "Přesměrování na přihlášení."
 
 #: ../../../lib/web/src/components/post-tags.tsx:175
 msgid "Reduce interest"
-msgstr "Bawasan ang interes"
+msgstr "Snížit zájem"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Relative (5m, 3h, 2d)"
-msgstr "Relatibo (5m, 3h, 2d)"
+msgstr "Relativní (5m, 3h, 2d)"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:59
 msgid "Relative within 24 hours, else absolute"
-msgstr "Relatibo sa loob ng 24 na oras, kung hindi ay absolute"
+msgstr "Relativní do 24 hodin, jinak absolutní"
 
 #: src/routes/_authenticated/app/$appId.tsx:452
 msgid "Release Tracks"
-msgstr "Mga Release Track"
+msgstr "Release větve"
 
 #: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Release tracks currently active"
-msgstr "Mga release track na kasalukuyang aktibo"
+msgstr "Aktuálně aktivní release větve"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:257
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:172
 msgid "Remove"
-msgstr "Alisin"
+msgstr "Odebrat"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:241
 #: ../../../lib/web/src/features/access/access-list.tsx:242
 msgid "Remove access rule"
-msgstr "Alisin ang access rule"
+msgstr "Odebrat pravidlo přístupu"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:249
 msgid "Remove access?"
-msgstr "Alisin ang access?"
+msgstr "Odebrat přístup?"
 
 #: ../../../lib/web/src/components/post-tags.tsx:190
 msgid "Remove interest"
-msgstr "Alisin ang interes"
+msgstr "Odebrat zájem"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
 msgid "Reset"
-msgstr "I-reset"
+msgstr "Resetovat"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:75
 msgid "Reset all settings to default values"
-msgstr "I-reset ang lahat ng setting sa mga default na halaga"
+msgstr "Obnovit všechna nastavení na výchozí hodnoty"
 
 #: src/features/apps/index.tsx:89
 #: src/routes/_authenticated/app/$appId.tsx:227
 msgid "Restricted"
-msgstr "Restricted"
+msgstr "Omezeno"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:348
 msgid "Right to Left"
-msgstr "Kanan papuntang Kaliwa"
+msgstr "Zprava doleva"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:60
 msgid "Rows per page"
-msgstr "Mga row bawat page"
+msgstr "Řádků na stránku"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:74
 msgid "Saturday"
-msgstr "Sabado"
+msgstr "Sobota"
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
-msgstr "Maghanap ng lugar"
+msgstr "Hledat místo"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:234
 msgid "Search for destination..."
-msgstr "Maghanap ng destination..."
+msgstr "Hledat cíl..."
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:173
 msgid "Search for origin..."
-msgstr "Maghanap ng origin..."
+msgstr "Hledat výchozí bod..."
 
 #: ../../../lib/web/src/components/timezone-select.tsx:62
 msgid "Search time zone..."
-msgstr "Maghanap ng time zone..."
+msgstr "Hledat časové pásmo..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:170
 msgid "Search users"
-msgstr "Maghanap ng user"
+msgstr "Hledat uživatele"
 
 #: ../../../lib/web/src/components/person-picker.tsx:312
 msgid "Search..."
-msgstr "Maghanap..."
+msgstr "Hledat..."
 
 #: ../../../lib/web/src/components/language-picker.tsx:154
 msgid "Search…"
-msgstr "Maghanap…"
+msgstr "Hledat…"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
 #: ../../../lib/web/src/features/access/access-dialog.tsx:199
 msgid "Searching..."
-msgstr "Naghahanap..."
+msgstr "Hledá se..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:147
 msgid "Select a user, group, or other rule to grant access."
-msgstr "Pumili ng user, group, o iba pang panuntunan para magbigay ng access."
+msgstr "Vyberte uživatele, skupinu nebo jiné pravidlo pro udělení přístupu."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:270
 msgid "Select access rule"
-msgstr "Pumili ng access rule"
+msgstr "Vyberte pravidlo přístupu"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:126
 msgid "Select account type"
-msgstr "Pumili ng uri ng account"
+msgstr "Vyberte typ účtu"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:228
 msgid "Select group"
-msgstr "Pumili ng group"
+msgstr "Vyberte skupinu"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:291
 msgid "Select layout style"
-msgstr "Pumili ng layout style"
+msgstr "Vyberte styl rozvržení"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:233
 msgid "Select sidebar style"
-msgstr "Pumili ng sidebar style"
+msgstr "Vyberte styl postranního panelu"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:335
 msgid "Select site direction"
-msgstr "Pumili ng direksyon ng site"
+msgstr "Vyberte směr písma"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:189
 msgid "Select theme preference"
-msgstr "Pumili ng theme preference"
+msgstr "Vyberte preferenci motivu"
 
 #: ../../../lib/web/src/lib/api-client.ts:224
 msgid "Session expired"
-msgstr "Nag-expire na ang session"
+msgstr "Platnost relace vypršela"
 
 #: src/routes/_authenticated/app/$appId.tsx:508
 msgid "Set as default"
-msgstr "Itakda bilang default"
+msgstr "Nastavit jako výchozí"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:143
 msgid "Set origin and destination"
-msgstr "Itakda ang origin at destination"
+msgstr "Nastavit výchozí bod a cíl"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:81
 #: ../../../lib/web/src/components/layout/nav-user.tsx:145
 #: ../../../lib/web/src/components/layout/nav-user.tsx:195
 msgid "Settings"
-msgstr "Mga setting"
+msgstr "Nastavení"
 
 #: src/routes/_authenticated/app/$appId.tsx:236
 msgid "Share this ID to allow others to install this app"
-msgstr "Ibahagi ang ID na ito para mai-install ng iba ang app na ito"
+msgstr "Sdílejte toto ID, aby si ostatní mohli aplikaci nainstalovat"
 
 #: src/routes/_authenticated/app/$appId.tsx:235
 msgid "Sharing"
-msgstr "Pagbabahagi"
+msgstr "Sdílení"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:36
 msgid "Showing {totalShown} of {total}"
-msgstr "Ipinapakita ang {totalShown} sa {total}"
+msgstr "Zobrazeno {totalShown} z {total}"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:225
 #: ../../../lib/web/src/components/config-drawer.tsx:249
 #: ../../../lib/web/src/components/ui/sidebar.tsx:234
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr "Postranní panel"
 
 #: ../../../lib/web/src/components/layout/authenticated-layout.tsx:128
 msgid "Signing out..."
-msgstr "Nag-si-sign out..."
+msgstr "Odhlašování..."
 
 #: ../../../lib/web/src/components/skip-to-main.tsx:8
 msgid "Skip to Main"
-msgstr "Laktawan papunta sa Pangunahing Bahagi"
+msgstr "Přeskočit na hlavní obsah"
 
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
-msgstr "Pero manatiling nakaabang!"
+msgstr "Zůstaňte ale naladěni!"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
-msgstr "Paksa"
+msgstr "Předmět"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:75
 msgid "Sunday"
-msgstr "Linggo"
+msgstr "Neděle"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
 msgid "System"
-msgstr "System"
+msgstr "Systém"
 
 #: ../../../lib/web/src/components/tag-input.tsx:91
 msgid "Tag"
-msgstr "Tag"
+msgstr "Štítek"
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
-msgstr "Teams/Apps"
+msgstr "Týmy/Aplikace"
 
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
 msgid "The requested app could not be found."
-msgstr "Hindi nakita ang hiniling na app."
+msgstr "Požadovaná aplikace nebyla nalezena."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:181
 msgid "Theme"
-msgstr "Theme"
+msgstr "Motiv"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:60
 msgid "Theme Settings"
-msgstr "Mga Setting ng Theme"
+msgstr "Nastavení motivu"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:72
 msgid "Thursday"
-msgstr "Huwebes"
+msgstr "Čtvrtek"
 
 #: ../../../lib/web/src/components/data-table/view-options.tsx:34
 msgid "Toggle columns"
-msgstr "I-toggle ang mga column"
+msgstr "Přepnout sloupce"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:227
 msgid "Toggle Right Panel"
-msgstr "I-toggle ang Right Panel"
+msgstr "Přepnout pravý panel"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:312
 #: ../../../lib/web/src/components/ui/sidebar.tsx:324
 #: ../../../lib/web/src/components/ui/sidebar.tsx:327
 msgid "Toggle Sidebar"
-msgstr "I-toggle ang Sidebar"
+msgstr "Přepnout postranní panel"
 
 #: ../../../lib/web/src/components/theme-switch.tsx:31
 msgid "Toggle theme"
-msgstr "I-toggle ang theme"
+msgstr "Přepnout motiv"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Top"
-msgstr "Itaas"
+msgstr "Nahoru"
 
 #: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Track \"{track}\" deleted"
-msgstr "Natanggal ang track na \"{track}\""
+msgstr "Větev „{track}“ smazána"
 
 #: src/routes/_authenticated/app/$appId.tsx:413
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Na-update ang track na \"{track}\" sa {version}"
+msgstr "Větev „{track}“ aktualizována na {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx:396
 msgid "Track created"
-msgstr "Nalikha ang track"
+msgstr "Větev vytvořena"
 
 #: src/routes/_authenticated/app/$appId.tsx:542
 msgid "Track Name"
-msgstr "Pangalan ng Track"
+msgstr "Název větve"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:141
 msgid "Travelling"
-msgstr "Naglalakbay"
+msgstr "Cestuje se"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:190
 #: ../../../lib/web/src/components/search-entity-page.tsx:165
 msgid "Try adjusting your search terms"
-msgstr "Subukang ayusin ang iyong mga search term"
+msgstr "Zkuste upravit hledané výrazy"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
 msgid "Try again"
-msgstr "Subukang muli"
+msgstr "Zkusit znovu"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:70
 msgid "Tuesday"
-msgstr "Martes"
+msgstr "Úterý"
 
 #: ../../../lib/web/src/components/command-menu.tsx:49
 msgid "Type a command or search..."
-msgstr "Mag-type ng command o maghanap..."
+msgstr "Zadejte příkaz nebo hledejte..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:188
 msgid "Type to search users"
-msgstr "Mag-type para maghanap ng user"
+msgstr "Napište pro hledání uživatelů"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:180
 msgid "Type to search..."
-msgstr "Mag-type para maghanap..."
+msgstr "Napište pro hledání..."
 
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94
 msgid "Unable to redirect to login. Please try again."
-msgstr "Hindi maka-redirect sa login. Pakisubukang muli."
+msgstr "Nelze přesměrovat na přihlášení. Zkuste to prosím znovu."
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:143
 msgid "Unassigned"
-msgstr "Walang nakatalaga"
+msgstr "Nepřiřazeno"
 
 #: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
 msgid "Unauthorized Access"
-msgstr "Hindi Pinahihintulutang Pag-access"
+msgstr "Neoprávněný přístup"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:97
 msgid "United States"
-msgstr "United States"
+msgstr "Spojené státy"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:131
 msgid "Unverified"
-msgstr "Hindi naberipika"
+msgstr "Neověřeno"
 
 #: src/routes/_authenticated/app/$appId.tsx:688
 msgid "Update Tracks"
-msgstr "I-update ang mga Track"
+msgstr "Aktualizovat větve"
 
 #: src/routes/_authenticated/app/$appId.tsx:652
 msgid "Upload a .zip build file for your application."
-msgstr "Mag-upload ng .zip build file para sa iyong application."
+msgstr "Nahrajte soubor .zip s buildem vaší aplikace."
 
 #: src/routes/_authenticated/app/$appId.tsx:185
 msgid "Upload new version"
-msgstr "Mag-upload ng bagong bersyon"
+msgstr "Nahrát novou verzi"
 
 #: src/routes/_authenticated/app/$appId.tsx:650
 msgid "Upload New Version"
-msgstr "Mag-upload ng Bagong Bersyon"
+msgstr "Nahrát novou verzi"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
-msgstr "Mag-upload ng iyong unang build para makapagsimula"
+msgstr "Pro začátek nahrajte svůj první build"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
-msgstr "User"
+msgstr "Uživatel"
 
 #: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Users can install this application by pasting this identifier into their Apps management page."
-msgstr "Maaaring i-install ng mga user ang application na ito sa pamamagitan ng pag-paste ng identifier na ito sa kanilang Apps management page."
+msgstr "Uživatelé si mohou tuto aplikaci nainstalovat vložením tohoto identifikátoru do své stránky správy aplikací."
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:68
 msgid "Verification code"
-msgstr "Verification code"
+msgstr "Ověřovací kód"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:247
 msgid "Verification code sent"
-msgstr "Naipadala ang verification code"
+msgstr "Ověřovací kód odeslán"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:240
 msgid "Verification failed"
-msgstr "Nabigo ang beripikasyon"
+msgstr "Ověření selhalo"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
 msgid "Verify"
-msgstr "Beripikahin"
+msgstr "Ověřit"
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:58
 msgid "Verify email address"
-msgstr "Beripikahin ang email address"
+msgstr "Ověřit e-mailovou adresu"
 
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
-msgstr "Kasaysayan ng Bersyon"
+msgstr "Historie verzí"
 
 #: src/routes/_authenticated/app/$appId.tsx:628
 msgid "Version uploaded"
-msgstr "Na-upload ang bersyon"
+msgstr "Verze nahrána"
 
 #: ../../../lib/web/src/components/data-table/view-options.tsx:30
 msgid "View"
-msgstr "Tingnan"
+msgstr "Zobrazit"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:173
 msgid "View all"
-msgstr "Tingnan lahat"
+msgstr "Zobrazit vše"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:94
 msgid "View all notifications"
-msgstr "Tingnan lahat ng notification"
+msgstr "Zobrazit všechna oznámení"
 
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
 msgid "We'll be back online shortly."
-msgstr "Babalik kami online sa lalong madaling panahon."
+msgstr "Brzy budeme zpět online."
 
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
 msgid "Website is under maintenance!"
-msgstr "Nasa ilalim ng maintenance ang website!"
+msgstr "Web je v režimu údržby!"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:71
 msgid "Wednesday"
-msgstr "Miyerkules"
+msgstr "Středa"
 
 #: src/features/apps/index.tsx:197
 #: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Yes"
-msgstr "Oo"
+msgstr "Ano"
 
 #: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Yes, force"
-msgstr "Oo, puwersahin"
+msgstr "Ano, vynutit"
