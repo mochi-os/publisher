@@ -39,7 +39,8 @@ def action_view(a):
 		a.error_label(404, "errors.app_not_found")
 		return
 
-	app["fingerprint"] = mochi.entity.fingerprint(app["id"], True)
+	fp = mochi.entity.fingerprint(app["id"])
+	app["fingerprint"] = fp[:3] + "-" + fp[3:6] + "-" + fp[6:]
 	tracks_all = mochi.db.rows("select * from tracks where app=?", app["id"])
 
 	# Get publisher identity for share string
