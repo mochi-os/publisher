@@ -338,7 +338,7 @@ def event_get(e):
 		return e.write({"status": "404", "message": "App version file not found"})
 
 	e.write({"status": "200"})
-	e.write_from_file(v["file"])
+	e.write.file(v["file"])
 
 # Receive a request to get version for requested track
 # Private apps are accessible if the requester knows the publisher ID.
