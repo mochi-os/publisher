@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "{name}이(가) 생성되었습니다."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:52
 msgid "12 hours"
 msgstr "12시간"
@@ -49,7 +53,7 @@ msgstr "계정 유형"
 msgid "Account verified"
 msgstr "계정이 인증되었어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Active version"
 msgstr "활성 버전"
 
@@ -106,6 +110,7 @@ msgstr "전체"
 msgid "All uploaded build files for this application"
 msgstr "이 애플리케이션에 업로드된 모든 빌드 파일"
 
+#: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
 msgstr "앱"
@@ -114,7 +119,7 @@ msgstr "앱"
 msgid "App created"
 msgstr "앱이 생성되었어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
+#: src/routes/_authenticated/app/$appId.tsx:328
 msgid "App ID"
 msgstr "앱 ID"
 
@@ -137,7 +142,7 @@ msgstr "로그아웃할까요? 계정에 다시 접근하려면 다시 로그인
 msgid "Asc"
 msgstr "오름차순"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Available Versions"
 msgstr "사용 가능한 버전"
 
@@ -150,7 +155,7 @@ msgstr "뒤로"
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:318
+#: src/routes/_authenticated/app/$appId.tsx:320
 msgid "Back to apps"
 msgstr "앱 목록으로 돌아가기"
 
@@ -164,6 +169,10 @@ msgstr "홈으로 돌아가기"
 msgid "Boost interest"
 msgstr "관심도 부스트"
 
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "빌드 파일 (.zip)"
+
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
@@ -172,8 +181,8 @@ msgstr "관심도 부스트"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:573
-#: src/routes/_authenticated/app/$appId.tsx:711
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Cancel"
 msgstr "취소"
 
@@ -277,7 +286,7 @@ msgstr "계속"
 msgid "Copy"
 msgstr "복사"
 
-#: src/routes/_authenticated/app/$appId.tsx:324
+#: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
 msgstr "이 ID 를 복사한 후 Mochi 서버의 Apps 페이지에 붙여넣어 설치하세요."
 
@@ -285,7 +294,7 @@ msgstr "이 ID 를 복사한 후 Mochi 서버의 Apps 페이지에 붙여넣어 
 msgid "Core identification for this application"
 msgstr "이 애플리케이션의 핵심 식별 정보"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:538
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "빌드를 배포할 새 환경 (예: Beta, Staging) 을 생성하세요."
 
@@ -306,13 +315,22 @@ msgstr "새 앱 생성"
 msgid "Create track"
 msgstr "트랙 생성"
 
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "트랙 만들기"
+
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
 msgstr "시작하려면 첫 앱을 생성하세요"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Create your first release track to manage deployments"
 msgstr "배포를 관리할 첫 릴리스 트랙을 생성하세요"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "생성 중..."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -335,11 +353,11 @@ msgstr "기본값"
 msgid "Default AI account"
 msgstr "기본 AI 계정"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Default track set to \"{track}\""
 msgstr "기본 트랙이 \"{track}\"(으)로 설정되었어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:517
 msgid "Delete track"
 msgstr "트랙 삭제"
 
@@ -347,7 +365,7 @@ msgstr "트랙 삭제"
 msgid "Desc"
 msgstr "내림차순"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Details"
 msgstr "세부 정보"
 
@@ -386,6 +404,10 @@ msgstr "배포가 {distribution}(으)로 설정되었어요"
 msgid "Download"
 msgstr "다운로드"
 
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "예: Staging"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "사이드바 펼치기"
@@ -398,11 +420,11 @@ msgstr "계정 추가에 실패했어요"
 msgid "Failed to create app"
 msgstr "앱 생성에 실패했어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:402
+#: src/routes/_authenticated/app/$appId.tsx:404
 msgid "Failed to create track"
 msgstr "트랙 생성에 실패했어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to delete track"
 msgstr "트랙 삭제에 실패했어요"
 
@@ -414,7 +436,7 @@ msgstr "계정 제거에 실패했어요"
 msgid "Failed to send verification code"
 msgstr "인증 코드 전송에 실패했어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to set default track"
 msgstr "기본 트랙 설정에 실패했어요"
 
@@ -426,16 +448,16 @@ msgstr "카테고리 업데이트에 실패했어요"
 msgid "Failed to update distribution"
 msgstr "배포 업데이트에 실패했어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:416
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to update track"
 msgstr "트랙 업데이트에 실패했어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:640
+#: src/routes/_authenticated/app/$appId.tsx:645
 msgid "Failed to upload version"
 msgstr "버전 업로드에 실패했어요"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
 msgstr "지문"
 
@@ -504,7 +526,7 @@ msgstr "신원"
 msgid "Imperial"
 msgstr "야드파운드법"
 
-#: src/routes/_authenticated/app/$appId.tsx:552
+#: src/routes/_authenticated/app/$appId.tsx:554
 msgid "Initial Version"
 msgstr "초기 버전"
 
@@ -512,15 +534,15 @@ msgstr "초기 버전"
 msgid "Inset"
 msgstr "인셋"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install App"
 msgstr "앱 설치"
 
-#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:677
 msgid "Install Locally"
 msgstr "로컬에 설치"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install this application to your server"
 msgstr "이 애플리케이션을 서버에 설치하세요"
 
@@ -544,7 +566,7 @@ msgstr "레이아웃"
 msgid "Learn more"
 msgstr "자세히 보기"
 
-#: src/routes/_authenticated/app/$appId.tsx:558
+#: src/routes/_authenticated/app/$appId.tsx:560
 msgid "Leave empty"
 msgstr "비워 두세요"
 
@@ -599,7 +621,7 @@ msgstr "Luma (기본)"
 msgid "Make app publicly available"
 msgstr "앱을 공개로 설정"
 
-#: src/routes/_authenticated/app/$appId.tsx:453
+#: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Manage deployment environments and their versions"
 msgstr "배포 환경과 버전을 관리해요"
 
@@ -612,7 +634,7 @@ msgstr "모두 읽음으로 표시"
 msgid "Menu"
 msgstr "메뉴"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Metadata and configuration"
 msgstr "메타데이터 및 설정"
 
@@ -628,6 +650,10 @@ msgstr "월요일"
 msgid "My App"
 msgstr "내 앱"
 
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "해당 없음"
+
 #: src/features/apps/index.tsx:178
 msgid "Name"
 msgstr "이름"
@@ -636,13 +662,18 @@ msgstr "이름"
 msgid "New"
 msgstr "새로 만들기"
 
-#: src/routes/_authenticated/app/$appId.tsx:534
+#: src/routes/_authenticated/app/$appId.tsx:536
 msgid "New Release Track"
 msgstr "새 릴리스 트랙"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
 msgstr "다음 이미지"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "아니요"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
@@ -685,7 +716,7 @@ msgstr "타임존을 찾을 수 없어요."
 msgid "No topic record yet — try again after the next notification."
 msgstr "아직 토픽 기록이 없어요 — 다음 알림 후에 다시 시도해 주세요."
 
-#: src/routes/_authenticated/app/$appId.tsx:459
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "No tracks"
 msgstr "트랙이 없어요"
 
@@ -693,7 +724,7 @@ msgstr "트랙이 없어요"
 msgid "No users found"
 msgstr "사용자를 찾을 수 없어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "No version"
 msgstr "버전 없음"
 
@@ -733,7 +764,7 @@ msgstr "내비게이션 메뉴 열기"
 msgid "Open theme settings"
 msgstr "테마 설정 열기"
 
-#: src/routes/_authenticated/app/$appId.tsx:498
+#: src/routes/_authenticated/app/$appId.tsx:500
 msgid "Open track actions"
 msgstr "트랙 작업 열기"
 
@@ -749,7 +780,7 @@ msgstr "소유자"
 msgid "Please enter an app name"
 msgstr "앱 이름을 입력해 주세요"
 
-#: src/routes/_authenticated/app/$appId.tsx:617
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Please select a file"
 msgstr "파일을 선택해 주세요"
 
@@ -757,7 +788,7 @@ msgstr "파일을 선택해 주세요"
 msgid "Previous image"
 msgstr "이전 이미지"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Privacy"
 msgstr "개인정보"
 
@@ -766,6 +797,7 @@ msgid "Privacy Policy"
 msgstr "개인정보 처리방침"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Private"
 msgstr "비공개"
 
@@ -775,6 +807,7 @@ msgid "Profile"
 msgstr "프로필"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
 msgid "Public"
 msgstr "공개"
 
@@ -809,11 +842,11 @@ msgstr "상대적 (5분, 3시간, 2일)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24시간 이내는 상대적, 그 외는 절대적"
 
-#: src/routes/_authenticated/app/$appId.tsx:452
+#: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Release Tracks"
 msgstr "릴리스 트랙"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Release tracks currently active"
 msgstr "현재 활성화된 릴리스 트랙"
 
@@ -930,7 +963,7 @@ msgstr "테마 환경설정 선택"
 msgid "Session expired"
 msgstr "세션이 만료되었어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
+#: src/routes/_authenticated/app/$appId.tsx:510
 msgid "Set as default"
 msgstr "기본값으로 설정"
 
@@ -1034,19 +1067,19 @@ msgstr "테마 전환"
 msgid "Top"
 msgstr "위"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" deleted"
 msgstr "트랙 \"{track}\"이(가) 삭제되었어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:413
+#: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Track \"{track}\" updated to {version}"
 msgstr "트랙 \"{track}\"이(가) {version}으로 수정되었어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:396
+#: src/routes/_authenticated/app/$appId.tsx:398
 msgid "Track created"
 msgstr "트랙이 생성되었어요"
 
-#: src/routes/_authenticated/app/$appId.tsx:542
+#: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Track Name"
 msgstr "트랙 이름"
 
@@ -1102,11 +1135,11 @@ msgstr "미국"
 msgid "Unverified"
 msgstr "확인되지 않음"
 
-#: src/routes/_authenticated/app/$appId.tsx:688
+#: src/routes/_authenticated/app/$appId.tsx:693
 msgid "Update Tracks"
 msgstr "트랙 업데이트"
 
-#: src/routes/_authenticated/app/$appId.tsx:652
+#: src/routes/_authenticated/app/$appId.tsx:657
 msgid "Upload a .zip build file for your application."
 msgstr "애플리케이션의 .zip 빌드 파일을 업로드해 주세요."
 
@@ -1114,13 +1147,21 @@ msgstr "애플리케이션의 .zip 빌드 파일을 업로드해 주세요."
 msgid "Upload new version"
 msgstr "새 버전 업로드"
 
-#: src/routes/_authenticated/app/$appId.tsx:650
+#: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Upload New Version"
 msgstr "새 버전 업로드"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "버전 업로드"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
 msgstr "시작하려면 첫 빌드를 업로드해 주세요"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "업로드 중..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
@@ -1150,11 +1191,16 @@ msgstr "확인"
 msgid "Verify email address"
 msgstr "이메일 주소 확인"
 
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "버전 {0}이(가) 생성되었습니다."
+
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
 msgstr "버전 기록"
 
-#: src/routes/_authenticated/app/$appId.tsx:628
+#: src/routes/_authenticated/app/$appId.tsx:632
 msgid "Version uploaded"
 msgstr "버전이 업로드되었어요"
 
@@ -1183,10 +1229,10 @@ msgid "Wednesday"
 msgstr "수요일"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:680
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Yes"
 msgstr "예"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:686
 msgid "Yes, force"
 msgstr "예, 강제 실행"

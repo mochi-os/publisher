@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "{name} imeundwa."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:52
 msgid "12 hours"
 msgstr "Masaa 12"
@@ -49,7 +53,7 @@ msgstr "Aina ya akaunti"
 msgid "Account verified"
 msgstr "Akaunti imethibitishwa"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Active version"
 msgstr "Toleo linalotumika"
 
@@ -106,6 +110,7 @@ msgstr "Vyote"
 msgid "All uploaded build files for this application"
 msgstr "Faili zote zilizopakiwa za ujenzi wa programu hii"
 
+#: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
 msgstr "Programu"
@@ -114,7 +119,7 @@ msgstr "Programu"
 msgid "App created"
 msgstr "Programu imeundwa"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
+#: src/routes/_authenticated/app/$appId.tsx:328
 msgid "App ID"
 msgstr "Kitambulisho cha Programu"
 
@@ -137,7 +142,7 @@ msgstr "Una uhakika unataka kuondoka? Utahitaji kuingia tena kufikia akaunti yak
 msgid "Asc"
 msgstr "Pandisha"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Available Versions"
 msgstr "Matoleo Yanayopatikana"
 
@@ -150,7 +155,7 @@ msgstr "Rudi"
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:318
+#: src/routes/_authenticated/app/$appId.tsx:320
 msgid "Back to apps"
 msgstr "Rudi kwa programu"
 
@@ -164,6 +169,10 @@ msgstr "Rudi Mwanzo"
 msgid "Boost interest"
 msgstr "Ongeza mvuto"
 
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "Faili la build (.zip)"
+
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
@@ -172,8 +181,8 @@ msgstr "Ongeza mvuto"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:573
-#: src/routes/_authenticated/app/$appId.tsx:711
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Cancel"
 msgstr "Ghairi"
 
@@ -277,7 +286,7 @@ msgstr "Endelea"
 msgid "Copy"
 msgstr "Nakili"
 
-#: src/routes/_authenticated/app/$appId.tsx:324
+#: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
 msgstr "Nakili kitambulisho hiki na ukibandike kwenye ukurasa wa Programu wa seva yako ya Mochi ili kusakinisha."
 
@@ -285,7 +294,7 @@ msgstr "Nakili kitambulisho hiki na ukibandike kwenye ukurasa wa Programu wa sev
 msgid "Core identification for this application"
 msgstr "Utambulisho wa msingi wa programu hii"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:538
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Unda mazingira mapya (k.m. Beta, Staging) kupeleka miundo."
 
@@ -306,13 +315,22 @@ msgstr "Unda programu mpya"
 msgid "Create track"
 msgstr "Unda track"
 
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "Unda kituo"
+
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
 msgstr "Unda programu yako ya kwanza ili kuanza"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Create your first release track to manage deployments"
 msgstr "Unda track yako ya kwanza ya toleo kusimamia upelekaji"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "Inaunda..."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -335,11 +353,11 @@ msgstr "Chaguo-msingi"
 msgid "Default AI account"
 msgstr "Akaunti chaguo-msingi ya AI"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Default track set to \"{track}\""
 msgstr "Track chaguo-msingi imewekwa kuwa \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:517
 msgid "Delete track"
 msgstr "Futa track"
 
@@ -347,7 +365,7 @@ msgstr "Futa track"
 msgid "Desc"
 msgstr "Shusha"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Details"
 msgstr "Undani"
 
@@ -386,6 +404,10 @@ msgstr "Usambazaji umewekwa kuwa {distribution}"
 msgid "Download"
 msgstr "Pakua"
 
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "k.m. Staging"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "Panua utepe"
@@ -398,11 +420,11 @@ msgstr "Imeshindwa kuongeza akaunti"
 msgid "Failed to create app"
 msgstr "Imeshindwa kuunda programu"
 
-#: src/routes/_authenticated/app/$appId.tsx:402
+#: src/routes/_authenticated/app/$appId.tsx:404
 msgid "Failed to create track"
 msgstr "Imeshindwa kuunda wimbo"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to delete track"
 msgstr "Imeshindwa kufuta wimbo"
 
@@ -414,7 +436,7 @@ msgstr "Imeshindwa kuondoa akaunti"
 msgid "Failed to send verification code"
 msgstr "Imeshindwa kutuma msimbo wa uthibitisho"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to set default track"
 msgstr "Imeshindwa kuweka wimbo chaguo-msingi"
 
@@ -426,16 +448,16 @@ msgstr "Imeshindwa kusasisha kategoria"
 msgid "Failed to update distribution"
 msgstr "Imeshindwa kusasisha usambazaji"
 
-#: src/routes/_authenticated/app/$appId.tsx:416
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to update track"
 msgstr "Imeshindwa kusasisha wimbo"
 
-#: src/routes/_authenticated/app/$appId.tsx:640
+#: src/routes/_authenticated/app/$appId.tsx:645
 msgid "Failed to upload version"
 msgstr "Imeshindwa kupakia toleo"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
 msgstr "Alama ya kidole"
 
@@ -504,7 +526,7 @@ msgstr "Utambulisho"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/routes/_authenticated/app/$appId.tsx:552
+#: src/routes/_authenticated/app/$appId.tsx:554
 msgid "Initial Version"
 msgstr "Toleo la Awali"
 
@@ -512,15 +534,15 @@ msgstr "Toleo la Awali"
 msgid "Inset"
 msgstr "Ndani"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install App"
 msgstr "Sakinisha Programu"
 
-#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:677
 msgid "Install Locally"
 msgstr "Sakinisha Ndani ya Kompyuta"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install this application to your server"
 msgstr "Sakinisha programu hii kwenye seva yako"
 
@@ -544,7 +566,7 @@ msgstr "Mpangilio"
 msgid "Learn more"
 msgstr "Jifunze zaidi"
 
-#: src/routes/_authenticated/app/$appId.tsx:558
+#: src/routes/_authenticated/app/$appId.tsx:560
 msgid "Leave empty"
 msgstr "Acha tupu"
 
@@ -599,7 +621,7 @@ msgstr "Luma (Chaguo-msingi)"
 msgid "Make app publicly available"
 msgstr "Fanya programu ipatikane hadharani"
 
-#: src/routes/_authenticated/app/$appId.tsx:453
+#: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Manage deployment environments and their versions"
 msgstr "Simamia mazingira ya usambazaji na matoleo yake"
 
@@ -612,7 +634,7 @@ msgstr "Weka zote kama zilizosomwa"
 msgid "Menu"
 msgstr "Menyu"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Metadata and configuration"
 msgstr "Metadata na usanidi"
 
@@ -628,6 +650,10 @@ msgstr "Jumatatu"
 msgid "My App"
 msgstr "Programu Yangu"
 
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "Haitumiki"
+
 #: src/features/apps/index.tsx:178
 msgid "Name"
 msgstr "Jina"
@@ -636,13 +662,18 @@ msgstr "Jina"
 msgid "New"
 msgstr "Mpya"
 
-#: src/routes/_authenticated/app/$appId.tsx:534
+#: src/routes/_authenticated/app/$appId.tsx:536
 msgid "New Release Track"
 msgstr "Njia Mpya ya Toleo"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
 msgstr "Picha inayofuata"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "Hapana"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
@@ -685,7 +716,7 @@ msgstr "Hakuna saa za eneo zilizopatikana."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Hakuna rekodi ya mada bado — jaribu tena baada ya arifa inayofuata."
 
-#: src/routes/_authenticated/app/$appId.tsx:459
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "No tracks"
 msgstr "Hakuna njia"
 
@@ -693,7 +724,7 @@ msgstr "Hakuna njia"
 msgid "No users found"
 msgstr "Hakuna watumiaji waliopatikana"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "No version"
 msgstr "Hakuna toleo"
 
@@ -733,7 +764,7 @@ msgstr "Fungua menyu ya urambazaji"
 msgid "Open theme settings"
 msgstr "Fungua mipangilio ya mandhari"
 
-#: src/routes/_authenticated/app/$appId.tsx:498
+#: src/routes/_authenticated/app/$appId.tsx:500
 msgid "Open track actions"
 msgstr "Fungua vitendo vya njia"
 
@@ -749,7 +780,7 @@ msgstr "Mmiliki"
 msgid "Please enter an app name"
 msgstr "Tafadhali ingiza jina la programu"
 
-#: src/routes/_authenticated/app/$appId.tsx:617
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Please select a file"
 msgstr "Tafadhali chagua faili"
 
@@ -757,7 +788,7 @@ msgstr "Tafadhali chagua faili"
 msgid "Previous image"
 msgstr "Picha iliyotangulia"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Privacy"
 msgstr "Faragha"
 
@@ -766,6 +797,7 @@ msgid "Privacy Policy"
 msgstr "Sera ya Faragha"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Private"
 msgstr "Ya faragha"
 
@@ -775,6 +807,7 @@ msgid "Profile"
 msgstr "Wasifu"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
 msgid "Public"
 msgstr "Ya umma"
 
@@ -809,11 +842,11 @@ msgstr "Linganifu (5d, 3s, 2sk)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Linganifu ndani ya saa 24, vinginevyo kamili"
 
-#: src/routes/_authenticated/app/$appId.tsx:452
+#: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Release Tracks"
 msgstr "Njia za Toleo"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Release tracks currently active"
 msgstr "Njia za toleo zinazotumika kwa sasa"
 
@@ -930,7 +963,7 @@ msgstr "Chagua mapendeleo ya mandhari"
 msgid "Session expired"
 msgstr "Kipindi kimekwisha"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
+#: src/routes/_authenticated/app/$appId.tsx:510
 msgid "Set as default"
 msgstr "Weka kama chaguo-msingi"
 
@@ -1034,19 +1067,19 @@ msgstr "Geuza mandhari"
 msgid "Top"
 msgstr "Juu"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" deleted"
 msgstr "Track \"{track}\" imefutwa"
 
-#: src/routes/_authenticated/app/$appId.tsx:413
+#: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track \"{track}\" imesasishwa kwa {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:396
+#: src/routes/_authenticated/app/$appId.tsx:398
 msgid "Track created"
 msgstr "Track imeundwa"
 
-#: src/routes/_authenticated/app/$appId.tsx:542
+#: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Track Name"
 msgstr "Jina la Track"
 
@@ -1102,11 +1135,11 @@ msgstr "Marekani"
 msgid "Unverified"
 msgstr "Haijathibitishwa"
 
-#: src/routes/_authenticated/app/$appId.tsx:688
+#: src/routes/_authenticated/app/$appId.tsx:693
 msgid "Update Tracks"
 msgstr "Sasisha Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:652
+#: src/routes/_authenticated/app/$appId.tsx:657
 msgid "Upload a .zip build file for your application."
 msgstr "Pakia faili la build la .zip kwa programu yako."
 
@@ -1114,13 +1147,21 @@ msgstr "Pakia faili la build la .zip kwa programu yako."
 msgid "Upload new version"
 msgstr "Pakia toleo jipya"
 
-#: src/routes/_authenticated/app/$appId.tsx:650
+#: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Upload New Version"
 msgstr "Pakia Toleo Jipya"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "Pakia toleo"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
 msgstr "Pakia build yako ya kwanza kuanza"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "Inapakia..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
@@ -1150,11 +1191,16 @@ msgstr "Thibitisha"
 msgid "Verify email address"
 msgstr "Thibitisha anwani ya barua pepe"
 
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "Toleo {0} limeundwa."
+
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
 msgstr "Historia ya Toleo"
 
-#: src/routes/_authenticated/app/$appId.tsx:628
+#: src/routes/_authenticated/app/$appId.tsx:632
 msgid "Version uploaded"
 msgstr "Toleo limepakiwa"
 
@@ -1183,10 +1229,10 @@ msgid "Wednesday"
 msgstr "Jumatano"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:680
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Yes"
 msgstr "Ndiyo"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:686
 msgid "Yes, force"
 msgstr "Ndiyo, lazimisha"

@@ -89,7 +89,7 @@ function AppPage() {
   }
   const goBackToApps = () => navigate({ to: '/' })
 
-  usePageTitle(data?.app?.name ?? 'App')
+  usePageTitle(data?.app?.name ?? t`App`)
 
   if (isLoading) {
     return (
@@ -207,9 +207,9 @@ function AppPage() {
                   <FieldRow label={t`Privacy Policy`}>
                     <div className="flex items-center gap-2">
                       {app.privacy === 'public' ? (
-                        <DataChip value="Public" icon={<Globe className="size-3.5" />} copyable={false} />
+                        <DataChip value={t`Public`} icon={<Globe className="size-3.5" />} copyable={false} />
                       ) : (
-                        <DataChip value="Private" icon={<Lock className="size-3.5" />} copyable={false} />
+                        <DataChip value={t`Private`} icon={<Lock className="size-3.5" />} copyable={false} />
                       )}
                     </div>
                   </FieldRow>
@@ -282,6 +282,8 @@ function AppPage() {
               appId={appId}
               tracks={tracks}
               versions={versions}
+              // 'Production' is an identifier (matches an API key), not a UI label.
+              // eslint-disable-next-line lingui/no-unlocalized-strings
               defaultTrack={app.default_track ?? 'Production'}
               showAddTrack={showAddTrack}
               setShowAddTrack={setShowAddTrack}
@@ -332,7 +334,7 @@ function SharePage({
           <Section title={t`Details`} description={t`Metadata and configuration`}>
             <div className="divide-y-0">
               <FieldRow label={t`Fingerprint`}>
-                <DataChip value={app.fingerprint || 'N/A'} truncate='middle' />
+                <DataChip value={app.fingerprint || t`N/A`} truncate='middle' />
               </FieldRow>
               <FieldRow label={t`Privacy`}>
                 <DataChip 
@@ -543,7 +545,7 @@ function TracksTab({
               </label>
               <Input
                 id='trackName'
-                placeholder="e.g. Staging"
+                placeholder={t`e.g. Staging`}
                 value={newTrackName}
                 onChange={(e) => setNewTrackName(e.target.value)}
               />
@@ -576,7 +578,7 @@ function TracksTab({
               onClick={handleCreateTrack}
               disabled={!newTrackName || createTrackMutation.isPending}
             >
-              {createTrackMutation.isPending ? "Creating..." : "Create Track"}
+              {createTrackMutation.isPending ? t`Creating...` : t`Create Track`}
             </Button>
           </ResponsiveDialogFooter>
         </ResponsiveDialogContent>
@@ -601,6 +603,8 @@ function UploadVersionDialog({
   const { t } = useLingui()
   const [file, setFile] = useState<File | null>(null)
   const [installOption, setInstallOption] = useState<'yes' | 'yes-force' | 'no'>('yes')
+  // 'Production' is the track identifier (matches an API key), not a UI label.
+  // eslint-disable-next-line lingui/no-unlocalized-strings
   const [selectedTracks, setSelectedTracks] = useState<string[]>(['Production'])
   const fileInputRef = useRef<HTMLInputElement>(null)
   const uploadMutation = useUploadVersionMutation()
@@ -626,10 +630,11 @@ function UploadVersionDialog({
       {
         onSuccess: (data: { version: string }) => {
           toast.success(t`Version uploaded`, {
-            description: `Version ${data.version} has been created.`,
+            description: t`Version ${data.version} has been created.`,
           })
           setFile(null)
           setInstallOption('yes')
+          // eslint-disable-next-line lingui/no-unlocalized-strings
           setSelectedTracks(['Production'])
           if (fileInputRef.current) {
             fileInputRef.current.value = ''
@@ -656,7 +661,7 @@ function UploadVersionDialog({
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
               <label htmlFor='file' className='text-sm font-medium'>
-                Build File (.zip)
+                <Trans>Build File (.zip)</Trans>
               </label>
               <Input
                 ref={fileInputRef}
@@ -677,9 +682,9 @@ function UploadVersionDialog({
                   onChange={(e) => setInstallOption(e.target.value as 'yes' | 'yes-force' | 'no')}
                   className='border-input bg-background flex h-10 w-full rounded-md border px-3 py-2 text-sm'
                 >
-                  <option value='yes'><Trans>Yes</Trans></option>
-                  <option value='yes-force'><Trans>Yes, force</Trans></option>
-                  <option value='no'>No</option>
+                  <option value='yes'>{t`Yes`}</option>
+                  <option value='yes-force'>{t`Yes, force`}</option>
+                  <option value='no'>{t`No`}</option>
                 </select>
               </div>
             )}
@@ -711,7 +716,7 @@ function UploadVersionDialog({
               <Trans>Cancel</Trans>
             </Button>
             <Button type='submit' disabled={uploadMutation.isPending}>
-              {uploadMutation.isPending ? "Uploading..." : "Upload Version"}
+              {uploadMutation.isPending ? t`Uploading...` : t`Upload Version`}
             </Button>
           </ResponsiveDialogFooter>
         </form>

@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "{name} berhasil dibuat."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:52
 msgid "12 hours"
 msgstr "12 jam"
@@ -49,7 +53,7 @@ msgstr "Tipe akun"
 msgid "Account verified"
 msgstr "Akun terverifikasi"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Active version"
 msgstr "Versi aktif"
 
@@ -106,6 +110,7 @@ msgstr "Semua"
 msgid "All uploaded build files for this application"
 msgstr "Semua file build yang diunggah untuk aplikasi ini"
 
+#: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
 msgstr "Aplikasi"
@@ -114,7 +119,7 @@ msgstr "Aplikasi"
 msgid "App created"
 msgstr "Aplikasi dibuat"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
+#: src/routes/_authenticated/app/$appId.tsx:328
 msgid "App ID"
 msgstr "ID Aplikasi"
 
@@ -137,7 +142,7 @@ msgstr "Apakah Anda yakin ingin keluar? Anda perlu masuk kembali untuk mengakses
 msgid "Asc"
 msgstr "Naik"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Available Versions"
 msgstr "Versi yang Tersedia"
 
@@ -150,7 +155,7 @@ msgstr "Kembali"
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:318
+#: src/routes/_authenticated/app/$appId.tsx:320
 msgid "Back to apps"
 msgstr "Kembali ke aplikasi"
 
@@ -164,6 +169,10 @@ msgstr "Kembali ke Beranda"
 msgid "Boost interest"
 msgstr "Tingkatkan minat"
 
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "File build (.zip)"
+
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
@@ -172,8 +181,8 @@ msgstr "Tingkatkan minat"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:573
-#: src/routes/_authenticated/app/$appId.tsx:711
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Cancel"
 msgstr "Batal"
 
@@ -277,7 +286,7 @@ msgstr "Lanjutkan"
 msgid "Copy"
 msgstr "Salin"
 
-#: src/routes/_authenticated/app/$appId.tsx:324
+#: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
 msgstr "Salin ID ini dan tempelkan di halaman Aplikasi server Mochi Anda untuk memasang."
 
@@ -285,7 +294,7 @@ msgstr "Salin ID ini dan tempelkan di halaman Aplikasi server Mochi Anda untuk m
 msgid "Core identification for this application"
 msgstr "Identifikasi inti untuk aplikasi ini"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:538
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Buat environment baru (misalnya Beta, Staging) untuk men-deploy build."
 
@@ -306,13 +315,22 @@ msgstr "Buat aplikasi baru"
 msgid "Create track"
 msgstr "Buat track"
 
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "Buat saluran"
+
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
 msgstr "Buat aplikasi pertama Anda untuk memulai"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Create your first release track to manage deployments"
 msgstr "Buat track rilis pertama Anda untuk mengelola deployment"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "Membuat..."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -335,11 +353,11 @@ msgstr "Default"
 msgid "Default AI account"
 msgstr "Akun AI default"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Default track set to \"{track}\""
 msgstr "Track default diatur ke \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:517
 msgid "Delete track"
 msgstr "Hapus track"
 
@@ -347,7 +365,7 @@ msgstr "Hapus track"
 msgid "Desc"
 msgstr "Turun"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Details"
 msgstr "Detail"
 
@@ -386,6 +404,10 @@ msgstr "Distribusi diatur ke {distribution}"
 msgid "Download"
 msgstr "Unduh"
 
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "mis. Staging"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "Perluas sidebar"
@@ -398,11 +420,11 @@ msgstr "Gagal menambahkan akun"
 msgid "Failed to create app"
 msgstr "Gagal membuat aplikasi"
 
-#: src/routes/_authenticated/app/$appId.tsx:402
+#: src/routes/_authenticated/app/$appId.tsx:404
 msgid "Failed to create track"
 msgstr "Gagal membuat track"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to delete track"
 msgstr "Gagal menghapus track"
 
@@ -414,7 +436,7 @@ msgstr "Gagal menghapus akun"
 msgid "Failed to send verification code"
 msgstr "Gagal mengirim kode verifikasi"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to set default track"
 msgstr "Gagal menetapkan track default"
 
@@ -426,16 +448,16 @@ msgstr "Gagal memperbarui kategori"
 msgid "Failed to update distribution"
 msgstr "Gagal memperbarui distribusi"
 
-#: src/routes/_authenticated/app/$appId.tsx:416
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to update track"
 msgstr "Gagal memperbarui track"
 
-#: src/routes/_authenticated/app/$appId.tsx:640
+#: src/routes/_authenticated/app/$appId.tsx:645
 msgid "Failed to upload version"
 msgstr "Gagal mengunggah versi"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
 msgstr "Fingerprint"
 
@@ -504,7 +526,7 @@ msgstr "Identitas"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/routes/_authenticated/app/$appId.tsx:552
+#: src/routes/_authenticated/app/$appId.tsx:554
 msgid "Initial Version"
 msgstr "Versi Awal"
 
@@ -512,15 +534,15 @@ msgstr "Versi Awal"
 msgid "Inset"
 msgstr "Inset"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install App"
 msgstr "Instal Aplikasi"
 
-#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:677
 msgid "Install Locally"
 msgstr "Instal Lokal"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install this application to your server"
 msgstr "Instal aplikasi ini ke server Anda"
 
@@ -544,7 +566,7 @@ msgstr "Tata letak"
 msgid "Learn more"
 msgstr "Pelajari lebih lanjut"
 
-#: src/routes/_authenticated/app/$appId.tsx:558
+#: src/routes/_authenticated/app/$appId.tsx:560
 msgid "Leave empty"
 msgstr "Kosongkan"
 
@@ -599,7 +621,7 @@ msgstr "Luma (Default)"
 msgid "Make app publicly available"
 msgstr "Jadikan aplikasi tersedia untuk publik"
 
-#: src/routes/_authenticated/app/$appId.tsx:453
+#: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Manage deployment environments and their versions"
 msgstr "Kelola lingkungan deployment dan versinya"
 
@@ -612,7 +634,7 @@ msgstr "Tandai semua sebagai sudah dibaca"
 msgid "Menu"
 msgstr "Menu"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Metadata and configuration"
 msgstr "Metadata dan konfigurasi"
 
@@ -628,6 +650,10 @@ msgstr "Senin"
 msgid "My App"
 msgstr "Aplikasi Saya"
 
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "T/A"
+
 #: src/features/apps/index.tsx:178
 msgid "Name"
 msgstr "Nama"
@@ -636,13 +662,18 @@ msgstr "Nama"
 msgid "New"
 msgstr "Baru"
 
-#: src/routes/_authenticated/app/$appId.tsx:534
+#: src/routes/_authenticated/app/$appId.tsx:536
 msgid "New Release Track"
 msgstr "Jalur Rilis Baru"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
 msgstr "Gambar berikutnya"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "Tidak"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
@@ -685,7 +716,7 @@ msgstr "Tidak ada zona waktu yang ditemukan."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Belum ada catatan topik — coba lagi setelah notifikasi berikutnya."
 
-#: src/routes/_authenticated/app/$appId.tsx:459
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "No tracks"
 msgstr "Tidak ada jalur"
 
@@ -693,7 +724,7 @@ msgstr "Tidak ada jalur"
 msgid "No users found"
 msgstr "Tidak ada pengguna yang ditemukan"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "No version"
 msgstr "Tidak ada versi"
 
@@ -733,7 +764,7 @@ msgstr "Buka menu navigasi"
 msgid "Open theme settings"
 msgstr "Buka pengaturan tema"
 
-#: src/routes/_authenticated/app/$appId.tsx:498
+#: src/routes/_authenticated/app/$appId.tsx:500
 msgid "Open track actions"
 msgstr "Buka tindakan jalur"
 
@@ -749,7 +780,7 @@ msgstr "Pemilik"
 msgid "Please enter an app name"
 msgstr "Harap masukkan nama aplikasi"
 
-#: src/routes/_authenticated/app/$appId.tsx:617
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Please select a file"
 msgstr "Harap pilih file"
 
@@ -757,7 +788,7 @@ msgstr "Harap pilih file"
 msgid "Previous image"
 msgstr "Gambar sebelumnya"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Privacy"
 msgstr "Privasi"
 
@@ -766,6 +797,7 @@ msgid "Privacy Policy"
 msgstr "Kebijakan Privasi"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Private"
 msgstr "Pribadi"
 
@@ -775,6 +807,7 @@ msgid "Profile"
 msgstr "Profil"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
 msgid "Public"
 msgstr "Publik"
 
@@ -809,11 +842,11 @@ msgstr "Relatif (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relatif dalam 24 jam, selainnya absolut"
 
-#: src/routes/_authenticated/app/$appId.tsx:452
+#: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Release Tracks"
 msgstr "Jalur Rilis"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Release tracks currently active"
 msgstr "Jalur rilis yang aktif saat ini"
 
@@ -930,7 +963,7 @@ msgstr "Pilih preferensi tema"
 msgid "Session expired"
 msgstr "Sesi berakhir"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
+#: src/routes/_authenticated/app/$appId.tsx:510
 msgid "Set as default"
 msgstr "Jadikan default"
 
@@ -1034,19 +1067,19 @@ msgstr "Alihkan tema"
 msgid "Top"
 msgstr "Atas"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" deleted"
 msgstr "Jalur \"{track}\" dihapus"
 
-#: src/routes/_authenticated/app/$appId.tsx:413
+#: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Jalur \"{track}\" diperbarui ke {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:396
+#: src/routes/_authenticated/app/$appId.tsx:398
 msgid "Track created"
 msgstr "Jalur dibuat"
 
-#: src/routes/_authenticated/app/$appId.tsx:542
+#: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Track Name"
 msgstr "Nama Jalur"
 
@@ -1102,11 +1135,11 @@ msgstr "Amerika Serikat"
 msgid "Unverified"
 msgstr "Belum diverifikasi"
 
-#: src/routes/_authenticated/app/$appId.tsx:688
+#: src/routes/_authenticated/app/$appId.tsx:693
 msgid "Update Tracks"
 msgstr "Perbarui Jalur"
 
-#: src/routes/_authenticated/app/$appId.tsx:652
+#: src/routes/_authenticated/app/$appId.tsx:657
 msgid "Upload a .zip build file for your application."
 msgstr "Unggah berkas build .zip untuk aplikasi Anda."
 
@@ -1114,13 +1147,21 @@ msgstr "Unggah berkas build .zip untuk aplikasi Anda."
 msgid "Upload new version"
 msgstr "Unggah versi baru"
 
-#: src/routes/_authenticated/app/$appId.tsx:650
+#: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Upload New Version"
 msgstr "Unggah Versi Baru"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "Unggah versi"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
 msgstr "Unggah build pertama Anda untuk memulai"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "Mengunggah..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
@@ -1150,11 +1191,16 @@ msgstr "Verifikasi"
 msgid "Verify email address"
 msgstr "Verifikasi alamat email"
 
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "Versi {0} telah dibuat."
+
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
 msgstr "Riwayat Versi"
 
-#: src/routes/_authenticated/app/$appId.tsx:628
+#: src/routes/_authenticated/app/$appId.tsx:632
 msgid "Version uploaded"
 msgstr "Versi diunggah"
 
@@ -1183,10 +1229,10 @@ msgid "Wednesday"
 msgstr "Rabu"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:680
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Yes"
 msgstr "Ya"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:686
 msgid "Yes, force"
 msgstr "Ya, paksa"

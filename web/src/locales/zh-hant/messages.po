@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "{name} 已成功建立。"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:52
 msgid "12 hours"
 msgstr "12 小時"
@@ -49,7 +53,7 @@ msgstr "帳戶類型"
 msgid "Account verified"
 msgstr "帳戶已驗證"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Active version"
 msgstr "啟用中的版本"
 
@@ -106,6 +110,7 @@ msgstr "全部"
 msgid "All uploaded build files for this application"
 msgstr "此應用程式已上傳的所有建置檔案"
 
+#: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
 msgstr "應用程式"
@@ -114,7 +119,7 @@ msgstr "應用程式"
 msgid "App created"
 msgstr "應用程式已建立"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
+#: src/routes/_authenticated/app/$appId.tsx:328
 msgid "App ID"
 msgstr "應用程式 ID"
 
@@ -137,7 +142,7 @@ msgstr "您確定要登出嗎?您將需要再次登入才能存取您的帳戶�
 msgid "Asc"
 msgstr "升序"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Available Versions"
 msgstr "可用版本"
 
@@ -150,7 +155,7 @@ msgstr "返回"
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:318
+#: src/routes/_authenticated/app/$appId.tsx:320
 msgid "Back to apps"
 msgstr "返回應用程式"
 
@@ -164,6 +169,10 @@ msgstr "返回首頁"
 msgid "Boost interest"
 msgstr "提升興趣"
 
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "建置檔案 (.zip)"
+
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
@@ -172,8 +181,8 @@ msgstr "提升興趣"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:573
-#: src/routes/_authenticated/app/$appId.tsx:711
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Cancel"
 msgstr "取消"
 
@@ -277,7 +286,7 @@ msgstr "繼續"
 msgid "Copy"
 msgstr "複製"
 
-#: src/routes/_authenticated/app/$appId.tsx:324
+#: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
 msgstr "複製此 ID 並貼到您 Mochi 伺服器的應用程式頁面以安裝。"
 
@@ -285,7 +294,7 @@ msgstr "複製此 ID 並貼到您 Mochi 伺服器的應用程式頁面以安裝�
 msgid "Core identification for this application"
 msgstr "此應用程式的核心識別"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:538
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "建立新環境 (例如 Beta、Staging) 以部署建置。"
 
@@ -306,13 +315,22 @@ msgstr "建立新應用程式"
 msgid "Create track"
 msgstr "建立發布軌"
 
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "建立通道"
+
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
 msgstr "建立您的第一個應用程式以開始使用"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Create your first release track to manage deployments"
 msgstr "建立您的第一個發布軌以管理部署"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "建立中..."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -335,11 +353,11 @@ msgstr "預設"
 msgid "Default AI account"
 msgstr "預設 AI 帳戶"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Default track set to \"{track}\""
 msgstr "預設發布軌已設為「{track}」"
 
-#: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:517
 msgid "Delete track"
 msgstr "刪除發布軌"
 
@@ -347,7 +365,7 @@ msgstr "刪除發布軌"
 msgid "Desc"
 msgstr "降序"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Details"
 msgstr "詳細資料"
 
@@ -386,6 +404,10 @@ msgstr "發佈設定為 {distribution}"
 msgid "Download"
 msgstr "下載"
 
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "例如 Staging"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "展開側邊欄"
@@ -398,11 +420,11 @@ msgstr "新增帳號失敗"
 msgid "Failed to create app"
 msgstr "建立應用程式失敗"
 
-#: src/routes/_authenticated/app/$appId.tsx:402
+#: src/routes/_authenticated/app/$appId.tsx:404
 msgid "Failed to create track"
 msgstr "建立軌道失敗"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to delete track"
 msgstr "刪除軌道失敗"
 
@@ -414,7 +436,7 @@ msgstr "移除帳號失敗"
 msgid "Failed to send verification code"
 msgstr "傳送驗證碼失敗"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to set default track"
 msgstr "設定預設軌道失敗"
 
@@ -426,16 +448,16 @@ msgstr "更新類別失敗"
 msgid "Failed to update distribution"
 msgstr "更新發佈失敗"
 
-#: src/routes/_authenticated/app/$appId.tsx:416
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to update track"
 msgstr "更新軌道失敗"
 
-#: src/routes/_authenticated/app/$appId.tsx:640
+#: src/routes/_authenticated/app/$appId.tsx:645
 msgid "Failed to upload version"
 msgstr "上傳版本失敗"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
 msgstr "指紋"
 
@@ -504,7 +526,7 @@ msgstr "身分"
 msgid "Imperial"
 msgstr "英制"
 
-#: src/routes/_authenticated/app/$appId.tsx:552
+#: src/routes/_authenticated/app/$appId.tsx:554
 msgid "Initial Version"
 msgstr "初始版本"
 
@@ -512,15 +534,15 @@ msgstr "初始版本"
 msgid "Inset"
 msgstr "內嵌"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install App"
 msgstr "安裝應用程式"
 
-#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:677
 msgid "Install Locally"
 msgstr "本機安裝"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install this application to your server"
 msgstr "將此應用程式安裝至你的伺服器"
 
@@ -544,7 +566,7 @@ msgstr "版面"
 msgid "Learn more"
 msgstr "深入了解"
 
-#: src/routes/_authenticated/app/$appId.tsx:558
+#: src/routes/_authenticated/app/$appId.tsx:560
 msgid "Leave empty"
 msgstr "留空"
 
@@ -599,7 +621,7 @@ msgstr "Luma（預設）"
 msgid "Make app publicly available"
 msgstr "公開提供應用程式"
 
-#: src/routes/_authenticated/app/$appId.tsx:453
+#: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Manage deployment environments and their versions"
 msgstr "管理部署環境及其版本"
 
@@ -612,7 +634,7 @@ msgstr "全部標示為已讀"
 msgid "Menu"
 msgstr "選單"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Metadata and configuration"
 msgstr "中繼資料和組態"
 
@@ -628,6 +650,10 @@ msgstr "星期一"
 msgid "My App"
 msgstr "我的應用程式"
 
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "不適用"
+
 #: src/features/apps/index.tsx:178
 msgid "Name"
 msgstr "名稱"
@@ -636,13 +662,18 @@ msgstr "名稱"
 msgid "New"
 msgstr "新增"
 
-#: src/routes/_authenticated/app/$appId.tsx:534
+#: src/routes/_authenticated/app/$appId.tsx:536
 msgid "New Release Track"
 msgstr "新發佈軌道"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
 msgstr "下一張圖片"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "否"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
@@ -685,7 +716,7 @@ msgstr "找不到時區。"
 msgid "No topic record yet — try again after the next notification."
 msgstr "尚無主題記錄 — 請在下次通知後再試一次。"
 
-#: src/routes/_authenticated/app/$appId.tsx:459
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "No tracks"
 msgstr "無軌道"
 
@@ -693,7 +724,7 @@ msgstr "無軌道"
 msgid "No users found"
 msgstr "找不到使用者"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "No version"
 msgstr "無版本"
 
@@ -733,7 +764,7 @@ msgstr "開啟導覽選單"
 msgid "Open theme settings"
 msgstr "開啟佈景主題設定"
 
-#: src/routes/_authenticated/app/$appId.tsx:498
+#: src/routes/_authenticated/app/$appId.tsx:500
 msgid "Open track actions"
 msgstr "開啟軌道動作"
 
@@ -749,7 +780,7 @@ msgstr "擁有者"
 msgid "Please enter an app name"
 msgstr "請輸入應用程式名稱"
 
-#: src/routes/_authenticated/app/$appId.tsx:617
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Please select a file"
 msgstr "請選擇一個檔案"
 
@@ -757,7 +788,7 @@ msgstr "請選擇一個檔案"
 msgid "Previous image"
 msgstr "上一張圖片"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Privacy"
 msgstr "隱私"
 
@@ -766,6 +797,7 @@ msgid "Privacy Policy"
 msgstr "隱私權政策"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Private"
 msgstr "私人"
 
@@ -775,6 +807,7 @@ msgid "Profile"
 msgstr "個人檔案"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
 msgid "Public"
 msgstr "公開"
 
@@ -809,11 +842,11 @@ msgstr "相對(5m、3h、2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24 小時內相對,否則絕對"
 
-#: src/routes/_authenticated/app/$appId.tsx:452
+#: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Release Tracks"
 msgstr "發佈軌道"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Release tracks currently active"
 msgstr "目前作用中的發佈軌道"
 
@@ -930,7 +963,7 @@ msgstr "選擇主題偏好"
 msgid "Session expired"
 msgstr "工作階段已過期"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
+#: src/routes/_authenticated/app/$appId.tsx:510
 msgid "Set as default"
 msgstr "設為預設"
 
@@ -1034,19 +1067,19 @@ msgstr "切換主題"
 msgid "Top"
 msgstr "頂端"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" deleted"
 msgstr "軌道「{track}」已刪除"
 
-#: src/routes/_authenticated/app/$appId.tsx:413
+#: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Track \"{track}\" updated to {version}"
 msgstr "軌道「{track}」已更新至 {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:396
+#: src/routes/_authenticated/app/$appId.tsx:398
 msgid "Track created"
 msgstr "軌道已建立"
 
-#: src/routes/_authenticated/app/$appId.tsx:542
+#: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Track Name"
 msgstr "軌道名稱"
 
@@ -1102,11 +1135,11 @@ msgstr "美國"
 msgid "Unverified"
 msgstr "未驗證"
 
-#: src/routes/_authenticated/app/$appId.tsx:688
+#: src/routes/_authenticated/app/$appId.tsx:693
 msgid "Update Tracks"
 msgstr "更新軌道"
 
-#: src/routes/_authenticated/app/$appId.tsx:652
+#: src/routes/_authenticated/app/$appId.tsx:657
 msgid "Upload a .zip build file for your application."
 msgstr "為您的應用程式上傳 .zip 建置檔。"
 
@@ -1114,13 +1147,21 @@ msgstr "為您的應用程式上傳 .zip 建置檔。"
 msgid "Upload new version"
 msgstr "上傳新版本"
 
-#: src/routes/_authenticated/app/$appId.tsx:650
+#: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Upload New Version"
 msgstr "上傳新版本"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "上傳版本"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
 msgstr "上傳您的第一個建置檔以開始使用"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "上傳中..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
@@ -1150,11 +1191,16 @@ msgstr "驗證"
 msgid "Verify email address"
 msgstr "驗證電子郵件地址"
 
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "版本 {0} 已建立。"
+
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
 msgstr "版本歷程"
 
-#: src/routes/_authenticated/app/$appId.tsx:628
+#: src/routes/_authenticated/app/$appId.tsx:632
 msgid "Version uploaded"
 msgstr "版本已上傳"
 
@@ -1183,10 +1229,10 @@ msgid "Wednesday"
 msgstr "星期三"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:680
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Yes"
 msgstr "是"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:686
 msgid "Yes, force"
 msgstr "是,強制"

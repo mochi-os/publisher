@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "{name} er opprettet."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:52
 msgid "12 hours"
 msgstr "12 timer"
@@ -49,7 +53,7 @@ msgstr "Kontotype"
 msgid "Account verified"
 msgstr "Konto bekreftet"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Active version"
 msgstr "Aktiv versjon"
 
@@ -106,6 +110,7 @@ msgstr "Alle"
 msgid "All uploaded build files for this application"
 msgstr "Alle opplastede byggfiler for denne applikasjonen"
 
+#: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
 msgstr "App"
@@ -114,7 +119,7 @@ msgstr "App"
 msgid "App created"
 msgstr "App opprettet"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
+#: src/routes/_authenticated/app/$appId.tsx:328
 msgid "App ID"
 msgstr "App-ID"
 
@@ -137,7 +142,7 @@ msgstr "Er du sikker på at du vil logge ut? Du må logge inn igjen for å få t
 msgid "Asc"
 msgstr "Stigende"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Available Versions"
 msgstr "Tilgjengelige versjoner"
 
@@ -150,7 +155,7 @@ msgstr "Tilbake"
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:318
+#: src/routes/_authenticated/app/$appId.tsx:320
 msgid "Back to apps"
 msgstr "Tilbake til apper"
 
@@ -164,6 +169,10 @@ msgstr "Tilbake til startsiden"
 msgid "Boost interest"
 msgstr "Øk interesse"
 
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "Build-fil (.zip)"
+
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
@@ -172,8 +181,8 @@ msgstr "Øk interesse"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:573
-#: src/routes/_authenticated/app/$appId.tsx:711
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -277,7 +286,7 @@ msgstr "Fortsett"
 msgid "Copy"
 msgstr "Kopier"
 
-#: src/routes/_authenticated/app/$appId.tsx:324
+#: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
 msgstr "Kopier denne ID-en og lim den inn på Apper-siden på Mochi-serveren din for å installere."
 
@@ -285,7 +294,7 @@ msgstr "Kopier denne ID-en og lim den inn på Apper-siden på Mochi-serveren din
 msgid "Core identification for this application"
 msgstr "Kjerneidentifikasjon for denne applikasjonen"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:538
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Opprett et nytt miljø (f.eks. Beta, Staging) for å distribuere bygg."
 
@@ -306,13 +315,22 @@ msgstr "Opprett ny app"
 msgid "Create track"
 msgstr "Opprett spor"
 
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "Opprett kanal"
+
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
 msgstr "Opprett din første app for å komme i gang"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Create your first release track to manage deployments"
 msgstr "Opprett ditt første utgivelsesspor for å administrere distribusjoner"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "Oppretter …"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -335,11 +353,11 @@ msgstr "Standard"
 msgid "Default AI account"
 msgstr "Standard KI-konto"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Default track set to \"{track}\""
 msgstr "Standardspor satt til «{track}»"
 
-#: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:517
 msgid "Delete track"
 msgstr "Slett spor"
 
@@ -347,7 +365,7 @@ msgstr "Slett spor"
 msgid "Desc"
 msgstr "Synkende"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Details"
 msgstr "Detaljer"
 
@@ -386,6 +404,10 @@ msgstr "Distribusjon satt til {distribution}"
 msgid "Download"
 msgstr "Last ned"
 
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "f.eks. Staging"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "Utvid sidefelt"
@@ -398,11 +420,11 @@ msgstr "Kunne ikke legge til konto"
 msgid "Failed to create app"
 msgstr "Kunne ikke opprette app"
 
-#: src/routes/_authenticated/app/$appId.tsx:402
+#: src/routes/_authenticated/app/$appId.tsx:404
 msgid "Failed to create track"
 msgstr "Kunne ikke opprette spor"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to delete track"
 msgstr "Kunne ikke slette spor"
 
@@ -414,7 +436,7 @@ msgstr "Kunne ikke fjerne konto"
 msgid "Failed to send verification code"
 msgstr "Kunne ikke sende bekreftelseskode"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to set default track"
 msgstr "Kunne ikke angi standardspor"
 
@@ -426,16 +448,16 @@ msgstr "Kunne ikke oppdatere kategori"
 msgid "Failed to update distribution"
 msgstr "Kunne ikke oppdatere distribusjon"
 
-#: src/routes/_authenticated/app/$appId.tsx:416
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to update track"
 msgstr "Kunne ikke oppdatere spor"
 
-#: src/routes/_authenticated/app/$appId.tsx:640
+#: src/routes/_authenticated/app/$appId.tsx:645
 msgid "Failed to upload version"
 msgstr "Kunne ikke laste opp versjon"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
 msgstr "Fingeravtrykk"
 
@@ -504,7 +526,7 @@ msgstr "Identitet"
 msgid "Imperial"
 msgstr "Imperialsk"
 
-#: src/routes/_authenticated/app/$appId.tsx:552
+#: src/routes/_authenticated/app/$appId.tsx:554
 msgid "Initial Version"
 msgstr "Innledende versjon"
 
@@ -512,15 +534,15 @@ msgstr "Innledende versjon"
 msgid "Inset"
 msgstr "Innfelt"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install App"
 msgstr "Installer app"
 
-#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:677
 msgid "Install Locally"
 msgstr "Installer lokalt"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install this application to your server"
 msgstr "Installer denne applikasjonen på serveren din"
 
@@ -544,7 +566,7 @@ msgstr "Layout"
 msgid "Learn more"
 msgstr "Les mer"
 
-#: src/routes/_authenticated/app/$appId.tsx:558
+#: src/routes/_authenticated/app/$appId.tsx:560
 msgid "Leave empty"
 msgstr "La stå tom"
 
@@ -599,7 +621,7 @@ msgstr "Luma (standard)"
 msgid "Make app publicly available"
 msgstr "Gjør appen offentlig tilgjengelig"
 
-#: src/routes/_authenticated/app/$appId.tsx:453
+#: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Manage deployment environments and their versions"
 msgstr "Administrer distribusjonsmiljøer og versjonene deres"
 
@@ -612,7 +634,7 @@ msgstr "Merk alle som lest"
 msgid "Menu"
 msgstr "Meny"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Metadata and configuration"
 msgstr "Metadata og konfigurasjon"
 
@@ -628,6 +650,10 @@ msgstr "Mandag"
 msgid "My App"
 msgstr "Appen min"
 
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "I/T"
+
 #: src/features/apps/index.tsx:178
 msgid "Name"
 msgstr "Navn"
@@ -636,13 +662,18 @@ msgstr "Navn"
 msgid "New"
 msgstr "Ny"
 
-#: src/routes/_authenticated/app/$appId.tsx:534
+#: src/routes/_authenticated/app/$appId.tsx:536
 msgid "New Release Track"
 msgstr "Nytt utgivelsesspor"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
 msgstr "Neste bilde"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "Nei"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
@@ -685,7 +716,7 @@ msgstr "Ingen tidssone funnet."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Ingen emnepost ennå – prøv igjen etter neste varsel."
 
-#: src/routes/_authenticated/app/$appId.tsx:459
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "No tracks"
 msgstr "Ingen spor"
 
@@ -693,7 +724,7 @@ msgstr "Ingen spor"
 msgid "No users found"
 msgstr "Ingen brukere funnet"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "No version"
 msgstr "Ingen versjon"
 
@@ -733,7 +764,7 @@ msgstr "Åpne navigasjonsmeny"
 msgid "Open theme settings"
 msgstr "Åpne temainnstillinger"
 
-#: src/routes/_authenticated/app/$appId.tsx:498
+#: src/routes/_authenticated/app/$appId.tsx:500
 msgid "Open track actions"
 msgstr "Åpne sporhandlinger"
 
@@ -749,7 +780,7 @@ msgstr "Eier"
 msgid "Please enter an app name"
 msgstr "Skriv inn et appnavn"
 
-#: src/routes/_authenticated/app/$appId.tsx:617
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Please select a file"
 msgstr "Velg en fil"
 
@@ -757,7 +788,7 @@ msgstr "Velg en fil"
 msgid "Previous image"
 msgstr "Forrige bilde"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Privacy"
 msgstr "Personvern"
 
@@ -766,6 +797,7 @@ msgid "Privacy Policy"
 msgstr "Personvernerklæring"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Private"
 msgstr "Privat"
 
@@ -775,6 +807,7 @@ msgid "Profile"
 msgstr "Profil"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
 msgid "Public"
 msgstr "Offentlig"
 
@@ -809,11 +842,11 @@ msgstr "Relativ (5m, 3t, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relativ innen 24 timer, ellers absolutt"
 
-#: src/routes/_authenticated/app/$appId.tsx:452
+#: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Release Tracks"
 msgstr "Utgivelsesspor"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Release tracks currently active"
 msgstr "Utgivelsesspor som er aktive nå"
 
@@ -930,7 +963,7 @@ msgstr "Velg temapreferanse"
 msgid "Session expired"
 msgstr "Økten har utløpt"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
+#: src/routes/_authenticated/app/$appId.tsx:510
 msgid "Set as default"
 msgstr "Angi som standard"
 
@@ -1034,19 +1067,19 @@ msgstr "Bytt tema"
 msgid "Top"
 msgstr "Topp"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" deleted"
 msgstr "Spor «{track}» slettet"
 
-#: src/routes/_authenticated/app/$appId.tsx:413
+#: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Spor «{track}» oppdatert til {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:396
+#: src/routes/_authenticated/app/$appId.tsx:398
 msgid "Track created"
 msgstr "Spor opprettet"
 
-#: src/routes/_authenticated/app/$appId.tsx:542
+#: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Track Name"
 msgstr "Spornavn"
 
@@ -1102,11 +1135,11 @@ msgstr "USA"
 msgid "Unverified"
 msgstr "Ikke verifisert"
 
-#: src/routes/_authenticated/app/$appId.tsx:688
+#: src/routes/_authenticated/app/$appId.tsx:693
 msgid "Update Tracks"
 msgstr "Oppdater spor"
 
-#: src/routes/_authenticated/app/$appId.tsx:652
+#: src/routes/_authenticated/app/$appId.tsx:657
 msgid "Upload a .zip build file for your application."
 msgstr "Last opp en .zip-byggefil for applikasjonen din."
 
@@ -1114,13 +1147,21 @@ msgstr "Last opp en .zip-byggefil for applikasjonen din."
 msgid "Upload new version"
 msgstr "Last opp ny versjon"
 
-#: src/routes/_authenticated/app/$appId.tsx:650
+#: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Upload New Version"
 msgstr "Last opp ny versjon"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "Last opp versjon"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
 msgstr "Last opp ditt første bygg for å komme i gang"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "Laster opp ..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
@@ -1150,11 +1191,16 @@ msgstr "Verifiser"
 msgid "Verify email address"
 msgstr "Verifiser e-postadresse"
 
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "Versjon {0} er opprettet."
+
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
 msgstr "Versjonshistorikk"
 
-#: src/routes/_authenticated/app/$appId.tsx:628
+#: src/routes/_authenticated/app/$appId.tsx:632
 msgid "Version uploaded"
 msgstr "Versjon lastet opp"
 
@@ -1183,10 +1229,10 @@ msgid "Wednesday"
 msgstr "Onsdag"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:680
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Yes"
 msgstr "Ja"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:686
 msgid "Yes, force"
 msgstr "Ja, tving"

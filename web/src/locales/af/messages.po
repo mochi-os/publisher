@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "{name} is suksesvol geskep."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:52
 msgid "12 hours"
 msgstr "12 uur"
@@ -49,7 +53,7 @@ msgstr "Rekeningtipe"
 msgid "Account verified"
 msgstr "Rekening geverifieer"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Active version"
 msgstr "Aktiewe weergawe"
 
@@ -106,6 +110,7 @@ msgstr "Alle"
 msgid "All uploaded build files for this application"
 msgstr "Alle opgelaaide build-lêers vir hierdie toepassing"
 
+#: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
 msgstr "App"
@@ -114,7 +119,7 @@ msgstr "App"
 msgid "App created"
 msgstr "App geskep"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
+#: src/routes/_authenticated/app/$appId.tsx:328
 msgid "App ID"
 msgstr "App-ID"
 
@@ -137,7 +142,7 @@ msgstr "Is jy seker jy wil afmeld? Jy sal weer moet aanmeld om toegang tot jou r
 msgid "Asc"
 msgstr "Stygend"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Available Versions"
 msgstr "Beskikbare weergawes"
 
@@ -150,7 +155,7 @@ msgstr "Terug"
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:318
+#: src/routes/_authenticated/app/$appId.tsx:320
 msgid "Back to apps"
 msgstr "Terug na apps"
 
@@ -164,6 +169,10 @@ msgstr "Terug na tuis"
 msgid "Boost interest"
 msgstr "Versterk belangstelling"
 
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "Bouleer (.zip)"
+
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
@@ -172,8 +181,8 @@ msgstr "Versterk belangstelling"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:573
-#: src/routes/_authenticated/app/$appId.tsx:711
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Cancel"
 msgstr "Kanselleer"
 
@@ -277,7 +286,7 @@ msgstr "Gaan voort"
 msgid "Copy"
 msgstr "Kopieer"
 
-#: src/routes/_authenticated/app/$appId.tsx:324
+#: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
 msgstr "Kopieer hierdie ID en plak dit in jou Mochi-bediener se Apps-bladsy om te installeer."
 
@@ -285,7 +294,7 @@ msgstr "Kopieer hierdie ID en plak dit in jou Mochi-bediener se Apps-bladsy om t
 msgid "Core identification for this application"
 msgstr "Kern-identifikasie vir hierdie toepassing"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:538
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Skep 'n nuwe omgewing (bv. Beta, Staging) om builds te ontplooi."
 
@@ -306,13 +315,22 @@ msgstr "Skep nuwe app"
 msgid "Create track"
 msgstr "Skep baan"
 
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "Skep baan"
+
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
 msgstr "Skep jou eerste app om te begin"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Create your first release track to manage deployments"
 msgstr "Skep jou eerste vrystellingsbaan om ontplooiings te bestuur"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "Skep..."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -335,11 +353,11 @@ msgstr "Verstek"
 msgid "Default AI account"
 msgstr "Verstek KI-rekening"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Default track set to \"{track}\""
 msgstr "Verstek baan gestel op \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:517
 msgid "Delete track"
 msgstr "Verwyder baan"
 
@@ -347,7 +365,7 @@ msgstr "Verwyder baan"
 msgid "Desc"
 msgstr "Dalend"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Details"
 msgstr "Besonderhede"
 
@@ -386,6 +404,10 @@ msgstr "Verspreiding gestel op {distribution}"
 msgid "Download"
 msgstr "Laai af"
 
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "bv. Staging"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "Brei sybalk uit"
@@ -398,11 +420,11 @@ msgstr "Kon nie rekening byvoeg nie"
 msgid "Failed to create app"
 msgstr "Kon nie toepassing skep nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:402
+#: src/routes/_authenticated/app/$appId.tsx:404
 msgid "Failed to create track"
 msgstr "Kon nie kanaal skep nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to delete track"
 msgstr "Kon nie kanaal verwyder nie"
 
@@ -414,7 +436,7 @@ msgstr "Kon nie rekening verwyder nie"
 msgid "Failed to send verification code"
 msgstr "Kon nie verifikasiekode stuur nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to set default track"
 msgstr "Kon nie verstekkanaal stel nie"
 
@@ -426,16 +448,16 @@ msgstr "Kon nie kategorie opdateer nie"
 msgid "Failed to update distribution"
 msgstr "Kon nie verspreiding opdateer nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:416
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to update track"
 msgstr "Kon nie kanaal opdateer nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:640
+#: src/routes/_authenticated/app/$appId.tsx:645
 msgid "Failed to upload version"
 msgstr "Kon nie weergawe oplaai nie"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
 msgstr "Vingerafdruk"
 
@@ -504,7 +526,7 @@ msgstr "Identiteit"
 msgid "Imperial"
 msgstr "Imperiaal"
 
-#: src/routes/_authenticated/app/$appId.tsx:552
+#: src/routes/_authenticated/app/$appId.tsx:554
 msgid "Initial Version"
 msgstr "Aanvanklike weergawe"
 
@@ -512,15 +534,15 @@ msgstr "Aanvanklike weergawe"
 msgid "Inset"
 msgstr "Ingebed"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install App"
 msgstr "Installeer toepassing"
 
-#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:677
 msgid "Install Locally"
 msgstr "Installeer plaaslik"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install this application to your server"
 msgstr "Installeer hierdie toepassing op jou bediener"
 
@@ -544,7 +566,7 @@ msgstr "Uitleg"
 msgid "Learn more"
 msgstr "Leer meer"
 
-#: src/routes/_authenticated/app/$appId.tsx:558
+#: src/routes/_authenticated/app/$appId.tsx:560
 msgid "Leave empty"
 msgstr "Laat leeg"
 
@@ -599,7 +621,7 @@ msgstr "Luma (verstek)"
 msgid "Make app publicly available"
 msgstr "Maak program publiek beskikbaar"
 
-#: src/routes/_authenticated/app/$appId.tsx:453
+#: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Manage deployment environments and their versions"
 msgstr "Bestuur ontplooiingsomgewings en hul weergawes"
 
@@ -612,7 +634,7 @@ msgstr "Merk alles as gelees"
 msgid "Menu"
 msgstr "Kieslys"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Metadata and configuration"
 msgstr "Metadata en konfigurasie"
 
@@ -628,6 +650,10 @@ msgstr "Maandag"
 msgid "My App"
 msgstr "My program"
 
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "N.v.t."
+
 #: src/features/apps/index.tsx:178
 msgid "Name"
 msgstr "Naam"
@@ -636,13 +662,18 @@ msgstr "Naam"
 msgid "New"
 msgstr "Nuut"
 
-#: src/routes/_authenticated/app/$appId.tsx:534
+#: src/routes/_authenticated/app/$appId.tsx:536
 msgid "New Release Track"
 msgstr "Nuwe vrystellingsbaan"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
 msgstr "Volgende prent"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "Nee"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
@@ -685,7 +716,7 @@ msgstr "Geen tydsone gevind nie."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Nog geen onderwerprekord nie — probeer weer na die volgende kennisgewing."
 
-#: src/routes/_authenticated/app/$appId.tsx:459
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "No tracks"
 msgstr "Geen bane"
 
@@ -693,7 +724,7 @@ msgstr "Geen bane"
 msgid "No users found"
 msgstr "Geen gebruikers gevind nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "No version"
 msgstr "Geen weergawe"
 
@@ -733,7 +764,7 @@ msgstr "Maak navigasie-kieslys oop"
 msgid "Open theme settings"
 msgstr "Maak tema-instellings oop"
 
-#: src/routes/_authenticated/app/$appId.tsx:498
+#: src/routes/_authenticated/app/$appId.tsx:500
 msgid "Open track actions"
 msgstr "Maak baan-aksies oop"
 
@@ -749,7 +780,7 @@ msgstr "Eienaar"
 msgid "Please enter an app name"
 msgstr "Voer asseblief 'n programnaam in"
 
-#: src/routes/_authenticated/app/$appId.tsx:617
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Please select a file"
 msgstr "Kies asseblief 'n lêer"
 
@@ -757,7 +788,7 @@ msgstr "Kies asseblief 'n lêer"
 msgid "Previous image"
 msgstr "Vorige prent"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Privacy"
 msgstr "Privaatheid"
 
@@ -766,6 +797,7 @@ msgid "Privacy Policy"
 msgstr "Privaatheidsbeleid"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Private"
 msgstr "Privaat"
 
@@ -775,6 +807,7 @@ msgid "Profile"
 msgstr "Profiel"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
 msgid "Public"
 msgstr "Publiek"
 
@@ -809,11 +842,11 @@ msgstr "Relatief (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relatief binne 24 uur, andersins absoluut"
 
-#: src/routes/_authenticated/app/$appId.tsx:452
+#: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Release Tracks"
 msgstr "Vrystellingsbane"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Release tracks currently active"
 msgstr "Vrystellingsbane wat tans aktief is"
 
@@ -930,7 +963,7 @@ msgstr "Kies tema-voorkeur"
 msgid "Session expired"
 msgstr "Sessie het verval"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
+#: src/routes/_authenticated/app/$appId.tsx:510
 msgid "Set as default"
 msgstr "Stel as verstek"
 
@@ -1034,19 +1067,19 @@ msgstr "Skakel tema"
 msgid "Top"
 msgstr "Bo"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" deleted"
 msgstr "Baan \"{track}\" geskrap"
 
-#: src/routes/_authenticated/app/$appId.tsx:413
+#: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Baan \"{track}\" opgedateer na {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:396
+#: src/routes/_authenticated/app/$appId.tsx:398
 msgid "Track created"
 msgstr "Baan geskep"
 
-#: src/routes/_authenticated/app/$appId.tsx:542
+#: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Track Name"
 msgstr "Baannaam"
 
@@ -1102,11 +1135,11 @@ msgstr "Verenigde State"
 msgid "Unverified"
 msgstr "Ongeverifieer"
 
-#: src/routes/_authenticated/app/$appId.tsx:688
+#: src/routes/_authenticated/app/$appId.tsx:693
 msgid "Update Tracks"
 msgstr "Opdateer Bane"
 
-#: src/routes/_authenticated/app/$appId.tsx:652
+#: src/routes/_authenticated/app/$appId.tsx:657
 msgid "Upload a .zip build file for your application."
 msgstr "Laai 'n .zip-build-lêer vir jou toepassing op."
 
@@ -1114,13 +1147,21 @@ msgstr "Laai 'n .zip-build-lêer vir jou toepassing op."
 msgid "Upload new version"
 msgstr "Laai nuwe weergawe op"
 
-#: src/routes/_authenticated/app/$appId.tsx:650
+#: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Upload New Version"
 msgstr "Laai nuwe weergawe op"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "Laai weergawe op"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
 msgstr "Laai jou eerste build op om te begin"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "Besig om op te laai..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
@@ -1150,11 +1191,16 @@ msgstr "Verifieer"
 msgid "Verify email address"
 msgstr "Verifieer e-posadres"
 
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "Weergawe {0} is geskep."
+
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
 msgstr "Weergawe-geskiedenis"
 
-#: src/routes/_authenticated/app/$appId.tsx:628
+#: src/routes/_authenticated/app/$appId.tsx:632
 msgid "Version uploaded"
 msgstr "Weergawe opgelaai"
 
@@ -1183,10 +1229,10 @@ msgid "Wednesday"
 msgstr "Woensdag"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:680
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Yes"
 msgstr "Ja"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:686
 msgid "Yes, force"
 msgstr "Ja, dwing af"

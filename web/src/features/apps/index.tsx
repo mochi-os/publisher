@@ -149,7 +149,7 @@ function CreateAppDialog({
       {
         onSuccess: (data: { id: string }) => {
           toast.success(t`App created`, {
-            description: `${name} has been created successfully.`,
+            description: t`${name} has been created successfully.`,
           })
           setName('')
           setPrivacy('public')
@@ -194,8 +194,8 @@ function CreateAppDialog({
                 onChange={(e) => setPrivacy(e.target.value)}
                 className='border-input bg-background flex h-10 w-full rounded-md border px-3 py-2 text-sm'
               >
-                <option value='public'><Trans>Yes</Trans></option>
-                <option value='private'>No</option>
+                <option value='public'>{t`Yes`}</option>
+                <option value='private'>{t`No`}</option>
               </select>
             </div>
           </div>
@@ -208,7 +208,7 @@ function CreateAppDialog({
               <Trans>Cancel</Trans>
             </Button>
             <Button type='submit' disabled={createMutation.isPending}>
-              {createMutation.isPending ? 'Creating...' : <><Plus className="me-2 h-4 w-4" /><Trans>Create app</Trans></>}
+              {createMutation.isPending ? t`Creating...` : <><Plus className="me-2 h-4 w-4" /><Trans>Create app</Trans></>}
             </Button>
           </ResponsiveDialogFooter>
         </form>

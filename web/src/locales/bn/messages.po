@@ -6,6 +6,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: bn\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "{name} সফলভাবে তৈরি করা হয়েছে।"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:52
 msgid "12 hours"
@@ -43,7 +53,7 @@ msgstr "অ্যাকাউন্টের ধরন"
 msgid "Account verified"
 msgstr "অ্যাকাউন্ট যাচাই করা হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Active version"
 msgstr "সক্রিয় সংস্করণ"
 
@@ -100,6 +110,7 @@ msgstr "সব"
 msgid "All uploaded build files for this application"
 msgstr "এই অ্যাপ্লিকেশনের সব আপলোড করা বিল্ড ফাইল"
 
+#: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
 msgstr "অ্যাপ"
@@ -108,7 +119,7 @@ msgstr "অ্যাপ"
 msgid "App created"
 msgstr "অ্যাপ তৈরি হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
+#: src/routes/_authenticated/app/$appId.tsx:328
 msgid "App ID"
 msgstr "অ্যাপ ID"
 
@@ -131,7 +142,7 @@ msgstr "আপনি কি নিশ্চিত লগআউট করতে �
 msgid "Asc"
 msgstr "ঊর্ধ্বক্রম"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Available Versions"
 msgstr "উপলব্ধ সংস্করণ"
 
@@ -144,7 +155,7 @@ msgstr "ফিরে যান"
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:318
+#: src/routes/_authenticated/app/$appId.tsx:320
 msgid "Back to apps"
 msgstr "অ্যাপে ফিরে যান"
 
@@ -158,6 +169,10 @@ msgstr "হোমে ফিরে যান"
 msgid "Boost interest"
 msgstr "আগ্রহ বৃদ্ধি করুন"
 
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "বিল্ড ফাইল (.zip)"
+
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
@@ -166,8 +181,8 @@ msgstr "আগ্রহ বৃদ্ধি করুন"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:573
-#: src/routes/_authenticated/app/$appId.tsx:711
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
@@ -271,7 +286,7 @@ msgstr "চালিয়ে যান"
 msgid "Copy"
 msgstr "কপি করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:324
+#: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
 msgstr "এই ID কপি করুন এবং ইনস্টল করতে আপনার Mochi সার্ভারের Apps পেজে পেস্ট করুন।"
 
@@ -279,7 +294,7 @@ msgstr "এই ID কপি করুন এবং ইনস্টল করত�
 msgid "Core identification for this application"
 msgstr "এই অ্যাপ্লিকেশনের জন্য মূল শনাক্তকরণ"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:538
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "বিল্ড ডিপ্লয় করতে একটি নতুন পরিবেশ (যেমন Beta, Staging) তৈরি করুন।"
 
@@ -300,13 +315,22 @@ msgstr "নতুন অ্যাপ তৈরি করুন"
 msgid "Create track"
 msgstr "ট্র্যাক তৈরি করুন"
 
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "ট্র্যাক তৈরি করুন"
+
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
 msgstr "শুরু করতে আপনার প্রথম অ্যাপ তৈরি করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Create your first release track to manage deployments"
 msgstr "ডিপ্লয়মেন্ট পরিচালনা করতে আপনার প্রথম রিলিজ ট্র্যাক তৈরি করুন"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "তৈরি করা হচ্ছে..."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -329,11 +353,11 @@ msgstr "ডিফল্ট"
 msgid "Default AI account"
 msgstr "ডিফল্ট AI অ্যাকাউন্ট"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Default track set to \"{track}\""
 msgstr "ডিফল্ট ট্র্যাক \"{track}\"-এ সেট করা হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:517
 msgid "Delete track"
 msgstr "ট্র্যাক মুছুন"
 
@@ -341,7 +365,7 @@ msgstr "ট্র্যাক মুছুন"
 msgid "Desc"
 msgstr "অধঃক্রম"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Details"
 msgstr "বিবরণ"
 
@@ -380,6 +404,10 @@ msgstr "বিতরণ {distribution}-এ সেট করা হয়েছ�
 msgid "Download"
 msgstr "ডাউনলোড"
 
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "যেমন Staging"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "সাইডবার প্রসারিত করুন"
@@ -392,11 +420,11 @@ msgstr "অ্যাকাউন্ট যোগ করতে ব্যর্থ
 msgid "Failed to create app"
 msgstr "অ্যাপ তৈরি করতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:402
+#: src/routes/_authenticated/app/$appId.tsx:404
 msgid "Failed to create track"
 msgstr "ট্র্যাক তৈরি করতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to delete track"
 msgstr "ট্র্যাক মুছতে ব্যর্থ"
 
@@ -408,7 +436,7 @@ msgstr "অ্যাকাউন্ট সরাতে ব্যর্থ"
 msgid "Failed to send verification code"
 msgstr "যাচাইকরণ কোড পাঠাতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to set default track"
 msgstr "ডিফল্ট ট্র্যাক সেট করতে ব্যর্থ"
 
@@ -420,16 +448,16 @@ msgstr "ক্যাটাগরি আপডেট করতে ব্যর্
 msgid "Failed to update distribution"
 msgstr "বিতরণ আপডেট করতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:416
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to update track"
 msgstr "ট্র্যাক আপডেট করতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:640
+#: src/routes/_authenticated/app/$appId.tsx:645
 msgid "Failed to upload version"
 msgstr "সংস্করণ আপলোড করতে ব্যর্থ"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
 msgstr "ফিঙ্গারপ্রিন্ট"
 
@@ -498,7 +526,7 @@ msgstr "পরিচয়"
 msgid "Imperial"
 msgstr "ইম্পেরিয়াল"
 
-#: src/routes/_authenticated/app/$appId.tsx:552
+#: src/routes/_authenticated/app/$appId.tsx:554
 msgid "Initial Version"
 msgstr "প্রাথমিক সংস্করণ"
 
@@ -506,15 +534,15 @@ msgstr "প্রাথমিক সংস্করণ"
 msgid "Inset"
 msgstr "ইনসেট"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install App"
 msgstr "অ্যাপ ইনস্টল করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:677
 msgid "Install Locally"
 msgstr "স্থানীয়ভাবে ইনস্টল করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install this application to your server"
 msgstr "এই অ্যাপ্লিকেশনটি আপনার সার্ভারে ইনস্টল করুন"
 
@@ -538,7 +566,7 @@ msgstr "লেআউট"
 msgid "Learn more"
 msgstr "আরও জানুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:558
+#: src/routes/_authenticated/app/$appId.tsx:560
 msgid "Leave empty"
 msgstr "খালি রাখুন"
 
@@ -593,7 +621,7 @@ msgstr "লুমা (ডিফল্ট)"
 msgid "Make app publicly available"
 msgstr "অ্যাপটি সর্বজনীনভাবে উপলব্ধ করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:453
+#: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Manage deployment environments and their versions"
 msgstr "ডিপ্লয়মেন্ট এনভায়রনমেন্ট ও তাদের সংস্করণ পরিচালনা করুন"
 
@@ -606,7 +634,7 @@ msgstr "সবগুলি পঠিত হিসেবে চিহ্নিত
 msgid "Menu"
 msgstr "মেনু"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Metadata and configuration"
 msgstr "মেটাডেটা ও কনফিগারেশন"
 
@@ -622,6 +650,10 @@ msgstr "সোমবার"
 msgid "My App"
 msgstr "আমার অ্যাপ"
 
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "প্রযোজ্য নয়"
+
 #: src/features/apps/index.tsx:178
 msgid "Name"
 msgstr "নাম"
@@ -630,13 +662,18 @@ msgstr "নাম"
 msgid "New"
 msgstr "নতুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:534
+#: src/routes/_authenticated/app/$appId.tsx:536
 msgid "New Release Track"
 msgstr "নতুন রিলিজ ট্র্যাক"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
 msgstr "পরবর্তী ছবি"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "না"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
@@ -679,7 +716,7 @@ msgstr "কোনো টাইম জোন পাওয়া যায়ন�
 msgid "No topic record yet — try again after the next notification."
 msgstr "এখনও কোনো বিষয়ের রেকর্ড নেই — পরবর্তী বিজ্ঞপ্তির পরে আবার চেষ্টা করুন।"
 
-#: src/routes/_authenticated/app/$appId.tsx:459
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "No tracks"
 msgstr "কোনো ট্র্যাক নেই"
 
@@ -687,7 +724,7 @@ msgstr "কোনো ট্র্যাক নেই"
 msgid "No users found"
 msgstr "কোনো ব্যবহারকারী পাওয়া যায়নি"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "No version"
 msgstr "কোনো সংস্করণ নেই"
 
@@ -727,7 +764,7 @@ msgstr "নেভিগেশন মেনু খুলুন"
 msgid "Open theme settings"
 msgstr "থিম সেটিংস খুলুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:498
+#: src/routes/_authenticated/app/$appId.tsx:500
 msgid "Open track actions"
 msgstr "ট্র্যাক অ্যাকশন খুলুন"
 
@@ -743,7 +780,7 @@ msgstr "মালিক"
 msgid "Please enter an app name"
 msgstr "অনুগ্রহ করে একটি অ্যাপের নাম লিখুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:617
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Please select a file"
 msgstr "অনুগ্রহ করে একটি ফাইল নির্বাচন করুন"
 
@@ -751,7 +788,7 @@ msgstr "অনুগ্রহ করে একটি ফাইল নির্�
 msgid "Previous image"
 msgstr "পূর্ববর্তী ছবি"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Privacy"
 msgstr "গোপনীয়তা"
 
@@ -760,6 +797,7 @@ msgid "Privacy Policy"
 msgstr "গোপনীয়তা নীতি"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Private"
 msgstr "প্রাইভেট"
 
@@ -769,6 +807,7 @@ msgid "Profile"
 msgstr "প্রোফাইল"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
 msgid "Public"
 msgstr "সর্বজনীন"
 
@@ -803,11 +842,11 @@ msgstr "আপেক্ষিক (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "২৪ ঘণ্টার মধ্যে আপেক্ষিক, অন্যথায় পরম"
 
-#: src/routes/_authenticated/app/$appId.tsx:452
+#: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Release Tracks"
 msgstr "রিলিজ ট্র্যাক"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Release tracks currently active"
 msgstr "বর্তমানে সক্রিয় রিলিজ ট্র্যাক"
 
@@ -924,7 +963,7 @@ msgstr "থিম পছন্দ নির্বাচন করুন"
 msgid "Session expired"
 msgstr "সেশনের মেয়াদ শেষ হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
+#: src/routes/_authenticated/app/$appId.tsx:510
 msgid "Set as default"
 msgstr "ডিফল্ট হিসাবে সেট করুন"
 
@@ -1028,19 +1067,19 @@ msgstr "থিম টগল করুন"
 msgid "Top"
 msgstr "উপরে"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" deleted"
 msgstr "Track \"{track}\" মুছে ফেলা হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:413
+#: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track \"{track}\" {version}-এ আপডেট হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:396
+#: src/routes/_authenticated/app/$appId.tsx:398
 msgid "Track created"
 msgstr "Track তৈরি হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:542
+#: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Track Name"
 msgstr "Track নাম"
 
@@ -1096,11 +1135,11 @@ msgstr "যুক্তরাষ্ট্র"
 msgid "Unverified"
 msgstr "যাচাই করা হয়নি"
 
-#: src/routes/_authenticated/app/$appId.tsx:688
+#: src/routes/_authenticated/app/$appId.tsx:693
 msgid "Update Tracks"
 msgstr "Track আপডেট করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:652
+#: src/routes/_authenticated/app/$appId.tsx:657
 msgid "Upload a .zip build file for your application."
 msgstr "আপনার অ্যাপ্লিকেশনের জন্য একটি .zip বিল্ড ফাইল আপলোড করুন।"
 
@@ -1108,13 +1147,21 @@ msgstr "আপনার অ্যাপ্লিকেশনের জন্য 
 msgid "Upload new version"
 msgstr "নতুন সংস্করণ আপলোড করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:650
+#: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Upload New Version"
 msgstr "নতুন সংস্করণ আপলোড করুন"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "সংস্করণ আপলোড করুন"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
 msgstr "শুরু করতে আপনার প্রথম বিল্ড আপলোড করুন"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "আপলোড করা হচ্ছে..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
@@ -1144,11 +1191,16 @@ msgstr "যাচাই করুন"
 msgid "Verify email address"
 msgstr "ইমেল ঠিকানা যাচাই করুন"
 
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "সংস্করণ {0} তৈরি করা হয়েছে।"
+
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
 msgstr "সংস্করণ ইতিহাস"
 
-#: src/routes/_authenticated/app/$appId.tsx:628
+#: src/routes/_authenticated/app/$appId.tsx:632
 msgid "Version uploaded"
 msgstr "সংস্করণ আপলোড করা হয়েছে"
 
@@ -1177,10 +1229,10 @@ msgid "Wednesday"
 msgstr "বুধবার"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:680
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Yes"
 msgstr "হ্যাঁ"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:686
 msgid "Yes, force"
 msgstr "হ্যাঁ, বাধ্য করুন"

@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "สร้าง {name} สำเร็จแล้ว"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:52
 msgid "12 hours"
 msgstr "12 ชั่วโมง"
@@ -49,7 +53,7 @@ msgstr "ประเภทบัญชี"
 msgid "Account verified"
 msgstr "ยืนยันบัญชีแล้ว"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Active version"
 msgstr "เวอร์ชันที่ใช้งาน"
 
@@ -106,6 +110,7 @@ msgstr "ทั้งหมด"
 msgid "All uploaded build files for this application"
 msgstr "ไฟล์ build ที่อัปโหลดทั้งหมดของแอปพลิเคชันนี้"
 
+#: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
 msgstr "แอป"
@@ -114,7 +119,7 @@ msgstr "แอป"
 msgid "App created"
 msgstr "สร้างแอปแล้ว"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
+#: src/routes/_authenticated/app/$appId.tsx:328
 msgid "App ID"
 msgstr "ID แอป"
 
@@ -137,7 +142,7 @@ msgstr "คุณแน่ใจหรือไม่ว่าต้องกา
 msgid "Asc"
 msgstr "น้อยไปมาก"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Available Versions"
 msgstr "เวอร์ชันที่ใช้ได้"
 
@@ -150,7 +155,7 @@ msgstr "ย้อนกลับ"
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:318
+#: src/routes/_authenticated/app/$appId.tsx:320
 msgid "Back to apps"
 msgstr "กลับไปยังแอป"
 
@@ -164,6 +169,10 @@ msgstr "กลับไปยังหน้าแรก"
 msgid "Boost interest"
 msgstr "เพิ่มความสนใจ"
 
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "ไฟล์บิวด์ (.zip)"
+
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
@@ -172,8 +181,8 @@ msgstr "เพิ่มความสนใจ"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:573
-#: src/routes/_authenticated/app/$appId.tsx:711
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Cancel"
 msgstr "ยกเลิก"
 
@@ -277,7 +286,7 @@ msgstr "ดำเนินการต่อ"
 msgid "Copy"
 msgstr "คัดลอก"
 
-#: src/routes/_authenticated/app/$appId.tsx:324
+#: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
 msgstr "คัดลอก ID นี้และวางในหน้า Apps ของเซิร์ฟเวอร์ Mochi เพื่อติดตั้ง"
 
@@ -285,7 +294,7 @@ msgstr "คัดลอก ID นี้และวางในหน้า Apps
 msgid "Core identification for this application"
 msgstr "การระบุหลักสำหรับแอปพลิเคชันนี้"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:538
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "สร้างสภาพแวดล้อมใหม่ (เช่น Beta, Staging) เพื่อติดตั้ง build"
 
@@ -306,13 +315,22 @@ msgstr "สร้างแอปใหม่"
 msgid "Create track"
 msgstr "สร้าง track"
 
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "สร้างแชนเนล"
+
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
 msgstr "สร้างแอปแรกของคุณเพื่อเริ่มต้น"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Create your first release track to manage deployments"
 msgstr "สร้าง release track แรกเพื่อจัดการการติดตั้ง"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "กำลังสร้าง..."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -335,11 +353,11 @@ msgstr "ค่าเริ่มต้น"
 msgid "Default AI account"
 msgstr "บัญชี AI เริ่มต้น"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Default track set to \"{track}\""
 msgstr "ตั้ง track เริ่มต้นเป็น\"{track}\"แล้ว"
 
-#: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:517
 msgid "Delete track"
 msgstr "ลบ track"
 
@@ -347,7 +365,7 @@ msgstr "ลบ track"
 msgid "Desc"
 msgstr "มากไปน้อย"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Details"
 msgstr "รายละเอียด"
 
@@ -386,6 +404,10 @@ msgstr "ตั้งการจัดจำหน่ายเป็น{distribu
 msgid "Download"
 msgstr "ดาวน์โหลด"
 
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "เช่น Staging"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "ขยายแถบด้านข้าง"
@@ -398,11 +420,11 @@ msgstr "ไม่สามารถเพิ่มบัญชีได้"
 msgid "Failed to create app"
 msgstr "ไม่สามารถสร้างแอปได้"
 
-#: src/routes/_authenticated/app/$appId.tsx:402
+#: src/routes/_authenticated/app/$appId.tsx:404
 msgid "Failed to create track"
 msgstr "ไม่สามารถสร้างแทร็กได้"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to delete track"
 msgstr "ไม่สามารถลบแทร็กได้"
 
@@ -414,7 +436,7 @@ msgstr "ไม่สามารถเอาบัญชีออกได้"
 msgid "Failed to send verification code"
 msgstr "ไม่สามารถส่งรหัสยืนยันได้"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to set default track"
 msgstr "ไม่สามารถตั้งแทร็กเริ่มต้นได้"
 
@@ -426,16 +448,16 @@ msgstr "ไม่สามารถอัปเดตหมวดหมู่ไ
 msgid "Failed to update distribution"
 msgstr "ไม่สามารถอัปเดตการจัดจำหน่ายได้"
 
-#: src/routes/_authenticated/app/$appId.tsx:416
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to update track"
 msgstr "ไม่สามารถอัปเดตแทร็กได้"
 
-#: src/routes/_authenticated/app/$appId.tsx:640
+#: src/routes/_authenticated/app/$appId.tsx:645
 msgid "Failed to upload version"
 msgstr "ไม่สามารถอัปโหลดเวอร์ชันได้"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
 msgstr "Fingerprint"
 
@@ -504,7 +526,7 @@ msgstr "Identity"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/routes/_authenticated/app/$appId.tsx:552
+#: src/routes/_authenticated/app/$appId.tsx:554
 msgid "Initial Version"
 msgstr "เวอร์ชันเริ่มต้น"
 
@@ -512,15 +534,15 @@ msgstr "เวอร์ชันเริ่มต้น"
 msgid "Inset"
 msgstr "ฝังเข้าด้านใน"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install App"
 msgstr "ติดตั้งแอป"
 
-#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:677
 msgid "Install Locally"
 msgstr "ติดตั้งในเครื่อง"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install this application to your server"
 msgstr "ติดตั้งแอปพลิเคชันนี้ลงในเซิร์ฟเวอร์ของคุณ"
 
@@ -544,7 +566,7 @@ msgstr "เลย์เอาต์"
 msgid "Learn more"
 msgstr "เรียนรู้เพิ่มเติม"
 
-#: src/routes/_authenticated/app/$appId.tsx:558
+#: src/routes/_authenticated/app/$appId.tsx:560
 msgid "Leave empty"
 msgstr "เว้นว่าง"
 
@@ -599,7 +621,7 @@ msgstr "Luma (ค่าเริ่มต้น)"
 msgid "Make app publicly available"
 msgstr "เปิดให้แอปใช้งานแบบสาธารณะ"
 
-#: src/routes/_authenticated/app/$appId.tsx:453
+#: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Manage deployment environments and their versions"
 msgstr "จัดการสภาพแวดล้อมการเผยแพร่และเวอร์ชัน"
 
@@ -612,7 +634,7 @@ msgstr "ทำเครื่องหมายว่าอ่านแล้ว
 msgid "Menu"
 msgstr "เมนู"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Metadata and configuration"
 msgstr "ข้อมูลเมตาและการกำหนดค่า"
 
@@ -628,6 +650,10 @@ msgstr "วันจันทร์"
 msgid "My App"
 msgstr "แอปของฉัน"
 
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "ไม่มีข้อมูล"
+
 #: src/features/apps/index.tsx:178
 msgid "Name"
 msgstr "ชื่อ"
@@ -636,13 +662,18 @@ msgstr "ชื่อ"
 msgid "New"
 msgstr "ใหม่"
 
-#: src/routes/_authenticated/app/$appId.tsx:534
+#: src/routes/_authenticated/app/$appId.tsx:536
 msgid "New Release Track"
 msgstr "แทร็กรีลีสใหม่"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
 msgstr "รูปถัดไป"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "ไม่"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
@@ -685,7 +716,7 @@ msgstr "ไม่พบเขตเวลา"
 msgid "No topic record yet — try again after the next notification."
 msgstr "ยังไม่มีบันทึกหัวข้อ — ลองอีกครั้งหลังการแจ้งเตือนครั้งถัดไป"
 
-#: src/routes/_authenticated/app/$appId.tsx:459
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "No tracks"
 msgstr "ไม่มีแทร็ก"
 
@@ -693,7 +724,7 @@ msgstr "ไม่มีแทร็ก"
 msgid "No users found"
 msgstr "ไม่พบผู้ใช้"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "No version"
 msgstr "ไม่มีเวอร์ชัน"
 
@@ -733,7 +764,7 @@ msgstr "เปิดเมนูการนำทาง"
 msgid "Open theme settings"
 msgstr "เปิดการตั้งค่าธีม"
 
-#: src/routes/_authenticated/app/$appId.tsx:498
+#: src/routes/_authenticated/app/$appId.tsx:500
 msgid "Open track actions"
 msgstr "เปิดการดำเนินการของแทร็ก"
 
@@ -749,7 +780,7 @@ msgstr "เจ้าของ"
 msgid "Please enter an app name"
 msgstr "กรุณาป้อนชื่อแอป"
 
-#: src/routes/_authenticated/app/$appId.tsx:617
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Please select a file"
 msgstr "กรุณาเลือกไฟล์"
 
@@ -757,7 +788,7 @@ msgstr "กรุณาเลือกไฟล์"
 msgid "Previous image"
 msgstr "รูปก่อนหน้า"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Privacy"
 msgstr "ความเป็นส่วนตัว"
 
@@ -766,6 +797,7 @@ msgid "Privacy Policy"
 msgstr "นโยบายความเป็นส่วนตัว"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Private"
 msgstr "ส่วนตัว"
 
@@ -775,6 +807,7 @@ msgid "Profile"
 msgstr "โปรไฟล์"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
 msgid "Public"
 msgstr "สาธารณะ"
 
@@ -809,11 +842,11 @@ msgstr "แบบสัมพัทธ์ (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "สัมพัทธ์ภายใน 24 ชั่วโมง นอกนั้นแบบสัมบูรณ์"
 
-#: src/routes/_authenticated/app/$appId.tsx:452
+#: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Release Tracks"
 msgstr "แทร็กรีลีส"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Release tracks currently active"
 msgstr "แทร็กรีลีสที่ใช้งานอยู่"
 
@@ -930,7 +963,7 @@ msgstr "เลือกการตั้งค่าธีม"
 msgid "Session expired"
 msgstr "เซสชันหมดอายุ"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
+#: src/routes/_authenticated/app/$appId.tsx:510
 msgid "Set as default"
 msgstr "ตั้งเป็นค่าเริ่มต้น"
 
@@ -1034,19 +1067,19 @@ msgstr "สลับธีม"
 msgid "Top"
 msgstr "บนสุด"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" deleted"
 msgstr "ลบแทร็ก \"{track}\" แล้ว"
 
-#: src/routes/_authenticated/app/$appId.tsx:413
+#: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Track \"{track}\" updated to {version}"
 msgstr "อัปเดตแทร็ก \"{track}\" เป็น {version} แล้ว"
 
-#: src/routes/_authenticated/app/$appId.tsx:396
+#: src/routes/_authenticated/app/$appId.tsx:398
 msgid "Track created"
 msgstr "สร้างแทร็กแล้ว"
 
-#: src/routes/_authenticated/app/$appId.tsx:542
+#: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Track Name"
 msgstr "ชื่อแทร็ก"
 
@@ -1102,11 +1135,11 @@ msgstr "สหรัฐอเมริกา"
 msgid "Unverified"
 msgstr "ยังไม่ยืนยัน"
 
-#: src/routes/_authenticated/app/$appId.tsx:688
+#: src/routes/_authenticated/app/$appId.tsx:693
 msgid "Update Tracks"
 msgstr "อัปเดตแทร็ก"
 
-#: src/routes/_authenticated/app/$appId.tsx:652
+#: src/routes/_authenticated/app/$appId.tsx:657
 msgid "Upload a .zip build file for your application."
 msgstr "อัปโหลดไฟล์บิลด์ .zip สำหรับแอปพลิเคชันของคุณ"
 
@@ -1114,13 +1147,21 @@ msgstr "อัปโหลดไฟล์บิลด์ .zip สำหรับ
 msgid "Upload new version"
 msgstr "อัปโหลดเวอร์ชันใหม่"
 
-#: src/routes/_authenticated/app/$appId.tsx:650
+#: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Upload New Version"
 msgstr "อัปโหลดเวอร์ชันใหม่"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "อัปโหลดเวอร์ชัน"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
 msgstr "อัปโหลดบิลด์แรกของคุณเพื่อเริ่มต้น"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "กำลังอัปโหลด..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
@@ -1150,11 +1191,16 @@ msgstr "ยืนยัน"
 msgid "Verify email address"
 msgstr "ยืนยันที่อยู่อีเมล"
 
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "สร้างเวอร์ชัน {0} แล้ว"
+
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
 msgstr "ประวัติเวอร์ชัน"
 
-#: src/routes/_authenticated/app/$appId.tsx:628
+#: src/routes/_authenticated/app/$appId.tsx:632
 msgid "Version uploaded"
 msgstr "อัปโหลดเวอร์ชันแล้ว"
 
@@ -1183,10 +1229,10 @@ msgid "Wednesday"
 msgstr "วันพุธ"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:680
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Yes"
 msgstr "ใช่"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:686
 msgid "Yes, force"
 msgstr "ใช่ บังคับ"

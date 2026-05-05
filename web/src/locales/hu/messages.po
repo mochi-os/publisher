@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "A(z) {name} sikeresen létrejött."
+
 #: ../../../lib/web/src/lib/preference-utils.ts:52
 msgid "12 hours"
 msgstr "12 óra"
@@ -49,7 +53,7 @@ msgstr "Fióktípus"
 msgid "Account verified"
 msgstr "Fiók ellenőrizve"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Active version"
 msgstr "Aktív verzió"
 
@@ -106,6 +110,7 @@ msgstr "Összes"
 msgid "All uploaded build files for this application"
 msgstr "Az alkalmazáshoz feltöltött összes build fájl"
 
+#: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
 msgstr "Alkalmazás"
@@ -114,7 +119,7 @@ msgstr "Alkalmazás"
 msgid "App created"
 msgstr "Alkalmazás létrehozva"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
+#: src/routes/_authenticated/app/$appId.tsx:328
 msgid "App ID"
 msgstr "Alkalmazás-azonosító"
 
@@ -137,7 +142,7 @@ msgstr "Biztosan kijelentkezik? A fiók eléréséhez újra be kell jelentkeznie
 msgid "Asc"
 msgstr "Növekvő"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Available Versions"
 msgstr "Elérhető verziók"
 
@@ -150,7 +155,7 @@ msgstr "Vissza"
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:318
+#: src/routes/_authenticated/app/$appId.tsx:320
 msgid "Back to apps"
 msgstr "Vissza az alkalmazásokhoz"
 
@@ -164,6 +169,10 @@ msgstr "Vissza a kezdőlapra"
 msgid "Boost interest"
 msgstr "Érdeklődés növelése"
 
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "Buildfájl (.zip)"
+
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
@@ -172,8 +181,8 @@ msgstr "Érdeklődés növelése"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:573
-#: src/routes/_authenticated/app/$appId.tsx:711
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Cancel"
 msgstr "Mégse"
 
@@ -277,7 +286,7 @@ msgstr "Folytatás"
 msgid "Copy"
 msgstr "Másolás"
 
-#: src/routes/_authenticated/app/$appId.tsx:324
+#: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
 msgstr "Másolja ezt az azonosítót, és illessze be a Mochi szervere Alkalmazások oldalára a telepítéshez."
 
@@ -285,7 +294,7 @@ msgstr "Másolja ezt az azonosítót, és illessze be a Mochi szervere Alkalmaz�
 msgid "Core identification for this application"
 msgstr "Az alkalmazás alapvető azonosítása"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:538
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Hozzon létre új környezetet (pl. Béta, Staging) a buildek üzembe helyezéséhez."
 
@@ -306,13 +315,22 @@ msgstr "Új alkalmazás létrehozása"
 msgid "Create track"
 msgstr "Csatorna létrehozása"
 
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "Csatorna létrehozása"
+
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
 msgstr "A kezdéshez hozza létre az első alkalmazását"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Create your first release track to manage deployments"
 msgstr "Hozza létre az első kiadási csatornáját a kiadások kezeléséhez"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "Létrehozás..."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -335,11 +353,11 @@ msgstr "Alapértelmezett"
 msgid "Default AI account"
 msgstr "Alapértelmezett MI-fiók"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Default track set to \"{track}\""
 msgstr "Alapértelmezett csatorna beállítva: „{track}”"
 
-#: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:517
 msgid "Delete track"
 msgstr "Csatorna törlése"
 
@@ -347,7 +365,7 @@ msgstr "Csatorna törlése"
 msgid "Desc"
 msgstr "Csökkenő"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Details"
 msgstr "Részletek"
 
@@ -386,6 +404,10 @@ msgstr "Terjesztés beállítva: {distribution}"
 msgid "Download"
 msgstr "Letöltés"
 
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "pl. Staging"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "Oldalsáv kibontása"
@@ -398,11 +420,11 @@ msgstr "Nem sikerült hozzáadni a fiókot"
 msgid "Failed to create app"
 msgstr "Nem sikerült létrehozni az alkalmazást"
 
-#: src/routes/_authenticated/app/$appId.tsx:402
+#: src/routes/_authenticated/app/$appId.tsx:404
 msgid "Failed to create track"
 msgstr "Nem sikerült létrehozni a sávot"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to delete track"
 msgstr "Nem sikerült törölni a sávot"
 
@@ -414,7 +436,7 @@ msgstr "Nem sikerült eltávolítani a fiókot"
 msgid "Failed to send verification code"
 msgstr "Nem sikerült elküldeni az ellenőrző kódot"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to set default track"
 msgstr "Nem sikerült beállítani az alapértelmezett sávot"
 
@@ -426,16 +448,16 @@ msgstr "Nem sikerült frissíteni a kategóriát"
 msgid "Failed to update distribution"
 msgstr "Nem sikerült frissíteni a terjesztést"
 
-#: src/routes/_authenticated/app/$appId.tsx:416
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to update track"
 msgstr "Nem sikerült frissíteni a sávot"
 
-#: src/routes/_authenticated/app/$appId.tsx:640
+#: src/routes/_authenticated/app/$appId.tsx:645
 msgid "Failed to upload version"
 msgstr "Nem sikerült feltölteni a verziót"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
 msgstr "Ujjlenyomat"
 
@@ -504,7 +526,7 @@ msgstr "Azonosító"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/routes/_authenticated/app/$appId.tsx:552
+#: src/routes/_authenticated/app/$appId.tsx:554
 msgid "Initial Version"
 msgstr "Kezdeti verzió"
 
@@ -512,15 +534,15 @@ msgstr "Kezdeti verzió"
 msgid "Inset"
 msgstr "Beillesztett"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install App"
 msgstr "Alkalmazás telepítése"
 
-#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:677
 msgid "Install Locally"
 msgstr "Telepítés helyileg"
 
-#: src/routes/_authenticated/app/$appId.tsx:321
+#: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install this application to your server"
 msgstr "Telepítse ezt az alkalmazást a szerverére"
 
@@ -544,7 +566,7 @@ msgstr "Elrendezés"
 msgid "Learn more"
 msgstr "Tudjon meg többet"
 
-#: src/routes/_authenticated/app/$appId.tsx:558
+#: src/routes/_authenticated/app/$appId.tsx:560
 msgid "Leave empty"
 msgstr "Hagyja üresen"
 
@@ -599,7 +621,7 @@ msgstr "Luma (alapértelmezett)"
 msgid "Make app publicly available"
 msgstr "Az alkalmazás nyilvánossá tétele"
 
-#: src/routes/_authenticated/app/$appId.tsx:453
+#: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Manage deployment environments and their versions"
 msgstr "Telepítési környezetek és verzióik kezelése"
 
@@ -612,7 +634,7 @@ msgstr "Összes megjelölése olvasottként"
 msgid "Menu"
 msgstr "Menü"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Metadata and configuration"
 msgstr "Metaadatok és konfiguráció"
 
@@ -628,6 +650,10 @@ msgstr "Hétfő"
 msgid "My App"
 msgstr "Saját alkalmazásom"
 
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "Nincs"
+
 #: src/features/apps/index.tsx:178
 msgid "Name"
 msgstr "Név"
@@ -636,13 +662,18 @@ msgstr "Név"
 msgid "New"
 msgstr "Új"
 
-#: src/routes/_authenticated/app/$appId.tsx:534
+#: src/routes/_authenticated/app/$appId.tsx:536
 msgid "New Release Track"
 msgstr "Új kiadási csatorna"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
 msgstr "Következő kép"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "Nem"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
@@ -685,7 +716,7 @@ msgstr "Nem található időzóna."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Még nincs téma rekord — próbálja újra a következő értesítés után."
 
-#: src/routes/_authenticated/app/$appId.tsx:459
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "No tracks"
 msgstr "Nincsenek csatornák"
 
@@ -693,7 +724,7 @@ msgstr "Nincsenek csatornák"
 msgid "No users found"
 msgstr "Nem találhatók felhasználók"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "No version"
 msgstr "Nincs verzió"
 
@@ -733,7 +764,7 @@ msgstr "Navigációs menü megnyitása"
 msgid "Open theme settings"
 msgstr "Téma beállításainak megnyitása"
 
-#: src/routes/_authenticated/app/$appId.tsx:498
+#: src/routes/_authenticated/app/$appId.tsx:500
 msgid "Open track actions"
 msgstr "Csatornaműveletek megnyitása"
 
@@ -749,7 +780,7 @@ msgstr "Tulajdonos"
 msgid "Please enter an app name"
 msgstr "Adjon meg egy alkalmazásnevet"
 
-#: src/routes/_authenticated/app/$appId.tsx:617
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Please select a file"
 msgstr "Válasszon ki egy fájlt"
 
@@ -757,7 +788,7 @@ msgstr "Válasszon ki egy fájlt"
 msgid "Previous image"
 msgstr "Előző kép"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Privacy"
 msgstr "Adatvédelem"
 
@@ -766,6 +797,7 @@ msgid "Privacy Policy"
 msgstr "Adatvédelmi szabályzat"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Private"
 msgstr "Privát"
 
@@ -775,6 +807,7 @@ msgid "Profile"
 msgstr "Profil"
 
 #: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
 msgid "Public"
 msgstr "Nyilvános"
 
@@ -809,11 +842,11 @@ msgstr "Relatív (5p, 3ó, 2n)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24 órán belül relatív, egyébként abszolút"
 
-#: src/routes/_authenticated/app/$appId.tsx:452
+#: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Release Tracks"
 msgstr "Kiadási csatornák"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Release tracks currently active"
 msgstr "Jelenleg aktív kiadási csatornák"
 
@@ -930,7 +963,7 @@ msgstr "Téma beállításának kiválasztása"
 msgid "Session expired"
 msgstr "A munkamenet lejárt"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
+#: src/routes/_authenticated/app/$appId.tsx:510
 msgid "Set as default"
 msgstr "Beállítás alapértelmezettként"
 
@@ -1034,19 +1067,19 @@ msgstr "Téma váltása"
 msgid "Top"
 msgstr "Eleje"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" deleted"
 msgstr "„{track}” csatorna törölve"
 
-#: src/routes/_authenticated/app/$appId.tsx:413
+#: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Track \"{track}\" updated to {version}"
 msgstr "„{track}” csatorna frissítve a következőre: {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:396
+#: src/routes/_authenticated/app/$appId.tsx:398
 msgid "Track created"
 msgstr "Csatorna létrehozva"
 
-#: src/routes/_authenticated/app/$appId.tsx:542
+#: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Track Name"
 msgstr "Csatorna neve"
 
@@ -1102,11 +1135,11 @@ msgstr "Egyesült Államok"
 msgid "Unverified"
 msgstr "Nem ellenőrzött"
 
-#: src/routes/_authenticated/app/$appId.tsx:688
+#: src/routes/_authenticated/app/$appId.tsx:693
 msgid "Update Tracks"
 msgstr "Csatornák frissítése"
 
-#: src/routes/_authenticated/app/$appId.tsx:652
+#: src/routes/_authenticated/app/$appId.tsx:657
 msgid "Upload a .zip build file for your application."
 msgstr "Töltsön fel egy .zip build-fájlt az alkalmazásához."
 
@@ -1114,13 +1147,21 @@ msgstr "Töltsön fel egy .zip build-fájlt az alkalmazásához."
 msgid "Upload new version"
 msgstr "Új verzió feltöltése"
 
-#: src/routes/_authenticated/app/$appId.tsx:650
+#: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Upload New Version"
 msgstr "Új verzió feltöltése"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "Verzió feltöltése"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
 msgstr "Töltse fel az első build-fájlját a kezdéshez"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "Feltöltés..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
@@ -1150,11 +1191,16 @@ msgstr "Ellenőrzés"
 msgid "Verify email address"
 msgstr "E-mail-cím ellenőrzése"
 
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "A(z) {0} verzió létrejött."
+
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
 msgstr "Verzióelőzmények"
 
-#: src/routes/_authenticated/app/$appId.tsx:628
+#: src/routes/_authenticated/app/$appId.tsx:632
 msgid "Version uploaded"
 msgstr "Verzió feltöltve"
 
@@ -1183,10 +1229,10 @@ msgid "Wednesday"
 msgstr "Szerda"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:680
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Yes"
 msgstr "Igen"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:686
 msgid "Yes, force"
 msgstr "Igen, kényszerítés"
