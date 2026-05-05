@@ -701,7 +701,7 @@ msgstr "ไม่มีเวอร์ชัน"
 msgid "No versions"
 msgstr "ไม่มีเวอร์ชัน"
 
-#: ../../../lib/web/src/components/person-picker.tsx:333
+#: ../../../lib/web/src/components/person-picker.tsx:349
 msgid "None"
 msgstr "ไม่มี"
 
@@ -880,7 +880,7 @@ msgstr "ค้นหาเขตเวลา..."
 msgid "Search users"
 msgstr "ค้นหาผู้ใช้"
 
-#: ../../../lib/web/src/components/person-picker.tsx:312
+#: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
 msgstr "ค้นหา..."
 

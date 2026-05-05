@@ -701,7 +701,7 @@ msgstr "Nincs verzió"
 msgid "No versions"
 msgstr "Nincsenek verziók"
 
-#: ../../../lib/web/src/components/person-picker.tsx:333
+#: ../../../lib/web/src/components/person-picker.tsx:349
 msgid "None"
 msgstr "Nincs"
 
@@ -880,7 +880,7 @@ msgstr "Időzóna keresése..."
 msgid "Search users"
 msgstr "Felhasználók keresése"
 
-#: ../../../lib/web/src/components/person-picker.tsx:312
+#: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
 msgstr "Keresés..."
 

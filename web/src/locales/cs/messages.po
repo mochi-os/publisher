@@ -701,7 +701,7 @@ msgstr "Žádná verze"
 msgid "No versions"
 msgstr "Žádné verze"
 
-#: ../../../lib/web/src/components/person-picker.tsx:333
+#: ../../../lib/web/src/components/person-picker.tsx:349
 msgid "None"
 msgstr "Žádné"
 
@@ -880,7 +880,7 @@ msgstr "Hledat časové pásmo..."
 msgid "Search users"
 msgstr "Hledat uživatele"
 
-#: ../../../lib/web/src/components/person-picker.tsx:312
+#: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
 msgstr "Hledat..."
 

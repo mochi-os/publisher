@@ -701,7 +701,7 @@ msgstr "버전 없음"
 msgid "No versions"
 msgstr "버전이 없어요"
 
-#: ../../../lib/web/src/components/person-picker.tsx:333
+#: ../../../lib/web/src/components/person-picker.tsx:349
 msgid "None"
 msgstr "없음"
 
@@ -880,7 +880,7 @@ msgstr "시간대 검색..."
 msgid "Search users"
 msgstr "사용자 검색"
 
-#: ../../../lib/web/src/components/person-picker.tsx:312
+#: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
 msgstr "검색..."
 

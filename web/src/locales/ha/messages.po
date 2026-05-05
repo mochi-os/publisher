@@ -1,98 +1,92 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2026-05-02 15:23+0200\n"
+"POT-Creation-Date: 2026-05-05 08:13+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: uk\n"
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"Language: ha\n"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:52
 msgid "12 hours"
-msgstr "12 годин"
+msgstr "Awa 12"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "24 hours"
-msgstr "24 години"
+msgstr "Awa 24"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Absolute (date and time)"
-msgstr "Абсолютне (дата й час)"
+msgstr "Cikakke (kwanan wata da lokaci)"
 
 #: ../../../lib/web/src/features/errors/forbidden.tsx:12
 msgid "Access Forbidden"
-msgstr "Доступ заборонено"
+msgstr "An hana shiga"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:188
 msgid "Access level"
-msgstr "Рівень доступу"
+msgstr "Matakin shiga"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:208
 msgid "Account added"
-msgstr "Обліковий запис додано"
+msgstr "An ƙara asusu"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:224
 msgid "Account removed"
-msgstr "Обліковий запис видалено"
+msgstr "An cire asusu"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:123
 msgid "Account type"
-msgstr "Тип облікового запису"
+msgstr "Nau'in asusu"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:234
 msgid "Account verified"
-msgstr "Обліковий запис підтверджено"
+msgstr "An tabbatar da asusu"
 
 #: src/routes/_authenticated/app/$appId.tsx:477
 msgid "Active version"
-msgstr "Активна версія"
+msgstr "Sigar mai aiki"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
-msgstr "Додати новий обліковий запис"
+msgstr "Ƙara sabon asusu"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:145
 msgid "Add access"
-msgstr "Додати доступ"
+msgstr "Ƙara damar shiga"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:116
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:280
 msgid "Add account"
-msgstr "Додати обліковий запис"
+msgstr "Ƙara asusu"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:289
 msgid "Add an account to receive notifications and use services."
-msgstr "Додайте обліковий запис, щоб отримувати сповіщення та користуватися сервісами."
+msgstr "Ƙara asusu don karɓar sanarwa da amfani da ayyuka."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:98
 msgid "Add new account"
-msgstr "Додати новий обліковий запис"
+msgstr "Ƙara sabon asusu"
 
 #: ../../../lib/web/src/components/post-tags.tsx:119
 msgid "Add tag..."
-msgstr "Додати тег..."
+msgstr "Ƙara tag..."
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:80
 msgid "Add team/app"
-msgstr "Додати команду/застосунок"
+msgstr "Ƙara ƙungiya/app"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:159
 msgid "Add to existing notifications"
-msgstr "Додати до наявних сповіщень"
+msgstr "Ƙara cikin sanarwar da ake da ita"
 
 #: ../../../lib/web/src/components/view-tabs.tsx:57
 msgid "Add view"
-msgstr "Додати подання"
+msgstr "Ƙara view"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:62
 msgid "Adjust the appearance and layout to suit your preferences."
-msgstr "Налаштуйте вигляд і компонування за своїми вподобаннями."
+msgstr "Daidaita kamannin da tsarin don dacewa da ra'ayinka."
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:38
 msgid "AI"
@@ -100,50 +94,50 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:159
 msgid "All"
-msgstr "Усі"
+msgstr "Duk"
 
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "All uploaded build files for this application"
-msgstr "Усі завантажені файли збірки для цього застосунку"
+msgstr "Duk fayilolin build da aka loda don wannan application"
 
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
-msgstr "Застосунок"
+msgstr "App"
 
 #: src/features/apps/index.tsx:151
 msgid "App created"
-msgstr "Застосунок створено"
+msgstr "An ƙirƙiri app"
 
 #: src/routes/_authenticated/app/$appId.tsx:326
 msgid "App ID"
-msgstr "ID застосунку"
+msgstr "App ID"
 
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:116
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:141
 msgid "App not found"
-msgstr "Застосунок не знайдено"
+msgstr "Ba a sami app ba"
 
 #: src/routes/_authenticated/app/$appId.tsx:201
 msgid "Application ID"
-msgstr "ID застосунку"
+msgstr "Application ID"
 
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:24
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
-msgstr "Ви впевнені, що хочете вийти? Вам доведеться увійти знову, щоб отримати доступ до облікового запису."
+msgstr "Ka tabbata kana son fita? Za ka buƙaci shiga kuma don shiga asusunka."
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:56
 msgid "Asc"
-msgstr "За зрост."
+msgstr "Asc"
 
 #: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Available Versions"
-msgstr "Доступні версії"
+msgstr "Sigogi da ake samu"
 
 #: ../../../lib/web/src/components/place-picker.tsx:152
 msgid "Back"
-msgstr "Назад"
+msgstr "Komawa"
 
 #: src/routes/_authenticated/app/$appId.tsx:99
 #: src/routes/_authenticated/app/$appId.tsx:112
@@ -152,17 +146,17 @@ msgstr "Назад"
 #: src/routes/_authenticated/app/$appId.tsx:162
 #: src/routes/_authenticated/app/$appId.tsx:318
 msgid "Back to apps"
-msgstr "Назад до застосунків"
+msgstr "Komawa ga apps"
 
 #: ../../../lib/web/src/features/errors/forbidden.tsx:21
 #: ../../../lib/web/src/features/errors/not-found-error.tsx:21
 #: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
 msgid "Back to Home"
-msgstr "Назад на головну"
+msgstr "Komawa ga Gida"
 
 #: ../../../lib/web/src/components/post-tags.tsx:160
 msgid "Boost interest"
-msgstr "Підвищити інтерес"
+msgstr "Ƙara sha'awa"
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -175,119 +169,119 @@ msgstr "Підвищити інтерес"
 #: src/routes/_authenticated/app/$appId.tsx:573
 #: src/routes/_authenticated/app/$appId.tsx:711
 msgid "Cancel"
-msgstr "Скасувати"
+msgstr "Soke"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:131
 msgid "Category for this notification"
-msgstr "Категорія цього сповіщення"
+msgstr "Rukuni don wannan sanarwa"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:115
 msgid "Change notification category"
-msgstr "Змінити категорію сповіщення"
+msgstr "Sauya rukunin sanarwa"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:315
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
-msgstr "Виберіть між стандартним розгорнутим, компактним лише з піктограмами або повним режимом компонування"
+msgstr "Zaɓi tsakanin default expanded, compact icon-only, ko full layout mode"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:257
 msgid "Choose between inset, floating, or standard sidebar layout"
-msgstr "Виберіть між врізаним, плаваючим або стандартним компонуванням бічної панелі"
+msgstr "Zaɓi tsakanin inset, floating, ko standard sidebar layout"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:358
 msgid "Choose between left-to-right or right-to-left site direction"
-msgstr "Виберіть напрямок сайту: зліва направо чи справа наліво"
+msgstr "Zaɓi tsakanin shugabanci na hagu-zuwa-dama ko dama-zuwa-hagu na shafin"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:213
 msgid "Choose between system preference, light mode, or dark mode"
-msgstr "Виберіть між системними налаштуваннями, світлим або темним режимом"
+msgstr "Zaɓi tsakanin zaɓin tsarin, light mode, ko dark mode"
 
 #: ../../../lib/web/src/components/language-picker.tsx:167
 msgid "Choose language"
-msgstr "Виберіть мову"
+msgstr "Zaɓi harshe"
 
 #: ../../../lib/web/src/components/colour-picker.tsx:304
 msgid "Clear"
-msgstr "Очистити"
+msgstr "Share"
 
 #: ../../../lib/web/src/components/filter-bar.tsx:64
 msgid "Clear all"
-msgstr "Очистити все"
+msgstr "Share duka"
 
 #: ../../../lib/web/src/components/data-table/faceted-filter.tsx:137
 msgid "Clear filters"
-msgstr "Очистити фільтри"
+msgstr "Share filters"
 
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:164
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
 msgid "Clear selection"
-msgstr "Очистити вибір"
+msgstr "Share zaɓi"
 
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:165
 msgid "Clear selection (Escape)"
-msgstr "Очистити вибір (Escape)"
+msgstr "Share zaɓi (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
 msgid "Close"
-msgstr "Закрити"
+msgstr "Rufe"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:97
 msgid "Close navigation"
-msgstr "Закрити навігацію"
+msgstr "Rufe navigation"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:254
 msgid "Close Panel"
-msgstr "Закрити панель"
+msgstr "Rufe Panel"
 
 #: ../../../lib/web/src/components/header-search.tsx:51
 msgid "Close search"
-msgstr "Закрити пошук"
+msgstr "Rufe bincike"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Collapse sidebar"
-msgstr "Згорнути бічну панель"
+msgstr "Rufe sidebar"
 
 #: ../../../lib/web/src/components/coming-soon.tsx:9
 msgid "Coming Soon!"
-msgstr "Скоро!"
+msgstr "Yana zuwa nan ba da daɗewa ba!"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:302
 msgid "Compact"
-msgstr "Компактний"
+msgstr "Ƙanƙane"
 
 #: ../../../lib/web/src/components/place-picker.tsx:155
 #: ../../../lib/web/src/components/travelling-picker.tsx:299
 msgid "Confirm"
-msgstr "Підтвердити"
+msgstr "Tabbatar"
 
 #: ../../../lib/web/src/lib/query-client.ts:78
 msgid "Content not modified"
-msgstr "Вміст не змінено"
+msgstr "Ba a gyara abun ciki ba"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:145
 msgid "Contextual information and details."
-msgstr "Контекстна інформація та деталі."
+msgstr "Bayanan da suka shafi mahallin da cikakkun bayanai."
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:72
 msgid "Continue"
-msgstr "Продовжити"
+msgstr "Ci gaba"
 
 #: ../../../lib/web/src/components/ui/copy-button.tsx:60
 msgid "Copy"
-msgstr "Копіювати"
+msgstr "Kwafi"
 
 #: src/routes/_authenticated/app/$appId.tsx:324
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "Скопіюйте цей ID та вставте його на сторінці Apps вашого сервера Mochi, щоб встановити."
+msgstr "Kwafi wannan ID kuma manna shi a shafin Apps na server ɗin Mochi don shigarwa."
 
 #: src/routes/_authenticated/app/$appId.tsx:199
 msgid "Core identification for this application"
-msgstr "Основна ідентифікація цього застосунку"
+msgstr "Tsakiyar ganewa don wannan application"
 
 #: src/routes/_authenticated/app/$appId.tsx:536
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
-msgstr "Створіть нове середовище (наприклад, Beta, Staging) для деплою збірок."
+msgstr "Ƙirƙira sabon environment (misali Beta, Staging) don deploy builds."
 
 #: src/features/apps/index.tsx:50
 #: src/features/apps/index.tsx:51
@@ -296,28 +290,28 @@ msgstr "Створіть нове середовище (наприклад, Beta
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:211
 msgid "Create app"
-msgstr "Створити застосунок"
+msgstr "Ƙirƙira app"
 
 #: src/features/apps/index.tsx:169
 msgid "Create new app"
-msgstr "Створити новий застосунок"
+msgstr "Ƙirƙira sabon app"
 
 #: src/routes/_authenticated/app/$appId.tsx:191
 msgid "Create track"
-msgstr "Створити трек"
+msgstr "Ƙirƙira track"
 
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
-msgstr "Створіть свій перший застосунок, щоб розпочати"
+msgstr "Ƙirƙira app ɗinka na farko don farawa"
 
 #: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Create your first release track to manage deployments"
-msgstr "Створіть свій перший release track для керування деплоями"
+msgstr "Ƙirƙira release track ɗinka na farko don sarrafa deployments"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
 msgid "Dark"
-msgstr "Темна"
+msgstr "Duhu"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:88
 #: ../../../lib/web/src/components/layout/nav-user.tsx:151
@@ -325,35 +319,35 @@ msgstr "Темна"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:84
 #: ../../../lib/web/src/components/profile-dropdown.tsx:120
 msgid "Dark mode"
-msgstr "Темний режим"
+msgstr "Dark mode"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:297
 msgid "Default"
-msgstr "За замовчуванням"
+msgstr "Default"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:169
 msgid "Default AI account"
-msgstr "AI-обліковий запис за замовчуванням"
+msgstr "Default AI asusu"
 
 #: src/routes/_authenticated/app/$appId.tsx:441
 msgid "Default track set to \"{track}\""
-msgstr "Встановлено трек за замовчуванням: \"{track}\""
+msgstr "An saita default track zuwa \"{track}\""
 
 #: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Delete track"
-msgstr "Видалити трек"
+msgstr "Goge track"
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:60
 msgid "Desc"
-msgstr "За спад."
+msgstr "Desc"
 
 #: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Details"
-msgstr "Деталі"
+msgstr "Cikakkun bayanai"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:144
 msgid "Details Panel"
-msgstr "Панель деталей"
+msgstr "Panel na cikakkun bayanai"
 
 #: ../../../lib/web/src/components/language-picker.tsx:145
 #: ../../../lib/web/src/components/timezone-select.tsx:43
@@ -364,210 +358,210 @@ msgstr "Панель деталей"
 #: ../../../lib/web/src/lib/preference-utils.ts:82
 #: ../../../lib/web/src/lib/preference-utils.ts:94
 msgid "Detect from web browser"
-msgstr "Визначати з веббраузера"
+msgstr "Gano daga web browser"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:327
 msgid "Direction"
-msgstr "Напрямок"
+msgstr "Hanya"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
-msgstr "Відображає мобільну бічну панель."
+msgstr "Yana nuna sidebar na wayar hannu."
 
 #: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Distribution"
-msgstr "Розповсюдження"
+msgstr "Rarrabawa"
 
 #: src/routes/_authenticated/app/$appId.tsx:75
 msgid "Distribution set to {distribution}"
-msgstr "Розповсюдження встановлено на {distribution}"
+msgstr "An saita rarrabawa zuwa {distribution}"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Sauke"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
-msgstr "Розгорнути бічну панель"
+msgstr "Faɗaɗa sidebar"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:217
 msgid "Failed to add account"
-msgstr "Не вдалося додати обліковий запис"
+msgstr "An gaza ƙara account"
 
 #: src/features/apps/index.tsx:159
 msgid "Failed to create app"
-msgstr "Не вдалося створити застосунок"
+msgstr "An gaza ƙirƙirar app"
 
 #: src/routes/_authenticated/app/$appId.tsx:402
 msgid "Failed to create track"
-msgstr "Не вдалося створити канал"
+msgstr "An gaza ƙirƙirar track"
 
 #: src/routes/_authenticated/app/$appId.tsx:430
 msgid "Failed to delete track"
-msgstr "Не вдалося видалити канал"
+msgstr "An gaza share track"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:226
 msgid "Failed to remove account"
-msgstr "Не вдалося видалити обліковий запис"
+msgstr "An gaza cire account"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:249
 msgid "Failed to send verification code"
-msgstr "Не вдалося надіслати код підтвердження"
+msgstr "An gaza aika verification code"
 
 #: src/routes/_authenticated/app/$appId.tsx:444
 msgid "Failed to set default track"
-msgstr "Не вдалося встановити канал за замовчуванням"
+msgstr "An gaza saita default track"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:104
 msgid "Failed to update category"
-msgstr "Не вдалося оновити категорію"
+msgstr "An gaza sabunta category"
 
 #: src/routes/_authenticated/app/$appId.tsx:78
 msgid "Failed to update distribution"
-msgstr "Не вдалося оновити розповсюдження"
+msgstr "An gaza sabunta distribution"
 
 #: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Failed to update track"
-msgstr "Не вдалося оновити канал"
+msgstr "An gaza sabunta track"
 
 #: src/routes/_authenticated/app/$appId.tsx:640
 msgid "Failed to upload version"
-msgstr "Не вдалося завантажити версію"
+msgstr "An gaza upload version"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
 #: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Fingerprint"
-msgstr "Відбиток"
+msgstr "Fingerprint"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
-msgstr "Плаваючий"
+msgstr "Mai yawo"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:73
 msgid "Friday"
-msgstr "П'ятниця"
+msgstr "Jumma'a"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:149
 msgid "From"
-msgstr "Від"
+msgstr "Daga"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:307
 msgid "Full layout"
-msgstr "Повний макет"
+msgstr "Cikakken layout"
 
 #: ../../../lib/web/src/features/errors/forbidden.tsx:19
 #: ../../../lib/web/src/features/errors/not-found-error.tsx:19
 #: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
 msgid "Go Back"
-msgstr "Назад"
+msgstr "Komawa"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:75
 msgid "Go to first page"
-msgstr "Перейти на першу сторінку"
+msgstr "Tafi shafi na farko"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
-msgstr "Перейти на останню сторінку"
+msgstr "Tafi shafi na ƙarshe"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:112
 msgid "Go to next page"
-msgstr "Перейти на наступну сторінку"
+msgstr "Tafi shafi na gaba"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:84
 msgid "Go to previous page"
-msgstr "Перейти на попередню сторінку"
+msgstr "Tafi shafi na baya"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
-msgstr "Група"
+msgstr "Group"
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:67
 msgid "Hide"
-msgstr "Приховати"
+msgstr "Ɓoye"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
 #: ../../../lib/web/src/components/layout/top-bar.tsx:62
 #: ../../../lib/web/src/components/layout/top-bar.tsx:91
 msgid "Home"
-msgstr "Головна"
+msgstr "Gida"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:41
 msgid "Hot"
-msgstr "Популярне"
+msgstr "Mai zafi"
 
 #: src/routes/_authenticated/app/$appId.tsx:199
 msgid "Identity"
-msgstr "Ідентичність"
+msgstr "Identity"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:96
 msgid "Imperial"
-msgstr "Імперські"
+msgstr "Imperial"
 
 #: src/routes/_authenticated/app/$appId.tsx:552
 msgid "Initial Version"
-msgstr "Початкова версія"
+msgstr "Version na farko"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:239
 msgid "Inset"
-msgstr "Вставлений"
+msgstr "Inset"
 
 #: src/routes/_authenticated/app/$appId.tsx:321
 msgid "Install App"
-msgstr "Встановити застосунок"
+msgstr "Shigar da App"
 
 #: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Install Locally"
-msgstr "Встановити локально"
+msgstr "Shigar a gida"
 
 #: src/routes/_authenticated/app/$appId.tsx:321
 msgid "Install this application to your server"
-msgstr "Встановити цей застосунок на ваш сервер"
+msgstr "Shigar da wannan application a server ɗinka"
 
 #: src/routes/_authenticated/app/$appId.tsx:242
 msgid "Installation ID"
-msgstr "ID встановлення"
+msgstr "Installation ID"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:39
 msgid "Interests"
-msgstr "Інтереси"
+msgstr "Interests"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:237
 msgid "Invalid verification code"
-msgstr "Недійсний код підтвердження"
+msgstr "Verification code mara inganci"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:273
 msgid "Layout"
-msgstr "Макет"
+msgstr "Layout"
 
 #: ../../../lib/web/src/components/learn-more.tsx:27
 msgid "Learn more"
-msgstr "Дізнатися більше"
+msgstr "Ƙara koyo"
 
 #: src/routes/_authenticated/app/$appId.tsx:558
 msgid "Leave empty"
-msgstr "Залиште порожнім"
+msgstr "Bar fanko"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:341
 msgid "Left to Right"
-msgstr "Зліва направо"
+msgstr "Hagu zuwa Dama"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:200
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 msgid "Light"
-msgstr "Світла"
+msgstr "Haske"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
 msgid "Load more"
-msgstr "Завантажити більше"
+msgstr "Saukar da ƙari"
 
 #: src/routes/_authenticated/app/$appId.tsx:98
 msgid "Loading app..."
-msgstr "Завантаження застосунку..."
+msgstr "Ana saukar da app..."
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
 msgid "Loading…"
-msgstr "Завантаження…"
+msgstr "Ana saukarwa…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:98
 #: ../../../lib/web/src/components/layout/nav-user.tsx:164
@@ -577,616 +571,616 @@ msgstr "Завантаження…"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:23
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:25
 msgid "Log out"
-msgstr "Вийти"
+msgstr "Fita"
 
 #: ../../../lib/web/src/hooks/use-logout.ts:16
 msgid "Logged out (with errors)"
-msgstr "Виконано вихід (з помилками)"
+msgstr "An fita (da kurakurai)"
 
 #: ../../../lib/web/src/hooks/use-logout.ts:14
 msgid "Logged out successfully"
-msgstr "Вихід виконано успішно"
+msgstr "An fita cikin nasara"
 
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:25
 msgid "Logging out…"
-msgstr "Виконується вихід…"
+msgstr "Ana fita…"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:25
 msgid "Luma (Default)"
-msgstr "Luma (за замовчуванням)"
+msgstr "Luma (Asali)"
 
 #: src/features/apps/index.tsx:189
 msgid "Make app publicly available"
-msgstr "Зробити додаток загальнодоступним"
+msgstr "Sa app ya zama na jama'a"
 
 #: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Manage deployment environments and their versions"
-msgstr "Керування середовищами розгортання та їхніми версіями"
+msgstr "Sarrafa muhallin tura aikace-aikace da nau'oinsu"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
-msgstr "Позначити все як прочитане"
+msgstr "Yi alama duka a matsayin karanta"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
 msgid "Menu"
-msgstr "Меню"
+msgstr "Menu"
 
 #: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Metadata and configuration"
-msgstr "Метадані та конфігурація"
+msgstr "Metadata da configuration"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:95
 msgid "Metric"
-msgstr "Метричні"
+msgstr "Metric"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:69
 msgid "Monday"
-msgstr "Понеділок"
+msgstr "Litinin"
 
 #: src/features/apps/index.tsx:184
 msgid "My App"
-msgstr "Мій додаток"
+msgstr "App Dina"
 
 #: src/features/apps/index.tsx:178
 msgid "Name"
-msgstr "Ім'я"
+msgstr "Suna"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
-msgstr "Нове"
+msgstr "Sabon"
 
 #: src/routes/_authenticated/app/$appId.tsx:534
 msgid "New Release Track"
-msgstr "Новий канал випуску"
+msgstr "Sabon Release Track"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
-msgstr "Наступне зображення"
+msgstr "Hoton na gaba"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
-msgstr "Правила доступу не налаштовано. Додайте правила, щоб керувати, хто може мати доступ до цього ресурсу."
+msgstr "Ba a saita ka'idojin shiga ba. Ƙara ka'idoji don sarrafa wanda zai iya shiga wannan albarkatun."
 
 #: src/features/apps/index.tsx:77
 msgid "No apps yet"
-msgstr "Додатків ще немає"
+msgstr "Babu apps tukuna"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:287
 msgid "No connected accounts"
-msgstr "Немає підключених облікових записів"
+msgstr "Babu accounts da aka haɗa"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
-msgstr "Немає доступних груп"
+msgstr "Babu ƙungiyoyi"
 
 #: ../../../lib/web/src/components/language-picker.tsx:177
 msgid "No matches."
-msgstr "Збігів немає."
+msgstr "Babu matches."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
-msgstr "Місць не знайдено"
+msgstr "Babu wurare da aka samu"
 
 #: ../../../lib/web/src/components/profile-dropdown.tsx:55
 msgid "No profile"
-msgstr "Немає профілю"
+msgstr "Babu profile"
 
 #: ../../../lib/web/src/components/command-menu.tsx:52
 #: ../../../lib/web/src/components/data-table/faceted-filter.tsx:87
 msgid "No results found."
-msgstr "Результатів не знайдено."
+msgstr "Ba a sami sakamako ba."
 
 #: ../../../lib/web/src/components/timezone-select.tsx:64
 msgid "No time zone found."
-msgstr "Часовий пояс не знайдено."
+msgstr "Ba a sami time zone ba."
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "No topic record yet — try again after the next notification."
-msgstr "Запису про тему ще немає — спробуйте ще раз після наступного сповіщення."
+msgstr "Babu rikodin topic tukuna — sake gwadawa bayan sanarwa ta gaba."
 
 #: src/routes/_authenticated/app/$appId.tsx:459
 msgid "No tracks"
-msgstr "Немає каналів"
+msgstr "Babu tracks"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:203
 msgid "No users found"
-msgstr "Користувачів не знайдено"
+msgstr "Babu masu amfani da aka samu"
 
 #: src/routes/_authenticated/app/$appId.tsx:555
 msgid "No version"
-msgstr "Без версії"
+msgstr "Babu version"
 
 #: src/routes/_authenticated/app/$appId.tsx:256
 msgid "No versions"
-msgstr "Немає версій"
+msgstr "Babu versions"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
 msgid "None"
-msgstr "Немає"
+msgstr "Babu"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
 msgid "Notifications"
-msgstr "Сповіщення"
+msgstr "Sanarwa"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx:12
 msgid "Oops! Page Not Found!"
-msgstr "Ой! Сторінку не знайдено!"
+msgstr "Kai! Ba a Sami Shafi Ba!"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:150
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:151
 msgid "Open account actions"
-msgstr "Відкрити дії з обліковим записом"
+msgstr "Buɗe ayyukan account"
 
 #: ../../../lib/web/src/components/layout/top-bar.tsx:57
 msgid "Open navigation"
-msgstr "Відкрити навігацію"
+msgstr "Buɗe navigation"
 
 #: ../../../lib/web/src/components/layout/top-nav.tsx:32
 #: ../../../lib/web/src/components/layout/top-nav.tsx:33
 msgid "Open navigation menu"
-msgstr "Відкрити меню навігації"
+msgstr "Buɗe menu ɗin navigation"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:51
 msgid "Open theme settings"
-msgstr "Відкрити налаштування теми"
+msgstr "Buɗe saitunan theme"
 
 #: src/routes/_authenticated/app/$appId.tsx:498
 msgid "Open track actions"
-msgstr "Відкрити дії каналу"
+msgstr "Buɗe ayyukan track"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:163
 msgid "Other"
-msgstr "Інше"
+msgstr "Sauran"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:213
 msgid "Owner"
-msgstr "Власник"
+msgstr "Mai shi"
 
 #: src/features/apps/index.tsx:143
 msgid "Please enter an app name"
-msgstr "Будь ласка, введіть назву додатку"
+msgstr "Da fatan shigar da sunan app"
 
 #: src/routes/_authenticated/app/$appId.tsx:617
 msgid "Please select a file"
-msgstr "Будь ласка, виберіть файл"
+msgstr "Da fatan zaɓi fayil"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
 msgid "Previous image"
-msgstr "Попереднє зображення"
+msgstr "Hoton da ya gabata"
 
 #: src/routes/_authenticated/app/$appId.tsx:337
 msgid "Privacy"
-msgstr "Приватність"
+msgstr "Sirri"
 
 #: src/routes/_authenticated/app/$appId.tsx:207
 msgid "Privacy Policy"
-msgstr "Політика приватності"
+msgstr "Manufar Sirri"
 
 #: src/features/apps/index.tsx:88
 msgid "Private"
-msgstr "Приватний"
+msgstr "Na sirri"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:134
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
-msgstr "Профіль"
+msgstr "Profile"
 
 #: src/features/apps/index.tsx:88
 msgid "Public"
-msgstr "Публічний"
+msgstr "Na jama'a"
 
 #: src/features/apps/index.tsx:89
 #: src/routes/_authenticated/app/$appId.tsx:226
 msgid "Published"
-msgstr "Опубліковано"
+msgstr "An buga"
 
 #: src/features/apps/index.tsx:32
 #: src/features/apps/index.tsx:46
 msgid "Publisher"
-msgstr "Видавець"
+msgstr "Publisher"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
 msgid "Recommended"
-msgstr "Рекомендоване"
+msgstr "An ba da shawara"
 
 #: ../../../lib/web/src/components/layout/authenticated-layout.tsx:130
 msgid "Redirecting to login."
-msgstr "Перенаправлення на сторінку входу."
+msgstr "Ana redirecting zuwa shiga."
 
 #: ../../../lib/web/src/components/post-tags.tsx:175
 msgid "Reduce interest"
-msgstr "Зменшити інтерес"
+msgstr "Rage sha'awa"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Relative (5m, 3h, 2d)"
-msgstr "Відносний (5хв, 3год, 2д)"
+msgstr "Relative (5m, 3h, 2d)"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:59
 msgid "Relative within 24 hours, else absolute"
-msgstr "Відносний протягом 24 годин, інакше абсолютний"
+msgstr "Relative cikin sa'o'i 24, in ba haka ba absolute"
 
 #: src/routes/_authenticated/app/$appId.tsx:452
 msgid "Release Tracks"
-msgstr "Канали випуску"
+msgstr "Release Tracks"
 
 #: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Release tracks currently active"
-msgstr "Канали випуску, що зараз активні"
+msgstr "Release tracks da ke aiki yanzu"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:257
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:172
 msgid "Remove"
-msgstr "Видалити"
+msgstr "Cire"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:241
 #: ../../../lib/web/src/features/access/access-list.tsx:242
 msgid "Remove access rule"
-msgstr "Видалити правило доступу"
+msgstr "Cire ka'idar shiga"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:249
 msgid "Remove access?"
-msgstr "Видалити доступ?"
+msgstr "A cire damar shiga?"
 
 #: ../../../lib/web/src/components/post-tags.tsx:190
 msgid "Remove interest"
-msgstr "Видалити інтерес"
+msgstr "Cire sha'awa"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
 msgid "Reset"
-msgstr "Скинути"
+msgstr "Saiti"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:75
 msgid "Reset all settings to default values"
-msgstr "Скинути всі налаштування до значень за замовчуванням"
+msgstr "Mayar da duk saituna zuwa ƙimar asali"
 
 #: src/features/apps/index.tsx:89
 #: src/routes/_authenticated/app/$appId.tsx:227
 msgid "Restricted"
-msgstr "Обмежено"
+msgstr "An iyakance"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:348
 msgid "Right to Left"
-msgstr "Справа наліво"
+msgstr "Daga Dama zuwa Hagu"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:60
 msgid "Rows per page"
-msgstr "Рядків на сторінку"
+msgstr "Layuka kowane shafi"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:74
 msgid "Saturday"
-msgstr "Субота"
+msgstr "Asabar"
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
-msgstr "Пошук місця"
+msgstr "Bincika wuri"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:234
 msgid "Search for destination..."
-msgstr "Пошук пункту призначення..."
+msgstr "Bincika makoma..."
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:173
 msgid "Search for origin..."
-msgstr "Пошук пункту відправлення..."
+msgstr "Bincika tushe..."
 
 #: ../../../lib/web/src/components/timezone-select.tsx:62
 msgid "Search time zone..."
-msgstr "Пошук часового поясу..."
+msgstr "Bincika yankin lokaci..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:170
 msgid "Search users"
-msgstr "Пошук користувачів"
+msgstr "Bincika masu amfani"
 
 #: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
-msgstr "Пошук..."
+msgstr "Bincika..."
 
 #: ../../../lib/web/src/components/language-picker.tsx:175
 msgid "Search…"
-msgstr "Пошук…"
+msgstr "Bincika…"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
 #: ../../../lib/web/src/features/access/access-dialog.tsx:199
 msgid "Searching..."
-msgstr "Пошук..."
+msgstr "Ana bincike..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:147
 msgid "Select a user, group, or other rule to grant access."
-msgstr "Виберіть користувача, групу або інше правило для надання доступу."
+msgstr "Zaɓi mai amfani, ƙungiya, ko wani tsari don bayar da damar shiga."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:270
 msgid "Select access rule"
-msgstr "Виберіть правило доступу"
+msgstr "Zaɓi tsarin damar shiga"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:126
 msgid "Select account type"
-msgstr "Виберіть тип облікового запису"
+msgstr "Zaɓi nau'in account"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:228
 msgid "Select group"
-msgstr "Виберіть групу"
+msgstr "Zaɓi ƙungiya"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:291
 msgid "Select layout style"
-msgstr "Виберіть стиль розкладки"
+msgstr "Zaɓi salon shimfiɗa"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:233
 msgid "Select sidebar style"
-msgstr "Виберіть стиль бічної панелі"
+msgstr "Zaɓi salon sidebar"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:335
 msgid "Select site direction"
-msgstr "Виберіть напрямок сайту"
+msgstr "Zaɓi alkiblar shafin"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:189
 msgid "Select theme preference"
-msgstr "Виберіть тему"
+msgstr "Zaɓi zaɓin theme"
 
 #: ../../../lib/web/src/lib/api-client.ts:224
 msgid "Session expired"
-msgstr "Термін сесії минув"
+msgstr "Session ya ƙare"
 
 #: src/routes/_authenticated/app/$appId.tsx:508
 msgid "Set as default"
-msgstr "Встановити за замовчуванням"
+msgstr "Saita a matsayin default"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:143
 msgid "Set origin and destination"
-msgstr "Встановити пункти відправлення та призначення"
+msgstr "Saita tushe da makoma"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:81
 #: ../../../lib/web/src/components/layout/nav-user.tsx:145
 #: ../../../lib/web/src/components/layout/nav-user.tsx:195
 msgid "Settings"
-msgstr "Налаштування"
+msgstr "Saitunan"
 
 #: src/routes/_authenticated/app/$appId.tsx:236
 msgid "Share this ID to allow others to install this app"
-msgstr "Поділіться цим ID, щоб дозволити іншим встановити цей застосунок"
+msgstr "Raba wannan ID don bada damar wasu su shigar da wannan app"
 
 #: src/routes/_authenticated/app/$appId.tsx:235
 msgid "Sharing"
-msgstr "Спільний доступ"
+msgstr "Rabawa"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:36
 msgid "Showing {totalShown} of {total}"
-msgstr "Показано {totalShown} з {total}"
+msgstr "Ana nuna {totalShown} daga {total}"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:225
 #: ../../../lib/web/src/components/config-drawer.tsx:249
 #: ../../../lib/web/src/components/ui/sidebar.tsx:234
 msgid "Sidebar"
-msgstr "Бічна панель"
+msgstr "Sidebar"
 
 #: ../../../lib/web/src/components/layout/authenticated-layout.tsx:128
 msgid "Signing out..."
-msgstr "Вихід..."
+msgstr "Ana fita..."
 
 #: ../../../lib/web/src/components/skip-to-main.tsx:8
 msgid "Skip to Main"
-msgstr "Перейти до основного"
+msgstr "Tsallake zuwa Babba"
 
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
-msgstr "Слідкуйте за оновленнями!"
+msgstr "Ku kasance da mu!"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
-msgstr "Тема"
+msgstr "Batu"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:75
 msgid "Sunday"
-msgstr "Неділя"
+msgstr "Lahadi"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
 msgid "System"
-msgstr "Система"
+msgstr "System"
 
 #: ../../../lib/web/src/components/tag-input.tsx:91
 msgid "Tag"
-msgstr "Тег"
+msgstr "Tag"
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
-msgstr "Команди/застосунки"
+msgstr "Tawagogi/Apps"
 
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
 msgid "The requested app could not be found."
-msgstr "Запитуваний застосунок не знайдено."
+msgstr "Ba a sami app ɗin da aka nema ba."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:181
 msgid "Theme"
-msgstr "Тема"
+msgstr "Theme"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:60
 msgid "Theme Settings"
-msgstr "Налаштування теми"
+msgstr "Saitunan Theme"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:72
 msgid "Thursday"
-msgstr "Четвер"
+msgstr "Alhamis"
 
 #: ../../../lib/web/src/components/data-table/view-options.tsx:34
 msgid "Toggle columns"
-msgstr "Перемкнути стовпці"
+msgstr "Toggle ginshiƙai"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:227
 msgid "Toggle Right Panel"
-msgstr "Перемкнути праву панель"
+msgstr "Toggle Panel na Dama"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:312
 #: ../../../lib/web/src/components/ui/sidebar.tsx:324
 #: ../../../lib/web/src/components/ui/sidebar.tsx:327
 msgid "Toggle Sidebar"
-msgstr "Перемкнути бічну панель"
+msgstr "Toggle Sidebar"
 
 #: ../../../lib/web/src/components/theme-switch.tsx:31
 msgid "Toggle theme"
-msgstr "Перемкнути тему"
+msgstr "Toggle theme"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Top"
-msgstr "Верх"
+msgstr "Sama"
 
 #: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Track \"{track}\" deleted"
-msgstr "Трек «{track}» видалено"
+msgstr "An share track \"{track}\""
 
 #: src/routes/_authenticated/app/$appId.tsx:413
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Трек «{track}» оновлено до {version}"
+msgstr "An sabunta track \"{track}\" zuwa {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx:396
 msgid "Track created"
-msgstr "Трек створено"
+msgstr "An ƙirƙira track"
 
 #: src/routes/_authenticated/app/$appId.tsx:542
 msgid "Track Name"
-msgstr "Назва треку"
+msgstr "Sunan Track"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:141
 msgid "Travelling"
-msgstr "Подорож"
+msgstr "Tafiya"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:190
 #: ../../../lib/web/src/components/search-entity-page.tsx:165
 msgid "Try adjusting your search terms"
-msgstr "Спробуйте змінити пошукові терміни"
+msgstr "Gwada gyara kalmomin bincike"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
 msgid "Try again"
-msgstr "Спробувати знову"
+msgstr "Sake gwadawa"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:70
 msgid "Tuesday"
-msgstr "Вівторок"
+msgstr "Talata"
 
 #: ../../../lib/web/src/components/command-menu.tsx:49
 msgid "Type a command or search..."
-msgstr "Введіть команду або пошук..."
+msgstr "Buga umarni ko bincika..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:188
 msgid "Type to search users"
-msgstr "Введіть для пошуку користувачів"
+msgstr "Buga don bincika masu amfani"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:180
 msgid "Type to search..."
-msgstr "Введіть для пошуку..."
+msgstr "Buga don bincika..."
 
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94
 msgid "Unable to redirect to login. Please try again."
-msgstr "Не вдається перенаправити на сторінку входу. Спробуйте ще раз."
+msgstr "Ba a iya tura zuwa login. Da fatan sake gwadawa."
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:143
 msgid "Unassigned"
-msgstr "Не призначено"
+msgstr "Ba a sanya wa kowa"
 
 #: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
 msgid "Unauthorized Access"
-msgstr "Неавторизований доступ"
+msgstr "Damar Shiga Ba Tare Da Izini Ba"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:97
 msgid "United States"
-msgstr "Сполучені Штати"
+msgstr "Amurka"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:131
 msgid "Unverified"
-msgstr "Не перевірено"
+msgstr "Ba a tabbatar ba"
 
 #: src/routes/_authenticated/app/$appId.tsx:688
 msgid "Update Tracks"
-msgstr "Оновити треки"
+msgstr "Sabunta Tracks"
 
 #: src/routes/_authenticated/app/$appId.tsx:652
 msgid "Upload a .zip build file for your application."
-msgstr "Завантажте файл збірки .zip для вашого застосунку."
+msgstr "Loda fayil ɗin .zip build don aikace-aikacenku."
 
 #: src/routes/_authenticated/app/$appId.tsx:185
 msgid "Upload new version"
-msgstr "Завантажити нову версію"
+msgstr "Loda sabuwar sigar"
 
 #: src/routes/_authenticated/app/$appId.tsx:650
 msgid "Upload New Version"
-msgstr "Завантажити нову версію"
+msgstr "Loda Sabuwar Sigar"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
-msgstr "Завантажте першу збірку, щоб розпочати"
+msgstr "Loda buildɗinka na farko don farawa"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
-msgstr "Користувач"
+msgstr "Mai amfani"
 
 #: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Users can install this application by pasting this identifier into their Apps management page."
-msgstr "Користувачі можуть встановити цей застосунок, вставивши цей ідентифікатор на свою сторінку керування застосунками."
+msgstr "Masu amfani na iya shigar da wannan aikace-aikace ta hanyar liƙa wannan identifier a shafin Apps management ɗinsu."
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:68
 msgid "Verification code"
-msgstr "Код підтвердження"
+msgstr "Lambar tabbatarwa"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:247
 msgid "Verification code sent"
-msgstr "Код підтвердження надіслано"
+msgstr "An aika lambar tabbatarwa"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:240
 msgid "Verification failed"
-msgstr "Перевірка не вдалася"
+msgstr "Tabbatarwa ya gaza"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
 msgid "Verify"
-msgstr "Перевірити"
+msgstr "Tabbatar"
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:58
 msgid "Verify email address"
-msgstr "Підтвердити електронну адресу"
+msgstr "Tabbatar da adireshin imel"
 
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
-msgstr "Історія версій"
+msgstr "Tarihin Sigar"
 
 #: src/routes/_authenticated/app/$appId.tsx:628
 msgid "Version uploaded"
-msgstr "Версію завантажено"
+msgstr "An loda sigar"
 
 #: ../../../lib/web/src/components/data-table/view-options.tsx:30
 msgid "View"
-msgstr "Переглянути"
+msgstr "Kalla"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:173
 msgid "View all"
-msgstr "Переглянути всі"
+msgstr "Kalli duka"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:94
 msgid "View all notifications"
-msgstr "Переглянути всі сповіщення"
+msgstr "Kalli duk sanarwa"
 
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
 msgid "We'll be back online shortly."
-msgstr "Ми скоро повернемося онлайн."
+msgstr "Za mu dawo online ba da daɗewa ba."
 
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
 msgid "Website is under maintenance!"
-msgstr "Вебсайт на технічному обслуговуванні!"
+msgstr "Shafin yana cikin kulawa!"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:71
 msgid "Wednesday"
-msgstr "Середа"
+msgstr "Laraba"
 
 #: src/features/apps/index.tsx:197
 #: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Yes"
-msgstr "Так"
+msgstr "Ee"
 
 #: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Yes, force"
-msgstr "Так, примусово"
+msgstr "Ee, tilasta"

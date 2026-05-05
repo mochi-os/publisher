@@ -701,7 +701,7 @@ msgstr "Ingen versjon"
 msgid "No versions"
 msgstr "Ingen versjoner"
 
-#: ../../../lib/web/src/components/person-picker.tsx:333
+#: ../../../lib/web/src/components/person-picker.tsx:349
 msgid "None"
 msgstr "Ingen"
 
@@ -880,7 +880,7 @@ msgstr "Søk i tidssoner ..."
 msgid "Search users"
 msgstr "Søk i brukere"
 
-#: ../../../lib/web/src/components/person-picker.tsx:312
+#: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
 msgstr "Søk ..."
 

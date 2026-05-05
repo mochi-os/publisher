@@ -701,7 +701,7 @@ msgstr "Sin versión"
 msgid "No versions"
 msgstr "Sin versiones"
 
-#: ../../../lib/web/src/components/person-picker.tsx:333
+#: ../../../lib/web/src/components/person-picker.tsx:349
 msgid "None"
 msgstr "Ninguno"
 
@@ -880,7 +880,7 @@ msgstr "Buscar zona horaria..."
 msgid "Search users"
 msgstr "Buscar usuarios"
 
-#: ../../../lib/web/src/components/person-picker.tsx:312
+#: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
 msgstr "Buscar..."
 
