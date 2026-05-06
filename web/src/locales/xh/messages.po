@@ -459,7 +459,7 @@ msgstr "Ayiphumelelanga ukulayisha inguqulelo"
 #: src/routes/_authenticated/app/$appId.tsx:204
 #: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
-msgstr "Umnwe"
+msgstr "Uphawu lomnwe"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"

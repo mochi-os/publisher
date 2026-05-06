@@ -459,7 +459,7 @@ msgstr "संस्करण अपलोड गर्न असफल"
 #: src/routes/_authenticated/app/$appId.tsx:204
 #: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
-msgstr "फिङ्गरप्रिन्ट"
+msgstr "औंलाछाप"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
