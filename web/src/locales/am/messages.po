@@ -288,7 +288,7 @@ msgstr "ቅዳ"
 
 #: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "ይህን መለያ ቅዳና ለመጫን በሞቺ አገልጋይህ የመተግበሪያዎች ገጽ ላይ ለጥፍ።"
+msgstr "ይህን መለያ ቅዳና ለመጫን በ Mochi አገልጋይዎ መተግበሪያዎች ገጽ ላይ ይለጥፉት።"
 
 #: src/routes/_authenticated/app/$appId.tsx:199
 msgid "Core identification for this application"

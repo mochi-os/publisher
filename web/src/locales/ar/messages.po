@@ -288,7 +288,7 @@ msgstr "نسخ"
 
 #: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "انسخ هذا المعرّف والصقه في صفحة التطبيقات الخاصة بخادم موكي للتثبيت."
+msgstr "انسخ هذا المعرف والصقه في صفحة التطبيقات الخاصة بخادم Mochi لديك للتثبيت."
 
 #: src/routes/_authenticated/app/$appId.tsx:199
 msgid "Core identification for this application"
