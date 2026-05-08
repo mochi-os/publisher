@@ -1,154 +1,148 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2026-05-08 12:06+0200\n"
+"POT-Creation-Date: 2026-05-08 17:10+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: hy\n"
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"Language: nn\n"
 
 #: src/features/apps/index.tsx:152
 msgid "{name} has been created successfully."
-msgstr "{name}-ը հաջողությամբ ստեղծվեց:"
+msgstr "{name} er oppretta."
 
 #: ../../../lib/web/src/lib/preference-utils.ts:39
 msgid "12 hours"
-msgstr "12 ժամ"
+msgstr "12 timar"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:38
 msgid "24 hours"
-msgstr "24 ժամ"
+msgstr "24 timar"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
-msgstr "Բացարձակ (ամսաթիվ և ժամ)"
+msgstr "Absolutt (dato og tid)"
 
 #: ../../../lib/web/src/features/errors/forbidden.tsx:12
 msgid "Access Forbidden"
-msgstr "Մուտքն արգելված է"
+msgstr "Tilgang nekta"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:188
 msgid "Access level"
-msgstr "Մուտքի մակարդակ"
+msgstr "Tilgangsnivå"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:208
 msgid "Account added"
-msgstr "Հաշիվը արգելափակված է"
+msgstr "Konto lagt til"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:224
 msgid "Account removed"
-msgstr "Հաշվի կարգավորումներ"
+msgstr "Konto fjerna"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:123
 msgid "Account type"
-msgstr "Հաշվի արգելափակումը հանված է"
+msgstr "Kontotype"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:234
 msgid "Account verified"
-msgstr "Հաշիվներ"
+msgstr "Konto stadfesta"
 
 #: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Active version"
-msgstr "Ակտիվություն"
+msgstr "Aktiv versjon"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
-msgstr "Ավելացնել նոր դաշտ այս դասին"
+msgstr "Legg til ein ny konto"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:145
 msgid "Add access"
-msgstr "Ավելացնել հաշիվ"
+msgstr "Legg til tilgang"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:116
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:280
 msgid "Add account"
-msgstr "Ավելացնել հաշիվ ծանուցումներ ստանալու և ծառայություններ օգտագործելու համար։"
+msgstr "Legg til konto"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:289
 msgid "Add an account to receive notifications and use services."
-msgstr "Ավելացնել հավելված լրացուցիչ անվտանգության համար"
+msgstr "Legg til ein konto for å motta varsel og bruke tenester."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:98
 msgid "Add new account"
-msgstr "Ավելացնել տարբերակ"
+msgstr "Legg til ny konto"
 
 #: ../../../lib/web/src/components/post-tags.tsx:119
 msgid "Add tag..."
-msgstr "Ավելացրեք պիտակներ ձեր wiki-ի էջերը խմբավորելու համար։"
+msgstr "Legg til etikett..."
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:80
 msgid "Add team/app"
-msgstr "Ավելացնել տեղեկատու"
+msgstr "Legg til team/app"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:159
 msgid "Add to existing notifications"
-msgstr "Ավելացնել գոյություն ունեցող բաժանորդագրություններին"
+msgstr "Legg til i eksisterande varsel"
 
 #: ../../../lib/web/src/components/view-tabs.tsx:57
 msgid "Add view"
-msgstr "Ավելացնել {0}-ը զրույցին"
+msgstr "Legg til visning"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:62
 msgid "Adjust the appearance and layout to suit your preferences."
-msgstr "Ադմին"
+msgstr "Juster utsjånaden og oppsettet etter ynska dine."
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:38
 msgid "AI"
-msgstr "AI"
+msgstr "KI"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:159
 msgid "All"
-msgstr "Բոլոր CRM-երը"
+msgstr "Alle"
 
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "All uploaded build files for this application"
-msgstr "Բոլոր wiki-ները"
+msgstr "Alle opplasta Build-filer for denne applikasjonen"
 
 #: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
-msgstr "Հավելվածի ID"
+msgstr "App"
 
 #: src/features/apps/index.tsx:151
 msgid "App created"
-msgstr "Հավելվածի տեղեկություններ"
+msgstr "App oppretta"
 
 #: src/routes/_authenticated/app/$appId.tsx:328
 msgid "App ID"
-msgstr "Հավելվածի գործողություններ"
+msgstr "App-ID"
 
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:116
 #: src/routes/_authenticated/app/$appId.tsx:137
 #: src/routes/_authenticated/app/$appId.tsx:141
 msgid "App not found"
-msgstr "Հավելվածի օգտատիրական միջերեսներ"
+msgstr "Fann ikkje appen"
 
 #: src/routes/_authenticated/app/$appId.tsx:201
 msgid "Application ID"
-msgstr "Կիրառել"
+msgstr "Applikasjons-ID"
 
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:24
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
-msgstr "Վստա՞հ եք, որ ուզում եք հանել <0>{0}</0>-ին այս խմբից։"
+msgstr "Er du sikker på at du vil logge ut? Du må logge inn att for å få tilgang til kontoen din."
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:56
 msgid "Asc"
-msgstr "Կցել մեկնաբանության ֆայլեր"
+msgstr "Stig"
 
 #: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Available Versions"
-msgstr "Հասանելի ստեղնաշարի դյուրանցումներ"
+msgstr "Tilgjengelege versjonar"
 
 #: ../../../lib/web/src/components/place-picker.tsx:152
 msgid "Back"
-msgstr "Հետ դեպի CRM"
+msgstr "Tilbake"
 
 #: src/routes/_authenticated/app/$appId.tsx:99
 #: src/routes/_authenticated/app/$appId.tsx:112
@@ -157,21 +151,21 @@ msgstr "Հետ դեպի CRM"
 #: src/routes/_authenticated/app/$appId.tsx:162
 #: src/routes/_authenticated/app/$appId.tsx:320
 msgid "Back to apps"
-msgstr "Հետ դեպի զրույց"
+msgstr "Tilbake til appar"
 
 #: ../../../lib/web/src/features/errors/forbidden.tsx:21
 #: ../../../lib/web/src/features/errors/not-found-error.tsx:21
 #: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
 msgid "Back to Home"
-msgstr "Հետ դեպի հավելվածներ"
+msgstr "Tilbake til heim"
 
 #: ../../../lib/web/src/components/post-tags.tsx:160
 msgid "Boost interest"
-msgstr "Եզրագծի գույն"
+msgstr "Auk interesse"
 
 #: src/routes/_authenticated/app/$appId.tsx:664
 msgid "Build File (.zip)"
-msgstr "Կառուցեք համատեղ, կրկնօրինակվող գիտելիքների բազա ձեր համայնքի համար։ Ձեր տվյալները միշտ ձերն են։"
+msgstr "Build-fil (.zip)"
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
@@ -184,119 +178,119 @@ msgstr "Կառուցեք համատեղ, կրկնօրինակվող գիտելի
 #: src/routes/_authenticated/app/$appId.tsx:575
 #: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Cancel"
-msgstr "Չեղարկել մեկնաբանությունը"
+msgstr "Avbryt"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:131
 msgid "Category for this notification"
-msgstr "Կատեգորիան թարմացված է"
+msgstr "Kategori for dette varselet"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:115
 msgid "Change notification category"
-msgstr "Փոփոխություններ"
+msgstr "Endre varselkategori"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:315
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
-msgstr "Ընտրեք inset, լողացող կամ ստանդարտ կողագոտու դասավորության միջև"
+msgstr "Vel mellom standard utvida, kompakt med berre ikon eller fullt oppsett"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:257
 msgid "Choose between inset, floating, or standard sidebar layout"
-msgstr "Ընտրեք ձախից-աջ կամ աջից-ձախ կայքի ուղղության միջև"
+msgstr "Vel mellom innfelt, flytande eller standard sidestolpeoppsett"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:358
 msgid "Choose between left-to-right or right-to-left site direction"
-msgstr "Ընտրեք համակարգի նախընտրության, լուսավոր ռեժիմի կամ մուգ ռեժիմի միջև"
+msgstr "Vel mellom venstre-til-høgre eller høgre-til-venstre sideretning"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:213
 msgid "Choose between system preference, light mode, or dark mode"
-msgstr "Ընտրել լեզու"
+msgstr "Vel mellom systeminnstilling, lys modus eller mørk modus"
 
 #: ../../../lib/web/src/components/language-picker.tsx:167
 msgid "Choose language"
-msgstr "Ընտրել հակառակորդ"
+msgstr "Vel språk"
 
 #: ../../../lib/web/src/components/colour-picker.tsx:304
 msgid "Clear"
-msgstr "Մաքրել ամենը"
+msgstr "Tøm"
 
 #: ../../../lib/web/src/components/filter-bar.tsx:64
 msgid "Clear all"
-msgstr "Մաքրել զտիչները"
+msgstr "Tøm alle"
 
 #: ../../../lib/web/src/components/data-table/faceted-filter.tsx:137
 msgid "Clear filters"
-msgstr "Մաքրել որոնումը"
+msgstr "Tøm filter"
 
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:164
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
 msgid "Clear selection"
-msgstr "Մաքրել ընտրությունը (Escape)"
+msgstr "Tøm utval"
 
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:165
 msgid "Clear selection (Escape)"
-msgstr "Կլոնավորել"
+msgstr "Tøm utval (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
 msgid "Close"
-msgstr "Փակել վահանակը"
+msgstr "Lat att"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:97
 msgid "Close navigation"
-msgstr "Փակել վահանակը / չեղարկել"
+msgstr "Lat att navigeringa"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:254
 msgid "Close Panel"
-msgstr "Փակել երկխոսությունը"
+msgstr "Lat att panelet"
 
 #: ../../../lib/web/src/components/header-search.tsx:51
 msgid "Close search"
-msgstr "Կոդը պատճենված է"
+msgstr "Lat att søket"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Collapse sidebar"
-msgstr "Գույն"
+msgstr "Klapp saman sidestolpen"
 
 #: ../../../lib/web/src/components/coming-soon.tsx:9
 msgid "Coming Soon!"
-msgstr "Մեկնաբանություն"
+msgstr "Kjem snart!"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:302
 msgid "Compact"
-msgstr "Ավարտեք Stripe-ի գրանցումը՝ հաստատվելու համար"
+msgstr "Kompakt"
 
 #: ../../../lib/web/src/components/place-picker.tsx:155
 #: ../../../lib/web/src/components/travelling-picker.tsx:299
 msgid "Confirm"
-msgstr "Հաստատել ստացումը"
+msgstr "Stadfest"
 
 #: ../../../lib/web/src/lib/query-client.ts:78
 msgid "Content not modified"
-msgstr "Համատեքստային տեղեկատվություն և մանրամասներ։"
+msgstr "Innhald ikkje endra"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:145
 msgid "Contextual information and details."
-msgstr "Շարունակել"
+msgstr "Kontekstinformasjon og detaljar."
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:72
 msgid "Continue"
-msgstr "Շարունակել վճարումը"
+msgstr "Hald fram"
 
 #: ../../../lib/web/src/components/ui/copy-button.tsx:60
 msgid "Copy"
-msgstr "Պատճենել ամենը"
+msgstr "Kopier"
 
 #: src/routes/_authenticated/app/$appId.tsx:326
 msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "Պատճենեք ձեր թոքենը հիմա։ Հետո չեք կարողանա տեսնել։"
+msgstr "Kopier denne IDen og lim han inn på Appar-sida til Mochi-tenaren din for å installere."
 
 #: src/routes/_authenticated/app/$appId.tsx:199
 msgid "Core identification for this application"
-msgstr "Հիմնական տեղեկություններ այս CRM-ի մասին"
+msgstr "Kjerneidentifikasjon for denne applikasjonen"
 
 #: src/routes/_authenticated/app/$appId.tsx:538
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
-msgstr "Ստեղծել նոր հոսք"
+msgstr "Opprett eit nytt miljø (t.d. Beta, Staging) for å rulle ut Build-ar."
 
 #: src/features/apps/index.tsx:50
 #: src/features/apps/index.tsx:51
@@ -305,37 +299,37 @@ msgstr "Ստեղծել նոր հոսք"
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:211
 msgid "Create app"
-msgstr "Ստեղծել ճյուղ"
+msgstr "Opprett app"
 
 #: src/features/apps/index.tsx:169
 msgid "Create new app"
-msgstr "Ստեղծել նոր կետ"
+msgstr "Opprett ny app"
 
 #: src/routes/_authenticated/app/$appId.tsx:191
 msgid "Create track"
-msgstr "Ստեղծել օգտատեր"
+msgstr "Opprett spor"
 
 #: src/routes/_authenticated/app/$appId.tsx:581
 msgid "Create Track"
-msgstr "Ստեղծել TXT գրառում"
+msgstr "Opprett spor"
 
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
-msgstr "Ստեղծեք ձեր առաջին Release track-ը տեղադրումները կառավարելու համար"
+msgstr "Opprett din fyrste app for å kome i gang"
 
 #: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Create your first release track to manage deployments"
-msgstr "Ստեղծեք ձեր հանգույցը"
+msgstr "Opprett ditt fyrste Release-spor for å handsame utrullingar"
 
 #: src/features/apps/index.tsx:211
 #: src/routes/_authenticated/app/$appId.tsx:581
 msgid "Creating..."
-msgstr "Ստեղծվում է…"
+msgstr "Opprettar..."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
 msgid "Dark"
-msgstr "Մուգ ռեժիմ"
+msgstr "Mørk"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:88
 #: ../../../lib/web/src/components/layout/nav-user.tsx:151
@@ -343,35 +337,35 @@ msgstr "Մուգ ռեժիմ"
 #: ../../../lib/web/src/components/profile-dropdown.tsx:84
 #: ../../../lib/web/src/components/profile-dropdown.tsx:120
 msgid "Dark mode"
-msgstr "Վահանակ"
+msgstr "Mørk modus"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:297
 msgid "Default"
-msgstr "Լռելյայն"
+msgstr "Standard"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:169
 msgid "Default AI account"
-msgstr "Լռելյայն AI հաշիվ"
+msgstr "Standard KI-konto"
 
 #: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Default track set to \"{track}\""
-msgstr "Լռելյայն track-ը սահմանված է «{track}»"
+msgstr "Standardspor sett til «{track}»"
 
 #: src/routes/_authenticated/app/$appId.tsx:517
 msgid "Delete track"
-msgstr "Ջնջել track-ը"
+msgstr "Slett spor"
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:60
 msgid "Desc"
-msgstr "Նվազող"
+msgstr "Sink"
 
 #: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Details"
-msgstr "Մանրամասներ"
+msgstr "Detaljar"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:144
 msgid "Details Panel"
-msgstr "Մանրամասների վահանակ"
+msgstr "Detaljpanel"
 
 #: ../../../lib/web/src/components/language-picker.tsx:145
 #: ../../../lib/web/src/components/timezone-select.tsx:43
@@ -382,214 +376,214 @@ msgstr "Մանրամասների վահանակ"
 #: ../../../lib/web/src/lib/preference-utils.ts:69
 #: ../../../lib/web/src/lib/preference-utils.ts:81
 msgid "Detect from web browser"
-msgstr "Հայտնաբերել վեբ բրաուզերից"
+msgstr "Oppdag frå nettlesaren"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:327
 msgid "Direction"
-msgstr "Ուղղություն"
+msgstr "Retning"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
-msgstr "Ցուցադրում է բջջային կողագոտին։"
+msgstr "Viser mobil sidestolpe."
 
 #: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Distribution"
-msgstr "Բաշխում"
+msgstr "Distribusjon"
 
 #: src/routes/_authenticated/app/$appId.tsx:75
 msgid "Distribution set to {distribution}"
-msgstr "Բաշխումը սահմանված է {distribution}"
+msgstr "Distribusjon sett til {distribution}"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
 msgid "Download"
-msgstr "Ներբեռնել"
+msgstr "Last ned"
 
 #: src/routes/_authenticated/app/$appId.tsx:548
 msgid "e.g. Staging"
-msgstr "օր.՝ Staging"
+msgstr "t.d. Staging"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
-msgstr "Ընդարձակել կողագոտին"
+msgstr "Utvid sidestolpe"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:217
 msgid "Failed to add account"
-msgstr "Չհաջողվեց ավելացնել հաշիվը"
+msgstr "Klarte ikkje leggja til konto"
 
 #: src/features/apps/index.tsx:159
 msgid "Failed to create app"
-msgstr "Չհաջողվեց ստեղծել հավելվածը"
+msgstr "Klarte ikkje oppretta app"
 
 #: src/routes/_authenticated/app/$appId.tsx:404
 msgid "Failed to create track"
-msgstr "Չհաջողվեց ստեղծել ուղին"
+msgstr "Klarte ikkje oppretta spor"
 
 #: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to delete track"
-msgstr "Չհաջողվեց ջնջել ուղին"
+msgstr "Klarte ikkje sletta spor"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:226
 msgid "Failed to remove account"
-msgstr "Չհաջողվեց հեռացնել հաշիվը"
+msgstr "Klarte ikkje fjerna konto"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:249
 msgid "Failed to send verification code"
-msgstr "Չհաջողվեց ուղարկել հաստատման կոդը"
+msgstr "Klarte ikkje senda stadfestingskode"
 
 #: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to set default track"
-msgstr "Չհաջողվեց սահմանել լռելյայն ուղին"
+msgstr "Klarte ikkje setja standardspor"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:104
 msgid "Failed to update category"
-msgstr "Չհաջողվեց թարմացնել կատեգորիան"
+msgstr "Klarte ikkje oppdatera kategori"
 
 #: src/routes/_authenticated/app/$appId.tsx:78
 msgid "Failed to update distribution"
-msgstr "Չհաջողվեց թարմացնել բաշխումը"
+msgstr "Klarte ikkje oppdatera distribusjon"
 
 #: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to update track"
-msgstr "Չհաջողվեց թարմացնել ուղին"
+msgstr "Klarte ikkje oppdatera spor"
 
 #: src/routes/_authenticated/app/$appId.tsx:645
 msgid "Failed to upload version"
-msgstr "Չհաջողվեց վերբեռնել տարբերակը"
+msgstr "Klarte ikkje lasta opp versjon"
 
 #: src/routes/_authenticated/app/$appId.tsx:204
 #: src/routes/_authenticated/app/$appId.tsx:336
 msgid "Fingerprint"
-msgstr "Մատնահետք"
+msgstr "Fingeravtrykk"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
-msgstr "Լողացող"
+msgstr "Flytande"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
-msgstr "Ուրբաթ"
+msgstr "Fredag"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:149
 msgid "From"
-msgstr "Ումից"
+msgstr "Frå"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:307
 msgid "Full layout"
-msgstr "Ամբողջական դասավորություն"
+msgstr "Full layout"
 
 #: ../../../lib/web/src/features/errors/forbidden.tsx:19
 #: ../../../lib/web/src/features/errors/not-found-error.tsx:19
 #: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
 msgid "Go Back"
-msgstr "Վերադառնալ"
+msgstr "Gå tilbake"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:75
 msgid "Go to first page"
-msgstr "Անցնել առաջին էջ"
+msgstr "Gå til første side"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:121
 msgid "Go to last page"
-msgstr "Անցնել վերջին էջ"
+msgstr "Gå til siste side"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:112
 msgid "Go to next page"
-msgstr "Անցնել հաջորդ էջ"
+msgstr "Gå til neste side"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:84
 msgid "Go to previous page"
-msgstr "Անցնել նախորդ էջ"
+msgstr "Gå til førre side"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:159
 msgid "Group"
-msgstr "Խումբ"
+msgstr "Gruppe"
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:67
 msgid "Hide"
-msgstr "Թաքցնել"
+msgstr "Skjul"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
 #: ../../../lib/web/src/components/layout/top-bar.tsx:62
 #: ../../../lib/web/src/components/layout/top-bar.tsx:91
 msgid "Home"
-msgstr "Տուն"
+msgstr "Heim"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:41
 msgid "Hot"
-msgstr "Թեժ"
+msgstr "Het"
 
 #: src/routes/_authenticated/app/$appId.tsx:199
 msgid "Identity"
-msgstr "Ինքնություն"
+msgstr "Identitet"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
-msgstr "Իմպերիալ"
+msgstr "Imperial"
 
 #: src/routes/_authenticated/app/$appId.tsx:554
 msgid "Initial Version"
-msgstr "Սկզբնական տարբերակ"
+msgstr "Startversjon"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:239
 msgid "Inset"
-msgstr "Տեղադրել տեղական"
+msgstr "Innfelt"
 
 #: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install App"
-msgstr "Տեղադրել ֆայլից"
+msgstr "Installer app"
 
 #: src/routes/_authenticated/app/$appId.tsx:677
 msgid "Install Locally"
-msgstr "Տեղադրել հրապարակողից"
+msgstr "Installer lokalt"
 
 #: src/routes/_authenticated/app/$appId.tsx:323
 msgid "Install this application to your server"
-msgstr "Տեղադրման ID"
+msgstr "Installer denne applikasjonen på tenaren din"
 
 #: src/routes/_authenticated/app/$appId.tsx:242
 msgid "Installation ID"
-msgstr "Տեղադրվում է..."
+msgstr "Installasjons-ID"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:39
 msgid "Interests"
-msgstr "Անվավեր նույնականացման կոդ"
+msgstr "Interesser"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:237
 msgid "Invalid verification code"
-msgstr "Հրավերը չեղարկվեց"
+msgstr "Ugyldig stadfestingskode"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:273
 msgid "Layout"
-msgstr "Թողեք մեկնաբանություն..."
+msgstr "Layout"
 
 #: ../../../lib/web/src/components/learn-more.tsx:27
 msgid "Learn more"
-msgstr "Թողեք ակնարկ"
+msgstr "Lær meir"
 
 #: src/routes/_authenticated/app/$appId.tsx:560
 msgid "Leave empty"
-msgstr "Լքվում է..."
+msgstr "Lat stå tomt"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:341
 msgid "Left to Right"
-msgstr "Լուսավոր կամ մուգ ռեժիմ"
+msgstr "Venstre til høgre"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:200
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 msgid "Light"
-msgstr "Կապել հաշիվը"
+msgstr "Lyst"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
 msgid "Load more"
-msgstr "Բեռնվում են վճարների մանրամասները..."
+msgstr "Last fleire"
 
 #: src/routes/_authenticated/app/$appId.tsx:98
 msgid "Loading app..."
-msgstr "Բեռնվում են խմբերը..."
+msgstr "Lastar app..."
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
 msgid "Loading…"
-msgstr "Կողպված է"
+msgstr "Lastar…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:98
 #: ../../../lib/web/src/components/layout/nav-user.tsx:164
@@ -599,636 +593,636 @@ msgstr "Կողպված է"
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:23
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:25
 msgid "Log out"
-msgstr "Դուրս է եկել հաջողությամբ"
+msgstr "Logg ut"
 
 #: ../../../lib/web/src/hooks/use-logout.ts:16
 msgid "Logged out (with errors)"
-msgstr "Մուտք"
+msgstr "Logga ut (med feil)"
 
 #: ../../../lib/web/src/hooks/use-logout.ts:14
 msgid "Logged out successfully"
-msgstr "Մուտքի պահանջներ"
+msgstr "Logga ut"
 
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:25
 msgid "Logging out…"
-msgstr "Մուտքի պահանջները թարմացվեցին"
+msgstr "Loggar ut…"
 
 #: src/features/apps/index.tsx:189
 msgid "Make app publicly available"
-msgstr "Կառավարել"
+msgstr "Gjer appen offentleg tilgjengeleg"
 
 #: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Manage deployment environments and their versions"
-msgstr "Կառավարել տոկենները"
+msgstr "Handsam utrullingsmiljø og versjonane deira"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:86
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:220
 msgid "Mark all as read"
-msgstr "Markdown-ը աջակցվում է"
+msgstr "Merk alle som lesne"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
 msgid "Menu"
-msgstr "Միաձուլման հարցումներ"
+msgstr "Meny"
 
 #: src/routes/_authenticated/app/$appId.tsx:334
 msgid "Metadata and configuration"
-msgstr "Microsoft հաճախորդի ID"
+msgstr "Metadata og oppsett"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:82
 msgid "Metric"
-msgstr "Microsoft վարձակալ"
+msgstr "Metrisk"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:56
 msgid "Monday"
-msgstr "Ամենավերջին"
+msgstr "Måndag"
 
 #: src/features/apps/index.tsx:184
 msgid "My App"
-msgstr "My App"
+msgstr "Min app"
 
 #: src/routes/_authenticated/app/$appId.tsx:337
 msgid "N/A"
-msgstr "Չ/Հ"
+msgstr "I/T"
 
 #: src/features/apps/index.tsx:178
 msgid "Name"
-msgstr "Անուն"
+msgstr "Namn"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
-msgstr "Նոր"
+msgstr "Ny"
 
 #: src/routes/_authenticated/app/$appId.tsx:536
 msgid "New Release Track"
-msgstr "Նոր Release-ի ուղի"
+msgstr "Ny utgjevingsspor"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
 msgid "Next image"
-msgstr "Հաջորդ նկարը"
+msgstr "Neste bilete"
 
 #: src/features/apps/index.tsx:198
 #: src/routes/_authenticated/app/$appId.tsx:687
 msgid "No"
-msgstr "Ոչ"
+msgstr "Nei"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:156
 msgid "No access rules configured. Add rules to control who can access this resource."
-msgstr "Մուտքի կանոններ կարգավորված չեն։ Ավելացրեք կանոններ՝ կառավարելու, թե ով կարող է մուտք գործել այս ռեսուրսը։"
+msgstr "Ingen tilgangsreglar er sette opp. Legg til reglar for å styra kven som har tilgang til denne ressursen."
 
 #: src/features/apps/index.tsx:77
 msgid "No apps yet"
-msgstr "Դեռ հավելվածներ չկան"
+msgstr "Ingen appar enno"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:287
 msgid "No connected accounts"
-msgstr "Կապակցված հաշիվներ չկան"
+msgstr "Ingen tilkopla kontoar"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
-msgstr "Հասանելի խմբեր չկան"
+msgstr "Ingen grupper tilgjengelege"
 
 #: ../../../lib/web/src/components/language-picker.tsx:177
 msgid "No matches."
-msgstr "Համընկնումներ չկան։"
+msgstr "Ingen treff."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
-msgstr "Վայրեր չեն գտնվել"
+msgstr "Ingen stader funne"
 
 #: ../../../lib/web/src/components/profile-dropdown.tsx:55
 msgid "No profile"
-msgstr "Պրոֆիլ չկա"
+msgstr "Inga profil"
 
 #: ../../../lib/web/src/components/command-menu.tsx:52
 #: ../../../lib/web/src/components/data-table/faceted-filter.tsx:87
 msgid "No results found."
-msgstr "Արդյունքներ չեն գտնվել։"
+msgstr "Ingen treff funne."
 
 #: ../../../lib/web/src/components/timezone-select.tsx:64
 msgid "No time zone found."
-msgstr "Ժամային գոտի չի գտնվել։"
+msgstr "Inga tidssone funne."
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "No topic record yet — try again after the next notification."
-msgstr "Դեռ թեմայի գրառում չկա — փորձեք նորից հաջորդ ծանուցումից հետո։"
+msgstr "Inga emneoppføring enno — prøv igjen etter neste varsel."
 
 #: src/routes/_authenticated/app/$appId.tsx:461
 msgid "No tracks"
-msgstr "Ուղիներ չկան"
+msgstr "Ingen spor"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:203
 msgid "No users found"
-msgstr "Օգտատերեր չեն գտնվել"
+msgstr "Ingen brukarar funne"
 
 #: src/routes/_authenticated/app/$appId.tsx:557
 msgid "No version"
-msgstr "Տարբերակ չկա"
+msgstr "Inga versjon"
 
 #: src/routes/_authenticated/app/$appId.tsx:256
 msgid "No versions"
-msgstr "Տարբերակներ չկան"
+msgstr "Ingen versjonar"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
 msgid "None"
-msgstr "Ոչ մեկը"
+msgstr "Ingen"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
 msgid "Notifications"
-msgstr "Ծանուցումներ"
+msgstr "Varsel"
 
 #: ../../../lib/web/src/features/errors/not-found-error.tsx:12
 msgid "Oops! Page Not Found!"
-msgstr "Ուփ։ Էջը չի գտնվել։"
+msgstr "Ups! Side ikkje funne!"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:150
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:151
 msgid "Open account actions"
-msgstr "Բացել հաշվի գործողությունները"
+msgstr "Opna kontohandlingar"
 
 #: ../../../lib/web/src/components/layout/top-bar.tsx:57
 msgid "Open navigation"
-msgstr "Բացել նավիգացիան"
+msgstr "Opna navigasjon"
 
 #: ../../../lib/web/src/components/layout/top-nav.tsx:32
 #: ../../../lib/web/src/components/layout/top-nav.tsx:33
 msgid "Open navigation menu"
-msgstr "Բացել նավիգացիոն մենյուն"
+msgstr "Opna navigasjonsmeny"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:51
 msgid "Open theme settings"
-msgstr "Բացել թեմայի կարգավորումները"
+msgstr "Opna temainnstillingar"
 
 #: src/routes/_authenticated/app/$appId.tsx:500
 msgid "Open track actions"
-msgstr "Բացել ուղու գործողությունները"
+msgstr "Opna sporhandlingar"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:163
 msgid "Other"
-msgstr "Այլ"
+msgstr "Anna"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:213
 msgid "Owner"
-msgstr "Սեփականատեր"
+msgstr "Eigar"
 
 #: src/features/apps/index.tsx:143
 msgid "Please enter an app name"
-msgstr "Խնդրում ենք մուտքագրել հավելվածի անունը"
+msgstr "Skriv eit appnamn"
 
 #: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Please select a file"
-msgstr "Խնդրում ենք ընտրել ֆայլ"
+msgstr "Vel ei fil"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
 msgid "Previous image"
-msgstr "Նախորդ նկարը"
+msgstr "Førre bilete"
 
 #: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Privacy"
-msgstr "Գաղտնիություն"
+msgstr "Personvern"
 
 #: src/routes/_authenticated/app/$appId.tsx:207
 msgid "Privacy Policy"
-msgstr "Գաղտնիության քաղաքականություն"
+msgstr "Personvernerklæring"
 
 #: src/features/apps/index.tsx:88
 #: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Private"
-msgstr "Մասնավոր"
+msgstr "Privat"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:134
 #: ../../../lib/web/src/components/profile-dropdown.tsx:111
 msgid "Profile"
-msgstr "Պրոֆիլ"
+msgstr "Profil"
 
 #: src/features/apps/index.tsx:88
 #: src/routes/_authenticated/app/$appId.tsx:210
 msgid "Public"
-msgstr "Հանրային"
+msgstr "Offentleg"
 
 #: src/features/apps/index.tsx:89
 #: src/routes/_authenticated/app/$appId.tsx:226
 msgid "Published"
-msgstr "Հրապարակված է"
+msgstr "Publisert"
 
 #: src/features/apps/index.tsx:32
 #: src/features/apps/index.tsx:46
 msgid "Publisher"
-msgstr "Հրապարակիչ"
+msgstr "Utgjevar"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
 msgid "Recommended"
-msgstr "Առաջարկվող"
+msgstr "Tilrådd"
 
 #: ../../../lib/web/src/components/layout/authenticated-layout.tsx:130
 msgid "Redirecting to login."
-msgstr "Վերահղում մուտք էջ։"
+msgstr "Omdirigerer til innlogging."
 
 #: ../../../lib/web/src/components/post-tags.tsx:175
 msgid "Reduce interest"
-msgstr "Նվազեցնել հետաքրքրությունը"
+msgstr "Reduser interesse"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:47
 msgid "Relative (5m, 3h, 2d)"
-msgstr "Հարաբերական (5մ, 3ժ, 2օ)"
+msgstr "Relativ (5m, 3t, 2d)"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:46
 msgid "Relative within 24 hours, else absolute"
-msgstr "Հարաբերական 24 ժամվա ընթացքում, այլապես՝ բացարձակ"
+msgstr "Relativ innan 24 timar, elles absolutt"
 
 #: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Release Tracks"
-msgstr "Release-ի ուղիներ"
+msgstr "Release-spor"
 
 #: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Release tracks currently active"
-msgstr "Ընթացիկ ակտիվ Release-ի ուղիներ"
+msgstr "Release-spor som er aktive no"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:257
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:172
 msgid "Remove"
-msgstr "Հեռացնել"
+msgstr "Fjern"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:241
 #: ../../../lib/web/src/features/access/access-list.tsx:242
 msgid "Remove access rule"
-msgstr "Հեռացնել մուտքի կանոնը"
+msgstr "Fjern tilgangsregel"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:249
 msgid "Remove access?"
-msgstr "Հեռացնե՞լ մուտքը։"
+msgstr "Fjern tilgang?"
 
 #: ../../../lib/web/src/components/post-tags.tsx:190
 msgid "Remove interest"
-msgstr "Հեռացնել հետաքրքրությունը"
+msgstr "Fjern interesse"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
 msgid "Reset"
-msgstr "Վերականգնել"
+msgstr "Tilbakestill"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:75
 msgid "Reset all settings to default values"
-msgstr "Վերականգնել բոլոր կարգավորումները լռելյայն արժեքների"
+msgstr "Tilbakestill alle innstillingar til standardverdiar"
 
 #: src/features/apps/index.tsx:89
 #: src/routes/_authenticated/app/$appId.tsx:227
 msgid "Restricted"
-msgstr "Սահմանափակված"
+msgstr "Avgrensa"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:348
 msgid "Right to Left"
-msgstr "Աջից ձախ"
+msgstr "Høgre til venstre"
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:60
 msgid "Rows per page"
-msgstr "Տողեր մեկ էջում"
+msgstr "Rader per side"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Saturday"
-msgstr "Շաբաթ"
+msgstr "Laurdag"
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
-msgstr "Որոնել վայր"
+msgstr "Søk etter ein stad"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:234
 msgid "Search for destination..."
-msgstr "Որոնել ուղղություն..."
+msgstr "Søk etter destinasjon..."
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:173
 msgid "Search for origin..."
-msgstr "Որոնել ծագում..."
+msgstr "Søk etter opphav..."
 
 #: ../../../lib/web/src/components/timezone-select.tsx:62
 msgid "Search time zone..."
-msgstr "Որոնել ժամային գոտի..."
+msgstr "Søk i tidssone..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:170
 msgid "Search users"
-msgstr "Որոնել օգտատերեր"
+msgstr "Søk i brukarar"
 
 #: ../../../lib/web/src/components/person-picker.tsx:323
 msgid "Search..."
-msgstr "Որոնում..."
+msgstr "Søk..."
 
 #: ../../../lib/web/src/components/language-picker.tsx:175
 msgid "Search…"
-msgstr "Որոնել…"
+msgstr "Søk…"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
 #: ../../../lib/web/src/features/access/access-dialog.tsx:199
 msgid "Searching..."
-msgstr "Որոնում..."
+msgstr "Søkjer..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:147
 msgid "Select a user, group, or other rule to grant access."
-msgstr "Ընտրեք օգտատեր, խումբ կամ այլ կանոն՝ մուտք տրամադրելու համար։"
+msgstr "Vel ein brukar, gruppe eller annan regel for å gje tilgang."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:270
 msgid "Select access rule"
-msgstr "Ընտրել մուտքի կանոնը"
+msgstr "Vel tilgangsregel"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:126
 msgid "Select account type"
-msgstr "Ընտրել հաշվի տեսակը"
+msgstr "Vel kontotype"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:228
 msgid "Select group"
-msgstr "Ընտրել խումբը"
+msgstr "Vel gruppe"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:291
 msgid "Select layout style"
-msgstr "Ընտրել դասավորության ոճը"
+msgstr "Vel oppsettstil"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:233
 msgid "Select sidebar style"
-msgstr "Ընտրել կողագոտու ոճը"
+msgstr "Vel sidestolpestil"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:335
 msgid "Select site direction"
-msgstr "Ընտրել կայքի ուղղությունը"
+msgstr "Vel sideretning"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:189
 msgid "Select theme preference"
-msgstr "Ընտրել թեմայի նախընտրությունը"
+msgstr "Vel temapreferanse"
 
 #: ../../../lib/web/src/lib/api-client.ts:224
 msgid "Session expired"
-msgstr "Սեսիան ավարտվել է"
+msgstr "Økta er utgått"
 
 #: src/routes/_authenticated/app/$appId.tsx:510
 msgid "Set as default"
-msgstr "Սահմանել որպես կանխադրված"
+msgstr "Bruk som standard"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:143
 msgid "Set origin and destination"
-msgstr "Սահմանել ծագումը և նպատակակետը"
+msgstr "Set opphav og mål"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:81
 #: ../../../lib/web/src/components/layout/nav-user.tsx:145
 #: ../../../lib/web/src/components/layout/nav-user.tsx:195
 msgid "Settings"
-msgstr "Կարգավորումներ"
+msgstr "Innstillingar"
 
 #: src/routes/_authenticated/app/$appId.tsx:236
 msgid "Share this ID to allow others to install this app"
-msgstr "Կիսվեք այս ID-ով՝ թույլ տալով ուրիշներին տեղադրել այս հավելվածը"
+msgstr "Del denne ID-en for å la andre installere denne appen"
 
 #: src/routes/_authenticated/app/$appId.tsx:235
 msgid "Sharing"
-msgstr "Կիսում"
+msgstr "Deling"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:36
 msgid "Showing {totalShown} of {total}"
-msgstr "Ցուցադրվում է {totalShown} {total}-ից"
+msgstr "Viser {totalShown} av {total}"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:225
 #: ../../../lib/web/src/components/config-drawer.tsx:249
 #: ../../../lib/web/src/components/ui/sidebar.tsx:234
 msgid "Sidebar"
-msgstr "Կողագոտի"
+msgstr "Sidestolpe"
 
 #: ../../../lib/web/src/components/layout/authenticated-layout.tsx:128
 msgid "Signing out..."
-msgstr "Դուրս է գալիս..."
+msgstr "Loggar ut..."
 
 #: ../../../lib/web/src/components/skip-to-main.tsx:8
 msgid "Skip to Main"
-msgstr "Բաց թողնել դեպի Հիմնական"
+msgstr "Hopp til hovudinnhald"
 
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
-msgstr "Մնացեք միացված, սակայն!"
+msgstr "Følg med likevel!"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:187
 msgid "Subject"
-msgstr "Թեմա"
+msgstr "Emne"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:62
 msgid "Sunday"
-msgstr "Կիրակի"
+msgstr "Sundag"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
 msgid "System"
-msgstr "Համակարգ"
+msgstr "System"
 
 #: ../../../lib/web/src/components/tag-input.tsx:91
 msgid "Tag"
-msgstr "Թեգ"
+msgstr "Etikett"
 
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
-msgstr "Թիմեր/Հավելվածներ"
+msgstr "Lag/Appar"
 
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
 msgid "The requested app could not be found."
-msgstr "Հարցված հավելվածը չի կարող գտնվել:"
+msgstr "Den førespurde appen vart ikkje funnen."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:181
 msgid "Theme"
-msgstr "Թեմա"
+msgstr "Tema"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:60
 msgid "Theme Settings"
-msgstr "Թեմայի կարգավորումներ"
+msgstr "Temainnstillingar"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:59
 msgid "Thursday"
-msgstr "Հինգշաբթի"
+msgstr "Torsdag"
 
 #: ../../../lib/web/src/components/data-table/view-options.tsx:34
 msgid "Toggle columns"
-msgstr "Սյունակների փոխարկում"
+msgstr "Slå kolonner av/på"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:227
 msgid "Toggle Right Panel"
-msgstr "Աջ վահանակի փոխարկում"
+msgstr "Slå høgrepanel av/på"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:312
 #: ../../../lib/web/src/components/ui/sidebar.tsx:324
 #: ../../../lib/web/src/components/ui/sidebar.tsx:327
 msgid "Toggle Sidebar"
-msgstr "Կողագոտու փոխարկում"
+msgstr "Slå sidestolpe av/på"
 
 #: ../../../lib/web/src/components/theme-switch.tsx:31
 msgid "Toggle theme"
-msgstr "Թեմայի փոխարկում"
+msgstr "Slå tema av/på"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Top"
-msgstr "Վերև"
+msgstr "Topp"
 
 #: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" deleted"
-msgstr "Track \"{track}\" ջնջվեց"
+msgstr "Spor \"{track}\" sletta"
 
 #: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track \"{track}\" թարմացվեց {version}-ի"
+msgstr "Spor \"{track}\" oppdatert til {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx:398
 msgid "Track created"
-msgstr "Track-ը ստեղծվեց"
+msgstr "Spor oppretta"
 
 #: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Track Name"
-msgstr "Track-ի անունը"
+msgstr "Spornamn"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:141
 msgid "Travelling"
-msgstr "Ճանապարհորդություն"
+msgstr "Reiser"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:190
 #: ../../../lib/web/src/components/search-entity-page.tsx:165
 msgid "Try adjusting your search terms"
-msgstr "Փորձեք ճշգրտել ձեր որոնման տերմինները"
+msgstr "Prøv å justere søkjeorda"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
 msgid "Try again"
-msgstr "Փորձեք կրկին"
+msgstr "Prøv igjen"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:57
 msgid "Tuesday"
-msgstr "Երեքշաբթի"
+msgstr "Tysdag"
 
 #: ../../../lib/web/src/components/command-menu.tsx:49
 msgid "Type a command or search..."
-msgstr "Մուտքագրեք հրաման կամ որոնեք..."
+msgstr "Skriv ein kommando eller søk..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:188
 msgid "Type to search users"
-msgstr "Մուտքագրեք օգտատերեր որոնելու համար"
+msgstr "Skriv for å søkje etter brukarar"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:180
 msgid "Type to search..."
-msgstr "Մուտքագրեք որոնելու համար..."
+msgstr "Skriv for å søkje..."
 
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94
 msgid "Unable to redirect to login. Please try again."
-msgstr "Հնարավոր չէ վերահղել մուտք: Խնդրում ենք կրկին փորձել:"
+msgstr "Kunne ikkje omdirigere til innlogging. Prøv igjen."
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:143
 msgid "Unassigned"
-msgstr "Չվերագրված"
+msgstr "Ikkje tildelt"
 
 #: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
 msgid "Unauthorized Access"
-msgstr "Չլիազորված մուտք"
+msgstr "Ikkje autorisert tilgang"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:84
 msgid "United States"
-msgstr "Միացյալ Նահանգներ"
+msgstr "USA"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:131
 msgid "Unverified"
-msgstr "Չստուգված"
+msgstr "Ikkje stadfesta"
 
 #: src/routes/_authenticated/app/$appId.tsx:693
 msgid "Update Tracks"
-msgstr "Թարմացնել Track-երը"
+msgstr "Oppdater spor"
 
 #: src/routes/_authenticated/app/$appId.tsx:657
 msgid "Upload a .zip build file for your application."
-msgstr "Վերբեռնեք .zip build ֆայլը ձեր հավելվածի համար:"
+msgstr "Last opp ei .zip-byggjefil for applikasjonen din."
 
 #: src/routes/_authenticated/app/$appId.tsx:185
 msgid "Upload new version"
-msgstr "Վերբեռնել նոր տարբերակ"
+msgstr "Last opp ny versjon"
 
 #: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Upload New Version"
-msgstr "Վերբեռնել նոր տարբերակ"
+msgstr "Last opp ny versjon"
 
 #: src/routes/_authenticated/app/$appId.tsx:719
 msgid "Upload Version"
-msgstr "Վերբեռնել տարբերակ"
+msgstr "Last opp versjon"
 
 #: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Upload your first build to get started"
-msgstr "Վերբեռնեք ձեր առաջին build-ը՝ սկսելու համար"
+msgstr "Last opp den første byggjefila for å koma i gang"
 
 #: src/routes/_authenticated/app/$appId.tsx:719
 msgid "Uploading..."
-msgstr "Վերբեռնվում է..."
+msgstr "Lastar opp..."
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
-msgstr "Օգտատեր"
+msgstr "Brukar"
 
 #: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Users can install this application by pasting this identifier into their Apps management page."
-msgstr "Օգտատերերը կարող են տեղադրել այս հավելվածը՝ տեղադրելով այս նույնացուցիչը իրենց Հավելվածների կառավարման էջում:"
+msgstr "Brukarar kan installere denne applikasjonen ved å lime inn denne identifikatoren på Apphandsamingssida."
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:68
 msgid "Verification code"
-msgstr "Ստուգման կոդ"
+msgstr "Stadfestingskode"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:247
 msgid "Verification code sent"
-msgstr "Ստուգման կոդը ուղարկվեց"
+msgstr "Stadfestingskode sendt"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:240
 msgid "Verification failed"
-msgstr "Ստուգումը ձախողվեց"
+msgstr "Stadfesting mislukkast"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
 msgid "Verify"
-msgstr "Ստուգել"
+msgstr "Stadfest"
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:58
 msgid "Verify email address"
-msgstr "Ստուգել էլ. փոստի հասցեն"
+msgstr "Stadfest e-postadresse"
 
 #. placeholder {0}: data.version
 #: src/routes/_authenticated/app/$appId.tsx:633
 msgid "Version {0} has been created."
-msgstr "Տարբերակ {0}-ը ստեղծվեց:"
+msgstr "Versjon {0} er oppretta."
 
 #: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Version History"
-msgstr "Տարբերակների պատմություն"
+msgstr "Versjonshistorikk"
 
 #: src/routes/_authenticated/app/$appId.tsx:632
 msgid "Version uploaded"
-msgstr "Տարբերակը վերբեռնվեց"
+msgstr "Versjon lasta opp"
 
 #: ../../../lib/web/src/components/data-table/view-options.tsx:30
 msgid "View"
-msgstr "Դիտել"
+msgstr "Vis"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:173
 msgid "View all"
-msgstr "Դիտել բոլորը"
+msgstr "Vis alle"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:94
 msgid "View all notifications"
-msgstr "Դիտել բոլոր ծանուցումները"
+msgstr "Vis alle varsel"
 
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
 msgid "We'll be back online shortly."
-msgstr "Մենք շուտով կվերադառնանք առցանց:"
+msgstr "Me er snart tilbake."
 
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
 msgid "Website is under maintenance!"
-msgstr "Կայքը գտնվում է սպասարկման փուլում:"
+msgstr "Nettstaden er under vedlikehald!"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:58
 msgid "Wednesday"
-msgstr "Չորեքշաբթի"
+msgstr "Onsdag"
 
 #: src/features/apps/index.tsx:197
 #: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Yes"
-msgstr "Այո"
+msgstr "Ja"
 
 #: src/routes/_authenticated/app/$appId.tsx:686
 msgid "Yes, force"
-msgstr "Այո, պարտադրել"
+msgstr "Ja, tving"
