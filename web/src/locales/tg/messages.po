@@ -1,0 +1,1228 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-05-08 12:06+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: tg\n"
+
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "{name} бомуваффақият сохта шуд."
+
+#: ../../../lib/web/src/lib/preference-utils.ts:39
+msgid "12 hours"
+msgstr "12 соат"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:38
+msgid "24 hours"
+msgstr "24 соат"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:48
+msgid "Absolute (date and time)"
+msgstr "Мутлақ (сана ва вақт)"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+msgid "Access Forbidden"
+msgstr "Дастрасӣ манъ аст"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:188
+msgid "Access level"
+msgstr "Сатҳи дастрасӣ"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:208
+msgid "Account added"
+msgstr "Ҳисоб илова карда шуд"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:224
+msgid "Account removed"
+msgstr "Ҳисоб хориҷ карда шуд"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:123
+msgid "Account type"
+msgstr "Намуди ҳисоб"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:234
+msgid "Account verified"
+msgstr "Ҳисоб тасдиқ карда шуд"
+
+#: src/routes/_authenticated/app/$appId.tsx:479
+msgid "Active version"
+msgstr "Версияи фаъол"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:117
+msgid "Add a new account"
+msgstr "Иловаи ҳисоби нав"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:145
+msgid "Add access"
+msgstr "Иловаи дастрасӣ"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:116
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:280
+msgid "Add account"
+msgstr "Иловаи ҳисоб"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:289
+msgid "Add an account to receive notifications and use services."
+msgstr "Барои гирифтани огоҳиномаҳо ва истифодаи хидматҳо ҳисоб илова кунед."
+
+#: ../../../lib/web/src/features/accounts/account-picker.tsx:98
+msgid "Add new account"
+msgstr "Иловаи ҳисоби нав"
+
+#: ../../../lib/web/src/components/post-tags.tsx:119
+msgid "Add tag..."
+msgstr "Иловаи барчасп..."
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:80
+msgid "Add team/app"
+msgstr "Иловаи даста/барнома"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:159
+msgid "Add to existing notifications"
+msgstr "Илова ба огоҳиномаҳои мавҷуда"
+
+#: ../../../lib/web/src/components/view-tabs.tsx:57
+msgid "Add view"
+msgstr "Иловаи намуд"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:62
+msgid "Adjust the appearance and layout to suit your preferences."
+msgstr "Намуд ва тарҳбандиро мувофиқи хости худ танзим кунед."
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:38
+msgid "AI"
+msgstr "AI"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:159
+msgid "All"
+msgstr "Ҳама"
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "All uploaded build files for this application"
+msgstr "Ҳама файлҳои Build боргузоришуда барои ин барнома"
+
+#: src/routes/_authenticated/app/$appId.tsx:92
+#: src/routes/_authenticated/app/$appId.tsx:126
+msgid "App"
+msgstr "Барнома"
+
+#: src/features/apps/index.tsx:151
+msgid "App created"
+msgstr "Барнома эҷод шуд"
+
+#: src/routes/_authenticated/app/$appId.tsx:328
+msgid "App ID"
+msgstr "ID-и барнома"
+
+#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:116
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:141
+msgid "App not found"
+msgstr "Барнома ёфт нашуд"
+
+#: src/routes/_authenticated/app/$appId.tsx:201
+msgid "Application ID"
+msgstr "ID-и Application"
+
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:24
+msgid "Are you sure you want to log out? You will need to log in again to access your account."
+msgstr "Шумо мутмаин ҳастед, ки мехоҳед хориҷ шавед? Барои дастрасӣ ба ҳисоб бояд аз нав ворид шавед."
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:56
+msgid "Asc"
+msgstr "Афзоянда"
+
+#: src/routes/_authenticated/app/$appId.tsx:350
+msgid "Available Versions"
+msgstr "Версияҳои дастрас"
+
+#: ../../../lib/web/src/components/place-picker.tsx:152
+msgid "Back"
+msgstr "Бозгашт"
+
+#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:162
+#: src/routes/_authenticated/app/$appId.tsx:320
+msgid "Back to apps"
+msgstr "Бозгашт ба барномаҳо"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Back to Home"
+msgstr "Бозгашт ба саҳифаи асосӣ"
+
+#: ../../../lib/web/src/components/post-tags.tsx:160
+msgid "Boost interest"
+msgstr "Афзоиши таваҷҷуҳ"
+
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "Файли Build (.zip)"
+
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
+#: ../../../lib/web/src/components/travelling-picker.tsx:292
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/features/access/access-dialog.tsx:325
+#: ../../../lib/web/src/features/access/access-list.tsx:255
+#: ../../../lib/web/src/features/accounts/account-add.tsx:185
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:86
+#: src/features/apps/index.tsx:208
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
+msgid "Cancel"
+msgstr "Бекор кардан"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:131
+msgid "Category for this notification"
+msgstr "Категория барои ин огоҳинома"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:115
+msgid "Change notification category"
+msgstr "Тағйири категорияи огоҳинома"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:315
+msgid "Choose between default expanded, compact icon-only, or full layout mode"
+msgstr "Байни ҳолати васеи пешфарз, иконкавии паймон ё намуди пурра интихоб кунед"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:257
+msgid "Choose between inset, floating, or standard sidebar layout"
+msgstr "Байни тарҳбандии inset, шиновар ё стандартии панели канорӣ интихоб кунед"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:358
+msgid "Choose between left-to-right or right-to-left site direction"
+msgstr "Байни самти аз чап ба рост ё аз рост ба чап интихоб кунед"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:213
+msgid "Choose between system preference, light mode, or dark mode"
+msgstr "Байни танзимоти система, ҳолати равшан ё ҳолати торик интихоб кунед"
+
+#: ../../../lib/web/src/components/language-picker.tsx:167
+msgid "Choose language"
+msgstr "Забон интихоб кунед"
+
+#: ../../../lib/web/src/components/colour-picker.tsx:304
+msgid "Clear"
+msgstr "Тоза кардан"
+
+#: ../../../lib/web/src/components/filter-bar.tsx:64
+msgid "Clear all"
+msgstr "Ҳамаро тоза кардан"
+
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:137
+msgid "Clear filters"
+msgstr "Тоза кардани филтрҳо"
+
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:164
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
+msgid "Clear selection"
+msgstr "Тоза кардани интихоб"
+
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:165
+msgid "Clear selection (Escape)"
+msgstr "Тоза кардани интихоб (Escape)"
+
+#: ../../../lib/web/src/components/ui/dialog.tsx:75
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/sheet.tsx:76
+msgid "Close"
+msgstr "Пӯшидан"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:97
+msgid "Close navigation"
+msgstr "Пӯшидани навигатсия"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:254
+msgid "Close Panel"
+msgstr "Пӯшидани панел"
+
+#: ../../../lib/web/src/components/header-search.tsx:51
+msgid "Close search"
+msgstr "Пӯшидани ҷустуҷӯ"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+msgid "Collapse sidebar"
+msgstr "Ҷамъ кардани панели канорӣ"
+
+#: ../../../lib/web/src/components/coming-soon.tsx:9
+msgid "Coming Soon!"
+msgstr "Ба наздикӣ!"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:302
+msgid "Compact"
+msgstr "Паймон"
+
+#: ../../../lib/web/src/components/place-picker.tsx:155
+#: ../../../lib/web/src/components/travelling-picker.tsx:299
+msgid "Confirm"
+msgstr "Тасдиқ"
+
+#: ../../../lib/web/src/lib/query-client.ts:78
+msgid "Content not modified"
+msgstr "Мундариҷа тағйир дода нашуд"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:145
+msgid "Contextual information and details."
+msgstr "Маълумоти заминавӣ ва тафсилот."
+
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:72
+msgid "Continue"
+msgstr "Идома"
+
+#: ../../../lib/web/src/components/ui/copy-button.tsx:60
+msgid "Copy"
+msgstr "Нусхабардорӣ"
+
+#: src/routes/_authenticated/app/$appId.tsx:326
+msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
+msgstr "Ин ID-ро нусхабардорӣ карда дар саҳифаи Apps-и сервери Mochi-и худ ҷойгузин кунед, то насб шавад."
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Core identification for this application"
+msgstr "Шиносоии асосӣ барои ин барнома"
+
+#: src/routes/_authenticated/app/$appId.tsx:538
+msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
+msgstr "Эҷоди муҳити нав (масалан Beta, Staging) барои гузориши build-ҳо."
+
+#: src/features/apps/index.tsx:50
+#: src/features/apps/index.tsx:51
+#: src/features/apps/index.tsx:55
+#: src/features/apps/index.tsx:82
+#: src/features/apps/index.tsx:171
+#: src/features/apps/index.tsx:211
+msgid "Create app"
+msgstr "Эҷоди барнома"
+
+#: src/features/apps/index.tsx:169
+msgid "Create new app"
+msgstr "Эҷоди барномаи нав"
+
+#: src/routes/_authenticated/app/$appId.tsx:191
+msgid "Create track"
+msgstr "Эҷоди track"
+
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "Эҷоди Track"
+
+#: src/features/apps/index.tsx:78
+msgid "Create your first app to get started"
+msgstr "Барои оғоз аввалин барномаи худро эҷод кунед"
+
+#: src/routes/_authenticated/app/$appId.tsx:462
+msgid "Create your first release track to manage deployments"
+msgstr "Аввалин Release Track-и худро эҷод кунед, то гузоришҳоро идора кунед"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "Эҷод карда истодааст..."
+
+#: ../../../lib/web/src/components/config-drawer.tsx:205
+#: ../../../lib/web/src/lib/preference-utils.ts:17
+msgid "Dark"
+msgstr "Торик"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:88
+#: ../../../lib/web/src/components/layout/nav-user.tsx:151
+#: ../../../lib/web/src/components/layout/nav-user.tsx:202
+#: ../../../lib/web/src/components/profile-dropdown.tsx:84
+#: ../../../lib/web/src/components/profile-dropdown.tsx:120
+msgid "Dark mode"
+msgstr "Ҳолати торик"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:297
+msgid "Default"
+msgstr "Пешфарз"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:169
+msgid "Default AI account"
+msgstr "Ҳисоби пешфарз AI"
+
+#: src/routes/_authenticated/app/$appId.tsx:443
+msgid "Default track set to \"{track}\""
+msgstr "Track-и пешфарз ба \"{track}\" танзим карда шуд"
+
+#: src/routes/_authenticated/app/$appId.tsx:517
+msgid "Delete track"
+msgstr "Нест кардани track"
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:60
+msgid "Desc"
+msgstr "Камшаванда"
+
+#: src/routes/_authenticated/app/$appId.tsx:334
+msgid "Details"
+msgstr "Тафсилот"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:144
+msgid "Details Panel"
+msgstr "Панели тафсилот"
+
+#: ../../../lib/web/src/components/language-picker.tsx:145
+#: ../../../lib/web/src/components/timezone-select.tsx:43
+#: ../../../lib/web/src/components/timezone-select.tsx:80
+#: ../../../lib/web/src/lib/preference-utils.ts:25
+#: ../../../lib/web/src/lib/preference-utils.ts:37
+#: ../../../lib/web/src/lib/preference-utils.ts:55
+#: ../../../lib/web/src/lib/preference-utils.ts:69
+#: ../../../lib/web/src/lib/preference-utils.ts:81
+msgid "Detect from web browser"
+msgstr "Аз браузери веб муайян кардан"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:327
+msgid "Direction"
+msgstr "Самт"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:235
+msgid "Displays the mobile sidebar."
+msgstr "Панели канории мобилиро намоиш медиҳад."
+
+#: src/routes/_authenticated/app/$appId.tsx:216
+msgid "Distribution"
+msgstr "Тақсимот"
+
+#: src/routes/_authenticated/app/$appId.tsx:75
+msgid "Distribution set to {distribution}"
+msgstr "Тақсимот ба {distribution} танзим карда шуд"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+msgid "Download"
+msgstr "Боргирӣ"
+
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "масалан, Staging"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+msgid "Expand sidebar"
+msgstr "Васеъ кардани панели канорӣ"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:217
+msgid "Failed to add account"
+msgstr "Илова кардани ҳисоб ба анҷом нарасид"
+
+#: src/features/apps/index.tsx:159
+msgid "Failed to create app"
+msgstr "Эҷоди барнома ба анҷом нарасид"
+
+#: src/routes/_authenticated/app/$appId.tsx:404
+msgid "Failed to create track"
+msgstr "Эҷоди роҳ ба анҷом нарасид"
+
+#: src/routes/_authenticated/app/$appId.tsx:432
+msgid "Failed to delete track"
+msgstr "Ҳазфи роҳ ба анҷом нарасид"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:226
+msgid "Failed to remove account"
+msgstr "Бартараф кардани ҳисоб ба анҷом нарасид"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:249
+msgid "Failed to send verification code"
+msgstr "Ирсоли рамзи тасдиқ ба анҷом нарасид"
+
+#: src/routes/_authenticated/app/$appId.tsx:446
+msgid "Failed to set default track"
+msgstr "Гузоштани масири пешфарз ба анҷом нарасид"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:104
+msgid "Failed to update category"
+msgstr "Навсозии категория ба анҷом нарасид"
+
+#: src/routes/_authenticated/app/$appId.tsx:78
+msgid "Failed to update distribution"
+msgstr "Навсозии тақсимот ба анҷом нарасид"
+
+#: src/routes/_authenticated/app/$appId.tsx:418
+msgid "Failed to update track"
+msgstr "Навсозии масир ба анҷом нарасид"
+
+#: src/routes/_authenticated/app/$appId.tsx:645
+msgid "Failed to upload version"
+msgstr "Боркунии нусха ба анҷом нарасид"
+
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:336
+msgid "Fingerprint"
+msgstr "Нақши ангушт"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:244
+msgid "Floating"
+msgstr "Шинокунанда"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:60
+msgid "Friday"
+msgstr "Ҷумъа"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:149
+msgid "From"
+msgstr "Аз"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:307
+msgid "Full layout"
+msgstr "Тарҳбандии пурра"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:19
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
+msgid "Go Back"
+msgstr "Бозгашт"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:75
+msgid "Go to first page"
+msgstr "Ба саҳифаи якум рафтан"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:121
+msgid "Go to last page"
+msgstr "Ба саҳифаи охирин рафтан"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:112
+msgid "Go to next page"
+msgstr "Ба саҳифаи навбатӣ рафтан"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:84
+msgid "Go to previous page"
+msgstr "Ба саҳифаи қаблӣ рафтан"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:159
+msgid "Group"
+msgstr "Гурӯҳ"
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:67
+msgid "Hide"
+msgstr "Пинҳон кардан"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
+#: ../../../lib/web/src/components/layout/top-bar.tsx:62
+#: ../../../lib/web/src/components/layout/top-bar.tsx:91
+msgid "Home"
+msgstr "Хона"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:41
+msgid "Hot"
+msgstr "Доғ"
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Identity"
+msgstr "Шахсият"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:83
+msgid "Imperial"
+msgstr "Империалӣ"
+
+#: src/routes/_authenticated/app/$appId.tsx:554
+msgid "Initial Version"
+msgstr "Версияи аввалия"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:239
+msgid "Inset"
+msgstr "Дохилӣ"
+
+#: src/routes/_authenticated/app/$appId.tsx:323
+msgid "Install App"
+msgstr "Насби барнома"
+
+#: src/routes/_authenticated/app/$appId.tsx:677
+msgid "Install Locally"
+msgstr "Насб дар маҳаллӣ"
+
+#: src/routes/_authenticated/app/$appId.tsx:323
+msgid "Install this application to your server"
+msgstr "Ин барномаро ба сервери худ насб кунед"
+
+#: src/routes/_authenticated/app/$appId.tsx:242
+msgid "Installation ID"
+msgstr "ID-и насб"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:39
+msgid "Interests"
+msgstr "Шавқҳо"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:237
+msgid "Invalid verification code"
+msgstr "Рамзи тасдиқ нодуруст"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:273
+msgid "Layout"
+msgstr "Тарҳбандӣ"
+
+#: ../../../lib/web/src/components/learn-more.tsx:27
+msgid "Learn more"
+msgstr "Маълумоти бештар"
+
+#: src/routes/_authenticated/app/$appId.tsx:560
+msgid "Leave empty"
+msgstr "Холӣ гузоред"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:341
+msgid "Left to Right"
+msgstr "Аз чап ба рост"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:200
+#: ../../../lib/web/src/lib/preference-utils.ts:16
+msgid "Light"
+msgstr "Равшан"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:32
+msgid "Load more"
+msgstr "Бештар бор кунед"
+
+#: src/routes/_authenticated/app/$appId.tsx:98
+msgid "Loading app..."
+msgstr "Барнома бор карда мешавад..."
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:32
+msgid "Loading…"
+msgstr "Бор карда мешавад…"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:98
+#: ../../../lib/web/src/components/layout/nav-user.tsx:164
+#: ../../../lib/web/src/components/layout/nav-user.tsx:212
+#: ../../../lib/web/src/components/profile-dropdown.tsx:66
+#: ../../../lib/web/src/components/profile-dropdown.tsx:95
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:23
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+msgid "Log out"
+msgstr "Баромадан"
+
+#: ../../../lib/web/src/hooks/use-logout.ts:16
+msgid "Logged out (with errors)"
+msgstr "Баромадан (бо хатогиҳо)"
+
+#: ../../../lib/web/src/hooks/use-logout.ts:14
+msgid "Logged out successfully"
+msgstr "Бомуваффақият баромад"
+
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+msgid "Logging out…"
+msgstr "Баромадан…"
+
+#: src/features/apps/index.tsx:189
+msgid "Make app publicly available"
+msgstr "Барномаро ба таври оммавӣ дастрас кунед"
+
+#: src/routes/_authenticated/app/$appId.tsx:455
+msgid "Manage deployment environments and their versions"
+msgstr "Идоракунии муҳитҳои гузориш ва версияҳои онҳо"
+
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:220
+msgid "Mark all as read"
+msgstr "Аломатгузорӣ ҳамчун хондашуда"
+
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
+msgid "Menu"
+msgstr "Меню"
+
+#: src/routes/_authenticated/app/$appId.tsx:334
+msgid "Metadata and configuration"
+msgstr "Метамаълумот ва танзимот"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:82
+msgid "Metric"
+msgstr "Метрӣ"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:56
+msgid "Monday"
+msgstr "Душанбе"
+
+#: src/features/apps/index.tsx:184
+msgid "My App"
+msgstr "Барномаи ман"
+
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "Мавҷуд нест"
+
+#: src/features/apps/index.tsx:178
+msgid "Name"
+msgstr "Ном"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:40
+msgid "New"
+msgstr "Нав"
+
+#: src/routes/_authenticated/app/$appId.tsx:536
+msgid "New Release Track"
+msgstr "Роҳи Release-и нав"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+msgid "Next image"
+msgstr "Тасвири навбатӣ"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "Не"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:156
+msgid "No access rules configured. Add rules to control who can access this resource."
+msgstr "Ягон қоидаи дастрасӣ танзим нашудааст. Барои назорати касе ки ба ин манбаъ дастрасӣ дорад қоидаҳо илова кунед."
+
+#: src/features/apps/index.tsx:77
+msgid "No apps yet"
+msgstr "То ҳол ягон барнома нест"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:287
+msgid "No connected accounts"
+msgstr "Ягон ҳисоби пайвастшуда нест"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:238
+msgid "No groups available"
+msgstr "Ягон гурӯҳ дастрас нест"
+
+#: ../../../lib/web/src/components/language-picker.tsx:177
+msgid "No matches."
+msgstr "Ҳеҷ мувофиқат нест."
+
+#: ../../../lib/web/src/components/place-picker.tsx:129
+msgid "No places found"
+msgstr "Ягон ҷой ёфт нашуд"
+
+#: ../../../lib/web/src/components/profile-dropdown.tsx:55
+msgid "No profile"
+msgstr "Профил нест"
+
+#: ../../../lib/web/src/components/command-menu.tsx:52
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:87
+msgid "No results found."
+msgstr "Ягон натиҷа ёфт нашуд."
+
+#: ../../../lib/web/src/components/timezone-select.tsx:64
+msgid "No time zone found."
+msgstr "Ягон минтақаи вақт ёфт нашуд."
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
+msgid "No topic record yet — try again after the next notification."
+msgstr "Ягон сабти мавзӯъ ҳоло нест — пас аз огоҳиномаи навбатӣ боз кӯшиш кунед."
+
+#: src/routes/_authenticated/app/$appId.tsx:461
+msgid "No tracks"
+msgstr "Ягон роҳ нест"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:203
+msgid "No users found"
+msgstr "Ягон корбар ёфт нашуд"
+
+#: src/routes/_authenticated/app/$appId.tsx:557
+msgid "No version"
+msgstr "Версия нест"
+
+#: src/routes/_authenticated/app/$appId.tsx:256
+msgid "No versions"
+msgstr "Версияҳо нестанд"
+
+#: ../../../lib/web/src/components/person-picker.tsx:349
+msgid "None"
+msgstr "Ҳеҷ кадом"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:132
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:146
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:247
+msgid "Notifications"
+msgstr "Огоҳиномаҳо"
+
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+msgid "Oops! Page Not Found!"
+msgstr "Эҳ! Саҳифа ёфт нашуд!"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:150
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:151
+msgid "Open account actions"
+msgstr "Кушодани амалҳои ҳисоб"
+
+#: ../../../lib/web/src/components/layout/top-bar.tsx:57
+msgid "Open navigation"
+msgstr "Кушодани навигатсия"
+
+#: ../../../lib/web/src/components/layout/top-nav.tsx:32
+#: ../../../lib/web/src/components/layout/top-nav.tsx:33
+msgid "Open navigation menu"
+msgstr "Кушодани менюи навигатсия"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:51
+msgid "Open theme settings"
+msgstr "Кушодани танзимоти мавзӯъ"
+
+#: src/routes/_authenticated/app/$appId.tsx:500
+msgid "Open track actions"
+msgstr "Кушодани амалҳои роҳ"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:163
+msgid "Other"
+msgstr "Дигар"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:213
+msgid "Owner"
+msgstr "Соҳиб"
+
+#: src/features/apps/index.tsx:143
+msgid "Please enter an app name"
+msgstr "Лутфан номи барномаро ворид кунед"
+
+#: src/routes/_authenticated/app/$appId.tsx:621
+msgid "Please select a file"
+msgstr "Лутфан файлеро интихоб кунед"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+msgid "Previous image"
+msgstr "Тасвири қаблӣ"
+
+#: src/routes/_authenticated/app/$appId.tsx:339
+msgid "Privacy"
+msgstr "Махфият"
+
+#: src/routes/_authenticated/app/$appId.tsx:207
+msgid "Privacy Policy"
+msgstr "Сиёсати махфият"
+
+#: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
+msgid "Private"
+msgstr "Хусусӣ"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:134
+#: ../../../lib/web/src/components/profile-dropdown.tsx:111
+msgid "Profile"
+msgstr "Профил"
+
+#: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
+msgid "Public"
+msgstr "Ҷамъиятӣ"
+
+#: src/features/apps/index.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:226
+msgid "Published"
+msgstr "Нашршуда"
+
+#: src/features/apps/index.tsx:32
+#: src/features/apps/index.tsx:46
+msgid "Publisher"
+msgstr "Нашркунанда"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:216
+#: ../../../lib/web/src/components/search-entity-page.tsx:191
+msgid "Recommended"
+msgstr "Тавсияшуда"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:130
+msgid "Redirecting to login."
+msgstr "Тағйир ба воридшавӣ."
+
+#: ../../../lib/web/src/components/post-tags.tsx:175
+msgid "Reduce interest"
+msgstr "Кам кардани шавқу ҳавас"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:47
+msgid "Relative (5m, 3h, 2d)"
+msgstr "Нисбӣ (5д, 3с, 2р)"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:46
+msgid "Relative within 24 hours, else absolute"
+msgstr "Нисбӣ дар 24 соат, дар акси ҳол мутлақ"
+
+#: src/routes/_authenticated/app/$appId.tsx:454
+msgid "Release Tracks"
+msgstr "Роҳҳои Release"
+
+#: src/routes/_authenticated/app/$appId.tsx:350
+msgid "Release tracks currently active"
+msgstr "Роҳҳои Release-и ҳозира фаъол"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:257
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:172
+msgid "Remove"
+msgstr "Хориҷ кардан"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:241
+#: ../../../lib/web/src/features/access/access-list.tsx:242
+msgid "Remove access rule"
+msgstr "Хориҷ кардани қоидаи дастрасӣ"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:249
+msgid "Remove access?"
+msgstr "Дастрасиро хориҷ кардан?"
+
+#: ../../../lib/web/src/components/post-tags.tsx:190
+msgid "Remove interest"
+msgstr "Хориҷ кардани шавқу ҳавас"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:77
+msgid "Reset"
+msgstr "Барқарорсозӣ"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:75
+msgid "Reset all settings to default values"
+msgstr "Барқарорсозии ҳамаи танзимот ба қиматҳои нобаёнӣ"
+
+#: src/features/apps/index.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:227
+msgid "Restricted"
+msgstr "Маҳдудшуда"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:348
+msgid "Right to Left"
+msgstr "Аз рост ба чап"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:60
+msgid "Rows per page"
+msgstr "Сатрҳо дар як саҳифа"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:61
+msgid "Saturday"
+msgstr "Шанбе"
+
+#: ../../../lib/web/src/components/place-picker.tsx:82
+msgid "Search for a place"
+msgstr "Ҷустуҷӯи ҷой"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:234
+msgid "Search for destination..."
+msgstr "Ҷустуҷӯи ҷои таъинот..."
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:173
+msgid "Search for origin..."
+msgstr "Ҷустуҷӯи манбаъ..."
+
+#: ../../../lib/web/src/components/timezone-select.tsx:62
+msgid "Search time zone..."
+msgstr "Ҷустуҷӯи минтақаи вақт..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:170
+msgid "Search users"
+msgstr "Ҷустуҷӯи корбарон"
+
+#: ../../../lib/web/src/components/person-picker.tsx:323
+msgid "Search..."
+msgstr "Ҷустуҷӯ..."
+
+#: ../../../lib/web/src/components/language-picker.tsx:175
+msgid "Search…"
+msgstr "Ҷустуҷӯ…"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:174
+#: ../../../lib/web/src/components/search-entity-page.tsx:149
+#: ../../../lib/web/src/features/access/access-dialog.tsx:199
+msgid "Searching..."
+msgstr "Ҷустуҷӯ карда мешавад..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:147
+msgid "Select a user, group, or other rule to grant access."
+msgstr "Як корбар, гурӯҳ, ё қоидаи дигарро барои додани дастрасӣ интихоб кунед."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:270
+msgid "Select access rule"
+msgstr "Интихоби қоидаи дастрасӣ"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:126
+msgid "Select account type"
+msgstr "Интихоби намуди ҳисоб"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:228
+msgid "Select group"
+msgstr "Гурӯҳро интихоб кунед"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:291
+msgid "Select layout style"
+msgstr "Сабки тарҳбандиро интихоб кунед"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:233
+msgid "Select sidebar style"
+msgstr "Сабки панели паҳлӯро интихоб кунед"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:335
+msgid "Select site direction"
+msgstr "Самти сайтро интихоб кунед"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:189
+msgid "Select theme preference"
+msgstr "Афзалияти мавзӯъро интихоб кунед"
+
+#: ../../../lib/web/src/lib/api-client.ts:224
+msgid "Session expired"
+msgstr "Сессия ба охир расид"
+
+#: src/routes/_authenticated/app/$appId.tsx:510
+msgid "Set as default"
+msgstr "Ҳамчун пешфарз таъин кардан"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:143
+msgid "Set origin and destination"
+msgstr "Сарчашма ва таъиноти манзилро таъин кунед"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:81
+#: ../../../lib/web/src/components/layout/nav-user.tsx:145
+#: ../../../lib/web/src/components/layout/nav-user.tsx:195
+msgid "Settings"
+msgstr "Танзимот"
+
+#: src/routes/_authenticated/app/$appId.tsx:236
+msgid "Share this ID to allow others to install this app"
+msgstr "Ин ID-ро мубодила кунед, то дигарон тавонанд ин барномаро насб кунанд"
+
+#: src/routes/_authenticated/app/$appId.tsx:235
+msgid "Sharing"
+msgstr "Мубодила"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:36
+msgid "Showing {totalShown} of {total}"
+msgstr "{totalShown} аз {total} нишон дода мешавад"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:225
+#: ../../../lib/web/src/components/config-drawer.tsx:249
+#: ../../../lib/web/src/components/ui/sidebar.tsx:234
+msgid "Sidebar"
+msgstr "Панели паҳлӯ"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:128
+msgid "Signing out..."
+msgstr "Аз ҳисоб баромадан..."
+
+#: ../../../lib/web/src/components/skip-to-main.tsx:8
+msgid "Skip to Main"
+msgstr "Гузаштан ба қисми асосӣ"
+
+#: ../../../lib/web/src/components/coming-soon.tsx:12
+msgid "Stay tuned though!"
+msgstr "Аммо мунтазир бошед!"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:187
+msgid "Subject"
+msgstr "Мавзӯъ"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:62
+msgid "Sunday"
+msgstr "Якшанбе"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:195
+#: ../../../lib/web/src/lib/preference-utils.ts:18
+msgid "System"
+msgstr "Система"
+
+#: ../../../lib/web/src/components/tag-input.tsx:91
+msgid "Tag"
+msgstr "Барчасп"
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:60
+msgid "Teams/Apps"
+msgstr "Дастаҳо/Барномаҳо"
+
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:142
+msgid "The requested app could not be found."
+msgstr "Барномаи дархостшуда ёфт нашуд."
+
+#: ../../../lib/web/src/components/config-drawer.tsx:181
+msgid "Theme"
+msgstr "Мавзӯъ"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:60
+msgid "Theme Settings"
+msgstr "Танзимоти мавзӯъ"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:59
+msgid "Thursday"
+msgstr "Панҷшанбе"
+
+#: ../../../lib/web/src/components/data-table/view-options.tsx:34
+msgid "Toggle columns"
+msgstr "Тағйир додани сутунҳо"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:227
+msgid "Toggle Right Panel"
+msgstr "Тағйир додани панели рост"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:312
+#: ../../../lib/web/src/components/ui/sidebar.tsx:324
+#: ../../../lib/web/src/components/ui/sidebar.tsx:327
+msgid "Toggle Sidebar"
+msgstr "Тағйир додани панели паҳлӯ"
+
+#: ../../../lib/web/src/components/theme-switch.tsx:31
+msgid "Toggle theme"
+msgstr "Тағйир додани мавзӯъ"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:42
+msgid "Top"
+msgstr "Боло"
+
+#: src/routes/_authenticated/app/$appId.tsx:429
+msgid "Track \"{track}\" deleted"
+msgstr "Track-и \"{track}\" нест карда шуд"
+
+#: src/routes/_authenticated/app/$appId.tsx:415
+msgid "Track \"{track}\" updated to {version}"
+msgstr "Track-и \"{track}\" ба {version} навсозӣ шуд"
+
+#: src/routes/_authenticated/app/$appId.tsx:398
+msgid "Track created"
+msgstr "Track сохта шуд"
+
+#: src/routes/_authenticated/app/$appId.tsx:544
+msgid "Track Name"
+msgstr "Номи Track"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:141
+msgid "Travelling"
+msgstr "Сафар"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:190
+#: ../../../lib/web/src/components/search-entity-page.tsx:165
+msgid "Try adjusting your search terms"
+msgstr "Истилоҳҳои ҷустуҷӯи худро танзим кунед"
+
+#: ../../../lib/web/src/features/errors/general-error.tsx:125
+#: ../../../lib/web/src/features/errors/general-error.tsx:165
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+msgid "Try again"
+msgstr "Аз нав кӯшиш кунед"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:57
+msgid "Tuesday"
+msgstr "Сешанбе"
+
+#: ../../../lib/web/src/components/command-menu.tsx:49
+msgid "Type a command or search..."
+msgstr "Фармонеро чоп кунед ё ҷустуҷӯ кунед..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:188
+msgid "Type to search users"
+msgstr "Барои ҷустуҷӯи корбарон чоп кунед"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:180
+msgid "Type to search..."
+msgstr "Барои ҷустуҷӯ чоп кунед..."
+
+#: ../../../lib/web/src/lib/auth-manager.ts:82
+#: ../../../lib/web/src/lib/auth-manager.ts:94
+msgid "Unable to redirect to login. Please try again."
+msgstr "Ба воридшавӣ равона кардан имконнопазир аст. Лутфан дубора кӯшиш кунед."
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:143
+msgid "Unassigned"
+msgstr "Таъин нашудааст"
+
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+msgid "Unauthorized Access"
+msgstr "Дастрасии иҷозат додашуда не"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:84
+msgid "United States"
+msgstr "Иёлоти Муттаҳида"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:131
+msgid "Unverified"
+msgstr "Тасдиқ нашудааст"
+
+#: src/routes/_authenticated/app/$appId.tsx:693
+msgid "Update Tracks"
+msgstr "Навсозии Track-ҳо"
+
+#: src/routes/_authenticated/app/$appId.tsx:657
+msgid "Upload a .zip build file for your application."
+msgstr "Файли .zip Build-и барномаи худро бор кунед."
+
+#: src/routes/_authenticated/app/$appId.tsx:185
+msgid "Upload new version"
+msgstr "Бор кардани версияи нав"
+
+#: src/routes/_authenticated/app/$appId.tsx:655
+msgid "Upload New Version"
+msgstr "Бор кардани версияи нав"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "Бор кардани версия"
+
+#: src/routes/_authenticated/app/$appId.tsx:257
+msgid "Upload your first build to get started"
+msgstr "Барои оғоз Build-и аввалини худро бор кунед"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "Бор шуда истодааст..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:155
+msgid "User"
+msgstr "Корбар"
+
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Users can install this application by pasting this identifier into their Apps management page."
+msgstr "Корбарон метавонанд ин барномаро бо часпонидани ин идентификатор ба саҳифаи идоракунии Барномаҳои худ насб кунанд."
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:68
+msgid "Verification code"
+msgstr "Рамзи тасдиқ"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:247
+msgid "Verification code sent"
+msgstr "Рамзи тасдиқ фиристода шуд"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:240
+msgid "Verification failed"
+msgstr "Тасдиқ ноком шуд"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+msgid "Verify"
+msgstr "Тасдиқ кардан"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:58
+msgid "Verify email address"
+msgstr "Тасдиқи суроғаи почтаи электронӣ"
+
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "Версияи {0} сохта шуд."
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "Version History"
+msgstr "Таърихи версияҳо"
+
+#: src/routes/_authenticated/app/$appId.tsx:632
+msgid "Version uploaded"
+msgstr "Версия бор карда шуд"
+
+#: ../../../lib/web/src/components/data-table/view-options.tsx:30
+msgid "View"
+msgstr "Намоиш"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:173
+msgid "View all"
+msgstr "Ҳамаро дидан"
+
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:94
+msgid "View all notifications"
+msgstr "Ҳама огоҳиҳоро дидан"
+
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+msgid "We'll be back online shortly."
+msgstr "Мо ба зудӣ дубора онлайн хоҳем буд."
+
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+msgid "Website is under maintenance!"
+msgstr "Сомона дар ҳолати таъмир аст!"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:58
+msgid "Wednesday"
+msgstr "Чоршанбе"
+
+#: src/features/apps/index.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:685
+msgid "Yes"
+msgstr "Бале"
+
+#: src/routes/_authenticated/app/$appId.tsx:686
+msgid "Yes, force"
+msgstr "Бале, маҷбур"

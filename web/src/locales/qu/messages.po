@@ -1,0 +1,1228 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-05-08 12:06+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: qu\n"
+
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "{name} allinta ruwasqa kapun."
+
+#: ../../../lib/web/src/lib/preference-utils.ts:39
+msgid "12 hours"
+msgstr "12 hora"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:38
+msgid "24 hours"
+msgstr "24 hora"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:48
+msgid "Absolute (date and time)"
+msgstr "Sut'i (p'unchaw hinaspa hora)"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+msgid "Access Forbidden"
+msgstr "Yaykuy mana saqisqa"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:188
+msgid "Access level"
+msgstr "Yaykuy patachan"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:208
+msgid "Account added"
+msgstr "Cuenta yapasqa"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:224
+msgid "Account removed"
+msgstr "Cuenta hurqusqa"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:123
+msgid "Account type"
+msgstr "Cuenta laya"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:234
+msgid "Account verified"
+msgstr "Cuenta takyachisqa"
+
+#: src/routes/_authenticated/app/$appId.tsx:479
+msgid "Active version"
+msgstr "Kawsachkan version"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:117
+msgid "Add a new account"
+msgstr "Musuq cuenta yapay"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:145
+msgid "Add access"
+msgstr "Yaykuy yapay"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:116
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:280
+msgid "Add account"
+msgstr "Cuenta yapay"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:289
+msgid "Add an account to receive notifications and use services."
+msgstr "Cuentata yapay willaykunata chaskinaykipaq hinaspa servicios apaykachanaykipaq."
+
+#: ../../../lib/web/src/features/accounts/account-picker.tsx:98
+msgid "Add new account"
+msgstr "Musuq cuenta yapay"
+
+#: ../../../lib/web/src/components/post-tags.tsx:119
+msgid "Add tag..."
+msgstr "Tag yapay..."
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:80
+msgid "Add team/app"
+msgstr "Equipo/app yapay"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:159
+msgid "Add to existing notifications"
+msgstr "Kawsachkan willaykuna-man yapay"
+
+#: ../../../lib/web/src/components/view-tabs.tsx:57
+msgid "Add view"
+msgstr "Vista yapay"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:62
+msgid "Adjust the appearance and layout to suit your preferences."
+msgstr "Llinp'i hinaspa kamariyta munasqaykiman hina allichay."
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:38
+msgid "AI"
+msgstr "AI"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:159
+msgid "All"
+msgstr "Llapan"
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "All uploaded build files for this application"
+msgstr "Llapan winasqa build archivos kay aplicación-paq"
+
+#: src/routes/_authenticated/app/$appId.tsx:92
+#: src/routes/_authenticated/app/$appId.tsx:126
+msgid "App"
+msgstr "App"
+
+#: src/features/apps/index.tsx:151
+msgid "App created"
+msgstr "App kamarisqa"
+
+#: src/routes/_authenticated/app/$appId.tsx:328
+msgid "App ID"
+msgstr "App ID"
+
+#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:116
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:141
+msgid "App not found"
+msgstr "App mana tarisqa"
+
+#: src/routes/_authenticated/app/$appId.tsx:201
+msgid "Application ID"
+msgstr "Aplicación ID"
+
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:24
+msgid "Are you sure you want to log out? You will need to log in again to access your account."
+msgstr "Lluqsiyta munanki? Kutichiy yaykunaykipaq cuenta-yki-pi."
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:56
+msgid "Asc"
+msgstr "Wichaymanta"
+
+#: src/routes/_authenticated/app/$appId.tsx:350
+msgid "Available Versions"
+msgstr "Atikuq Versiones"
+
+#: ../../../lib/web/src/components/place-picker.tsx:152
+msgid "Back"
+msgstr "Kutichiy"
+
+#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:162
+#: src/routes/_authenticated/app/$appId.tsx:320
+msgid "Back to apps"
+msgstr "Apps-man kutichiy"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Back to Home"
+msgstr "Wasi-man kutichiy"
+
+#: ../../../lib/web/src/components/post-tags.tsx:160
+msgid "Boost interest"
+msgstr "Munay yapay"
+
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "Build Archivo (.zip)"
+
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
+#: ../../../lib/web/src/components/travelling-picker.tsx:292
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/features/access/access-dialog.tsx:325
+#: ../../../lib/web/src/features/access/access-list.tsx:255
+#: ../../../lib/web/src/features/accounts/account-add.tsx:185
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:86
+#: src/features/apps/index.tsx:208
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
+msgid "Cancel"
+msgstr "Mana ruway"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:131
+msgid "Category for this notification"
+msgstr "Kay willaykuna categoría"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:115
+msgid "Change notification category"
+msgstr "Willaykuna categoría tikray"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:315
+msgid "Choose between default expanded, compact icon-only, or full layout mode"
+msgstr "Default kichasqa, compact icono-lla, utaq hunt'a layout-pi akllay"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:257
+msgid "Choose between inset, floating, or standard sidebar layout"
+msgstr "Inset, floating, utaq standard sidebar layout-pi akllay"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:358
+msgid "Choose between left-to-right or right-to-left site direction"
+msgstr "Lluq'i-paña utaq paña-lluq'i pi akllay"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:213
+msgid "Choose between system preference, light mode, or dark mode"
+msgstr "Sistema munay, k'illa, utaq tutayaq pi akllay"
+
+#: ../../../lib/web/src/components/language-picker.tsx:167
+msgid "Choose language"
+msgstr "Simi akllay"
+
+#: ../../../lib/web/src/components/colour-picker.tsx:304
+msgid "Clear"
+msgstr "Pichay"
+
+#: ../../../lib/web/src/components/filter-bar.tsx:64
+msgid "Clear all"
+msgstr "Llapan pichay"
+
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:137
+msgid "Clear filters"
+msgstr "Filtros pichay"
+
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:164
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
+msgid "Clear selection"
+msgstr "Akllasqa pichay"
+
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:165
+msgid "Clear selection (Escape)"
+msgstr "Akllasqa pichay (Escape)"
+
+#: ../../../lib/web/src/components/ui/dialog.tsx:75
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/sheet.tsx:76
+msgid "Close"
+msgstr "Wichq'ay"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:97
+msgid "Close navigation"
+msgstr "Navegación wichq'ay"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:254
+msgid "Close Panel"
+msgstr "Panel Wichq'ay"
+
+#: ../../../lib/web/src/components/header-search.tsx:51
+msgid "Close search"
+msgstr "Maskhay wichq'ay"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+msgid "Collapse sidebar"
+msgstr "Sidebar pisichay"
+
+#: ../../../lib/web/src/components/coming-soon.tsx:9
+msgid "Coming Soon!"
+msgstr "Hamuchkan!"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:302
+msgid "Compact"
+msgstr "Pisi"
+
+#: ../../../lib/web/src/components/place-picker.tsx:155
+#: ../../../lib/web/src/components/travelling-picker.tsx:299
+msgid "Confirm"
+msgstr "Takyachiy"
+
+#: ../../../lib/web/src/lib/query-client.ts:78
+msgid "Content not modified"
+msgstr "Imayna mana hukchasqa"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:145
+msgid "Contextual information and details."
+msgstr "Contextual willariy hinaspa willariykuna."
+
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:72
+msgid "Continue"
+msgstr "Qatiy"
+
+#: ../../../lib/web/src/components/ui/copy-button.tsx:60
+msgid "Copy"
+msgstr "Copiay"
+
+#: src/routes/_authenticated/app/$appId.tsx:326
+msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
+msgstr "Kay ID copiay hinaspa Mochi servidor-niyki Apps pagina-pi pegay churanaykipaq."
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Core identification for this application"
+msgstr "Kay aplicación-paq qillqana riqsiy"
+
+#: src/routes/_authenticated/app/$appId.tsx:538
+msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
+msgstr "Musuq entorno kamariy (e.g. Beta, Staging) builds churanapaq."
+
+#: src/features/apps/index.tsx:50
+#: src/features/apps/index.tsx:51
+#: src/features/apps/index.tsx:55
+#: src/features/apps/index.tsx:82
+#: src/features/apps/index.tsx:171
+#: src/features/apps/index.tsx:211
+msgid "Create app"
+msgstr "App kamariy"
+
+#: src/features/apps/index.tsx:169
+msgid "Create new app"
+msgstr "Musuq app kamariy"
+
+#: src/routes/_authenticated/app/$appId.tsx:191
+msgid "Create track"
+msgstr "Track kamariy"
+
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "Track Kamariy"
+
+#: src/features/apps/index.tsx:78
+msgid "Create your first app to get started"
+msgstr "Qallariq app kamariy qallarinaykipaq"
+
+#: src/routes/_authenticated/app/$appId.tsx:462
+msgid "Create your first release track to manage deployments"
+msgstr "Qallariq release track kamariy deployments apaykachanapaq"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "Kamarispa..."
+
+#: ../../../lib/web/src/components/config-drawer.tsx:205
+#: ../../../lib/web/src/lib/preference-utils.ts:17
+msgid "Dark"
+msgstr "Tutayaq"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:88
+#: ../../../lib/web/src/components/layout/nav-user.tsx:151
+#: ../../../lib/web/src/components/layout/nav-user.tsx:202
+#: ../../../lib/web/src/components/profile-dropdown.tsx:84
+#: ../../../lib/web/src/components/profile-dropdown.tsx:120
+msgid "Dark mode"
+msgstr "Tutayaq layapi"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:297
+msgid "Default"
+msgstr "Default"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:169
+msgid "Default AI account"
+msgstr "Default AI cuenta"
+
+#: src/routes/_authenticated/app/$appId.tsx:443
+msgid "Default track set to \"{track}\""
+msgstr "Default track \"{track}\"-pi churasqa"
+
+#: src/routes/_authenticated/app/$appId.tsx:517
+msgid "Delete track"
+msgstr "Track wischuy"
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:60
+msgid "Desc"
+msgstr "Uray"
+
+#: src/routes/_authenticated/app/$appId.tsx:334
+msgid "Details"
+msgstr "Willariykuna"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:144
+msgid "Details Panel"
+msgstr "Willariykuna Panel"
+
+#: ../../../lib/web/src/components/language-picker.tsx:145
+#: ../../../lib/web/src/components/timezone-select.tsx:43
+#: ../../../lib/web/src/components/timezone-select.tsx:80
+#: ../../../lib/web/src/lib/preference-utils.ts:25
+#: ../../../lib/web/src/lib/preference-utils.ts:37
+#: ../../../lib/web/src/lib/preference-utils.ts:55
+#: ../../../lib/web/src/lib/preference-utils.ts:69
+#: ../../../lib/web/src/lib/preference-utils.ts:81
+msgid "Detect from web browser"
+msgstr "Web browser-manta tariy"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:327
+msgid "Direction"
+msgstr "Imayna"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:235
+msgid "Displays the mobile sidebar."
+msgstr "Movil sidebar qhawachin."
+
+#: src/routes/_authenticated/app/$appId.tsx:216
+msgid "Distribution"
+msgstr "Distribución"
+
+#: src/routes/_authenticated/app/$appId.tsx:75
+msgid "Distribution set to {distribution}"
+msgstr "Distribución {distribution}-pi churasqa"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+msgid "Download"
+msgstr "Uray chaskiy"
+
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "e.g. Staging"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+msgid "Expand sidebar"
+msgstr "Sidebarta kichay"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:217
+msgid "Failed to add account"
+msgstr "Mana cuentata yapayta atinchu"
+
+#: src/features/apps/index.tsx:159
+msgid "Failed to create app"
+msgstr "Mana appta paqarichiyta atinchu"
+
+#: src/routes/_authenticated/app/$appId.tsx:404
+msgid "Failed to create track"
+msgstr "Mana trackta paqarichiyta atinchu"
+
+#: src/routes/_authenticated/app/$appId.tsx:432
+msgid "Failed to delete track"
+msgstr "Mana trackta pichayta atinchu"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:226
+msgid "Failed to remove account"
+msgstr "Mana cuentata pichayta atinchu"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:249
+msgid "Failed to send verification code"
+msgstr "Mana sut'inchay códigota apachiyta atinchu"
+
+#: src/routes/_authenticated/app/$appId.tsx:446
+msgid "Failed to set default track"
+msgstr "Mana ñawpaq trackta churayta atinchu"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:104
+msgid "Failed to update category"
+msgstr "Mana categoríata musuqyachiyta atinchu"
+
+#: src/routes/_authenticated/app/$appId.tsx:78
+msgid "Failed to update distribution"
+msgstr "Mana distribucionta musuqyachiyta atinchu"
+
+#: src/routes/_authenticated/app/$appId.tsx:418
+msgid "Failed to update track"
+msgstr "Mana trackta musuqyachiyta atinchu"
+
+#: src/routes/_authenticated/app/$appId.tsx:645
+msgid "Failed to upload version"
+msgstr "Mana versionta wichachiyta atinchu"
+
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:336
+msgid "Fingerprint"
+msgstr "Fingerprint"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:244
+msgid "Floating"
+msgstr "Phawaq"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:60
+msgid "Friday"
+msgstr "Viernes"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:149
+msgid "From"
+msgstr "Manta"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:307
+msgid "Full layout"
+msgstr "Hunt'asqa layout"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:19
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
+msgid "Go Back"
+msgstr "Kutiy"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:75
+msgid "Go to first page"
+msgstr "Ñawpaq paginaman riy"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:121
+msgid "Go to last page"
+msgstr "Tukuy paginaman riy"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:112
+msgid "Go to next page"
+msgstr "Qatiq paginaman riy"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:84
+msgid "Go to previous page"
+msgstr "Ñawpa paginaman riy"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:159
+msgid "Group"
+msgstr "Huñu"
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:67
+msgid "Hide"
+msgstr "Pakay"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
+#: ../../../lib/web/src/components/layout/top-bar.tsx:62
+#: ../../../lib/web/src/components/layout/top-bar.tsx:91
+msgid "Home"
+msgstr "Wasi"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:41
+msgid "Hot"
+msgstr "Q'uñi"
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Identity"
+msgstr "Identity"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:83
+msgid "Imperial"
+msgstr "Imperial"
+
+#: src/routes/_authenticated/app/$appId.tsx:554
+msgid "Initial Version"
+msgstr "Qallariq Version"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:239
+msgid "Inset"
+msgstr "Ukhupi"
+
+#: src/routes/_authenticated/app/$appId.tsx:323
+msgid "Install App"
+msgstr "App Sipiy"
+
+#: src/routes/_authenticated/app/$appId.tsx:677
+msgid "Install Locally"
+msgstr "Kaypi Sipiy"
+
+#: src/routes/_authenticated/app/$appId.tsx:323
+msgid "Install this application to your server"
+msgstr "Kay aplicacionta servidoryikipi sipiy"
+
+#: src/routes/_authenticated/app/$appId.tsx:242
+msgid "Installation ID"
+msgstr "Sipiy ID"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:39
+msgid "Interests"
+msgstr "Munakuykuna"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:237
+msgid "Invalid verification code"
+msgstr "Mana allin sut'inchay código"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:273
+msgid "Layout"
+msgstr "Layout"
+
+#: ../../../lib/web/src/components/learn-more.tsx:27
+msgid "Learn more"
+msgstr "Aswan yachay"
+
+#: src/routes/_authenticated/app/$appId.tsx:560
+msgid "Leave empty"
+msgstr "Ch'usaqta saqiy"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:341
+msgid "Left to Right"
+msgstr "Lluq'imanta Pañaman"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:200
+#: ../../../lib/web/src/lib/preference-utils.ts:16
+msgid "Light"
+msgstr "Sut'i"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:32
+msgid "Load more"
+msgstr "Aswan wichachiy"
+
+#: src/routes/_authenticated/app/$appId.tsx:98
+msgid "Loading app..."
+msgstr "App wichachichkan..."
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:32
+msgid "Loading…"
+msgstr "Wichachichkan…"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:98
+#: ../../../lib/web/src/components/layout/nav-user.tsx:164
+#: ../../../lib/web/src/components/layout/nav-user.tsx:212
+#: ../../../lib/web/src/components/profile-dropdown.tsx:66
+#: ../../../lib/web/src/components/profile-dropdown.tsx:95
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:23
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+msgid "Log out"
+msgstr "Lluqsiy"
+
+#: ../../../lib/web/src/hooks/use-logout.ts:16
+msgid "Logged out (with errors)"
+msgstr "Lluqsirqun (pantaykunawan)"
+
+#: ../../../lib/web/src/hooks/use-logout.ts:14
+msgid "Logged out successfully"
+msgstr "Allinta lluqsirqun"
+
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+msgid "Logging out…"
+msgstr "Lluqsichkan…"
+
+#: src/features/apps/index.tsx:189
+msgid "Make app publicly available"
+msgstr "Appta llapanpaq atikuq ruway"
+
+#: src/routes/_authenticated/app/$appId.tsx:455
+msgid "Manage deployment environments and their versions"
+msgstr "Despliegue entornokunata hinaspa versionninkunata kamachiy"
+
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:220
+msgid "Mark all as read"
+msgstr "Llapanta ñawinchasqaman churay"
+
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
+msgid "Menu"
+msgstr "Menu"
+
+#: src/routes/_authenticated/app/$appId.tsx:334
+msgid "Metadata and configuration"
+msgstr "Metadata hinaspa configuracion"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:82
+msgid "Metric"
+msgstr "Metrico"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:56
+msgid "Monday"
+msgstr "Lunes"
+
+#: src/features/apps/index.tsx:184
+msgid "My App"
+msgstr "App-niy"
+
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "N/A"
+
+#: src/features/apps/index.tsx:178
+msgid "Name"
+msgstr "Sutin"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:40
+msgid "New"
+msgstr "Musuq"
+
+#: src/routes/_authenticated/app/$appId.tsx:536
+msgid "New Release Track"
+msgstr "Musuq Release Track"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+msgid "Next image"
+msgstr "Qatiqnin imagen"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "Manan"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:156
+msgid "No access rules configured. Add rules to control who can access this resource."
+msgstr "Mana yaykuy kamachiy churasqa. Kamachiykunata yapay pichus kay recursoman yaykuyta atinanpaq."
+
+#: src/features/apps/index.tsx:77
+msgid "No apps yet"
+msgstr "Manaraq appkuna"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:287
+msgid "No connected accounts"
+msgstr "Mana huñusqa cuentakuna"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:238
+msgid "No groups available"
+msgstr "Mana grupokuna atikuq"
+
+#: ../../../lib/web/src/components/language-picker.tsx:177
+msgid "No matches."
+msgstr "Mana tupaqkuna."
+
+#: ../../../lib/web/src/components/place-picker.tsx:129
+msgid "No places found"
+msgstr "Mana sitiokuna tarisqachu"
+
+#: ../../../lib/web/src/components/profile-dropdown.tsx:55
+msgid "No profile"
+msgstr "Mana perfil"
+
+#: ../../../lib/web/src/components/command-menu.tsx:52
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:87
+msgid "No results found."
+msgstr "Mana resultadokuna tarisqachu."
+
+#: ../../../lib/web/src/components/timezone-select.tsx:64
+msgid "No time zone found."
+msgstr "Mana time zone tarisqachu."
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
+msgid "No topic record yet — try again after the next notification."
+msgstr "Manaraq topic registro — qatiqnin notificacionmanta watiqmanta ruway."
+
+#: src/routes/_authenticated/app/$appId.tsx:461
+msgid "No tracks"
+msgstr "Mana trackkuna"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:203
+msgid "No users found"
+msgstr "Mana usuariokuna tarisqachu"
+
+#: src/routes/_authenticated/app/$appId.tsx:557
+msgid "No version"
+msgstr "Mana version"
+
+#: src/routes/_authenticated/app/$appId.tsx:256
+msgid "No versions"
+msgstr "Mana versionkuna"
+
+#: ../../../lib/web/src/components/person-picker.tsx:349
+msgid "None"
+msgstr "Mana"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:132
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:146
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:247
+msgid "Notifications"
+msgstr "Notificacionkuna"
+
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+msgid "Oops! Page Not Found!"
+msgstr "¡Ay! ¡Página Mana Tarisqachu!"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:150
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:151
+msgid "Open account actions"
+msgstr "Cuenta ruwaykunata kichay"
+
+#: ../../../lib/web/src/components/layout/top-bar.tsx:57
+msgid "Open navigation"
+msgstr "Navegacionta kichay"
+
+#: ../../../lib/web/src/components/layout/top-nav.tsx:32
+#: ../../../lib/web/src/components/layout/top-nav.tsx:33
+msgid "Open navigation menu"
+msgstr "Navegación menúta kichay"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:51
+msgid "Open theme settings"
+msgstr "Tema configuracionta kichay"
+
+#: src/routes/_authenticated/app/$appId.tsx:500
+msgid "Open track actions"
+msgstr "Track ruwaykunata kichay"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:163
+msgid "Other"
+msgstr "Huk"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:213
+msgid "Owner"
+msgstr "Apuq"
+
+#: src/features/apps/index.tsx:143
+msgid "Please enter an app name"
+msgstr "Ama hina, app sutita churay"
+
+#: src/routes/_authenticated/app/$appId.tsx:621
+msgid "Please select a file"
+msgstr "Ama hina, archivota akllay"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+msgid "Previous image"
+msgstr "Ñawpaqnin imagen"
+
+#: src/routes/_authenticated/app/$appId.tsx:339
+msgid "Privacy"
+msgstr "Pakaynin"
+
+#: src/routes/_authenticated/app/$appId.tsx:207
+msgid "Privacy Policy"
+msgstr "Pakaynin Política"
+
+#: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
+msgid "Private"
+msgstr "Pakasqa"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:134
+#: ../../../lib/web/src/components/profile-dropdown.tsx:111
+msgid "Profile"
+msgstr "Perfil"
+
+#: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
+msgid "Public"
+msgstr "Público"
+
+#: src/features/apps/index.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:226
+msgid "Published"
+msgstr "Publishasqa"
+
+#: src/features/apps/index.tsx:32
+#: src/features/apps/index.tsx:46
+msgid "Publisher"
+msgstr "Publisher"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:216
+#: ../../../lib/web/src/components/search-entity-page.tsx:191
+msgid "Recommended"
+msgstr "Munasqa"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:130
+msgid "Redirecting to login."
+msgstr "Yaykuyman redirigshan."
+
+#: ../../../lib/web/src/components/post-tags.tsx:175
+msgid "Reduce interest"
+msgstr "Munayta pisichiy"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:47
+msgid "Relative (5m, 3h, 2d)"
+msgstr "Relativo (5m, 3h, 2d)"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:46
+msgid "Relative within 24 hours, else absolute"
+msgstr "24 horas ukhupi relativo, mana chayqa absoluto"
+
+#: src/routes/_authenticated/app/$appId.tsx:454
+msgid "Release Tracks"
+msgstr "Release Tracks"
+
+#: src/routes/_authenticated/app/$appId.tsx:350
+msgid "Release tracks currently active"
+msgstr "Kunan kawsaq Release tracks"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:257
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:172
+msgid "Remove"
+msgstr "Qichuy"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:241
+#: ../../../lib/web/src/features/access/access-list.tsx:242
+msgid "Remove access rule"
+msgstr "Yaykuy kamachiyta qichuy"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:249
+msgid "Remove access?"
+msgstr "Yaykuyta qichuy?"
+
+#: ../../../lib/web/src/components/post-tags.tsx:190
+msgid "Remove interest"
+msgstr "Munayta qichuy"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:77
+msgid "Reset"
+msgstr "Kutichiy"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:75
+msgid "Reset all settings to default values"
+msgstr "Llapan configuracionkunata por defecto valoresman kutichiy"
+
+#: src/features/apps/index.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:227
+msgid "Restricted"
+msgstr "Harkasqa"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:348
+msgid "Right to Left"
+msgstr "Pañamanta Lluq'iman"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:60
+msgid "Rows per page"
+msgstr "Sapa páginapi filakuna"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:61
+msgid "Saturday"
+msgstr "Sábado"
+
+#: ../../../lib/web/src/components/place-picker.tsx:82
+msgid "Search for a place"
+msgstr "Sitiopaq maskay"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:234
+msgid "Search for destination..."
+msgstr "Destinopaq maskay..."
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:173
+msgid "Search for origin..."
+msgstr "Origenpaq maskay..."
+
+#: ../../../lib/web/src/components/timezone-select.tsx:62
+msgid "Search time zone..."
+msgstr "Time zoneta maskay..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:170
+msgid "Search users"
+msgstr "Usuariokunata maskay"
+
+#: ../../../lib/web/src/components/person-picker.tsx:323
+msgid "Search..."
+msgstr "Maskay..."
+
+#: ../../../lib/web/src/components/language-picker.tsx:175
+msgid "Search…"
+msgstr "Maskay…"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:174
+#: ../../../lib/web/src/components/search-entity-page.tsx:149
+#: ../../../lib/web/src/features/access/access-dialog.tsx:199
+msgid "Searching..."
+msgstr "Maskashan..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:147
+msgid "Select a user, group, or other rule to grant access."
+msgstr "Yaykuyta qonapaq usuariota, grupota, utaq huk kamachiyta akllay."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:270
+msgid "Select access rule"
+msgstr "Yaykuy kamachiyta akllay"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:126
+msgid "Select account type"
+msgstr "Cuenta niraqta akllay"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:228
+msgid "Select group"
+msgstr "Huñuyta akllay"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:291
+msgid "Select layout style"
+msgstr "Layout estiluta akllay"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:233
+msgid "Select sidebar style"
+msgstr "Sidebar estiluta akllay"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:335
+msgid "Select site direction"
+msgstr "Sitio direccionta akllay"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:189
+msgid "Select theme preference"
+msgstr "Tema munayta akllay"
+
+#: ../../../lib/web/src/lib/api-client.ts:224
+msgid "Session expired"
+msgstr "Session tukukapun"
+
+#: src/routes/_authenticated/app/$appId.tsx:510
+msgid "Set as default"
+msgstr "Defaultpaq churay"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:143
+msgid "Set origin and destination"
+msgstr "Pukyu chayanata churay"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:81
+#: ../../../lib/web/src/components/layout/nav-user.tsx:145
+#: ../../../lib/web/src/components/layout/nav-user.tsx:195
+msgid "Settings"
+msgstr "Wakichiykuna"
+
+#: src/routes/_authenticated/app/$appId.tsx:236
+msgid "Share this ID to allow others to install this app"
+msgstr "Hukkuna kay appta installananpaq kay IDta rakiy"
+
+#: src/routes/_authenticated/app/$appId.tsx:235
+msgid "Sharing"
+msgstr "Rakichkan"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:36
+msgid "Showing {totalShown} of {total}"
+msgstr "{total}manta {totalShown} rikuchichkan"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:225
+#: ../../../lib/web/src/components/config-drawer.tsx:249
+#: ../../../lib/web/src/components/ui/sidebar.tsx:234
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:128
+msgid "Signing out..."
+msgstr "Lluqsichkan..."
+
+#: ../../../lib/web/src/components/skip-to-main.tsx:8
+msgid "Skip to Main"
+msgstr "Mainman pasay"
+
+#: ../../../lib/web/src/components/coming-soon.tsx:12
+msgid "Stay tuned though!"
+msgstr "Suyaylla!"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:187
+msgid "Subject"
+msgstr "Tema"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:62
+msgid "Sunday"
+msgstr "Intichaw"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:195
+#: ../../../lib/web/src/lib/preference-utils.ts:18
+msgid "System"
+msgstr "Sistema"
+
+#: ../../../lib/web/src/components/tag-input.tsx:91
+msgid "Tag"
+msgstr "Tag"
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:60
+msgid "Teams/Apps"
+msgstr "Huñukuna/Appkuna"
+
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:142
+msgid "The requested app could not be found."
+msgstr "Mañasqa app mana tarisqachu."
+
+#: ../../../lib/web/src/components/config-drawer.tsx:181
+msgid "Theme"
+msgstr "Tema"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:60
+msgid "Theme Settings"
+msgstr "Tema Wakichiykuna"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:59
+msgid "Thursday"
+msgstr "Illapachaw"
+
+#: ../../../lib/web/src/components/data-table/view-options.tsx:34
+msgid "Toggle columns"
+msgstr "Columnakunata tikray"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:227
+msgid "Toggle Right Panel"
+msgstr "Paña Panelta Tikray"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:312
+#: ../../../lib/web/src/components/ui/sidebar.tsx:324
+#: ../../../lib/web/src/components/ui/sidebar.tsx:327
+msgid "Toggle Sidebar"
+msgstr "Sidebarta Tikray"
+
+#: ../../../lib/web/src/components/theme-switch.tsx:31
+msgid "Toggle theme"
+msgstr "Temata tikray"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:42
+msgid "Top"
+msgstr "Hawan"
+
+#: src/routes/_authenticated/app/$appId.tsx:429
+msgid "Track \"{track}\" deleted"
+msgstr "\"{track}\" track qulluchisqa"
+
+#: src/routes/_authenticated/app/$appId.tsx:415
+msgid "Track \"{track}\" updated to {version}"
+msgstr "\"{track}\" track {version}man musuqchasqa"
+
+#: src/routes/_authenticated/app/$appId.tsx:398
+msgid "Track created"
+msgstr "Track ruwasqa"
+
+#: src/routes/_authenticated/app/$appId.tsx:544
+msgid "Track Name"
+msgstr "Track Suti"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:141
+msgid "Travelling"
+msgstr "Puriy"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:190
+#: ../../../lib/web/src/components/search-entity-page.tsx:165
+msgid "Try adjusting your search terms"
+msgstr "Maskay simiykunata allichayta ruway"
+
+#: ../../../lib/web/src/features/errors/general-error.tsx:125
+#: ../../../lib/web/src/features/errors/general-error.tsx:165
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+msgid "Try again"
+msgstr "Kutimanta ruway"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:57
+msgid "Tuesday"
+msgstr "Antichaw"
+
+#: ../../../lib/web/src/components/command-menu.tsx:49
+msgid "Type a command or search..."
+msgstr "Comandota qillqay utaq maskay..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:188
+msgid "Type to search users"
+msgstr "Apaykachaqkunata maskanapaq qillqay"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:180
+msgid "Type to search..."
+msgstr "Maskanapaq qillqay..."
+
+#: ../../../lib/web/src/lib/auth-manager.ts:82
+#: ../../../lib/web/src/lib/auth-manager.ts:94
+msgid "Unable to redirect to login. Please try again."
+msgstr "Loginman mana tikrachiyta atikurqanchu. Ama hina kaspa kutimanta ruway."
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:143
+msgid "Unassigned"
+msgstr "Mana akllasqa"
+
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+msgid "Unauthorized Access"
+msgstr "Mana Autorizasqa Yaykuy"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:84
+msgid "United States"
+msgstr "United States"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:131
+msgid "Unverified"
+msgstr "Mana qhawasqa"
+
+#: src/routes/_authenticated/app/$appId.tsx:693
+msgid "Update Tracks"
+msgstr "Tracksta Musuqchay"
+
+#: src/routes/_authenticated/app/$appId.tsx:657
+msgid "Upload a .zip build file for your application."
+msgstr "Applicacionniykipaq .zip build fileta upload."
+
+#: src/routes/_authenticated/app/$appId.tsx:185
+msgid "Upload new version"
+msgstr "Musuq versionta upload"
+
+#: src/routes/_authenticated/app/$appId.tsx:655
+msgid "Upload New Version"
+msgstr "Musuq Versionta Upload"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "Versionta Upload"
+
+#: src/routes/_authenticated/app/$appId.tsx:257
+msgid "Upload your first build to get started"
+msgstr "Qallarinapaq ñawpaq buildniykita upload"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "Uploadchkan..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:155
+msgid "User"
+msgstr "Apaykachaq"
+
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Users can install this application by pasting this identifier into their Apps management page."
+msgstr "Apaykachaqkuna kay applicacionta installayta atinku, kay identificadorta Apps management páginanpi pegaspa."
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:68
+msgid "Verification code"
+msgstr "Qhawariy codigo"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:247
+msgid "Verification code sent"
+msgstr "Qhawariy codigo apachisqa"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:240
+msgid "Verification failed"
+msgstr "Qhawariy mana atikurqanchu"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+msgid "Verify"
+msgstr "Qhaway"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:58
+msgid "Verify email address"
+msgstr "Email direccionta qhaway"
+
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "Version {0} ruwasqa kapun."
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "Version History"
+msgstr "Version Willakuy"
+
+#: src/routes/_authenticated/app/$appId.tsx:632
+msgid "Version uploaded"
+msgstr "Version uploadasqa"
+
+#: ../../../lib/web/src/components/data-table/view-options.tsx:30
+msgid "View"
+msgstr "Qhaway"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:173
+msgid "View all"
+msgstr "Llapanta qhaway"
+
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:94
+msgid "View all notifications"
+msgstr "Llapan willakuykunata qhaway"
+
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+msgid "We'll be back online shortly."
+msgstr "Pisi ratupi kutimusaqku."
+
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+msgid "Website is under maintenance!"
+msgstr "Website mantenimientopi kachkan!"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:58
+msgid "Wednesday"
+msgstr "Quyllurchaw"
+
+#: src/features/apps/index.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:685
+msgid "Yes"
+msgstr "Arí"
+
+#: src/routes/_authenticated/app/$appId.tsx:686
+msgid "Yes, force"
+msgstr "Arí, kallpawan"

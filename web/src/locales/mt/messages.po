@@ -1,0 +1,1228 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-05-08 12:06+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: mt\n"
+
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "{name} inħoloq b'suċċess."
+
+#: ../../../lib/web/src/lib/preference-utils.ts:39
+msgid "12 hours"
+msgstr "12-il siegħa"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:38
+msgid "24 hours"
+msgstr "24 siegħa"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:48
+msgid "Absolute (date and time)"
+msgstr "Assolut (data u ħin)"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+msgid "Access Forbidden"
+msgstr "Aċċess miċħud"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:188
+msgid "Access level"
+msgstr "Livell ta' aċċess"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:208
+msgid "Account added"
+msgstr "Kont miżjud"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:224
+msgid "Account removed"
+msgstr "Kont imneħħi"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:123
+msgid "Account type"
+msgstr "Tip ta' kont"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:234
+msgid "Account verified"
+msgstr "Kont ivverifikat"
+
+#: src/routes/_authenticated/app/$appId.tsx:479
+msgid "Active version"
+msgstr "Verżjoni attiva"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:117
+msgid "Add a new account"
+msgstr "Żid kont ġdid"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:145
+msgid "Add access"
+msgstr "Żid aċċess"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:116
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:280
+msgid "Add account"
+msgstr "Żid kont"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:289
+msgid "Add an account to receive notifications and use services."
+msgstr "Żid kont biex tirċievi notifiki u tuża servizzi."
+
+#: ../../../lib/web/src/features/accounts/account-picker.tsx:98
+msgid "Add new account"
+msgstr "Żid kont ġdid"
+
+#: ../../../lib/web/src/components/post-tags.tsx:119
+msgid "Add tag..."
+msgstr "Żid tag..."
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:80
+msgid "Add team/app"
+msgstr "Żid tim/app"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:159
+msgid "Add to existing notifications"
+msgstr "Żid man-notifiki eżistenti"
+
+#: ../../../lib/web/src/components/view-tabs.tsx:57
+msgid "Add view"
+msgstr "Żid view"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:62
+msgid "Adjust the appearance and layout to suit your preferences."
+msgstr "Aġġusta d-dehra u l-layout skont il-preferenzi tiegħek."
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:38
+msgid "AI"
+msgstr "AI"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:159
+msgid "All"
+msgstr "Kollha"
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "All uploaded build files for this application"
+msgstr "Il-files kollha tal-build mtellgħa għal din l-applikazzjoni"
+
+#: src/routes/_authenticated/app/$appId.tsx:92
+#: src/routes/_authenticated/app/$appId.tsx:126
+msgid "App"
+msgstr "App"
+
+#: src/features/apps/index.tsx:151
+msgid "App created"
+msgstr "App maħluqa"
+
+#: src/routes/_authenticated/app/$appId.tsx:328
+msgid "App ID"
+msgstr "ID tal-app"
+
+#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:116
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:141
+msgid "App not found"
+msgstr "App ma nstabitx"
+
+#: src/routes/_authenticated/app/$appId.tsx:201
+msgid "Application ID"
+msgstr "ID tal-applikazzjoni"
+
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:24
+msgid "Are you sure you want to log out? You will need to log in again to access your account."
+msgstr "Żgur trid toħroġ? Trid terġa' tidħol biex taċċessa l-kont tiegħek."
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:56
+msgid "Asc"
+msgstr "Tielgħa"
+
+#: src/routes/_authenticated/app/$appId.tsx:350
+msgid "Available Versions"
+msgstr "Verżjonijiet disponibbli"
+
+#: ../../../lib/web/src/components/place-picker.tsx:152
+msgid "Back"
+msgstr "Lura"
+
+#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:162
+#: src/routes/_authenticated/app/$appId.tsx:320
+msgid "Back to apps"
+msgstr "Lura għall-apps"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Back to Home"
+msgstr "Lura għall-Home"
+
+#: ../../../lib/web/src/components/post-tags.tsx:160
+msgid "Boost interest"
+msgstr "Saħħaħ l-interess"
+
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "File tal-Build (.zip)"
+
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
+#: ../../../lib/web/src/components/travelling-picker.tsx:292
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/features/access/access-dialog.tsx:325
+#: ../../../lib/web/src/features/access/access-list.tsx:255
+#: ../../../lib/web/src/features/accounts/account-add.tsx:185
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:86
+#: src/features/apps/index.tsx:208
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
+msgid "Cancel"
+msgstr "Ikkanċella"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:131
+msgid "Category for this notification"
+msgstr "Kategorija għal din in-notifika"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:115
+msgid "Change notification category"
+msgstr "Ibdel il-kategorija tan-notifika"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:315
+msgid "Choose between default expanded, compact icon-only, or full layout mode"
+msgstr "Agħżel bejn modalità default espanduta, kompatta b'ikoni biss, jew layout sħiħ"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:257
+msgid "Choose between inset, floating, or standard sidebar layout"
+msgstr "Agħżel bejn layout tal-barra tal-ġenb inset, floating, jew standard"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:358
+msgid "Choose between left-to-right or right-to-left site direction"
+msgstr "Agħżel bejn direzzjoni tas-sit minn xellug-għal-lemin jew minn lemin-għal-xellug"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:213
+msgid "Choose between system preference, light mode, or dark mode"
+msgstr "Agħżel bejn preferenza tas-sistema, modalità ċara, jew modalità skura"
+
+#: ../../../lib/web/src/components/language-picker.tsx:167
+msgid "Choose language"
+msgstr "Agħżel lingwa"
+
+#: ../../../lib/web/src/components/colour-picker.tsx:304
+msgid "Clear"
+msgstr "Naddaf"
+
+#: ../../../lib/web/src/components/filter-bar.tsx:64
+msgid "Clear all"
+msgstr "Naddaf kollox"
+
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:137
+msgid "Clear filters"
+msgstr "Naddaf il-filtri"
+
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:164
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
+msgid "Clear selection"
+msgstr "Naddaf l-għażla"
+
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:165
+msgid "Clear selection (Escape)"
+msgstr "Naddaf l-għażla (Escape)"
+
+#: ../../../lib/web/src/components/ui/dialog.tsx:75
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/sheet.tsx:76
+msgid "Close"
+msgstr "Agħlaq"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:97
+msgid "Close navigation"
+msgstr "Agħlaq in-navigazzjoni"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:254
+msgid "Close Panel"
+msgstr "Agħlaq il-pannell"
+
+#: ../../../lib/web/src/components/header-search.tsx:51
+msgid "Close search"
+msgstr "Agħlaq it-tiftix"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+msgid "Collapse sidebar"
+msgstr "Iġbed il-barra tal-ġenb"
+
+#: ../../../lib/web/src/components/coming-soon.tsx:9
+msgid "Coming Soon!"
+msgstr "Dalwaqt!"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:302
+msgid "Compact"
+msgstr "Kompatt"
+
+#: ../../../lib/web/src/components/place-picker.tsx:155
+#: ../../../lib/web/src/components/travelling-picker.tsx:299
+msgid "Confirm"
+msgstr "Ikkonferma"
+
+#: ../../../lib/web/src/lib/query-client.ts:78
+msgid "Content not modified"
+msgstr "Il-kontenut ma ġiex modifikat"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:145
+msgid "Contextual information and details."
+msgstr "Informazzjoni u dettalji kuntestwali."
+
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:72
+msgid "Continue"
+msgstr "Kompli"
+
+#: ../../../lib/web/src/components/ui/copy-button.tsx:60
+msgid "Copy"
+msgstr "Ikkupja"
+
+#: src/routes/_authenticated/app/$appId.tsx:326
+msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
+msgstr "Ikkupja dan l-ID u waħħlu fil-paġna Apps tas-server Mochi tiegħek biex tinstalla."
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Core identification for this application"
+msgstr "Identifikazzjoni ċentrali għal din l-applikazzjoni"
+
+#: src/routes/_authenticated/app/$appId.tsx:538
+msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
+msgstr "Oħloq ambjent ġdid (eż. Beta, Staging) biex tiddeplojja builds."
+
+#: src/features/apps/index.tsx:50
+#: src/features/apps/index.tsx:51
+#: src/features/apps/index.tsx:55
+#: src/features/apps/index.tsx:82
+#: src/features/apps/index.tsx:171
+#: src/features/apps/index.tsx:211
+msgid "Create app"
+msgstr "Oħloq app"
+
+#: src/features/apps/index.tsx:169
+msgid "Create new app"
+msgstr "Oħloq app ġdida"
+
+#: src/routes/_authenticated/app/$appId.tsx:191
+msgid "Create track"
+msgstr "Oħloq track"
+
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "Oħloq Track"
+
+#: src/features/apps/index.tsx:78
+msgid "Create your first app to get started"
+msgstr "Oħloq l-ewwel app tiegħek biex tibda"
+
+#: src/routes/_authenticated/app/$appId.tsx:462
+msgid "Create your first release track to manage deployments"
+msgstr "Oħloq l-ewwel Release Track tiegħek biex tmexxi d-deploys"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "Qed joħloq..."
+
+#: ../../../lib/web/src/components/config-drawer.tsx:205
+#: ../../../lib/web/src/lib/preference-utils.ts:17
+msgid "Dark"
+msgstr "Skur"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:88
+#: ../../../lib/web/src/components/layout/nav-user.tsx:151
+#: ../../../lib/web/src/components/layout/nav-user.tsx:202
+#: ../../../lib/web/src/components/profile-dropdown.tsx:84
+#: ../../../lib/web/src/components/profile-dropdown.tsx:120
+msgid "Dark mode"
+msgstr "Modalità skura"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:297
+msgid "Default"
+msgstr "Default"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:169
+msgid "Default AI account"
+msgstr "Kont AI default"
+
+#: src/routes/_authenticated/app/$appId.tsx:443
+msgid "Default track set to \"{track}\""
+msgstr "Track default issettjat għal \"{track}\""
+
+#: src/routes/_authenticated/app/$appId.tsx:517
+msgid "Delete track"
+msgstr "Ħassar track"
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:60
+msgid "Desc"
+msgstr "Niżla"
+
+#: src/routes/_authenticated/app/$appId.tsx:334
+msgid "Details"
+msgstr "Dettalji"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:144
+msgid "Details Panel"
+msgstr "Pannell tad-Dettalji"
+
+#: ../../../lib/web/src/components/language-picker.tsx:145
+#: ../../../lib/web/src/components/timezone-select.tsx:43
+#: ../../../lib/web/src/components/timezone-select.tsx:80
+#: ../../../lib/web/src/lib/preference-utils.ts:25
+#: ../../../lib/web/src/lib/preference-utils.ts:37
+#: ../../../lib/web/src/lib/preference-utils.ts:55
+#: ../../../lib/web/src/lib/preference-utils.ts:69
+#: ../../../lib/web/src/lib/preference-utils.ts:81
+msgid "Detect from web browser"
+msgstr "Iskopri mill-browser"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:327
+msgid "Direction"
+msgstr "Direzzjoni"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:235
+msgid "Displays the mobile sidebar."
+msgstr "Juri l-barra tal-ġenb tal-mobile."
+
+#: src/routes/_authenticated/app/$appId.tsx:216
+msgid "Distribution"
+msgstr "Distribuzzjoni"
+
+#: src/routes/_authenticated/app/$appId.tsx:75
+msgid "Distribution set to {distribution}"
+msgstr "Distribuzzjoni issettjata għal {distribution}"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+msgid "Download"
+msgstr "Niżżel"
+
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "eż. Staging"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+msgid "Expand sidebar"
+msgstr "Espandi s-sidebar"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:217
+msgid "Failed to add account"
+msgstr "Ma rnexxiex jiżdied il-kont"
+
+#: src/features/apps/index.tsx:159
+msgid "Failed to create app"
+msgstr "Ma rnexxiex tinħoloq l-app"
+
+#: src/routes/_authenticated/app/$appId.tsx:404
+msgid "Failed to create track"
+msgstr "Ma rnexxiex jinħoloq it-track"
+
+#: src/routes/_authenticated/app/$appId.tsx:432
+msgid "Failed to delete track"
+msgstr "Ma rnexxiex jitħassar it-track"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:226
+msgid "Failed to remove account"
+msgstr "Ma rnexxiex jitneħħa l-kont"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:249
+msgid "Failed to send verification code"
+msgstr "Ma rnexxiex jintbagħat il-kodiċi tal-verifika"
+
+#: src/routes/_authenticated/app/$appId.tsx:446
+msgid "Failed to set default track"
+msgstr "Ma rnexxiex jiġi stabbilit it-track default"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:104
+msgid "Failed to update category"
+msgstr "Ma rnexxiex tiġi aġġornata l-kategorija"
+
+#: src/routes/_authenticated/app/$appId.tsx:78
+msgid "Failed to update distribution"
+msgstr "Ma rnexxiex tiġi aġġornata d-distribuzzjoni"
+
+#: src/routes/_authenticated/app/$appId.tsx:418
+msgid "Failed to update track"
+msgstr "Ma rnexxiex jiġi aġġornat it-track"
+
+#: src/routes/_authenticated/app/$appId.tsx:645
+msgid "Failed to upload version"
+msgstr "Ma rnexxiex tittella' l-verżjoni"
+
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:336
+msgid "Fingerprint"
+msgstr "Fingerprint"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:244
+msgid "Floating"
+msgstr "Galleġġjant"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:60
+msgid "Friday"
+msgstr "Il-Ġimgħa"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:149
+msgid "From"
+msgstr "Minn"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:307
+msgid "Full layout"
+msgstr "Layout sħiħ"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:19
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
+msgid "Go Back"
+msgstr "Mur Lura"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:75
+msgid "Go to first page"
+msgstr "Mur l-ewwel paġna"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:121
+msgid "Go to last page"
+msgstr "Mur l-aħħar paġna"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:112
+msgid "Go to next page"
+msgstr "Mur il-paġna li jmiss"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:84
+msgid "Go to previous page"
+msgstr "Mur il-paġna ta' qabel"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:159
+msgid "Group"
+msgstr "Grupp"
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:67
+msgid "Hide"
+msgstr "Aħbi"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
+#: ../../../lib/web/src/components/layout/top-bar.tsx:62
+#: ../../../lib/web/src/components/layout/top-bar.tsx:91
+msgid "Home"
+msgstr "Home"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:41
+msgid "Hot"
+msgstr "Sħun"
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Identity"
+msgstr "Identità"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:83
+msgid "Imperial"
+msgstr "Imperjali"
+
+#: src/routes/_authenticated/app/$appId.tsx:554
+msgid "Initial Version"
+msgstr "Verżjoni Inizjali"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:239
+msgid "Inset"
+msgstr "Inset"
+
+#: src/routes/_authenticated/app/$appId.tsx:323
+msgid "Install App"
+msgstr "Installa App"
+
+#: src/routes/_authenticated/app/$appId.tsx:677
+msgid "Install Locally"
+msgstr "Installa Lokalment"
+
+#: src/routes/_authenticated/app/$appId.tsx:323
+msgid "Install this application to your server"
+msgstr "Installa din l-applikazzjoni fuq is-server tiegħek"
+
+#: src/routes/_authenticated/app/$appId.tsx:242
+msgid "Installation ID"
+msgstr "ID tal-installazzjoni"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:39
+msgid "Interests"
+msgstr "Interessi"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:237
+msgid "Invalid verification code"
+msgstr "Kodiċi tal-verifika invalidu"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:273
+msgid "Layout"
+msgstr "Layout"
+
+#: ../../../lib/web/src/components/learn-more.tsx:27
+msgid "Learn more"
+msgstr "Tgħallem aktar"
+
+#: src/routes/_authenticated/app/$appId.tsx:560
+msgid "Leave empty"
+msgstr "Ħalli vojt"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:341
+msgid "Left to Right"
+msgstr "Mix-Xellug għal-Lemin"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:200
+#: ../../../lib/web/src/lib/preference-utils.ts:16
+msgid "Light"
+msgstr "Ċar"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:32
+msgid "Load more"
+msgstr "Tella' aktar"
+
+#: src/routes/_authenticated/app/$appId.tsx:98
+msgid "Loading app..."
+msgstr "Qed titgħabba l-app..."
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:32
+msgid "Loading…"
+msgstr "Qed jitgħabba…"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:98
+#: ../../../lib/web/src/components/layout/nav-user.tsx:164
+#: ../../../lib/web/src/components/layout/nav-user.tsx:212
+#: ../../../lib/web/src/components/profile-dropdown.tsx:66
+#: ../../../lib/web/src/components/profile-dropdown.tsx:95
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:23
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+msgid "Log out"
+msgstr "Oħroġ"
+
+#: ../../../lib/web/src/hooks/use-logout.ts:16
+msgid "Logged out (with errors)"
+msgstr "Ħareġ (b'żbalji)"
+
+#: ../../../lib/web/src/hooks/use-logout.ts:14
+msgid "Logged out successfully"
+msgstr "Ħareġ b'suċċess"
+
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+msgid "Logging out…"
+msgstr "Qed joħroġ…"
+
+#: src/features/apps/index.tsx:189
+msgid "Make app publicly available"
+msgstr "Agħmel l-app disponibbli pubblikament"
+
+#: src/routes/_authenticated/app/$appId.tsx:455
+msgid "Manage deployment environments and their versions"
+msgstr "Immaniġġja l-ambjenti tad-deployment u l-verżjonijiet tagħhom"
+
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:220
+msgid "Mark all as read"
+msgstr "Immarka kollox bħala maqru"
+
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
+msgid "Menu"
+msgstr "Menu"
+
+#: src/routes/_authenticated/app/$appId.tsx:334
+msgid "Metadata and configuration"
+msgstr "Metadata u konfigurazzjoni"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:82
+msgid "Metric"
+msgstr "Metriku"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:56
+msgid "Monday"
+msgstr "It-Tnejn"
+
+#: src/features/apps/index.tsx:184
+msgid "My App"
+msgstr "L-App Tiegħi"
+
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "M/A"
+
+#: src/features/apps/index.tsx:178
+msgid "Name"
+msgstr "Isem"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:40
+msgid "New"
+msgstr "Ġdid"
+
+#: src/routes/_authenticated/app/$appId.tsx:536
+msgid "New Release Track"
+msgstr "Track tar-Release ġdid"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+msgid "Next image"
+msgstr "Stampa li jmiss"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "Le"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:156
+msgid "No access rules configured. Add rules to control who can access this resource."
+msgstr "L-ebda regoli ta' aċċess ikkonfigurati. Żid regoli biex tikkontrolla min jista' jaċċessa din ir-riżorsa."
+
+#: src/features/apps/index.tsx:77
+msgid "No apps yet"
+msgstr "L-ebda apps s'issa"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:287
+msgid "No connected accounts"
+msgstr "L-ebda kontijiet konnessi"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:238
+msgid "No groups available"
+msgstr "L-ebda gruppi disponibbli"
+
+#: ../../../lib/web/src/components/language-picker.tsx:177
+msgid "No matches."
+msgstr "L-ebda matches."
+
+#: ../../../lib/web/src/components/place-picker.tsx:129
+msgid "No places found"
+msgstr "Ma nstabu l-ebda postijiet"
+
+#: ../../../lib/web/src/components/profile-dropdown.tsx:55
+msgid "No profile"
+msgstr "L-ebda profil"
+
+#: ../../../lib/web/src/components/command-menu.tsx:52
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:87
+msgid "No results found."
+msgstr "Ma nstabu l-ebda riżultati."
+
+#: ../../../lib/web/src/components/timezone-select.tsx:64
+msgid "No time zone found."
+msgstr "Ma nstabu l-ebda żona ta' ħin."
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
+msgid "No topic record yet — try again after the next notification."
+msgstr "Għadu m'hemm l-ebda rekord tat-topic — erġa' pprova wara n-notifika li jmiss."
+
+#: src/routes/_authenticated/app/$appId.tsx:461
+msgid "No tracks"
+msgstr "L-ebda tracks"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:203
+msgid "No users found"
+msgstr "Ma nstabu l-ebda utenti"
+
+#: src/routes/_authenticated/app/$appId.tsx:557
+msgid "No version"
+msgstr "L-ebda verżjoni"
+
+#: src/routes/_authenticated/app/$appId.tsx:256
+msgid "No versions"
+msgstr "L-ebda verżjonijiet"
+
+#: ../../../lib/web/src/components/person-picker.tsx:349
+msgid "None"
+msgstr "Xejn"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:132
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:146
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:247
+msgid "Notifications"
+msgstr "Notifiki"
+
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+msgid "Oops! Page Not Found!"
+msgstr "Oops! Paġna Mhux Misjuba!"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:150
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:151
+msgid "Open account actions"
+msgstr "Iftaħ azzjonijiet tal-kont"
+
+#: ../../../lib/web/src/components/layout/top-bar.tsx:57
+msgid "Open navigation"
+msgstr "Iftaħ navigazzjoni"
+
+#: ../../../lib/web/src/components/layout/top-nav.tsx:32
+#: ../../../lib/web/src/components/layout/top-nav.tsx:33
+msgid "Open navigation menu"
+msgstr "Iftaħ menu tan-navigazzjoni"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:51
+msgid "Open theme settings"
+msgstr "Iftaħ settings tat-tema"
+
+#: src/routes/_authenticated/app/$appId.tsx:500
+msgid "Open track actions"
+msgstr "Iftaħ azzjonijiet tat-track"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:163
+msgid "Other"
+msgstr "Oħra"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:213
+msgid "Owner"
+msgstr "Sid"
+
+#: src/features/apps/index.tsx:143
+msgid "Please enter an app name"
+msgstr "Jekk jogħġbok daħħal isem tal-app"
+
+#: src/routes/_authenticated/app/$appId.tsx:621
+msgid "Please select a file"
+msgstr "Jekk jogħġbok agħżel fajl"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+msgid "Previous image"
+msgstr "Stampa preċedenti"
+
+#: src/routes/_authenticated/app/$appId.tsx:339
+msgid "Privacy"
+msgstr "Privatezza"
+
+#: src/routes/_authenticated/app/$appId.tsx:207
+msgid "Privacy Policy"
+msgstr "Politika ta' Privatezza"
+
+#: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
+msgid "Private"
+msgstr "Privat"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:134
+#: ../../../lib/web/src/components/profile-dropdown.tsx:111
+msgid "Profile"
+msgstr "Profil"
+
+#: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
+msgid "Public"
+msgstr "Pubbliku"
+
+#: src/features/apps/index.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:226
+msgid "Published"
+msgstr "Ippubblikat"
+
+#: src/features/apps/index.tsx:32
+#: src/features/apps/index.tsx:46
+msgid "Publisher"
+msgstr "Pubblikatur"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:216
+#: ../../../lib/web/src/components/search-entity-page.tsx:191
+msgid "Recommended"
+msgstr "Rakkomandat"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:130
+msgid "Redirecting to login."
+msgstr "Qed nirredirezzjona għal-login."
+
+#: ../../../lib/web/src/components/post-tags.tsx:175
+msgid "Reduce interest"
+msgstr "Naqqas l-interess"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:47
+msgid "Relative (5m, 3h, 2d)"
+msgstr "Relattiv (5m, 3h, 2d)"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:46
+msgid "Relative within 24 hours, else absolute"
+msgstr "Relattiv fi 24 siegħa, inkella assolut"
+
+#: src/routes/_authenticated/app/$appId.tsx:454
+msgid "Release Tracks"
+msgstr "Tracks tar-Release"
+
+#: src/routes/_authenticated/app/$appId.tsx:350
+msgid "Release tracks currently active"
+msgstr "Tracks tar-release attivi bħalissa"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:257
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:172
+msgid "Remove"
+msgstr "Neħħi"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:241
+#: ../../../lib/web/src/features/access/access-list.tsx:242
+msgid "Remove access rule"
+msgstr "Neħħi r-regola tal-aċċess"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:249
+msgid "Remove access?"
+msgstr "Tneħħi l-aċċess?"
+
+#: ../../../lib/web/src/components/post-tags.tsx:190
+msgid "Remove interest"
+msgstr "Neħħi interess"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:77
+msgid "Reset"
+msgstr "Reset"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:75
+msgid "Reset all settings to default values"
+msgstr "Irriżetta s-settings kollha għall-valuri default"
+
+#: src/features/apps/index.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:227
+msgid "Restricted"
+msgstr "Ristrett"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:348
+msgid "Right to Left"
+msgstr "Lemin għal Xellug"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:60
+msgid "Rows per page"
+msgstr "Ringieli kull paġna"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:61
+msgid "Saturday"
+msgstr "Is-Sibt"
+
+#: ../../../lib/web/src/components/place-picker.tsx:82
+msgid "Search for a place"
+msgstr "Fittex post"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:234
+msgid "Search for destination..."
+msgstr "Fittex destinazzjoni..."
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:173
+msgid "Search for origin..."
+msgstr "Fittex oriġini..."
+
+#: ../../../lib/web/src/components/timezone-select.tsx:62
+msgid "Search time zone..."
+msgstr "Fittex żona ta' ħin..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:170
+msgid "Search users"
+msgstr "Fittex utenti"
+
+#: ../../../lib/web/src/components/person-picker.tsx:323
+msgid "Search..."
+msgstr "Fittex..."
+
+#: ../../../lib/web/src/components/language-picker.tsx:175
+msgid "Search…"
+msgstr "Fittex…"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:174
+#: ../../../lib/web/src/components/search-entity-page.tsx:149
+#: ../../../lib/web/src/features/access/access-dialog.tsx:199
+msgid "Searching..."
+msgstr "Qed ifittex..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:147
+msgid "Select a user, group, or other rule to grant access."
+msgstr "Agħżel utent, grupp, jew regola oħra biex tagħti aċċess."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:270
+msgid "Select access rule"
+msgstr "Agħżel regola tal-aċċess"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:126
+msgid "Select account type"
+msgstr "Agħżel tip ta' kont"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:228
+msgid "Select group"
+msgstr "Agħżel grupp"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:291
+msgid "Select layout style"
+msgstr "Agħżel stil ta' tqassim"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:233
+msgid "Select sidebar style"
+msgstr "Agħżel stil tas-sidebar"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:335
+msgid "Select site direction"
+msgstr "Agħżel direzzjoni tas-sit"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:189
+msgid "Select theme preference"
+msgstr "Agħżel preferenza tat-tema"
+
+#: ../../../lib/web/src/lib/api-client.ts:224
+msgid "Session expired"
+msgstr "Sessjoni skadiet"
+
+#: src/routes/_authenticated/app/$appId.tsx:510
+msgid "Set as default"
+msgstr "Issettja bħala default"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:143
+msgid "Set origin and destination"
+msgstr "Issettja oriġini u destinazzjoni"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:81
+#: ../../../lib/web/src/components/layout/nav-user.tsx:145
+#: ../../../lib/web/src/components/layout/nav-user.tsx:195
+msgid "Settings"
+msgstr "Settings"
+
+#: src/routes/_authenticated/app/$appId.tsx:236
+msgid "Share this ID to allow others to install this app"
+msgstr "Aqsam dan l-ID biex tippermetti lil oħrajn jinstallaw din l-app"
+
+#: src/routes/_authenticated/app/$appId.tsx:235
+msgid "Sharing"
+msgstr "Qsim"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:36
+msgid "Showing {totalShown} of {total}"
+msgstr "Qed juri {totalShown} minn {total}"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:225
+#: ../../../lib/web/src/components/config-drawer.tsx:249
+#: ../../../lib/web/src/components/ui/sidebar.tsx:234
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:128
+msgid "Signing out..."
+msgstr "Qed toħroġ..."
+
+#: ../../../lib/web/src/components/skip-to-main.tsx:8
+msgid "Skip to Main"
+msgstr "Aqbeż għall-Main"
+
+#: ../../../lib/web/src/components/coming-soon.tsx:12
+msgid "Stay tuned though!"
+msgstr "Imma ibqa' segwina!"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:187
+msgid "Subject"
+msgstr "Suġġett"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:62
+msgid "Sunday"
+msgstr "Il-Ħadd"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:195
+#: ../../../lib/web/src/lib/preference-utils.ts:18
+msgid "System"
+msgstr "Sistema"
+
+#: ../../../lib/web/src/components/tag-input.tsx:91
+msgid "Tag"
+msgstr "Tag"
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:60
+msgid "Teams/Apps"
+msgstr "Timijiet/Apps"
+
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:142
+msgid "The requested app could not be found."
+msgstr "L-app mitluba ma nstabitx."
+
+#: ../../../lib/web/src/components/config-drawer.tsx:181
+msgid "Theme"
+msgstr "Tema"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:60
+msgid "Theme Settings"
+msgstr "Settings tat-Tema"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:59
+msgid "Thursday"
+msgstr "Il-Ħamis"
+
+#: ../../../lib/web/src/components/data-table/view-options.tsx:34
+msgid "Toggle columns"
+msgstr "Aqleb il-kolonni"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:227
+msgid "Toggle Right Panel"
+msgstr "Aqleb il-Pannell tal-Lemin"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:312
+#: ../../../lib/web/src/components/ui/sidebar.tsx:324
+#: ../../../lib/web/src/components/ui/sidebar.tsx:327
+msgid "Toggle Sidebar"
+msgstr "Aqleb is-Sidebar"
+
+#: ../../../lib/web/src/components/theme-switch.tsx:31
+msgid "Toggle theme"
+msgstr "Aqleb it-tema"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:42
+msgid "Top"
+msgstr "Quċċata"
+
+#: src/routes/_authenticated/app/$appId.tsx:429
+msgid "Track \"{track}\" deleted"
+msgstr "Track \"{track}\" imħassar"
+
+#: src/routes/_authenticated/app/$appId.tsx:415
+msgid "Track \"{track}\" updated to {version}"
+msgstr "Track \"{track}\" aġġornat għal {version}"
+
+#: src/routes/_authenticated/app/$appId.tsx:398
+msgid "Track created"
+msgstr "Track maħluq"
+
+#: src/routes/_authenticated/app/$appId.tsx:544
+msgid "Track Name"
+msgstr "Isem tat-Track"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:141
+msgid "Travelling"
+msgstr "Qed jivvjaġġa"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:190
+#: ../../../lib/web/src/components/search-entity-page.tsx:165
+msgid "Try adjusting your search terms"
+msgstr "Ipprova taġġusta t-termini tat-tfittxija tiegħek"
+
+#: ../../../lib/web/src/features/errors/general-error.tsx:125
+#: ../../../lib/web/src/features/errors/general-error.tsx:165
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+msgid "Try again"
+msgstr "Erġa' pprova"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:57
+msgid "Tuesday"
+msgstr "It-Tlieta"
+
+#: ../../../lib/web/src/components/command-menu.tsx:49
+msgid "Type a command or search..."
+msgstr "Ittajpja kmand jew fittex..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:188
+msgid "Type to search users"
+msgstr "Ittajpja biex tfittex utenti"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:180
+msgid "Type to search..."
+msgstr "Ittajpja biex tfittex..."
+
+#: ../../../lib/web/src/lib/auth-manager.ts:82
+#: ../../../lib/web/src/lib/auth-manager.ts:94
+msgid "Unable to redirect to login. Please try again."
+msgstr "Ma rnexxiex jirridrettja għal-login. Jekk jogħġbok erġa' pprova."
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:143
+msgid "Unassigned"
+msgstr "Mhux assenjat"
+
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+msgid "Unauthorized Access"
+msgstr "Aċċess Mhux Awtorizzat"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:84
+msgid "United States"
+msgstr "Stati Uniti"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:131
+msgid "Unverified"
+msgstr "Mhux ivverifikat"
+
+#: src/routes/_authenticated/app/$appId.tsx:693
+msgid "Update Tracks"
+msgstr "Aġġorna Tracks"
+
+#: src/routes/_authenticated/app/$appId.tsx:657
+msgid "Upload a .zip build file for your application."
+msgstr "Tella' fajl build .zip għall-applikazzjoni tiegħek."
+
+#: src/routes/_authenticated/app/$appId.tsx:185
+msgid "Upload new version"
+msgstr "Tella' verżjoni ġdida"
+
+#: src/routes/_authenticated/app/$appId.tsx:655
+msgid "Upload New Version"
+msgstr "Tella' Verżjoni Ġdida"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "Tella' Verżjoni"
+
+#: src/routes/_authenticated/app/$appId.tsx:257
+msgid "Upload your first build to get started"
+msgstr "Tella' l-ewwel build tiegħek biex tibda"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "Qed itella'..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:155
+msgid "User"
+msgstr "Utent"
+
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Users can install this application by pasting this identifier into their Apps management page."
+msgstr "L-utenti jistgħu jinstallaw din l-applikazzjoni billi jpestjaw dan l-identifikatur fil-paġna ta' ġestjoni tal-Apps tagħhom."
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:68
+msgid "Verification code"
+msgstr "Kodiċi ta' verifika"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:247
+msgid "Verification code sent"
+msgstr "Kodiċi ta' verifika mibgħut"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:240
+msgid "Verification failed"
+msgstr "Verifika falliet"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+msgid "Verify"
+msgstr "Ivverifika"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:58
+msgid "Verify email address"
+msgstr "Ivverifika l-indirizz tal-email"
+
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "Verżjoni {0} inħolqot."
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "Version History"
+msgstr "Storja tal-Verżjoni"
+
+#: src/routes/_authenticated/app/$appId.tsx:632
+msgid "Version uploaded"
+msgstr "Verżjoni mtellgħa"
+
+#: ../../../lib/web/src/components/data-table/view-options.tsx:30
+msgid "View"
+msgstr "Ara"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:173
+msgid "View all"
+msgstr "Ara kollox"
+
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:94
+msgid "View all notifications"
+msgstr "Ara n-notifiki kollha"
+
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+msgid "We'll be back online shortly."
+msgstr "Nerġgħu nkunu online dalwaqt."
+
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+msgid "Website is under maintenance!"
+msgstr "Il-websajt qed tinżamm!"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:58
+msgid "Wednesday"
+msgstr "L-Erbgħa"
+
+#: src/features/apps/index.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:685
+msgid "Yes"
+msgstr "Iva"
+
+#: src/routes/_authenticated/app/$appId.tsx:686
+msgid "Yes, force"
+msgstr "Iva, iġġiegħel"
