@@ -1,0 +1,1228 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-05-08 11:12+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: sq\n"
+
+#: src/features/apps/index.tsx:152
+msgid "{name} has been created successfully."
+msgstr "{name} u krijua me sukses."
+
+#: ../../../lib/web/src/lib/preference-utils.ts:39
+msgid "12 hours"
+msgstr "12 orë"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:38
+msgid "24 hours"
+msgstr "24 orë"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:48
+msgid "Absolute (date and time)"
+msgstr "Absolut (data dhe ora)"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+msgid "Access Forbidden"
+msgstr "Qasja e ndaluar"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:188
+msgid "Access level"
+msgstr "Niveli i qasjes"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:208
+msgid "Account added"
+msgstr "Llogaria u shtua"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:224
+msgid "Account removed"
+msgstr "Llogaria u hoq"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:123
+msgid "Account type"
+msgstr "Lloji i llogarisë"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:234
+msgid "Account verified"
+msgstr "Llogaria u verifikua"
+
+#: src/routes/_authenticated/app/$appId.tsx:479
+msgid "Active version"
+msgstr "Versioni aktiv"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:117
+msgid "Add a new account"
+msgstr "Shto një llogari të re"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:145
+msgid "Add access"
+msgstr "Shto qasje"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:116
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:280
+msgid "Add account"
+msgstr "Shto llogari"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:289
+msgid "Add an account to receive notifications and use services."
+msgstr "Shto një llogari për të marrë njoftime dhe për të përdorur shërbime."
+
+#: ../../../lib/web/src/features/accounts/account-picker.tsx:98
+msgid "Add new account"
+msgstr "Shto llogari të re"
+
+#: ../../../lib/web/src/components/post-tags.tsx:119
+msgid "Add tag..."
+msgstr "Shto etiketë..."
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:80
+msgid "Add team/app"
+msgstr "Shto ekip/aplikacion"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:159
+msgid "Add to existing notifications"
+msgstr "Shto te njoftimet ekzistuese"
+
+#: ../../../lib/web/src/components/view-tabs.tsx:57
+msgid "Add view"
+msgstr "Shto pamje"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:62
+msgid "Adjust the appearance and layout to suit your preferences."
+msgstr "Rregullo paraqitjen dhe strukturën sipas preferencave të tua."
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:38
+msgid "AI"
+msgstr "AI"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:159
+msgid "All"
+msgstr "Të gjitha"
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "All uploaded build files for this application"
+msgstr "Të gjithë skedarët e ngarkuar të Build për këtë aplikacion"
+
+#: src/routes/_authenticated/app/$appId.tsx:92
+#: src/routes/_authenticated/app/$appId.tsx:126
+msgid "App"
+msgstr "Aplikacioni"
+
+#: src/features/apps/index.tsx:151
+msgid "App created"
+msgstr "Aplikacioni u krijua"
+
+#: src/routes/_authenticated/app/$appId.tsx:328
+msgid "App ID"
+msgstr "ID e aplikacionit"
+
+#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:116
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:141
+msgid "App not found"
+msgstr "Aplikacioni nuk u gjet"
+
+#: src/routes/_authenticated/app/$appId.tsx:201
+msgid "Application ID"
+msgstr "ID e aplikacionit"
+
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:24
+msgid "Are you sure you want to log out? You will need to log in again to access your account."
+msgstr "Je i sigurt që do të dalësh? Do të të duhet të rihysh për të hyrë në llogarinë tënde."
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:56
+msgid "Asc"
+msgstr "Rritës"
+
+#: src/routes/_authenticated/app/$appId.tsx:350
+msgid "Available Versions"
+msgstr "Versionet e disponueshme"
+
+#: ../../../lib/web/src/components/place-picker.tsx:152
+msgid "Back"
+msgstr "Mbrapa"
+
+#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:162
+#: src/routes/_authenticated/app/$appId.tsx:320
+msgid "Back to apps"
+msgstr "Mbrapa te aplikacionet"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Back to Home"
+msgstr "Mbrapa te kreu"
+
+#: ../../../lib/web/src/components/post-tags.tsx:160
+msgid "Boost interest"
+msgstr "Rrit interesin"
+
+#: src/routes/_authenticated/app/$appId.tsx:664
+msgid "Build File (.zip)"
+msgstr "Skedar Build (.zip)"
+
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
+#: ../../../lib/web/src/components/travelling-picker.tsx:292
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/features/access/access-dialog.tsx:325
+#: ../../../lib/web/src/features/access/access-list.tsx:255
+#: ../../../lib/web/src/features/accounts/account-add.tsx:185
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:86
+#: src/features/apps/index.tsx:208
+#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:716
+msgid "Cancel"
+msgstr "Anulo"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:131
+msgid "Category for this notification"
+msgstr "Kategoria për këtë njoftim"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:115
+msgid "Change notification category"
+msgstr "Ndrysho kategorinë e njoftimit"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:315
+msgid "Choose between default expanded, compact icon-only, or full layout mode"
+msgstr "Zgjidh midis modës së parazgjedhur të zgjeruar, kompakte vetëm me ikona, ose modës me strukturë të plotë"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:257
+msgid "Choose between inset, floating, or standard sidebar layout"
+msgstr "Zgjidh midis paraqitjes inset, lundruese ose standarde të anës"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:358
+msgid "Choose between left-to-right or right-to-left site direction"
+msgstr "Zgjidh midis drejtimit majtas-djathtas ose djathtas-majtas të faqes"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:213
+msgid "Choose between system preference, light mode, or dark mode"
+msgstr "Zgjidh midis preferencës së sistemit, modës së ndritshme ose modës së errët"
+
+#: ../../../lib/web/src/components/language-picker.tsx:167
+msgid "Choose language"
+msgstr "Zgjidh gjuhën"
+
+#: ../../../lib/web/src/components/colour-picker.tsx:304
+msgid "Clear"
+msgstr "Pastro"
+
+#: ../../../lib/web/src/components/filter-bar.tsx:64
+msgid "Clear all"
+msgstr "Pastro të gjitha"
+
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:137
+msgid "Clear filters"
+msgstr "Pastro filtrat"
+
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:164
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
+msgid "Clear selection"
+msgstr "Pastro përzgjedhjen"
+
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:165
+msgid "Clear selection (Escape)"
+msgstr "Pastro përzgjedhjen (Escape)"
+
+#: ../../../lib/web/src/components/ui/dialog.tsx:75
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/sheet.tsx:76
+msgid "Close"
+msgstr "Mbyll"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:97
+msgid "Close navigation"
+msgstr "Mbyll lundrimin"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:254
+msgid "Close Panel"
+msgstr "Mbyll panelin"
+
+#: ../../../lib/web/src/components/header-search.tsx:51
+msgid "Close search"
+msgstr "Mbyll kërkimin"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+msgid "Collapse sidebar"
+msgstr "Mbyll anën"
+
+#: ../../../lib/web/src/components/coming-soon.tsx:9
+msgid "Coming Soon!"
+msgstr "Së shpejti!"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:302
+msgid "Compact"
+msgstr "Kompakt"
+
+#: ../../../lib/web/src/components/place-picker.tsx:155
+#: ../../../lib/web/src/components/travelling-picker.tsx:299
+msgid "Confirm"
+msgstr "Konfirmo"
+
+#: ../../../lib/web/src/lib/query-client.ts:78
+msgid "Content not modified"
+msgstr "Përmbajtja nuk u modifikua"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:145
+msgid "Contextual information and details."
+msgstr "Informacion kontekstual dhe detaje."
+
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:72
+msgid "Continue"
+msgstr "Vazhdo"
+
+#: ../../../lib/web/src/components/ui/copy-button.tsx:60
+msgid "Copy"
+msgstr "Kopjo"
+
+#: src/routes/_authenticated/app/$appId.tsx:326
+msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
+msgstr "Kopjo këtë ID dhe ngjite në faqen Apps të serverit tënd Mochi për ta instaluar."
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Core identification for this application"
+msgstr "Identifikimi bazë për këtë aplikacion"
+
+#: src/routes/_authenticated/app/$appId.tsx:538
+msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
+msgstr "Krijo një mjedis të ri (p.sh. Beta, Staging) për të vendosur Build-e."
+
+#: src/features/apps/index.tsx:50
+#: src/features/apps/index.tsx:51
+#: src/features/apps/index.tsx:55
+#: src/features/apps/index.tsx:82
+#: src/features/apps/index.tsx:171
+#: src/features/apps/index.tsx:211
+msgid "Create app"
+msgstr "Krijo aplikacion"
+
+#: src/features/apps/index.tsx:169
+msgid "Create new app"
+msgstr "Krijo aplikacion të ri"
+
+#: src/routes/_authenticated/app/$appId.tsx:191
+msgid "Create track"
+msgstr "Krijo track"
+
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Create Track"
+msgstr "Krijo Track"
+
+#: src/features/apps/index.tsx:78
+msgid "Create your first app to get started"
+msgstr "Krijo aplikacionin tënd të parë për të nisur"
+
+#: src/routes/_authenticated/app/$appId.tsx:462
+msgid "Create your first release track to manage deployments"
+msgstr "Krijo Release Track-un tënd të parë për të menaxhuar shpërndarjet"
+
+#: src/features/apps/index.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:581
+msgid "Creating..."
+msgstr "Po krijon..."
+
+#: ../../../lib/web/src/components/config-drawer.tsx:205
+#: ../../../lib/web/src/lib/preference-utils.ts:17
+msgid "Dark"
+msgstr "I errët"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:88
+#: ../../../lib/web/src/components/layout/nav-user.tsx:151
+#: ../../../lib/web/src/components/layout/nav-user.tsx:202
+#: ../../../lib/web/src/components/profile-dropdown.tsx:84
+#: ../../../lib/web/src/components/profile-dropdown.tsx:120
+msgid "Dark mode"
+msgstr "Modë e errët"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:297
+msgid "Default"
+msgstr "I parazgjedhur"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:169
+msgid "Default AI account"
+msgstr "Llogaria e parazgjedhur AI"
+
+#: src/routes/_authenticated/app/$appId.tsx:443
+msgid "Default track set to \"{track}\""
+msgstr "Track-u i parazgjedhur u caktua në \"{track}\""
+
+#: src/routes/_authenticated/app/$appId.tsx:517
+msgid "Delete track"
+msgstr "Fshi track-un"
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:60
+msgid "Desc"
+msgstr "Zbritës"
+
+#: src/routes/_authenticated/app/$appId.tsx:334
+msgid "Details"
+msgstr "Detajet"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:144
+msgid "Details Panel"
+msgstr "Paneli i detajeve"
+
+#: ../../../lib/web/src/components/language-picker.tsx:145
+#: ../../../lib/web/src/components/timezone-select.tsx:43
+#: ../../../lib/web/src/components/timezone-select.tsx:80
+#: ../../../lib/web/src/lib/preference-utils.ts:25
+#: ../../../lib/web/src/lib/preference-utils.ts:37
+#: ../../../lib/web/src/lib/preference-utils.ts:55
+#: ../../../lib/web/src/lib/preference-utils.ts:69
+#: ../../../lib/web/src/lib/preference-utils.ts:81
+msgid "Detect from web browser"
+msgstr "Zbulo nga shfletuesi i web-it"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:327
+msgid "Direction"
+msgstr "Drejtimi"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:235
+msgid "Displays the mobile sidebar."
+msgstr "Shfaq anën mobile."
+
+#: src/routes/_authenticated/app/$appId.tsx:216
+msgid "Distribution"
+msgstr "Shpërndarja"
+
+#: src/routes/_authenticated/app/$appId.tsx:75
+msgid "Distribution set to {distribution}"
+msgstr "Shpërndarja u caktua në {distribution}"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+msgid "Download"
+msgstr "Shkarko"
+
+#: src/routes/_authenticated/app/$appId.tsx:548
+msgid "e.g. Staging"
+msgstr "p.sh. Staging"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+msgid "Expand sidebar"
+msgstr "Zgjero shiritin anësor"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:217
+msgid "Failed to add account"
+msgstr "Shtimi i llogarisë dështoi"
+
+#: src/features/apps/index.tsx:159
+msgid "Failed to create app"
+msgstr "Krijimi i aplikacionit dështoi"
+
+#: src/routes/_authenticated/app/$appId.tsx:404
+msgid "Failed to create track"
+msgstr "Krijimi i pistës dështoi"
+
+#: src/routes/_authenticated/app/$appId.tsx:432
+msgid "Failed to delete track"
+msgstr "Fshirja e pistës dështoi"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:226
+msgid "Failed to remove account"
+msgstr "Heqja e llogarisë dështoi"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:249
+msgid "Failed to send verification code"
+msgstr "Dërgimi i kodit të verifikimit dështoi"
+
+#: src/routes/_authenticated/app/$appId.tsx:446
+msgid "Failed to set default track"
+msgstr "Vendosja e pistës si të paracaktuar dështoi"
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:104
+msgid "Failed to update category"
+msgstr "Përditësimi i kategorisë dështoi"
+
+#: src/routes/_authenticated/app/$appId.tsx:78
+msgid "Failed to update distribution"
+msgstr "Përditësimi i shpërndarjes dështoi"
+
+#: src/routes/_authenticated/app/$appId.tsx:418
+msgid "Failed to update track"
+msgstr "Përditësimi i pistës dështoi"
+
+#: src/routes/_authenticated/app/$appId.tsx:645
+msgid "Failed to upload version"
+msgstr "Ngarkimi i versionit dështoi"
+
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:336
+msgid "Fingerprint"
+msgstr "Gjurma"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:244
+msgid "Floating"
+msgstr "Pluskues"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:60
+msgid "Friday"
+msgstr "E premte"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:149
+msgid "From"
+msgstr "Nga"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:307
+msgid "Full layout"
+msgstr "Paraqitje e plotë"
+
+#: ../../../lib/web/src/features/errors/forbidden.tsx:19
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
+msgid "Go Back"
+msgstr "Kthehu mbrapa"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:75
+msgid "Go to first page"
+msgstr "Shko në faqen e parë"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:121
+msgid "Go to last page"
+msgstr "Shko në faqen e fundit"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:112
+msgid "Go to next page"
+msgstr "Shko në faqen tjetër"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:84
+msgid "Go to previous page"
+msgstr "Shko në faqen e mëparshme"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:159
+msgid "Group"
+msgstr "Grupi"
+
+#: ../../../lib/web/src/components/data-table/column-header.tsx:67
+msgid "Hide"
+msgstr "Fshih"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
+#: ../../../lib/web/src/components/layout/top-bar.tsx:62
+#: ../../../lib/web/src/components/layout/top-bar.tsx:91
+msgid "Home"
+msgstr "Faqja kryesore"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:41
+msgid "Hot"
+msgstr "Të nxehta"
+
+#: src/routes/_authenticated/app/$appId.tsx:199
+msgid "Identity"
+msgstr "Identiteti"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:83
+msgid "Imperial"
+msgstr "Imperial"
+
+#: src/routes/_authenticated/app/$appId.tsx:554
+msgid "Initial Version"
+msgstr "Versioni fillestar"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:239
+msgid "Inset"
+msgstr "I brendshëm"
+
+#: src/routes/_authenticated/app/$appId.tsx:323
+msgid "Install App"
+msgstr "Instalo aplikacionin"
+
+#: src/routes/_authenticated/app/$appId.tsx:677
+msgid "Install Locally"
+msgstr "Instalo lokalisht"
+
+#: src/routes/_authenticated/app/$appId.tsx:323
+msgid "Install this application to your server"
+msgstr "Instaloni këtë aplikacion në serverin tuaj"
+
+#: src/routes/_authenticated/app/$appId.tsx:242
+msgid "Installation ID"
+msgstr "ID e instalimit"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:39
+msgid "Interests"
+msgstr "Interesat"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:237
+msgid "Invalid verification code"
+msgstr "Kod verifikimi i pavlefshëm"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:273
+msgid "Layout"
+msgstr "Paraqitja"
+
+#: ../../../lib/web/src/components/learn-more.tsx:27
+msgid "Learn more"
+msgstr "Mëso më shumë"
+
+#: src/routes/_authenticated/app/$appId.tsx:560
+msgid "Leave empty"
+msgstr "Lini bosh"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:341
+msgid "Left to Right"
+msgstr "Nga e majta në të djathtë"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:200
+#: ../../../lib/web/src/lib/preference-utils.ts:16
+msgid "Light"
+msgstr "E çelët"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:32
+msgid "Load more"
+msgstr "Ngarko më shumë"
+
+#: src/routes/_authenticated/app/$appId.tsx:98
+msgid "Loading app..."
+msgstr "Duke ngarkuar aplikacionin..."
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:32
+msgid "Loading…"
+msgstr "Duke ngarkuar…"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:98
+#: ../../../lib/web/src/components/layout/nav-user.tsx:164
+#: ../../../lib/web/src/components/layout/nav-user.tsx:212
+#: ../../../lib/web/src/components/profile-dropdown.tsx:66
+#: ../../../lib/web/src/components/profile-dropdown.tsx:95
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:23
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+msgid "Log out"
+msgstr "Dilni"
+
+#: ../../../lib/web/src/hooks/use-logout.ts:16
+msgid "Logged out (with errors)"
+msgstr "U dol (me gabime)"
+
+#: ../../../lib/web/src/hooks/use-logout.ts:14
+msgid "Logged out successfully"
+msgstr "U dol me sukses"
+
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+msgid "Logging out…"
+msgstr "Duke dalë…"
+
+#: src/features/apps/index.tsx:189
+msgid "Make app publicly available"
+msgstr "Bëje aplikacionin publikisht të disponueshëm"
+
+#: src/routes/_authenticated/app/$appId.tsx:455
+msgid "Manage deployment environments and their versions"
+msgstr "Menaxho mjediset e shpërndarjes dhe versionet e tyre"
+
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:220
+msgid "Mark all as read"
+msgstr "Shëno të gjitha si të lexuara"
+
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
+msgid "Menu"
+msgstr "Menyja"
+
+#: src/routes/_authenticated/app/$appId.tsx:334
+msgid "Metadata and configuration"
+msgstr "Metadata dhe konfigurimi"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:82
+msgid "Metric"
+msgstr "Metrik"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:56
+msgid "Monday"
+msgstr "E hënë"
+
+#: src/features/apps/index.tsx:184
+msgid "My App"
+msgstr "Aplikacioni im"
+
+#: src/routes/_authenticated/app/$appId.tsx:337
+msgid "N/A"
+msgstr "S'ka"
+
+#: src/features/apps/index.tsx:178
+msgid "Name"
+msgstr "Emri"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:40
+msgid "New"
+msgstr "I ri"
+
+#: src/routes/_authenticated/app/$appId.tsx:536
+msgid "New Release Track"
+msgstr "Pistë e re Release"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+msgid "Next image"
+msgstr "Imazhi tjetër"
+
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "No"
+msgstr "Jo"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:156
+msgid "No access rules configured. Add rules to control who can access this resource."
+msgstr "Asnjë rregull qasjeje i konfiguruar. Shto rregulla për të kontrolluar kush mund të qaset në këtë burim."
+
+#: src/features/apps/index.tsx:77
+msgid "No apps yet"
+msgstr "Ende pa aplikacione"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:287
+msgid "No connected accounts"
+msgstr "Asnjë llogari e lidhur"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:238
+msgid "No groups available"
+msgstr "Asnjë grup i disponueshëm"
+
+#: ../../../lib/web/src/components/language-picker.tsx:177
+msgid "No matches."
+msgstr "Asnjë përputhje."
+
+#: ../../../lib/web/src/components/place-picker.tsx:129
+msgid "No places found"
+msgstr "S'u gjet asnjë vend"
+
+#: ../../../lib/web/src/components/profile-dropdown.tsx:55
+msgid "No profile"
+msgstr "Pa profil"
+
+#: ../../../lib/web/src/components/command-menu.tsx:52
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:87
+msgid "No results found."
+msgstr "S'u gjet asnjë rezultat."
+
+#: ../../../lib/web/src/components/timezone-select.tsx:64
+msgid "No time zone found."
+msgstr "S'u gjet asnjë zonë kohore."
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
+msgid "No topic record yet — try again after the next notification."
+msgstr "Ende asnjë regjistrim teme — provoni përsëri pas njoftimit tjetër."
+
+#: src/routes/_authenticated/app/$appId.tsx:461
+msgid "No tracks"
+msgstr "Asnjë pistë"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:203
+msgid "No users found"
+msgstr "S'u gjet asnjë përdorues"
+
+#: src/routes/_authenticated/app/$appId.tsx:557
+msgid "No version"
+msgstr "Pa version"
+
+#: src/routes/_authenticated/app/$appId.tsx:256
+msgid "No versions"
+msgstr "Asnjë version"
+
+#: ../../../lib/web/src/components/person-picker.tsx:349
+msgid "None"
+msgstr "Asnjë"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:132
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:146
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:247
+msgid "Notifications"
+msgstr "Njoftime"
+
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+msgid "Oops! Page Not Found!"
+msgstr "Ups! Faqja s'u gjet!"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:150
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:151
+msgid "Open account actions"
+msgstr "Hap veprimet e llogarisë"
+
+#: ../../../lib/web/src/components/layout/top-bar.tsx:57
+msgid "Open navigation"
+msgstr "Hap navigimin"
+
+#: ../../../lib/web/src/components/layout/top-nav.tsx:32
+#: ../../../lib/web/src/components/layout/top-nav.tsx:33
+msgid "Open navigation menu"
+msgstr "Hap menynë e navigimit"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:51
+msgid "Open theme settings"
+msgstr "Hap cilësimet e temës"
+
+#: src/routes/_authenticated/app/$appId.tsx:500
+msgid "Open track actions"
+msgstr "Hap veprimet e pistës"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:163
+msgid "Other"
+msgstr "Tjetër"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:213
+msgid "Owner"
+msgstr "Pronari"
+
+#: src/features/apps/index.tsx:143
+msgid "Please enter an app name"
+msgstr "Ju lutemi futni një emër aplikacioni"
+
+#: src/routes/_authenticated/app/$appId.tsx:621
+msgid "Please select a file"
+msgstr "Ju lutemi zgjidhni një skedar"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+msgid "Previous image"
+msgstr "Imazhi i mëparshëm"
+
+#: src/routes/_authenticated/app/$appId.tsx:339
+msgid "Privacy"
+msgstr "Privatësia"
+
+#: src/routes/_authenticated/app/$appId.tsx:207
+msgid "Privacy Policy"
+msgstr "Politika e privatësisë"
+
+#: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:212
+msgid "Private"
+msgstr "Privat"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:134
+#: ../../../lib/web/src/components/profile-dropdown.tsx:111
+msgid "Profile"
+msgstr "Profili"
+
+#: src/features/apps/index.tsx:88
+#: src/routes/_authenticated/app/$appId.tsx:210
+msgid "Public"
+msgstr "Publik"
+
+#: src/features/apps/index.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:226
+msgid "Published"
+msgstr "I publikuar"
+
+#: src/features/apps/index.tsx:32
+#: src/features/apps/index.tsx:46
+msgid "Publisher"
+msgstr "Publikuesi"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:216
+#: ../../../lib/web/src/components/search-entity-page.tsx:191
+msgid "Recommended"
+msgstr "I rekomanduar"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:130
+msgid "Redirecting to login."
+msgstr "Duke ridrejtuar te hyrja."
+
+#: ../../../lib/web/src/components/post-tags.tsx:175
+msgid "Reduce interest"
+msgstr "Zvogëlo interesin"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:47
+msgid "Relative (5m, 3h, 2d)"
+msgstr "Relative (5m, 3h, 2d)"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:46
+msgid "Relative within 24 hours, else absolute"
+msgstr "Relative brenda 24 orëve, përndryshe absolute"
+
+#: src/routes/_authenticated/app/$appId.tsx:454
+msgid "Release Tracks"
+msgstr "Pistat e Release"
+
+#: src/routes/_authenticated/app/$appId.tsx:350
+msgid "Release tracks currently active"
+msgstr "Pistat e Release aktualisht aktive"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:257
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:172
+msgid "Remove"
+msgstr "Hiq"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:241
+#: ../../../lib/web/src/features/access/access-list.tsx:242
+msgid "Remove access rule"
+msgstr "Hiq rregullin e qasjes"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:249
+msgid "Remove access?"
+msgstr "Të hiqet qasja?"
+
+#: ../../../lib/web/src/components/post-tags.tsx:190
+msgid "Remove interest"
+msgstr "Hiq interesin"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:77
+msgid "Reset"
+msgstr "Rivendos"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:75
+msgid "Reset all settings to default values"
+msgstr "Rivendos të gjitha cilësimet në vlerat parazgjedhura"
+
+#: src/features/apps/index.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:227
+msgid "Restricted"
+msgstr "I kufizuar"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:348
+msgid "Right to Left"
+msgstr "Nga e djathta në të majtë"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:60
+msgid "Rows per page"
+msgstr "Rreshta për faqe"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:61
+msgid "Saturday"
+msgstr "E shtunë"
+
+#: ../../../lib/web/src/components/place-picker.tsx:82
+msgid "Search for a place"
+msgstr "Kërko një vend"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:234
+msgid "Search for destination..."
+msgstr "Kërko destinacionin..."
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:173
+msgid "Search for origin..."
+msgstr "Kërko origjinën..."
+
+#: ../../../lib/web/src/components/timezone-select.tsx:62
+msgid "Search time zone..."
+msgstr "Kërko zonën kohore..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:170
+msgid "Search users"
+msgstr "Kërko përdorues"
+
+#: ../../../lib/web/src/components/person-picker.tsx:323
+msgid "Search..."
+msgstr "Kërko..."
+
+#: ../../../lib/web/src/components/language-picker.tsx:175
+msgid "Search…"
+msgstr "Kërko…"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:174
+#: ../../../lib/web/src/components/search-entity-page.tsx:149
+#: ../../../lib/web/src/features/access/access-dialog.tsx:199
+msgid "Searching..."
+msgstr "Duke kërkuar..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:147
+msgid "Select a user, group, or other rule to grant access."
+msgstr "Zgjidh një përdorues, grup, ose rregull tjetër për të dhënë qasje."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:270
+msgid "Select access rule"
+msgstr "Zgjidh rregullin e qasjes"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:126
+msgid "Select account type"
+msgstr "Zgjidh llojin e llogarisë"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:228
+msgid "Select group"
+msgstr "Zgjidh grupin"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:291
+msgid "Select layout style"
+msgstr "Zgjidh stilin e paraqitjes"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:233
+msgid "Select sidebar style"
+msgstr "Zgjidh stilin e shiritit anësor"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:335
+msgid "Select site direction"
+msgstr "Zgjidh drejtimin e faqes"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:189
+msgid "Select theme preference"
+msgstr "Zgjidh preferencën e temës"
+
+#: ../../../lib/web/src/lib/api-client.ts:224
+msgid "Session expired"
+msgstr "Sesioni skadoi"
+
+#: src/routes/_authenticated/app/$appId.tsx:510
+msgid "Set as default"
+msgstr "Vendos si parazgjedhur"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:143
+msgid "Set origin and destination"
+msgstr "Vendos origjinën dhe destinacionin"
+
+#: ../../../lib/web/src/components/layout/nav-user.tsx:81
+#: ../../../lib/web/src/components/layout/nav-user.tsx:145
+#: ../../../lib/web/src/components/layout/nav-user.tsx:195
+msgid "Settings"
+msgstr "Cilësimet"
+
+#: src/routes/_authenticated/app/$appId.tsx:236
+msgid "Share this ID to allow others to install this app"
+msgstr "Ndaje këtë ID për të lejuar të tjerët të instalojnë këtë aplikacion"
+
+#: src/routes/_authenticated/app/$appId.tsx:235
+msgid "Sharing"
+msgstr "Ndarja"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:36
+msgid "Showing {totalShown} of {total}"
+msgstr "Duke shfaqur {totalShown} nga {total}"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:225
+#: ../../../lib/web/src/components/config-drawer.tsx:249
+#: ../../../lib/web/src/components/ui/sidebar.tsx:234
+msgid "Sidebar"
+msgstr "Shiriti anësor"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:128
+msgid "Signing out..."
+msgstr "Duke dalë..."
+
+#: ../../../lib/web/src/components/skip-to-main.tsx:8
+msgid "Skip to Main"
+msgstr "Kapërce te kryesorja"
+
+#: ../../../lib/web/src/components/coming-soon.tsx:12
+msgid "Stay tuned though!"
+msgstr "Mbetuni të lidhur!"
+
+#: ../../../lib/web/src/features/access/access-list.tsx:187
+msgid "Subject"
+msgstr "Subjekti"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:62
+msgid "Sunday"
+msgstr "E diel"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:195
+#: ../../../lib/web/src/lib/preference-utils.ts:18
+msgid "System"
+msgstr "Sistemi"
+
+#: ../../../lib/web/src/components/tag-input.tsx:91
+msgid "Tag"
+msgstr "Etiketa"
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:60
+msgid "Teams/Apps"
+msgstr "Ekipet/Aplikacionet"
+
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:142
+msgid "The requested app could not be found."
+msgstr "Aplikacioni i kërkuar nuk u gjet."
+
+#: ../../../lib/web/src/components/config-drawer.tsx:181
+msgid "Theme"
+msgstr "Tema"
+
+#: ../../../lib/web/src/components/config-drawer.tsx:60
+msgid "Theme Settings"
+msgstr "Cilësimet e temës"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:59
+msgid "Thursday"
+msgstr "E enjte"
+
+#: ../../../lib/web/src/components/data-table/view-options.tsx:34
+msgid "Toggle columns"
+msgstr "Ndrysho kolonat"
+
+#: ../../../lib/web/src/components/layout/right-panel.tsx:227
+msgid "Toggle Right Panel"
+msgstr "Ndrysho panelin e djathtë"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:312
+#: ../../../lib/web/src/components/ui/sidebar.tsx:324
+#: ../../../lib/web/src/components/ui/sidebar.tsx:327
+msgid "Toggle Sidebar"
+msgstr "Ndrysho shiritin anësor"
+
+#: ../../../lib/web/src/components/theme-switch.tsx:31
+msgid "Toggle theme"
+msgstr "Ndrysho temën"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:42
+msgid "Top"
+msgstr "Lart"
+
+#: src/routes/_authenticated/app/$appId.tsx:429
+msgid "Track \"{track}\" deleted"
+msgstr "Track \"{track}\" u fshi"
+
+#: src/routes/_authenticated/app/$appId.tsx:415
+msgid "Track \"{track}\" updated to {version}"
+msgstr "Track \"{track}\" u përditësua në {version}"
+
+#: src/routes/_authenticated/app/$appId.tsx:398
+msgid "Track created"
+msgstr "Track u krijua"
+
+#: src/routes/_authenticated/app/$appId.tsx:544
+msgid "Track Name"
+msgstr "Emri i Track-ut"
+
+#: ../../../lib/web/src/components/travelling-picker.tsx:141
+msgid "Travelling"
+msgstr "Duke udhëtuar"
+
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:190
+#: ../../../lib/web/src/components/search-entity-page.tsx:165
+msgid "Try adjusting your search terms"
+msgstr "Provo të rregullosh termat e kërkimit"
+
+#: ../../../lib/web/src/features/errors/general-error.tsx:125
+#: ../../../lib/web/src/features/errors/general-error.tsx:165
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+msgid "Try again"
+msgstr "Provo përsëri"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:57
+msgid "Tuesday"
+msgstr "E martë"
+
+#: ../../../lib/web/src/components/command-menu.tsx:49
+msgid "Type a command or search..."
+msgstr "Shkruaj një komandë ose kërko..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:188
+msgid "Type to search users"
+msgstr "Shkruaj për të kërkuar përdorues"
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:180
+msgid "Type to search..."
+msgstr "Shkruaj për të kërkuar..."
+
+#: ../../../lib/web/src/lib/auth-manager.ts:82
+#: ../../../lib/web/src/lib/auth-manager.ts:94
+msgid "Unable to redirect to login. Please try again."
+msgstr "Nuk mund të ridrejtohet te hyrja. Ju lutemi provoni përsëri."
+
+#: ../../../lib/web/src/components/notification-category-button.tsx:143
+msgid "Unassigned"
+msgstr "I pacaktuar"
+
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+msgid "Unauthorized Access"
+msgstr "Akses i paautorizuar"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:84
+msgid "United States"
+msgstr "Shtetet e Bashkuara"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:131
+msgid "Unverified"
+msgstr "I paverifikuar"
+
+#: src/routes/_authenticated/app/$appId.tsx:693
+msgid "Update Tracks"
+msgstr "Përditëso Track-et"
+
+#: src/routes/_authenticated/app/$appId.tsx:657
+msgid "Upload a .zip build file for your application."
+msgstr "Ngarko një skedar build .zip për aplikacionin tënd."
+
+#: src/routes/_authenticated/app/$appId.tsx:185
+msgid "Upload new version"
+msgstr "Ngarko version të ri"
+
+#: src/routes/_authenticated/app/$appId.tsx:655
+msgid "Upload New Version"
+msgstr "Ngarko version të ri"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Upload Version"
+msgstr "Ngarko version"
+
+#: src/routes/_authenticated/app/$appId.tsx:257
+msgid "Upload your first build to get started"
+msgstr "Ngarko build-in tënd të parë për të filluar"
+
+#: src/routes/_authenticated/app/$appId.tsx:719
+msgid "Uploading..."
+msgstr "Duke ngarkuar..."
+
+#: ../../../lib/web/src/features/access/access-dialog.tsx:155
+msgid "User"
+msgstr "Përdoruesi"
+
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Users can install this application by pasting this identifier into their Apps management page."
+msgstr "Përdoruesit mund ta instalojnë këtë aplikacion duke ngjitur këtë identifikues në faqen e tyre të menaxhimit të aplikacioneve."
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:68
+msgid "Verification code"
+msgstr "Kodi i verifikimit"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:247
+msgid "Verification code sent"
+msgstr "Kodi i verifikimit u dërgua"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:240
+msgid "Verification failed"
+msgstr "Verifikimi dështoi"
+
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+msgid "Verify"
+msgstr "Verifiko"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:58
+msgid "Verify email address"
+msgstr "Verifiko adresën e email-it"
+
+#. placeholder {0}: data.version
+#: src/routes/_authenticated/app/$appId.tsx:633
+msgid "Version {0} has been created."
+msgstr "Versioni {0} u krijua."
+
+#: src/routes/_authenticated/app/$appId.tsx:251
+msgid "Version History"
+msgstr "Historiku i versioneve"
+
+#: src/routes/_authenticated/app/$appId.tsx:632
+msgid "Version uploaded"
+msgstr "Versioni u ngarkua"
+
+#: ../../../lib/web/src/components/data-table/view-options.tsx:30
+msgid "View"
+msgstr "Shiko"
+
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:173
+msgid "View all"
+msgstr "Shiko të gjitha"
+
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:94
+msgid "View all notifications"
+msgstr "Shiko të gjitha njoftimet"
+
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+msgid "We'll be back online shortly."
+msgstr "Do të kthehemi online së shpejti."
+
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+msgid "Website is under maintenance!"
+msgstr "Faqja është nën mirëmbajtje!"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:58
+msgid "Wednesday"
+msgstr "E mërkurë"
+
+#: src/features/apps/index.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:685
+msgid "Yes"
+msgstr "Po"
+
+#: src/routes/_authenticated/app/$appId.tsx:686
+msgid "Yes, force"
+msgstr "Po, detyro"

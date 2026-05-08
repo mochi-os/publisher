@@ -17,15 +17,15 @@ msgstr ""
 msgid "{name} has been created successfully."
 msgstr "{name} berjaya dicipta."
 
-#: ../../../lib/web/src/lib/preference-utils.ts:52
+#: ../../../lib/web/src/lib/preference-utils.ts:39
 msgid "12 hours"
 msgstr "12 jam"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:51
+#: ../../../lib/web/src/lib/preference-utils.ts:38
 msgid "24 hours"
 msgstr "24 jam"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:61
+#: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "Mutlak (tarikh dan masa)"
 
@@ -376,11 +376,11 @@ msgstr "Panel Butiran"
 #: ../../../lib/web/src/components/language-picker.tsx:145
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
-#: ../../../lib/web/src/lib/preference-utils.ts:38
-#: ../../../lib/web/src/lib/preference-utils.ts:50
-#: ../../../lib/web/src/lib/preference-utils.ts:68
-#: ../../../lib/web/src/lib/preference-utils.ts:82
-#: ../../../lib/web/src/lib/preference-utils.ts:94
+#: ../../../lib/web/src/lib/preference-utils.ts:25
+#: ../../../lib/web/src/lib/preference-utils.ts:37
+#: ../../../lib/web/src/lib/preference-utils.ts:55
+#: ../../../lib/web/src/lib/preference-utils.ts:69
+#: ../../../lib/web/src/lib/preference-utils.ts:81
 msgid "Detect from web browser"
 msgstr "Kesan daripada pelayar web"
 
@@ -465,7 +465,7 @@ msgstr "Cap jari"
 msgid "Floating"
 msgstr "Terapung"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:73
+#: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "Jumaat"
 
@@ -522,7 +522,7 @@ msgstr "Panas"
 msgid "Identity"
 msgstr "Identiti"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:96
+#: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "Imperial"
 
@@ -613,10 +613,6 @@ msgstr "Berjaya log keluar"
 msgid "Logging out…"
 msgstr "Sedang log keluar…"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:25
-msgid "Luma (Default)"
-msgstr "Luma (Lalai)"
-
 #: src/features/apps/index.tsx:189
 msgid "Make app publicly available"
 msgstr "Jadikan apl tersedia untuk umum"
@@ -638,11 +634,11 @@ msgstr "Menu"
 msgid "Metadata and configuration"
 msgstr "Metadata dan konfigurasi"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:95
+#: ../../../lib/web/src/lib/preference-utils.ts:82
 msgid "Metric"
 msgstr "Metrik"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:69
+#: ../../../lib/web/src/lib/preference-utils.ts:56
 msgid "Monday"
 msgstr "Isnin"
 
@@ -834,11 +830,11 @@ msgstr "Melencongkan ke log masuk."
 msgid "Reduce interest"
 msgstr "Kurangkan minat"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:60
+#: ../../../lib/web/src/lib/preference-utils.ts:47
 msgid "Relative (5m, 3h, 2d)"
 msgstr "Relatif (5m, 3j, 2h)"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:59
+#: ../../../lib/web/src/lib/preference-utils.ts:46
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relatif dalam 24 jam, jika tidak mutlak"
 
@@ -889,7 +885,7 @@ msgstr "Kanan ke Kiri"
 msgid "Rows per page"
 msgstr "Baris setiap halaman"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:74
+#: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Saturday"
 msgstr "Sabtu"
 
@@ -1011,7 +1007,7 @@ msgstr "Nantikan!"
 msgid "Subject"
 msgstr "Subjek"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:75
+#: ../../../lib/web/src/lib/preference-utils.ts:62
 msgid "Sunday"
 msgstr "Ahad"
 
@@ -1041,7 +1037,7 @@ msgstr "Tema"
 msgid "Theme Settings"
 msgstr "Tetapan Tema"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:72
+#: ../../../lib/web/src/lib/preference-utils.ts:59
 msgid "Thursday"
 msgstr "Khamis"
 
@@ -1098,7 +1094,7 @@ msgstr "Cuba laraskan istilah carian anda"
 msgid "Try again"
 msgstr "Cuba lagi"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:70
+#: ../../../lib/web/src/lib/preference-utils.ts:57
 msgid "Tuesday"
 msgstr "Selasa"
 
@@ -1127,7 +1123,7 @@ msgstr "Tidak diberikan"
 msgid "Unauthorized Access"
 msgstr "Akses Tidak Dibenarkan"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:97
+#: ../../../lib/web/src/lib/preference-utils.ts:84
 msgid "United States"
 msgstr "Amerika Syarikat"
 
@@ -1224,7 +1220,7 @@ msgstr "Kami akan kembali dalam talian sebentar lagi."
 msgid "Website is under maintenance!"
 msgstr "Laman web sedang dalam penyelenggaraan!"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:71
+#: ../../../lib/web/src/lib/preference-utils.ts:58
 msgid "Wednesday"
 msgstr "Rabu"
 

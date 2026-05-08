@@ -17,15 +17,15 @@ msgstr ""
 msgid "{name} has been created successfully."
 msgstr "تم إنشاء {name} بنجاح."
 
-#: ../../../lib/web/src/lib/preference-utils.ts:52
+#: ../../../lib/web/src/lib/preference-utils.ts:39
 msgid "12 hours"
 msgstr "12 ساعة"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:51
+#: ../../../lib/web/src/lib/preference-utils.ts:38
 msgid "24 hours"
 msgstr "24 ساعة"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:61
+#: ../../../lib/web/src/lib/preference-utils.ts:48
 msgid "Absolute (date and time)"
 msgstr "مطلق (تاريخ ووقت)"
 
@@ -376,11 +376,11 @@ msgstr "لوحة التفاصيل"
 #: ../../../lib/web/src/components/language-picker.tsx:145
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
-#: ../../../lib/web/src/lib/preference-utils.ts:38
-#: ../../../lib/web/src/lib/preference-utils.ts:50
-#: ../../../lib/web/src/lib/preference-utils.ts:68
-#: ../../../lib/web/src/lib/preference-utils.ts:82
-#: ../../../lib/web/src/lib/preference-utils.ts:94
+#: ../../../lib/web/src/lib/preference-utils.ts:25
+#: ../../../lib/web/src/lib/preference-utils.ts:37
+#: ../../../lib/web/src/lib/preference-utils.ts:55
+#: ../../../lib/web/src/lib/preference-utils.ts:69
+#: ../../../lib/web/src/lib/preference-utils.ts:81
 msgid "Detect from web browser"
 msgstr "اكتشاف من متصفح الويب"
 
@@ -465,7 +465,7 @@ msgstr "البصمة"
 msgid "Floating"
 msgstr "عائم"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:73
+#: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Friday"
 msgstr "الجمعة"
 
@@ -522,7 +522,7 @@ msgstr "رائج"
 msgid "Identity"
 msgstr "الهوية"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:96
+#: ../../../lib/web/src/lib/preference-utils.ts:83
 msgid "Imperial"
 msgstr "إمبراطوري"
 
@@ -613,10 +613,6 @@ msgstr "تم تسجيل الخروج بنجاح"
 msgid "Logging out…"
 msgstr "جاري تسجيل الخروج…"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:25
-msgid "Luma (Default)"
-msgstr "Luma (افتراضي)"
-
 #: src/features/apps/index.tsx:189
 msgid "Make app publicly available"
 msgstr "جعل التطبيق متاحاً للعموم"
@@ -638,11 +634,11 @@ msgstr "القائمة"
 msgid "Metadata and configuration"
 msgstr "البيانات الوصفية والإعداد"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:95
+#: ../../../lib/web/src/lib/preference-utils.ts:82
 msgid "Metric"
 msgstr "متري"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:69
+#: ../../../lib/web/src/lib/preference-utils.ts:56
 msgid "Monday"
 msgstr "الاثنين"
 
@@ -834,11 +830,11 @@ msgstr "جاري إعادة التوجيه إلى تسجيل الدخول."
 msgid "Reduce interest"
 msgstr "تقليل الاهتمام"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:60
+#: ../../../lib/web/src/lib/preference-utils.ts:47
 msgid "Relative (5m, 3h, 2d)"
 msgstr "نسبي (5د, 3س, 2ي)"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:59
+#: ../../../lib/web/src/lib/preference-utils.ts:46
 msgid "Relative within 24 hours, else absolute"
 msgstr "نسبي خلال 24 ساعة، وإلا مطلق"
 
@@ -889,7 +885,7 @@ msgstr "من اليمين إلى اليسار"
 msgid "Rows per page"
 msgstr "عدد الصفوف في الصفحة"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:74
+#: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Saturday"
 msgstr "السبت"
 
@@ -1011,7 +1007,7 @@ msgstr "ابقَ على اتصال!"
 msgid "Subject"
 msgstr "الموضوع"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:75
+#: ../../../lib/web/src/lib/preference-utils.ts:62
 msgid "Sunday"
 msgstr "الأحد"
 
@@ -1041,7 +1037,7 @@ msgstr "السمة"
 msgid "Theme Settings"
 msgstr "إعدادات السمة"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:72
+#: ../../../lib/web/src/lib/preference-utils.ts:59
 msgid "Thursday"
 msgstr "الخميس"
 
@@ -1098,7 +1094,7 @@ msgstr "حاول تعديل مصطلحات البحث"
 msgid "Try again"
 msgstr "حاول مرة أخرى"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:70
+#: ../../../lib/web/src/lib/preference-utils.ts:57
 msgid "Tuesday"
 msgstr "الثلاثاء"
 
@@ -1127,7 +1123,7 @@ msgstr "غير معين"
 msgid "Unauthorized Access"
 msgstr "وصول غير مصرح"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:97
+#: ../../../lib/web/src/lib/preference-utils.ts:84
 msgid "United States"
 msgstr "الولايات المتحدة"
 
@@ -1224,7 +1220,7 @@ msgstr "سنعود للاتصال قريبًا."
 msgid "Website is under maintenance!"
 msgstr "الموقع قيد الصيانة!"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:71
+#: ../../../lib/web/src/lib/preference-utils.ts:58
 msgid "Wednesday"
 msgstr "الأربعاء"
 
