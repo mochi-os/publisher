@@ -774,8 +774,7 @@ msgstr "Autre"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:213
 msgid "Owner"
-msgstr "Propriétaire\"#. placeholder {0}: formatInterval(source.interval)"
-
+msgstr "Propriétaire"
 #: src/features/apps/index.tsx:143
 msgid "Please enter an app name"
 msgstr "Veuillez saisir un nom d'application"

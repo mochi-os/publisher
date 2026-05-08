@@ -774,8 +774,7 @@ msgstr "その他"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:213
 msgid "Owner"
-msgstr "オーナー\"#. placeholder {0}: formatInterval(source.interval)"
-
+msgstr "オーナー"
 #: src/features/apps/index.tsx:143
 msgid "Please enter an app name"
 msgstr "アプリ名を入力してください"
