@@ -53,7 +53,7 @@ msgstr "Tip ta' kont"
 msgid "Account verified"
 msgstr "Kont ivverifikat"
 
-#: src/routes/_authenticated/app/$appId.tsx:479
+#: src/routes/_authenticated/app/$appId.tsx:493
 msgid "Active version"
 msgstr "Verżjoni attiva"
 
@@ -106,7 +106,7 @@ msgstr "AI"
 msgid "All"
 msgstr "Kollha"
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "All uploaded build files for this application"
 msgstr "Il-files kollha tal-build mtellgħa għal din l-applikazzjoni"
 
@@ -119,10 +119,6 @@ msgstr "App"
 msgid "App created"
 msgstr "App maħluqa"
 
-#: src/routes/_authenticated/app/$appId.tsx:328
-msgid "App ID"
-msgstr "ID tal-app"
-
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:116
 #: src/routes/_authenticated/app/$appId.tsx:137
@@ -130,7 +126,7 @@ msgstr "ID tal-app"
 msgid "App not found"
 msgstr "App ma nstabitx"
 
-#: src/routes/_authenticated/app/$appId.tsx:201
+#: src/routes/_authenticated/app/$appId.tsx:205
 msgid "Application ID"
 msgstr "ID tal-applikazzjoni"
 
@@ -142,7 +138,7 @@ msgstr "Żgur trid toħroġ? Trid terġa' tidħol biex taċċessa l-kont tiegħe
 msgid "Asc"
 msgstr "Tielgħa"
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Available Versions"
 msgstr "Verżjonijiet disponibbli"
 
@@ -154,8 +150,8 @@ msgstr "Lura"
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
-#: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:320
+#: src/routes/_authenticated/app/$appId.tsx:166
+#: src/routes/_authenticated/app/$appId.tsx:329
 msgid "Back to apps"
 msgstr "Lura għall-apps"
 
@@ -169,7 +165,7 @@ msgstr "Lura għall-Home"
 msgid "Boost interest"
 msgstr "Saħħaħ l-interess"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:678
 msgid "Build File (.zip)"
 msgstr "File tal-Build (.zip)"
 
@@ -181,8 +177,8 @@ msgstr "File tal-Build (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:575
-#: src/routes/_authenticated/app/$appId.tsx:716
+#: src/routes/_authenticated/app/$appId.tsx:589
+#: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Cancel"
 msgstr "Ikkanċella"
 
@@ -210,7 +206,7 @@ msgstr "Agħżel bejn direzzjoni tas-sit minn xellug-għal-lemin jew minn lemin-
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "Agħżel bejn preferenza tas-sistema, modalità ċara, jew modalità skura"
 
-#: ../../../lib/web/src/components/language-picker.tsx:167
+#: ../../../lib/web/src/components/language-picker.tsx:174
 msgid "Choose language"
 msgstr "Agħżel lingwa"
 
@@ -257,11 +253,16 @@ msgstr "Agħlaq it-tiftix"
 msgid "Collapse sidebar"
 msgstr "Iġbed il-barra tal-ġenb"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:93
+msgid "Comfortable"
+msgstr "Komdu"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:9
 msgid "Coming Soon!"
 msgstr "Dalwaqt!"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:302
+#: ../../../lib/web/src/lib/preference-utils.ts:92
 msgid "Compact"
 msgstr "Kompatt"
 
@@ -286,15 +287,19 @@ msgstr "Kompli"
 msgid "Copy"
 msgstr "Ikkupja"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
-msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "Ikkupja dan l-ID u waħħlu fil-paġna Apps tas-server Mochi tiegħek biex tinstalla."
+#: src/routes/_authenticated/app/$appId.tsx:335
+msgid "Copy this link and paste it in your Mochi server's Apps page to install."
+msgstr "Ikkopja dan il-link u ppejstjah fil-paġna Apps tas-server Mochi tiegħek biex tinstallaha."
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Core identification for this application"
 msgstr "Identifikazzjoni ċentrali għal din l-applikazzjoni"
 
-#: src/routes/_authenticated/app/$appId.tsx:538
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Ma setax itella' dan id-dokument. Jekk jogħġbok ipprova mill-ġdid iktar tard."
+
+#: src/routes/_authenticated/app/$appId.tsx:552
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Oħloq ambjent ġdid (eż. Beta, Staging) biex tiddeplojja builds."
 
@@ -311,11 +316,11 @@ msgstr "Oħloq app"
 msgid "Create new app"
 msgstr "Oħloq app ġdida"
 
-#: src/routes/_authenticated/app/$appId.tsx:191
+#: src/routes/_authenticated/app/$appId.tsx:195
 msgid "Create track"
 msgstr "Oħloq track"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create Track"
 msgstr "Oħloq Track"
 
@@ -323,12 +328,12 @@ msgstr "Oħloq Track"
 msgid "Create your first app to get started"
 msgstr "Oħloq l-ewwel app tiegħek biex tibda"
 
-#: src/routes/_authenticated/app/$appId.tsx:462
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Create your first release track to manage deployments"
 msgstr "Oħloq l-ewwel Release Track tiegħek biex tmexxi d-deploys"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Qed joħloq..."
 
@@ -353,11 +358,11 @@ msgstr "Default"
 msgid "Default AI account"
 msgstr "Kont AI default"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "Track default issettjat għal \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:517
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Delete track"
 msgstr "Ħassar track"
 
@@ -365,7 +370,7 @@ msgstr "Ħassar track"
 msgid "Desc"
 msgstr "Niżla"
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Details"
 msgstr "Dettalji"
 
@@ -373,7 +378,7 @@ msgstr "Dettalji"
 msgid "Details Panel"
 msgstr "Pannell tad-Dettalji"
 
-#: ../../../lib/web/src/components/language-picker.tsx:145
+#: ../../../lib/web/src/components/language-picker.tsx:152
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -392,7 +397,7 @@ msgstr "Direzzjoni"
 msgid "Displays the mobile sidebar."
 msgstr "Juri l-barra tal-ġenb tal-mobile."
 
-#: src/routes/_authenticated/app/$appId.tsx:216
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Distribution"
 msgstr "Distribuzzjoni"
 
@@ -404,13 +409,21 @@ msgstr "Distribuzzjoni issettjata għal {distribution}"
 msgid "Download"
 msgstr "Niżżel"
 
-#: src/routes/_authenticated/app/$appId.tsx:548
+#: ../../../lib/web/src/lib/preference-utils.ts:134
+msgid "Dyslexia-friendly"
+msgstr "Adattat għad-disleksja"
+
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "e.g. Staging"
 msgstr "eż. Staging"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "Espandi s-sidebar"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:124
+msgid "Extra large"
+msgstr "Kbir ħafna"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:217
 msgid "Failed to add account"
@@ -420,11 +433,11 @@ msgstr "Ma rnexxiex jiżdied il-kont"
 msgid "Failed to create app"
 msgstr "Ma rnexxiex tinħoloq l-app"
 
-#: src/routes/_authenticated/app/$appId.tsx:404
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to create track"
 msgstr "Ma rnexxiex jinħoloq it-track"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "Ma rnexxiex jitħassar it-track"
 
@@ -436,7 +449,7 @@ msgstr "Ma rnexxiex jitneħħa l-kont"
 msgid "Failed to send verification code"
 msgstr "Ma rnexxiex jintbagħat il-kodiċi tal-verifika"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "Ma rnexxiex jiġi stabbilit it-track default"
 
@@ -448,16 +461,16 @@ msgstr "Ma rnexxiex tiġi aġġornata l-kategorija"
 msgid "Failed to update distribution"
 msgstr "Ma rnexxiex tiġi aġġornata d-distribuzzjoni"
 
-#: src/routes/_authenticated/app/$appId.tsx:418
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "Ma rnexxiex jiġi aġġornat it-track"
 
-#: src/routes/_authenticated/app/$appId.tsx:645
+#: src/routes/_authenticated/app/$appId.tsx:659
 msgid "Failed to upload version"
 msgstr "Ma rnexxiex tittella' l-verżjoni"
 
-#: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:208
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Fingerprint"
 msgstr "Fingerprint"
 
@@ -472,6 +485,14 @@ msgstr "Il-Ġimgħa"
 #: ../../../lib/web/src/components/travelling-picker.tsx:149
 msgid "From"
 msgstr "Minn"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:91
+#: ../../../lib/web/src/lib/preference-utils.ts:101
+#: ../../../lib/web/src/lib/preference-utils.ts:112
+#: ../../../lib/web/src/lib/preference-utils.ts:120
+#: ../../../lib/web/src/lib/preference-utils.ts:131
+msgid "From theme"
+msgstr "Mit-tema"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:307
 msgid "Full layout"
@@ -518,7 +539,7 @@ msgstr "Home"
 msgid "Hot"
 msgstr "Sħun"
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Identity"
 msgstr "Identità"
 
@@ -526,7 +547,7 @@ msgstr "Identità"
 msgid "Imperial"
 msgstr "Imperjali"
 
-#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:568
 msgid "Initial Version"
 msgstr "Verżjoni Inizjali"
 
@@ -534,21 +555,22 @@ msgstr "Verżjoni Inizjali"
 msgid "Inset"
 msgstr "Inset"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install App"
 msgstr "Installa App"
 
-#: src/routes/_authenticated/app/$appId.tsx:677
+#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:339
+msgid "Install link:"
+msgstr "Link tal-installazzjoni:"
+
+#: src/routes/_authenticated/app/$appId.tsx:691
 msgid "Install Locally"
 msgstr "Installa Lokalment"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install this application to your server"
 msgstr "Installa din l-applikazzjoni fuq is-server tiegħek"
-
-#: src/routes/_authenticated/app/$appId.tsx:242
-msgid "Installation ID"
-msgstr "ID tal-installazzjoni"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:39
 msgid "Interests"
@@ -558,6 +580,11 @@ msgstr "Interessi"
 msgid "Invalid verification code"
 msgstr "Kodiċi tal-verifika invalidu"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:105
+#: ../../../lib/web/src/lib/preference-utils.ts:123
+msgid "Large"
+msgstr "Kbir"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:273
 msgid "Layout"
 msgstr "Layout"
@@ -566,7 +593,7 @@ msgstr "Layout"
 msgid "Learn more"
 msgstr "Tgħallem aktar"
 
-#: src/routes/_authenticated/app/$appId.tsx:560
+#: src/routes/_authenticated/app/$appId.tsx:574
 msgid "Leave empty"
 msgstr "Ħalli vojt"
 
@@ -588,6 +615,7 @@ msgid "Loading app..."
 msgstr "Qed titgħabba l-app..."
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Qed jitgħabba…"
 
@@ -617,7 +645,7 @@ msgstr "Qed joħroġ…"
 msgid "Make app publicly available"
 msgstr "Agħmel l-app disponibbli pubblikament"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:469
 msgid "Manage deployment environments and their versions"
 msgstr "Immaniġġja l-ambjenti tad-deployment u l-verżjonijiet tagħhom"
 
@@ -626,11 +654,15 @@ msgstr "Immaniġġja l-ambjenti tad-deployment u l-verżjonijiet tagħhom"
 msgid "Mark all as read"
 msgstr "Immarka kollox bħala maqru"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:104
+msgid "Medium"
+msgstr "Medju"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
 msgid "Menu"
 msgstr "Menu"
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Metadata and configuration"
 msgstr "Metadata u konfigurazzjoni"
 
@@ -646,7 +678,7 @@ msgstr "It-Tnejn"
 msgid "My App"
 msgstr "L-App Tiegħi"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:351
 msgid "N/A"
 msgstr "M/A"
 
@@ -658,7 +690,7 @@ msgstr "Isem"
 msgid "New"
 msgstr "Ġdid"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:550
 msgid "New Release Track"
 msgstr "Track tar-Release ġdid"
 
@@ -667,7 +699,7 @@ msgid "Next image"
 msgstr "Stampa li jmiss"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "No"
 msgstr "Le"
 
@@ -686,10 +718,6 @@ msgstr "L-ebda kontijiet konnessi"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
 msgstr "L-ebda gruppi disponibbli"
-
-#: ../../../lib/web/src/components/language-picker.tsx:177
-msgid "No matches."
-msgstr "L-ebda matches."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -712,7 +740,7 @@ msgstr "Ma nstabu l-ebda żona ta' ħin."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Għadu m'hemm l-ebda rekord tat-topic — erġa' pprova wara n-notifika li jmiss."
 
-#: src/routes/_authenticated/app/$appId.tsx:461
+#: src/routes/_authenticated/app/$appId.tsx:475
 msgid "No tracks"
 msgstr "L-ebda tracks"
 
@@ -720,17 +748,23 @@ msgstr "L-ebda tracks"
 msgid "No users found"
 msgstr "Ma nstabu l-ebda utenti"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:571
 msgid "No version"
 msgstr "L-ebda verżjoni"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
+#: src/routes/_authenticated/app/$appId.tsx:265
 msgid "No versions"
 msgstr "L-ebda verżjonijiet"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
+#: ../../../lib/web/src/lib/preference-utils.ts:102
+#: ../../../lib/web/src/lib/preference-utils.ts:113
 msgid "None"
 msgstr "Xejn"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:122
+msgid "Normal"
+msgstr "Normali"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -760,7 +794,7 @@ msgstr "Iftaħ menu tan-navigazzjoni"
 msgid "Open theme settings"
 msgstr "Iftaħ settings tat-tema"
 
-#: src/routes/_authenticated/app/$appId.tsx:500
+#: src/routes/_authenticated/app/$appId.tsx:514
 msgid "Open track actions"
 msgstr "Iftaħ azzjonijiet tat-track"
 
@@ -776,7 +810,7 @@ msgstr "Sid"
 msgid "Please enter an app name"
 msgstr "Jekk jogħġbok daħħal isem tal-app"
 
-#: src/routes/_authenticated/app/$appId.tsx:621
+#: src/routes/_authenticated/app/$appId.tsx:635
 msgid "Please select a file"
 msgstr "Jekk jogħġbok agħżel fajl"
 
@@ -784,16 +818,18 @@ msgstr "Jekk jogħġbok agħżel fajl"
 msgid "Previous image"
 msgstr "Stampa preċedenti"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
+#: src/routes/_authenticated/app/$appId.tsx:353
 msgid "Privacy"
 msgstr "Privatezza"
 
-#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:211
 msgid "Privacy Policy"
 msgstr "Politika ta' Privatezza"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:212
+#: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Private"
 msgstr "Privat"
 
@@ -803,12 +839,12 @@ msgid "Profile"
 msgstr "Profil"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:210
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Public"
 msgstr "Pubbliku"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:230
 msgid "Published"
 msgstr "Ippubblikat"
 
@@ -838,11 +874,11 @@ msgstr "Relattiv (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relattiv fi 24 siegħa, inkella assolut"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:468
 msgid "Release Tracks"
 msgstr "Tracks tar-Release"
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Release tracks currently active"
 msgstr "Tracks tar-release attivi bħalissa"
 
@@ -873,7 +909,7 @@ msgid "Reset all settings to default values"
 msgstr "Irriżetta s-settings kollha għall-valuri default"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:231
 msgid "Restricted"
 msgstr "Ristrett"
 
@@ -913,10 +949,6 @@ msgstr "Fittex utenti"
 msgid "Search..."
 msgstr "Fittex..."
 
-#: ../../../lib/web/src/components/language-picker.tsx:175
-msgid "Search…"
-msgstr "Fittex…"
-
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
 #: ../../../lib/web/src/features/access/access-dialog.tsx:199
@@ -955,11 +987,20 @@ msgstr "Agħżel direzzjoni tas-sit"
 msgid "Select theme preference"
 msgstr "Agħżel preferenza tat-tema"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:133
+msgid "Serif"
+msgstr ""
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
+msgid "Server rules"
+msgstr "Regoli tas-server"
+
 #: ../../../lib/web/src/lib/api-client.ts:224
 msgid "Session expired"
 msgstr "Sessjoni skadiet"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:524
 msgid "Set as default"
 msgstr "Issettja bħala default"
 
@@ -973,11 +1014,11 @@ msgstr "Issettja oriġini u destinazzjoni"
 msgid "Settings"
 msgstr "Settings"
 
-#: src/routes/_authenticated/app/$appId.tsx:236
-msgid "Share this ID to allow others to install this app"
-msgstr "Aqsam dan l-ID biex tippermetti lil oħrajn jinstallaw din l-app"
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Share this link to allow others to install this app"
+msgstr "Ikkondividi din il-link biex tippermetti lil oħrajn jinstallaw din l-app"
 
-#: src/routes/_authenticated/app/$appId.tsx:235
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Sharing"
 msgstr "Qsim"
 
@@ -999,6 +1040,15 @@ msgstr "Qed toħroġ..."
 msgid "Skip to Main"
 msgstr "Aqbeż għall-Main"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:103
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+msgid "Small"
+msgstr "Żgħir"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:94
+msgid "Spacious"
+msgstr "Wiesa'"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Imma ibqa' segwina!"
@@ -1013,6 +1063,7 @@ msgstr "Il-Ħadd"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
 msgstr "Sistema"
 
@@ -1023,6 +1074,11 @@ msgstr "Tag"
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
 msgstr "Timijiet/Apps"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
+msgid "Terms and conditions"
+msgstr "Termini u kondizzjonijiet"
 
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
@@ -1063,19 +1119,19 @@ msgstr "Aqleb it-tema"
 msgid "Top"
 msgstr "Quċċata"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "Track \"{track}\" imħassar"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track \"{track}\" aġġornat għal {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:398
+#: src/routes/_authenticated/app/$appId.tsx:412
 msgid "Track created"
 msgstr "Track maħluq"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:558
 msgid "Track Name"
 msgstr "Isem tat-Track"
 
@@ -1131,31 +1187,31 @@ msgstr "Stati Uniti"
 msgid "Unverified"
 msgstr "Mhux ivverifikat"
 
-#: src/routes/_authenticated/app/$appId.tsx:693
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Update Tracks"
 msgstr "Aġġorna Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:657
+#: src/routes/_authenticated/app/$appId.tsx:671
 msgid "Upload a .zip build file for your application."
 msgstr "Tella' fajl build .zip għall-applikazzjoni tiegħek."
 
-#: src/routes/_authenticated/app/$appId.tsx:185
+#: src/routes/_authenticated/app/$appId.tsx:189
 msgid "Upload new version"
 msgstr "Tella' verżjoni ġdida"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:669
 msgid "Upload New Version"
 msgstr "Tella' Verżjoni Ġdida"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Upload Version"
 msgstr "Tella' Verżjoni"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Upload your first build to get started"
 msgstr "Tella' l-ewwel build tiegħek biex tibda"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Uploading..."
 msgstr "Qed itella'..."
 
@@ -1163,9 +1219,9 @@ msgstr "Qed itella'..."
 msgid "User"
 msgstr "Utent"
 
-#: src/routes/_authenticated/app/$appId.tsx:240
-msgid "Users can install this application by pasting this identifier into their Apps management page."
-msgstr "L-utenti jistgħu jinstallaw din l-applikazzjoni billi jpestjaw dan l-identifikatur fil-paġna ta' ġestjoni tal-Apps tagħhom."
+#: src/routes/_authenticated/app/$appId.tsx:244
+msgid "Users can install this application by pasting this link into their Apps page."
+msgstr "L-utenti jistgħu jinstallaw din l-applikazzjoni billi jippejstjaw dan il-link fil-paġna Apps tagħhom."
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:68
 msgid "Verification code"
@@ -1188,15 +1244,15 @@ msgid "Verify email address"
 msgstr "Ivverifika l-indirizz tal-email"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version {0} has been created."
 msgstr "Verżjoni {0} inħolqot."
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "Version History"
 msgstr "Storja tal-Verżjoni"
 
-#: src/routes/_authenticated/app/$appId.tsx:632
+#: src/routes/_authenticated/app/$appId.tsx:646
 msgid "Version uploaded"
 msgstr "Verżjoni mtellgħa"
 
@@ -1225,10 +1281,10 @@ msgid "Wednesday"
 msgstr "L-Erbgħa"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:699
 msgid "Yes"
 msgstr "Iva"
 
-#: src/routes/_authenticated/app/$appId.tsx:686
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes, force"
 msgstr "Iva, iġġiegħel"

@@ -53,7 +53,7 @@ msgstr "Cuenta laya"
 msgid "Account verified"
 msgstr "Cuenta takyachisqa"
 
-#: src/routes/_authenticated/app/$appId.tsx:479
+#: src/routes/_authenticated/app/$appId.tsx:493
 msgid "Active version"
 msgstr "Kawsachkan version"
 
@@ -106,7 +106,7 @@ msgstr "AI"
 msgid "All"
 msgstr "Llapan"
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "All uploaded build files for this application"
 msgstr "Llapan winasqa build archivos kay aplicación-paq"
 
@@ -119,10 +119,6 @@ msgstr "App"
 msgid "App created"
 msgstr "App kamarisqa"
 
-#: src/routes/_authenticated/app/$appId.tsx:328
-msgid "App ID"
-msgstr "App ID"
-
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:116
 #: src/routes/_authenticated/app/$appId.tsx:137
@@ -130,7 +126,7 @@ msgstr "App ID"
 msgid "App not found"
 msgstr "App mana tarisqa"
 
-#: src/routes/_authenticated/app/$appId.tsx:201
+#: src/routes/_authenticated/app/$appId.tsx:205
 msgid "Application ID"
 msgstr "Aplicación ID"
 
@@ -142,7 +138,7 @@ msgstr "Lluqsiyta munanki? Kutichiy yaykunaykipaq cuenta-yki-pi."
 msgid "Asc"
 msgstr "Wichaymanta"
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Available Versions"
 msgstr "Atikuq Versiones"
 
@@ -154,8 +150,8 @@ msgstr "Kutichiy"
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
-#: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:320
+#: src/routes/_authenticated/app/$appId.tsx:166
+#: src/routes/_authenticated/app/$appId.tsx:329
 msgid "Back to apps"
 msgstr "Apps-man kutichiy"
 
@@ -169,7 +165,7 @@ msgstr "Wasi-man kutichiy"
 msgid "Boost interest"
 msgstr "Munay yapay"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:678
 msgid "Build File (.zip)"
 msgstr "Build Archivo (.zip)"
 
@@ -181,8 +177,8 @@ msgstr "Build Archivo (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:575
-#: src/routes/_authenticated/app/$appId.tsx:716
+#: src/routes/_authenticated/app/$appId.tsx:589
+#: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Cancel"
 msgstr "Mana ruway"
 
@@ -210,7 +206,7 @@ msgstr "Lluq'i-paña utaq paña-lluq'i pi akllay"
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "Sistema munay, k'illa, utaq tutayaq pi akllay"
 
-#: ../../../lib/web/src/components/language-picker.tsx:167
+#: ../../../lib/web/src/components/language-picker.tsx:174
 msgid "Choose language"
 msgstr "Simi akllay"
 
@@ -257,11 +253,16 @@ msgstr "Maskhay wichq'ay"
 msgid "Collapse sidebar"
 msgstr "Sidebar pisichay"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:93
+msgid "Comfortable"
+msgstr "Allin"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:9
 msgid "Coming Soon!"
 msgstr "Hamuchkan!"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:302
+#: ../../../lib/web/src/lib/preference-utils.ts:92
 msgid "Compact"
 msgstr "Pisi"
 
@@ -286,15 +287,19 @@ msgstr "Qatiy"
 msgid "Copy"
 msgstr "Copiay"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
-msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "Kay ID copiay hinaspa Mochi servidor-niyki Apps pagina-pi pegay churanaykipaq."
+#: src/routes/_authenticated/app/$appId.tsx:335
+msgid "Copy this link and paste it in your Mochi server's Apps page to install."
+msgstr "Kay tinkita kopiyaspa Mochi servidorniykipa Apps panankupi laqay churanaykipaq."
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Core identification for this application"
 msgstr "Kay aplicación-paq qillqana riqsiy"
 
-#: src/routes/_authenticated/app/$appId.tsx:538
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Kay documento mana cargasqa karqachu. Qhipaman ruway."
+
+#: src/routes/_authenticated/app/$appId.tsx:552
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Musuq entorno kamariy (e.g. Beta, Staging) builds churanapaq."
 
@@ -311,11 +316,11 @@ msgstr "App kamariy"
 msgid "Create new app"
 msgstr "Musuq app kamariy"
 
-#: src/routes/_authenticated/app/$appId.tsx:191
+#: src/routes/_authenticated/app/$appId.tsx:195
 msgid "Create track"
 msgstr "Track kamariy"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create Track"
 msgstr "Track Kamariy"
 
@@ -323,12 +328,12 @@ msgstr "Track Kamariy"
 msgid "Create your first app to get started"
 msgstr "Qallariq app kamariy qallarinaykipaq"
 
-#: src/routes/_authenticated/app/$appId.tsx:462
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Create your first release track to manage deployments"
 msgstr "Qallariq release track kamariy deployments apaykachanapaq"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Kamarispa..."
 
@@ -353,11 +358,11 @@ msgstr "Default"
 msgid "Default AI account"
 msgstr "Default AI cuenta"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "Default track \"{track}\"-pi churasqa"
 
-#: src/routes/_authenticated/app/$appId.tsx:517
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Delete track"
 msgstr "Track wischuy"
 
@@ -365,7 +370,7 @@ msgstr "Track wischuy"
 msgid "Desc"
 msgstr "Uray"
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Details"
 msgstr "Willariykuna"
 
@@ -373,7 +378,7 @@ msgstr "Willariykuna"
 msgid "Details Panel"
 msgstr "Willariykuna Panel"
 
-#: ../../../lib/web/src/components/language-picker.tsx:145
+#: ../../../lib/web/src/components/language-picker.tsx:152
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -392,7 +397,7 @@ msgstr "Imayna"
 msgid "Displays the mobile sidebar."
 msgstr "Movil sidebar qhawachin."
 
-#: src/routes/_authenticated/app/$appId.tsx:216
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Distribution"
 msgstr "Distribución"
 
@@ -404,13 +409,21 @@ msgstr "Distribución {distribution}-pi churasqa"
 msgid "Download"
 msgstr "Uray chaskiy"
 
-#: src/routes/_authenticated/app/$appId.tsx:548
+#: ../../../lib/web/src/lib/preference-utils.ts:134
+msgid "Dyslexia-friendly"
+msgstr "Disleksia llamkaywanmi"
+
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "e.g. Staging"
 msgstr "e.g. Staging"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "Sidebarta kichay"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:124
+msgid "Extra large"
+msgstr "Sinchi hatun"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:217
 msgid "Failed to add account"
@@ -420,11 +433,11 @@ msgstr "Mana cuentata yapayta atinchu"
 msgid "Failed to create app"
 msgstr "Mana appta paqarichiyta atinchu"
 
-#: src/routes/_authenticated/app/$appId.tsx:404
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to create track"
 msgstr "Mana trackta paqarichiyta atinchu"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "Mana trackta pichayta atinchu"
 
@@ -436,7 +449,7 @@ msgstr "Mana cuentata pichayta atinchu"
 msgid "Failed to send verification code"
 msgstr "Mana sut'inchay códigota apachiyta atinchu"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "Mana ñawpaq trackta churayta atinchu"
 
@@ -448,16 +461,16 @@ msgstr "Mana categoríata musuqyachiyta atinchu"
 msgid "Failed to update distribution"
 msgstr "Mana distribucionta musuqyachiyta atinchu"
 
-#: src/routes/_authenticated/app/$appId.tsx:418
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "Mana trackta musuqyachiyta atinchu"
 
-#: src/routes/_authenticated/app/$appId.tsx:645
+#: src/routes/_authenticated/app/$appId.tsx:659
 msgid "Failed to upload version"
 msgstr "Mana versionta wichachiyta atinchu"
 
-#: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:208
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Fingerprint"
 msgstr "Fingerprint"
 
@@ -472,6 +485,14 @@ msgstr "Viernes"
 #: ../../../lib/web/src/components/travelling-picker.tsx:149
 msgid "From"
 msgstr "Manta"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:91
+#: ../../../lib/web/src/lib/preference-utils.ts:101
+#: ../../../lib/web/src/lib/preference-utils.ts:112
+#: ../../../lib/web/src/lib/preference-utils.ts:120
+#: ../../../lib/web/src/lib/preference-utils.ts:131
+msgid "From theme"
+msgstr "Temamanta"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:307
 msgid "Full layout"
@@ -518,7 +539,7 @@ msgstr "Wasi"
 msgid "Hot"
 msgstr "Q'uñi"
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Identity"
 msgstr "Identity"
 
@@ -526,7 +547,7 @@ msgstr "Identity"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:568
 msgid "Initial Version"
 msgstr "Qallariq Version"
 
@@ -534,21 +555,22 @@ msgstr "Qallariq Version"
 msgid "Inset"
 msgstr "Ukhupi"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install App"
 msgstr "App Sipiy"
 
-#: src/routes/_authenticated/app/$appId.tsx:677
+#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:339
+msgid "Install link:"
+msgstr "Sipiy link:"
+
+#: src/routes/_authenticated/app/$appId.tsx:691
 msgid "Install Locally"
 msgstr "Kaypi Sipiy"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install this application to your server"
 msgstr "Kay aplicacionta servidoryikipi sipiy"
-
-#: src/routes/_authenticated/app/$appId.tsx:242
-msgid "Installation ID"
-msgstr "Sipiy ID"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:39
 msgid "Interests"
@@ -558,6 +580,11 @@ msgstr "Munakuykuna"
 msgid "Invalid verification code"
 msgstr "Mana allin sut'inchay código"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:105
+#: ../../../lib/web/src/lib/preference-utils.ts:123
+msgid "Large"
+msgstr "Hatun"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:273
 msgid "Layout"
 msgstr "Layout"
@@ -566,7 +593,7 @@ msgstr "Layout"
 msgid "Learn more"
 msgstr "Aswan yachay"
 
-#: src/routes/_authenticated/app/$appId.tsx:560
+#: src/routes/_authenticated/app/$appId.tsx:574
 msgid "Leave empty"
 msgstr "Ch'usaqta saqiy"
 
@@ -588,6 +615,7 @@ msgid "Loading app..."
 msgstr "App wichachichkan..."
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Wichachichkan…"
 
@@ -617,7 +645,7 @@ msgstr "Lluqsichkan…"
 msgid "Make app publicly available"
 msgstr "Appta llapanpaq atikuq ruway"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:469
 msgid "Manage deployment environments and their versions"
 msgstr "Despliegue entornokunata hinaspa versionninkunata kamachiy"
 
@@ -626,11 +654,15 @@ msgstr "Despliegue entornokunata hinaspa versionninkunata kamachiy"
 msgid "Mark all as read"
 msgstr "Llapanta ñawinchasqaman churay"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:104
+msgid "Medium"
+msgstr "Chawpi"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
 msgid "Menu"
 msgstr "Menu"
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Metadata and configuration"
 msgstr "Metadata hinaspa configuracion"
 
@@ -646,7 +678,7 @@ msgstr "Lunes"
 msgid "My App"
 msgstr "App-niy"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:351
 msgid "N/A"
 msgstr "N/A"
 
@@ -658,7 +690,7 @@ msgstr "Sutin"
 msgid "New"
 msgstr "Musuq"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:550
 msgid "New Release Track"
 msgstr "Musuq Release Track"
 
@@ -667,7 +699,7 @@ msgid "Next image"
 msgstr "Qatiqnin imagen"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "No"
 msgstr "Manan"
 
@@ -686,10 +718,6 @@ msgstr "Mana huñusqa cuentakuna"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
 msgstr "Mana grupokuna atikuq"
-
-#: ../../../lib/web/src/components/language-picker.tsx:177
-msgid "No matches."
-msgstr "Mana tupaqkuna."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -712,7 +740,7 @@ msgstr "Mana time zone tarisqachu."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Manaraq topic registro — qatiqnin notificacionmanta watiqmanta ruway."
 
-#: src/routes/_authenticated/app/$appId.tsx:461
+#: src/routes/_authenticated/app/$appId.tsx:475
 msgid "No tracks"
 msgstr "Mana trackkuna"
 
@@ -720,17 +748,23 @@ msgstr "Mana trackkuna"
 msgid "No users found"
 msgstr "Mana usuariokuna tarisqachu"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:571
 msgid "No version"
 msgstr "Mana version"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
+#: src/routes/_authenticated/app/$appId.tsx:265
 msgid "No versions"
 msgstr "Mana versionkuna"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
+#: ../../../lib/web/src/lib/preference-utils.ts:102
+#: ../../../lib/web/src/lib/preference-utils.ts:113
 msgid "None"
 msgstr "Mana"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:122
+msgid "Normal"
+msgstr "Walliq"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -760,7 +794,7 @@ msgstr "Navegación menúta kichay"
 msgid "Open theme settings"
 msgstr "Tema configuracionta kichay"
 
-#: src/routes/_authenticated/app/$appId.tsx:500
+#: src/routes/_authenticated/app/$appId.tsx:514
 msgid "Open track actions"
 msgstr "Track ruwaykunata kichay"
 
@@ -776,7 +810,7 @@ msgstr "Apuq"
 msgid "Please enter an app name"
 msgstr "Ama hina, app sutita churay"
 
-#: src/routes/_authenticated/app/$appId.tsx:621
+#: src/routes/_authenticated/app/$appId.tsx:635
 msgid "Please select a file"
 msgstr "Ama hina, archivota akllay"
 
@@ -784,16 +818,18 @@ msgstr "Ama hina, archivota akllay"
 msgid "Previous image"
 msgstr "Ñawpaqnin imagen"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
+#: src/routes/_authenticated/app/$appId.tsx:353
 msgid "Privacy"
 msgstr "Pakaynin"
 
-#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:211
 msgid "Privacy Policy"
 msgstr "Pakaynin Política"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:212
+#: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Private"
 msgstr "Pakasqa"
 
@@ -803,12 +839,12 @@ msgid "Profile"
 msgstr "Perfil"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:210
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Public"
 msgstr "Público"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:230
 msgid "Published"
 msgstr "Publishasqa"
 
@@ -838,11 +874,11 @@ msgstr "Relativo (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24 horas ukhupi relativo, mana chayqa absoluto"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:468
 msgid "Release Tracks"
 msgstr "Release Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Release tracks currently active"
 msgstr "Kunan kawsaq Release tracks"
 
@@ -873,7 +909,7 @@ msgid "Reset all settings to default values"
 msgstr "Llapan configuracionkunata por defecto valoresman kutichiy"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:231
 msgid "Restricted"
 msgstr "Harkasqa"
 
@@ -913,10 +949,6 @@ msgstr "Usuariokunata maskay"
 msgid "Search..."
 msgstr "Maskay..."
 
-#: ../../../lib/web/src/components/language-picker.tsx:175
-msgid "Search…"
-msgstr "Maskay…"
-
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
 #: ../../../lib/web/src/features/access/access-dialog.tsx:199
@@ -955,11 +987,20 @@ msgstr "Sitio direccionta akllay"
 msgid "Select theme preference"
 msgstr "Tema munayta akllay"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:133
+msgid "Serif"
+msgstr ""
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
+msgid "Server rules"
+msgstr "Server kamachiykuna"
+
 #: ../../../lib/web/src/lib/api-client.ts:224
 msgid "Session expired"
 msgstr "Session tukukapun"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:524
 msgid "Set as default"
 msgstr "Defaultpaq churay"
 
@@ -973,11 +1014,11 @@ msgstr "Pukyu chayanata churay"
 msgid "Settings"
 msgstr "Wakichiykuna"
 
-#: src/routes/_authenticated/app/$appId.tsx:236
-msgid "Share this ID to allow others to install this app"
-msgstr "Hukkuna kay appta installananpaq kay IDta rakiy"
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Share this link to allow others to install this app"
+msgstr "Kay tinkita rakiy hukkunaq kay app churanankupaq"
 
-#: src/routes/_authenticated/app/$appId.tsx:235
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Sharing"
 msgstr "Rakichkan"
 
@@ -999,6 +1040,15 @@ msgstr "Lluqsichkan..."
 msgid "Skip to Main"
 msgstr "Mainman pasay"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:103
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+msgid "Small"
+msgstr "Huch'uy"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:94
+msgid "Spacious"
+msgstr "Hatun"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Suyaylla!"
@@ -1013,6 +1063,7 @@ msgstr "Intichaw"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
 msgstr "Sistema"
 
@@ -1023,6 +1074,11 @@ msgstr "Tag"
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
 msgstr "Huñukuna/Appkuna"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
+msgid "Terms and conditions"
+msgstr "Condicionkuna"
 
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
@@ -1063,19 +1119,19 @@ msgstr "Temata tikray"
 msgid "Top"
 msgstr "Hawan"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "\"{track}\" track qulluchisqa"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "\"{track}\" track {version}man musuqchasqa"
 
-#: src/routes/_authenticated/app/$appId.tsx:398
+#: src/routes/_authenticated/app/$appId.tsx:412
 msgid "Track created"
 msgstr "Track ruwasqa"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:558
 msgid "Track Name"
 msgstr "Track Suti"
 
@@ -1131,31 +1187,31 @@ msgstr "United States"
 msgid "Unverified"
 msgstr "Mana qhawasqa"
 
-#: src/routes/_authenticated/app/$appId.tsx:693
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Update Tracks"
 msgstr "Tracksta Musuqchay"
 
-#: src/routes/_authenticated/app/$appId.tsx:657
+#: src/routes/_authenticated/app/$appId.tsx:671
 msgid "Upload a .zip build file for your application."
 msgstr "Applicacionniykipaq .zip build fileta upload."
 
-#: src/routes/_authenticated/app/$appId.tsx:185
+#: src/routes/_authenticated/app/$appId.tsx:189
 msgid "Upload new version"
 msgstr "Musuq versionta upload"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:669
 msgid "Upload New Version"
 msgstr "Musuq Versionta Upload"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Upload Version"
 msgstr "Versionta Upload"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Upload your first build to get started"
 msgstr "Qallarinapaq ñawpaq buildniykita upload"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Uploading..."
 msgstr "Uploadchkan..."
 
@@ -1163,9 +1219,9 @@ msgstr "Uploadchkan..."
 msgid "User"
 msgstr "Apaykachaq"
 
-#: src/routes/_authenticated/app/$appId.tsx:240
-msgid "Users can install this application by pasting this identifier into their Apps management page."
-msgstr "Apaykachaqkuna kay applicacionta installayta atinku, kay identificadorta Apps management páginanpi pegaspa."
+#: src/routes/_authenticated/app/$appId.tsx:244
+msgid "Users can install this application by pasting this link into their Apps page."
+msgstr "Ruwaqkunaqa kay applicaciontaqa Apps panakupi kay tinkita laqaspallam churanqaku."
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:68
 msgid "Verification code"
@@ -1188,15 +1244,15 @@ msgid "Verify email address"
 msgstr "Email direccionta qhaway"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version {0} has been created."
 msgstr "Version {0} ruwasqa kapun."
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "Version History"
 msgstr "Version Willakuy"
 
-#: src/routes/_authenticated/app/$appId.tsx:632
+#: src/routes/_authenticated/app/$appId.tsx:646
 msgid "Version uploaded"
 msgstr "Version uploadasqa"
 
@@ -1225,10 +1281,10 @@ msgid "Wednesday"
 msgstr "Quyllurchaw"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:699
 msgid "Yes"
 msgstr "Arí"
 
-#: src/routes/_authenticated/app/$appId.tsx:686
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes, force"
 msgstr "Arí, kallpawan"

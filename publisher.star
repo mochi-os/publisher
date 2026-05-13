@@ -300,7 +300,11 @@ def action_default_track_set(a):
 # Private apps are accessible if the requester knows the publisher ID.
 # Apps with distribution='restricted' refuse to serve metadata to remote callers.
 def event_information(e):
-	app_id = e.header("to")
+	# Prefer the explicit "app" field in content; fall back to the routed "to"
+	# header so callers that stream directly to the app entity (and send empty
+	# content) keep working. The @publisher flow needs the explicit field
+	# because the stream target is the publisher entity, not the app.
+	app_id = e.content("app") or e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
@@ -317,7 +321,7 @@ def event_information(e):
 # Private apps are accessible if the requester knows the publisher ID.
 # Apps with distribution='restricted' refuse to serve the package to remote callers.
 def event_get(e):
-	app_id = e.header("to")
+	app_id = e.content("app") or e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
@@ -345,7 +349,7 @@ def event_get(e):
 # Apps with distribution='restricted' refuse to serve track info to remote callers.
 # If no track specified, uses the app's default track
 def event_version(e):
-	app_id = e.header("to")
+	app_id = e.content("app") or e.header("to")
 	if not app_id:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)

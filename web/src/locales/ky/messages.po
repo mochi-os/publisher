@@ -53,7 +53,7 @@ msgstr "Аккаунт түрү"
 msgid "Account verified"
 msgstr "Аккаунт текшерилди"
 
-#: src/routes/_authenticated/app/$appId.tsx:479
+#: src/routes/_authenticated/app/$appId.tsx:493
 msgid "Active version"
 msgstr "Активдүү версия"
 
@@ -106,7 +106,7 @@ msgstr "AI"
 msgid "All"
 msgstr "Баары"
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "All uploaded build files for this application"
 msgstr "Бул колдонмонун жүктөлгөн бардык Build файлдары"
 
@@ -119,10 +119,6 @@ msgstr "Колдонмо"
 msgid "App created"
 msgstr "Колдонмо түзүлдү"
 
-#: src/routes/_authenticated/app/$appId.tsx:328
-msgid "App ID"
-msgstr "Колдонмо ID"
-
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:116
 #: src/routes/_authenticated/app/$appId.tsx:137
@@ -130,7 +126,7 @@ msgstr "Колдонмо ID"
 msgid "App not found"
 msgstr "Колдонмо табылган жок"
 
-#: src/routes/_authenticated/app/$appId.tsx:201
+#: src/routes/_authenticated/app/$appId.tsx:205
 msgid "Application ID"
 msgstr "Колдонмо ID"
 
@@ -142,7 +138,7 @@ msgstr "Чыгууну каалайсызбы? Аккаунтуңузга кай
 msgid "Asc"
 msgstr "Өсүү"
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Available Versions"
 msgstr "Жеткиликтүү версиялар"
 
@@ -154,8 +150,8 @@ msgstr "Артка"
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
-#: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:320
+#: src/routes/_authenticated/app/$appId.tsx:166
+#: src/routes/_authenticated/app/$appId.tsx:329
 msgid "Back to apps"
 msgstr "Колдонмолорго кайтуу"
 
@@ -169,7 +165,7 @@ msgstr "Башкы бетке кайтуу"
 msgid "Boost interest"
 msgstr "Кызыгууну күчөтүү"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:678
 msgid "Build File (.zip)"
 msgstr "Build файлы (.zip)"
 
@@ -181,8 +177,8 @@ msgstr "Build файлы (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:575
-#: src/routes/_authenticated/app/$appId.tsx:716
+#: src/routes/_authenticated/app/$appId.tsx:589
+#: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Cancel"
 msgstr "Жокко чыгаруу"
 
@@ -210,7 +206,7 @@ msgstr "Солдон-оңго же оңдон-солго сайт багытын
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "Системанын жөндөөсү, жарык же караңгы режимдердин ортосунан тандаңыз"
 
-#: ../../../lib/web/src/components/language-picker.tsx:167
+#: ../../../lib/web/src/components/language-picker.tsx:174
 msgid "Choose language"
 msgstr "Тилди тандоо"
 
@@ -257,11 +253,16 @@ msgstr "Издөөнү жабуу"
 msgid "Collapse sidebar"
 msgstr "Каптал тилкесин жыйнап коюу"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:93
+msgid "Comfortable"
+msgstr "Кенен"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:9
 msgid "Coming Soon!"
 msgstr "Жакында!"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:302
+#: ../../../lib/web/src/lib/preference-utils.ts:92
 msgid "Compact"
 msgstr "Компакттык"
 
@@ -286,15 +287,19 @@ msgstr "Улантуу"
 msgid "Copy"
 msgstr "Көчүрүү"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
-msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "Бул IDди көчүрүп, орнотуу үчүн Mochi серверинин Колдонмолор бетине чаптаңыз."
+#: src/routes/_authenticated/app/$appId.tsx:335
+msgid "Copy this link and paste it in your Mochi server's Apps page to install."
+msgstr "Орнотуу үчүн бул шилтемени көчүрүп, Mochi сервериңиздин Колдонмолор бетине чаптаңыз."
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Core identification for this application"
 msgstr "Бул колдонмо үчүн негизги идентификация"
 
-#: src/routes/_authenticated/app/$appId.tsx:538
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Бул документти жүктөө мүмкүн болбоду. Кийинчерээк кайра аракет кылыңыз."
+
+#: src/routes/_authenticated/app/$appId.tsx:552
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Buildдерди жайылтуу үчүн жаңы чөйрөнү (мис. Beta, Staging) түзүңүз."
 
@@ -311,11 +316,11 @@ msgstr "Колдонмо түзүү"
 msgid "Create new app"
 msgstr "Жаңы колдонмо түзүү"
 
-#: src/routes/_authenticated/app/$appId.tsx:191
+#: src/routes/_authenticated/app/$appId.tsx:195
 msgid "Create track"
 msgstr "Track түзүү"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create Track"
 msgstr "Track түзүү"
 
@@ -323,12 +328,12 @@ msgstr "Track түзүү"
 msgid "Create your first app to get started"
 msgstr "Баштоо үчүн биринчи колдонмоңузду түзүңүз"
 
-#: src/routes/_authenticated/app/$appId.tsx:462
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Create your first release track to manage deployments"
 msgstr "Жайылтууларды башкаруу үчүн биринчи Release трегиңизди түзүңүз"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Түзүлүүдө..."
 
@@ -353,11 +358,11 @@ msgstr "Демейки"
 msgid "Default AI account"
 msgstr "Демейки AI аккаунту"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "Демейки трек \"{track}\" катары коюлду"
 
-#: src/routes/_authenticated/app/$appId.tsx:517
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Delete track"
 msgstr "Тректи жок кылуу"
 
@@ -365,7 +370,7 @@ msgstr "Тректи жок кылуу"
 msgid "Desc"
 msgstr "Кемүү"
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Details"
 msgstr "Деталдар"
 
@@ -373,7 +378,7 @@ msgstr "Деталдар"
 msgid "Details Panel"
 msgstr "Деталдар панели"
 
-#: ../../../lib/web/src/components/language-picker.tsx:145
+#: ../../../lib/web/src/components/language-picker.tsx:152
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -392,7 +397,7 @@ msgstr "Багыт"
 msgid "Displays the mobile sidebar."
 msgstr "Мобилдик каптал тилкесин көрсөтөт."
 
-#: src/routes/_authenticated/app/$appId.tsx:216
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Distribution"
 msgstr "Таркатуу"
 
@@ -404,13 +409,21 @@ msgstr "Таркатуу {distribution} катары коюлду"
 msgid "Download"
 msgstr "Жүктөп алуу"
 
-#: src/routes/_authenticated/app/$appId.tsx:548
+#: ../../../lib/web/src/lib/preference-utils.ts:134
+msgid "Dyslexia-friendly"
+msgstr "Дислексияга ыңгайлуу"
+
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "e.g. Staging"
 msgstr "мисалы, Стейджинг"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "Каптал тилкесин жайылтуу"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:124
+msgid "Extra large"
+msgstr "Өтө чоң"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:217
 msgid "Failed to add account"
@@ -420,11 +433,11 @@ msgstr "Эсеп кошуу ишке ашкан жок"
 msgid "Failed to create app"
 msgstr "Колдонмо түзүү ишке ашкан жок"
 
-#: src/routes/_authenticated/app/$appId.tsx:404
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to create track"
 msgstr "Жол түзүү ишке ашкан жок"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "Жолду өчүрүү ишке ашкан жок"
 
@@ -436,7 +449,7 @@ msgstr "Эсепти алып салуу ишке ашкан жок"
 msgid "Failed to send verification code"
 msgstr "Текшерүү кодун жөнөтүү ишке ашкан жок"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "Демейки жолду коюу ишке ашкан жок"
 
@@ -448,16 +461,16 @@ msgstr "Категорияны жаңылоо ишке ашкан жок"
 msgid "Failed to update distribution"
 msgstr "Бөлүштүрүүнү жаңылоо ишке ашкан жок"
 
-#: src/routes/_authenticated/app/$appId.tsx:418
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "Жолду жаңылоо ишке ашкан жок"
 
-#: src/routes/_authenticated/app/$appId.tsx:645
+#: src/routes/_authenticated/app/$appId.tsx:659
 msgid "Failed to upload version"
 msgstr "Версияны жүктөө ишке ашкан жок"
 
-#: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:208
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Fingerprint"
 msgstr "Манжа изи"
 
@@ -472,6 +485,14 @@ msgstr "Жума"
 #: ../../../lib/web/src/components/travelling-picker.tsx:149
 msgid "From"
 msgstr "Кимден"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:91
+#: ../../../lib/web/src/lib/preference-utils.ts:101
+#: ../../../lib/web/src/lib/preference-utils.ts:112
+#: ../../../lib/web/src/lib/preference-utils.ts:120
+#: ../../../lib/web/src/lib/preference-utils.ts:131
+msgid "From theme"
+msgstr "Темадан"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:307
 msgid "Full layout"
@@ -518,7 +539,7 @@ msgstr "Башкы бет"
 msgid "Hot"
 msgstr "Ысык"
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Identity"
 msgstr "Идентификация"
 
@@ -526,7 +547,7 @@ msgstr "Идентификация"
 msgid "Imperial"
 msgstr "Империалдык"
 
-#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:568
 msgid "Initial Version"
 msgstr "Баштапкы версия"
 
@@ -534,21 +555,22 @@ msgstr "Баштапкы версия"
 msgid "Inset"
 msgstr "Ичкериден"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install App"
 msgstr "Колдонмону орнотуу"
 
-#: src/routes/_authenticated/app/$appId.tsx:677
+#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:339
+msgid "Install link:"
+msgstr "Орнотуу шилтемеси:"
+
+#: src/routes/_authenticated/app/$appId.tsx:691
 msgid "Install Locally"
 msgstr "Жергиликтүү орнотуу"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install this application to your server"
 msgstr "Бул колдонмону сервериңизге орнотуңуз"
-
-#: src/routes/_authenticated/app/$appId.tsx:242
-msgid "Installation ID"
-msgstr "Орнотуу ID"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:39
 msgid "Interests"
@@ -558,6 +580,11 @@ msgstr "Кызыкчылыктар"
 msgid "Invalid verification code"
 msgstr "Жараксыз текшерүү коду"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:105
+#: ../../../lib/web/src/lib/preference-utils.ts:123
+msgid "Large"
+msgstr "Чоң"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:273
 msgid "Layout"
 msgstr "Жайгашуу"
@@ -566,7 +593,7 @@ msgstr "Жайгашуу"
 msgid "Learn more"
 msgstr "Кененирээк билүү"
 
-#: src/routes/_authenticated/app/$appId.tsx:560
+#: src/routes/_authenticated/app/$appId.tsx:574
 msgid "Leave empty"
 msgstr "Бош калтыруу"
 
@@ -588,6 +615,7 @@ msgid "Loading app..."
 msgstr "Колдонмо жүктөлүүдө..."
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Жүктөлүүдө…"
 
@@ -617,7 +645,7 @@ msgstr "Чыгууда…"
 msgid "Make app publicly available"
 msgstr "Колдонмону жалпыга жеткиликтүү кылуу"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:469
 msgid "Manage deployment environments and their versions"
 msgstr "Жайылтуу чөйрөлөрүн жана алардын версияларын башкаруу"
 
@@ -626,11 +654,15 @@ msgstr "Жайылтуу чөйрөлөрүн жана алардын верси
 msgid "Mark all as read"
 msgstr "Баарын окулду деп белгилөө"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:104
+msgid "Medium"
+msgstr "Орточо"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
 msgid "Menu"
 msgstr "Меню"
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Metadata and configuration"
 msgstr "Метаберилиштер жана конфигурация"
 
@@ -646,7 +678,7 @@ msgstr "Дүйшөмбү"
 msgid "My App"
 msgstr "Менин колдонмом"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:351
 msgid "N/A"
 msgstr "Жок"
 
@@ -658,7 +690,7 @@ msgstr "Аты"
 msgid "New"
 msgstr "Жаңы"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:550
 msgid "New Release Track"
 msgstr "Жаңы Release треги"
 
@@ -667,7 +699,7 @@ msgid "Next image"
 msgstr "Кийинки сүрөт"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "No"
 msgstr "Жок"
 
@@ -686,10 +718,6 @@ msgstr "Туташкан аккаунттар жок"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
 msgstr "Топтор жеткиликсиз"
-
-#: ../../../lib/web/src/components/language-picker.tsx:177
-msgid "No matches."
-msgstr "Дал келүүлөр жок."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -712,7 +740,7 @@ msgstr "Убакыт алкагы табылган жок."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Тема жазуусу азырынча жок — кийинки билдирмеден кийин кайра аракет кылыңыз."
 
-#: src/routes/_authenticated/app/$appId.tsx:461
+#: src/routes/_authenticated/app/$appId.tsx:475
 msgid "No tracks"
 msgstr "Трек жок"
 
@@ -720,17 +748,23 @@ msgstr "Трек жок"
 msgid "No users found"
 msgstr "Колдонуучулар табылган жок"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:571
 msgid "No version"
 msgstr "Версия жок"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
+#: src/routes/_authenticated/app/$appId.tsx:265
 msgid "No versions"
 msgstr "Версиялар жок"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
+#: ../../../lib/web/src/lib/preference-utils.ts:102
+#: ../../../lib/web/src/lib/preference-utils.ts:113
 msgid "None"
 msgstr "Эч кимиси"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:122
+msgid "Normal"
+msgstr "Кадимки"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -760,7 +794,7 @@ msgstr "Навигация менюсун ачуу"
 msgid "Open theme settings"
 msgstr "Тема жөндөөлөрүн ачуу"
 
-#: src/routes/_authenticated/app/$appId.tsx:500
+#: src/routes/_authenticated/app/$appId.tsx:514
 msgid "Open track actions"
 msgstr "Трек аракеттерин ачуу"
 
@@ -776,7 +810,7 @@ msgstr "Ээси"
 msgid "Please enter an app name"
 msgstr "Тиркеме атын жазыңыз"
 
-#: src/routes/_authenticated/app/$appId.tsx:621
+#: src/routes/_authenticated/app/$appId.tsx:635
 msgid "Please select a file"
 msgstr "Файлды тандаңыз"
 
@@ -784,16 +818,18 @@ msgstr "Файлды тандаңыз"
 msgid "Previous image"
 msgstr "Мурунку сүрөт"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
+#: src/routes/_authenticated/app/$appId.tsx:353
 msgid "Privacy"
 msgstr "Купуялык"
 
-#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:211
 msgid "Privacy Policy"
 msgstr "Купуялык саясаты"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:212
+#: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Private"
 msgstr "Купуя"
 
@@ -803,12 +839,12 @@ msgid "Profile"
 msgstr "Профиль"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:210
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Public"
 msgstr "Ачык"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:230
 msgid "Published"
 msgstr "Жарыяланды"
 
@@ -838,11 +874,11 @@ msgstr "Салыштырмалуу (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24 саат ичинде салыштырмалуу, антпесе абсолюттук"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:468
 msgid "Release Tracks"
 msgstr "Release трегтери"
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Release tracks currently active"
 msgstr "Учурда активдүү Release трегтери"
 
@@ -873,7 +909,7 @@ msgid "Reset all settings to default values"
 msgstr "Бардык жөндөөлөрдү демейки маанилерге кайтаруу"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:231
 msgid "Restricted"
 msgstr "Чектелген"
 
@@ -913,10 +949,6 @@ msgstr "Колдонуучуларды издөө"
 msgid "Search..."
 msgstr "Издөө..."
 
-#: ../../../lib/web/src/components/language-picker.tsx:175
-msgid "Search…"
-msgstr "Издөө…"
-
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
 #: ../../../lib/web/src/features/access/access-dialog.tsx:199
@@ -955,11 +987,20 @@ msgstr "Сайттын багытын тандоо"
 msgid "Select theme preference"
 msgstr "Тема жөндөөсүн тандоо"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:133
+msgid "Serif"
+msgstr "Серифтүү"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
+msgid "Server rules"
+msgstr "Сервердин эрежелери"
+
 #: ../../../lib/web/src/lib/api-client.ts:224
 msgid "Session expired"
 msgstr "Сессиянын мөөнөтү бүттү"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:524
 msgid "Set as default"
 msgstr "Демейки кылып коюу"
 
@@ -973,11 +1014,11 @@ msgstr "Чыгуу жана баруу жерин коюу"
 msgid "Settings"
 msgstr "Жөндөөлөр"
 
-#: src/routes/_authenticated/app/$appId.tsx:236
-msgid "Share this ID to allow others to install this app"
-msgstr "Бул колдонмону башкаларга орнотууга уруксат берүү үчүн бул IDни бөлүшүңүз"
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Share this link to allow others to install this app"
+msgstr "Бул шилтемени башкалардын бул колдонмону орнотуусуна уруксат берүү үчүн бөлүшүңүз"
 
-#: src/routes/_authenticated/app/$appId.tsx:235
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Sharing"
 msgstr "Бөлүшүү"
 
@@ -999,6 +1040,15 @@ msgstr "Чыгуу жүрүп жатат..."
 msgid "Skip to Main"
 msgstr "Башкыга өтүү"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:103
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+msgid "Small"
+msgstr "Кичине"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:94
+msgid "Spacious"
+msgstr "Кенен"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Бирок биз менен болуңуз!"
@@ -1013,6 +1063,7 @@ msgstr "Жекшемби"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
 msgstr "Системалык"
 
@@ -1023,6 +1074,11 @@ msgstr "Тег"
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
 msgstr "Командалар/Колдонмолор"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
+msgid "Terms and conditions"
+msgstr "Эрежелер жана шарттар"
 
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
@@ -1063,19 +1119,19 @@ msgstr "Теманы которуу"
 msgid "Top"
 msgstr "Жогорку"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "\"{track}\" Жолу өчүрүлдү"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "\"{track}\" Жолу {version} ге жаңыртылды"
 
-#: src/routes/_authenticated/app/$appId.tsx:398
+#: src/routes/_authenticated/app/$appId.tsx:412
 msgid "Track created"
 msgstr "Жол түзүлдү"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:558
 msgid "Track Name"
 msgstr "Жолдун аты"
 
@@ -1131,31 +1187,31 @@ msgstr "Кошмо Штаттар"
 msgid "Unverified"
 msgstr "Текшерилген эмес"
 
-#: src/routes/_authenticated/app/$appId.tsx:693
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Update Tracks"
 msgstr "Жолдорду жаңыртуу"
 
-#: src/routes/_authenticated/app/$appId.tsx:657
+#: src/routes/_authenticated/app/$appId.tsx:671
 msgid "Upload a .zip build file for your application."
 msgstr "Тиркемеңиз үчүн .zip куруу файлын жүктөңүз."
 
-#: src/routes/_authenticated/app/$appId.tsx:185
+#: src/routes/_authenticated/app/$appId.tsx:189
 msgid "Upload new version"
 msgstr "Жаңы версияны жүктөө"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:669
 msgid "Upload New Version"
 msgstr "Жаңы версияны жүктөө"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Upload Version"
 msgstr "Версияны жүктөө"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Upload your first build to get started"
 msgstr "Баштоо үчүн биринчи курууну жүктөңүз"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Uploading..."
 msgstr "Жүктөлүүдө..."
 
@@ -1163,9 +1219,9 @@ msgstr "Жүктөлүүдө..."
 msgid "User"
 msgstr "Колдонуучу"
 
-#: src/routes/_authenticated/app/$appId.tsx:240
-msgid "Users can install this application by pasting this identifier into their Apps management page."
-msgstr "Колдонуучулар бул идентификаторду Колдонмолорду башкаруу бетине чаптап, бул тиркемени орното алышат."
+#: src/routes/_authenticated/app/$appId.tsx:244
+msgid "Users can install this application by pasting this link into their Apps page."
+msgstr "Колдонуучулар бул шилтемени Колдонмолор бетине чаптап, бул колдонмону орното алышат."
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:68
 msgid "Verification code"
@@ -1188,15 +1244,15 @@ msgid "Verify email address"
 msgstr "Электрондук почта дарегин текшерүү"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version {0} has been created."
 msgstr "Версия {0} түзүлдү."
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "Version History"
 msgstr "Версиянын тарыхы"
 
-#: src/routes/_authenticated/app/$appId.tsx:632
+#: src/routes/_authenticated/app/$appId.tsx:646
 msgid "Version uploaded"
 msgstr "Версия жүктөлдү"
 
@@ -1225,10 +1281,10 @@ msgid "Wednesday"
 msgstr "Шаршемби"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:699
 msgid "Yes"
 msgstr "Ооба"
 
-#: src/routes/_authenticated/app/$appId.tsx:686
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes, force"
 msgstr "Ооба, мажбурлоо"

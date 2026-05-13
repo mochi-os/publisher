@@ -53,7 +53,7 @@ msgstr "Konta veids"
 msgid "Account verified"
 msgstr "Konts verificēts"
 
-#: src/routes/_authenticated/app/$appId.tsx:479
+#: src/routes/_authenticated/app/$appId.tsx:493
 msgid "Active version"
 msgstr "Aktīvā versija"
 
@@ -106,7 +106,7 @@ msgstr "AI"
 msgid "All"
 msgstr "Visi"
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "All uploaded build files for this application"
 msgstr "Visi augšupielādētie Build faili šai lietotnei"
 
@@ -119,10 +119,6 @@ msgstr "Lietotne"
 msgid "App created"
 msgstr "Lietotne izveidota"
 
-#: src/routes/_authenticated/app/$appId.tsx:328
-msgid "App ID"
-msgstr "Lietotnes ID"
-
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:116
 #: src/routes/_authenticated/app/$appId.tsx:137
@@ -130,7 +126,7 @@ msgstr "Lietotnes ID"
 msgid "App not found"
 msgstr "Lietotne nav atrasta"
 
-#: src/routes/_authenticated/app/$appId.tsx:201
+#: src/routes/_authenticated/app/$appId.tsx:205
 msgid "Application ID"
 msgstr "Lietotnes ID"
 
@@ -142,7 +138,7 @@ msgstr "Vai tiešām vēlies izrakstīties? Lai piekļūtu kontam, būs jāpiera
 msgid "Asc"
 msgstr "Aug."
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Available Versions"
 msgstr "Pieejamās versijas"
 
@@ -154,8 +150,8 @@ msgstr "Atpakaļ"
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
-#: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:320
+#: src/routes/_authenticated/app/$appId.tsx:166
+#: src/routes/_authenticated/app/$appId.tsx:329
 msgid "Back to apps"
 msgstr "Atpakaļ uz lietotnēm"
 
@@ -169,7 +165,7 @@ msgstr "Atpakaļ uz sākumu"
 msgid "Boost interest"
 msgstr "Veicināt interesi"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:678
 msgid "Build File (.zip)"
 msgstr "Build fails (.zip)"
 
@@ -181,8 +177,8 @@ msgstr "Build fails (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:575
-#: src/routes/_authenticated/app/$appId.tsx:716
+#: src/routes/_authenticated/app/$appId.tsx:589
+#: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Cancel"
 msgstr "Atcelt"
 
@@ -210,7 +206,7 @@ msgstr "Izvēlies starp virzienu no kreisās uz labo vai no labās uz kreiso"
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "Izvēlies starp sistēmas iestatījumu, gaišo vai tumšo režīmu"
 
-#: ../../../lib/web/src/components/language-picker.tsx:167
+#: ../../../lib/web/src/components/language-picker.tsx:174
 msgid "Choose language"
 msgstr "Izvēlies valodu"
 
@@ -257,11 +253,16 @@ msgstr "Aizvērt meklēšanu"
 msgid "Collapse sidebar"
 msgstr "Sakļaut sānu joslu"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:93
+msgid "Comfortable"
+msgstr "Ērts"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:9
 msgid "Coming Soon!"
 msgstr "Drīzumā!"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:302
+#: ../../../lib/web/src/lib/preference-utils.ts:92
 msgid "Compact"
 msgstr "Kompakts"
 
@@ -286,15 +287,19 @@ msgstr "Turpināt"
 msgid "Copy"
 msgstr "Kopēt"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
-msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "Nokopē šo ID un ielīmē to sava Mochi servera lietotņu lapā, lai instalētu."
+#: src/routes/_authenticated/app/$appId.tsx:335
+msgid "Copy this link and paste it in your Mochi server's Apps page to install."
+msgstr "Kopējiet šo saiti un ielīmējiet to sava Mochi servera Lietotņu lapā, lai instalētu."
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Core identification for this application"
 msgstr "Galvenā identifikācija šai lietotnei"
 
-#: src/routes/_authenticated/app/$appId.tsx:538
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Nevarēja ielādēt šo dokumentu. Lūdzu, mēģini vēlāk vēlreiz."
+
+#: src/routes/_authenticated/app/$appId.tsx:552
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Izveido jaunu vidi (piem., Beta, Staging), lai izvietotu Build failus."
 
@@ -311,11 +316,11 @@ msgstr "Izveidot lietotni"
 msgid "Create new app"
 msgstr "Izveidot jaunu lietotni"
 
-#: src/routes/_authenticated/app/$appId.tsx:191
+#: src/routes/_authenticated/app/$appId.tsx:195
 msgid "Create track"
 msgstr "Izveidot Track"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create Track"
 msgstr "Izveidot Track"
 
@@ -323,12 +328,12 @@ msgstr "Izveidot Track"
 msgid "Create your first app to get started"
 msgstr "Izveido savu pirmo lietotni, lai sāktu"
 
-#: src/routes/_authenticated/app/$appId.tsx:462
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Create your first release track to manage deployments"
 msgstr "Izveido savu pirmo Release Track, lai pārvaldītu izvietošanu"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Izveido..."
 
@@ -353,11 +358,11 @@ msgstr "Noklusētais"
 msgid "Default AI account"
 msgstr "Noklusētais AI konts"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "Noklusētais Track iestatīts uz \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:517
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Delete track"
 msgstr "Dzēst Track"
 
@@ -365,7 +370,7 @@ msgstr "Dzēst Track"
 msgid "Desc"
 msgstr "Dilst."
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Details"
 msgstr "Detaļas"
 
@@ -373,7 +378,7 @@ msgstr "Detaļas"
 msgid "Details Panel"
 msgstr "Detaļu panelis"
 
-#: ../../../lib/web/src/components/language-picker.tsx:145
+#: ../../../lib/web/src/components/language-picker.tsx:152
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -392,7 +397,7 @@ msgstr "Virziens"
 msgid "Displays the mobile sidebar."
 msgstr "Parāda mobilo sānu joslu."
 
-#: src/routes/_authenticated/app/$appId.tsx:216
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Distribution"
 msgstr "Distribūcija"
 
@@ -404,13 +409,21 @@ msgstr "Distribūcija iestatīta uz {distribution}"
 msgid "Download"
 msgstr "Lejupielādēt"
 
-#: src/routes/_authenticated/app/$appId.tsx:548
+#: ../../../lib/web/src/lib/preference-utils.ts:134
+msgid "Dyslexia-friendly"
+msgstr "Disleksijai draudzīgs"
+
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "e.g. Staging"
 msgstr "piem., Staging"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "Izvērst sānjoslu"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:124
+msgid "Extra large"
+msgstr "Ļoti liels"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:217
 msgid "Failed to add account"
@@ -420,11 +433,11 @@ msgstr "Neizdevās pievienot kontu"
 msgid "Failed to create app"
 msgstr "Neizdevās izveidot lietotni"
 
-#: src/routes/_authenticated/app/$appId.tsx:404
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to create track"
 msgstr "Neizdevās izveidot ierakstu"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "Neizdevās dzēst ierakstu"
 
@@ -436,7 +449,7 @@ msgstr "Neizdevās noņemt kontu"
 msgid "Failed to send verification code"
 msgstr "Neizdevās nosūtīt verifikācijas kodu"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "Neizdevās iestatīt noklusējuma ierakstu"
 
@@ -448,16 +461,16 @@ msgstr "Neizdevās atjaunināt kategoriju"
 msgid "Failed to update distribution"
 msgstr "Neizdevās atjaunināt izplatīšanu"
 
-#: src/routes/_authenticated/app/$appId.tsx:418
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "Neizdevās atjaunināt ierakstu"
 
-#: src/routes/_authenticated/app/$appId.tsx:645
+#: src/routes/_authenticated/app/$appId.tsx:659
 msgid "Failed to upload version"
 msgstr "Neizdevās augšupielādēt versiju"
 
-#: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:208
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Fingerprint"
 msgstr "Pirkstu nospiedums"
 
@@ -472,6 +485,14 @@ msgstr "Piektdiena"
 #: ../../../lib/web/src/components/travelling-picker.tsx:149
 msgid "From"
 msgstr "No"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:91
+#: ../../../lib/web/src/lib/preference-utils.ts:101
+#: ../../../lib/web/src/lib/preference-utils.ts:112
+#: ../../../lib/web/src/lib/preference-utils.ts:120
+#: ../../../lib/web/src/lib/preference-utils.ts:131
+msgid "From theme"
+msgstr "No motīva"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:307
 msgid "Full layout"
@@ -518,7 +539,7 @@ msgstr "Sākums"
 msgid "Hot"
 msgstr "Aktuāli"
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Identity"
 msgstr "Identitāte"
 
@@ -526,7 +547,7 @@ msgstr "Identitāte"
 msgid "Imperial"
 msgstr "Imperiāls"
 
-#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:568
 msgid "Initial Version"
 msgstr "Sākotnējā versija"
 
@@ -534,21 +555,22 @@ msgstr "Sākotnējā versija"
 msgid "Inset"
 msgstr "Iebūvēts"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install App"
 msgstr "Instalēt lietotni"
 
-#: src/routes/_authenticated/app/$appId.tsx:677
+#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:339
+msgid "Install link:"
+msgstr "Instalēšanas saite:"
+
+#: src/routes/_authenticated/app/$appId.tsx:691
 msgid "Install Locally"
 msgstr "Instalēt lokāli"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install this application to your server"
 msgstr "Instalējiet šo lietotni savā serverī"
-
-#: src/routes/_authenticated/app/$appId.tsx:242
-msgid "Installation ID"
-msgstr "Instalācijas ID"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:39
 msgid "Interests"
@@ -558,6 +580,11 @@ msgstr "Intereses"
 msgid "Invalid verification code"
 msgstr "Nederīgs verifikācijas kods"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:105
+#: ../../../lib/web/src/lib/preference-utils.ts:123
+msgid "Large"
+msgstr "Liels"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:273
 msgid "Layout"
 msgstr "Izkārtojums"
@@ -566,7 +593,7 @@ msgstr "Izkārtojums"
 msgid "Learn more"
 msgstr "Uzzināt vairāk"
 
-#: src/routes/_authenticated/app/$appId.tsx:560
+#: src/routes/_authenticated/app/$appId.tsx:574
 msgid "Leave empty"
 msgstr "Atstāt tukšu"
 
@@ -588,6 +615,7 @@ msgid "Loading app..."
 msgstr "Ielādē lietotni..."
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Ielādē…"
 
@@ -617,7 +645,7 @@ msgstr "Izrakstās…"
 msgid "Make app publicly available"
 msgstr "Padarīt lietotni publiski pieejamu"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:469
 msgid "Manage deployment environments and their versions"
 msgstr "Pārvaldiet izvietošanas vides un to versijas"
 
@@ -626,11 +654,15 @@ msgstr "Pārvaldiet izvietošanas vides un to versijas"
 msgid "Mark all as read"
 msgstr "Atzīmēt visus kā lasītus"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:104
+msgid "Medium"
+msgstr "Vidējs"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
 msgid "Menu"
 msgstr "Izvēlne"
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Metadata and configuration"
 msgstr "Metadati un konfigurācija"
 
@@ -646,7 +678,7 @@ msgstr "Pirmdiena"
 msgid "My App"
 msgstr "Mana lietotne"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:351
 msgid "N/A"
 msgstr "Nav pieejams"
 
@@ -658,7 +690,7 @@ msgstr "Nosaukums"
 msgid "New"
 msgstr "Jauns"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:550
 msgid "New Release Track"
 msgstr "Jauns Release Track"
 
@@ -667,7 +699,7 @@ msgid "Next image"
 msgstr "Nākamais attēls"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "No"
 msgstr "Nē"
 
@@ -686,10 +718,6 @@ msgstr "Nav saistītu kontu"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
 msgstr "Nav pieejamu grupu"
-
-#: ../../../lib/web/src/components/language-picker.tsx:177
-msgid "No matches."
-msgstr "Nav atbilstību."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -712,7 +740,7 @@ msgstr "Laika josla nav atrasta."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Vēl nav tēmas ieraksta — mēģiniet vēlreiz pēc nākamā paziņojuma."
 
-#: src/routes/_authenticated/app/$appId.tsx:461
+#: src/routes/_authenticated/app/$appId.tsx:475
 msgid "No tracks"
 msgstr "Nav celiņu"
 
@@ -720,17 +748,23 @@ msgstr "Nav celiņu"
 msgid "No users found"
 msgstr "Lietotāji nav atrasti"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:571
 msgid "No version"
 msgstr "Nav versijas"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
+#: src/routes/_authenticated/app/$appId.tsx:265
 msgid "No versions"
 msgstr "Nav versiju"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
+#: ../../../lib/web/src/lib/preference-utils.ts:102
+#: ../../../lib/web/src/lib/preference-utils.ts:113
 msgid "None"
 msgstr "Nav"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:122
+msgid "Normal"
+msgstr "Normāls"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -760,7 +794,7 @@ msgstr "Atvērt navigācijas izvēlni"
 msgid "Open theme settings"
 msgstr "Atvērt motīva iestatījumus"
 
-#: src/routes/_authenticated/app/$appId.tsx:500
+#: src/routes/_authenticated/app/$appId.tsx:514
 msgid "Open track actions"
 msgstr "Atvērt celiņa darbības"
 
@@ -776,7 +810,7 @@ msgstr "Īpašnieks"
 msgid "Please enter an app name"
 msgstr "Lūdzu, ievadiet lietotnes nosaukumu"
 
-#: src/routes/_authenticated/app/$appId.tsx:621
+#: src/routes/_authenticated/app/$appId.tsx:635
 msgid "Please select a file"
 msgstr "Lūdzu, atlasiet failu"
 
@@ -784,16 +818,18 @@ msgstr "Lūdzu, atlasiet failu"
 msgid "Previous image"
 msgstr "Iepriekšējais attēls"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
+#: src/routes/_authenticated/app/$appId.tsx:353
 msgid "Privacy"
 msgstr "Privātums"
 
-#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:211
 msgid "Privacy Policy"
 msgstr "Privātuma politika"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:212
+#: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Private"
 msgstr "Privāts"
 
@@ -803,12 +839,12 @@ msgid "Profile"
 msgstr "Profils"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:210
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Public"
 msgstr "Publisks"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:230
 msgid "Published"
 msgstr "Publicēts"
 
@@ -838,11 +874,11 @@ msgstr "Relatīvs (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relatīvs 24 stundu laikā, citādi absolūts"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:468
 msgid "Release Tracks"
 msgstr "Release Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Release tracks currently active"
 msgstr "Pašlaik aktīvie release tracks"
 
@@ -873,7 +909,7 @@ msgid "Reset all settings to default values"
 msgstr "Atiestatīt visus iestatījumus uz noklusējuma vērtībām"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:231
 msgid "Restricted"
 msgstr "Ierobežots"
 
@@ -913,10 +949,6 @@ msgstr "Meklēt lietotājus"
 msgid "Search..."
 msgstr "Meklēt..."
 
-#: ../../../lib/web/src/components/language-picker.tsx:175
-msgid "Search…"
-msgstr "Meklē…"
-
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
 #: ../../../lib/web/src/features/access/access-dialog.tsx:199
@@ -955,11 +987,20 @@ msgstr "Izvēlieties vietnes virzienu"
 msgid "Select theme preference"
 msgstr "Izvēlieties motīva preferenci"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:133
+msgid "Serif"
+msgstr "Serifs"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
+msgid "Server rules"
+msgstr "Servera noteikumi"
+
 #: ../../../lib/web/src/lib/api-client.ts:224
 msgid "Session expired"
 msgstr "Sesijai beidzies derīgums"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:524
 msgid "Set as default"
 msgstr "Iestatīt kā noklusēto"
 
@@ -973,11 +1014,11 @@ msgstr "Iestatīt sākuma un galapunktu"
 msgid "Settings"
 msgstr "Iestatījumi"
 
-#: src/routes/_authenticated/app/$appId.tsx:236
-msgid "Share this ID to allow others to install this app"
-msgstr "Kopīgojiet šo ID, lai citi varētu instalēt šo lietotni"
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Share this link to allow others to install this app"
+msgstr "Kopīgojiet šo saiti, lai citi varētu instalēt šo lietotni"
 
-#: src/routes/_authenticated/app/$appId.tsx:235
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Sharing"
 msgstr "Kopīgošana"
 
@@ -999,6 +1040,15 @@ msgstr "Notiek izrakstīšanās..."
 msgid "Skip to Main"
 msgstr "Pāriet uz galveno"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:103
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+msgid "Small"
+msgstr "Mazs"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:94
+msgid "Spacious"
+msgstr "Plašs"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Tomēr palieciet uz viļņa!"
@@ -1013,6 +1063,7 @@ msgstr "Svētdiena"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
 msgstr "Sistēma"
 
@@ -1023,6 +1074,11 @@ msgstr "Tags"
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
 msgstr "Komandas/Lietotnes"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
+msgid "Terms and conditions"
+msgstr "Lietošanas nosacījumi"
 
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
@@ -1063,19 +1119,19 @@ msgstr "Pārslēgt tēmu"
 msgid "Top"
 msgstr "Augšā"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "Track \"{track}\" izdzēsts"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track \"{track}\" atjaunināts uz {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:398
+#: src/routes/_authenticated/app/$appId.tsx:412
 msgid "Track created"
 msgstr "Track izveidots"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:558
 msgid "Track Name"
 msgstr "Track nosaukums"
 
@@ -1131,31 +1187,31 @@ msgstr "Amerikas Savienotās Valstis"
 msgid "Unverified"
 msgstr "Nav pārbaudīts"
 
-#: src/routes/_authenticated/app/$appId.tsx:693
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Update Tracks"
 msgstr "Atjaunināt Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:657
+#: src/routes/_authenticated/app/$appId.tsx:671
 msgid "Upload a .zip build file for your application."
 msgstr "Augšupielādējiet .zip Build failu savai lietojumprogrammai."
 
-#: src/routes/_authenticated/app/$appId.tsx:185
+#: src/routes/_authenticated/app/$appId.tsx:189
 msgid "Upload new version"
 msgstr "Augšupielādēt jaunu versiju"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:669
 msgid "Upload New Version"
 msgstr "Augšupielādēt jaunu Build"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Upload Version"
 msgstr "Augšupielādēt versiju"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Upload your first build to get started"
 msgstr "Augšupielādējiet savu pirmo Build, lai sāktu"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Uploading..."
 msgstr "Notiek augšupielāde..."
 
@@ -1163,9 +1219,9 @@ msgstr "Notiek augšupielāde..."
 msgid "User"
 msgstr "Lietotājs"
 
-#: src/routes/_authenticated/app/$appId.tsx:240
-msgid "Users can install this application by pasting this identifier into their Apps management page."
-msgstr "Lietotāji var instalēt šo lietojumprogrammu, ielīmējot šo identifikatoru savā Lietotņu pārvaldības lapā."
+#: src/routes/_authenticated/app/$appId.tsx:244
+msgid "Users can install this application by pasting this link into their Apps page."
+msgstr "Lietotāji var instalēt šo lietotni, ielīmējot šo saiti savā Lietotņu lapā."
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:68
 msgid "Verification code"
@@ -1188,15 +1244,15 @@ msgid "Verify email address"
 msgstr "Verificēt e-pasta adresi"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version {0} has been created."
 msgstr "Versija {0} ir izveidota."
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "Version History"
 msgstr "Versiju vēsture"
 
-#: src/routes/_authenticated/app/$appId.tsx:632
+#: src/routes/_authenticated/app/$appId.tsx:646
 msgid "Version uploaded"
 msgstr "Versija augšupielādēta"
 
@@ -1225,10 +1281,10 @@ msgid "Wednesday"
 msgstr "Trešdiena"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:699
 msgid "Yes"
 msgstr "Jā"
 
-#: src/routes/_authenticated/app/$appId.tsx:686
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes, force"
 msgstr "Jā, piespiest"

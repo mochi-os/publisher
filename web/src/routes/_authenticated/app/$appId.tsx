@@ -148,8 +148,12 @@ function AppPage() {
 
   const { app, tracks, versions, administrator, share, publisher } = data
 
-  // Build share string: just app ID for public, app@publisher for private
-  const shareString = app.privacy === 'public' ? app.id : `${app.id}@${publisher}`
+  // Build share link using the mochi: URI scheme.
+  // Public/directory apps need only the app entity; private apps qualify the publisher.
+  const shareString =
+    app.privacy === 'public'
+      ? `mochi:app/install/${app.id}`
+      : `mochi:app/install/${app.id}?publisher=${publisher}`
 
   // Show share page for unauthenticated users or non-admins
   if (share) {
@@ -231,17 +235,22 @@ function AppPage() {
                 </div>
               </Section>
 
-              <Section 
-                title={t`Sharing`} 
-                description={t`Share this ID to allow others to install this app`}
+              <Section
+                title={t`Sharing`}
+                description={t`Share this link to allow others to install this app`}
               >
                 <div className="space-y-4">
                   <p className='text-muted-foreground text-sm'>
-                    <Trans>Users can install this application by pasting this identifier into their Apps management page.</Trans>
+                    <Trans>Users can install this application by pasting this link into their Apps page.</Trans>
                   </p>
-                  <FieldRow label={t`Installation ID`}>
-                    <DataChip value={shareString} />
-                  </FieldRow>
+                  <div className='space-y-2 py-2'>
+                    <dt className='text-muted-foreground text-sm font-medium leading-tight'>
+                      {t`Install link:`}
+                    </dt>
+                    <dd className='flex min-w-0 items-center gap-2'>
+                      <DataChip value={shareString} copyButtonMode='always' />
+                    </dd>
+                  </div>
                 </div>
               </Section>
             </div>
@@ -323,11 +332,16 @@ function SharePage({
           <Section title={t`Install App`} description={t`Install this application to your server`}>
             <div className="space-y-4">
               <p className='text-muted-foreground text-sm'>
-                <Trans>Copy this ID and paste it in your Mochi server's Apps page to install.</Trans>
+                <Trans>Copy this link and paste it in your Mochi server's Apps page to install.</Trans>
               </p>
-              <FieldRow label={t`App ID`}>
-                <DataChip value={shareString} />
-              </FieldRow>
+              <div className='space-y-2 py-2'>
+                <dt className='text-muted-foreground text-sm font-medium leading-tight'>
+                  {t`Install link:`}
+                </dt>
+                <dd className='flex min-w-0 items-center gap-2'>
+                  <DataChip value={shareString} copyButtonMode='always' />
+                </dd>
+              </div>
             </div>
           </Section>
 

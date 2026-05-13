@@ -53,7 +53,7 @@ msgstr "Uhlobo lwe-akhawunti"
 msgid "Account verified"
 msgstr "I-akhawunti iqinisekisiwe"
 
-#: src/routes/_authenticated/app/$appId.tsx:479
+#: src/routes/_authenticated/app/$appId.tsx:493
 msgid "Active version"
 msgstr "Inguqulo esebenzayo"
 
@@ -106,7 +106,7 @@ msgstr "I-AI"
 msgid "All"
 msgstr "Konke"
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "All uploaded build files for this application"
 msgstr "Wonke amafayela okwakha alayishiwe e-app yale"
 
@@ -119,10 +119,6 @@ msgstr "I-app"
 msgid "App created"
 msgstr "I-app idaliwe"
 
-#: src/routes/_authenticated/app/$appId.tsx:328
-msgid "App ID"
-msgstr "I-ID ye-app"
-
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:116
 #: src/routes/_authenticated/app/$appId.tsx:137
@@ -130,7 +126,7 @@ msgstr "I-ID ye-app"
 msgid "App not found"
 msgstr "I-app ayitholakali"
 
-#: src/routes/_authenticated/app/$appId.tsx:201
+#: src/routes/_authenticated/app/$appId.tsx:205
 msgid "Application ID"
 msgstr "I-ID yesicelo"
 
@@ -142,7 +138,7 @@ msgstr "Uqinisekile ufuna ukuphuma? Kuzodingeka ungene futhi ukuze ufinyelele i-
 msgid "Asc"
 msgstr "Khuphukayo"
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Available Versions"
 msgstr "Izinguqulo Ezitholakalayo"
 
@@ -154,8 +150,8 @@ msgstr "Emuva"
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
-#: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:320
+#: src/routes/_authenticated/app/$appId.tsx:166
+#: src/routes/_authenticated/app/$appId.tsx:329
 msgid "Back to apps"
 msgstr "Buyela kuma-app"
 
@@ -169,7 +165,7 @@ msgstr "Buyela Ekhaya"
 msgid "Boost interest"
 msgstr "Khulisa intshisekelo"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:678
 msgid "Build File (.zip)"
 msgstr "Ifayela lokwakha (.zip)"
 
@@ -181,8 +177,8 @@ msgstr "Ifayela lokwakha (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:575
-#: src/routes/_authenticated/app/$appId.tsx:716
+#: src/routes/_authenticated/app/$appId.tsx:589
+#: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Cancel"
 msgstr "Khansela"
 
@@ -210,7 +206,7 @@ msgstr "Khetha phakathi kokuhamba kwesayithi kusuka kwesokunxele kuya kwesokudla
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "Khetha phakathi kwentando yesistimu, imodi ekhanyayo, noma imodi emnyama"
 
-#: ../../../lib/web/src/components/language-picker.tsx:167
+#: ../../../lib/web/src/components/language-picker.tsx:174
 msgid "Choose language"
 msgstr "Khetha ulimi"
 
@@ -257,11 +253,16 @@ msgstr "Vala usesho"
 msgid "Collapse sidebar"
 msgstr "Goqa ibha eseceleni"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:93
+msgid "Comfortable"
+msgstr "Kumnandi"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:9
 msgid "Coming Soon!"
 msgstr "Kuyeza Maduze!"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:302
+#: ../../../lib/web/src/lib/preference-utils.ts:92
 msgid "Compact"
 msgstr "Okufishane"
 
@@ -286,15 +287,19 @@ msgstr "Qhubeka"
 msgid "Copy"
 msgstr "Kopisha"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
-msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "Kopisha le ID bese uyincamathisela ekhasini lama-app eseva yakho ye-Mochi ukuze ufake."
+#: src/routes/_authenticated/app/$appId.tsx:335
+msgid "Copy this link and paste it in your Mochi server's Apps page to install."
+msgstr "Kopisha lesi sixhumanisi futhi usinamathisele kukhasi Lwama-app leseva yakho ye-Mochi ukuze ukufake."
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Core identification for this application"
 msgstr "Ukuhlonzwa okuyinhloko kwale app"
 
-#: src/routes/_authenticated/app/$appId.tsx:538
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "Akukwazanga ukulayisha le dokhumenti. Sicela uzame futhi kamuva."
+
+#: src/routes/_authenticated/app/$appId.tsx:552
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Dala indawo entsha (isib. Beta, Staging) ukuze ufake okwakhiwe."
 
@@ -311,11 +316,11 @@ msgstr "Dala i-app"
 msgid "Create new app"
 msgstr "Dala i-app entsha"
 
-#: src/routes/_authenticated/app/$appId.tsx:191
+#: src/routes/_authenticated/app/$appId.tsx:195
 msgid "Create track"
 msgstr "Dala umzila"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create Track"
 msgstr "Dala isiteshi"
 
@@ -323,12 +328,12 @@ msgstr "Dala isiteshi"
 msgid "Create your first app to get started"
 msgstr "Dala i-app yakho yokuqala ukuze uqale"
 
-#: src/routes/_authenticated/app/$appId.tsx:462
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Create your first release track to manage deployments"
 msgstr "Dala umzila wakho wokuqala wokukhishwa ukuze uphathe ukuthunyelwa"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Kuyadalwa..."
 
@@ -353,11 +358,11 @@ msgstr "Okuzenzakalelayo"
 msgid "Default AI account"
 msgstr "I-akhawunti ye-AI ezenzakalelayo"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "Umzila ozenzakalelayo usethelwe ku-\"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:517
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Delete track"
 msgstr "Susa umzila"
 
@@ -365,7 +370,7 @@ msgstr "Susa umzila"
 msgid "Desc"
 msgstr "Ehlayo"
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Details"
 msgstr "Imininingwane"
 
@@ -373,7 +378,7 @@ msgstr "Imininingwane"
 msgid "Details Panel"
 msgstr "Iphaneli Yemininingwane"
 
-#: ../../../lib/web/src/components/language-picker.tsx:145
+#: ../../../lib/web/src/components/language-picker.tsx:152
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -392,7 +397,7 @@ msgstr "Indlela"
 msgid "Displays the mobile sidebar."
 msgstr "Ibonisa ibha eseceleni yefoni."
 
-#: src/routes/_authenticated/app/$appId.tsx:216
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Distribution"
 msgstr "Ukusatshalaliswa"
 
@@ -404,13 +409,21 @@ msgstr "Ukusatshalaliswa kusethelwe ku-{distribution}"
 msgid "Download"
 msgstr "Landa"
 
-#: src/routes/_authenticated/app/$appId.tsx:548
+#: ../../../lib/web/src/lib/preference-utils.ts:134
+msgid "Dyslexia-friendly"
+msgstr "Sokulungele i-dyslexia"
+
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "e.g. Staging"
 msgstr "isb. Staging"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "Nweba ibha eseceleni"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:124
+msgid "Extra large"
+msgstr "Okukhulu kakhulu"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:217
 msgid "Failed to add account"
@@ -420,11 +433,11 @@ msgstr "Kuhlulekile ukungeza i-akhawunti"
 msgid "Failed to create app"
 msgstr "Kuhlulekile ukudala uhlelo"
 
-#: src/routes/_authenticated/app/$appId.tsx:404
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to create track"
 msgstr "Kuhlulekile ukudala umzila"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "Kuhlulekile ukususa umzila"
 
@@ -436,7 +449,7 @@ msgstr "Kuhlulekile ukususa i-akhawunti"
 msgid "Failed to send verification code"
 msgstr "Kuhlulekile ukuthumela ikhodi yokuqinisekisa"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "Kuhlulekile ukusetha umzila omisiwe"
 
@@ -448,16 +461,16 @@ msgstr "Kuhlulekile ukubuyekeza isigaba"
 msgid "Failed to update distribution"
 msgstr "Kuhlulekile ukubuyekeza ukusatshalaliswa"
 
-#: src/routes/_authenticated/app/$appId.tsx:418
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "Kuhlulekile ukubuyekeza umzila"
 
-#: src/routes/_authenticated/app/$appId.tsx:645
+#: src/routes/_authenticated/app/$appId.tsx:659
 msgid "Failed to upload version"
 msgstr "Kuhlulekile ukulayisha inguqulo"
 
-#: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:208
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Fingerprint"
 msgstr "Isigxivizo somunwe"
 
@@ -472,6 +485,14 @@ msgstr "ULwesihlanu"
 #: ../../../lib/web/src/components/travelling-picker.tsx:149
 msgid "From"
 msgstr "Kusukela"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:91
+#: ../../../lib/web/src/lib/preference-utils.ts:101
+#: ../../../lib/web/src/lib/preference-utils.ts:112
+#: ../../../lib/web/src/lib/preference-utils.ts:120
+#: ../../../lib/web/src/lib/preference-utils.ts:131
+msgid "From theme"
+msgstr "Kusukela endikimbeni"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:307
 msgid "Full layout"
@@ -518,7 +539,7 @@ msgstr "Ikhaya"
 msgid "Hot"
 msgstr "Okushisayo"
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Identity"
 msgstr "Ubunikazi"
 
@@ -526,7 +547,7 @@ msgstr "Ubunikazi"
 msgid "Imperial"
 msgstr "Yobukhosi"
 
-#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:568
 msgid "Initial Version"
 msgstr "Inguqulo Yokuqala"
 
@@ -534,21 +555,22 @@ msgstr "Inguqulo Yokuqala"
 msgid "Inset"
 msgstr "Okufakwe ngaphakathi"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install App"
 msgstr "Faka uHlelo"
 
-#: src/routes/_authenticated/app/$appId.tsx:677
+#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:339
+msgid "Install link:"
+msgstr "Isixhumanisi sokufaka:"
+
+#: src/routes/_authenticated/app/$appId.tsx:691
 msgid "Install Locally"
 msgstr "Faka Endaweni"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install this application to your server"
 msgstr "Faka lolu hlelo kusiphakeli sakho"
-
-#: src/routes/_authenticated/app/$appId.tsx:242
-msgid "Installation ID"
-msgstr "I-ID yokufaka"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:39
 msgid "Interests"
@@ -558,6 +580,11 @@ msgstr "Izintshisekelo"
 msgid "Invalid verification code"
 msgstr "Ikhodi yokuqinisekisa engalungile"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:105
+#: ../../../lib/web/src/lib/preference-utils.ts:123
+msgid "Large"
+msgstr "Okukhulu"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:273
 msgid "Layout"
 msgstr "Isakhiwo"
@@ -566,7 +593,7 @@ msgstr "Isakhiwo"
 msgid "Learn more"
 msgstr "Funda kabanzi"
 
-#: src/routes/_authenticated/app/$appId.tsx:560
+#: src/routes/_authenticated/app/$appId.tsx:574
 msgid "Leave empty"
 msgstr "Shiya kungenalutho"
 
@@ -588,6 +615,7 @@ msgid "Loading app..."
 msgstr "Kulayishwa uhlelo..."
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "Kulayishwa…"
 
@@ -617,7 +645,7 @@ msgstr "Iyaphuma…"
 msgid "Make app publicly available"
 msgstr "Yenza i-app itholakale emphakathini"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:469
 msgid "Manage deployment environments and their versions"
 msgstr "Phatha izindawo zokuthumela kanye nezinguqulo zazo"
 
@@ -626,11 +654,15 @@ msgstr "Phatha izindawo zokuthumela kanye nezinguqulo zazo"
 msgid "Mark all as read"
 msgstr "Maka konke njengokufundiwe"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:104
+msgid "Medium"
+msgstr "Maphakathi"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
 msgid "Menu"
 msgstr "Imenyu"
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Metadata and configuration"
 msgstr "I-metadata nokucushwa"
 
@@ -646,7 +678,7 @@ msgstr "UMsombuluko"
 msgid "My App"
 msgstr "I-App Yami"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:351
 msgid "N/A"
 msgstr "Akusebenzi"
 
@@ -658,7 +690,7 @@ msgstr "Igama"
 msgid "New"
 msgstr "Okusha"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:550
 msgid "New Release Track"
 msgstr "Itrekhi Yokukhipha Entsha"
 
@@ -667,7 +699,7 @@ msgid "Next image"
 msgstr "Isithombe esilandelayo"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "No"
 msgstr "Cha"
 
@@ -686,10 +718,6 @@ msgstr "Awekho ama-akhawunti axhumeneyo"
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
 msgstr "Awekho amaqembu atholakalayo"
-
-#: ../../../lib/web/src/components/language-picker.tsx:177
-msgid "No matches."
-msgstr "Akukho okufanayo."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -712,7 +740,7 @@ msgstr "Asikho isikhathi sendawo esitholakele."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Awukho umbiko wesihloko okwamanje — zama futhi ngemva kwesaziso esilandelayo."
 
-#: src/routes/_authenticated/app/$appId.tsx:461
+#: src/routes/_authenticated/app/$appId.tsx:475
 msgid "No tracks"
 msgstr "Awekho amatrekhi"
 
@@ -720,17 +748,23 @@ msgstr "Awekho amatrekhi"
 msgid "No users found"
 msgstr "Abakho abasebenzisi abatholakele"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:571
 msgid "No version"
 msgstr "Akukho inguqulo"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
+#: src/routes/_authenticated/app/$appId.tsx:265
 msgid "No versions"
 msgstr "Aziyikho izinguqulo"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
+#: ../../../lib/web/src/lib/preference-utils.ts:102
+#: ../../../lib/web/src/lib/preference-utils.ts:113
 msgid "None"
 msgstr "Lutho"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:122
+msgid "Normal"
+msgstr "Okuvamile"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -760,7 +794,7 @@ msgstr "Vula imenyu yokuzulazula"
 msgid "Open theme settings"
 msgstr "Vula izilungiselelo zetimu"
 
-#: src/routes/_authenticated/app/$appId.tsx:500
+#: src/routes/_authenticated/app/$appId.tsx:514
 msgid "Open track actions"
 msgstr "Vula izenzo zetrekhi"
 
@@ -776,7 +810,7 @@ msgstr "Umnikazi"
 msgid "Please enter an app name"
 msgstr "Sicela ufake igama le-app"
 
-#: src/routes/_authenticated/app/$appId.tsx:621
+#: src/routes/_authenticated/app/$appId.tsx:635
 msgid "Please select a file"
 msgstr "Sicela ukhethe ifayela"
 
@@ -784,16 +818,18 @@ msgstr "Sicela ukhethe ifayela"
 msgid "Previous image"
 msgstr "Isithombe esedlule"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
+#: src/routes/_authenticated/app/$appId.tsx:353
 msgid "Privacy"
 msgstr "Ubumfihlo"
 
-#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:211
 msgid "Privacy Policy"
 msgstr "Inqubomgomo Yobumfihlo"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:212
+#: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Private"
 msgstr "Okuyimfihlo"
 
@@ -803,12 +839,12 @@ msgid "Profile"
 msgstr "Umbiko womsebenzisi"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:210
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Public"
 msgstr "Emphakathini"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:230
 msgid "Published"
 msgstr "Kushicilelwe"
 
@@ -838,11 +874,11 @@ msgstr "Okuhlobene (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Okuhlobene phakathi kwamahora angu-24, ngale kwalokho okuphelele"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:468
 msgid "Release Tracks"
 msgstr "Amatrekhi Okukhipha"
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Release tracks currently active"
 msgstr "Amatrekhi okukhipha asebenzayo okwamanje"
 
@@ -873,7 +909,7 @@ msgid "Reset all settings to default values"
 msgstr "Setha kabusha zonke izilungiselelo emanani okuzenzakalelayo"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:231
 msgid "Restricted"
 msgstr "Kuvinjelwe"
 
@@ -913,10 +949,6 @@ msgstr "Sesha abasebenzisi"
 msgid "Search..."
 msgstr "Sesha..."
 
-#: ../../../lib/web/src/components/language-picker.tsx:175
-msgid "Search…"
-msgstr "Sesha…"
-
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
 #: ../../../lib/web/src/features/access/access-dialog.tsx:199
@@ -955,11 +987,20 @@ msgstr "Khetha umkhondo wesayithi"
 msgid "Select theme preference"
 msgstr "Khetha okuncamelayo kwendikimba"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:133
+msgid "Serif"
+msgstr "I-Serif"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
+msgid "Server rules"
+msgstr "Imithetho yeseva"
+
 #: ../../../lib/web/src/lib/api-client.ts:224
 msgid "Session expired"
 msgstr "Iseshini iphelelwe yisikhathi"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:524
 msgid "Set as default"
 msgstr "Misa njengokuzenzakalelayo"
 
@@ -973,11 +1014,11 @@ msgstr "Misa indawo yokuqala neyokuya"
 msgid "Settings"
 msgstr "Izilungiselelo"
 
-#: src/routes/_authenticated/app/$appId.tsx:236
-msgid "Share this ID to allow others to install this app"
-msgstr "Yabelana ngale ID ukuze uvumele abanye bafake lolu hlelo lokusebenza"
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Share this link to allow others to install this app"
+msgstr "Yabelana ngalesi sixhumanisi ukuvumela abanye bafake lolu hlelo lokusebenza"
 
-#: src/routes/_authenticated/app/$appId.tsx:235
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Sharing"
 msgstr "Ukwabelana"
 
@@ -999,6 +1040,15 @@ msgstr "Kuyaphunywa..."
 msgid "Skip to Main"
 msgstr "Yeqela Eyokuqala"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:103
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+msgid "Small"
+msgstr "Okuncane"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:94
+msgid "Spacious"
+msgstr "Ukukhula"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "Kodwa hlala ulindile!"
@@ -1013,6 +1063,7 @@ msgstr "ISonto"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
 msgstr "Isistimu"
 
@@ -1023,6 +1074,11 @@ msgstr "Ithegi"
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
 msgstr "Amaqembu/Izinhlelo zokusebenza"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
+msgid "Terms and conditions"
+msgstr "Imibandela nemigomo"
 
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
@@ -1063,19 +1119,19 @@ msgstr "Shintsha indikimba"
 msgid "Top"
 msgstr "Phezulu"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "I-track \"{track}\" isusiwe"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "I-track \"{track}\" ibuyekeziwe yaba i-{version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:398
+#: src/routes/_authenticated/app/$appId.tsx:412
 msgid "Track created"
 msgstr "I-track idaliwe"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:558
 msgid "Track Name"
 msgstr "Igama le-track"
 
@@ -1131,31 +1187,31 @@ msgstr "I-United States"
 msgid "Unverified"
 msgstr "Akuqinisekisiwe"
 
-#: src/routes/_authenticated/app/$appId.tsx:693
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Update Tracks"
 msgstr "Buyekeza Ama-track"
 
-#: src/routes/_authenticated/app/$appId.tsx:657
+#: src/routes/_authenticated/app/$appId.tsx:671
 msgid "Upload a .zip build file for your application."
 msgstr "Layisha ifayela lokwakha le-.zip lohlelo lwakho lokusebenza."
 
-#: src/routes/_authenticated/app/$appId.tsx:185
+#: src/routes/_authenticated/app/$appId.tsx:189
 msgid "Upload new version"
 msgstr "Layisha inguqulo entsha"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:669
 msgid "Upload New Version"
 msgstr "Layisha Inguqulo Entsha"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Upload Version"
 msgstr "Layisha inguqulo"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Upload your first build to get started"
 msgstr "Layisha ukwakha kwakho kokuqala ukuze uqalise"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Uploading..."
 msgstr "Kuyalayishwa..."
 
@@ -1163,9 +1219,9 @@ msgstr "Kuyalayishwa..."
 msgid "User"
 msgstr "Umsebenzisi"
 
-#: src/routes/_authenticated/app/$appId.tsx:240
-msgid "Users can install this application by pasting this identifier into their Apps management page."
-msgstr "Abasebenzisi bangafaka lolu hlelo lokusebenza ngokunamathisela lesi sikhombi ekhasini labo lokuphathwa kwezinhlelo zokusebenza."
+#: src/routes/_authenticated/app/$appId.tsx:244
+msgid "Users can install this application by pasting this link into their Apps page."
+msgstr "Abasebenzisi bangakwazi ukufaka lolu hlelo lokusebenza ngokunamathisela lesi sixhumanisi kukhasi labo Lwama-app."
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:68
 msgid "Verification code"
@@ -1188,15 +1244,15 @@ msgid "Verify email address"
 msgstr "Qinisekisa ikheli le-imeyili"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version {0} has been created."
 msgstr "Inguqulo {0} idaliwe."
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "Version History"
 msgstr "Umlando Wenguqulo"
 
-#: src/routes/_authenticated/app/$appId.tsx:632
+#: src/routes/_authenticated/app/$appId.tsx:646
 msgid "Version uploaded"
 msgstr "Inguqulo ilayishiwe"
 
@@ -1225,10 +1281,10 @@ msgid "Wednesday"
 msgstr "ULwesithathu"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:699
 msgid "Yes"
 msgstr "Yebo"
 
-#: src/routes/_authenticated/app/$appId.tsx:686
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes, force"
 msgstr "Yebo, phoqelela"

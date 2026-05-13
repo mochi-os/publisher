@@ -53,7 +53,7 @@ msgstr "खाते प्रकार"
 msgid "Account verified"
 msgstr "खाते सत्यापित केले"
 
-#: src/routes/_authenticated/app/$appId.tsx:479
+#: src/routes/_authenticated/app/$appId.tsx:493
 msgid "Active version"
 msgstr "सक्रिय आवृत्ती"
 
@@ -106,7 +106,7 @@ msgstr "AI"
 msgid "All"
 msgstr "सर्व"
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "All uploaded build files for this application"
 msgstr "या अॅप्लिकेशनसाठी सर्व अपलोड केलेल्या बिल्ड फाइल्स"
 
@@ -119,10 +119,6 @@ msgstr "अॅप"
 msgid "App created"
 msgstr "अॅप तयार केले"
 
-#: src/routes/_authenticated/app/$appId.tsx:328
-msgid "App ID"
-msgstr "अॅप ID"
-
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:116
 #: src/routes/_authenticated/app/$appId.tsx:137
@@ -130,7 +126,7 @@ msgstr "अॅप ID"
 msgid "App not found"
 msgstr "अॅप सापडले नाही"
 
-#: src/routes/_authenticated/app/$appId.tsx:201
+#: src/routes/_authenticated/app/$appId.tsx:205
 msgid "Application ID"
 msgstr "अॅप्लिकेशन ID"
 
@@ -142,7 +138,7 @@ msgstr "तुम्हाला खरोखरच लॉग आउट कर�
 msgid "Asc"
 msgstr "चढता"
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Available Versions"
 msgstr "उपलब्ध आवृत्त्या"
 
@@ -154,8 +150,8 @@ msgstr "मागे"
 #: src/routes/_authenticated/app/$appId.tsx:112
 #: src/routes/_authenticated/app/$appId.tsx:126
 #: src/routes/_authenticated/app/$appId.tsx:137
-#: src/routes/_authenticated/app/$appId.tsx:162
-#: src/routes/_authenticated/app/$appId.tsx:320
+#: src/routes/_authenticated/app/$appId.tsx:166
+#: src/routes/_authenticated/app/$appId.tsx:329
 msgid "Back to apps"
 msgstr "अॅप्सकडे परत"
 
@@ -169,7 +165,7 @@ msgstr "मुख्यपृष्ठावर परत"
 msgid "Boost interest"
 msgstr "रुची वाढवा"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:678
 msgid "Build File (.zip)"
 msgstr "बिल्ड फाइल (.zip)"
 
@@ -181,8 +177,8 @@ msgstr "बिल्ड फाइल (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:575
-#: src/routes/_authenticated/app/$appId.tsx:716
+#: src/routes/_authenticated/app/$appId.tsx:589
+#: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Cancel"
 msgstr "रद्द करा"
 
@@ -210,7 +206,7 @@ msgstr "डावीकडून-उजवीकडे किंवा उजव
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "सिस्टम प्राधान्य, लाइट मोड, किंवा डार्क मोडमधून निवडा"
 
-#: ../../../lib/web/src/components/language-picker.tsx:167
+#: ../../../lib/web/src/components/language-picker.tsx:174
 msgid "Choose language"
 msgstr "भाषा निवडा"
 
@@ -257,11 +253,16 @@ msgstr "शोध बंद करा"
 msgid "Collapse sidebar"
 msgstr "साइडबार कोलॅप्स करा"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:93
+msgid "Comfortable"
+msgstr "आरामदायक"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:9
 msgid "Coming Soon!"
 msgstr "लवकरच येत आहे!"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:302
+#: ../../../lib/web/src/lib/preference-utils.ts:92
 msgid "Compact"
 msgstr "कॉम्पॅक्ट"
 
@@ -286,15 +287,19 @@ msgstr "सुरू ठेवा"
 msgid "Copy"
 msgstr "कॉपी करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:326
-msgid "Copy this ID and paste it in your Mochi server's Apps page to install."
-msgstr "इंस्टॉल करण्यासाठी हा ID कॉपी करा आणि तुमच्या Mochi सर्व्हरच्या Apps पानावर पेस्ट करा."
+#: src/routes/_authenticated/app/$appId.tsx:335
+msgid "Copy this link and paste it in your Mochi server's Apps page to install."
+msgstr "ही लिंक कॉपी करा आणि इन्स्टॉल करण्यासाठी आपल्या Mochi सर्व्हरच्या ॲप्स पृष्ठावर पेस्ट करा."
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Core identification for this application"
 msgstr "या अॅप्लिकेशनसाठी मुख्य ओळख"
 
-#: src/routes/_authenticated/app/$appId.tsx:538
+#: ../../../lib/web/src/features/document/document-page.tsx:81
+msgid "Could not load this document. Please try again later."
+msgstr "हा दस्तऐवज लोड करता आला नाही. कृपया नंतर पुन्हा प्रयत्न करा."
+
+#: src/routes/_authenticated/app/$appId.tsx:552
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "बिल्ड्स डिप्लॉय करण्यासाठी नवीन वातावरण (उदा. Beta, Staging) तयार करा."
 
@@ -311,11 +316,11 @@ msgstr "अॅप तयार करा"
 msgid "Create new app"
 msgstr "नवीन अॅप तयार करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:191
+#: src/routes/_authenticated/app/$appId.tsx:195
 msgid "Create track"
 msgstr "ट्रॅक तयार करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create Track"
 msgstr "ट्रॅक तयार करा"
 
@@ -323,12 +328,12 @@ msgstr "ट्रॅक तयार करा"
 msgid "Create your first app to get started"
 msgstr "सुरुवात करण्यासाठी तुमचे पहिले अॅप तयार करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:462
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Create your first release track to manage deployments"
 msgstr "डिप्लॉयमेंट्स व्यवस्थापित करण्यासाठी तुमचा पहिला रिलीज ट्रॅक तयार करा"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "तयार करत आहे..."
 
@@ -353,11 +358,11 @@ msgstr "डीफॉल्ट"
 msgid "Default AI account"
 msgstr "डीफॉल्ट AI खाते"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "डीफॉल्ट ट्रॅक \"{track}\" वर सेट केला"
 
-#: src/routes/_authenticated/app/$appId.tsx:517
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Delete track"
 msgstr "ट्रॅक हटवा"
 
@@ -365,7 +370,7 @@ msgstr "ट्रॅक हटवा"
 msgid "Desc"
 msgstr "उतरता"
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Details"
 msgstr "तपशील"
 
@@ -373,7 +378,7 @@ msgstr "तपशील"
 msgid "Details Panel"
 msgstr "तपशील पॅनेल"
 
-#: ../../../lib/web/src/components/language-picker.tsx:145
+#: ../../../lib/web/src/components/language-picker.tsx:152
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -392,7 +397,7 @@ msgstr "दिशा"
 msgid "Displays the mobile sidebar."
 msgstr "मोबाइल साइडबार दाखवते."
 
-#: src/routes/_authenticated/app/$appId.tsx:216
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Distribution"
 msgstr "वितरण"
 
@@ -404,13 +409,21 @@ msgstr "वितरण {distribution} वर सेट केले"
 msgid "Download"
 msgstr "डाउनलोड"
 
-#: src/routes/_authenticated/app/$appId.tsx:548
+#: ../../../lib/web/src/lib/preference-utils.ts:134
+msgid "Dyslexia-friendly"
+msgstr "डिस्लेक्सिया-अनुकूल"
+
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "e.g. Staging"
 msgstr "उदा. Staging"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
 msgstr "साइडबार विस्तृत करा"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:124
+msgid "Extra large"
+msgstr "अतिरिक्त मोठे"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:217
 msgid "Failed to add account"
@@ -420,11 +433,11 @@ msgstr "खाते जोडण्यात अयशस्वी"
 msgid "Failed to create app"
 msgstr "अ‍ॅप तयार करण्यात अयशस्वी"
 
-#: src/routes/_authenticated/app/$appId.tsx:404
+#: src/routes/_authenticated/app/$appId.tsx:418
 msgid "Failed to create track"
 msgstr "ट्रॅक तयार करण्यात अयशस्वी"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "ट्रॅक हटवण्यात अयशस्वी"
 
@@ -436,7 +449,7 @@ msgstr "खाते काढण्यात अयशस्वी"
 msgid "Failed to send verification code"
 msgstr "पडताळणी कोड पाठवण्यात अयशस्वी"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "डीफॉल्ट ट्रॅक सेट करण्यात अयशस्वी"
 
@@ -448,16 +461,16 @@ msgstr "श्रेणी अद्यतनित करण्यात अय
 msgid "Failed to update distribution"
 msgstr "वितरण अद्यतनित करण्यात अयशस्वी"
 
-#: src/routes/_authenticated/app/$appId.tsx:418
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "ट्रॅक अद्यतनित करण्यात अयशस्वी"
 
-#: src/routes/_authenticated/app/$appId.tsx:645
+#: src/routes/_authenticated/app/$appId.tsx:659
 msgid "Failed to upload version"
 msgstr "व्हर्जन अपलोड करण्यात अयशस्वी"
 
-#: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:208
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Fingerprint"
 msgstr "बोटाचा ठसा"
 
@@ -472,6 +485,14 @@ msgstr "शुक्रवार"
 #: ../../../lib/web/src/components/travelling-picker.tsx:149
 msgid "From"
 msgstr "पासून"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:91
+#: ../../../lib/web/src/lib/preference-utils.ts:101
+#: ../../../lib/web/src/lib/preference-utils.ts:112
+#: ../../../lib/web/src/lib/preference-utils.ts:120
+#: ../../../lib/web/src/lib/preference-utils.ts:131
+msgid "From theme"
+msgstr "थीममधून"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:307
 msgid "Full layout"
@@ -518,7 +539,7 @@ msgstr "मुख्यपृष्ठ"
 msgid "Hot"
 msgstr "हॉट"
 
-#: src/routes/_authenticated/app/$appId.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:203
 msgid "Identity"
 msgstr "ओळख"
 
@@ -526,7 +547,7 @@ msgstr "ओळख"
 msgid "Imperial"
 msgstr "इम्पीरियल"
 
-#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:568
 msgid "Initial Version"
 msgstr "प्रारंभिक व्हर्जन"
 
@@ -534,21 +555,22 @@ msgstr "प्रारंभिक व्हर्जन"
 msgid "Inset"
 msgstr "इनसेट"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install App"
 msgstr "अ‍ॅप इन्स्टॉल करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:677
+#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:339
+msgid "Install link:"
+msgstr "इंस्टॉल लिंक:"
+
+#: src/routes/_authenticated/app/$appId.tsx:691
 msgid "Install Locally"
 msgstr "स्थानिक पातळीवर इन्स्टॉल करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:323
+#: src/routes/_authenticated/app/$appId.tsx:332
 msgid "Install this application to your server"
 msgstr "हे अ‍ॅप्लिकेशन तुमच्या सर्व्हरवर इन्स्टॉल करा"
-
-#: src/routes/_authenticated/app/$appId.tsx:242
-msgid "Installation ID"
-msgstr "इन्स्टॉलेशन आयडी"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:39
 msgid "Interests"
@@ -558,6 +580,11 @@ msgstr "इंटरेस्ट्स"
 msgid "Invalid verification code"
 msgstr "अवैध पडताळणी कोड"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:105
+#: ../../../lib/web/src/lib/preference-utils.ts:123
+msgid "Large"
+msgstr "मोठे"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:273
 msgid "Layout"
 msgstr "लेआउट"
@@ -566,7 +593,7 @@ msgstr "लेआउट"
 msgid "Learn more"
 msgstr "अधिक जाणून घ्या"
 
-#: src/routes/_authenticated/app/$appId.tsx:560
+#: src/routes/_authenticated/app/$appId.tsx:574
 msgid "Leave empty"
 msgstr "रिकामे ठेवा"
 
@@ -588,6 +615,7 @@ msgid "Loading app..."
 msgstr "अ‍ॅप लोड करत आहे..."
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/features/document/document-page.tsx:87
 msgid "Loading…"
 msgstr "लोड करत आहे…"
 
@@ -617,7 +645,7 @@ msgstr "लॉग आउट करत आहे…"
 msgid "Make app publicly available"
 msgstr "अॅप सार्वजनिकरीत्या उपलब्ध करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:469
 msgid "Manage deployment environments and their versions"
 msgstr "डिप्लॉयमेंट एन्व्हायर्न्मेंट्स आणि त्यांच्या आवृत्त्या व्यवस्थापित करा"
 
@@ -626,11 +654,15 @@ msgstr "डिप्लॉयमेंट एन्व्हायर्न्�
 msgid "Mark all as read"
 msgstr "सर्व वाचलेले म्हणून चिन्हांकित करा"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:104
+msgid "Medium"
+msgstr "मध्यम"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
 msgid "Menu"
 msgstr "मेन्यू"
 
-#: src/routes/_authenticated/app/$appId.tsx:334
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Metadata and configuration"
 msgstr "मेटाडेटा आणि कॉन्फिगरेशन"
 
@@ -646,7 +678,7 @@ msgstr "सोमवार"
 msgid "My App"
 msgstr "माझा अॅप"
 
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:351
 msgid "N/A"
 msgstr "लागू नाही"
 
@@ -658,7 +690,7 @@ msgstr "नाव"
 msgid "New"
 msgstr "नवीन"
 
-#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:550
 msgid "New Release Track"
 msgstr "नवीन रिलीज ट्रॅक"
 
@@ -667,7 +699,7 @@ msgid "Next image"
 msgstr "पुढील इमेज"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "No"
 msgstr "नाही"
 
@@ -686,10 +718,6 @@ msgstr "कनेक्ट केलेले अकाउंट्स नाह
 #: ../../../lib/web/src/features/access/access-dialog.tsx:238
 msgid "No groups available"
 msgstr "गट उपलब्ध नाहीत"
-
-#: ../../../lib/web/src/components/language-picker.tsx:177
-msgid "No matches."
-msgstr "जुळणारे काही नाही."
 
 #: ../../../lib/web/src/components/place-picker.tsx:129
 msgid "No places found"
@@ -712,7 +740,7 @@ msgstr "टाइम झोन सापडला नाही."
 msgid "No topic record yet — try again after the next notification."
 msgstr "अद्याप टॉपिक रेकॉर्ड नाही — पुढील नोटिफिकेशननंतर पुन्हा प्रयत्न करा."
 
-#: src/routes/_authenticated/app/$appId.tsx:461
+#: src/routes/_authenticated/app/$appId.tsx:475
 msgid "No tracks"
 msgstr "ट्रॅक्स नाहीत"
 
@@ -720,17 +748,23 @@ msgstr "ट्रॅक्स नाहीत"
 msgid "No users found"
 msgstr "वापरकर्ते सापडले नाहीत"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:571
 msgid "No version"
 msgstr "आवृत्ती नाही"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
+#: src/routes/_authenticated/app/$appId.tsx:265
 msgid "No versions"
 msgstr "आवृत्त्या नाहीत"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
+#: ../../../lib/web/src/lib/preference-utils.ts:102
+#: ../../../lib/web/src/lib/preference-utils.ts:113
 msgid "None"
 msgstr "काहीही नाही"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:122
+msgid "Normal"
+msgstr "सामान्य"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -760,7 +794,7 @@ msgstr "नेव्हिगेशन मेन्यू उघडा"
 msgid "Open theme settings"
 msgstr "थीम सेटिंग्ज उघडा"
 
-#: src/routes/_authenticated/app/$appId.tsx:500
+#: src/routes/_authenticated/app/$appId.tsx:514
 msgid "Open track actions"
 msgstr "ट्रॅक क्रिया उघडा"
 
@@ -776,7 +810,7 @@ msgstr "मालक"
 msgid "Please enter an app name"
 msgstr "कृपया अॅपचे नाव प्रविष्ट करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:621
+#: src/routes/_authenticated/app/$appId.tsx:635
 msgid "Please select a file"
 msgstr "कृपया एक फाइल निवडा"
 
@@ -784,16 +818,18 @@ msgstr "कृपया एक फाइल निवडा"
 msgid "Previous image"
 msgstr "मागील इमेज"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: ../../../lib/web/src/components/server-documents-footer.tsx:24
+#: ../../../lib/web/src/features/document/document-page.tsx:41
+#: src/routes/_authenticated/app/$appId.tsx:353
 msgid "Privacy"
 msgstr "गोपनीयता"
 
-#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:211
 msgid "Privacy Policy"
 msgstr "गोपनीयता धोरण"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:212
+#: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Private"
 msgstr "खाजगी"
 
@@ -803,12 +839,12 @@ msgid "Profile"
 msgstr "प्रोफाइल"
 
 #: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:210
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Public"
 msgstr "सार्वजनिक"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:230
 msgid "Published"
 msgstr "प्रकाशित"
 
@@ -838,11 +874,11 @@ msgstr "सापेक्ष (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24 तासांच्या आत सापेक्ष, अन्यथा निरपेक्ष"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:468
 msgid "Release Tracks"
 msgstr "रिलीज ट्रॅक्स"
 
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Release tracks currently active"
 msgstr "सध्या सक्रिय असलेले रिलीज ट्रॅक्स"
 
@@ -873,7 +909,7 @@ msgid "Reset all settings to default values"
 msgstr "सर्व सेटिंग्ज डीफॉल्ट मूल्यांवर रीसेट करा"
 
 #: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:231
 msgid "Restricted"
 msgstr "प्रतिबंधित"
 
@@ -913,10 +949,6 @@ msgstr "वापरकर्ते शोधा"
 msgid "Search..."
 msgstr "शोधा..."
 
-#: ../../../lib/web/src/components/language-picker.tsx:175
-msgid "Search…"
-msgstr "शोधा…"
-
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
 #: ../../../lib/web/src/components/search-entity-page.tsx:149
 #: ../../../lib/web/src/features/access/access-dialog.tsx:199
@@ -955,11 +987,20 @@ msgstr "साइट दिशा निवडा"
 msgid "Select theme preference"
 msgstr "थीम प्राधान्य निवडा"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:133
+msgid "Serif"
+msgstr "सेरिफ"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:16
+#: ../../../lib/web/src/features/document/document-page.tsx:37
+msgid "Server rules"
+msgstr "सर्व्हर नियम"
+
 #: ../../../lib/web/src/lib/api-client.ts:224
 msgid "Session expired"
 msgstr "सेशन कालबाह्य झाले"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:524
 msgid "Set as default"
 msgstr "डीफॉल्ट म्हणून सेट करा"
 
@@ -973,11 +1014,11 @@ msgstr "मूळ आणि गंतव्य सेट करा"
 msgid "Settings"
 msgstr "सेटिंग्ज"
 
-#: src/routes/_authenticated/app/$appId.tsx:236
-msgid "Share this ID to allow others to install this app"
-msgstr "इतरांना हे अॅप इन्स्टॉल करण्याची परवानगी देण्यासाठी हा ID शेअर करा"
+#: src/routes/_authenticated/app/$appId.tsx:240
+msgid "Share this link to allow others to install this app"
+msgstr "इतरांना हे ॲप इन्स्टॉल करण्याची परवानगी देण्यासाठी ही लिंक शेअर करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:235
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Sharing"
 msgstr "शेअरिंग"
 
@@ -999,6 +1040,15 @@ msgstr "साइन आउट करत आहे..."
 msgid "Skip to Main"
 msgstr "मुख्यवर जा"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:103
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+msgid "Small"
+msgstr "लहान"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:94
+msgid "Spacious"
+msgstr "विस्तृत"
+
 #: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Stay tuned though!"
 msgstr "मात्र संपर्कात रहा!"
@@ -1013,6 +1063,7 @@ msgstr "रविवार"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
 msgstr "सिस्टम"
 
@@ -1023,6 +1074,11 @@ msgstr "टॅग"
 #: ../../../lib/web/src/components/layout/team-switcher.tsx:60
 msgid "Teams/Apps"
 msgstr "टीम्स/अॅप्स"
+
+#: ../../../lib/web/src/components/server-documents-footer.tsx:20
+#: ../../../lib/web/src/features/document/document-page.tsx:39
+msgid "Terms and conditions"
+msgstr "अटी आणि शर्ती"
 
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
@@ -1063,19 +1119,19 @@ msgstr "थीम टॉगल करा"
 msgid "Top"
 msgstr "वर"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "ट्रॅक \"{track}\" हटवला"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "ट्रॅक \"{track}\" {version} वर अद्ययावत केला"
 
-#: src/routes/_authenticated/app/$appId.tsx:398
+#: src/routes/_authenticated/app/$appId.tsx:412
 msgid "Track created"
 msgstr "ट्रॅक तयार केला"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:558
 msgid "Track Name"
 msgstr "ट्रॅक नाव"
 
@@ -1131,31 +1187,31 @@ msgstr "युनायटेड स्टेट्स"
 msgid "Unverified"
 msgstr "असत्यापित"
 
-#: src/routes/_authenticated/app/$appId.tsx:693
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Update Tracks"
 msgstr "ट्रॅक्स अपडेट करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:657
+#: src/routes/_authenticated/app/$appId.tsx:671
 msgid "Upload a .zip build file for your application."
 msgstr "तुमच्या अॅप्लिकेशनसाठी .zip बिल्ड फाइल अपलोड करा."
 
-#: src/routes/_authenticated/app/$appId.tsx:185
+#: src/routes/_authenticated/app/$appId.tsx:189
 msgid "Upload new version"
 msgstr "नवीन आवृत्ती अपलोड करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:669
 msgid "Upload New Version"
 msgstr "नवीन आवृत्ती अपलोड करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Upload Version"
 msgstr "आवृत्ती अपलोड करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Upload your first build to get started"
 msgstr "सुरू करण्यासाठी तुमची पहिली बिल्ड अपलोड करा"
 
-#: src/routes/_authenticated/app/$appId.tsx:719
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "Uploading..."
 msgstr "अपलोड करत आहे..."
 
@@ -1163,9 +1219,9 @@ msgstr "अपलोड करत आहे..."
 msgid "User"
 msgstr "वापरकर्ता"
 
-#: src/routes/_authenticated/app/$appId.tsx:240
-msgid "Users can install this application by pasting this identifier into their Apps management page."
-msgstr "वापरकर्ते हा ओळखकर्ता त्यांच्या अॅप्स व्यवस्थापन पृष्ठावर पेस्ट करून हे अॅप्लिकेशन इन्स्टॉल करू शकतात."
+#: src/routes/_authenticated/app/$appId.tsx:244
+msgid "Users can install this application by pasting this link into their Apps page."
+msgstr "वापरकर्ते ही लिंक त्यांच्या ॲप्स पृष्ठावर पेस्ट करून हे ॲप्लिकेशन इन्स्टॉल करू शकतात."
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:68
 msgid "Verification code"
@@ -1188,15 +1244,15 @@ msgid "Verify email address"
 msgstr "ईमेल पत्ता पडताळा"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version {0} has been created."
 msgstr "आवृत्ती {0} तयार केली आहे."
 
-#: src/routes/_authenticated/app/$appId.tsx:251
+#: src/routes/_authenticated/app/$appId.tsx:260
 msgid "Version History"
 msgstr "आवृत्ती इतिहास"
 
-#: src/routes/_authenticated/app/$appId.tsx:632
+#: src/routes/_authenticated/app/$appId.tsx:646
 msgid "Version uploaded"
 msgstr "आवृत्ती अपलोड केली"
 
@@ -1225,10 +1281,10 @@ msgid "Wednesday"
 msgstr "बुधवार"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:699
 msgid "Yes"
 msgstr "होय"
 
-#: src/routes/_authenticated/app/$appId.tsx:686
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes, force"
 msgstr "होय, फोर्स करा"
