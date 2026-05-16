@@ -989,7 +989,7 @@ msgstr "Filannoo akeeka filadhu"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
-msgstr ""
+msgstr "Serif"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37

@@ -656,7 +656,7 @@ msgstr "Merk alles as gelees"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:104
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
 msgid "Menu"

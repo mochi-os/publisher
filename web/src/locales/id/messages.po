@@ -764,7 +764,7 @@ msgstr "Tidak ada"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:122
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
@@ -989,7 +989,7 @@ msgstr "Pilih preferensi tema"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
-msgstr ""
+msgstr "Serif"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
