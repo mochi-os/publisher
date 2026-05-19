@@ -592,7 +592,7 @@ function TracksTab({
               onClick={handleCreateTrack}
               disabled={!newTrackName || createTrackMutation.isPending}
             >
-              {createTrackMutation.isPending ? t`Creating...` : t`Create Track`}
+              {createTrackMutation.isPending ? t`Creating...` : t`Create track`}
             </Button>
           </ResponsiveDialogFooter>
         </ResponsiveDialogContent>
@@ -730,7 +730,7 @@ function UploadVersionDialog({
               <Trans>Cancel</Trans>
             </Button>
             <Button type='submit' disabled={uploadMutation.isPending}>
-              {uploadMutation.isPending ? t`Uploading...` : t`Upload Version`}
+              {uploadMutation.isPending ? t`Uploading...` : t`Upload version`}
             </Button>
           </ResponsiveDialogFooter>
         </form>
