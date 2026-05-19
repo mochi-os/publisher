@@ -29,7 +29,7 @@ msgstr "24 שעות"
 msgid "Absolute (date and time)"
 msgstr "מוחלט (תאריך ושעה)"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+#: ../../../lib/web/src/features/errors/forbidden.tsx:13
 msgid "Access Forbidden"
 msgstr "הגישה אסורה"
 
@@ -56,6 +56,10 @@ msgstr "החשבון אומת"
 #: src/routes/_authenticated/app/$appId.tsx:493
 msgid "Active version"
 msgstr "גרסה פעילה"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:193
+msgid "Add"
+msgstr "הוספה"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
@@ -155,11 +159,11 @@ msgstr "חזור"
 msgid "Back to apps"
 msgstr "חזור לאפליקציות"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:21
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
-msgid "Back to Home"
-msgstr "חזור לדף הבית"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:23
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:23
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:23
+msgid "Back to home"
+msgstr ""
 
 #: ../../../lib/web/src/components/post-tags.tsx:160
 msgid "Boost interest"
@@ -242,8 +246,8 @@ msgid "Close navigation"
 msgstr "סגור ניווט"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:254
-msgid "Close Panel"
-msgstr "סגור פאנל"
+msgid "Close panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/header-search.tsx:51
 msgid "Close search"
@@ -317,12 +321,9 @@ msgid "Create new app"
 msgstr "צור אפליקציה חדשה"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create track"
 msgstr "צור Track"
-
-#: src/routes/_authenticated/app/$appId.tsx:595
-msgid "Create Track"
-msgstr "יצירת ערוץ"
 
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
@@ -498,11 +499,11 @@ msgstr "מערכת נושא"
 msgid "Full layout"
 msgstr "פריסה מלאה"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:19
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
-msgid "Go Back"
-msgstr "חזור"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Go back"
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:75
 msgid "Go to first page"
@@ -515,6 +516,10 @@ msgstr "עבור לדף האחרון"
 #: ../../../lib/web/src/components/data-table/pagination.tsx:112
 msgid "Go to next page"
 msgstr "עבור לדף הבא"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:99
+msgid "Go to page {pageNumber}"
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:84
 msgid "Go to previous page"
@@ -772,7 +777,7 @@ msgstr "רגיל"
 msgid "Notifications"
 msgstr "התראות"
 
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:13
 msgid "Oops! Page Not Found!"
 msgstr "אופס! הדף לא נמצא!"
 
@@ -901,6 +906,7 @@ msgid "Remove interest"
 msgstr "הסר עניין"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
+#: ../../../lib/web/src/components/data-table/toolbar.tsx:78
 msgid "Reset"
 msgstr "אפס"
 
@@ -986,6 +992,10 @@ msgstr "בחר כיוון אתר"
 #: ../../../lib/web/src/components/config-drawer.tsx:189
 msgid "Select theme preference"
 msgstr "בחר העדפת ערכת נושא"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:95
+msgid "Send again"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
@@ -1102,10 +1112,13 @@ msgid "Toggle columns"
 msgstr "החלף עמודות"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:227
-msgid "Toggle Right Panel"
-msgstr "החלף פאנל ימין"
+msgid "Toggle right panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:312
+msgid "Toggle sidebar"
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/sidebar.tsx:324
 #: ../../../lib/web/src/components/ui/sidebar.tsx:327
 msgid "Toggle Sidebar"
@@ -1146,7 +1159,7 @@ msgstr "נסה להתאים את מונחי החיפוש שלך"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
 msgid "Try again"
 msgstr "נסה שוב"
 
@@ -1175,7 +1188,7 @@ msgstr "לא ניתן להפנות להתחברות. נסה שוב."
 msgid "Unassigned"
 msgstr "לא משויך"
 
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:13
 msgid "Unauthorized Access"
 msgstr "גישה לא מורשית"
 
@@ -1204,8 +1217,8 @@ msgid "Upload New Version"
 msgstr "העלה גרסה חדשה"
 
 #: src/routes/_authenticated/app/$appId.tsx:733
-msgid "Upload Version"
-msgstr "העלאת גרסה"
+msgid "Upload version"
+msgstr ""
 
 #: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Upload your first build to get started"
@@ -1236,6 +1249,7 @@ msgid "Verification failed"
 msgstr "האימות נכשל"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:106
 msgid "Verify"
 msgstr "אמת"
 
@@ -1268,11 +1282,11 @@ msgstr "הצג הכל"
 msgid "View all notifications"
 msgstr "הצג את כל ההתראות"
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
 msgid "We'll be back online shortly."
 msgstr "נחזור להיות מקוונים בקרוב."
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:10
 msgid "Website is under maintenance!"
 msgstr "האתר בתחזוקה!"
 

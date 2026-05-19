@@ -29,7 +29,7 @@ msgstr "24 小时"
 msgid "Absolute (date and time)"
 msgstr "绝对(日期和时间)"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:12
+#: ../../../lib/web/src/features/errors/forbidden.tsx:13
 msgid "Access Forbidden"
 msgstr "禁止访问"
 
@@ -56,6 +56,10 @@ msgstr "账户已验证"
 #: src/routes/_authenticated/app/$appId.tsx:493
 msgid "Active version"
 msgstr "当前版本"
+
+#: ../../../lib/web/src/features/accounts/account-add.tsx:193
+msgid "Add"
+msgstr "添加"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx:117
 msgid "Add a new account"
@@ -155,11 +159,11 @@ msgstr "返回"
 msgid "Back to apps"
 msgstr "返回应用"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:21
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
-msgid "Back to Home"
-msgstr "返回首页"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:23
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:23
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:23
+msgid "Back to home"
+msgstr ""
 
 #: ../../../lib/web/src/components/post-tags.tsx:160
 msgid "Boost interest"
@@ -242,8 +246,8 @@ msgid "Close navigation"
 msgstr "关闭导航"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:254
-msgid "Close Panel"
-msgstr "关闭面板"
+msgid "Close panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/header-search.tsx:51
 msgid "Close search"
@@ -317,12 +321,9 @@ msgid "Create new app"
 msgstr "创建新应用"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create track"
 msgstr "创建发布通道"
-
-#: src/routes/_authenticated/app/$appId.tsx:595
-msgid "Create Track"
-msgstr "创建通道"
 
 #: src/features/apps/index.tsx:78
 msgid "Create your first app to get started"
@@ -498,11 +499,11 @@ msgstr "来自主题"
 msgid "Full layout"
 msgstr "完整布局"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:19
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:19
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:19
-msgid "Go Back"
-msgstr "返回"
+#: ../../../lib/web/src/features/errors/forbidden.tsx:21
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+msgid "Go back"
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:75
 msgid "Go to first page"
@@ -515,6 +516,10 @@ msgstr "跳转到最后一页"
 #: ../../../lib/web/src/components/data-table/pagination.tsx:112
 msgid "Go to next page"
 msgstr "跳转到下一页"
+
+#: ../../../lib/web/src/components/data-table/pagination.tsx:99
+msgid "Go to page {pageNumber}"
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/pagination.tsx:84
 msgid "Go to previous page"
@@ -772,7 +777,7 @@ msgstr "标准"
 msgid "Notifications"
 msgstr "通知"
 
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:12
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:13
 msgid "Oops! Page Not Found!"
 msgstr "抱歉!页面未找到!"
 
@@ -901,6 +906,7 @@ msgid "Remove interest"
 msgstr "移除兴趣"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
+#: ../../../lib/web/src/components/data-table/toolbar.tsx:78
 msgid "Reset"
 msgstr "重置"
 
@@ -986,6 +992,10 @@ msgstr "选择站点方向"
 #: ../../../lib/web/src/components/config-drawer.tsx:189
 msgid "Select theme preference"
 msgstr "选择主题偏好"
+
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:95
+msgid "Send again"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
@@ -1102,10 +1112,13 @@ msgid "Toggle columns"
 msgstr "切换列"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx:227
-msgid "Toggle Right Panel"
-msgstr "切换右侧面板"
+msgid "Toggle right panel"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx:312
+msgid "Toggle sidebar"
+msgstr ""
+
 #: ../../../lib/web/src/components/ui/sidebar.tsx:324
 #: ../../../lib/web/src/components/ui/sidebar.tsx:327
 msgid "Toggle Sidebar"
@@ -1146,7 +1159,7 @@ msgstr "尝试调整您的搜索词"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:125
 #: ../../../lib/web/src/features/errors/general-error.tsx:165
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:15
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
 msgid "Try again"
 msgstr "重试"
 
@@ -1175,7 +1188,7 @@ msgstr "无法重定向到登录页面。请重试。"
 msgid "Unassigned"
 msgstr "未分配"
 
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:12
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:13
 msgid "Unauthorized Access"
 msgstr "未授权访问"
 
@@ -1204,8 +1217,8 @@ msgid "Upload New Version"
 msgstr "上传新版本"
 
 #: src/routes/_authenticated/app/$appId.tsx:733
-msgid "Upload Version"
-msgstr "上传版本"
+msgid "Upload version"
+msgstr ""
 
 #: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Upload your first build to get started"
@@ -1236,6 +1249,7 @@ msgid "Verification failed"
 msgstr "验证失败"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:106
 msgid "Verify"
 msgstr "验证"
 
@@ -1268,11 +1282,11 @@ msgstr "查看全部"
 msgid "View all notifications"
 msgstr "查看所有通知"
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:12
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
 msgid "We'll be back online shortly."
 msgstr "我们将很快恢复在线。"
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:9
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:10
 msgid "Website is under maintenance!"
 msgstr "网站正在维护中!"
 
