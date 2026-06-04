@@ -2,7 +2,7 @@
 // Copyright Alistair Cunningham 2025-2026
 
 {
-	"version": "2.30",
+	"version": "2.31",
 	"label": "app.name",
 	"paths": ["publisher"],
 	"services": ["publisher"],
@@ -42,9 +42,5 @@
 		"information": {"function": "event_information", "anonymous": true, "services": ["apps"]},
 		"get": {"function": "event_get", "anonymous": true, "services": ["apps"]},
 		"version": {"function": "event_version", "anonymous": true, "services": ["apps"]}
-	},
-
-	"functions": {
-		"tracks": {"function": "function_tracks"}
 	}
 }

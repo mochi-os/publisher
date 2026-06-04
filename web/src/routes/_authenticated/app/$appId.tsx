@@ -542,7 +542,7 @@ function TracksTab({
         setShowAddTrack(open)
         if (!open) {
           setNewTrackName('')
-          setNewTrackVersion('')
+          setNewTrackVersion('__none__')
         }
       }}>
         <ResponsiveDialogContent>

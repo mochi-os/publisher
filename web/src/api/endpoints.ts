@@ -1,10 +1,4 @@
 const endpoints = {
-  auth: {
-    code: '/_/code',
-    verify: '/_/verify',
-    identity: '/_/identity',
-    logout: '/_/logout',
-  },
   apps: {
     list: '-/list',
     get: (id: string) => `-/view?app=${id}`,

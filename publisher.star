@@ -1,6 +1,21 @@
 # Mochi App publisher app
 # Copyright Alistair Cunningham 2025-2026
 
+# Compare two dotted version strings numerically (e.g. "1.11" > "1.9"), mirroring
+# the core version_greater() comparator, which Starlark cannot call directly.
+# Non-numeric segments count as 0.
+def version_greater(a, b):
+	pa = a.split(".")
+	pb = b.split(".")
+	for i in range(max(len(pa), len(pb))):
+		na = int(pa[i]) if i < len(pa) and pa[i].isdigit() else 0
+		nb = int(pb[i]) if i < len(pb) and pb[i].isdigit() else 0
+		if na > nb:
+			return True
+		if na < nb:
+			return False
+	return False
+
 # Create database
 def database_create():
 	mochi.db.execute("create table apps ( id text not null primary key, name text not null, privacy text not null default 'public', default_track text not null default 'Production', distribution text not null default 'published' )")
@@ -84,7 +99,7 @@ def action_create(a):
 		a.error.label(500, "errors.failed_to_create_app_entity")
 		return
 
-	mochi.db.execute("replace into apps ( id, name, privacy, distribution ) values ( ?, ?, ?, ? )", id, name, privacy, distribution)
+	mochi.db.execute("insert into apps ( id, name, privacy, distribution ) values ( ?, ?, ?, ? )", id, name, privacy, distribution)
 
 	# Create default tracks
 	mochi.db.execute("insert into tracks ( app, track, version ) values ( ?, 'Production', '' )", id)
@@ -122,8 +137,13 @@ def action_version_create(a):
 			a.error.label(400, "errors.failed_to_read_app_info_from_archive")
 			return
 
-		# Get the latest existing version
-		existing = mochi.db.row("select file from versions where app=? order by version desc limit 1", app["id"])
+		# Get the semantically-latest existing version. The version column is text,
+		# so sorting in SQL would order lexically ("0.9" after "0.10"); pick the max
+		# with the numeric comparator instead.
+		existing = None
+		for row in mochi.db.rows("select version, file from versions where app=?", app["id"]):
+			if not existing or version_greater(row["version"], existing["version"]):
+				existing = row
 		if existing and existing["file"] and mochi.file.exists(existing["file"]):
 			old_info = mochi.app.package.get(existing["file"])
 			if old_info and old_info.get("paths"):
@@ -402,14 +422,3 @@ def action_distribution_set(a):
 
 	mochi.db.execute("update apps set distribution=? where id=?", distribution, id)
 	return {"data": {"distribution": distribution}}
-
-# Service function: Get tracks for an app (for local calls from other apps)
-def function_tracks(context, app_id):
-	a = mochi.db.row("select * from apps where id=?", app_id)
-	if not a:
-		return None
-	tracks = mochi.db.rows("select track, version from tracks where app=?", app_id)
-	return {
-		"default_track": a["default_track"],
-		"tracks": {t["track"]: t["version"] for t in tracks}
-	}
