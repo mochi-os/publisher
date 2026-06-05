@@ -114,6 +114,14 @@ msgstr "Tot"
 msgid "All uploaded build files for this application"
 msgstr "Tots els fitxers de Build pujats per a aquesta aplicació"
 
+#: ../../../lib/web/src/lib/api-client.ts:189
+msgid "An error occurred"
+msgstr "S'ha produït un error"
+
+#: ../../../lib/web/src/lib/api-client.ts:252
+msgid "An unexpected error occurred"
+msgstr "S'ha produït un error inesperat"
+
 #: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
@@ -141,6 +149,10 @@ msgstr "Segur que vols tancar la sessió? Hauràs de tornar a iniciar sessió pe
 #: ../../../lib/web/src/components/data-table/column-header.tsx:56
 msgid "Asc"
 msgstr "Asc."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:312
+msgid "Authenticator code"
+msgstr "Codi de l'autenticador"
 
 #: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Available Versions"
@@ -174,6 +186,7 @@ msgid "Build File (.zip)"
 msgstr "Fitxer de Build (.zip)"
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
+#: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
@@ -186,11 +199,11 @@ msgstr "Fitxer de Build (.zip)"
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "Categoria d'aquesta notificació"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "Canvia la categoria de notificació"
 
@@ -287,6 +300,10 @@ msgstr "Informació i detalls de context."
 msgid "Continue"
 msgstr "Continua"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:349
+msgid "Continue with {label}"
+msgstr "Continua amb {label}"
+
 #: ../../../lib/web/src/components/ui/copy-button.tsx:60
 msgid "Copy"
 msgstr "Copia"
@@ -302,6 +319,18 @@ msgstr "Identificació principal d'aquesta aplicació"
 #: ../../../lib/web/src/features/document/document-page.tsx:81
 msgid "Could not load this document. Please try again later."
 msgstr "No s'ha pogut carregar aquest document. Torna-ho a provar més tard."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:181
+msgid "Couldn't send the code. Please try again."
+msgstr "No s'ha pogut enviar el codi. Torneu-ho a provar."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:133
+msgid "Couldn't start re-authentication. Please try again."
+msgstr "No s'ha pogut iniciar la reautenticació. Torneu-ho a provar."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:218
+msgid "Couldn't verify with that account. Please try again."
+msgstr "No s'ha pogut verificar amb aquest compte. Torneu-ho a provar."
 
 #: src/routes/_authenticated/app/$appId.tsx:552
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
@@ -367,6 +396,10 @@ msgstr "Track per defecte establert a «{track}»"
 msgid "Delete track"
 msgstr "Suprimeix la Track"
 
+#: ../../../lib/web/src/components/restore-banner.tsx:90
+msgid "Delete your account on the old server"
+msgstr "Suprimiu el compte a l'antic servidor"
+
 #: ../../../lib/web/src/components/data-table/column-header.tsx:60
 msgid "Desc"
 msgstr "Desc."
@@ -394,6 +427,10 @@ msgstr "Detecta des del navegador"
 msgid "Direction"
 msgstr "Direcció"
 
+#: ../../../lib/web/src/components/restore-banner.tsx:73
+msgid "Dismiss"
+msgstr "Descarta"
+
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
 msgstr "Mostra la barra lateral mòbil."
@@ -417,6 +454,18 @@ msgstr "Apte per a la dislèxia"
 #: src/routes/_authenticated/app/$appId.tsx:562
 msgid "e.g. Staging"
 msgstr "p. ex. Staging"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:286
+msgid "Email code"
+msgstr "Codi per correu"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:296
+msgid "Enter the code from your email"
+msgstr "Introduïu el codi del vostre correu electrònic"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:321
+msgid "Enter your authenticator code"
+msgstr "Introduïu el codi de l'autenticador"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
@@ -454,7 +503,7 @@ msgstr "No s'ha pogut enviar el codi de verificació"
 msgid "Failed to set default track"
 msgstr "No s'ha pogut establir la pista per defecte"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "No s'ha pogut actualitzar la categoria"
 
@@ -474,6 +523,10 @@ msgstr "No s'ha pogut pujar la versió"
 #: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Fingerprint"
 msgstr "Empremta"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:79
+msgid "Finish moving your account"
+msgstr "Acabeu de moure el compte"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -691,6 +744,10 @@ msgstr "N/D"
 msgid "Name"
 msgstr "Nom"
 
+#: ../../../lib/web/src/lib/api-client.ts:297
+msgid "Network error"
+msgstr "Error de xarxa"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
 msgstr "Nou"
@@ -741,7 +798,7 @@ msgstr "No s'ha trobat cap resultat."
 msgid "No time zone found."
 msgstr "No s'ha trobat cap fus horari."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "Encara no hi ha cap registre de tema; torna-ho a provar després de la pròxima notificació."
 
@@ -811,6 +868,22 @@ msgstr "Altres"
 msgid "Owner"
 msgstr "Propietari"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:331
+msgid "Passkey"
+msgstr "Clau d'accés"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:206
+msgid "Passkey verification failed. Please try again."
+msgstr "Ha fallat la verificació de la clau d'accés. Torneu-ho a provar."
+
+#: ../../../lib/web/src/components/restore-banner.tsx:126
+msgid "Passkeys"
+msgstr "Claus d'accés"
+
+#: ../../../lib/web/src/lib/api-client.ts:298
+msgid "Please check your internet connection and try again."
+msgstr "Comproveu la connexió a Internet i torneu-ho a provar."
+
 #: src/features/apps/index.tsx:143
 msgid "Please enter an app name"
 msgstr "Introdueix un nom d'aplicació"
@@ -858,6 +931,14 @@ msgstr "Publicat"
 msgid "Publisher"
 msgstr "Editor"
 
+#: ../../../lib/web/src/components/restore-banner.tsx:98
+msgid "Re-link your accounts on this server"
+msgstr "Torneu a vincular els comptes en aquest servidor"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:120
+msgid "Re-register your passkeys on this server"
+msgstr "Torna a registrar les teves claus d'accés en aquest servidor"
+
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
 msgid "Recommended"
@@ -904,6 +985,10 @@ msgstr "Vols eliminar l'accés?"
 #: ../../../lib/web/src/components/post-tags.tsx:190
 msgid "Remove interest"
 msgstr "Elimina l'interès"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:364
+msgid "Resend email"
+msgstr "Torna a enviar el correu"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
 #: ../../../lib/web/src/components/data-table/toolbar.tsx:78
@@ -997,9 +1082,18 @@ msgstr "Selecciona la preferència de tema"
 msgid "Send again"
 msgstr "Torna a enviar"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:304
+msgid "Send email"
+msgstr "Envia el correu"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
 msgstr "Serif"
+
+#: ../../../lib/web/src/lib/api-client.ts:256
+#: ../../../lib/web/src/lib/api-client.ts:281
+msgid "Server error"
+msgstr "Error del servidor"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
@@ -1090,6 +1184,10 @@ msgstr "Equips/Aplicacions"
 msgid "Terms and conditions"
 msgstr "Termes i condicions"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:192
+msgid "That code is incorrect or has expired."
+msgstr "Aquest codi és incorrecte o ha caducat."
+
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
 msgid "The requested app could not be found."
@@ -1179,12 +1277,16 @@ msgstr "Escriu per cercar usuaris"
 msgid "Type to search..."
 msgstr "Escriu per cercar..."
 
+#: ../../../lib/web/src/lib/api-client.ts:277
+msgid "Unable to connect to remote server"
+msgstr "No s'ha pogut connectar amb el servidor remot"
+
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94
 msgid "Unable to redirect to login. Please try again."
 msgstr "No s'ha pogut redirigir a l'inici de sessió. Torna-ho a provar."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "Sense assignar"
 
@@ -1228,6 +1330,10 @@ msgstr "Puja el teu primer build per començar"
 msgid "Uploading..."
 msgstr "Pujant..."
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:335
+msgid "Use your passkey"
+msgstr "Utilitzeu la vostra clau d'accés"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
 msgstr "Usuari"
@@ -1248,6 +1354,7 @@ msgstr "Codi de verificació enviat"
 msgid "Verification failed"
 msgstr "La verificació ha fallat"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:385
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:106
 msgid "Verify"
@@ -1269,6 +1376,10 @@ msgstr "Historial de versions"
 #: src/routes/_authenticated/app/$appId.tsx:646
 msgid "Version uploaded"
 msgstr "Versió pujada"
+
+#: ../../../lib/web/src/components/attachment-gallery.tsx:63
+msgid "Video thumbnail"
+msgstr "Miniatura del vídeo"
 
 #: ../../../lib/web/src/components/data-table/view-options.tsx:30
 msgid "View"
@@ -1302,3 +1413,7 @@ msgstr "Sí"
 #: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes, force"
 msgstr "Sí, força"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:82
+msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
+msgstr "El vostre compte s'ha mogut aquí des de {source}. Fins que no l'elimineu d'allà, els missatges i les notificacions poden arribar als dos servidors, part del vostre contingut es continuarà servint des de l'antic servidor i els seguidors poden trigar uns minuts a trobar-vos aquí."

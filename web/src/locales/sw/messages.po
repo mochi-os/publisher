@@ -114,6 +114,14 @@ msgstr "Vyote"
 msgid "All uploaded build files for this application"
 msgstr "Faili zote zilizopakiwa za ujenzi wa programu hii"
 
+#: ../../../lib/web/src/lib/api-client.ts:189
+msgid "An error occurred"
+msgstr "Hitilafu imetokea"
+
+#: ../../../lib/web/src/lib/api-client.ts:252
+msgid "An unexpected error occurred"
+msgstr "Hitilafu isiyotarajiwa imetokea"
+
 #: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
@@ -141,6 +149,10 @@ msgstr "Una uhakika unataka kuondoka? Utahitaji kuingia tena kufikia akaunti yak
 #: ../../../lib/web/src/components/data-table/column-header.tsx:56
 msgid "Asc"
 msgstr "Pandisha"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:312
+msgid "Authenticator code"
+msgstr "Msimbo wa mthibitishaji"
 
 #: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Available Versions"
@@ -174,6 +186,7 @@ msgid "Build File (.zip)"
 msgstr "Faili la build (.zip)"
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
+#: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
@@ -186,11 +199,11 @@ msgstr "Faili la build (.zip)"
 msgid "Cancel"
 msgstr "Ghairi"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "Kategoria ya arifa hii"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "Badilisha kategoria ya arifa"
 
@@ -287,6 +300,10 @@ msgstr "Maelezo ya muktadha na undani."
 msgid "Continue"
 msgstr "Endelea"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:349
+msgid "Continue with {label}"
+msgstr "Endelea na {label}"
+
 #: ../../../lib/web/src/components/ui/copy-button.tsx:60
 msgid "Copy"
 msgstr "Nakili"
@@ -302,6 +319,18 @@ msgstr "Utambulisho wa msingi wa programu hii"
 #: ../../../lib/web/src/features/document/document-page.tsx:81
 msgid "Could not load this document. Please try again later."
 msgstr "Haikuweza kupakia hati hii. Tafadhali jaribu tena baadaye."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:181
+msgid "Couldn't send the code. Please try again."
+msgstr "Imeshindwa kutuma msimbo. Tafadhali jaribu tena."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:133
+msgid "Couldn't start re-authentication. Please try again."
+msgstr "Imeshindwa kuanza uthibitishaji upya. Tafadhali jaribu tena."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:218
+msgid "Couldn't verify with that account. Please try again."
+msgstr "Imeshindwa kuthibitisha kwa akaunti hiyo. Tafadhali jaribu tena."
 
 #: src/routes/_authenticated/app/$appId.tsx:552
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
@@ -367,6 +396,10 @@ msgstr "Track chaguo-msingi imewekwa kuwa \"{track}\""
 msgid "Delete track"
 msgstr "Futa track"
 
+#: ../../../lib/web/src/components/restore-banner.tsx:90
+msgid "Delete your account on the old server"
+msgstr "Futa akaunti yako kwenye seva ya zamani"
+
 #: ../../../lib/web/src/components/data-table/column-header.tsx:60
 msgid "Desc"
 msgstr "Shusha"
@@ -394,6 +427,10 @@ msgstr "Tambua kutoka kwa kivinjari cha wavuti"
 msgid "Direction"
 msgstr "Mwelekeo"
 
+#: ../../../lib/web/src/components/restore-banner.tsx:73
+msgid "Dismiss"
+msgstr "Ondoa"
+
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
 msgstr "Huonyesha utepe wa simu."
@@ -417,6 +454,18 @@ msgstr "Rahisi kwa dyslexia"
 #: src/routes/_authenticated/app/$appId.tsx:562
 msgid "e.g. Staging"
 msgstr "k.m. Staging"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:286
+msgid "Email code"
+msgstr "Msimbo wa barua pepe"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:296
+msgid "Enter the code from your email"
+msgstr "Weka msimbo kutoka kwa barua pepe yako"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:321
+msgid "Enter your authenticator code"
+msgstr "Weka msimbo wako wa kithibitishaji"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
@@ -454,7 +503,7 @@ msgstr "Imeshindwa kutuma msimbo wa uthibitisho"
 msgid "Failed to set default track"
 msgstr "Imeshindwa kuweka wimbo chaguo-msingi"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "Imeshindwa kusasisha kategoria"
 
@@ -474,6 +523,10 @@ msgstr "Imeshindwa kupakia toleo"
 #: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Fingerprint"
 msgstr "Alama ya kidole"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:79
+msgid "Finish moving your account"
+msgstr "Maliza kuhamisha akaunti yako"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -691,6 +744,10 @@ msgstr "Haitumiki"
 msgid "Name"
 msgstr "Jina"
 
+#: ../../../lib/web/src/lib/api-client.ts:297
+msgid "Network error"
+msgstr "Hitilafu ya mtandao"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
 msgstr "Mpya"
@@ -741,7 +798,7 @@ msgstr "Hakuna matokeo yaliyopatikana."
 msgid "No time zone found."
 msgstr "Hakuna saa za eneo zilizopatikana."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "Hakuna rekodi ya mada bado — jaribu tena baada ya arifa inayofuata."
 
@@ -811,6 +868,22 @@ msgstr "Nyingine"
 msgid "Owner"
 msgstr "Mmiliki"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:331
+msgid "Passkey"
+msgstr "Pasiki"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:206
+msgid "Passkey verification failed. Please try again."
+msgstr "Uthibitishaji wa ufunguo umeshindwa. Tafadhali jaribu tena."
+
+#: ../../../lib/web/src/components/restore-banner.tsx:126
+msgid "Passkeys"
+msgstr "Passkey"
+
+#: ../../../lib/web/src/lib/api-client.ts:298
+msgid "Please check your internet connection and try again."
+msgstr "Tafadhali angalia muunganisho wako wa intaneti na ujaribu tena."
+
 #: src/features/apps/index.tsx:143
 msgid "Please enter an app name"
 msgstr "Tafadhali ingiza jina la programu"
@@ -858,6 +931,14 @@ msgstr "Imechapishwa"
 msgid "Publisher"
 msgstr "Mchapishaji"
 
+#: ../../../lib/web/src/components/restore-banner.tsx:98
+msgid "Re-link your accounts on this server"
+msgstr "Unganisha tena akaunti zako kwenye seva hii"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:120
+msgid "Re-register your passkeys on this server"
+msgstr "Sajili upya funguo zako za ufikiaji kwenye seva hii"
+
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
 msgid "Recommended"
@@ -904,6 +985,10 @@ msgstr "Ondoa ufikiaji?"
 #: ../../../lib/web/src/components/post-tags.tsx:190
 msgid "Remove interest"
 msgstr "Ondoa shauku"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:364
+msgid "Resend email"
+msgstr "Tuma barua pepe tena"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
 #: ../../../lib/web/src/components/data-table/toolbar.tsx:78
@@ -997,9 +1082,18 @@ msgstr "Chagua mapendeleo ya mandhari"
 msgid "Send again"
 msgstr "Tuma tena"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:304
+msgid "Send email"
+msgstr "Tuma barua pepe"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
 msgstr "Serif"
+
+#: ../../../lib/web/src/lib/api-client.ts:256
+#: ../../../lib/web/src/lib/api-client.ts:281
+msgid "Server error"
+msgstr "Hitilafu ya seva"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
@@ -1090,6 +1184,10 @@ msgstr "Timu/Programu"
 msgid "Terms and conditions"
 msgstr "Masharti na vigezo"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:192
+msgid "That code is incorrect or has expired."
+msgstr "Msimbo huo si sahihi au umekwisha muda wake."
+
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
 msgid "The requested app could not be found."
@@ -1179,12 +1277,16 @@ msgstr "Andika kutafuta watumiaji"
 msgid "Type to search..."
 msgstr "Andika kutafuta..."
 
+#: ../../../lib/web/src/lib/api-client.ts:277
+msgid "Unable to connect to remote server"
+msgstr "Imeshindwa kuunganisha kwenye seva ya mbali"
+
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94
 msgid "Unable to redirect to login. Please try again."
 msgstr "Imeshindwa kuelekeza upya kwenye kuingia. Tafadhali jaribu tena."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "Haijapewa"
 
@@ -1228,6 +1330,10 @@ msgstr "Pakia build yako ya kwanza kuanza"
 msgid "Uploading..."
 msgstr "Inapakia..."
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:335
+msgid "Use your passkey"
+msgstr "Tumia ufunguo wako"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
 msgstr "Mtumiaji"
@@ -1248,6 +1354,7 @@ msgstr "Msimbo wa uthibitishaji umetumwa"
 msgid "Verification failed"
 msgstr "Uthibitishaji umeshindwa"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:385
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:106
 msgid "Verify"
@@ -1269,6 +1376,10 @@ msgstr "Historia ya Toleo"
 #: src/routes/_authenticated/app/$appId.tsx:646
 msgid "Version uploaded"
 msgstr "Toleo limepakiwa"
+
+#: ../../../lib/web/src/components/attachment-gallery.tsx:63
+msgid "Video thumbnail"
+msgstr "Kijipicha cha video"
 
 #: ../../../lib/web/src/components/data-table/view-options.tsx:30
 msgid "View"
@@ -1302,3 +1413,7 @@ msgstr "Ndiyo"
 #: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes, force"
 msgstr "Ndiyo, lazimisha"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:82
+msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
+msgstr "Akaunti yako ilihamishiwa hapa kutoka {source}. Mpaka uifute hapo, ujumbe na arifa zinaweza kufikia seva zote mbili, baadhi ya maudhui yako bado yanatolewa kutoka seva ya zamani, na wafuasi wanaweza kuchukua dakika chache kukupata hapa."

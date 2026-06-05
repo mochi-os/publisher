@@ -114,6 +114,14 @@ msgstr "Alle"
 msgid "All uploaded build files for this application"
 msgstr "Alle hochgeladenen Build-Dateien für diese Anwendung"
 
+#: ../../../lib/web/src/lib/api-client.ts:189
+msgid "An error occurred"
+msgstr "Ein Fehler ist aufgetreten"
+
+#: ../../../lib/web/src/lib/api-client.ts:252
+msgid "An unexpected error occurred"
+msgstr "Ein unerwarteter Fehler ist aufgetreten"
+
 #: src/routes/_authenticated/app/$appId.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:126
 msgid "App"
@@ -141,6 +149,10 @@ msgstr "Möchten Sie sich wirklich abmelden? Sie müssen sich erneut anmelden, u
 #: ../../../lib/web/src/components/data-table/column-header.tsx:56
 msgid "Asc"
 msgstr "Aufst."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:312
+msgid "Authenticator code"
+msgstr "Authenticator-Code"
 
 #: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Available Versions"
@@ -174,6 +186,7 @@ msgid "Build File (.zip)"
 msgstr "Build-Datei (.zip)"
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
+#: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
@@ -186,11 +199,11 @@ msgstr "Build-Datei (.zip)"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:131
+#: ../../../lib/web/src/components/notification-category-button.tsx:135
 msgid "Category for this notification"
 msgstr "Kategorie für diese Benachrichtigung"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:115
+#: ../../../lib/web/src/components/notification-category-button.tsx:119
 msgid "Change notification category"
 msgstr "Benachrichtigungskategorie ändern"
 
@@ -287,6 +300,10 @@ msgstr "Kontextinformationen und Details."
 msgid "Continue"
 msgstr "Fortfahren"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:349
+msgid "Continue with {label}"
+msgstr "Mit {label} fortsetzen"
+
 #: ../../../lib/web/src/components/ui/copy-button.tsx:60
 msgid "Copy"
 msgstr "Kopieren"
@@ -302,6 +319,18 @@ msgstr "Kernidentifikation für diese Anwendung"
 #: ../../../lib/web/src/features/document/document-page.tsx:81
 msgid "Could not load this document. Please try again later."
 msgstr "Dieses Dokument konnte nicht geladen werden. Bitte versuchen Sie es später erneut."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:181
+msgid "Couldn't send the code. Please try again."
+msgstr "Der Code konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:133
+msgid "Couldn't start re-authentication. Please try again."
+msgstr "Die erneute Authentifizierung konnte nicht gestartet werden. Bitte versuchen Sie es erneut."
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:218
+msgid "Couldn't verify with that account. Please try again."
+msgstr "Verifizierung mit diesem Konto fehlgeschlagen. Bitte versuchen Sie es erneut."
 
 #: src/routes/_authenticated/app/$appId.tsx:552
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
@@ -367,6 +396,10 @@ msgstr "Standard-Track auf \"{track}\" gesetzt"
 msgid "Delete track"
 msgstr "Track löschen"
 
+#: ../../../lib/web/src/components/restore-banner.tsx:90
+msgid "Delete your account on the old server"
+msgstr "Konto auf dem alten Server löschen"
+
 #: ../../../lib/web/src/components/data-table/column-header.tsx:60
 msgid "Desc"
 msgstr "Abst."
@@ -394,6 +427,10 @@ msgstr "Aus Webbrowser ermitteln"
 msgid "Direction"
 msgstr "Richtung"
 
+#: ../../../lib/web/src/components/restore-banner.tsx:73
+msgid "Dismiss"
+msgstr "Schließen"
+
 #: ../../../lib/web/src/components/ui/sidebar.tsx:235
 msgid "Displays the mobile sidebar."
 msgstr "Zeigt die mobile Seitenleiste an."
@@ -417,6 +454,18 @@ msgstr "Legasthenie-freundlich"
 #: src/routes/_authenticated/app/$appId.tsx:562
 msgid "e.g. Staging"
 msgstr "z. B. Staging"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:286
+msgid "Email code"
+msgstr "E-Mail-Code"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:296
+msgid "Enter the code from your email"
+msgstr "Code aus deiner E-Mail eingeben"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:321
+msgid "Enter your authenticator code"
+msgstr "Code Ihrer Authenticator-App eingeben"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
 msgid "Expand sidebar"
@@ -454,7 +503,7 @@ msgstr "Bestätigungscode konnte nicht gesendet werden"
 msgid "Failed to set default track"
 msgstr "Standard-Track konnte nicht festgelegt werden"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:104
+#: ../../../lib/web/src/components/notification-category-button.tsx:108
 msgid "Failed to update category"
 msgstr "Kategorie konnte nicht aktualisiert werden"
 
@@ -474,6 +523,10 @@ msgstr "Version konnte nicht hochgeladen werden"
 #: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Fingerprint"
 msgstr "Fingerabdruck"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:79
+msgid "Finish moving your account"
+msgstr "Kontoumzug abschließen"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
@@ -691,6 +744,10 @@ msgstr "k. A."
 msgid "Name"
 msgstr "Name"
 
+#: ../../../lib/web/src/lib/api-client.ts:297
+msgid "Network error"
+msgstr "Netzwerkfehler"
+
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:40
 msgid "New"
 msgstr "Neu"
@@ -741,7 +798,7 @@ msgstr "Keine Ergebnisse gefunden."
 msgid "No time zone found."
 msgstr "Keine Zeitzone gefunden."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:139
 msgid "No topic record yet — try again after the next notification."
 msgstr "Noch kein Themaeintrag — versuchen Sie es nach der nächsten Benachrichtigung erneut."
 
@@ -811,6 +868,22 @@ msgstr "Sonstige"
 msgid "Owner"
 msgstr "Eigentümer"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:331
+msgid "Passkey"
+msgstr "Passkey"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:206
+msgid "Passkey verification failed. Please try again."
+msgstr "Die Passkey-Überprüfung ist fehlgeschlagen. Bitte versuchen Sie es erneut."
+
+#: ../../../lib/web/src/components/restore-banner.tsx:126
+msgid "Passkeys"
+msgstr "Passkeys"
+
+#: ../../../lib/web/src/lib/api-client.ts:298
+msgid "Please check your internet connection and try again."
+msgstr "Bitte überprüfe deine Internetverbindung und versuche es erneut."
+
 #: src/features/apps/index.tsx:143
 msgid "Please enter an app name"
 msgstr "Bitte geben Sie einen App-Namen ein"
@@ -858,6 +931,14 @@ msgstr "Veröffentlicht"
 msgid "Publisher"
 msgstr "Publisher"
 
+#: ../../../lib/web/src/components/restore-banner.tsx:98
+msgid "Re-link your accounts on this server"
+msgstr "Konten auf diesem Server erneut verknüpfen"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:120
+msgid "Re-register your passkeys on this server"
+msgstr "Registrieren Sie Ihre Passkeys auf diesem Server erneut"
+
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
 #: ../../../lib/web/src/components/search-entity-page.tsx:191
 msgid "Recommended"
@@ -904,6 +985,10 @@ msgstr "Zugriff entfernen?"
 #: ../../../lib/web/src/components/post-tags.tsx:190
 msgid "Remove interest"
 msgstr "Interesse entfernen"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:364
+msgid "Resend email"
+msgstr "E-Mail erneut senden"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:77
 #: ../../../lib/web/src/components/data-table/toolbar.tsx:78
@@ -997,9 +1082,18 @@ msgstr "Theme-Einstellung auswählen"
 msgid "Send again"
 msgstr "Erneut senden"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:304
+msgid "Send email"
+msgstr "E-Mail senden"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Serif"
 msgstr "Serife"
+
+#: ../../../lib/web/src/lib/api-client.ts:256
+#: ../../../lib/web/src/lib/api-client.ts:281
+msgid "Server error"
+msgstr "Serverfehler"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:16
 #: ../../../lib/web/src/features/document/document-page.tsx:37
@@ -1090,6 +1184,10 @@ msgstr "Teams/Apps"
 msgid "Terms and conditions"
 msgstr "Allgemeine Geschäftsbedingungen"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:192
+msgid "That code is incorrect or has expired."
+msgstr "Dieser Code ist falsch oder abgelaufen."
+
 #: src/routes/_authenticated/app/$appId.tsx:117
 #: src/routes/_authenticated/app/$appId.tsx:142
 msgid "The requested app could not be found."
@@ -1179,12 +1277,16 @@ msgstr "Tippen, um Benutzer zu suchen"
 msgid "Type to search..."
 msgstr "Tippen, um zu suchen..."
 
+#: ../../../lib/web/src/lib/api-client.ts:277
+msgid "Unable to connect to remote server"
+msgstr "Verbindung zum Remote-Server nicht möglich"
+
 #: ../../../lib/web/src/lib/auth-manager.ts:82
 #: ../../../lib/web/src/lib/auth-manager.ts:94
 msgid "Unable to redirect to login. Please try again."
 msgstr "Weiterleitung zur Anmeldung nicht möglich. Bitte versuchen Sie es erneut."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:147
 msgid "Unassigned"
 msgstr "Nicht zugewiesen"
 
@@ -1228,6 +1330,10 @@ msgstr "Laden Sie Ihren ersten Build hoch, um zu beginnen"
 msgid "Uploading..."
 msgstr "Wird hochgeladen..."
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:335
+msgid "Use your passkey"
+msgstr "Passkey verwenden"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:155
 msgid "User"
 msgstr "Benutzer"
@@ -1248,6 +1354,7 @@ msgstr "Verifizierungscode gesendet"
 msgid "Verification failed"
 msgstr "Verifizierung fehlgeschlagen"
 
+#: ../../../lib/web/src/components/step-up-dialog.tsx:385
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:164
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:106
 msgid "Verify"
@@ -1269,6 +1376,10 @@ msgstr "Versionsverlauf"
 #: src/routes/_authenticated/app/$appId.tsx:646
 msgid "Version uploaded"
 msgstr "Version hochgeladen"
+
+#: ../../../lib/web/src/components/attachment-gallery.tsx:63
+msgid "Video thumbnail"
+msgstr "Video-Vorschaubild"
 
 #: ../../../lib/web/src/components/data-table/view-options.tsx:30
 msgid "View"
@@ -1302,3 +1413,7 @@ msgstr "Ja"
 #: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes, force"
 msgstr "Ja, erzwingen"
+
+#: ../../../lib/web/src/components/restore-banner.tsx:82
+msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
+msgstr "Ihr Konto wurde von {source} hierher verschoben. Bis Sie es dort löschen, können Nachrichten und Benachrichtigungen beide Server erreichen, ein Teil Ihrer Inhalte wird weiterhin vom alten Server bereitgestellt, und Follower benötigen möglicherweise ein paar Minuten, um Sie hier zu finden."
