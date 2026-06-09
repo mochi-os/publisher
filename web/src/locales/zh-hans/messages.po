@@ -223,7 +223,7 @@ msgstr "在从左到右或从右到左的站点方向之间选择"
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "在跟随系统、浅色模式或深色模式之间选择"
 
-#: ../../../lib/web/src/components/language-picker.tsx:174
+#: ../../../lib/web/src/components/language-picker.tsx:294
 msgid "Choose language"
 msgstr "选择语言"
 
@@ -249,7 +249,7 @@ msgid "Clear selection (Escape)"
 msgstr "清除选择(Esc)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:321
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
 msgid "Close"
 msgstr "关闭"
@@ -412,7 +412,7 @@ msgstr "详情"
 msgid "Details Panel"
 msgstr "详情面板"
 
-#: ../../../lib/web/src/components/language-picker.tsx:152
+#: ../../../lib/web/src/components/language-picker.tsx:272
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -443,7 +443,7 @@ msgstr "分发"
 msgid "Distribution set to {distribution}"
 msgstr "分发设置为 {distribution}"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:315
 msgid "Download"
 msgstr "下载"
 
@@ -756,7 +756,7 @@ msgstr "新建"
 msgid "New Release Track"
 msgstr "新发布轨道"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:345
 msgid "Next image"
 msgstr "下一张图片"
 
@@ -892,7 +892,7 @@ msgstr "请输入应用名称"
 msgid "Please select a file"
 msgstr "请选择一个文件"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
 msgid "Previous image"
 msgstr "上一张图片"
 
@@ -1015,6 +1015,10 @@ msgstr "每页行数"
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Saturday"
 msgstr "星期六"
+
+#: ../../../lib/web/src/components/ui/secret-field.tsx:74
+msgid "Save"
+msgstr "保存"
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"

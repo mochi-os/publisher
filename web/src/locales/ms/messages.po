@@ -223,7 +223,7 @@ msgstr "Pilih antara arah laman kiri-ke-kanan atau kanan-ke-kiri"
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "Pilih antara keutamaan sistem, mod cerah, atau mod gelap"
 
-#: ../../../lib/web/src/components/language-picker.tsx:174
+#: ../../../lib/web/src/components/language-picker.tsx:294
 msgid "Choose language"
 msgstr "Pilih bahasa"
 
@@ -249,7 +249,7 @@ msgid "Clear selection (Escape)"
 msgstr "Kosongkan pilihan (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:321
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
 msgid "Close"
 msgstr "Tutup"
@@ -412,7 +412,7 @@ msgstr "Butiran"
 msgid "Details Panel"
 msgstr "Panel Butiran"
 
-#: ../../../lib/web/src/components/language-picker.tsx:152
+#: ../../../lib/web/src/components/language-picker.tsx:272
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -443,7 +443,7 @@ msgstr "Pengedaran"
 msgid "Distribution set to {distribution}"
 msgstr "Pengedaran ditetapkan kepada {distribution}"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:315
 msgid "Download"
 msgstr "Muat turun"
 
@@ -756,7 +756,7 @@ msgstr "Baharu"
 msgid "New Release Track"
 msgstr "Trek Keluaran Baharu"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:345
 msgid "Next image"
 msgstr "Imej seterusnya"
 
@@ -892,7 +892,7 @@ msgstr "Sila masukkan nama apl"
 msgid "Please select a file"
 msgstr "Sila pilih fail"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
 msgid "Previous image"
 msgstr "Imej sebelumnya"
 
@@ -1015,6 +1015,10 @@ msgstr "Baris setiap halaman"
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Saturday"
 msgstr "Sabtu"
+
+#: ../../../lib/web/src/components/ui/secret-field.tsx:74
+msgid "Save"
+msgstr "Simpan"
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"

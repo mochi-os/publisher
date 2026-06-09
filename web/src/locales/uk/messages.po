@@ -223,7 +223,7 @@ msgstr "Виберіть напрямок сайту: зліва направо 
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "Виберіть між системними налаштуваннями, світлим або темним режимом"
 
-#: ../../../lib/web/src/components/language-picker.tsx:174
+#: ../../../lib/web/src/components/language-picker.tsx:294
 msgid "Choose language"
 msgstr "Виберіть мову"
 
@@ -249,7 +249,7 @@ msgid "Clear selection (Escape)"
 msgstr "Очистити вибір (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:75
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:318
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:321
 #: ../../../lib/web/src/components/ui/sheet.tsx:76
 msgid "Close"
 msgstr "Закрити"
@@ -412,7 +412,7 @@ msgstr "Деталі"
 msgid "Details Panel"
 msgstr "Панель деталей"
 
-#: ../../../lib/web/src/components/language-picker.tsx:152
+#: ../../../lib/web/src/components/language-picker.tsx:272
 #: ../../../lib/web/src/components/timezone-select.tsx:43
 #: ../../../lib/web/src/components/timezone-select.tsx:80
 #: ../../../lib/web/src/lib/preference-utils.ts:25
@@ -443,7 +443,7 @@ msgstr "Розповсюдження"
 msgid "Distribution set to {distribution}"
 msgstr "Розповсюдження встановлено на {distribution}"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:312
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:315
 msgid "Download"
 msgstr "Завантажити"
 
@@ -756,7 +756,7 @@ msgstr "Нове"
 msgid "New Release Track"
 msgstr "Новий канал випуску"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:342
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:345
 msgid "Next image"
 msgstr "Наступне зображення"
 
@@ -892,7 +892,7 @@ msgstr "Будь ласка, введіть назву додатку"
 msgid "Please select a file"
 msgstr "Будь ласка, виберіть файл"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
 msgid "Previous image"
 msgstr "Попереднє зображення"
 
@@ -1015,6 +1015,10 @@ msgstr "Рядків на сторінку"
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Saturday"
 msgstr "Субота"
+
+#: ../../../lib/web/src/components/ui/secret-field.tsx:74
+msgid "Save"
+msgstr "Зберегти"
 
 #: ../../../lib/web/src/components/place-picker.tsx:82
 msgid "Search for a place"
