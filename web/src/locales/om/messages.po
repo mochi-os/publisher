@@ -227,7 +227,8 @@ msgstr "Filannoo sirnaa, ifaan, ykn dukkanaan gidduu filadhu"
 msgid "Choose language"
 msgstr "Afaan filadhu"
 
-#: ../../../lib/web/src/components/colour-picker.tsx:304
+#: ../../../lib/web/src/components/colour-picker.tsx:268
+#: ../../../lib/web/src/components/colour-picker.tsx:349
 msgid "Clear"
 msgstr "Cilliisi"
 
@@ -366,6 +367,10 @@ msgstr "Bobbii bulchuuf release track jalqabaa kee uumi"
 #: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Uumaa jira..."
+
+#: ../../../lib/web/src/components/colour-picker.tsx:259
+msgid "Custom"
+msgstr "Mataa keetiin"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -842,6 +847,10 @@ msgstr "Hoo! Fuulli hin argamne!"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:151
 msgid "Open account actions"
 msgstr "Sochiiwwan akkaawuntii bani"
+
+#: ../../../lib/web/src/components/layout/nav-group.tsx:134
+msgid "Open actions"
+msgstr "Gochaalee bani"
 
 #: ../../../lib/web/src/components/layout/top-bar.tsx:57
 msgid "Open navigation"

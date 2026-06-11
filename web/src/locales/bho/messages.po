@@ -227,7 +227,8 @@ msgstr "सिस्टम वरीयता, हल्का मोड, भा
 msgid "Choose language"
 msgstr "भाषा चुनीं"
 
-#: ../../../lib/web/src/components/colour-picker.tsx:304
+#: ../../../lib/web/src/components/colour-picker.tsx:268
+#: ../../../lib/web/src/components/colour-picker.tsx:349
 msgid "Clear"
 msgstr "साफ करीं"
 
@@ -366,6 +367,10 @@ msgstr "तैनाती प्रबंधित करे खातिर �
 #: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "बनावल जा रहल बा..."
+
+#: ../../../lib/web/src/components/colour-picker.tsx:259
+msgid "Custom"
+msgstr "अनुकूलित"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -842,6 +847,10 @@ msgstr "ओह! पन्ना ना मिलल!"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:151
 msgid "Open account actions"
 msgstr "खाता क्रिया खोलीं"
+
+#: ../../../lib/web/src/components/layout/nav-group.tsx:134
+msgid "Open actions"
+msgstr "एक्शन खोलीं"
 
 #: ../../../lib/web/src/components/layout/top-bar.tsx:57
 msgid "Open navigation"

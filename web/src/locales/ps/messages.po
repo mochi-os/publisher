@@ -227,7 +227,8 @@ msgstr "د سیسټم غوره توب، روښانه حالت، یا تیاره 
 msgid "Choose language"
 msgstr "ژبه وټاکئ"
 
-#: ../../../lib/web/src/components/colour-picker.tsx:304
+#: ../../../lib/web/src/components/colour-picker.tsx:268
+#: ../../../lib/web/src/components/colour-picker.tsx:349
 msgid "Clear"
 msgstr "پاک کړئ"
 
@@ -366,6 +367,10 @@ msgstr "د ځای پر ځای کولو اداره کولو لپاره خپل ل�
 #: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "جوړیږي..."
+
+#: ../../../lib/web/src/components/colour-picker.tsx:259
+msgid "Custom"
+msgstr "دودیز"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -842,6 +847,10 @@ msgstr "اوه! پاڼه ونه موندل شوه!"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:151
 msgid "Open account actions"
 msgstr "د حساب کړنې خلاصې کړئ"
+
+#: ../../../lib/web/src/components/layout/nav-group.tsx:134
+msgid "Open actions"
+msgstr "کړنې پرانیزئ"
 
 #: ../../../lib/web/src/components/layout/top-bar.tsx:57
 msgid "Open navigation"

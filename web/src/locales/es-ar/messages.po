@@ -227,7 +227,8 @@ msgstr "Elegí entre la preferencia del sistema, modo claro o modo oscuro"
 msgid "Choose language"
 msgstr "Elegí el idioma"
 
-#: ../../../lib/web/src/components/colour-picker.tsx:304
+#: ../../../lib/web/src/components/colour-picker.tsx:268
+#: ../../../lib/web/src/components/colour-picker.tsx:349
 msgid "Clear"
 msgstr ""
 
@@ -365,6 +366,10 @@ msgstr "Creá tu primer canal de lanzamiento para gestionar las implementaciones
 #: src/features/apps/index.tsx:211
 #: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
+msgstr ""
+
+#: ../../../lib/web/src/components/colour-picker.tsx:259
+msgid "Custom"
 msgstr ""
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
@@ -842,6 +847,10 @@ msgstr ""
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:151
 msgid "Open account actions"
 msgstr "Abrí las acciones de la cuenta"
+
+#: ../../../lib/web/src/components/layout/nav-group.tsx:134
+msgid "Open actions"
+msgstr ""
 
 #: ../../../lib/web/src/components/layout/top-bar.tsx:57
 msgid "Open navigation"

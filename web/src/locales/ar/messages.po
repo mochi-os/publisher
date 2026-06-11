@@ -227,7 +227,8 @@ msgstr "اختر بين تفضيلات النظام أو الوضع الفاتح
 msgid "Choose language"
 msgstr "اختر اللغة"
 
-#: ../../../lib/web/src/components/colour-picker.tsx:304
+#: ../../../lib/web/src/components/colour-picker.tsx:268
+#: ../../../lib/web/src/components/colour-picker.tsx:349
 msgid "Clear"
 msgstr "مسح"
 
@@ -366,6 +367,10 @@ msgstr "أنشئ مسار إصدارك الأول لإدارة عمليات ال
 #: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "جارٍ الإنشاء..."
+
+#: ../../../lib/web/src/components/colour-picker.tsx:259
+msgid "Custom"
+msgstr "مخصص"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -842,6 +847,10 @@ msgstr "عذراً! الصفحة غير موجودة!"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:151
 msgid "Open account actions"
 msgstr "فتح إجراءات الحساب"
+
+#: ../../../lib/web/src/components/layout/nav-group.tsx:134
+msgid "Open actions"
+msgstr "فتح الإجراءات"
 
 #: ../../../lib/web/src/components/layout/top-bar.tsx:57
 msgid "Open navigation"

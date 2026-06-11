@@ -227,7 +227,8 @@ msgstr "Chọn giữa theo hệ thống, chế độ sáng, hoặc chế độ t
 msgid "Choose language"
 msgstr "Chọn ngôn ngữ"
 
-#: ../../../lib/web/src/components/colour-picker.tsx:304
+#: ../../../lib/web/src/components/colour-picker.tsx:268
+#: ../../../lib/web/src/components/colour-picker.tsx:349
 msgid "Clear"
 msgstr "Xóa"
 
@@ -366,6 +367,10 @@ msgstr "Tạo track phát hành đầu tiên để quản lý triển khai"
 #: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Đang tạo..."
+
+#: ../../../lib/web/src/components/colour-picker.tsx:259
+msgid "Custom"
+msgstr "Tùy chỉnh"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:205
 #: ../../../lib/web/src/lib/preference-utils.ts:17
@@ -842,6 +847,10 @@ msgstr "Rất tiếc! Không tìm thấy trang!"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:151
 msgid "Open account actions"
 msgstr "Mở thao tác tài khoản"
+
+#: ../../../lib/web/src/components/layout/nav-group.tsx:134
+msgid "Open actions"
+msgstr "Mở thao tác"
 
 #: ../../../lib/web/src/components/layout/top-bar.tsx:57
 msgid "Open navigation"
