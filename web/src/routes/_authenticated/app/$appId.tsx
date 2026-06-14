@@ -33,7 +33,7 @@ import {
   ListSkeleton,
   ApiError,
 } from '@mochi/web'
-import { Upload, Plus, MoreHorizontal, Package, Shield, Globe, Lock } from 'lucide-react'
+import { Upload, Plus, MoreHorizontal, Package, Shield, Globe, Lock, Loader2 } from 'lucide-react'
 import { sortVersionsDesc } from '@/lib/version'
 import {
   useAppQuery,
@@ -592,6 +592,7 @@ function TracksTab({
               onClick={handleCreateTrack}
               disabled={!newTrackName || createTrackMutation.isPending}
             >
+              {createTrackMutation.isPending ? <Loader2 className='size-4 animate-spin' /> : <Plus className='size-4' />}
               {createTrackMutation.isPending ? t`Creating...` : t`Create track`}
             </Button>
           </ResponsiveDialogFooter>
@@ -730,6 +731,7 @@ function UploadVersionDialog({
               <Trans>Cancel</Trans>
             </Button>
             <Button type='submit' disabled={uploadMutation.isPending}>
+              {uploadMutation.isPending ? <Loader2 className='size-4 animate-spin' /> : <Upload className='size-4' />}
               {uploadMutation.isPending ? t`Uploading...` : t`Upload version`}
             </Button>
           </ResponsiveDialogFooter>
