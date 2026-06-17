@@ -347,7 +347,12 @@ def event_get(e):
 	a = mochi.db.row("select * from apps where id=?", app_id)
 	if not a:
 		return e.write({"status": "404", "message": "App not found"})
-	if a.get("distribution") == "restricted":
+	# Restricted apps are refused to remote peers, but a replica host must be
+	# able to install/upgrade its own co-hosted restricted app from the local
+	# (replicated-in) publisher store. e.header("local") is true only for an
+	# in-process self-loop stream (unforgeable from off-host), so it grants the
+	# local app-update path the package while still denying remote callers.
+	if a.get("distribution") == "restricted" and not e.header("local"):
 		return e.write({"status": "403", "message": "This app is private"})
 
 	version = e.content("version")
@@ -375,7 +380,10 @@ def event_version(e):
 	a = mochi.db.row("select * from apps where id=?", app_id)
 	if not a:
 		return e.write({"status": "404", "message": "App not found"})
-	if a.get("distribution") == "restricted":
+	# See event_get: in-process callers (a host's own app-update loopback) may
+	# read a restricted app's track versions from the local publisher; remote
+	# peers are still refused.
+	if a.get("distribution") == "restricted" and not e.header("local"):
 		return e.write({"status": "403", "message": "This app is private"})
 
 	# Use default track if none specified
