@@ -708,7 +708,7 @@ function UploadVersionDialog({
                 <label className='text-sm font-medium'><Trans>Update Tracks</Trans></label>
                 <div className='grid grid-cols-2 gap-2'>
                   {availableTracks.map((track) => (
-                    <label key={track} className='flex cursor-pointer items-center gap-2 rounded-md border p-2 transition-colors hover:bg-interactive-hover active:bg-interactive-active'>
+                    <label key={track} className='flex cursor-pointer items-center gap-2 rounded-md border p-2 transition-colors hover:bg-hover active:bg-interactive-active'>
                       <input
                         type='checkbox'
                         checked={selectedTracks.includes(track)}
