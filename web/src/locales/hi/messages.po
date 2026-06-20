@@ -94,7 +94,8 @@ msgstr "टीम/ऐप जोड़ें"
 msgid "Add to existing notifications"
 msgstr "मौजूदा नोटिफ़िकेशन में जोड़ें"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "व्यू जोड़ें"
 
@@ -181,7 +182,7 @@ msgstr "होम पर वापस जाएँ"
 msgid "Boost interest"
 msgstr "रुचि बढ़ाएँ"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "बिल्ड फ़ाइल (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "बिल्ड फ़ाइल (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "रद्द करें"
 
@@ -284,8 +286,8 @@ msgstr "जल्द आ रहा है!"
 msgid "Compact"
 msgstr "कॉम्पैक्ट"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "पुष्टि करें"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "नया ऐप बनाएँ"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "ट्रैक बनाएँ"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "डिप्लॉयमेंट प्रबंधित करने के लिए अपना पहला रिलीज़ ट्रैक बनाएँ"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "बना रहे हैं..."
 
@@ -460,6 +462,10 @@ msgstr "डिस्लेक्सिया-अनुकूल"
 msgid "e.g. Staging"
 msgstr "उदा. Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "{label} संपादित करें"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "ईमेल कोड"
@@ -520,7 +526,7 @@ msgstr "वितरण अपडेट करने में विफल"
 msgid "Failed to update track"
 msgstr "ट्रैक अपडेट करने में विफल"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "वर्शन अपलोड करने में विफल"
 
@@ -627,7 +633,7 @@ msgstr "ऐप इंस्टॉल करें"
 msgid "Install link:"
 msgstr "इंस्टॉल लिंक:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "स्थानीय रूप से इंस्टॉल करें"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "अगली इमेज"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "नहीं"
 
@@ -833,6 +839,10 @@ msgstr "कोई नहीं"
 msgid "Normal"
 msgstr "सामान्य"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "सेट नहीं"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "कृपया अपना इंटरनेट कनेक्शन
 msgid "Please enter an app name"
 msgstr "कृपया ऐप नाम दर्ज करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "कृपया एक फ़ाइल चुनें"
 
@@ -1025,6 +1035,7 @@ msgstr "प्रति पेज पंक्तियाँ"
 msgid "Saturday"
 msgstr "शनिवार"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "सेव करें"
@@ -1315,11 +1326,11 @@ msgstr "संयुक्त राज्य अमेरिका"
 msgid "Unverified"
 msgstr "अनवेरिफ़ाइड"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "ट्रैक अपडेट करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "अपने ऐप्लिकेशन के लिए एक .zip बिल्ड फ़ाइल अपलोड करें।"
 
@@ -1327,11 +1338,11 @@ msgstr "अपने ऐप्लिकेशन के लिए एक .zip �
 msgid "Upload new version"
 msgstr "नया वर्शन अपलोड करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "नया वर्शन अपलोड करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "संस्करण अपलोड करें"
 
@@ -1339,7 +1350,7 @@ msgstr "संस्करण अपलोड करें"
 msgid "Upload your first build to get started"
 msgstr "शुरू करने के लिए अपना पहला बिल्ड अपलोड करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "अपलोड किया जा रहा है..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "ईमेल पता वेरिफ़ाई करें"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "वर्शन {0} बना दिया गया है।"
 
@@ -1386,7 +1397,7 @@ msgstr "वर्शन {0} बना दिया गया है।"
 msgid "Version History"
 msgstr "वर्शन इतिहास"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "वर्शन अपलोड किया गया"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "बुधवार"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "हाँ"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "हाँ, ज़बरदस्ती करें"
 

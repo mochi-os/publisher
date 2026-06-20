@@ -94,7 +94,8 @@ msgstr "Προσθήκη ομάδας/εφαρμογής"
 msgid "Add to existing notifications"
 msgstr "Προσθήκη σε υπάρχουσες ειδοποιήσεις"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Προσθήκη προβολής"
 
@@ -181,7 +182,7 @@ msgstr "Επιστροφή στην αρχή"
 msgid "Boost interest"
 msgstr "Ενίσχυση ενδιαφέροντος"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Αρχείο build (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Αρχείο build (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -284,8 +286,8 @@ msgstr "Έρχεται σύντομα!"
 msgid "Compact"
 msgstr "Συμπαγές"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Επιβεβαίωση"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Δημιουργία νέας εφαρμογής"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Δημιουργία track"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Δημιουργήστε το πρώτο σας release track για τη διαχείριση αναπτύξεων"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Δημιουργία..."
 
@@ -460,6 +462,10 @@ msgstr "Φιλικό προς δυσλεξία"
 msgid "e.g. Staging"
 msgstr "π.χ. Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Επεξεργασία {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "Κωδικός email"
@@ -520,7 +526,7 @@ msgstr "Αποτυχία ενημέρωσης διανομής"
 msgid "Failed to update track"
 msgstr "Αποτυχία ενημέρωσης καναλιού"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Αποτυχία μεταφόρτωσης έκδοσης"
 
@@ -627,7 +633,7 @@ msgstr "Εγκατάσταση εφαρμογής"
 msgid "Install link:"
 msgstr "Σύνδεσμος εγκατάστασης:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Τοπική εγκατάσταση"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Επόμενη εικόνα"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Όχι"
 
@@ -833,6 +839,10 @@ msgstr "Κανένα"
 msgid "Normal"
 msgstr "Κανονικό"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Δεν έχει οριστεί"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Ελέγξτε τη σύνδεσή σας στο διαδίκτυο κα
 msgid "Please enter an app name"
 msgstr "Εισαγάγετε ένα όνομα εφαρμογής"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Επιλέξτε ένα αρχείο"
 
@@ -1025,6 +1035,7 @@ msgstr "Γραμμές ανά σελίδα"
 msgid "Saturday"
 msgstr "Σάββατο"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Αποθήκευση"
@@ -1315,11 +1326,11 @@ msgstr "Ηνωμένες Πολιτείες"
 msgid "Unverified"
 msgstr "Μη επαληθευμένο"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Ενημέρωση tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Μεταφορτώστε ένα αρχείο build .zip για την εφαρμογή σας."
 
@@ -1327,11 +1338,11 @@ msgstr "Μεταφορτώστε ένα αρχείο build .zip για την ε
 msgid "Upload new version"
 msgstr "Μεταφόρτωση νέας έκδοσης"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Μεταφόρτωση νέας έκδοσης"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Αποστολή έκδοσης"
 
@@ -1339,7 +1350,7 @@ msgstr "Αποστολή έκδοσης"
 msgid "Upload your first build to get started"
 msgstr "Μεταφορτώστε το πρώτο σας build για να ξεκινήσετε"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Μεταφόρτωση..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Επαλήθευση διεύθυνσης email"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Η έκδοση {0} δημιουργήθηκε."
 
@@ -1386,7 +1397,7 @@ msgstr "Η έκδοση {0} δημιουργήθηκε."
 msgid "Version History"
 msgstr "Ιστορικό εκδόσεων"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Η έκδοση μεταφορτώθηκε"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Τετάρτη"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Ναι"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Ναι, εξαναγκασμός"
 

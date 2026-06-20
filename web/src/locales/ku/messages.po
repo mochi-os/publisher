@@ -94,7 +94,8 @@ msgstr "Tîm/sepan zêde bike"
 msgid "Add to existing notifications"
 msgstr "Li agahdariyên heyî zêde bike"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Dîtin zêde bike"
 
@@ -181,7 +182,7 @@ msgstr "Vegere ser malê"
 msgid "Boost interest"
 msgstr "Berjewendiyê zêde bike"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Pelê Build (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Pelê Build (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Betal bike"
 
@@ -284,8 +286,8 @@ msgstr "Zû tê!"
 msgid "Compact"
 msgstr "Kompakt"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Piştrast bike"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Sepana nû çêbike"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Track çêbike"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Ji bo birêvebirina deploymentan Release Tracka xwe ya yekem çêbike"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Tê çêkirin..."
 
@@ -460,6 +462,10 @@ msgstr "Hevhewş ji bo dîslêksiyê"
 msgid "e.g. Staging"
 msgstr "mînak. Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "{label} biguherîne"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "Koda e-nameyê"
@@ -520,7 +526,7 @@ msgstr "Rojanekirina belavkirinê neserkeftî bû"
 msgid "Failed to update track"
 msgstr "Rojanekirina rêçê neserkeftî bû"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Barkirina guhertoyê neserkeftî bû"
 
@@ -627,7 +633,7 @@ msgstr "Sepanê sazke"
 msgid "Install link:"
 msgstr "Girêdana sazkirinê:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Cihê xwe sazke"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Wêneya pêştir"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Na"
 
@@ -833,6 +839,10 @@ msgstr "Tu"
 msgid "Normal"
 msgstr "Asayî"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Nehatiye danîn"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Ji kerema xwe girêdana xwe ya înternetê kontrol bike û dîsa bicerib
 msgid "Please enter an app name"
 msgstr "Ji kerema xwe navê app binivîse"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Ji kerema xwe pelekî hilbijêre"
 
@@ -1025,6 +1035,7 @@ msgstr "Rêz li ser her rûpel"
 msgid "Saturday"
 msgstr "Şemî"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Tomar bike"
@@ -1315,11 +1326,11 @@ msgstr "Dewletên Yekbûyî"
 msgid "Unverified"
 msgstr "Nehatiye verast kirin"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Track-an Nûke"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Pelê .zip ya buildê ji bo sepana xwe bar bike."
 
@@ -1327,11 +1338,11 @@ msgstr "Pelê .zip ya buildê ji bo sepana xwe bar bike."
 msgid "Upload new version"
 msgstr "Guhertoya nû bar bike"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Guhertoya Nû Bar bike"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Versiyonê bar bike"
 
@@ -1339,7 +1350,7 @@ msgstr "Versiyonê bar bike"
 msgid "Upload your first build to get started"
 msgstr "Build a xwe ya yekem bar bike ku dest pê bikî"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Tê barkirin..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Navnîşana e-nameyê verifîke bike"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Guhertoya {0} hat afirandin."
 
@@ -1386,7 +1397,7 @@ msgstr "Guhertoya {0} hat afirandin."
 msgid "Version History"
 msgstr "Dîroka Guhertoyan"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Guherto hat barkirin"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Çarşem"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Erê"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Erê, bi zorê"
 

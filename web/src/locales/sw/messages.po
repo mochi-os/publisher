@@ -94,7 +94,8 @@ msgstr "Ongeza timu/programu"
 msgid "Add to existing notifications"
 msgstr "Ongeza kwenye arifa zilizopo"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Ongeza mwonekano"
 
@@ -181,7 +182,7 @@ msgstr "Rudi mwanzo"
 msgid "Boost interest"
 msgstr "Ongeza mvuto"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Faili la build (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Faili la build (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Ghairi"
 
@@ -284,8 +286,8 @@ msgstr "Inakuja Karibuni!"
 msgid "Compact"
 msgstr "Fupi"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Thibitisha"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Unda programu mpya"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Unda track"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Unda track yako ya kwanza ya toleo kusimamia upelekaji"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Inaunda..."
 
@@ -460,6 +462,10 @@ msgstr "Rahisi kwa dyslexia"
 msgid "e.g. Staging"
 msgstr "k.m. Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Hariri {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "Msimbo wa barua pepe"
@@ -520,7 +526,7 @@ msgstr "Imeshindwa kusasisha usambazaji"
 msgid "Failed to update track"
 msgstr "Imeshindwa kusasisha wimbo"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Imeshindwa kupakia toleo"
 
@@ -627,7 +633,7 @@ msgstr "Sakinisha Programu"
 msgid "Install link:"
 msgstr "Kiungo cha kusakinisha:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Sakinisha Ndani ya Kompyuta"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Picha inayofuata"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Hapana"
 
@@ -833,6 +839,10 @@ msgstr "Hakuna"
 msgid "Normal"
 msgstr "Kawaida"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Haijawekwa"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Tafadhali angalia muunganisho wako wa intaneti na ujaribu tena."
 msgid "Please enter an app name"
 msgstr "Tafadhali ingiza jina la programu"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Tafadhali chagua faili"
 
@@ -1025,6 +1035,7 @@ msgstr "Safu kwa kila ukurasa"
 msgid "Saturday"
 msgstr "Jumamosi"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Hifadhi"
@@ -1315,11 +1326,11 @@ msgstr "Marekani"
 msgid "Unverified"
 msgstr "Haijathibitishwa"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Sasisha Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Pakia faili la build la .zip kwa programu yako."
 
@@ -1327,11 +1338,11 @@ msgstr "Pakia faili la build la .zip kwa programu yako."
 msgid "Upload new version"
 msgstr "Pakia toleo jipya"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Pakia Toleo Jipya"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Pakia toleo"
 
@@ -1339,7 +1350,7 @@ msgstr "Pakia toleo"
 msgid "Upload your first build to get started"
 msgstr "Pakia build yako ya kwanza kuanza"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Inapakia..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Thibitisha anwani ya barua pepe"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Toleo {0} limeundwa."
 
@@ -1386,7 +1397,7 @@ msgstr "Toleo {0} limeundwa."
 msgid "Version History"
 msgstr "Historia ya Toleo"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Toleo limepakiwa"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Jumatano"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Ndiyo"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Ndiyo, lazimisha"
 

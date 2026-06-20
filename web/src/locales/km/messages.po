@@ -94,7 +94,8 @@ msgstr "បន្ថែមក្រុម/កម្មវិធី"
 msgid "Add to existing notifications"
 msgstr "បន្ថែមទៅការជូនដំណឹងដែលមានស្រាប់"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "បន្ថែមទិដ្ឋភាព"
 
@@ -181,7 +182,7 @@ msgstr "ត្រឡប់ទៅទំព័រដើម"
 msgid "Boost interest"
 msgstr "បង្កើនចំណាប់អារម្មណ៍"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "ឯកសារ Build (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "ឯកសារ Build (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "បោះបង់"
 
@@ -284,8 +286,8 @@ msgstr "នឹងមកដល់ឆាប់ៗ!"
 msgid "Compact"
 msgstr "តូច"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "បញ្ជាក់"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "បង្កើតកម្មវិធីថ្មី"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "បង្កើតផ្លូវ"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "បង្កើតផ្លូវ Release ដំបូងរបស់អ្នកដើម្បីគ្រប់គ្រងការដាក់ឱ្យដំណើរការ"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "កំពុងបង្កើត..."
 
@@ -460,6 +462,10 @@ msgstr "ស័ក្តិសមនឹងជំងឺឌីស្លេកស៊
 msgid "e.g. Staging"
 msgstr "ឧ. Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "កែ {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "កូដអ៊ីមែល"
@@ -520,7 +526,7 @@ msgstr "បរាជ័យក្នុងការធ្វើបច្ចុប
 msgid "Failed to update track"
 msgstr "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពបទ"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "បរាជ័យក្នុងការផ្ទុកឡើងកំណែ"
 
@@ -627,7 +633,7 @@ msgstr "ដំឡើងកម្មវិធី"
 msgid "Install link:"
 msgstr "តំណដំឡើង:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "ដំឡើងក្នុងស្រុក"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "រូបភាពបន្ទាប់"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "ទេ"
 
@@ -833,6 +839,10 @@ msgstr "គ្មាន"
 msgid "Normal"
 msgstr "ធម្មតា"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "មិនបានកំណត់"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "សូមពិនិត្យការតភ្ជាប់អ៊ីន
 msgid "Please enter an app name"
 msgstr "សូមបញ្ចូលឈ្មោះកម្មវិធី"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "សូមជ្រើសរើសឯកសារ"
 
@@ -1025,6 +1035,7 @@ msgstr "ជួរក្នុងមួយទំព័រ"
 msgid "Saturday"
 msgstr "ថ្ងៃសៅរ៍"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "រក្សាទុក"
@@ -1315,11 +1326,11 @@ msgstr "សហរដ្ឋអាមេរិក"
 msgid "Unverified"
 msgstr "មិនបានផ្ទៀងផ្ទាត់"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "ធ្វើបច្ចុប្បន្នភាព Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "បង្ហោះឯកសារ build .zip សម្រាប់កម្មវិធីរបស់អ្នក។"
 
@@ -1327,11 +1338,11 @@ msgstr "បង្ហោះឯកសារ build .zip សម្រាប់កម
 msgid "Upload new version"
 msgstr "បង្ហោះកំណែថ្មី"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "បង្ហោះកំណែថ្មី"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "ផ្ទុកកំណែឡើង"
 
@@ -1339,7 +1350,7 @@ msgstr "ផ្ទុកកំណែឡើង"
 msgid "Upload your first build to get started"
 msgstr "បង្ហោះ build ដំបូងរបស់អ្នកដើម្បីចាប់ផ្តើម"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "កំពុងបង្ហោះ..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "ផ្ទៀងផ្ទាត់អាសយដ្ឋានអ៊ីមែល"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "កំណែ {0} ត្រូវបានបង្កើត។"
 
@@ -1386,7 +1397,7 @@ msgstr "កំណែ {0} ត្រូវបានបង្កើត។"
 msgid "Version History"
 msgstr "ប្រវត្តិកំណែ"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "បានបង្ហោះកំណែ"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "ថ្ងៃពុធ"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "បាទ/ចាស"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "បាទ/ចាស បង្ខំ"
 

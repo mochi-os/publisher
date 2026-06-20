@@ -94,7 +94,8 @@ msgstr "הוסף צוות/אפליקציה"
 msgid "Add to existing notifications"
 msgstr "הוסף להתראות קיימות"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "הוסף תצוגה"
 
@@ -181,7 +182,7 @@ msgstr "חזרה לבית"
 msgid "Boost interest"
 msgstr "הגבר עניין"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "קובץ build‏ (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "קובץ build‏ (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "ביטול"
 
@@ -284,8 +286,8 @@ msgstr "בקרוב!"
 msgid "Compact"
 msgstr "מצומצם"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "אישור"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "צור אפליקציה חדשה"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "צור Track"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "צור את ה-Release Track הראשון שלך לניהול פריסות"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "יוצר..."
 
@@ -460,6 +462,10 @@ msgstr "ידידותי לדיסלקציה"
 msgid "e.g. Staging"
 msgstr "לדוגמה Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "עריכת {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "קוד אימייל"
@@ -520,7 +526,7 @@ msgstr "עדכון ההפצה נכשל"
 msgid "Failed to update track"
 msgstr "עדכון הערוץ נכשל"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "העלאת הגרסה נכשלה"
 
@@ -627,7 +633,7 @@ msgstr "התקן אפליקציה"
 msgid "Install link:"
 msgstr "קישור התקנה:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "התקן מקומית"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "התמונה הבאה"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "לא"
 
@@ -833,6 +839,10 @@ msgstr "ללא"
 msgid "Normal"
 msgstr "רגיל"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "לא הוגדר"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "בדקו את חיבור האינטרנט ונסו שוב."
 msgid "Please enter an app name"
 msgstr "הזן שם אפליקציה"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "בחר קובץ"
 
@@ -1025,6 +1035,7 @@ msgstr "שורות לעמוד"
 msgid "Saturday"
 msgstr "שבת"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "שמור"
@@ -1315,11 +1326,11 @@ msgstr "ארצות הברית"
 msgid "Unverified"
 msgstr "לא מאומת"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "עדכן ערוצים"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "העלה קובץ build בפורמט .zip עבור היישום שלך."
 
@@ -1327,11 +1338,11 @@ msgstr "העלה קובץ build בפורמט .zip עבור היישום שלך."
 msgid "Upload new version"
 msgstr "העלה גרסה חדשה"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "העלה גרסה חדשה"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "העלה גרסה"
 
@@ -1339,7 +1350,7 @@ msgstr "העלה גרסה"
 msgid "Upload your first build to get started"
 msgstr "העלה את ה-build הראשון שלך כדי להתחיל"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "מעלה..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "אמת כתובת אימייל"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "גרסה {0} נוצרה."
 
@@ -1386,7 +1397,7 @@ msgstr "גרסה {0} נוצרה."
 msgid "Version History"
 msgstr "היסטוריית גרסאות"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "הגרסה הועלתה"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "יום רביעי"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "כן"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "כן, אכוף"
 

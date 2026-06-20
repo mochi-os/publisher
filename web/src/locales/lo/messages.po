@@ -94,7 +94,8 @@ msgstr "ເພີ່ມທີມ/ແອັບ"
 msgid "Add to existing notifications"
 msgstr "ເພີ່ມໃສ່ການແຈ້ງເຕືອນທີ່ມີຢູ່"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "ເພີ່ມມຸມມອງ"
 
@@ -181,7 +182,7 @@ msgstr "ກັບໄປໜ້າຫຼັກ"
 msgid "Boost interest"
 msgstr "ເພີ່ມຄວາມສົນໃຈ"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "ໄຟລ໌ Build (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "ໄຟລ໌ Build (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "ຍົກເລີກ"
 
@@ -284,8 +286,8 @@ msgstr "ຈະມາໃນໄວໆນີ້!"
 msgid "Compact"
 msgstr "ຫຍໍ້"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "ຢືນຢັນ"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "ສ້າງແອັບໃໝ່"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "ສ້າງແທຣັກ"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "ສ້າງແທຣັກ Release ທຳອິດຂອງທ່ານເພື່ອຈັດການການນຳໃຊ້"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "ກຳລັງສ້າງ..."
 
@@ -460,6 +462,10 @@ msgstr "ເຫມາະສຳລັບໂລກອ່ານບໍ່ອອກ"
 msgid "e.g. Staging"
 msgstr "ເຊັ່ນ Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "ແກ້ໄຂ {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "ລະຫັດອີເມວ"
@@ -520,7 +526,7 @@ msgstr "ອັບເດດການແຈກຈ່າຍລົ້ມເຫຼວ
 msgid "Failed to update track"
 msgstr "ອັບເດດການຕິດຕາມລົ້ມເຫຼວ"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "ອັບໂຫຼດເວີຊັນລົ້ມເຫຼວ"
 
@@ -627,7 +633,7 @@ msgstr "ຕິດຕັ້ງແອັບ"
 msgid "Install link:"
 msgstr "ລິ້ງຕິດຕັ້ງ:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "ຕິດຕັ້ງໃນເຄື່ອງ"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "ຮູບຕໍ່ໄປ"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "ບໍ່"
 
@@ -833,6 +839,10 @@ msgstr "ບໍ່ມີ"
 msgid "Normal"
 msgstr "ປົກກະຕິ"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "ບໍ່ໄດ້ຕັ້ງຄ່າ"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "ກະລຸນາກວດສອບການເຊື່ອມຕໍ່
 msgid "Please enter an app name"
 msgstr "ກະລຸນາປ້ອນຊື່ແອັບ"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "ກະລຸນາເລືອກໄຟລ໌"
 
@@ -1025,6 +1035,7 @@ msgstr "ແຖວຕໍ່ໜ້າ"
 msgid "Saturday"
 msgstr "ວັນເສົາ"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "ບັນທຶກ"
@@ -1315,11 +1326,11 @@ msgstr "ສະຫະລັດອາເມລິກາ"
 msgid "Unverified"
 msgstr "ບໍ່ໄດ້ຢືນຢັນ"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "ອັບເດດ Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "ອັບໂຫຼດໄຟລ໌ Build .zip ສຳລັບແອັບຂອງທ່ານ."
 
@@ -1327,11 +1338,11 @@ msgstr "ອັບໂຫຼດໄຟລ໌ Build .zip ສຳລັບແອັບ
 msgid "Upload new version"
 msgstr "ອັບໂຫຼດເວີຊັນໃໝ່"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "ອັບໂຫຼດເວີຊັນໃໝ່"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "ອັບໂຫຼດເວີຊັນ"
 
@@ -1339,7 +1350,7 @@ msgstr "ອັບໂຫຼດເວີຊັນ"
 msgid "Upload your first build to get started"
 msgstr "ອັບໂຫຼດ Build ທຳອິດຂອງທ່ານເພື່ອເລີ່ມຕົ້ນ"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "ກຳລັງອັບໂຫຼດ..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "ຢືນຢັນທີ່ຢູ່ອີເມວ"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "ເວີຊັນ {0} ຖືກສ້າງແລ້ວ."
 
@@ -1386,7 +1397,7 @@ msgstr "ເວີຊັນ {0} ຖືກສ້າງແລ້ວ."
 msgid "Version History"
 msgstr "ປະຫວັດເວີຊັນ"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "ເວີຊັນຖືກອັບໂຫຼດ"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "ວັນພຸດ"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "ແມ່ນ"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "ແມ່ນ, ບັງຄັບ"
 

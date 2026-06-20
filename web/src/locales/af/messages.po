@@ -94,7 +94,8 @@ msgstr "Voeg span/app by"
 msgid "Add to existing notifications"
 msgstr "Voeg by bestaande kennisgewings"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Voeg aansig by"
 
@@ -181,7 +182,7 @@ msgstr "Terug na tuis"
 msgid "Boost interest"
 msgstr "Versterk belangstelling"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Bouleer (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Bouleer (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Kanselleer"
 
@@ -284,8 +286,8 @@ msgstr "Kom binnekort!"
 msgid "Compact"
 msgstr "Kompak"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Bevestig"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Skep nuwe app"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Skep baan"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Skep jou eerste vrystellingsbaan om ontplooiings te bestuur"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Skep..."
 
@@ -460,6 +462,10 @@ msgstr "Diksleksie-vriendelik"
 msgid "e.g. Staging"
 msgstr "bv. Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Wysig {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "E-poskode"
@@ -520,7 +526,7 @@ msgstr "Kon nie verspreiding opdateer nie"
 msgid "Failed to update track"
 msgstr "Kon nie kanaal opdateer nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Kon nie weergawe oplaai nie"
 
@@ -627,7 +633,7 @@ msgstr "Installeer toepassing"
 msgid "Install link:"
 msgstr "Installasieskakel:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Installeer plaaslik"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Volgende prent"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Nee"
 
@@ -833,6 +839,10 @@ msgstr "Geen"
 msgid "Normal"
 msgstr "Normaal"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Nie ingestel nie"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Gaan asseblief jou internetverbinding na en probeer weer."
 msgid "Please enter an app name"
 msgstr "Voer asseblief 'n programnaam in"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Kies asseblief 'n lêer"
 
@@ -1025,6 +1035,7 @@ msgstr "Rye per bladsy"
 msgid "Saturday"
 msgstr "Saterdag"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Stoor"
@@ -1315,11 +1326,11 @@ msgstr "Verenigde State"
 msgid "Unverified"
 msgstr "Ongeverifieer"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Opdateer Bane"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Laai 'n .zip-build-lêer vir jou toepassing op."
 
@@ -1327,11 +1338,11 @@ msgstr "Laai 'n .zip-build-lêer vir jou toepassing op."
 msgid "Upload new version"
 msgstr "Laai nuwe weergawe op"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Laai nuwe weergawe op"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Laai weergawe op"
 
@@ -1339,7 +1350,7 @@ msgstr "Laai weergawe op"
 msgid "Upload your first build to get started"
 msgstr "Laai jou eerste build op om te begin"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Besig om op te laai..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Verifieer e-posadres"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Weergawe {0} is geskep."
 
@@ -1386,7 +1397,7 @@ msgstr "Weergawe {0} is geskep."
 msgid "Version History"
 msgstr "Weergawe-geskiedenis"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Weergawe opgelaai"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Woensdag"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Ja"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Ja, dwing af"
 

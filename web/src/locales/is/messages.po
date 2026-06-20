@@ -94,7 +94,8 @@ msgstr "Bæta við hópi/forriti"
 msgid "Add to existing notifications"
 msgstr "Bæta við núverandi tilkynningar"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Bæta við sýn"
 
@@ -181,7 +182,7 @@ msgstr "Til baka á forsíðu"
 msgid "Boost interest"
 msgstr "Auka áhuga"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Smíðaskrá (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Smíðaskrá (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Hætta við"
 
@@ -284,8 +286,8 @@ msgstr "Væntanlegt!"
 msgid "Compact"
 msgstr "Þétt"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Staðfesta"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Búa til nýtt forrit"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Búa til rás"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Búðu til fyrstu útgáfurásina þína til að stjórna uppsetningum"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Bý til..."
 
@@ -460,6 +462,10 @@ msgstr "Lesblinduvænt"
 msgid "e.g. Staging"
 msgstr "t.d. Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Breyta {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "Tölvupóstkóði"
@@ -520,7 +526,7 @@ msgstr "Tókst ekki að uppfæra dreifingu"
 msgid "Failed to update track"
 msgstr "Tókst ekki að uppfæra rás"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Tókst ekki að hlaða upp útgáfu"
 
@@ -627,7 +633,7 @@ msgstr "Setja upp forrit"
 msgid "Install link:"
 msgstr "Uppsetningartengill:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Setja upp staðbundið"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Næsta mynd"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Nei"
 
@@ -833,6 +839,10 @@ msgstr "Ekkert"
 msgid "Normal"
 msgstr "Venjulegt"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Ekki stillt"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Athugaðu nettenginguna og reyndu aftur."
 msgid "Please enter an app name"
 msgstr "Sláðu inn heiti forrits"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Veldu skrá"
 
@@ -1025,6 +1035,7 @@ msgstr "Raðir á síðu"
 msgid "Saturday"
 msgstr "Laugardagur"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Vista"
@@ -1315,11 +1326,11 @@ msgstr "Bandaríkin"
 msgid "Unverified"
 msgstr "Óstaðfest"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Uppfæra rásir"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Hlaða upp .zip-byggingarskrá fyrir forritið þitt."
 
@@ -1327,11 +1338,11 @@ msgstr "Hlaða upp .zip-byggingarskrá fyrir forritið þitt."
 msgid "Upload new version"
 msgstr "Hlaða upp nýrri útgáfu"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Hlaða upp nýrri útgáfu"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Hlaða upp útgáfu"
 
@@ -1339,7 +1350,7 @@ msgstr "Hlaða upp útgáfu"
 msgid "Upload your first build to get started"
 msgstr "Hladdu upp fyrstu byggingunni þinni til að hefjast handa"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Hleð upp..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Sannprófa netfang"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Útgáfa {0} hefur verið búin til."
 
@@ -1386,7 +1397,7 @@ msgstr "Útgáfa {0} hefur verið búin til."
 msgid "Version History"
 msgstr "Útgáfusaga"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Útgáfu hlaðið upp"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Miðvikudagur"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Já"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Já, þvinga"
 

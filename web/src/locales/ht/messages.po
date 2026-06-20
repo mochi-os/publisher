@@ -94,7 +94,8 @@ msgstr "Ajoute ekip/app"
 msgid "Add to existing notifications"
 msgstr "Ajoute nan notifikasyon ki egziste"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Ajoute vi"
 
@@ -181,7 +182,7 @@ msgstr "Tounen lakay"
 msgid "Boost interest"
 msgstr "Ogmante enterè"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Fichye Build (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Fichye Build (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Anile"
 
@@ -284,8 +286,8 @@ msgstr "Vini Talè!"
 msgid "Compact"
 msgstr "Konpak"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Konfime"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Kreye nouvo app"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Kreye track"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Kreye premye track Release ou pou jere deplwaman"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Ap kreye..."
 
@@ -460,6 +462,10 @@ msgstr "Adapte pou disleksi"
 msgid "e.g. Staging"
 msgstr "pa egzanp Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Modifye {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "Kòd imèl"
@@ -520,7 +526,7 @@ msgstr "Echwe pou mete ajou distribisyon"
 msgid "Failed to update track"
 msgstr "Echwe pou mete ajou track"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Echwe pou telechaje vèsyon"
 
@@ -627,7 +633,7 @@ msgstr "Enstale App"
 msgid "Install link:"
 msgstr "Lyen enstalasyon :"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Enstale Lokalman"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Pwochen imaj"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Non"
 
@@ -833,6 +839,10 @@ msgstr "Okenn"
 msgid "Normal"
 msgstr "Nòmal"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Pa defini"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Tanpri tcheke koneksyon entènèt ou epi eseye ankò."
 msgid "Please enter an app name"
 msgstr "Tanpri antre yon non aplikasyon"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Tanpri chwazi yon fichye"
 
@@ -1025,6 +1035,7 @@ msgstr "Ranje pa paj"
 msgid "Saturday"
 msgstr "Samdi"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Sove"
@@ -1315,11 +1326,11 @@ msgstr "Etazini"
 msgid "Unverified"
 msgstr "Pa verifye"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Mete ajou Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Telechaje yon fichye .zip Build pou aplikasyon w lan."
 
@@ -1327,11 +1338,11 @@ msgstr "Telechaje yon fichye .zip Build pou aplikasyon w lan."
 msgid "Upload new version"
 msgstr "Telechaje nouvo vèsyon"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Telechaje Nouvo Vèsyon"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Telechaje vèsyon"
 
@@ -1339,7 +1350,7 @@ msgstr "Telechaje vèsyon"
 msgid "Upload your first build to get started"
 msgstr "Telechaje premye Build w pou kòmanse"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Ap telechaje..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Verifye adrès imèl"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Vèsyon {0} kreye."
 
@@ -1386,7 +1397,7 @@ msgstr "Vèsyon {0} kreye."
 msgid "Version History"
 msgstr "Istwa Vèsyon"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Vèsyon telechaje"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Mèkredi"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Wi"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Wi, fòse"
 

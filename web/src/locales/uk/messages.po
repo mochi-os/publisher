@@ -94,7 +94,8 @@ msgstr "Додати команду/застосунок"
 msgid "Add to existing notifications"
 msgstr "Додати до наявних сповіщень"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Додати подання"
 
@@ -181,7 +182,7 @@ msgstr "На головну"
 msgid "Boost interest"
 msgstr "Підвищити інтерес"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Файл збірки (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Файл збірки (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -284,8 +286,8 @@ msgstr "Скоро!"
 msgid "Compact"
 msgstr "Компактний"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Підтвердити"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Створити новий застосунок"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Створити трек"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Створіть свій перший release track для керування деплоями"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Створення..."
 
@@ -460,6 +462,10 @@ msgstr "Підходить при дислексії"
 msgid "e.g. Staging"
 msgstr "напр. Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Редагувати {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "Код електронної пошти"
@@ -520,7 +526,7 @@ msgstr "Не вдалося оновити розповсюдження"
 msgid "Failed to update track"
 msgstr "Не вдалося оновити канал"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Не вдалося завантажити версію"
 
@@ -627,7 +633,7 @@ msgstr "Встановити застосунок"
 msgid "Install link:"
 msgstr "Посилання для встановлення:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Встановити локально"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Наступне зображення"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Ні"
 
@@ -833,6 +839,10 @@ msgstr "Немає"
 msgid "Normal"
 msgstr "Звичайний"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Не встановлено"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Будь ласка, перевірте підключення до Ін
 msgid "Please enter an app name"
 msgstr "Будь ласка, введіть назву додатку"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Будь ласка, виберіть файл"
 
@@ -1025,6 +1035,7 @@ msgstr "Рядків на сторінку"
 msgid "Saturday"
 msgstr "Субота"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Зберегти"
@@ -1315,11 +1326,11 @@ msgstr "Сполучені Штати"
 msgid "Unverified"
 msgstr "Не перевірено"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Оновити треки"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Завантажте файл збірки .zip для вашого застосунку."
 
@@ -1327,11 +1338,11 @@ msgstr "Завантажте файл збірки .zip для вашого за
 msgid "Upload new version"
 msgstr "Завантажити нову версію"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Завантажити нову версію"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Завантажити версію"
 
@@ -1339,7 +1350,7 @@ msgstr "Завантажити версію"
 msgid "Upload your first build to get started"
 msgstr "Завантажте першу збірку, щоб розпочати"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Завантаження..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Підтвердити електронну адресу"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Версію {0} створено."
 
@@ -1386,7 +1397,7 @@ msgstr "Версію {0} створено."
 msgid "Version History"
 msgstr "Історія версій"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Версію завантажено"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Середа"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Так"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Так, примусово"
 

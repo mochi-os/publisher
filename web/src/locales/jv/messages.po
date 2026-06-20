@@ -94,7 +94,8 @@ msgstr "Tambah tim/app"
 msgid "Add to existing notifications"
 msgstr "Tambah menyang pemberitahuan sing wis ana"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Tambah tampilan"
 
@@ -181,7 +182,7 @@ msgstr "Mulih menyang ngarep"
 msgid "Boost interest"
 msgstr "Tambah minat"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Berkas Build (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Berkas Build (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Batal"
 
@@ -284,8 +286,8 @@ msgstr "Bakal Teka!"
 msgid "Compact"
 msgstr "Ringkes"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Konfirmasi"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Gawé app anyar"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Gawé track"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Gawé Release track pertama kanggo ngatur deployment"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Nggawé..."
 
@@ -460,6 +462,10 @@ msgstr "Cocok kanggo disleksia"
 msgid "e.g. Staging"
 msgstr "cth. Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Sunting {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "Kode email"
@@ -520,7 +526,7 @@ msgstr "Gagal nganyari distribusi"
 msgid "Failed to update track"
 msgstr "Gagal nganyari track"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Gagal ngunggah versi"
 
@@ -627,7 +633,7 @@ msgstr "Instal App"
 msgid "Install link:"
 msgstr "Tautan instal:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Instal Lokal"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Gambar sabanjure"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Ora"
 
@@ -833,6 +839,10 @@ msgstr "Ora ana"
 msgid "Normal"
 msgstr "Biasa"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Ora disetel"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Mangga priksa sambungan internet sampeyan lan coba maneh."
 msgid "Please enter an app name"
 msgstr "Mangga lebokaké jeneng app"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Mangga pilih file"
 
@@ -1025,6 +1035,7 @@ msgstr "Baris saben kaca"
 msgid "Saturday"
 msgstr "Setu"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Simpen"
@@ -1315,11 +1326,11 @@ msgstr "Amerika Serikat"
 msgid "Unverified"
 msgstr "Durung diverifikasi"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Update Track"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Unggah file build .zip kanggo aplikasimu."
 
@@ -1327,11 +1338,11 @@ msgstr "Unggah file build .zip kanggo aplikasimu."
 msgid "Upload new version"
 msgstr "Unggah versi anyar"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Unggah Versi Anyar"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Unggah versi"
 
@@ -1339,7 +1350,7 @@ msgstr "Unggah versi"
 msgid "Upload your first build to get started"
 msgstr "Unggah build pisananmu kanggo miwiti"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Lagi ngunggah..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Verifikasi alamat email"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Versi {0} wis digawe."
 
@@ -1386,7 +1397,7 @@ msgstr "Versi {0} wis digawe."
 msgid "Version History"
 msgstr "Riwayat Versi"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Versi diunggah"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Rebo"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Iya"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Iya, paksa"
 

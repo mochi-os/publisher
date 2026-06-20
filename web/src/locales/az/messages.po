@@ -94,7 +94,8 @@ msgstr "Komanda/tətbiq əlavə et"
 msgid "Add to existing notifications"
 msgstr "Mövcud bildirişlərə əlavə et"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Görünüş əlavə et"
 
@@ -181,7 +182,7 @@ msgstr "Ana səhifəyə qayıt"
 msgid "Boost interest"
 msgstr "Marağı artır"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Build faylı (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Build faylı (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Ləğv et"
 
@@ -284,8 +286,8 @@ msgstr "Tezliklə!"
 msgid "Compact"
 msgstr "Kompakt"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Təsdiqlə"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Yeni tətbiq yarat"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Track yarat"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Yerləşdirmələri idarə etmək üçün ilk Release Track-inizi yaradın"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Yaradılır..."
 
@@ -460,6 +462,10 @@ msgstr "Disleksiya üçün uyğun"
 msgid "e.g. Staging"
 msgstr "məs., Feedly, NewsBlur"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "{label} redaktə et"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "E-poçt kodu"
@@ -520,7 +526,7 @@ msgstr "Paylanmanı yeniləmək alınmadı"
 msgid "Failed to update track"
 msgstr "İzi yeniləmək alınmadı"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Versiyanı yükləmək alınmadı"
 
@@ -627,7 +633,7 @@ msgstr "Tətbiqi quraşdır"
 msgid "Install link:"
 msgstr "Quraşdırma linki:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Yerli olaraq quraşdır"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Növbəti şəkil"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Xeyr"
 
@@ -833,6 +839,10 @@ msgstr "Heç biri"
 msgid "Normal"
 msgstr "Normal"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Təyin edilməyib"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "İnternet bağlantınızı yoxlayıb yenidən cəhd edin."
 msgid "Please enter an app name"
 msgstr "Tətbiq adını daxil edin"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Fayl seçin"
 
@@ -1025,6 +1035,7 @@ msgstr "Səhifə başına sətir"
 msgid "Saturday"
 msgstr "Şənbə"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Saxla"
@@ -1315,11 +1326,11 @@ msgstr "Naməlum"
 msgid "Unverified"
 msgstr "İzləri yenilə"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Yeniləmə uğursuz oldu"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Avatar yüklə"
 
@@ -1327,11 +1338,11 @@ msgstr "Avatar yüklə"
 msgid "Upload new version"
 msgstr "Başlamaq üçün ilk build-inizi yükləyin"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Tətbiqiniz üçün .zip build faylı yükləyin."
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Versiyanı yüklə"
 
@@ -1339,7 +1350,7 @@ msgstr "Versiyanı yüklə"
 msgid "Upload your first build to get started"
 msgstr "{uploading} yüklənir..."
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Joker domenlər üçün *.domain.com istifadə edin"
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Versiya"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Bax"
 
@@ -1386,7 +1397,7 @@ msgstr "Bax"
 msgid "Version History"
 msgstr "Versiya dəyişdirildi"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Versiya {0} yaradıldı."
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Digər wiki-lər bu wiki-ni replikasiya etdikdə burada görünəcəklər."
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Siz"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Bu dostla artıq söhbətiniz var"
 

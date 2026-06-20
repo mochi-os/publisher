@@ -94,7 +94,8 @@ msgstr "Lisa meeskond/rakendus"
 msgid "Add to existing notifications"
 msgstr "Lisa olemasolevatele teavitustele"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Lisa vaade"
 
@@ -181,7 +182,7 @@ msgstr "Tagasi avalehele"
 msgid "Boost interest"
 msgstr "Tõsta huvi"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Build fail (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Build fail (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Tühista"
 
@@ -284,8 +286,8 @@ msgstr "Tulekul!"
 msgid "Compact"
 msgstr "Kompaktne"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Kinnita"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Loo uus rakendus"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Loo Track"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Loo oma esimene Release Track juurutuste haldamiseks"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Loomine..."
 
@@ -460,6 +462,10 @@ msgstr "Düsleksiasõbralik"
 msgid "e.g. Staging"
 msgstr "nt Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Muuda {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "E-posti kood"
@@ -520,7 +526,7 @@ msgstr "Levitamise värskendamine ebaõnnestus"
 msgid "Failed to update track"
 msgstr "Raja värskendamine ebaõnnestus"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Versiooni üleslaadimine ebaõnnestus"
 
@@ -627,7 +633,7 @@ msgstr "Paigalda rakendus"
 msgid "Install link:"
 msgstr "Paigaldamise link:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Paigalda kohapeal"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Järgmine pilt"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Ei"
 
@@ -833,6 +839,10 @@ msgstr "Puudub"
 msgid "Normal"
 msgstr "Tavaline"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Pole määratud"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Kontrolli internetiühendust ja proovi uuesti."
 msgid "Please enter an app name"
 msgstr "Palun sisesta rakenduse nimi"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Palun vali fail"
 
@@ -1025,6 +1035,7 @@ msgstr "Ridu lehel"
 msgid "Saturday"
 msgstr "Laupäev"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Salvesta"
@@ -1315,11 +1326,11 @@ msgstr "Ameerika Ühendriigid"
 msgid "Unverified"
 msgstr "Kontrollimata"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Uuenda Tracke"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Lae üles oma rakenduse .zip Build fail."
 
@@ -1327,11 +1338,11 @@ msgstr "Lae üles oma rakenduse .zip Build fail."
 msgid "Upload new version"
 msgstr "Lae üles uus versioon"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Lae üles uus versioon"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Laadi versioon üles"
 
@@ -1339,7 +1350,7 @@ msgstr "Laadi versioon üles"
 msgid "Upload your first build to get started"
 msgstr "Lae üles oma esimene Build, et alustada"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Laadin üles..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Kontrolli e-posti aadressi"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Versioon {0} on loodud."
 
@@ -1386,7 +1397,7 @@ msgstr "Versioon {0} on loodud."
 msgid "Version History"
 msgstr "Versiooniajalugu"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Versioon üles laetud"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Kolmapäev"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Jah"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Jah, sundi"
 

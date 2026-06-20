@@ -94,7 +94,8 @@ msgstr "Engadir equipo/aplicación"
 msgid "Add to existing notifications"
 msgstr "Engadir ás notificacións existentes"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Engadir vista"
 
@@ -181,7 +182,7 @@ msgstr "Volver ao inicio"
 msgid "Boost interest"
 msgstr "Impulsar interese"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Ficheiro de Build (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Ficheiro de Build (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -284,8 +286,8 @@ msgstr "Próximamente!"
 msgid "Compact"
 msgstr "Compacto"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Confirmar"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Crear nova aplicación"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Crear pista"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Crea a túa primeira pista de Release para xestionar despregamentos"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Creando..."
 
@@ -460,6 +462,10 @@ msgstr "Apto para dislexia"
 msgid "e.g. Staging"
 msgstr "p. ex. Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Editar {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "Código por correo"
@@ -520,7 +526,7 @@ msgstr "Non se puido actualizar a distribución"
 msgid "Failed to update track"
 msgstr "Non se puido actualizar a canle"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Non se puido subir a versión"
 
@@ -627,7 +633,7 @@ msgstr "Instalar aplicación"
 msgid "Install link:"
 msgstr "Ligazón de instalación:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Instalar localmente"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Imaxe seguinte"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Non"
 
@@ -833,6 +839,10 @@ msgstr "Ningún"
 msgid "Normal"
 msgstr "Normal"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Non definido"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Comproba a túa conexión a internet e téntao de novo."
 msgid "Please enter an app name"
 msgstr "Introduce un nome de aplicación"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Selecciona un ficheiro"
 
@@ -1025,6 +1035,7 @@ msgstr "Filas por páxina"
 msgid "Saturday"
 msgstr "Sábado"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Gardar"
@@ -1315,11 +1326,11 @@ msgstr "Estados Unidos"
 msgid "Unverified"
 msgstr "Non verificado"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Actualizar Vías"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Carga un ficheiro .zip de compilación para a túa aplicación."
 
@@ -1327,11 +1338,11 @@ msgstr "Carga un ficheiro .zip de compilación para a túa aplicación."
 msgid "Upload new version"
 msgstr "Cargar nova versión"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Cargar Nova Versión"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Subir versión"
 
@@ -1339,7 +1350,7 @@ msgstr "Subir versión"
 msgid "Upload your first build to get started"
 msgstr "Carga a túa primeira compilación para comezar"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Cargando..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Verificar enderezo de correo electrónico"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "A versión {0} foi creada."
 
@@ -1386,7 +1397,7 @@ msgstr "A versión {0} foi creada."
 msgid "Version History"
 msgstr "Historial de Versións"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Versión cargada"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Mércores"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Si"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Si, forzar"
 

@@ -94,7 +94,8 @@ msgstr "Ƙara ƙungiya/app"
 msgid "Add to existing notifications"
 msgstr "Ƙara cikin sanarwar da ake da ita"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Ƙara view"
 
@@ -181,7 +182,7 @@ msgstr "Komawa gida"
 msgid "Boost interest"
 msgstr "Ƙara sha'awa"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Fayil ɗin gini (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Fayil ɗin gini (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Soke"
 
@@ -284,8 +286,8 @@ msgstr "Yana zuwa nan ba da daɗewa ba!"
 msgid "Compact"
 msgstr "Ƙanƙane"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Tabbatar"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Ƙirƙira sabon app"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Ƙirƙira track"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Ƙirƙira release track ɗinka na farko don sarrafa deployments"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Ana ƙirƙira..."
 
@@ -460,6 +462,10 @@ msgstr "Mai dacewa da rashin karatu"
 msgid "e.g. Staging"
 msgstr "misali Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Gyara {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "Lambar imel"
@@ -520,7 +526,7 @@ msgstr "An gaza sabunta distribution"
 msgid "Failed to update track"
 msgstr "An gaza sabunta track"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "An gaza upload version"
 
@@ -627,7 +633,7 @@ msgstr "Shigar da App"
 msgid "Install link:"
 msgstr "Link na shigarwa:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Shigar a gida"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Hoton na gaba"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "A'a"
 
@@ -833,6 +839,10 @@ msgstr "Babu"
 msgid "Normal"
 msgstr "Na al'ada"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Ba a saita ba"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Da fatan a duba haɗin intanet ɗinka sannan a sake gwadawa."
 msgid "Please enter an app name"
 msgstr "Da fatan shigar da sunan app"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Da fatan zaɓi fayil"
 
@@ -1025,6 +1035,7 @@ msgstr "Layuka kowane shafi"
 msgid "Saturday"
 msgstr "Asabar"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Adana"
@@ -1315,11 +1326,11 @@ msgstr "Amurka"
 msgid "Unverified"
 msgstr "Ba a tabbatar ba"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Sabunta Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Loda fayil ɗin .zip build don aikace-aikacenku."
 
@@ -1327,11 +1338,11 @@ msgstr "Loda fayil ɗin .zip build don aikace-aikacenku."
 msgid "Upload new version"
 msgstr "Loda sabuwar sigar"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Loda Sabuwar Sigar"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Tayar da version"
 
@@ -1339,7 +1350,7 @@ msgstr "Tayar da version"
 msgid "Upload your first build to get started"
 msgstr "Loda buildɗinka na farko don farawa"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Ana lodawa..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Tabbatar da adireshin imel"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "An ƙirƙira sigar {0}."
 
@@ -1386,7 +1397,7 @@ msgstr "An ƙirƙira sigar {0}."
 msgid "Version History"
 msgstr "Tarihin Sigar"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "An loda sigar"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Laraba"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Ee"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Ee, tilasta"
 

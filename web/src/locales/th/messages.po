@@ -94,7 +94,8 @@ msgstr "เพิ่มทีม/แอป"
 msgid "Add to existing notifications"
 msgstr "เพิ่มไปยังการแจ้งเตือนที่มีอยู่"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "เพิ่มมุมมอง"
 
@@ -181,7 +182,7 @@ msgstr "กลับไปหน้าหลัก"
 msgid "Boost interest"
 msgstr "เพิ่มความสนใจ"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "ไฟล์บิวด์ (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "ไฟล์บิวด์ (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "ยกเลิก"
 
@@ -284,8 +286,8 @@ msgstr "เร็วๆนี้!"
 msgid "Compact"
 msgstr "กะทัดรัด"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "ยืนยัน"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "สร้างแอปใหม่"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "สร้าง track"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "สร้าง release track แรกเพื่อจัดการการติดตั้ง"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "กำลังสร้าง..."
 
@@ -460,6 +462,10 @@ msgstr "เหมาะสำหรับผู้บกพร่องการ
 msgid "e.g. Staging"
 msgstr "เช่น Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "แก้ไข {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "รหัสอีเมล"
@@ -520,7 +526,7 @@ msgstr "ไม่สามารถอัปเดตการจัดจำห
 msgid "Failed to update track"
 msgstr "ไม่สามารถอัปเดตแทร็กได้"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "ไม่สามารถอัปโหลดเวอร์ชันได้"
 
@@ -627,7 +633,7 @@ msgstr "ติดตั้งแอป"
 msgid "Install link:"
 msgstr "ลิงก์ติดตั้ง:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "ติดตั้งในเครื่อง"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "รูปถัดไป"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "ไม่"
 
@@ -833,6 +839,10 @@ msgstr "ไม่มี"
 msgid "Normal"
 msgstr "ปกติ"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "ยังไม่ได้ตั้งค่า"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "โปรดตรวจสอบการเชื่อมต่ออ
 msgid "Please enter an app name"
 msgstr "กรุณาป้อนชื่อแอป"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "กรุณาเลือกไฟล์"
 
@@ -1025,6 +1035,7 @@ msgstr "แถวต่อหน้า"
 msgid "Saturday"
 msgstr "วันเสาร์"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "บันทึก"
@@ -1315,11 +1326,11 @@ msgstr "สหรัฐอเมริกา"
 msgid "Unverified"
 msgstr "ยังไม่ยืนยัน"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "อัปเดตแทร็ก"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "อัปโหลดไฟล์บิลด์ .zip สำหรับแอปพลิเคชันของคุณ"
 
@@ -1327,11 +1338,11 @@ msgstr "อัปโหลดไฟล์บิลด์ .zip สำหรับ
 msgid "Upload new version"
 msgstr "อัปโหลดเวอร์ชันใหม่"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "อัปโหลดเวอร์ชันใหม่"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "อัปโหลดเวอร์ชัน"
 
@@ -1339,7 +1350,7 @@ msgstr "อัปโหลดเวอร์ชัน"
 msgid "Upload your first build to get started"
 msgstr "อัปโหลดบิลด์แรกของคุณเพื่อเริ่มต้น"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "กำลังอัปโหลด..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "ยืนยันที่อยู่อีเมล"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "สร้างเวอร์ชัน {0} แล้ว"
 
@@ -1386,7 +1397,7 @@ msgstr "สร้างเวอร์ชัน {0} แล้ว"
 msgid "Version History"
 msgstr "ประวัติเวอร์ชัน"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "อัปโหลดเวอร์ชันแล้ว"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "วันพุธ"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "ใช่"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "ใช่ บังคับ"
 

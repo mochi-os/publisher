@@ -94,7 +94,8 @@ msgstr "Иловаи даста/барнома"
 msgid "Add to existing notifications"
 msgstr "Илова ба огоҳиномаҳои мавҷуда"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Иловаи намуд"
 
@@ -181,7 +182,7 @@ msgstr "Бозгашт ба саҳифаи асосӣ"
 msgid "Boost interest"
 msgstr "Афзоиши таваҷҷуҳ"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Файли Build (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Файли Build (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Бекор кардан"
 
@@ -284,8 +286,8 @@ msgstr "Ба наздикӣ!"
 msgid "Compact"
 msgstr "Паймон"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Тасдиқ"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Эҷоди барномаи нав"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Эҷоди track"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Аввалин Release Track-и худро эҷод кунед, то гузоришҳоро идора кунед"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Эҷод карда истодааст..."
 
@@ -460,6 +462,10 @@ msgstr "Барои дислексия мувофиқ"
 msgid "e.g. Staging"
 msgstr "масалан, Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "{label}-ро таҳрир кунед"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "Рамзи email"
@@ -520,7 +526,7 @@ msgstr "Навсозии тақсимот ба анҷом нарасид"
 msgid "Failed to update track"
 msgstr "Навсозии масир ба анҷом нарасид"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Боркунии нусха ба анҷом нарасид"
 
@@ -627,7 +633,7 @@ msgstr "Насби барнома"
 msgid "Install link:"
 msgstr "Пайванди насб:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Насб дар маҳаллӣ"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Тасвири навбатӣ"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Не"
 
@@ -833,6 +839,10 @@ msgstr "Ҳеҷ кадом"
 msgid "Normal"
 msgstr "Муқаррарӣ"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Танзим нашудааст"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Лутфан пайвасти интернети худро санҷед
 msgid "Please enter an app name"
 msgstr "Лутфан номи барномаро ворид кунед"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Лутфан файлеро интихоб кунед"
 
@@ -1025,6 +1035,7 @@ msgstr "Сатрҳо дар як саҳифа"
 msgid "Saturday"
 msgstr "Шанбе"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Захира"
@@ -1315,11 +1326,11 @@ msgstr "Иёлоти Муттаҳида"
 msgid "Unverified"
 msgstr "Тасдиқ нашудааст"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Навсозии Track-ҳо"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Файли .zip Build-и барномаи худро бор кунед."
 
@@ -1327,11 +1338,11 @@ msgstr "Файли .zip Build-и барномаи худро бор кунед."
 msgid "Upload new version"
 msgstr "Бор кардани версияи нав"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Бор кардани версияи нав"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Нусхаро бор кардан"
 
@@ -1339,7 +1350,7 @@ msgstr "Нусхаро бор кардан"
 msgid "Upload your first build to get started"
 msgstr "Барои оғоз Build-и аввалини худро бор кунед"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Бор шуда истодааст..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Тасдиқи суроғаи почтаи электронӣ"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Версияи {0} сохта шуд."
 
@@ -1386,7 +1397,7 @@ msgstr "Версияи {0} сохта шуд."
 msgid "Version History"
 msgstr "Таърихи версияҳо"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Версия бор карда шуд"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Чоршанбе"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Бале"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Бале, маҷбур"
 

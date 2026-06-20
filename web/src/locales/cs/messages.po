@@ -94,7 +94,8 @@ msgstr "Přidat tým/aplikaci"
 msgid "Add to existing notifications"
 msgstr "Přidat ke stávajícím oznámením"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:57
+#: ../../../lib/web/src/components/view-tabs.tsx:81
+#: ../../../lib/web/src/components/view-tabs.tsx:82
 msgid "Add view"
 msgstr "Přidat zobrazení"
 
@@ -181,7 +182,7 @@ msgstr "Zpět na úvod"
 msgid "Boost interest"
 msgstr "Zvýšit zájem"
 
-#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:679
 msgid "Build File (.zip)"
 msgstr "Soubor sestavení (.zip)"
 
@@ -189,13 +190,14 @@ msgstr "Soubor sestavení (.zip)"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:360
 #: ../../../lib/web/src/components/travelling-picker.tsx:292
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
 #: ../../../lib/web/src/features/access/access-dialog.tsx:325
 #: ../../../lib/web/src/features/access/access-list.tsx:255
 #: ../../../lib/web/src/features/accounts/account-add.tsx:185
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:86
 #: src/features/apps/index.tsx:208
 #: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Cancel"
 msgstr "Zrušit"
 
@@ -284,8 +286,8 @@ msgstr "Již brzy!"
 msgid "Compact"
 msgstr "Kompaktní"
 
-#: ../../../lib/web/src/components/place-picker.tsx:155
-#: ../../../lib/web/src/components/travelling-picker.tsx:299
+#: ../../../lib/web/src/components/place-picker.tsx:156
+#: ../../../lib/web/src/components/travelling-picker.tsx:300
 msgid "Confirm"
 msgstr "Potvrdit"
 
@@ -351,7 +353,7 @@ msgid "Create new app"
 msgstr "Vytvořit novou aplikaci"
 
 #: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Create track"
 msgstr "Vytvořit track"
 
@@ -364,7 +366,7 @@ msgid "Create your first release track to manage deployments"
 msgstr "Vytvořte si první release track pro správu nasazení"
 
 #: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "Creating..."
 msgstr "Vytváření..."
 
@@ -460,6 +462,10 @@ msgstr "Vhodné pro dyslexii"
 msgid "e.g. Staging"
 msgstr "např. Staging"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+msgid "Edit {label}"
+msgstr "Upravit {label}"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:286
 msgid "Email code"
 msgstr "E-mailový kód"
@@ -520,7 +526,7 @@ msgstr "Nepodařilo se aktualizovat distribuci"
 msgid "Failed to update track"
 msgstr "Nepodařilo se aktualizovat kanál"
 
-#: src/routes/_authenticated/app/$appId.tsx:659
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Failed to upload version"
 msgstr "Nepodařilo se nahrát verzi"
 
@@ -627,7 +633,7 @@ msgstr "Nainstalovat aplikaci"
 msgid "Install link:"
 msgstr "Odkaz pro instalaci:"
 
-#: src/routes/_authenticated/app/$appId.tsx:691
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Install Locally"
 msgstr "Nainstalovat lokálně"
 
@@ -766,7 +772,7 @@ msgid "Next image"
 msgstr "Další obrázek"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "No"
 msgstr "Ne"
 
@@ -833,6 +839,10 @@ msgstr "Žádné"
 msgid "Normal"
 msgstr "Normální"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+msgid "Not set"
+msgstr "Nenastaveno"
+
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:132
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:146
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:247
@@ -897,7 +907,7 @@ msgstr "Zkontrolujte připojení k internetu a zkuste to znovu."
 msgid "Please enter an app name"
 msgstr "Zadejte název aplikace"
 
-#: src/routes/_authenticated/app/$appId.tsx:635
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Vyberte soubor"
 
@@ -1025,6 +1035,7 @@ msgstr "Řádků na stránku"
 msgid "Saturday"
 msgstr "Sobota"
 
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
 #: ../../../lib/web/src/components/ui/secret-field.tsx:74
 msgid "Save"
 msgstr "Uložit"
@@ -1315,11 +1326,11 @@ msgstr "Spojené státy"
 msgid "Unverified"
 msgstr "Neověřeno"
 
-#: src/routes/_authenticated/app/$appId.tsx:707
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Update Tracks"
 msgstr "Aktualizovat větve"
 
-#: src/routes/_authenticated/app/$appId.tsx:671
+#: src/routes/_authenticated/app/$appId.tsx:672
 msgid "Upload a .zip build file for your application."
 msgstr "Nahrajte soubor .zip s buildem vaší aplikace."
 
@@ -1327,11 +1338,11 @@ msgstr "Nahrajte soubor .zip s buildem vaší aplikace."
 msgid "Upload new version"
 msgstr "Nahrát novou verzi"
 
-#: src/routes/_authenticated/app/$appId.tsx:669
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Upload New Version"
 msgstr "Nahrát novou verzi"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Upload version"
 msgstr "Nahrát verzi"
 
@@ -1339,7 +1350,7 @@ msgstr "Nahrát verzi"
 msgid "Upload your first build to get started"
 msgstr "Pro začátek nahrajte svůj první build"
 
-#: src/routes/_authenticated/app/$appId.tsx:733
+#: src/routes/_authenticated/app/$appId.tsx:735
 msgid "Uploading..."
 msgstr "Nahrává se..."
 
@@ -1378,7 +1389,7 @@ msgid "Verify email address"
 msgstr "Ověřit e-mailovou adresu"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:648
 msgid "Version {0} has been created."
 msgstr "Verze {0} byla vytvořena."
 
@@ -1386,7 +1397,7 @@ msgstr "Verze {0} byla vytvořena."
 msgid "Version History"
 msgstr "Historie verzí"
 
-#: src/routes/_authenticated/app/$appId.tsx:646
+#: src/routes/_authenticated/app/$appId.tsx:647
 msgid "Version uploaded"
 msgstr "Verze nahrána"
 
@@ -1419,11 +1430,11 @@ msgid "Wednesday"
 msgstr "Středa"
 
 #: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:699
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Yes"
 msgstr "Ano"
 
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Yes, force"
 msgstr "Ano, vynutit"
 
