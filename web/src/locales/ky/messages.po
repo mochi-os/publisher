@@ -454,7 +454,7 @@ msgstr "Таркатуу {distribution} катары коюлду"
 msgid "Download"
 msgstr "Жүктөп алуу"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:134
+#: ../../../lib/web/src/lib/preference-utils.ts:143
 msgid "Dyslexia-friendly"
 msgstr "Дислексияга ыңгайлуу"
 
@@ -482,7 +482,7 @@ msgstr "Authenticator кодун киргизиңиз"
 msgid "Expand sidebar"
 msgstr "Каптал тилкесин жайылтуу"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:124
+#: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Extra large"
 msgstr "Өтө чоң"
 
@@ -539,6 +539,10 @@ msgstr "Манжа изи"
 msgid "Finish moving your account"
 msgstr "Аккаунтуңузду көчүрүүнү аяктаңыз"
 
+#: ../../../lib/web/src/lib/preference-utils.ts:113
+msgid "Flat"
+msgstr "Жалпак"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:244
 msgid "Floating"
 msgstr "Калкып жүргөн"
@@ -554,8 +558,9 @@ msgstr "Кимден"
 #: ../../../lib/web/src/lib/preference-utils.ts:91
 #: ../../../lib/web/src/lib/preference-utils.ts:101
 #: ../../../lib/web/src/lib/preference-utils.ts:112
-#: ../../../lib/web/src/lib/preference-utils.ts:120
-#: ../../../lib/web/src/lib/preference-utils.ts:131
+#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:129
+#: ../../../lib/web/src/lib/preference-utils.ts:140
 msgid "From theme"
 msgstr "Темадан"
 
@@ -650,7 +655,7 @@ msgid "Invalid verification code"
 msgstr "Жараксыз текшерүү коду"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:105
-#: ../../../lib/web/src/lib/preference-utils.ts:123
+#: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "Large"
 msgstr "Чоң"
 
@@ -831,11 +836,11 @@ msgstr "Версиялар жок"
 
 #: ../../../lib/web/src/components/person-picker.tsx:349
 #: ../../../lib/web/src/lib/preference-utils.ts:102
-#: ../../../lib/web/src/lib/preference-utils.ts:113
+#: ../../../lib/web/src/lib/preference-utils.ts:122
 msgid "None"
 msgstr "Эч кимиси"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:122
+#: ../../../lib/web/src/lib/preference-utils.ts:131
 msgid "Normal"
 msgstr "Кадимки"
 
@@ -949,6 +954,10 @@ msgstr "Жарыяланды"
 #: src/features/apps/index.tsx:46
 msgid "Publisher"
 msgstr "Жарыялоочу"
+
+#: ../../../lib/web/src/lib/preference-utils.ts:114
+msgid "Raised"
+msgstr "Көтөрүлгөн"
 
 #: ../../../lib/web/src/components/restore-banner.tsx:98
 msgid "Re-link your accounts on this server"
@@ -1110,7 +1119,7 @@ msgstr "Кайра жөнөтүү"
 msgid "Send email"
 msgstr "Электрондук почта жөнөтүү"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:133
+#: ../../../lib/web/src/lib/preference-utils.ts:142
 msgid "Serif"
 msgstr "Серифтүү"
 
@@ -1169,7 +1178,7 @@ msgid "Skip to Main"
 msgstr "Башкыга өтүү"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:103
-#: ../../../lib/web/src/lib/preference-utils.ts:121
+#: ../../../lib/web/src/lib/preference-utils.ts:130
 msgid "Small"
 msgstr "Кичине"
 
@@ -1191,7 +1200,7 @@ msgstr "Жекшемби"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:195
 #: ../../../lib/web/src/lib/preference-utils.ts:18
-#: ../../../lib/web/src/lib/preference-utils.ts:132
+#: ../../../lib/web/src/lib/preference-utils.ts:141
 msgid "System"
 msgstr "Системалык"
 
