@@ -1,5 +1,8 @@
 # Mochi App publisher app
-# Copyright Alistair Cunningham 2025-2026
+# Copyright © 2026 Mochi OÜ
+# SPDX-License-Identifier: AGPL-3.0-only
+# This file is part of Mochi, licensed under the GNU AGPL v3 with the
+# Mochi Application Interface Exception - see license.txt and license-exception.md.
 
 # Compare two dotted version strings numerically (e.g. "1.11" > "1.9"), mirroring
 # the core version_greater() comparator, which Starlark cannot call directly.
