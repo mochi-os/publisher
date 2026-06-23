@@ -2,7 +2,7 @@
 // Copyright © 2026 Mochi OÜ
 
 {
-	"version": "2.36",
+	"version": "2.37",
 	"label": "app.name",
 	"paths": ["publisher"],
 	"services": ["publisher"],
@@ -30,6 +30,7 @@
 		"app/:app": {"file": "web/dist/index.html", "public": true},
 		"-/view": {"function": "action_view", "public": true},
 		"-/create": {"function": "action_create"},
+		"-/prune": {"function": "action_prune"},
 		":app/-/version/create": {"function": "action_version_create"},
 		":app/-/track/create": {"function": "action_track_create"},
 		":app/-/track/set": {"function": "action_track_set"},

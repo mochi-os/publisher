@@ -19,6 +19,51 @@ def version_greater(a, b):
 			return False
 	return False
 
+# Number of most-recent versions to retain per app, regardless of track. Any
+# version a track points at is always kept as well; everything older is pruned
+# so the release archive stays bounded. Pruning runs on each upload and can be
+# applied to the whole backlog via action_prune.
+version_retention = 5
+
+# prune_versions removes an app's release versions that are neither pointed at by
+# a track nor among the most-recent version_retention. Deletes go through
+# mochi.file.delete / mochi.db.execute so they journal and replicate to every
+# host in the user's set; a raw filesystem/sqlite delete would be reverted on the
+# next resync. Returns the number of versions pruned.
+def prune_versions(app_id):
+	rows = mochi.db.rows("select version, file from versions where app=?", app_id) or []
+	if len(rows) <= version_retention:
+		return 0
+
+	# Versions any track points at are always kept.
+	keep = {}
+	for t in mochi.db.rows("select version from tracks where app=? and version!=''", app_id) or []:
+		keep[t["version"]] = True
+
+	# Keep the most-recent version_retention versions by numeric order (the
+	# version column is text, so select the maxima with version_greater rather
+	# than sorting lexically).
+	remaining = list(rows)
+	for _ in range(version_retention):
+		if not remaining:
+			break
+		latest = remaining[0]
+		for r in remaining:
+			if version_greater(r["version"], latest["version"]):
+				latest = r
+		keep[latest["version"]] = True
+		remaining = [r for r in remaining if r["version"] != latest["version"]]
+
+	# Prune the rest: zip first, then the record.
+	pruned = 0
+	for r in rows:
+		if not keep.get(r["version"]):
+			if r["file"]:
+				mochi.file.delete(r["file"])
+			mochi.db.execute("delete from versions where app=? and version=?", app_id, r["version"])
+			pruned = pruned + 1
+	return pruned
+
 # Create database
 def database_create():
 	mochi.db.execute("create table apps ( id text not null primary key, name text not null, privacy text not null default 'public', default_track text not null default 'Production', distribution text not null default 'published' )")
@@ -183,7 +228,22 @@ def action_version_create(a):
 		if track:
 			mochi.db.execute("replace into tracks ( app, track, version ) values ( ?, ?, ? )", app["id"], track, version)
 
+	# Enforce the retention policy now that the new version is assigned to its
+	# tracks (so it is always in the keep-set).
+	prune_versions(app["id"])
+
 	return {"data": {"version": version, "app": app, "tracks": tracks}}
+
+# Apply the retention policy across every app in one pass (admin one-off for the
+# existing backlog; ongoing pruning happens automatically on each upload).
+def action_prune(a):
+	if not (a.user and a.user.role == "administrator"):
+		a.error.label(403, "errors.access_denied")
+		return
+	total = 0
+	for app in mochi.db.rows("select id from apps") or []:
+		total = total + prune_versions(app["id"])
+	return {"data": {"pruned": total}}
 
 # Create a new track
 def action_track_create(a):
