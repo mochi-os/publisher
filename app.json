@@ -2,7 +2,7 @@
 // Copyright © 2026 Mochi OÜ
 
 {
-	"version": "2.38",
+	"version": "2.39",
 	"label": "app.name",
 	"paths": ["publisher"],
 	"services": ["publisher"],
@@ -12,7 +12,7 @@
 	"execute": ["publisher.star"],
 
 	"database": {
-		"schema": 6,
+		"schema": 7,
 		"file": "publisher.db",
 		"create": {"function": "database_create"},
 		"upgrade": {"function": "database_upgrade"}

@@ -66,10 +66,10 @@ def prune_versions(app_id):
 
 # Create database
 def database_create():
-	mochi.db.execute("create table apps ( id text not null primary key, name text not null, privacy text not null default 'public', default_track text not null default 'Production', distribution text not null default 'published' )")
+	mochi.db.execute("create table apps ( id text not null primary key, name text not null, privacy text not null default 'public', default_track text not null default 'Production', distribution text not null default 'published', updated integer not null default 0 )")
 	mochi.db.execute("create table versions ( app references apps( id ), version text not null, file text not null, primary key ( app, version ) )")
 	mochi.db.execute("create index versions_file on versions( file )")
-	mochi.db.execute("create table tracks ( app references apps( id ), track text not null, version text not null, primary key ( app, track ) )")
+	mochi.db.execute("create table tracks ( app references apps( id ), track text not null, version text not null, updated integer not null default 0, primary key ( app, track ) )")
 
 # Upgrade database to specified schema version
 def database_upgrade(version):
@@ -85,6 +85,18 @@ def database_upgrade(version):
 		for app in mochi.db.rows("select id from apps where distribution='restricted'"):
 			if mochi.entity.get(app["id"]):
 				mochi.entity.update(app["id"], privacy="public")
+	if version == 7:
+		# Replication-safety (#84): LWW on the track-version pointer and the app
+		# distribution policy. Add an `updated` timestamp; the writes below become
+		# conditional `where updated <= ?` so the newest write wins identically on
+		# every host (converges) and a re-delivered op is an idempotent no-op,
+		# instead of bare last-arrival-wins that diverges across paired hosts.
+		apps_cols = [r["name"] for r in mochi.db.table("apps")]
+		if "updated" not in apps_cols:
+			mochi.db.execute("alter table apps add column updated integer not null default 0")
+		tracks_cols = [r["name"] for r in mochi.db.table("tracks")]
+		if "updated" not in tracks_cols:
+			mochi.db.execute("alter table tracks add column updated integer not null default 0")
 
 # List apps
 def action_list(a):
@@ -321,7 +333,8 @@ def action_track_set(a):
 		a.error.label(404, "errors.track_not_found")
 		return
 
-	mochi.db.execute("update tracks set version=? where app=? and track=?", version, id, track)
+	now = mochi.time.now()
+	mochi.db.execute("update tracks set version=?, updated=? where app=? and track=? and updated<=?", version, now, id, track, now)
 	return {"data": {"track": track, "version": version}}
 
 # Delete a track
@@ -491,5 +504,6 @@ def action_distribution_set(a):
 		a.error.label(400, "errors.invalid_distribution")
 		return
 
-	mochi.db.execute("update apps set distribution=? where id=?", distribution, id)
+	now = mochi.time.now()
+	mochi.db.execute("update apps set distribution=?, updated=? where id=? and updated<=?", distribution, now, id, now)
 	return {"data": {"distribution": distribution}}
