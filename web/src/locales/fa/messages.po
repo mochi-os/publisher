@@ -13,1440 +13,1517 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/features/apps/index.tsx:152
+#: src/features/apps/index.tsx:157
 msgid "{name} has been created successfully."
 msgstr "{name} با موفقیت ایجاد شد."
 
-#: ../../../lib/web/src/lib/preference-utils.ts:39
+#: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "۱۲ ساعت"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:38
+#: ../../../lib/web/src/lib/preference-utils.ts:41
 msgid "24 hours"
 msgstr "۲۴ ساعت"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:48
+#: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "مطلق (تاریخ و زمان)"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:13
+#: ../../../lib/web/src/features/errors/forbidden.tsx:16
 msgid "Access Forbidden"
 msgstr "دسترسی ممنوع"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:188
+#: ../../../lib/web/src/features/access/access-list.tsx:192
 msgid "Access level"
 msgstr "سطح دسترسی"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:208
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:216
 msgid "Account added"
 msgstr "حساب افزوده شد"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:224
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:232
 msgid "Account removed"
 msgstr "حساب حذف شد"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:123
+#: ../../../lib/web/src/features/accounts/account-add.tsx:126
 msgid "Account type"
 msgstr "نوع حساب"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:234
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:242
 msgid "Account verified"
 msgstr "حساب تأیید شد"
 
-#: src/routes/_authenticated/app/$appId.tsx:493
+#: src/routes/_authenticated/app/$appId.tsx:501
 msgid "Active version"
 msgstr "نسخهٔ فعال"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:193
+#: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "افزودن"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:117
+#: ../../../lib/web/src/features/accounts/account-add.tsx:120
 msgid "Add a new account"
 msgstr "افزودن حساب جدید"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:145
+#: ../../../lib/web/src/features/access/access-dialog.tsx:148
 msgid "Add access"
 msgstr "افزودن دسترسی"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:116
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:280
+#: ../../../lib/web/src/features/accounts/account-add.tsx:119
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:288
 msgid "Add account"
 msgstr "افزودن حساب"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:289
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "برای دریافت اعلان‌ها و استفاده از سرویس‌ها یک حساب اضافه کنید."
 
-#: ../../../lib/web/src/features/accounts/account-picker.tsx:98
+#: ../../../lib/web/src/features/accounts/account-picker.tsx:101
 msgid "Add new account"
 msgstr "افزودن حساب جدید"
 
-#: ../../../lib/web/src/components/post-tags.tsx:119
+#: ../../../lib/web/src/components/post-tags.tsx:129
 msgid "Add tag..."
 msgstr "افزودن برچسب..."
 
-#: ../../../lib/web/src/components/layout/team-switcher.tsx:80
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:83
 msgid "Add team/app"
 msgstr "افزودن تیم/برنامه"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:159
+#: ../../../lib/web/src/features/accounts/account-add.tsx:162
 msgid "Add to existing notifications"
 msgstr "افزودن به اعلان‌های موجود"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:81
-#: ../../../lib/web/src/components/view-tabs.tsx:82
+#: ../../../lib/web/src/components/view-tabs.tsx:87
+#: ../../../lib/web/src/components/view-tabs.tsx:93
 msgid "Add view"
 msgstr "افزودن نما"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:62
+#: ../../../lib/web/src/components/config-drawer.tsx:71
 msgid "Adjust the appearance and layout to suit your preferences."
 msgstr "ظاهر و چیدمان را مطابق سلیقهٔ خود تنظیم کنید."
 
-#: ../../../lib/web/src/components/ui/sort-selector.tsx:38
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:41
 msgid "AI"
 msgstr "هوش مصنوعی"
 
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:159
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:163
 msgid "All"
 msgstr "همه"
 
-#: src/routes/_authenticated/app/$appId.tsx:260
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "All uploaded build files for this application"
 msgstr "همهٔ فایل‌های Build بارگذاری‌شده برای این برنامه"
 
-#: ../../../lib/web/src/lib/api-client.ts:189
+#: ../../../lib/web/src/lib/api-client.ts:192
 msgid "An error occurred"
 msgstr "خطایی رخ داد"
 
-#: ../../../lib/web/src/lib/api-client.ts:252
+#: ../../../lib/web/src/lib/api-client.ts:255
 msgid "An unexpected error occurred"
 msgstr "خطای غیرمنتظره‌ای رخ داد"
 
-#: src/routes/_authenticated/app/$appId.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:134
 msgid "App"
 msgstr "برنامه"
 
-#: src/features/apps/index.tsx:151
+#: src/features/apps/index.tsx:156
 msgid "App created"
 msgstr "برنامه ساخته شد"
 
-#: src/routes/_authenticated/app/$appId.tsx:112
-#: src/routes/_authenticated/app/$appId.tsx:116
-#: src/routes/_authenticated/app/$appId.tsx:137
-#: src/routes/_authenticated/app/$appId.tsx:141
+#: src/routes/_authenticated/app/$appId.tsx:120
+#: src/routes/_authenticated/app/$appId.tsx:124
+#: src/routes/_authenticated/app/$appId.tsx:145
+#: src/routes/_authenticated/app/$appId.tsx:149
 msgid "App not found"
 msgstr "برنامه پیدا نشد"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
+#: src/routes/_authenticated/app/$appId.tsx:213
 msgid "Application ID"
 msgstr "شناسهٔ برنامه"
 
-#: ../../../lib/web/src/components/sign-out-dialog.tsx:24
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:27
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
 msgstr "آیا از خروج از حساب مطمئن هستید؟ برای دسترسی به حساب باید دوباره وارد شوید."
 
-#: ../../../lib/web/src/components/data-table/column-header.tsx:56
+#: ../../../lib/web/src/components/data-table/column-header.tsx:59
 msgid "Asc"
 msgstr "صعودی"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:312
+#: ../../../lib/web/src/components/ui/sort-direction-button.tsx:27
+msgid "Ascending"
+msgstr "صعودی"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:315
 msgid "Authenticator code"
 msgstr "کد احراز هویت"
 
-#: src/routes/_authenticated/app/$appId.tsx:364
+#: src/routes/_authenticated/app/$appId.tsx:372
 msgid "Available Versions"
 msgstr "نسخه‌های موجود"
 
-#: ../../../lib/web/src/components/place-picker.tsx:152
+#: ../../../lib/web/src/components/place-picker.tsx:155
 msgid "Back"
 msgstr "بازگشت"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
-#: src/routes/_authenticated/app/$appId.tsx:112
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:137
-#: src/routes/_authenticated/app/$appId.tsx:166
-#: src/routes/_authenticated/app/$appId.tsx:329
+#: src/routes/_authenticated/app/$appId.tsx:107
+#: src/routes/_authenticated/app/$appId.tsx:120
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:145
+#: src/routes/_authenticated/app/$appId.tsx:174
+#: src/routes/_authenticated/app/$appId.tsx:337
 msgid "Back to apps"
 msgstr "بازگشت به برنامه‌ها"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:23
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:23
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:23
+#: ../../../lib/web/src/features/errors/forbidden.tsx:26
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:26
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:26
 msgid "Back to home"
 msgstr "بازگشت به خانه"
 
-#: ../../../lib/web/src/components/post-tags.tsx:160
+#: ../../../lib/web/src/components/post-tags.tsx:172
+#: ../../../lib/web/src/components/post-tags.tsx:184
 msgid "Boost interest"
 msgstr "تقویت علاقه"
 
-#: src/routes/_authenticated/app/$appId.tsx:679
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Build File (.zip)"
 msgstr "فایل Build (.zip)"
 
-#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
-#: ../../../lib/web/src/components/step-up-dialog.tsx:360
-#: ../../../lib/web/src/components/travelling-picker.tsx:292
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
-#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
-#: ../../../lib/web/src/features/access/access-dialog.tsx:325
-#: ../../../lib/web/src/features/access/access-list.tsx:255
-#: ../../../lib/web/src/features/accounts/account-add.tsx:185
-#: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:731
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:67
+#: ../../../lib/web/src/components/step-up-dialog.tsx:363
+#: ../../../lib/web/src/components/travelling-picker.tsx:308
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:248
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:132
+#: ../../../lib/web/src/features/access/access-dialog.tsx:328
+#: ../../../lib/web/src/features/access/access-list.tsx:263
+#: ../../../lib/web/src/features/accounts/account-add.tsx:188
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:89
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:602
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Cancel"
 msgstr "لغو"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:144
 msgid "Category for this notification"
 msgstr "دستهٔ این اعلان"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:119
+#: ../../../lib/web/src/components/notification-category-button.tsx:125
+#: ../../../lib/web/src/components/notification-category-button.tsx:136
 msgid "Change notification category"
 msgstr "تغییر دستهٔ اعلان"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:315
+#: ../../../lib/web/src/components/config-drawer.tsx:328
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
 msgstr "بین حالت گسترده پیش‌فرض، فشرده فقط آیکن، یا حالت چیدمان کامل انتخاب کنید"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:257
+#: ../../../lib/web/src/components/config-drawer.tsx:270
 msgid "Choose between inset, floating, or standard sidebar layout"
 msgstr "بین چیدمان نوار کناری توکار، شناور یا استاندارد انتخاب کنید"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:358
+#: ../../../lib/web/src/components/config-drawer.tsx:371
 msgid "Choose between left-to-right or right-to-left site direction"
 msgstr "بین جهت چپ‌به‌راست یا راست‌به‌چپ سایت انتخاب کنید"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:213
+#: ../../../lib/web/src/components/config-drawer.tsx:226
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "بین ترجیح سیستم، حالت روشن یا حالت تیره انتخاب کنید"
 
-#: ../../../lib/web/src/components/language-picker.tsx:294
+#: ../../../lib/web/src/components/language-picker.tsx:300
+#: ../../../lib/web/src/components/language-picker.tsx:307
 msgid "Choose language"
 msgstr "انتخاب زبان"
 
-#: ../../../lib/web/src/components/colour-picker.tsx:268
-#: ../../../lib/web/src/components/colour-picker.tsx:349
+#: ../../../lib/web/src/components/colour-picker.tsx:269
+#: ../../../lib/web/src/components/colour-picker.tsx:350
+#: ../../../lib/web/src/components/travelling-picker.tsx:164
+#: ../../../lib/web/src/components/travelling-picker.tsx:170
+#: ../../../lib/web/src/components/travelling-picker.tsx:231
+#: ../../../lib/web/src/components/travelling-picker.tsx:237
 msgid "Clear"
 msgstr "پاک کردن"
 
-#: ../../../lib/web/src/components/filter-bar.tsx:64
+#: ../../../lib/web/src/components/filter-bar.tsx:73
 msgid "Clear all"
 msgstr "پاک کردن همه"
 
-#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:137
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:140
 msgid "Clear filters"
 msgstr "پاک کردن فیلترها"
 
-#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:164
-#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:167
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:171
 msgid "Clear selection"
 msgstr "پاک کردن انتخاب"
 
-#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:165
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
 msgid "Clear selection (Escape)"
 msgstr "پاک کردن انتخاب (Escape)"
 
-#: ../../../lib/web/src/components/ui/dialog.tsx:75
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:321
-#: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: ../../../lib/web/src/components/ui/dialog.tsx:78
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "بستن"
 
-#: ../../../lib/web/src/components/layout/app-sidebar.tsx:97
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:107
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:112
 msgid "Close navigation"
 msgstr "بستن منوی پیمایش"
 
-#: ../../../lib/web/src/components/layout/right-panel.tsx:254
+#: ../../../lib/web/src/components/layout/right-panel.tsx:265
+#: ../../../lib/web/src/components/layout/right-panel.tsx:268
 msgid "Close panel"
 msgstr "بستن پنل"
 
-#: ../../../lib/web/src/components/header-search.tsx:51
+#: ../../../lib/web/src/components/header-search.tsx:54
 msgid "Close search"
 msgstr "بستن جست‌وجو"
 
-#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+#: ../../../lib/web/src/components/comment-tree-layout.tsx:101
+#: ../../../lib/web/src/components/comment-tree-layout.tsx:110
+#: ../../../lib/web/src/components/tree-row.tsx:255
+#: ../../../lib/web/src/components/tree-row.tsx:269
+msgid "Collapse"
+msgstr "جمع کردن"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:39
 msgid "Collapse sidebar"
 msgstr "جمع کردن نوار کناری"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:93
+#: ../../../lib/web/src/lib/preference-utils.ts:96
 msgid "Comfortable"
 msgstr "راحت"
 
-#: ../../../lib/web/src/components/coming-soon.tsx:9
+#: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Coming Soon!"
 msgstr "به‌زودی!"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:302
-#: ../../../lib/web/src/lib/preference-utils.ts:92
+#: ../../../lib/web/src/components/config-drawer.tsx:315
+#: ../../../lib/web/src/lib/preference-utils.ts:95
 msgid "Compact"
 msgstr "فشرده"
 
-#: ../../../lib/web/src/components/place-picker.tsx:156
-#: ../../../lib/web/src/components/travelling-picker.tsx:300
+#: ../../../lib/web/src/components/place-picker.tsx:159
+#: ../../../lib/web/src/components/travelling-picker.tsx:316
 msgid "Confirm"
 msgstr "تأیید"
 
-#: ../../../lib/web/src/lib/query-client.ts:78
+#: ../../../lib/web/src/lib/query-client.ts:81
 msgid "Content not modified"
 msgstr "محتوا تغییری نکرده است"
 
-#: ../../../lib/web/src/components/layout/right-panel.tsx:145
+#: ../../../lib/web/src/components/layout/right-panel.tsx:149
 msgid "Contextual information and details."
 msgstr "اطلاعات زمینه‌ای و جزئیات."
 
-#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:72
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:75
 msgid "Continue"
 msgstr "ادامه"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:349
+#: ../../../lib/web/src/components/step-up-dialog.tsx:352
 msgid "Continue with {label}"
 msgstr "ادامه با {label}"
 
-#: ../../../lib/web/src/components/ui/copy-button.tsx:60
+#: ../../../lib/web/src/components/ui/copy-button.tsx:63
 msgid "Copy"
 msgstr "کپی"
 
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "این پیوند را کپی کرده و برای نصب آن در صفحه برنامه‌های سرور Mochi خود بچسبانید."
 
-#: src/routes/_authenticated/app/$appId.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:211
 msgid "Core identification for this application"
 msgstr "شناسایی اصلی این برنامه"
 
-#: ../../../lib/web/src/features/document/document-page.tsx:81
+#: ../../../lib/web/src/features/document/document-page.tsx:84
 msgid "Could not load this document. Please try again later."
 msgstr "بارگذاری این سند ممکن نشد. لطفاً بعداً دوباره تلاش کنید."
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:181
+#: ../../../lib/web/src/components/step-up-dialog.tsx:184
 msgid "Couldn't send the code. Please try again."
 msgstr "ارسال کد ممکن نشد. لطفاً دوباره تلاش کنید."
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:133
+#: ../../../lib/web/src/components/step-up-dialog.tsx:136
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "شروع احراز هویت مجدد ممکن نشد. لطفاً دوباره تلاش کنید."
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:218
+#: ../../../lib/web/src/components/step-up-dialog.tsx:221
 msgid "Couldn't verify with that account. Please try again."
 msgstr "تأیید با آن حساب ممکن نشد. لطفاً دوباره تلاش کنید."
 
-#: src/routes/_authenticated/app/$appId.tsx:552
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "یک محیط جدید (مثلاً Beta، Staging) برای استقرار Buildها بسازید."
 
-#: src/features/apps/index.tsx:50
-#: src/features/apps/index.tsx:51
 #: src/features/apps/index.tsx:55
-#: src/features/apps/index.tsx:82
-#: src/features/apps/index.tsx:171
-#: src/features/apps/index.tsx:211
+#: src/features/apps/index.tsx:56
+#: src/features/apps/index.tsx:60
+#: src/features/apps/index.tsx:87
+#: src/features/apps/index.tsx:176
+#: src/features/apps/index.tsx:216
 msgid "Create app"
 msgstr "ساخت برنامه"
 
-#: src/features/apps/index.tsx:169
+#: src/features/apps/index.tsx:174
 msgid "Create new app"
 msgstr "ساخت برنامهٔ جدید"
 
-#: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:596
+#: src/routes/_authenticated/app/$appId.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:609
 msgid "Create track"
 msgstr "ساخت track"
 
-#: src/features/apps/index.tsx:78
+#: src/features/apps/index.tsx:83
 msgid "Create your first app to get started"
 msgstr "برای شروع، اولین برنامهٔ خود را بسازید"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:484
 msgid "Create your first release track to manage deployments"
 msgstr "برای مدیریت استقرارها، اولین Release track خود را بسازید"
 
-#: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:596
+#: src/features/apps/index.tsx:216
+#: src/routes/_authenticated/app/$appId.tsx:609
 msgid "Creating..."
 msgstr "در حال ساخت..."
 
-#: ../../../lib/web/src/components/colour-picker.tsx:259
+#: ../../../lib/web/src/components/colour-picker.tsx:260
 msgid "Custom"
 msgstr "سفارشی"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:205
-#: ../../../lib/web/src/lib/preference-utils.ts:17
+#: ../../../lib/web/src/components/config-drawer.tsx:218
+#: ../../../lib/web/src/lib/preference-utils.ts:20
 msgid "Dark"
 msgstr "تیره"
 
-#: ../../../lib/web/src/components/layout/nav-user.tsx:88
-#: ../../../lib/web/src/components/layout/nav-user.tsx:151
-#: ../../../lib/web/src/components/layout/nav-user.tsx:202
-#: ../../../lib/web/src/components/profile-dropdown.tsx:84
-#: ../../../lib/web/src/components/profile-dropdown.tsx:120
+#: ../../../lib/web/src/components/layout/nav-user.tsx:91
+#: ../../../lib/web/src/components/layout/nav-user.tsx:154
+#: ../../../lib/web/src/components/layout/nav-user.tsx:205
+#: ../../../lib/web/src/components/profile-dropdown.tsx:87
+#: ../../../lib/web/src/components/profile-dropdown.tsx:123
 msgid "Dark mode"
 msgstr "حالت تیره"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:297
+#: ../../../lib/web/src/components/config-drawer.tsx:310
 msgid "Default"
 msgstr "پیش‌فرض"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:169
+#: ../../../lib/web/src/features/accounts/account-add.tsx:172
 msgid "Default AI account"
 msgstr "حساب پیش‌فرض هوش مصنوعی"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Default track set to \"{track}\""
 msgstr "Track پیش‌فرض روی «{track}» تنظیم شد"
 
-#: src/routes/_authenticated/app/$appId.tsx:531
+#: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Delete track"
 msgstr "حذف track"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:90
+#: ../../../lib/web/src/components/restore-banner.tsx:99
 msgid "Delete your account on the old server"
 msgstr "حساب کاربری خود را در سرور قدیمی حذف کنید"
 
-#: ../../../lib/web/src/components/data-table/column-header.tsx:60
+#: ../../../lib/web/src/components/data-table/column-header.tsx:63
 msgid "Desc"
 msgstr "نزولی"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: ../../../lib/web/src/components/ui/sort-direction-button.tsx:27
+msgid "Descending"
+msgstr "نزولی"
+
+#: src/routes/_authenticated/app/$appId.tsx:356
 msgid "Details"
 msgstr "جزئیات"
 
-#: ../../../lib/web/src/components/layout/right-panel.tsx:144
+#: ../../../lib/web/src/components/layout/right-panel.tsx:148
 msgid "Details Panel"
 msgstr "پنل جزئیات"
 
-#: ../../../lib/web/src/components/language-picker.tsx:272
-#: ../../../lib/web/src/components/timezone-select.tsx:43
-#: ../../../lib/web/src/components/timezone-select.tsx:80
-#: ../../../lib/web/src/lib/preference-utils.ts:25
-#: ../../../lib/web/src/lib/preference-utils.ts:37
-#: ../../../lib/web/src/lib/preference-utils.ts:55
-#: ../../../lib/web/src/lib/preference-utils.ts:69
-#: ../../../lib/web/src/lib/preference-utils.ts:81
+#: ../../../lib/web/src/components/language-picker.tsx:276
+#: ../../../lib/web/src/components/timezone-select.tsx:46
+#: ../../../lib/web/src/components/timezone-select.tsx:83
+#: ../../../lib/web/src/lib/preference-utils.ts:28
+#: ../../../lib/web/src/lib/preference-utils.ts:40
+#: ../../../lib/web/src/lib/preference-utils.ts:58
+#: ../../../lib/web/src/lib/preference-utils.ts:72
+#: ../../../lib/web/src/lib/preference-utils.ts:84
 msgid "Detect from web browser"
 msgstr "تشخیص از مرورگر وب"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:327
+#: ../../../lib/web/src/components/config-drawer.tsx:340
 msgid "Direction"
 msgstr "جهت"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:73
+#: ../../../lib/web/src/components/restore-banner.tsx:79
+#: ../../../lib/web/src/components/restore-banner.tsx:85
 msgid "Dismiss"
 msgstr "بستن"
 
-#: ../../../lib/web/src/components/ui/sidebar.tsx:235
+#: ../../../lib/web/src/components/ui/sidebar.tsx:238
 msgid "Displays the mobile sidebar."
 msgstr "نوار کناری موبایل را نمایش می‌دهد."
 
-#: src/routes/_authenticated/app/$appId.tsx:220
+#: src/routes/_authenticated/app/$appId.tsx:228
 msgid "Distribution"
 msgstr "توزیع"
 
-#: src/routes/_authenticated/app/$appId.tsx:75
+#: src/routes/_authenticated/app/$appId.tsx:83
 msgid "Distribution set to {distribution}"
 msgstr "توزیع روی {distribution} تنظیم شد"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:315
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
 msgid "Download"
 msgstr "دانلود"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:143
+#: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "مناسب برای دیسلکسی"
 
-#: src/routes/_authenticated/app/$appId.tsx:562
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "e.g. Staging"
 msgstr "مثلاً Staging"
 
-#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:154
 msgid "Edit {label}"
 msgstr "ویرایش {label}"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:286
+#: ../../../lib/web/src/components/step-up-dialog.tsx:289
 msgid "Email code"
 msgstr "کد ایمیل"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:296
+#: ../../../lib/web/src/components/step-up-dialog.tsx:299
 msgid "Enter the code from your email"
 msgstr "کد دریافتی از ایمیل خود را وارد کنید"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:321
+#: ../../../lib/web/src/components/step-up-dialog.tsx:324
 msgid "Enter your authenticator code"
 msgstr "کد برنامه احرازکننده هویت خود را وارد کنید"
 
-#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+#: ../../../lib/web/src/components/comment-tree-layout.tsx:101
+#: ../../../lib/web/src/components/comment-tree-layout.tsx:110
+#: ../../../lib/web/src/components/tree-row.tsx:255
+#: ../../../lib/web/src/components/tree-row.tsx:269
+msgid "Expand"
+msgstr "گسترش"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:39
 msgid "Expand sidebar"
 msgstr "گسترش نوار کناری"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:133
+#: ../../../lib/web/src/lib/preference-utils.ts:136
 msgid "Extra large"
 msgstr "خیلی بزرگ"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:217
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:225
 msgid "Failed to add account"
 msgstr "افزودن حساب ناموفق بود"
 
-#: src/features/apps/index.tsx:159
+#: src/features/apps/index.tsx:164
 msgid "Failed to create app"
 msgstr "ایجاد اپ ناموفق بود"
 
-#: src/routes/_authenticated/app/$appId.tsx:418
+#: src/routes/_authenticated/app/$appId.tsx:426
 msgid "Failed to create track"
 msgstr "ایجاد ترک ناموفق بود"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Failed to delete track"
 msgstr "حذف ترک ناموفق بود"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:226
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:234
 msgid "Failed to remove account"
 msgstr "حذف حساب ناموفق بود"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:249
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:257
 msgid "Failed to send verification code"
 msgstr "ارسال کد تأیید ناموفق بود"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:468
 msgid "Failed to set default track"
 msgstr "تنظیم ترک پیش‌فرض ناموفق بود"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:108
+#: ../../../lib/web/src/components/notification-category-button.tsx:112
 msgid "Failed to update category"
 msgstr "به‌روزرسانی دسته ناموفق بود"
 
-#: src/routes/_authenticated/app/$appId.tsx:78
+#: src/routes/_authenticated/app/$appId.tsx:86
 msgid "Failed to update distribution"
 msgstr "به‌روزرسانی توزیع ناموفق بود"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:440
 msgid "Failed to update track"
 msgstr "به‌روزرسانی ترک ناموفق بود"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:673
 msgid "Failed to upload version"
 msgstr "بارگذاری نسخه ناموفق بود"
 
-#: src/routes/_authenticated/app/$appId.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:216
+#: src/routes/_authenticated/app/$appId.tsx:358
 msgid "Fingerprint"
 msgstr "اثر انگشت"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
+#: ../../../lib/web/src/components/restore-banner.tsx:88
 msgid "Finish moving your account"
 msgstr "انتقال حساب کاربری خود را تکمیل کنید"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:113
+#: ../../../lib/web/src/lib/preference-utils.ts:116
 msgid "Flat"
 msgstr "تخت"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:244
+#: ../../../lib/web/src/components/config-drawer.tsx:257
 msgid "Floating"
 msgstr "شناور"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:60
+#: ../../../lib/web/src/lib/preference-utils.ts:63
 msgid "Friday"
 msgstr "جمعه"
 
-#: ../../../lib/web/src/components/travelling-picker.tsx:149
+#: ../../../lib/web/src/components/travelling-picker.tsx:153
 msgid "From"
 msgstr "از"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:91
-#: ../../../lib/web/src/lib/preference-utils.ts:101
-#: ../../../lib/web/src/lib/preference-utils.ts:112
-#: ../../../lib/web/src/lib/preference-utils.ts:121
-#: ../../../lib/web/src/lib/preference-utils.ts:129
-#: ../../../lib/web/src/lib/preference-utils.ts:140
+#: ../../../lib/web/src/lib/preference-utils.ts:94
+#: ../../../lib/web/src/lib/preference-utils.ts:104
+#: ../../../lib/web/src/lib/preference-utils.ts:115
+#: ../../../lib/web/src/lib/preference-utils.ts:124
+#: ../../../lib/web/src/lib/preference-utils.ts:132
+#: ../../../lib/web/src/lib/preference-utils.ts:143
 msgid "From theme"
 msgstr "از تم"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:307
+#: ../../../lib/web/src/components/config-drawer.tsx:320
 msgid "Full layout"
 msgstr "چیدمان کامل"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:21
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+#: ../../../lib/web/src/features/errors/forbidden.tsx:24
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:24
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:24
 msgid "Go back"
 msgstr "بازگشت"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:75
+#: ../../../lib/web/src/components/data-table/pagination.tsx:78
 msgid "Go to first page"
 msgstr "رفتن به صفحه اول"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:121
+#: ../../../lib/web/src/components/data-table/pagination.tsx:124
 msgid "Go to last page"
 msgstr "رفتن به صفحه آخر"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:112
+#: ../../../lib/web/src/components/data-table/pagination.tsx:115
 msgid "Go to next page"
 msgstr "رفتن به صفحه بعد"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:99
+#: ../../../lib/web/src/components/data-table/pagination.tsx:102
 msgid "Go to page {pageNumber}"
 msgstr "رفتن به صفحه {pageNumber}"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:84
+#: ../../../lib/web/src/components/data-table/pagination.tsx:87
 msgid "Go to previous page"
 msgstr "رفتن به صفحه قبل"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:159
+#: ../../../lib/web/src/features/access/access-dialog.tsx:162
 msgid "Group"
 msgstr "گروه"
 
-#: ../../../lib/web/src/components/data-table/column-header.tsx:67
+#: ../../../lib/web/src/components/data-table/column-header.tsx:70
 msgid "Hide"
 msgstr "پنهان کردن"
 
-#: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
-#: ../../../lib/web/src/components/layout/top-bar.tsx:62
-#: ../../../lib/web/src/components/layout/top-bar.tsx:91
+#: ../../../lib/web/src/components/password-input.tsx:27
+msgid "Hide password"
+msgstr "پنهان کردن رمز عبور"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:90
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:158
+#: ../../../lib/web/src/components/layout/top-bar.tsx:71
+#: ../../../lib/web/src/components/layout/top-bar.tsx:100
 msgid "Home"
 msgstr "خانه"
 
-#: ../../../lib/web/src/components/ui/sort-selector.tsx:41
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:44
 msgid "Hot"
 msgstr "داغ"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:211
 msgid "Identity"
 msgstr "هویت"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:83
+#: ../../../lib/web/src/lib/preference-utils.ts:86
 msgid "Imperial"
 msgstr "امپریال"
 
-#: src/routes/_authenticated/app/$appId.tsx:568
+#: src/routes/_authenticated/app/$appId.tsx:581
 msgid "Initial Version"
 msgstr "نسخه اولیه"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:239
+#: ../../../lib/web/src/components/config-drawer.tsx:252
 msgid "Inset"
 msgstr "تورفته"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Install App"
 msgstr "نصب اپ"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: src/routes/_authenticated/app/$appId.tsx:256
+#: src/routes/_authenticated/app/$appId.tsx:347
 msgid "Install link:"
 msgstr "پیوند نصب:"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:705
 msgid "Install Locally"
 msgstr "نصب محلی"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Install this application to your server"
 msgstr "این برنامه را روی سرور خود نصب کنید"
 
-#: ../../../lib/web/src/components/ui/sort-selector.tsx:39
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Interests"
 msgstr "علاقه‌مندی‌ها"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:237
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:245
 msgid "Invalid verification code"
 msgstr "کد تأیید نامعتبر"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:105
-#: ../../../lib/web/src/lib/preference-utils.ts:132
+#: ../../../lib/web/src/lib/preference-utils.ts:108
+#: ../../../lib/web/src/lib/preference-utils.ts:135
 msgid "Large"
 msgstr "بزرگ"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:273
+#: ../../../lib/web/src/components/config-drawer.tsx:286
 msgid "Layout"
 msgstr "چیدمان"
 
-#: ../../../lib/web/src/components/learn-more.tsx:27
+#: ../../../lib/web/src/components/learn-more.tsx:33
+#: ../../../lib/web/src/components/learn-more.tsx:38
 msgid "Learn more"
 msgstr "اطلاعات بیشتر"
 
-#: src/routes/_authenticated/app/$appId.tsx:574
+#: src/routes/_authenticated/app/$appId.tsx:587
 msgid "Leave empty"
 msgstr "خالی بگذارید"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:341
+#: ../../../lib/web/src/components/config-drawer.tsx:354
 msgid "Left to Right"
 msgstr "چپ به راست"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:200
-#: ../../../lib/web/src/lib/preference-utils.ts:16
+#: ../../../lib/web/src/components/config-drawer.tsx:213
+#: ../../../lib/web/src/lib/preference-utils.ts:19
 msgid "Light"
 msgstr "روشن"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/components/ui/load-more.tsx:35
 msgid "Load more"
 msgstr "بارگذاری بیشتر"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:106
 msgid "Loading app..."
 msgstr "در حال بارگذاری اپ..."
 
-#: ../../../lib/web/src/components/ui/load-more.tsx:32
-#: ../../../lib/web/src/features/document/document-page.tsx:87
+#: ../../../lib/web/src/components/ui/load-more.tsx:35
+#: ../../../lib/web/src/features/document/document-page.tsx:90
 msgid "Loading…"
 msgstr "در حال بارگذاری…"
 
-#: ../../../lib/web/src/components/layout/nav-user.tsx:98
-#: ../../../lib/web/src/components/layout/nav-user.tsx:164
-#: ../../../lib/web/src/components/layout/nav-user.tsx:212
-#: ../../../lib/web/src/components/profile-dropdown.tsx:66
-#: ../../../lib/web/src/components/profile-dropdown.tsx:95
-#: ../../../lib/web/src/components/sign-out-dialog.tsx:23
-#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+#: ../../../lib/web/src/components/layout/nav-user.tsx:101
+#: ../../../lib/web/src/components/layout/nav-user.tsx:167
+#: ../../../lib/web/src/components/layout/nav-user.tsx:215
+#: ../../../lib/web/src/components/profile-dropdown.tsx:69
+#: ../../../lib/web/src/components/profile-dropdown.tsx:98
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:26
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:28
 msgid "Log out"
 msgstr "خروج"
 
-#: ../../../lib/web/src/hooks/use-logout.ts:16
+#: ../../../lib/web/src/hooks/use-logout.ts:19
 msgid "Logged out (with errors)"
 msgstr "خارج شد (با خطا)"
 
-#: ../../../lib/web/src/hooks/use-logout.ts:14
+#: ../../../lib/web/src/hooks/use-logout.ts:17
 msgid "Logged out successfully"
 msgstr "با موفقیت خارج شد"
 
-#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:28
 msgid "Logging out…"
 msgstr "در حال خروج…"
 
-#: src/features/apps/index.tsx:189
+#: src/features/apps/index.tsx:194
 msgid "Make app publicly available"
 msgstr "اپ را به‌طور عمومی در دسترس قرار دهید"
 
-#: src/routes/_authenticated/app/$appId.tsx:469
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "Manage deployment environments and their versions"
 msgstr "مدیریت محیط‌های استقرار و نسخه‌های آن‌ها"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:220
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:92
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:99
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "علامت‌گذاری همه به‌عنوان خوانده‌شده"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:104
+#: ../../../lib/web/src/lib/preference-utils.ts:107
 msgid "Medium"
 msgstr "متوسط"
 
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "منو"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:356
 msgid "Metadata and configuration"
 msgstr "Metadata و پیکربندی"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:82
+#: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
 msgstr "متریک"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:56
+#: ../../../lib/web/src/lib/preference-utils.ts:59
 msgid "Monday"
 msgstr "دوشنبه"
 
-#: src/features/apps/index.tsx:184
+#: src/features/apps/index.tsx:189
 msgid "My App"
 msgstr "اپ من"
 
-#: src/routes/_authenticated/app/$appId.tsx:351
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "N/A"
 msgstr "نامشخص"
 
-#: src/features/apps/index.tsx:178
+#: src/features/apps/index.tsx:183
 msgid "Name"
 msgstr "نام"
 
-#: ../../../lib/web/src/lib/api-client.ts:297
+#: ../../../lib/web/src/lib/api-client.ts:300
 msgid "Network error"
 msgstr "خطای شبکه"
 
-#: ../../../lib/web/src/components/ui/sort-selector.tsx:40
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:43
 msgid "New"
 msgstr "جدید"
 
-#: src/routes/_authenticated/app/$appId.tsx:550
+#: src/routes/_authenticated/app/$appId.tsx:563
 msgid "New Release Track"
 msgstr "Release Track جدید"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:345
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
 msgid "Next image"
 msgstr "تصویر بعدی"
 
-#: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/features/apps/index.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "No"
 msgstr "خیر"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:156
+#: ../../../lib/web/src/features/access/access-list.tsx:160
 msgid "No access rules configured. Add rules to control who can access this resource."
 msgstr "هیچ قاعده دسترسی پیکربندی نشده است. برای کنترل دسترسی به این منبع، قاعده اضافه کنید."
 
-#: src/features/apps/index.tsx:77
+#: src/features/apps/index.tsx:82
 msgid "No apps yet"
 msgstr "هنوز برنامه‌ای وجود ندارد"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:287
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:295
 msgid "No connected accounts"
 msgstr "هیچ حساب متصلی وجود ندارد"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:238
+#: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "هیچ گروهی در دسترس نیست"
 
-#: ../../../lib/web/src/components/place-picker.tsx:129
+#: ../../../lib/web/src/components/place-picker.tsx:132
 msgid "No places found"
 msgstr "مکانی یافت نشد"
 
-#: ../../../lib/web/src/components/profile-dropdown.tsx:55
+#: ../../../lib/web/src/components/profile-dropdown.tsx:58
 msgid "No profile"
 msgstr "بدون پروفایل"
 
-#: ../../../lib/web/src/components/command-menu.tsx:52
-#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:87
+#: ../../../lib/web/src/components/command-menu.tsx:55
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:90
 msgid "No results found."
 msgstr "نتیجه‌ای یافت نشد."
 
-#: ../../../lib/web/src/components/timezone-select.tsx:64
+#: ../../../lib/web/src/components/timezone-select.tsx:67
 msgid "No time zone found."
 msgstr "منطقه زمانی یافت نشد."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:139
+#: ../../../lib/web/src/components/notification-category-button.tsx:148
 msgid "No topic record yet — try again after the next notification."
 msgstr "هنوز هیچ رکوردی برای موضوع وجود ندارد — پس از اعلان بعدی دوباره تلاش کنید."
 
-#: src/routes/_authenticated/app/$appId.tsx:475
+#: src/routes/_authenticated/app/$appId.tsx:483
 msgid "No tracks"
 msgstr "هیچ Trackی وجود ندارد"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:203
+#: ../../../lib/web/src/features/access/access-dialog.tsx:206
 msgid "No users found"
 msgstr "کاربری یافت نشد"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:584
 msgid "No version"
 msgstr "بدون نسخه"
 
-#: src/routes/_authenticated/app/$appId.tsx:265
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "هیچ نسخه‌ای وجود ندارد"
 
-#: ../../../lib/web/src/components/person-picker.tsx:349
-#: ../../../lib/web/src/lib/preference-utils.ts:102
-#: ../../../lib/web/src/lib/preference-utils.ts:122
+#: ../../../lib/web/src/components/person-picker.tsx:350
+#: ../../../lib/web/src/lib/preference-utils.ts:105
+#: ../../../lib/web/src/lib/preference-utils.ts:125
 msgid "None"
 msgstr "هیچ‌کدام"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:131
+#: ../../../lib/web/src/lib/preference-utils.ts:134
 msgid "Normal"
 msgstr "معمولی"
 
-#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:146
 msgid "Not set"
 msgstr "تنظیم نشده"
 
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:132
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:146
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:247
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:136
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:150
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:236
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:257
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:261
 msgid "Notifications"
 msgstr "اعلان‌ها"
 
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:13
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:16
 msgid "Oops! Page Not Found!"
 msgstr "اوه! صفحه پیدا نشد!"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:150
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:151
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:156
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:166
 msgid "Open account actions"
 msgstr "باز کردن اقدامات حساب"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:134
+#: ../../../lib/web/src/components/layout/nav-group.tsx:152
+#: ../../../lib/web/src/components/layout/nav-group.tsx:157
 msgid "Open actions"
 msgstr "باز کردن عملیات"
 
-#: ../../../lib/web/src/components/layout/top-bar.tsx:57
+#: ../../../lib/web/src/components/layout/top-bar.tsx:63
+#: ../../../lib/web/src/components/layout/top-bar.tsx:68
 msgid "Open navigation"
 msgstr "باز کردن ناوبری"
 
-#: ../../../lib/web/src/components/layout/top-nav.tsx:32
-#: ../../../lib/web/src/components/layout/top-nav.tsx:33
+#: ../../../lib/web/src/components/layout/top-nav.tsx:38
+#: ../../../lib/web/src/components/layout/top-nav.tsx:44
 msgid "Open navigation menu"
 msgstr "باز کردن منوی ناوبری"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:51
+#: ../../../lib/web/src/components/config-drawer.tsx:57
+#: ../../../lib/web/src/components/config-drawer.tsx:65
 msgid "Open theme settings"
 msgstr "باز کردن تنظیمات تم"
 
-#: src/routes/_authenticated/app/$appId.tsx:514
+#: src/routes/_authenticated/app/$appId.tsx:524
+#: src/routes/_authenticated/app/$appId.tsx:529
 msgid "Open track actions"
 msgstr "باز کردن اقدامات Track"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:163
+#: ../../../lib/web/src/features/access/access-dialog.tsx:166
 msgid "Other"
 msgstr "سایر"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:213
+#: ../../../lib/web/src/features/access/access-list.tsx:217
 msgid "Owner"
 msgstr "مالک"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:331
+#: ../../../lib/web/src/components/step-up-dialog.tsx:334
 msgid "Passkey"
 msgstr "پسکی"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:206
+#: ../../../lib/web/src/components/step-up-dialog.tsx:209
 msgid "Passkey verification failed. Please try again."
 msgstr "تأیید با کلید عبور ناموفق بود. لطفاً دوباره تلاش کنید."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:126
+#: ../../../lib/web/src/components/restore-banner.tsx:135
 msgid "Passkeys"
 msgstr "پسکی‌ها"
 
-#: ../../../lib/web/src/lib/api-client.ts:298
+#: ../../../lib/web/src/lib/api-client.ts:301
 msgid "Please check your internet connection and try again."
 msgstr "لطفاً اتصال اینترنت خود را بررسی کرده و دوباره تلاش کنید."
 
-#: src/features/apps/index.tsx:143
+#: src/features/apps/index.tsx:148
 msgid "Please enter an app name"
 msgstr "لطفاً نام برنامه را وارد کنید"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:649
 msgid "Please select a file"
 msgstr "لطفاً یک فایل انتخاب کنید"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
 msgid "Previous image"
 msgstr "تصویر قبلی"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:24
-#: ../../../lib/web/src/features/document/document-page.tsx:41
-#: src/routes/_authenticated/app/$appId.tsx:353
+#: ../../../lib/web/src/components/server-documents-footer.tsx:27
+#: ../../../lib/web/src/features/document/document-page.tsx:44
+#: src/routes/_authenticated/app/$appId.tsx:361
 msgid "Privacy"
 msgstr "حریم خصوصی"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Privacy Policy"
 msgstr "سیاست حریم خصوصی"
 
-#: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:216
+#: src/features/apps/index.tsx:93
+#: src/routes/_authenticated/app/$appId.tsx:224
 msgid "Private"
 msgstr "خصوصی"
 
-#: ../../../lib/web/src/components/layout/nav-user.tsx:134
-#: ../../../lib/web/src/components/profile-dropdown.tsx:111
+#: ../../../lib/web/src/components/layout/nav-user.tsx:137
+#: ../../../lib/web/src/components/profile-dropdown.tsx:114
 msgid "Profile"
 msgstr "پروفایل"
 
-#: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:214
+#: src/features/apps/index.tsx:93
+#: src/routes/_authenticated/app/$appId.tsx:222
 msgid "Public"
 msgstr "عمومی"
 
-#: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:230
+#: src/features/apps/index.tsx:94
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Published"
 msgstr "منتشر شد"
 
-#: src/features/apps/index.tsx:32
-#: src/features/apps/index.tsx:46
+#: src/features/apps/index.tsx:37
+#: src/features/apps/index.tsx:51
 msgid "Publisher"
 msgstr "منتشرکننده"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:114
+#: ../../../lib/web/src/lib/preference-utils.ts:117
 msgid "Raised"
 msgstr "برجسته"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:98
+#: ../../../lib/web/src/components/restore-banner.tsx:107
 msgid "Re-link your accounts on this server"
 msgstr "حساب‌های خود را در این سرور مجدداً پیوند دهید"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:120
+#: ../../../lib/web/src/components/restore-banner.tsx:129
 msgid "Re-register your passkeys on this server"
 msgstr "کلیدهای عبور خود را دوباره در این سرور ثبت کنید"
 
-#: ../../../lib/web/src/components/search-entity-dialog.tsx:216
-#: ../../../lib/web/src/components/search-entity-page.tsx:191
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:219
+#: ../../../lib/web/src/components/search-entity-page.tsx:194
 msgid "Recommended"
 msgstr "توصیه‌شده"
 
-#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:130
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:133
 msgid "Redirecting to login."
 msgstr "در حال تغییر مسیر به ورود."
 
-#: ../../../lib/web/src/components/post-tags.tsx:175
+#: ../../../lib/web/src/components/post-tags.tsx:192
+#: ../../../lib/web/src/components/post-tags.tsx:204
 msgid "Reduce interest"
 msgstr "کاهش علاقه"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:47
+#: ../../../lib/web/src/lib/preference-utils.ts:50
 msgid "Relative (5m, 3h, 2d)"
 msgstr "نسبی (۵د، ۳س، ۲ر)"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:46
+#: ../../../lib/web/src/lib/preference-utils.ts:49
 msgid "Relative within 24 hours, else absolute"
 msgstr "در ۲۴ ساعت نسبی، در غیر این صورت مطلق"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Release Tracks"
 msgstr "Release Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:364
+#: src/routes/_authenticated/app/$appId.tsx:372
 msgid "Release tracks currently active"
 msgstr "Release Trackهای فعلاً فعال"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:257
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:172
+#: ../../../lib/web/src/features/access/access-list.tsx:265
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
 msgstr "حذف"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:241
-#: ../../../lib/web/src/features/access/access-list.tsx:242
+#: ../../../lib/web/src/features/access/access-list.tsx:247
+#: ../../../lib/web/src/features/access/access-list.tsx:253
 msgid "Remove access rule"
 msgstr "حذف قاعده دسترسی"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:249
+#: ../../../lib/web/src/features/access/access-list.tsx:257
 msgid "Remove access?"
 msgstr "حذف دسترسی؟"
 
-#: ../../../lib/web/src/components/post-tags.tsx:190
+#: ../../../lib/web/src/components/post-tags.tsx:212
+#: ../../../lib/web/src/components/post-tags.tsx:224
 msgid "Remove interest"
 msgstr "حذف علاقه"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:364
+#: ../../../lib/web/src/components/step-up-dialog.tsx:367
 msgid "Resend email"
 msgstr "ارسال مجدد ایمیل"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:77
-#: ../../../lib/web/src/components/data-table/toolbar.tsx:78
+#: ../../../lib/web/src/components/config-drawer.tsx:86
+#: ../../../lib/web/src/components/data-table/toolbar.tsx:81
 msgid "Reset"
 msgstr "بازنشانی"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:75
+#: ../../../lib/web/src/components/config-drawer.tsx:84
 msgid "Reset all settings to default values"
 msgstr "بازنشانی همه تنظیمات به مقادیر پیش‌فرض"
 
-#: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:231
+#: src/features/apps/index.tsx:94
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Restricted"
 msgstr "محدودشده"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:348
+#: ../../../lib/web/src/components/config-drawer.tsx:361
 msgid "Right to Left"
 msgstr "راست به چپ"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:60
+#: ../../../lib/web/src/components/data-table/pagination.tsx:63
 msgid "Rows per page"
 msgstr "ردیف‌ها در هر صفحه"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:61
+#: ../../../lib/web/src/lib/preference-utils.ts:64
 msgid "Saturday"
 msgstr "شنبه"
 
-#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
-#: ../../../lib/web/src/components/ui/secret-field.tsx:74
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:122
+#: ../../../lib/web/src/components/ui/secret-field.tsx:77
 msgid "Save"
 msgstr "ذخیره"
 
-#: ../../../lib/web/src/components/place-picker.tsx:82
+#: ../../../lib/web/src/components/place-picker.tsx:85
 msgid "Search for a place"
 msgstr "جست‌وجوی یک مکان"
 
-#: ../../../lib/web/src/components/travelling-picker.tsx:234
+#: ../../../lib/web/src/components/travelling-picker.tsx:250
 msgid "Search for destination..."
 msgstr "جست‌وجوی مقصد..."
 
-#: ../../../lib/web/src/components/travelling-picker.tsx:173
+#: ../../../lib/web/src/components/travelling-picker.tsx:183
 msgid "Search for origin..."
 msgstr "جست‌وجوی مبدأ..."
 
-#: ../../../lib/web/src/components/timezone-select.tsx:62
+#: ../../../lib/web/src/components/timezone-select.tsx:65
 msgid "Search time zone..."
 msgstr "جست‌وجوی منطقه زمانی..."
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:170
+#: ../../../lib/web/src/features/access/access-dialog.tsx:173
 msgid "Search users"
 msgstr "جست‌وجوی کاربران"
 
-#: ../../../lib/web/src/components/person-picker.tsx:323
+#: ../../../lib/web/src/components/person-picker.tsx:324
 msgid "Search..."
 msgstr "جست‌وجو..."
 
-#: ../../../lib/web/src/components/search-entity-dialog.tsx:174
-#: ../../../lib/web/src/components/search-entity-page.tsx:149
-#: ../../../lib/web/src/features/access/access-dialog.tsx:199
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:177
+#: ../../../lib/web/src/components/search-entity-page.tsx:152
+#: ../../../lib/web/src/features/access/access-dialog.tsx:202
 msgid "Searching..."
 msgstr "در حال جست‌وجو..."
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:147
+#: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "کاربر، گروه یا قاعده دیگری را برای اعطای دسترسی انتخاب کنید."
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:270
+#: ../../../lib/web/src/features/access/access-dialog.tsx:273
 msgid "Select access rule"
 msgstr "انتخاب قاعده دسترسی"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:126
+#: ../../../lib/web/src/features/accounts/account-add.tsx:129
 msgid "Select account type"
 msgstr "انتخاب نوع حساب"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:228
+#: ../../../lib/web/src/features/access/access-dialog.tsx:231
 msgid "Select group"
 msgstr "انتخاب گروه"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:291
+#: ../../../lib/web/src/components/config-drawer.tsx:304
 msgid "Select layout style"
 msgstr "انتخاب سبک چیدمان"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:233
+#: ../../../lib/web/src/components/config-drawer.tsx:246
 msgid "Select sidebar style"
 msgstr "انتخاب سبک نوار کناری"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:335
+#: ../../../lib/web/src/components/config-drawer.tsx:348
 msgid "Select site direction"
 msgstr "انتخاب جهت سایت"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:189
+#: ../../../lib/web/src/components/config-drawer.tsx:202
 msgid "Select theme preference"
 msgstr "انتخاب ترجیح تم"
 
-#: ../../../lib/web/src/features/accounts/account-verify.tsx:95
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:98
 msgid "Send again"
 msgstr "ارسال مجدد"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:304
+#: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "ارسال ایمیل"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:142
+#: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
 msgstr "سریف"
 
-#: ../../../lib/web/src/lib/api-client.ts:256
-#: ../../../lib/web/src/lib/api-client.ts:281
+#: ../../../lib/web/src/lib/api-client.ts:259
+#: ../../../lib/web/src/lib/api-client.ts:284
 msgid "Server error"
 msgstr "خطای سرور"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:16
-#: ../../../lib/web/src/features/document/document-page.tsx:37
+#: ../../../lib/web/src/components/server-documents-footer.tsx:19
+#: ../../../lib/web/src/features/document/document-page.tsx:40
 msgid "Server rules"
 msgstr "قوانین سرور"
 
-#: ../../../lib/web/src/lib/api-client.ts:224
+#: ../../../lib/web/src/lib/api-client.ts:227
 msgid "Session expired"
 msgstr "نشست منقضی شد"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
+#: src/routes/_authenticated/app/$appId.tsx:537
 msgid "Set as default"
 msgstr "تنظیم به‌عنوان پیش‌فرض"
 
-#: ../../../lib/web/src/components/travelling-picker.tsx:143
+#: ../../../lib/web/src/components/travelling-picker.tsx:147
 msgid "Set origin and destination"
 msgstr "تنظیم مبدأ و مقصد"
 
-#: ../../../lib/web/src/components/layout/nav-user.tsx:81
-#: ../../../lib/web/src/components/layout/nav-user.tsx:145
-#: ../../../lib/web/src/components/layout/nav-user.tsx:195
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:93
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:99
+#: ../../../lib/web/src/components/layout/nav-user.tsx:84
+#: ../../../lib/web/src/components/layout/nav-user.tsx:148
+#: ../../../lib/web/src/components/layout/nav-user.tsx:198
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: src/routes/_authenticated/app/$appId.tsx:240
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Share this link to allow others to install this app"
 msgstr "این پیوند را به اشتراک بگذارید تا به دیگران اجازه دهید این برنامه را نصب کنند"
 
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:247
 msgid "Sharing"
 msgstr "اشتراک‌گذاری"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx:36
+#: ../../../lib/web/src/components/password-input.tsx:27
+msgid "Show password"
+msgstr "نمایش رمز عبور"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:39
 msgid "Showing {totalShown} of {total}"
 msgstr "نمایش {totalShown} از {total}"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:225
-#: ../../../lib/web/src/components/config-drawer.tsx:249
-#: ../../../lib/web/src/components/ui/sidebar.tsx:234
+#: ../../../lib/web/src/components/config-drawer.tsx:238
+#: ../../../lib/web/src/components/config-drawer.tsx:262
+#: ../../../lib/web/src/components/ui/sidebar.tsx:237
 msgid "Sidebar"
 msgstr "نوار کناری"
 
-#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:128
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:105
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:111
+msgid "Sign out"
+msgstr "خروج"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:131
 msgid "Signing out..."
 msgstr "در حال خروج..."
 
-#: ../../../lib/web/src/components/skip-to-main.tsx:8
+#: ../../../lib/web/src/components/skip-to-main.tsx:11
 msgid "Skip to Main"
 msgstr "پرش به محتوای اصلی"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:103
-#: ../../../lib/web/src/lib/preference-utils.ts:130
+#: ../../../lib/web/src/lib/preference-utils.ts:106
+#: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Small"
 msgstr "کوچک"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:94
+#: ../../../lib/web/src/lib/preference-utils.ts:97
 msgid "Spacious"
 msgstr "گسترده"
 
-#: ../../../lib/web/src/components/coming-soon.tsx:12
+#: ../../../lib/web/src/components/coming-soon.tsx:15
 msgid "Stay tuned though!"
 msgstr "اما با ما همراه بمانید!"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:187
+#: ../../../lib/web/src/features/access/access-list.tsx:191
 msgid "Subject"
 msgstr "موضوع"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:62
+#: ../../../lib/web/src/lib/preference-utils.ts:65
 msgid "Sunday"
 msgstr "یکشنبه"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:195
-#: ../../../lib/web/src/lib/preference-utils.ts:18
-#: ../../../lib/web/src/lib/preference-utils.ts:141
+#: ../../../lib/web/src/components/config-drawer.tsx:208
+#: ../../../lib/web/src/lib/preference-utils.ts:21
+#: ../../../lib/web/src/lib/preference-utils.ts:144
 msgid "System"
 msgstr "سیستم"
 
-#: ../../../lib/web/src/components/tag-input.tsx:91
+#: ../../../lib/web/src/components/tag-input.tsx:94
 msgid "Tag"
 msgstr "برچسب"
 
-#: ../../../lib/web/src/components/layout/team-switcher.tsx:60
+#: ../../../lib/web/src/components/post-tags.tsx:96
+#: ../../../lib/web/src/components/post-tags.tsx:107
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:63
 msgid "Teams/Apps"
 msgstr "تیم‌ها/اپ‌ها"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:20
-#: ../../../lib/web/src/features/document/document-page.tsx:39
+#: ../../../lib/web/src/components/server-documents-footer.tsx:23
+#: ../../../lib/web/src/features/document/document-page.tsx:42
 msgid "Terms and conditions"
 msgstr "شرایط و ضوابط"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:192
+#: ../../../lib/web/src/components/step-up-dialog.tsx:195
 msgid "That code is incorrect or has expired."
 msgstr "این کد نادرست است یا منقضی شده است."
 
-#: src/routes/_authenticated/app/$appId.tsx:117
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "The requested app could not be found."
 msgstr "اپ درخواست‌شده یافت نشد."
 
-#: ../../../lib/web/src/components/config-drawer.tsx:181
+#: ../../../lib/web/src/components/config-drawer.tsx:194
 msgid "Theme"
 msgstr "تم"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:60
+#: ../../../lib/web/src/components/config-drawer.tsx:69
 msgid "Theme Settings"
 msgstr "تنظیمات تم"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:59
+#: ../../../lib/web/src/lib/preference-utils.ts:62
 msgid "Thursday"
 msgstr "پنجشنبه"
 
-#: ../../../lib/web/src/components/data-table/view-options.tsx:34
+#: ../../../lib/web/src/components/data-table/view-options.tsx:37
 msgid "Toggle columns"
 msgstr "تغییر وضعیت ستون‌ها"
 
-#: ../../../lib/web/src/components/layout/right-panel.tsx:227
+#: ../../../lib/web/src/components/layout/right-panel.tsx:233
+#: ../../../lib/web/src/components/layout/right-panel.tsx:236
 msgid "Toggle right panel"
 msgstr "تغییر وضعیت پنل راست"
 
-#: ../../../lib/web/src/components/ui/sidebar.tsx:312
+#: ../../../lib/web/src/components/layout/nav-group.tsx:321
+#: ../../../lib/web/src/components/layout/nav-group.tsx:328
+#: ../../../lib/web/src/components/layout/nav-group.tsx:451
+#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+msgid "Toggle section"
+msgstr "تغییر وضعیت بخش"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:317
+#: ../../../lib/web/src/components/ui/sidebar.tsx:320
 msgid "Toggle sidebar"
 msgstr "تغییر وضعیت نوار کناری"
 
-#: ../../../lib/web/src/components/ui/sidebar.tsx:324
-#: ../../../lib/web/src/components/ui/sidebar.tsx:327
+#: ../../../lib/web/src/components/ui/sidebar.tsx:332
+#: ../../../lib/web/src/components/ui/sidebar.tsx:335
 msgid "Toggle Sidebar"
 msgstr "تغییر وضعیت نوار کناری"
 
-#: ../../../lib/web/src/components/theme-switch.tsx:31
+#: ../../../lib/web/src/components/theme-switch.tsx:37
+#: ../../../lib/web/src/components/theme-switch.tsx:41
 msgid "Toggle theme"
 msgstr "تغییر تم"
 
-#: ../../../lib/web/src/components/ui/sort-selector.tsx:42
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:45
 msgid "Top"
 msgstr "بالا"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Track \"{track}\" deleted"
 msgstr "Track «{track}» حذف شد"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track «{track}» به نسخه {version} به‌روزرسانی شد"
 
-#: src/routes/_authenticated/app/$appId.tsx:412
+#: src/routes/_authenticated/app/$appId.tsx:420
 msgid "Track created"
 msgstr "Track ایجاد شد"
 
-#: src/routes/_authenticated/app/$appId.tsx:558
+#: src/routes/_authenticated/app/$appId.tsx:571
 msgid "Track Name"
 msgstr "نام Track"
 
-#: ../../../lib/web/src/components/travelling-picker.tsx:141
+#: ../../../lib/web/src/components/travelling-picker.tsx:145
 msgid "Travelling"
 msgstr "در حال سفر"
 
-#: ../../../lib/web/src/components/search-entity-dialog.tsx:190
-#: ../../../lib/web/src/components/search-entity-page.tsx:165
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:193
+#: ../../../lib/web/src/components/search-entity-page.tsx:168
 msgid "Try adjusting your search terms"
 msgstr "عبارات جست‌وجوی خود را تنظیم کنید"
 
-#: ../../../lib/web/src/features/errors/general-error.tsx:125
-#: ../../../lib/web/src/features/errors/general-error.tsx:165
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
+#: ../../../lib/web/src/features/errors/general-error.tsx:128
+#: ../../../lib/web/src/features/errors/general-error.tsx:168
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
 msgid "Try again"
 msgstr "دوباره تلاش کنید"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:57
+#: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Tuesday"
 msgstr "سه‌شنبه"
 
-#: ../../../lib/web/src/components/command-menu.tsx:49
+#: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "یک فرمان تایپ کنید یا جست‌وجو کنید..."
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:188
+#: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
 msgstr "برای جست‌وجوی کاربران تایپ کنید"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:180
+#: ../../../lib/web/src/features/access/access-dialog.tsx:183
 msgid "Type to search..."
 msgstr "برای جست‌وجو تایپ کنید..."
 
-#: ../../../lib/web/src/lib/api-client.ts:277
+#: ../../../lib/web/src/lib/api-client.ts:280
 msgid "Unable to connect to remote server"
 msgstr "اتصال به سرور راه دور ممکن نیست"
 
-#: ../../../lib/web/src/lib/auth-manager.ts:82
-#: ../../../lib/web/src/lib/auth-manager.ts:94
+#: ../../../lib/web/src/lib/auth-manager.ts:85
+#: ../../../lib/web/src/lib/auth-manager.ts:97
 msgid "Unable to redirect to login. Please try again."
 msgstr "ریدایرکت به ورود ممکن نیست. لطفاً دوباره تلاش کنید."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:156
 msgid "Unassigned"
 msgstr "بدون اختصاص"
 
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:13
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:16
 msgid "Unauthorized Access"
 msgstr "دسترسی غیرمجاز"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:84
+#: ../../../lib/web/src/lib/preference-utils.ts:87
 msgid "United States"
 msgstr "ایالات متحده"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:131
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:135
 msgid "Unverified"
 msgstr "تأیید نشده"
 
-#: src/routes/_authenticated/app/$appId.tsx:708
+#: src/routes/_authenticated/app/$appId.tsx:721
 msgid "Update Tracks"
 msgstr "به‌روزرسانی Trackها"
 
-#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload a .zip build file for your application."
 msgstr "یک فایل Build با فرمت .zip برای اپلیکیشن خود بارگذاری کنید."
 
-#: src/routes/_authenticated/app/$appId.tsx:189
+#: src/routes/_authenticated/app/$appId.tsx:197
 msgid "Upload new version"
 msgstr "بارگذاری نسخه جدید"
 
-#: src/routes/_authenticated/app/$appId.tsx:670
+#: src/routes/_authenticated/app/$appId.tsx:683
 msgid "Upload New Version"
 msgstr "بارگذاری نسخه جدید"
 
-#: src/routes/_authenticated/app/$appId.tsx:735
+#: src/routes/_authenticated/app/$appId.tsx:748
 msgid "Upload version"
 msgstr "بارگذاری نسخه"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build to get started"
 msgstr "برای شروع، اولین Build خود را بارگذاری کنید"
 
-#: src/routes/_authenticated/app/$appId.tsx:735
+#: src/routes/_authenticated/app/$appId.tsx:748
 msgid "Uploading..."
 msgstr "در حال بارگذاری..."
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:335
+#: ../../../lib/web/src/components/step-up-dialog.tsx:338
 msgid "Use your passkey"
 msgstr "از کلید عبور خود استفاده کنید"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:155
+#: ../../../lib/web/src/features/access/access-dialog.tsx:158
 msgid "User"
 msgstr "کاربر"
 
-#: src/routes/_authenticated/app/$appId.tsx:244
+#: src/routes/_authenticated/app/$appId.tsx:252
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "کاربران می‌توانند این برنامه را با چسباندن این پیوند در صفحه برنامه‌های خود نصب کنند."
 
-#: ../../../lib/web/src/features/accounts/account-verify.tsx:68
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:71
 msgid "Verification code"
 msgstr "کد تأیید"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:247
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:255
 msgid "Verification code sent"
 msgstr "کد تأیید ارسال شد"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:240
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:248
 msgid "Verification failed"
 msgstr "تأیید ناموفق بود"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:385
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:164
-#: ../../../lib/web/src/features/accounts/account-verify.tsx:106
+#: ../../../lib/web/src/components/step-up-dialog.tsx:388
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:172
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:109
 msgid "Verify"
 msgstr "تأیید"
 
-#: ../../../lib/web/src/features/accounts/account-verify.tsx:58
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:61
 msgid "Verify email address"
 msgstr "تأیید نشانی ایمیل"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:648
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} has been created."
 msgstr "نسخه {0} ایجاد شد."
 
-#: src/routes/_authenticated/app/$appId.tsx:260
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version History"
 msgstr "تاریخچه نسخه"
 
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Version uploaded"
 msgstr "نسخه بارگذاری شد"
 
-#: ../../../lib/web/src/components/attachment-gallery.tsx:63
+#: ../../../lib/web/src/components/attachment-gallery.tsx:66
 msgid "Video thumbnail"
 msgstr "بندانگشتی ویدیو"
 
-#: ../../../lib/web/src/components/data-table/view-options.tsx:30
+#: ../../../lib/web/src/components/data-table/view-options.tsx:33
 msgid "View"
 msgstr "نمایش"
 
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:173
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:177
 msgid "View all"
 msgstr "نمایش همه"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:94
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:105
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:113
 msgid "View all notifications"
 msgstr "نمایش همه اعلان‌ها"
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
 msgid "We'll be back online shortly."
 msgstr "به‌زودی دوباره آنلاین خواهیم بود."
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:10
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
 msgid "Website is under maintenance!"
 msgstr "وب‌سایت در حال نگهداری است!"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:58
+#: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Wednesday"
 msgstr "چهارشنبه"
 
-#: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/features/apps/index.tsx:202
+#: src/routes/_authenticated/app/$appId.tsx:713
 msgid "Yes"
 msgstr "بله"
 
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:714
 msgid "Yes, force"
 msgstr "بله، اعمال اجباری"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:82
+#: ../../../lib/web/src/components/restore-banner.tsx:91
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "حساب کاربری شما از {source} به اینجا منتقل شده است. تا زمانی که آن را آنجا حذف نکنید، پیام‌ها و اعلان‌ها ممکن است به هر دو سرور برسند، بخشی از محتوای شما همچنان از سرور قدیمی ارائه می‌شود، و دنبال‌کنندگان ممکن است چند دقیقه‌ای طول بکشد تا شما را اینجا پیدا کنند."

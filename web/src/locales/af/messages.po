@@ -13,1440 +13,1517 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/features/apps/index.tsx:152
+#: src/features/apps/index.tsx:157
 msgid "{name} has been created successfully."
 msgstr "{name} is suksesvol geskep."
 
-#: ../../../lib/web/src/lib/preference-utils.ts:39
+#: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 uur"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:38
+#: ../../../lib/web/src/lib/preference-utils.ts:41
 msgid "24 hours"
 msgstr "24 uur"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:48
+#: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Absoluut (datum en tyd)"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:13
+#: ../../../lib/web/src/features/errors/forbidden.tsx:16
 msgid "Access Forbidden"
 msgstr "Toegang verbode"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:188
+#: ../../../lib/web/src/features/access/access-list.tsx:192
 msgid "Access level"
 msgstr "Toegangsvlak"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:208
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:216
 msgid "Account added"
 msgstr "Rekening bygevoeg"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:224
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:232
 msgid "Account removed"
 msgstr "Rekening verwyder"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:123
+#: ../../../lib/web/src/features/accounts/account-add.tsx:126
 msgid "Account type"
 msgstr "Rekeningtipe"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:234
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:242
 msgid "Account verified"
 msgstr "Rekening geverifieer"
 
-#: src/routes/_authenticated/app/$appId.tsx:493
+#: src/routes/_authenticated/app/$appId.tsx:501
 msgid "Active version"
 msgstr "Aktiewe weergawe"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:193
+#: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Voeg by"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:117
+#: ../../../lib/web/src/features/accounts/account-add.tsx:120
 msgid "Add a new account"
 msgstr "Voeg 'n nuwe rekening by"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:145
+#: ../../../lib/web/src/features/access/access-dialog.tsx:148
 msgid "Add access"
 msgstr "Voeg toegang by"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:116
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:280
+#: ../../../lib/web/src/features/accounts/account-add.tsx:119
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:288
 msgid "Add account"
 msgstr "Voeg rekening by"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:289
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Voeg 'n rekening by om kennisgewings te ontvang en dienste te gebruik."
 
-#: ../../../lib/web/src/features/accounts/account-picker.tsx:98
+#: ../../../lib/web/src/features/accounts/account-picker.tsx:101
 msgid "Add new account"
 msgstr "Voeg nuwe rekening by"
 
-#: ../../../lib/web/src/components/post-tags.tsx:119
+#: ../../../lib/web/src/components/post-tags.tsx:129
 msgid "Add tag..."
 msgstr "Voeg etiket by..."
 
-#: ../../../lib/web/src/components/layout/team-switcher.tsx:80
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:83
 msgid "Add team/app"
 msgstr "Voeg span/app by"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:159
+#: ../../../lib/web/src/features/accounts/account-add.tsx:162
 msgid "Add to existing notifications"
 msgstr "Voeg by bestaande kennisgewings"
 
-#: ../../../lib/web/src/components/view-tabs.tsx:81
-#: ../../../lib/web/src/components/view-tabs.tsx:82
+#: ../../../lib/web/src/components/view-tabs.tsx:87
+#: ../../../lib/web/src/components/view-tabs.tsx:93
 msgid "Add view"
 msgstr "Voeg aansig by"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:62
+#: ../../../lib/web/src/components/config-drawer.tsx:71
 msgid "Adjust the appearance and layout to suit your preferences."
 msgstr "Pas die voorkoms en uitleg aan om by jou voorkeure te pas."
 
-#: ../../../lib/web/src/components/ui/sort-selector.tsx:38
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:41
 msgid "AI"
 msgstr "KI"
 
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:159
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:163
 msgid "All"
 msgstr "Alle"
 
-#: src/routes/_authenticated/app/$appId.tsx:260
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "All uploaded build files for this application"
 msgstr "Alle opgelaaide build-lêers vir hierdie toepassing"
 
-#: ../../../lib/web/src/lib/api-client.ts:189
+#: ../../../lib/web/src/lib/api-client.ts:192
 msgid "An error occurred"
 msgstr "Daar het 'n fout voorgekom"
 
-#: ../../../lib/web/src/lib/api-client.ts:252
+#: ../../../lib/web/src/lib/api-client.ts:255
 msgid "An unexpected error occurred"
 msgstr "'n Onverwagte fout het voorgekom"
 
-#: src/routes/_authenticated/app/$appId.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:134
 msgid "App"
 msgstr "App"
 
-#: src/features/apps/index.tsx:151
+#: src/features/apps/index.tsx:156
 msgid "App created"
 msgstr "App geskep"
 
-#: src/routes/_authenticated/app/$appId.tsx:112
-#: src/routes/_authenticated/app/$appId.tsx:116
-#: src/routes/_authenticated/app/$appId.tsx:137
-#: src/routes/_authenticated/app/$appId.tsx:141
+#: src/routes/_authenticated/app/$appId.tsx:120
+#: src/routes/_authenticated/app/$appId.tsx:124
+#: src/routes/_authenticated/app/$appId.tsx:145
+#: src/routes/_authenticated/app/$appId.tsx:149
 msgid "App not found"
 msgstr "App nie gevind nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
+#: src/routes/_authenticated/app/$appId.tsx:213
 msgid "Application ID"
 msgstr "Toepassings-ID"
 
-#: ../../../lib/web/src/components/sign-out-dialog.tsx:24
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:27
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
 msgstr "Is jy seker jy wil afmeld? Jy sal weer moet aanmeld om toegang tot jou rekening te kry."
 
-#: ../../../lib/web/src/components/data-table/column-header.tsx:56
+#: ../../../lib/web/src/components/data-table/column-header.tsx:59
 msgid "Asc"
 msgstr "Stygend"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:312
+#: ../../../lib/web/src/components/ui/sort-direction-button.tsx:27
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: ../../../lib/web/src/components/step-up-dialog.tsx:315
 msgid "Authenticator code"
 msgstr "Verifikasiekode"
 
-#: src/routes/_authenticated/app/$appId.tsx:364
+#: src/routes/_authenticated/app/$appId.tsx:372
 msgid "Available Versions"
 msgstr "Beskikbare weergawes"
 
-#: ../../../lib/web/src/components/place-picker.tsx:152
+#: ../../../lib/web/src/components/place-picker.tsx:155
 msgid "Back"
 msgstr "Terug"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
-#: src/routes/_authenticated/app/$appId.tsx:112
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:137
-#: src/routes/_authenticated/app/$appId.tsx:166
-#: src/routes/_authenticated/app/$appId.tsx:329
+#: src/routes/_authenticated/app/$appId.tsx:107
+#: src/routes/_authenticated/app/$appId.tsx:120
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:145
+#: src/routes/_authenticated/app/$appId.tsx:174
+#: src/routes/_authenticated/app/$appId.tsx:337
 msgid "Back to apps"
 msgstr "Terug na apps"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:23
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:23
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:23
+#: ../../../lib/web/src/features/errors/forbidden.tsx:26
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:26
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:26
 msgid "Back to home"
 msgstr "Terug na tuis"
 
-#: ../../../lib/web/src/components/post-tags.tsx:160
+#: ../../../lib/web/src/components/post-tags.tsx:172
+#: ../../../lib/web/src/components/post-tags.tsx:184
 msgid "Boost interest"
 msgstr "Versterk belangstelling"
 
-#: src/routes/_authenticated/app/$appId.tsx:679
+#: src/routes/_authenticated/app/$appId.tsx:692
 msgid "Build File (.zip)"
 msgstr "Bouleer (.zip)"
 
-#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:64
-#: ../../../lib/web/src/components/step-up-dialog.tsx:360
-#: ../../../lib/web/src/components/travelling-picker.tsx:292
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:245
-#: ../../../lib/web/src/components/ui/editable-field-row.tsx:129
-#: ../../../lib/web/src/features/access/access-dialog.tsx:325
-#: ../../../lib/web/src/features/access/access-list.tsx:255
-#: ../../../lib/web/src/features/accounts/account-add.tsx:185
-#: ../../../lib/web/src/features/accounts/account-verify.tsx:86
-#: src/features/apps/index.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:589
-#: src/routes/_authenticated/app/$appId.tsx:731
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:67
+#: ../../../lib/web/src/components/step-up-dialog.tsx:363
+#: ../../../lib/web/src/components/travelling-picker.tsx:308
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:248
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:132
+#: ../../../lib/web/src/features/access/access-dialog.tsx:328
+#: ../../../lib/web/src/features/access/access-list.tsx:263
+#: ../../../lib/web/src/features/accounts/account-add.tsx:188
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:89
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:602
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Cancel"
 msgstr "Kanselleer"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:144
 msgid "Category for this notification"
 msgstr "Kategorie vir hierdie kennisgewing"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:119
+#: ../../../lib/web/src/components/notification-category-button.tsx:125
+#: ../../../lib/web/src/components/notification-category-button.tsx:136
 msgid "Change notification category"
 msgstr "Verander kennisgewingkategorie"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:315
+#: ../../../lib/web/src/components/config-drawer.tsx:328
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
 msgstr "Kies tussen verstek uitgebreide, kompakte slegs-ikoon, of volle uitlegmodus"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:257
+#: ../../../lib/web/src/components/config-drawer.tsx:270
 msgid "Choose between inset, floating, or standard sidebar layout"
 msgstr "Kies tussen ingelegde, swewende, of standaard sybalk-uitleg"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:358
+#: ../../../lib/web/src/components/config-drawer.tsx:371
 msgid "Choose between left-to-right or right-to-left site direction"
 msgstr "Kies tussen links-na-regs of regs-na-links werfrigting"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:213
+#: ../../../lib/web/src/components/config-drawer.tsx:226
 msgid "Choose between system preference, light mode, or dark mode"
 msgstr "Kies tussen stelselvoorkeur, ligte modus, of donker modus"
 
-#: ../../../lib/web/src/components/language-picker.tsx:294
+#: ../../../lib/web/src/components/language-picker.tsx:300
+#: ../../../lib/web/src/components/language-picker.tsx:307
 msgid "Choose language"
 msgstr "Kies taal"
 
-#: ../../../lib/web/src/components/colour-picker.tsx:268
-#: ../../../lib/web/src/components/colour-picker.tsx:349
+#: ../../../lib/web/src/components/colour-picker.tsx:269
+#: ../../../lib/web/src/components/colour-picker.tsx:350
+#: ../../../lib/web/src/components/travelling-picker.tsx:164
+#: ../../../lib/web/src/components/travelling-picker.tsx:170
+#: ../../../lib/web/src/components/travelling-picker.tsx:231
+#: ../../../lib/web/src/components/travelling-picker.tsx:237
 msgid "Clear"
 msgstr "Maak skoon"
 
-#: ../../../lib/web/src/components/filter-bar.tsx:64
+#: ../../../lib/web/src/components/filter-bar.tsx:73
 msgid "Clear all"
 msgstr "Maak alles skoon"
 
-#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:137
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:140
 msgid "Clear filters"
 msgstr "Maak filters skoon"
 
-#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:164
-#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:167
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:171
 msgid "Clear selection"
 msgstr "Maak keuse skoon"
 
-#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:165
+#: ../../../lib/web/src/components/data-table/bulk-actions.tsx:168
 msgid "Clear selection (Escape)"
 msgstr "Maak keuse skoon (Escape)"
 
-#: ../../../lib/web/src/components/ui/dialog.tsx:75
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:321
-#: ../../../lib/web/src/components/ui/sheet.tsx:76
+#: ../../../lib/web/src/components/ui/dialog.tsx:78
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "Sluit"
 
-#: ../../../lib/web/src/components/layout/app-sidebar.tsx:97
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:107
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:112
 msgid "Close navigation"
 msgstr "Sluit navigasie"
 
-#: ../../../lib/web/src/components/layout/right-panel.tsx:254
+#: ../../../lib/web/src/components/layout/right-panel.tsx:265
+#: ../../../lib/web/src/components/layout/right-panel.tsx:268
 msgid "Close panel"
 msgstr "Sluit paneel"
 
-#: ../../../lib/web/src/components/header-search.tsx:51
+#: ../../../lib/web/src/components/header-search.tsx:54
 msgid "Close search"
 msgstr "Sluit soektog"
 
-#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+#: ../../../lib/web/src/components/comment-tree-layout.tsx:101
+#: ../../../lib/web/src/components/comment-tree-layout.tsx:110
+#: ../../../lib/web/src/components/tree-row.tsx:255
+#: ../../../lib/web/src/components/tree-row.tsx:269
+msgid "Collapse"
+msgstr "Vou in"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:39
 msgid "Collapse sidebar"
 msgstr "Vou sybalk in"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:93
+#: ../../../lib/web/src/lib/preference-utils.ts:96
 msgid "Comfortable"
 msgstr "Gemaklik"
 
-#: ../../../lib/web/src/components/coming-soon.tsx:9
+#: ../../../lib/web/src/components/coming-soon.tsx:12
 msgid "Coming Soon!"
 msgstr "Kom binnekort!"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:302
-#: ../../../lib/web/src/lib/preference-utils.ts:92
+#: ../../../lib/web/src/components/config-drawer.tsx:315
+#: ../../../lib/web/src/lib/preference-utils.ts:95
 msgid "Compact"
 msgstr "Kompak"
 
-#: ../../../lib/web/src/components/place-picker.tsx:156
-#: ../../../lib/web/src/components/travelling-picker.tsx:300
+#: ../../../lib/web/src/components/place-picker.tsx:159
+#: ../../../lib/web/src/components/travelling-picker.tsx:316
 msgid "Confirm"
 msgstr "Bevestig"
 
-#: ../../../lib/web/src/lib/query-client.ts:78
+#: ../../../lib/web/src/lib/query-client.ts:81
 msgid "Content not modified"
 msgstr "Inhoud nie gewysig nie"
 
-#: ../../../lib/web/src/components/layout/right-panel.tsx:145
+#: ../../../lib/web/src/components/layout/right-panel.tsx:149
 msgid "Contextual information and details."
 msgstr "Kontekstuele inligting en besonderhede."
 
-#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:72
+#: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:75
 msgid "Continue"
 msgstr "Gaan voort"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:349
+#: ../../../lib/web/src/components/step-up-dialog.tsx:352
 msgid "Continue with {label}"
 msgstr "Gaan voort met {label}"
 
-#: ../../../lib/web/src/components/ui/copy-button.tsx:60
+#: ../../../lib/web/src/components/ui/copy-button.tsx:63
 msgid "Copy"
 msgstr "Kopieer"
 
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kopieer hierdie skakel en plak dit op die Apps-bladsy van jou Mochi-bediener om te installeer."
 
-#: src/routes/_authenticated/app/$appId.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:211
 msgid "Core identification for this application"
 msgstr "Kern-identifikasie vir hierdie toepassing"
 
-#: ../../../lib/web/src/features/document/document-page.tsx:81
+#: ../../../lib/web/src/features/document/document-page.tsx:84
 msgid "Could not load this document. Please try again later."
 msgstr "Kon nie hierdie dokument laai nie. Probeer asseblief later weer."
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:181
+#: ../../../lib/web/src/components/step-up-dialog.tsx:184
 msgid "Couldn't send the code. Please try again."
 msgstr "Kon nie die kode stuur nie. Probeer asseblief weer."
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:133
+#: ../../../lib/web/src/components/step-up-dialog.tsx:136
 msgid "Couldn't start re-authentication. Please try again."
 msgstr "Kon nie herverifikasie begin nie. Probeer asseblief weer."
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:218
+#: ../../../lib/web/src/components/step-up-dialog.tsx:221
 msgid "Couldn't verify with that account. Please try again."
 msgstr "Kon nie met daardie rekening verifieer nie. Probeer asseblief weer."
 
-#: src/routes/_authenticated/app/$appId.tsx:552
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Skep 'n nuwe omgewing (bv. Beta, Staging) om builds te ontplooi."
 
-#: src/features/apps/index.tsx:50
-#: src/features/apps/index.tsx:51
 #: src/features/apps/index.tsx:55
-#: src/features/apps/index.tsx:82
-#: src/features/apps/index.tsx:171
-#: src/features/apps/index.tsx:211
+#: src/features/apps/index.tsx:56
+#: src/features/apps/index.tsx:60
+#: src/features/apps/index.tsx:87
+#: src/features/apps/index.tsx:176
+#: src/features/apps/index.tsx:216
 msgid "Create app"
 msgstr "Skep app"
 
-#: src/features/apps/index.tsx:169
+#: src/features/apps/index.tsx:174
 msgid "Create new app"
 msgstr "Skep nuwe app"
 
-#: src/routes/_authenticated/app/$appId.tsx:195
-#: src/routes/_authenticated/app/$appId.tsx:596
+#: src/routes/_authenticated/app/$appId.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:609
 msgid "Create track"
 msgstr "Skep baan"
 
-#: src/features/apps/index.tsx:78
+#: src/features/apps/index.tsx:83
 msgid "Create your first app to get started"
 msgstr "Skep jou eerste app om te begin"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:484
 msgid "Create your first release track to manage deployments"
 msgstr "Skep jou eerste vrystellingsbaan om ontplooiings te bestuur"
 
-#: src/features/apps/index.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:596
+#: src/features/apps/index.tsx:216
+#: src/routes/_authenticated/app/$appId.tsx:609
 msgid "Creating..."
 msgstr "Skep..."
 
-#: ../../../lib/web/src/components/colour-picker.tsx:259
+#: ../../../lib/web/src/components/colour-picker.tsx:260
 msgid "Custom"
 msgstr "Pasgemaak"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:205
-#: ../../../lib/web/src/lib/preference-utils.ts:17
+#: ../../../lib/web/src/components/config-drawer.tsx:218
+#: ../../../lib/web/src/lib/preference-utils.ts:20
 msgid "Dark"
 msgstr "Donker"
 
-#: ../../../lib/web/src/components/layout/nav-user.tsx:88
-#: ../../../lib/web/src/components/layout/nav-user.tsx:151
-#: ../../../lib/web/src/components/layout/nav-user.tsx:202
-#: ../../../lib/web/src/components/profile-dropdown.tsx:84
-#: ../../../lib/web/src/components/profile-dropdown.tsx:120
+#: ../../../lib/web/src/components/layout/nav-user.tsx:91
+#: ../../../lib/web/src/components/layout/nav-user.tsx:154
+#: ../../../lib/web/src/components/layout/nav-user.tsx:205
+#: ../../../lib/web/src/components/profile-dropdown.tsx:87
+#: ../../../lib/web/src/components/profile-dropdown.tsx:123
 msgid "Dark mode"
 msgstr "Donker modus"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:297
+#: ../../../lib/web/src/components/config-drawer.tsx:310
 msgid "Default"
 msgstr "Verstek"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:169
+#: ../../../lib/web/src/features/accounts/account-add.tsx:172
 msgid "Default AI account"
 msgstr "Verstek KI-rekening"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Default track set to \"{track}\""
 msgstr "Verstek baan gestel op \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:531
+#: src/routes/_authenticated/app/$appId.tsx:544
 msgid "Delete track"
 msgstr "Verwyder baan"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:90
+#: ../../../lib/web/src/components/restore-banner.tsx:99
 msgid "Delete your account on the old server"
 msgstr "Vee jou rekening op die ou bediener uit"
 
-#: ../../../lib/web/src/components/data-table/column-header.tsx:60
+#: ../../../lib/web/src/components/data-table/column-header.tsx:63
 msgid "Desc"
 msgstr "Dalend"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: ../../../lib/web/src/components/ui/sort-direction-button.tsx:27
+msgid "Descending"
+msgstr "Aflopend"
+
+#: src/routes/_authenticated/app/$appId.tsx:356
 msgid "Details"
 msgstr "Besonderhede"
 
-#: ../../../lib/web/src/components/layout/right-panel.tsx:144
+#: ../../../lib/web/src/components/layout/right-panel.tsx:148
 msgid "Details Panel"
 msgstr "Besonderhede-paneel"
 
-#: ../../../lib/web/src/components/language-picker.tsx:272
-#: ../../../lib/web/src/components/timezone-select.tsx:43
-#: ../../../lib/web/src/components/timezone-select.tsx:80
-#: ../../../lib/web/src/lib/preference-utils.ts:25
-#: ../../../lib/web/src/lib/preference-utils.ts:37
-#: ../../../lib/web/src/lib/preference-utils.ts:55
-#: ../../../lib/web/src/lib/preference-utils.ts:69
-#: ../../../lib/web/src/lib/preference-utils.ts:81
+#: ../../../lib/web/src/components/language-picker.tsx:276
+#: ../../../lib/web/src/components/timezone-select.tsx:46
+#: ../../../lib/web/src/components/timezone-select.tsx:83
+#: ../../../lib/web/src/lib/preference-utils.ts:28
+#: ../../../lib/web/src/lib/preference-utils.ts:40
+#: ../../../lib/web/src/lib/preference-utils.ts:58
+#: ../../../lib/web/src/lib/preference-utils.ts:72
+#: ../../../lib/web/src/lib/preference-utils.ts:84
 msgid "Detect from web browser"
 msgstr "Spoor op vanaf webblaaier"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:327
+#: ../../../lib/web/src/components/config-drawer.tsx:340
 msgid "Direction"
 msgstr "Rigting"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:73
+#: ../../../lib/web/src/components/restore-banner.tsx:79
+#: ../../../lib/web/src/components/restore-banner.tsx:85
 msgid "Dismiss"
 msgstr "Sluit"
 
-#: ../../../lib/web/src/components/ui/sidebar.tsx:235
+#: ../../../lib/web/src/components/ui/sidebar.tsx:238
 msgid "Displays the mobile sidebar."
 msgstr "Vertoon die mobiele sybalk."
 
-#: src/routes/_authenticated/app/$appId.tsx:220
+#: src/routes/_authenticated/app/$appId.tsx:228
 msgid "Distribution"
 msgstr "Verspreiding"
 
-#: src/routes/_authenticated/app/$appId.tsx:75
+#: src/routes/_authenticated/app/$appId.tsx:83
 msgid "Distribution set to {distribution}"
 msgstr "Verspreiding gestel op {distribution}"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:315
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
 msgid "Download"
 msgstr "Laai af"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:143
+#: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "Diksleksie-vriendelik"
 
-#: src/routes/_authenticated/app/$appId.tsx:562
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "e.g. Staging"
 msgstr "bv. Staging"
 
-#: ../../../lib/web/src/components/ui/editable-field-row.tsx:151
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:154
 msgid "Edit {label}"
 msgstr "Wysig {label}"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:286
+#: ../../../lib/web/src/components/step-up-dialog.tsx:289
 msgid "Email code"
 msgstr "E-poskode"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:296
+#: ../../../lib/web/src/components/step-up-dialog.tsx:299
 msgid "Enter the code from your email"
 msgstr "Voer die kode uit jou e-pos in"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:321
+#: ../../../lib/web/src/components/step-up-dialog.tsx:324
 msgid "Enter your authenticator code"
 msgstr "Voer jou verifikator-kode in"
 
-#: ../../../lib/web/src/components/layout/app-sidebar.tsx:35
+#: ../../../lib/web/src/components/comment-tree-layout.tsx:101
+#: ../../../lib/web/src/components/comment-tree-layout.tsx:110
+#: ../../../lib/web/src/components/tree-row.tsx:255
+#: ../../../lib/web/src/components/tree-row.tsx:269
+msgid "Expand"
+msgstr "Vou uit"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:39
 msgid "Expand sidebar"
 msgstr "Brei sybalk uit"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:133
+#: ../../../lib/web/src/lib/preference-utils.ts:136
 msgid "Extra large"
 msgstr "Ekstra groot"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:217
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:225
 msgid "Failed to add account"
 msgstr "Kon nie rekening byvoeg nie"
 
-#: src/features/apps/index.tsx:159
+#: src/features/apps/index.tsx:164
 msgid "Failed to create app"
 msgstr "Kon nie toepassing skep nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:418
+#: src/routes/_authenticated/app/$appId.tsx:426
 msgid "Failed to create track"
 msgstr "Kon nie kanaal skep nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:454
 msgid "Failed to delete track"
 msgstr "Kon nie kanaal verwyder nie"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:226
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:234
 msgid "Failed to remove account"
 msgstr "Kon nie rekening verwyder nie"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:249
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:257
 msgid "Failed to send verification code"
 msgstr "Kon nie verifikasiekode stuur nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:468
 msgid "Failed to set default track"
 msgstr "Kon nie verstekkanaal stel nie"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:108
+#: ../../../lib/web/src/components/notification-category-button.tsx:112
 msgid "Failed to update category"
 msgstr "Kon nie kategorie opdateer nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:78
+#: src/routes/_authenticated/app/$appId.tsx:86
 msgid "Failed to update distribution"
 msgstr "Kon nie verspreiding opdateer nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:440
 msgid "Failed to update track"
 msgstr "Kon nie kanaal opdateer nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:673
 msgid "Failed to upload version"
 msgstr "Kon nie weergawe oplaai nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:208
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:216
+#: src/routes/_authenticated/app/$appId.tsx:358
 msgid "Fingerprint"
 msgstr "Vingerafdruk"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
+#: ../../../lib/web/src/components/restore-banner.tsx:88
 msgid "Finish moving your account"
 msgstr "Voltooi die skuif van jou rekening"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:113
+#: ../../../lib/web/src/lib/preference-utils.ts:116
 msgid "Flat"
 msgstr "Plat"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:244
+#: ../../../lib/web/src/components/config-drawer.tsx:257
 msgid "Floating"
 msgstr "Drywend"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:60
+#: ../../../lib/web/src/lib/preference-utils.ts:63
 msgid "Friday"
 msgstr "Vrydag"
 
-#: ../../../lib/web/src/components/travelling-picker.tsx:149
+#: ../../../lib/web/src/components/travelling-picker.tsx:153
 msgid "From"
 msgstr "Van"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:91
-#: ../../../lib/web/src/lib/preference-utils.ts:101
-#: ../../../lib/web/src/lib/preference-utils.ts:112
-#: ../../../lib/web/src/lib/preference-utils.ts:121
-#: ../../../lib/web/src/lib/preference-utils.ts:129
-#: ../../../lib/web/src/lib/preference-utils.ts:140
+#: ../../../lib/web/src/lib/preference-utils.ts:94
+#: ../../../lib/web/src/lib/preference-utils.ts:104
+#: ../../../lib/web/src/lib/preference-utils.ts:115
+#: ../../../lib/web/src/lib/preference-utils.ts:124
+#: ../../../lib/web/src/lib/preference-utils.ts:132
+#: ../../../lib/web/src/lib/preference-utils.ts:143
 msgid "From theme"
 msgstr "Vanaf tema"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:307
+#: ../../../lib/web/src/components/config-drawer.tsx:320
 msgid "Full layout"
 msgstr "Volle uitleg"
 
-#: ../../../lib/web/src/features/errors/forbidden.tsx:21
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:21
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:21
+#: ../../../lib/web/src/features/errors/forbidden.tsx:24
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:24
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:24
 msgid "Go back"
 msgstr "Terug"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:75
+#: ../../../lib/web/src/components/data-table/pagination.tsx:78
 msgid "Go to first page"
 msgstr "Gaan na eerste bladsy"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:121
+#: ../../../lib/web/src/components/data-table/pagination.tsx:124
 msgid "Go to last page"
 msgstr "Gaan na laaste bladsy"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:112
+#: ../../../lib/web/src/components/data-table/pagination.tsx:115
 msgid "Go to next page"
 msgstr "Gaan na volgende bladsy"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:99
+#: ../../../lib/web/src/components/data-table/pagination.tsx:102
 msgid "Go to page {pageNumber}"
 msgstr "Gaan na bladsy {pageNumber}"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:84
+#: ../../../lib/web/src/components/data-table/pagination.tsx:87
 msgid "Go to previous page"
 msgstr "Gaan na vorige bladsy"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:159
+#: ../../../lib/web/src/features/access/access-dialog.tsx:162
 msgid "Group"
 msgstr "Groep"
 
-#: ../../../lib/web/src/components/data-table/column-header.tsx:67
+#: ../../../lib/web/src/components/data-table/column-header.tsx:70
 msgid "Hide"
 msgstr "Versteek"
 
-#: ../../../lib/web/src/components/layout/app-sidebar.tsx:82
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:142
-#: ../../../lib/web/src/components/layout/top-bar.tsx:62
-#: ../../../lib/web/src/components/layout/top-bar.tsx:91
+#: ../../../lib/web/src/components/password-input.tsx:27
+msgid "Hide password"
+msgstr "Versteek wagwoord"
+
+#: ../../../lib/web/src/components/layout/app-sidebar.tsx:90
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:158
+#: ../../../lib/web/src/components/layout/top-bar.tsx:71
+#: ../../../lib/web/src/components/layout/top-bar.tsx:100
 msgid "Home"
 msgstr "Tuis"
 
-#: ../../../lib/web/src/components/ui/sort-selector.tsx:41
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:44
 msgid "Hot"
 msgstr "Warm"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:211
 msgid "Identity"
 msgstr "Identiteit"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:83
+#: ../../../lib/web/src/lib/preference-utils.ts:86
 msgid "Imperial"
 msgstr "Imperiaal"
 
-#: src/routes/_authenticated/app/$appId.tsx:568
+#: src/routes/_authenticated/app/$appId.tsx:581
 msgid "Initial Version"
 msgstr "Aanvanklike weergawe"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:239
+#: ../../../lib/web/src/components/config-drawer.tsx:252
 msgid "Inset"
 msgstr "Ingebed"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Install App"
 msgstr "Installeer toepassing"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: src/routes/_authenticated/app/$appId.tsx:256
+#: src/routes/_authenticated/app/$appId.tsx:347
 msgid "Install link:"
 msgstr "Installasieskakel:"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:705
 msgid "Install Locally"
 msgstr "Installeer plaaslik"
 
-#: src/routes/_authenticated/app/$appId.tsx:332
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Install this application to your server"
 msgstr "Installeer hierdie toepassing op jou bediener"
 
-#: ../../../lib/web/src/components/ui/sort-selector.tsx:39
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Interests"
 msgstr "Belange"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:237
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:245
 msgid "Invalid verification code"
 msgstr "Ongeldige verifikasiekode"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:105
-#: ../../../lib/web/src/lib/preference-utils.ts:132
+#: ../../../lib/web/src/lib/preference-utils.ts:108
+#: ../../../lib/web/src/lib/preference-utils.ts:135
 msgid "Large"
 msgstr "Groot"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:273
+#: ../../../lib/web/src/components/config-drawer.tsx:286
 msgid "Layout"
 msgstr "Uitleg"
 
-#: ../../../lib/web/src/components/learn-more.tsx:27
+#: ../../../lib/web/src/components/learn-more.tsx:33
+#: ../../../lib/web/src/components/learn-more.tsx:38
 msgid "Learn more"
 msgstr "Leer meer"
 
-#: src/routes/_authenticated/app/$appId.tsx:574
+#: src/routes/_authenticated/app/$appId.tsx:587
 msgid "Leave empty"
 msgstr "Laat leeg"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:341
+#: ../../../lib/web/src/components/config-drawer.tsx:354
 msgid "Left to Right"
 msgstr "Links na regs"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:200
-#: ../../../lib/web/src/lib/preference-utils.ts:16
+#: ../../../lib/web/src/components/config-drawer.tsx:213
+#: ../../../lib/web/src/lib/preference-utils.ts:19
 msgid "Light"
 msgstr "Lig"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx:32
+#: ../../../lib/web/src/components/ui/load-more.tsx:35
 msgid "Load more"
 msgstr "Laai meer"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:106
 msgid "Loading app..."
 msgstr "Laai toepassing..."
 
-#: ../../../lib/web/src/components/ui/load-more.tsx:32
-#: ../../../lib/web/src/features/document/document-page.tsx:87
+#: ../../../lib/web/src/components/ui/load-more.tsx:35
+#: ../../../lib/web/src/features/document/document-page.tsx:90
 msgid "Loading…"
 msgstr "Laai…"
 
-#: ../../../lib/web/src/components/layout/nav-user.tsx:98
-#: ../../../lib/web/src/components/layout/nav-user.tsx:164
-#: ../../../lib/web/src/components/layout/nav-user.tsx:212
-#: ../../../lib/web/src/components/profile-dropdown.tsx:66
-#: ../../../lib/web/src/components/profile-dropdown.tsx:95
-#: ../../../lib/web/src/components/sign-out-dialog.tsx:23
-#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+#: ../../../lib/web/src/components/layout/nav-user.tsx:101
+#: ../../../lib/web/src/components/layout/nav-user.tsx:167
+#: ../../../lib/web/src/components/layout/nav-user.tsx:215
+#: ../../../lib/web/src/components/profile-dropdown.tsx:69
+#: ../../../lib/web/src/components/profile-dropdown.tsx:98
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:26
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:28
 msgid "Log out"
 msgstr "Meld af"
 
-#: ../../../lib/web/src/hooks/use-logout.ts:16
+#: ../../../lib/web/src/hooks/use-logout.ts:19
 msgid "Logged out (with errors)"
 msgstr "Afgemeld (met foute)"
 
-#: ../../../lib/web/src/hooks/use-logout.ts:14
+#: ../../../lib/web/src/hooks/use-logout.ts:17
 msgid "Logged out successfully"
 msgstr "Suksesvol afgemeld"
 
-#: ../../../lib/web/src/components/sign-out-dialog.tsx:25
+#: ../../../lib/web/src/components/sign-out-dialog.tsx:28
 msgid "Logging out…"
 msgstr "Besig om af te meld…"
 
-#: src/features/apps/index.tsx:189
+#: src/features/apps/index.tsx:194
 msgid "Make app publicly available"
 msgstr "Maak program publiek beskikbaar"
 
-#: src/routes/_authenticated/app/$appId.tsx:469
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "Manage deployment environments and their versions"
 msgstr "Bestuur ontplooiingsomgewings en hul weergawes"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:220
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:92
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:99
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Merk alles as gelees"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:104
+#: ../../../lib/web/src/lib/preference-utils.ts:107
 msgid "Medium"
 msgstr "Medium"
 
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:152
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Kieslys"
 
-#: src/routes/_authenticated/app/$appId.tsx:348
+#: src/routes/_authenticated/app/$appId.tsx:356
 msgid "Metadata and configuration"
 msgstr "Metadata en konfigurasie"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:82
+#: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
 msgstr "Metriek"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:56
+#: ../../../lib/web/src/lib/preference-utils.ts:59
 msgid "Monday"
 msgstr "Maandag"
 
-#: src/features/apps/index.tsx:184
+#: src/features/apps/index.tsx:189
 msgid "My App"
 msgstr "My program"
 
-#: src/routes/_authenticated/app/$appId.tsx:351
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "N/A"
 msgstr "N.v.t."
 
-#: src/features/apps/index.tsx:178
+#: src/features/apps/index.tsx:183
 msgid "Name"
 msgstr "Naam"
 
-#: ../../../lib/web/src/lib/api-client.ts:297
+#: ../../../lib/web/src/lib/api-client.ts:300
 msgid "Network error"
 msgstr "Netwerkfout"
 
-#: ../../../lib/web/src/components/ui/sort-selector.tsx:40
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:43
 msgid "New"
 msgstr "Nuut"
 
-#: src/routes/_authenticated/app/$appId.tsx:550
+#: src/routes/_authenticated/app/$appId.tsx:563
 msgid "New Release Track"
 msgstr "Nuwe vrystellingsbaan"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:345
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
 msgid "Next image"
 msgstr "Volgende prent"
 
-#: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/features/apps/index.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "No"
 msgstr "Nee"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:156
+#: ../../../lib/web/src/features/access/access-list.tsx:160
 msgid "No access rules configured. Add rules to control who can access this resource."
 msgstr "Geen toegangsreëls gekonfigureer nie. Voeg reëls by om te beheer wie toegang tot hierdie hulpbron het."
 
-#: src/features/apps/index.tsx:77
+#: src/features/apps/index.tsx:82
 msgid "No apps yet"
 msgstr "Nog geen programme nie"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:287
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:295
 msgid "No connected accounts"
 msgstr "Geen gekoppelde rekeninge nie"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:238
+#: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Geen groepe beskikbaar nie"
 
-#: ../../../lib/web/src/components/place-picker.tsx:129
+#: ../../../lib/web/src/components/place-picker.tsx:132
 msgid "No places found"
 msgstr "Geen plekke gevind nie"
 
-#: ../../../lib/web/src/components/profile-dropdown.tsx:55
+#: ../../../lib/web/src/components/profile-dropdown.tsx:58
 msgid "No profile"
 msgstr "Geen profiel"
 
-#: ../../../lib/web/src/components/command-menu.tsx:52
-#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:87
+#: ../../../lib/web/src/components/command-menu.tsx:55
+#: ../../../lib/web/src/components/data-table/faceted-filter.tsx:90
 msgid "No results found."
 msgstr "Geen resultate gevind nie."
 
-#: ../../../lib/web/src/components/timezone-select.tsx:64
+#: ../../../lib/web/src/components/timezone-select.tsx:67
 msgid "No time zone found."
 msgstr "Geen tydsone gevind nie."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:139
+#: ../../../lib/web/src/components/notification-category-button.tsx:148
 msgid "No topic record yet — try again after the next notification."
 msgstr "Nog geen onderwerprekord nie — probeer weer na die volgende kennisgewing."
 
-#: src/routes/_authenticated/app/$appId.tsx:475
+#: src/routes/_authenticated/app/$appId.tsx:483
 msgid "No tracks"
 msgstr "Geen bane"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:203
+#: ../../../lib/web/src/features/access/access-dialog.tsx:206
 msgid "No users found"
 msgstr "Geen gebruikers gevind nie"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:584
 msgid "No version"
 msgstr "Geen weergawe"
 
-#: src/routes/_authenticated/app/$appId.tsx:265
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "Geen weergawes"
 
-#: ../../../lib/web/src/components/person-picker.tsx:349
-#: ../../../lib/web/src/lib/preference-utils.ts:102
-#: ../../../lib/web/src/lib/preference-utils.ts:122
+#: ../../../lib/web/src/components/person-picker.tsx:350
+#: ../../../lib/web/src/lib/preference-utils.ts:105
+#: ../../../lib/web/src/lib/preference-utils.ts:125
 msgid "None"
 msgstr "Geen"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:131
+#: ../../../lib/web/src/lib/preference-utils.ts:134
 msgid "Normal"
 msgstr "Normaal"
 
-#: ../../../lib/web/src/components/ui/editable-field-row.tsx:143
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:146
 msgid "Not set"
 msgstr "Nie ingestel nie"
 
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:132
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:146
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:247
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:136
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:150
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:236
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:257
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:261
 msgid "Notifications"
 msgstr "Kennisgewings"
 
-#: ../../../lib/web/src/features/errors/not-found-error.tsx:13
+#: ../../../lib/web/src/features/errors/not-found-error.tsx:16
 msgid "Oops! Page Not Found!"
 msgstr "Oeps! Bladsy nie gevind nie!"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:150
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:151
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:156
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:166
 msgid "Open account actions"
 msgstr "Maak rekeningaksies oop"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:134
+#: ../../../lib/web/src/components/layout/nav-group.tsx:152
+#: ../../../lib/web/src/components/layout/nav-group.tsx:157
 msgid "Open actions"
 msgstr "Maak aksies oop"
 
-#: ../../../lib/web/src/components/layout/top-bar.tsx:57
+#: ../../../lib/web/src/components/layout/top-bar.tsx:63
+#: ../../../lib/web/src/components/layout/top-bar.tsx:68
 msgid "Open navigation"
 msgstr "Maak navigasie oop"
 
-#: ../../../lib/web/src/components/layout/top-nav.tsx:32
-#: ../../../lib/web/src/components/layout/top-nav.tsx:33
+#: ../../../lib/web/src/components/layout/top-nav.tsx:38
+#: ../../../lib/web/src/components/layout/top-nav.tsx:44
 msgid "Open navigation menu"
 msgstr "Maak navigasie-kieslys oop"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:51
+#: ../../../lib/web/src/components/config-drawer.tsx:57
+#: ../../../lib/web/src/components/config-drawer.tsx:65
 msgid "Open theme settings"
 msgstr "Maak tema-instellings oop"
 
-#: src/routes/_authenticated/app/$appId.tsx:514
+#: src/routes/_authenticated/app/$appId.tsx:524
+#: src/routes/_authenticated/app/$appId.tsx:529
 msgid "Open track actions"
 msgstr "Maak baan-aksies oop"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:163
+#: ../../../lib/web/src/features/access/access-dialog.tsx:166
 msgid "Other"
 msgstr "Ander"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:213
+#: ../../../lib/web/src/features/access/access-list.tsx:217
 msgid "Owner"
 msgstr "Eienaar"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:331
+#: ../../../lib/web/src/components/step-up-dialog.tsx:334
 msgid "Passkey"
 msgstr "Toegangsleutel"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:206
+#: ../../../lib/web/src/components/step-up-dialog.tsx:209
 msgid "Passkey verification failed. Please try again."
 msgstr "Wagsleutel-verifikasie het misluk. Probeer asseblief weer."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:126
+#: ../../../lib/web/src/components/restore-banner.tsx:135
 msgid "Passkeys"
 msgstr "Wagwoordsleutels"
 
-#: ../../../lib/web/src/lib/api-client.ts:298
+#: ../../../lib/web/src/lib/api-client.ts:301
 msgid "Please check your internet connection and try again."
 msgstr "Gaan asseblief jou internetverbinding na en probeer weer."
 
-#: src/features/apps/index.tsx:143
+#: src/features/apps/index.tsx:148
 msgid "Please enter an app name"
 msgstr "Voer asseblief 'n programnaam in"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:649
 msgid "Please select a file"
 msgstr "Kies asseblief 'n lêer"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
 msgid "Previous image"
 msgstr "Vorige prent"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:24
-#: ../../../lib/web/src/features/document/document-page.tsx:41
-#: src/routes/_authenticated/app/$appId.tsx:353
+#: ../../../lib/web/src/components/server-documents-footer.tsx:27
+#: ../../../lib/web/src/features/document/document-page.tsx:44
+#: src/routes/_authenticated/app/$appId.tsx:361
 msgid "Privacy"
 msgstr "Privaatheid"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Privacy Policy"
 msgstr "Privaatheidsbeleid"
 
-#: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:216
+#: src/features/apps/index.tsx:93
+#: src/routes/_authenticated/app/$appId.tsx:224
 msgid "Private"
 msgstr "Privaat"
 
-#: ../../../lib/web/src/components/layout/nav-user.tsx:134
-#: ../../../lib/web/src/components/profile-dropdown.tsx:111
+#: ../../../lib/web/src/components/layout/nav-user.tsx:137
+#: ../../../lib/web/src/components/profile-dropdown.tsx:114
 msgid "Profile"
 msgstr "Profiel"
 
-#: src/features/apps/index.tsx:88
-#: src/routes/_authenticated/app/$appId.tsx:214
+#: src/features/apps/index.tsx:93
+#: src/routes/_authenticated/app/$appId.tsx:222
 msgid "Public"
 msgstr "Publiek"
 
-#: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:230
+#: src/features/apps/index.tsx:94
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Published"
 msgstr "Gepubliseer"
 
-#: src/features/apps/index.tsx:32
-#: src/features/apps/index.tsx:46
+#: src/features/apps/index.tsx:37
+#: src/features/apps/index.tsx:51
 msgid "Publisher"
 msgstr "Uitgewer"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:114
+#: ../../../lib/web/src/lib/preference-utils.ts:117
 msgid "Raised"
 msgstr "Verhoog"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:98
+#: ../../../lib/web/src/components/restore-banner.tsx:107
 msgid "Re-link your accounts on this server"
 msgstr "Koppel jou rekeninge op hierdie bediener weer"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:120
+#: ../../../lib/web/src/components/restore-banner.tsx:129
 msgid "Re-register your passkeys on this server"
 msgstr "Herregistreer jou wagwoordsleutels op hierdie bediener"
 
-#: ../../../lib/web/src/components/search-entity-dialog.tsx:216
-#: ../../../lib/web/src/components/search-entity-page.tsx:191
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:219
+#: ../../../lib/web/src/components/search-entity-page.tsx:194
 msgid "Recommended"
 msgstr "Aanbeveel"
 
-#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:130
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:133
 msgid "Redirecting to login."
 msgstr "Besig om na aanmelding te herlei."
 
-#: ../../../lib/web/src/components/post-tags.tsx:175
+#: ../../../lib/web/src/components/post-tags.tsx:192
+#: ../../../lib/web/src/components/post-tags.tsx:204
 msgid "Reduce interest"
 msgstr "Verminder belangstelling"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:47
+#: ../../../lib/web/src/lib/preference-utils.ts:50
 msgid "Relative (5m, 3h, 2d)"
 msgstr "Relatief (5m, 3h, 2d)"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:46
+#: ../../../lib/web/src/lib/preference-utils.ts:49
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relatief binne 24 uur, andersins absoluut"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Release Tracks"
 msgstr "Vrystellingsbane"
 
-#: src/routes/_authenticated/app/$appId.tsx:364
+#: src/routes/_authenticated/app/$appId.tsx:372
 msgid "Release tracks currently active"
 msgstr "Vrystellingsbane wat tans aktief is"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:257
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:172
+#: ../../../lib/web/src/features/access/access-list.tsx:265
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
 msgstr "Verwyder"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:241
-#: ../../../lib/web/src/features/access/access-list.tsx:242
+#: ../../../lib/web/src/features/access/access-list.tsx:247
+#: ../../../lib/web/src/features/access/access-list.tsx:253
 msgid "Remove access rule"
 msgstr "Verwyder toegangsreël"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:249
+#: ../../../lib/web/src/features/access/access-list.tsx:257
 msgid "Remove access?"
 msgstr "Verwyder toegang?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:190
+#: ../../../lib/web/src/components/post-tags.tsx:212
+#: ../../../lib/web/src/components/post-tags.tsx:224
 msgid "Remove interest"
 msgstr "Verwyder belangstelling"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:364
+#: ../../../lib/web/src/components/step-up-dialog.tsx:367
 msgid "Resend email"
 msgstr "Stuur e-pos weer"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:77
-#: ../../../lib/web/src/components/data-table/toolbar.tsx:78
+#: ../../../lib/web/src/components/config-drawer.tsx:86
+#: ../../../lib/web/src/components/data-table/toolbar.tsx:81
 msgid "Reset"
 msgstr "Stel terug"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:75
+#: ../../../lib/web/src/components/config-drawer.tsx:84
 msgid "Reset all settings to default values"
 msgstr "Stel alle instellings terug na verstekwaardes"
 
-#: src/features/apps/index.tsx:89
-#: src/routes/_authenticated/app/$appId.tsx:231
+#: src/features/apps/index.tsx:94
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Restricted"
 msgstr "Beperk"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:348
+#: ../../../lib/web/src/components/config-drawer.tsx:361
 msgid "Right to Left"
 msgstr "Regs na links"
 
-#: ../../../lib/web/src/components/data-table/pagination.tsx:60
+#: ../../../lib/web/src/components/data-table/pagination.tsx:63
 msgid "Rows per page"
 msgstr "Rye per bladsy"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:61
+#: ../../../lib/web/src/lib/preference-utils.ts:64
 msgid "Saturday"
 msgstr "Saterdag"
 
-#: ../../../lib/web/src/components/ui/editable-field-row.tsx:119
-#: ../../../lib/web/src/components/ui/secret-field.tsx:74
+#: ../../../lib/web/src/components/ui/editable-field-row.tsx:122
+#: ../../../lib/web/src/components/ui/secret-field.tsx:77
 msgid "Save"
 msgstr "Stoor"
 
-#: ../../../lib/web/src/components/place-picker.tsx:82
+#: ../../../lib/web/src/components/place-picker.tsx:85
 msgid "Search for a place"
 msgstr "Soek vir 'n plek"
 
-#: ../../../lib/web/src/components/travelling-picker.tsx:234
+#: ../../../lib/web/src/components/travelling-picker.tsx:250
 msgid "Search for destination..."
 msgstr "Soek vir bestemming..."
 
-#: ../../../lib/web/src/components/travelling-picker.tsx:173
+#: ../../../lib/web/src/components/travelling-picker.tsx:183
 msgid "Search for origin..."
 msgstr "Soek vir oorsprong..."
 
-#: ../../../lib/web/src/components/timezone-select.tsx:62
+#: ../../../lib/web/src/components/timezone-select.tsx:65
 msgid "Search time zone..."
 msgstr "Soek tydsone..."
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:170
+#: ../../../lib/web/src/features/access/access-dialog.tsx:173
 msgid "Search users"
 msgstr "Soek gebruikers"
 
-#: ../../../lib/web/src/components/person-picker.tsx:323
+#: ../../../lib/web/src/components/person-picker.tsx:324
 msgid "Search..."
 msgstr "Soek..."
 
-#: ../../../lib/web/src/components/search-entity-dialog.tsx:174
-#: ../../../lib/web/src/components/search-entity-page.tsx:149
-#: ../../../lib/web/src/features/access/access-dialog.tsx:199
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:177
+#: ../../../lib/web/src/components/search-entity-page.tsx:152
+#: ../../../lib/web/src/features/access/access-dialog.tsx:202
 msgid "Searching..."
 msgstr "Besig om te soek..."
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:147
+#: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Kies 'n gebruiker, groep of ander reël om toegang te verleen."
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:270
+#: ../../../lib/web/src/features/access/access-dialog.tsx:273
 msgid "Select access rule"
 msgstr "Kies toegangsreël"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:126
+#: ../../../lib/web/src/features/accounts/account-add.tsx:129
 msgid "Select account type"
 msgstr "Kies rekeningtipe"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:228
+#: ../../../lib/web/src/features/access/access-dialog.tsx:231
 msgid "Select group"
 msgstr "Kies groep"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:291
+#: ../../../lib/web/src/components/config-drawer.tsx:304
 msgid "Select layout style"
 msgstr "Kies uitlegstyl"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:233
+#: ../../../lib/web/src/components/config-drawer.tsx:246
 msgid "Select sidebar style"
 msgstr "Kies sybalk-styl"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:335
+#: ../../../lib/web/src/components/config-drawer.tsx:348
 msgid "Select site direction"
 msgstr "Kies werfrigting"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:189
+#: ../../../lib/web/src/components/config-drawer.tsx:202
 msgid "Select theme preference"
 msgstr "Kies tema-voorkeur"
 
-#: ../../../lib/web/src/features/accounts/account-verify.tsx:95
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:98
 msgid "Send again"
 msgstr "Stuur weer"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:304
+#: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Stuur e-pos"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:142
+#: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
 msgstr "Skreef"
 
-#: ../../../lib/web/src/lib/api-client.ts:256
-#: ../../../lib/web/src/lib/api-client.ts:281
+#: ../../../lib/web/src/lib/api-client.ts:259
+#: ../../../lib/web/src/lib/api-client.ts:284
 msgid "Server error"
 msgstr "Bedienerfout"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:16
-#: ../../../lib/web/src/features/document/document-page.tsx:37
+#: ../../../lib/web/src/components/server-documents-footer.tsx:19
+#: ../../../lib/web/src/features/document/document-page.tsx:40
 msgid "Server rules"
 msgstr "Bediener-reëls"
 
-#: ../../../lib/web/src/lib/api-client.ts:224
+#: ../../../lib/web/src/lib/api-client.ts:227
 msgid "Session expired"
 msgstr "Sessie het verval"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
+#: src/routes/_authenticated/app/$appId.tsx:537
 msgid "Set as default"
 msgstr "Stel as verstek"
 
-#: ../../../lib/web/src/components/travelling-picker.tsx:143
+#: ../../../lib/web/src/components/travelling-picker.tsx:147
 msgid "Set origin and destination"
 msgstr "Stel oorsprong en bestemming"
 
-#: ../../../lib/web/src/components/layout/nav-user.tsx:81
-#: ../../../lib/web/src/components/layout/nav-user.tsx:145
-#: ../../../lib/web/src/components/layout/nav-user.tsx:195
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:93
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:99
+#: ../../../lib/web/src/components/layout/nav-user.tsx:84
+#: ../../../lib/web/src/components/layout/nav-user.tsx:148
+#: ../../../lib/web/src/components/layout/nav-user.tsx:198
 msgid "Settings"
 msgstr "Instellings"
 
-#: src/routes/_authenticated/app/$appId.tsx:240
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Share this link to allow others to install this app"
 msgstr "Deel hierdie skakel om ander toe te laat om hierdie program te installeer"
 
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:247
 msgid "Sharing"
 msgstr "Deel"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx:36
+#: ../../../lib/web/src/components/password-input.tsx:27
+msgid "Show password"
+msgstr "Wys wagwoord"
+
+#: ../../../lib/web/src/components/ui/load-more.tsx:39
 msgid "Showing {totalShown} of {total}"
 msgstr "Wys {totalShown} van {total}"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:225
-#: ../../../lib/web/src/components/config-drawer.tsx:249
-#: ../../../lib/web/src/components/ui/sidebar.tsx:234
+#: ../../../lib/web/src/components/config-drawer.tsx:238
+#: ../../../lib/web/src/components/config-drawer.tsx:262
+#: ../../../lib/web/src/components/ui/sidebar.tsx:237
 msgid "Sidebar"
 msgstr "Sybalk"
 
-#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:128
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:105
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:111
+msgid "Sign out"
+msgstr "Meld af"
+
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:131
 msgid "Signing out..."
 msgstr "Besig om af te meld..."
 
-#: ../../../lib/web/src/components/skip-to-main.tsx:8
+#: ../../../lib/web/src/components/skip-to-main.tsx:11
 msgid "Skip to Main"
 msgstr "Spring na hoofinhoud"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:103
-#: ../../../lib/web/src/lib/preference-utils.ts:130
+#: ../../../lib/web/src/lib/preference-utils.ts:106
+#: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Small"
 msgstr "Klein"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:94
+#: ../../../lib/web/src/lib/preference-utils.ts:97
 msgid "Spacious"
 msgstr "Ruim"
 
-#: ../../../lib/web/src/components/coming-soon.tsx:12
+#: ../../../lib/web/src/components/coming-soon.tsx:15
 msgid "Stay tuned though!"
 msgstr "Bly egter ingeskakel!"
 
-#: ../../../lib/web/src/features/access/access-list.tsx:187
+#: ../../../lib/web/src/features/access/access-list.tsx:191
 msgid "Subject"
 msgstr "Onderwerp"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:62
+#: ../../../lib/web/src/lib/preference-utils.ts:65
 msgid "Sunday"
 msgstr "Sondag"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:195
-#: ../../../lib/web/src/lib/preference-utils.ts:18
-#: ../../../lib/web/src/lib/preference-utils.ts:141
+#: ../../../lib/web/src/components/config-drawer.tsx:208
+#: ../../../lib/web/src/lib/preference-utils.ts:21
+#: ../../../lib/web/src/lib/preference-utils.ts:144
 msgid "System"
 msgstr "Stelsel"
 
-#: ../../../lib/web/src/components/tag-input.tsx:91
+#: ../../../lib/web/src/components/tag-input.tsx:94
 msgid "Tag"
 msgstr "Etiket"
 
-#: ../../../lib/web/src/components/layout/team-switcher.tsx:60
+#: ../../../lib/web/src/components/post-tags.tsx:96
+#: ../../../lib/web/src/components/post-tags.tsx:107
+msgid "Tags"
+msgstr "Etikette"
+
+#: ../../../lib/web/src/components/layout/team-switcher.tsx:63
 msgid "Teams/Apps"
 msgstr "Spanne/Programme"
 
-#: ../../../lib/web/src/components/server-documents-footer.tsx:20
-#: ../../../lib/web/src/features/document/document-page.tsx:39
+#: ../../../lib/web/src/components/server-documents-footer.tsx:23
+#: ../../../lib/web/src/features/document/document-page.tsx:42
 msgid "Terms and conditions"
 msgstr "Bepalings en voorwaardes"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:192
+#: ../../../lib/web/src/components/step-up-dialog.tsx:195
 msgid "That code is incorrect or has expired."
 msgstr "Daardie kode is verkeerd of het verval."
 
-#: src/routes/_authenticated/app/$appId.tsx:117
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "The requested app could not be found."
 msgstr "Die versoekde program kon nie gevind word nie."
 
-#: ../../../lib/web/src/components/config-drawer.tsx:181
+#: ../../../lib/web/src/components/config-drawer.tsx:194
 msgid "Theme"
 msgstr "Tema"
 
-#: ../../../lib/web/src/components/config-drawer.tsx:60
+#: ../../../lib/web/src/components/config-drawer.tsx:69
 msgid "Theme Settings"
 msgstr "Tema-instellings"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:59
+#: ../../../lib/web/src/lib/preference-utils.ts:62
 msgid "Thursday"
 msgstr "Donderdag"
 
-#: ../../../lib/web/src/components/data-table/view-options.tsx:34
+#: ../../../lib/web/src/components/data-table/view-options.tsx:37
 msgid "Toggle columns"
 msgstr "Skakel kolomme"
 
-#: ../../../lib/web/src/components/layout/right-panel.tsx:227
+#: ../../../lib/web/src/components/layout/right-panel.tsx:233
+#: ../../../lib/web/src/components/layout/right-panel.tsx:236
 msgid "Toggle right panel"
 msgstr "Wissel regterpaneel"
 
-#: ../../../lib/web/src/components/ui/sidebar.tsx:312
+#: ../../../lib/web/src/components/layout/nav-group.tsx:321
+#: ../../../lib/web/src/components/layout/nav-group.tsx:328
+#: ../../../lib/web/src/components/layout/nav-group.tsx:451
+#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+msgid "Toggle section"
+msgstr "Wissel afdeling"
+
+#: ../../../lib/web/src/components/ui/sidebar.tsx:317
+#: ../../../lib/web/src/components/ui/sidebar.tsx:320
 msgid "Toggle sidebar"
 msgstr "Wissel sybalk"
 
-#: ../../../lib/web/src/components/ui/sidebar.tsx:324
-#: ../../../lib/web/src/components/ui/sidebar.tsx:327
+#: ../../../lib/web/src/components/ui/sidebar.tsx:332
+#: ../../../lib/web/src/components/ui/sidebar.tsx:335
 msgid "Toggle Sidebar"
 msgstr "Skakel sybalk"
 
-#: ../../../lib/web/src/components/theme-switch.tsx:31
+#: ../../../lib/web/src/components/theme-switch.tsx:37
+#: ../../../lib/web/src/components/theme-switch.tsx:41
 msgid "Toggle theme"
 msgstr "Skakel tema"
 
-#: ../../../lib/web/src/components/ui/sort-selector.tsx:42
+#: ../../../lib/web/src/components/ui/sort-selector.tsx:45
 msgid "Top"
 msgstr "Bo"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Track \"{track}\" deleted"
 msgstr "Baan \"{track}\" geskrap"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Baan \"{track}\" opgedateer na {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:412
+#: src/routes/_authenticated/app/$appId.tsx:420
 msgid "Track created"
 msgstr "Baan geskep"
 
-#: src/routes/_authenticated/app/$appId.tsx:558
+#: src/routes/_authenticated/app/$appId.tsx:571
 msgid "Track Name"
 msgstr "Baannaam"
 
-#: ../../../lib/web/src/components/travelling-picker.tsx:141
+#: ../../../lib/web/src/components/travelling-picker.tsx:145
 msgid "Travelling"
 msgstr "Op reis"
 
-#: ../../../lib/web/src/components/search-entity-dialog.tsx:190
-#: ../../../lib/web/src/components/search-entity-page.tsx:165
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:193
+#: ../../../lib/web/src/components/search-entity-page.tsx:168
 msgid "Try adjusting your search terms"
 msgstr "Probeer jou soekterme aanpas"
 
-#: ../../../lib/web/src/features/errors/general-error.tsx:125
-#: ../../../lib/web/src/features/errors/general-error.tsx:165
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
+#: ../../../lib/web/src/features/errors/general-error.tsx:128
+#: ../../../lib/web/src/features/errors/general-error.tsx:168
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:19
 msgid "Try again"
 msgstr "Probeer weer"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:57
+#: ../../../lib/web/src/lib/preference-utils.ts:60
 msgid "Tuesday"
 msgstr "Dinsdag"
 
-#: ../../../lib/web/src/components/command-menu.tsx:49
+#: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Tik 'n opdrag of soek..."
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:188
+#: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
 msgstr "Tik om gebruikers te soek"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:180
+#: ../../../lib/web/src/features/access/access-dialog.tsx:183
 msgid "Type to search..."
 msgstr "Tik om te soek..."
 
-#: ../../../lib/web/src/lib/api-client.ts:277
+#: ../../../lib/web/src/lib/api-client.ts:280
 msgid "Unable to connect to remote server"
 msgstr "Kan nie aan afgeleë bediener koppel nie"
 
-#: ../../../lib/web/src/lib/auth-manager.ts:82
-#: ../../../lib/web/src/lib/auth-manager.ts:94
+#: ../../../lib/web/src/lib/auth-manager.ts:85
+#: ../../../lib/web/src/lib/auth-manager.ts:97
 msgid "Unable to redirect to login. Please try again."
 msgstr "Kan nie na aanmelding herlei nie. Probeer asseblief weer."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:156
 msgid "Unassigned"
 msgstr "Nie toegewys nie"
 
-#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:13
+#: ../../../lib/web/src/features/errors/unauthorized-error.tsx:16
 msgid "Unauthorized Access"
 msgstr "Nie-toegelate toegang"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:84
+#: ../../../lib/web/src/lib/preference-utils.ts:87
 msgid "United States"
 msgstr "Verenigde State"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:131
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:135
 msgid "Unverified"
 msgstr "Ongeverifieer"
 
-#: src/routes/_authenticated/app/$appId.tsx:708
+#: src/routes/_authenticated/app/$appId.tsx:721
 msgid "Update Tracks"
 msgstr "Opdateer Bane"
 
-#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload a .zip build file for your application."
 msgstr "Laai 'n .zip-build-lêer vir jou toepassing op."
 
-#: src/routes/_authenticated/app/$appId.tsx:189
+#: src/routes/_authenticated/app/$appId.tsx:197
 msgid "Upload new version"
 msgstr "Laai nuwe weergawe op"
 
-#: src/routes/_authenticated/app/$appId.tsx:670
+#: src/routes/_authenticated/app/$appId.tsx:683
 msgid "Upload New Version"
 msgstr "Laai nuwe weergawe op"
 
-#: src/routes/_authenticated/app/$appId.tsx:735
+#: src/routes/_authenticated/app/$appId.tsx:748
 msgid "Upload version"
 msgstr "Laai weergawe op"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build to get started"
 msgstr "Laai jou eerste build op om te begin"
 
-#: src/routes/_authenticated/app/$appId.tsx:735
+#: src/routes/_authenticated/app/$appId.tsx:748
 msgid "Uploading..."
 msgstr "Besig om op te laai..."
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:335
+#: ../../../lib/web/src/components/step-up-dialog.tsx:338
 msgid "Use your passkey"
 msgstr "Gebruik jou wagsleutel"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx:155
+#: ../../../lib/web/src/features/access/access-dialog.tsx:158
 msgid "User"
 msgstr "Gebruiker"
 
-#: src/routes/_authenticated/app/$appId.tsx:244
+#: src/routes/_authenticated/app/$appId.tsx:252
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Gebruikers kan hierdie program installeer deur hierdie skakel op hul Apps-bladsy te plak."
 
-#: ../../../lib/web/src/features/accounts/account-verify.tsx:68
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:71
 msgid "Verification code"
 msgstr "Verifikasiekode"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:247
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:255
 msgid "Verification code sent"
 msgstr "Verifikasiekode gestuur"
 
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:240
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:248
 msgid "Verification failed"
 msgstr "Verifikasie het misluk"
 
-#: ../../../lib/web/src/components/step-up-dialog.tsx:385
-#: ../../../lib/web/src/features/accounts/account-manager.tsx:164
-#: ../../../lib/web/src/features/accounts/account-verify.tsx:106
+#: ../../../lib/web/src/components/step-up-dialog.tsx:388
+#: ../../../lib/web/src/features/accounts/account-manager.tsx:172
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:109
 msgid "Verify"
 msgstr "Verifieer"
 
-#: ../../../lib/web/src/features/accounts/account-verify.tsx:58
+#: ../../../lib/web/src/features/accounts/account-verify.tsx:61
 msgid "Verify email address"
 msgstr "Verifieer e-posadres"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:648
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} has been created."
 msgstr "Weergawe {0} is geskep."
 
-#: src/routes/_authenticated/app/$appId.tsx:260
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version History"
 msgstr "Weergawe-geskiedenis"
 
-#: src/routes/_authenticated/app/$appId.tsx:647
+#: src/routes/_authenticated/app/$appId.tsx:660
 msgid "Version uploaded"
 msgstr "Weergawe opgelaai"
 
-#: ../../../lib/web/src/components/attachment-gallery.tsx:63
+#: ../../../lib/web/src/components/attachment-gallery.tsx:66
 msgid "Video thumbnail"
 msgstr "Video-duimnael"
 
-#: ../../../lib/web/src/components/data-table/view-options.tsx:30
+#: ../../../lib/web/src/components/data-table/view-options.tsx:33
 msgid "View"
 msgstr "Bekyk"
 
-#: ../../../lib/web/src/components/notifications-dropdown.tsx:173
+#: ../../../lib/web/src/components/notifications-dropdown.tsx:177
 msgid "View all"
 msgstr "Bekyk alles"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:94
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:105
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:113
 msgid "View all notifications"
 msgstr "Bekyk alle kennisgewings"
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
 msgid "We'll be back online shortly."
 msgstr "Ons sal binnekort weer aanlyn wees."
 
-#: ../../../lib/web/src/features/errors/maintenance-error.tsx:10
+#: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
 msgid "Website is under maintenance!"
 msgstr "Webwerf is onder instandhouding!"
 
-#: ../../../lib/web/src/lib/preference-utils.ts:58
+#: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Wednesday"
 msgstr "Woensdag"
 
-#: src/features/apps/index.tsx:197
-#: src/routes/_authenticated/app/$appId.tsx:700
+#: src/features/apps/index.tsx:202
+#: src/routes/_authenticated/app/$appId.tsx:713
 msgid "Yes"
 msgstr "Ja"
 
-#: src/routes/_authenticated/app/$appId.tsx:701
+#: src/routes/_authenticated/app/$appId.tsx:714
 msgid "Yes, force"
 msgstr "Ja, dwing af"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:82
+#: ../../../lib/web/src/components/restore-banner.tsx:91
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Jou rekening is hierheen geskuif vanaf {source}. Totdat jy dit daar uitvee, kan boodskappe en kennisgewings albei bedieners bereik, word sommige van jou inhoud steeds vanaf die ou bediener bedien, en kan volgelinge 'n paar minute neem om jou hier te vind."
