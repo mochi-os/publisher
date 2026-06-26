@@ -157,6 +157,9 @@ function CreateAppDialog({
         {
           loading: t`Creating app...`,
           success: t`App created`,
+          successOptions: () => ({
+            description: t`${trimmedName} has been created successfully.`,
+          }),
           error: (error) => getErrorMessage(error, t`Failed to create app`),
         }
       )
