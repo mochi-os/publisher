@@ -24,12 +24,13 @@ import {
   Main,
   usePageTitle,
   getErrorMessage,
+  toast,
+  toastAction,
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-  toast,
   Section,
   FieldRow,
   DataChip,
@@ -75,18 +76,20 @@ function AppPage() {
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [showAddTrack, setShowAddTrack] = useState(false)
 
-  const handleSetDistribution = (distribution: string) => {
-    setDistributionMutation.mutate(
-      { appId, distribution },
-      {
-        onSuccess: () => {
-          toast.success(t`Distribution set to ${distribution}`)
-        },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to update distribution`))
-        },
-      }
-    )
+  const handleSetDistribution = async (distribution: string) => {
+    try {
+      await toastAction(
+        setDistributionMutation.mutateAsync({ appId, distribution }),
+        {
+          loading: t`Updating distribution...`,
+          success: t`Distribution set to ${distribution}`,
+          error: (error) =>
+            getErrorMessage(error, t`Failed to update distribution`),
+        }
+      )
+    } catch {
+      // toastAction already showed error
+    }
   }
   const navigateApp = Route.useNavigate()
   const { tab } = Route.useSearch()
@@ -410,65 +413,74 @@ function TracksTab({
   const deleteTrackMutation = useDeleteTrackMutation()
   const setDefaultTrackMutation = useSetDefaultTrackMutation()
 
-  const handleCreateTrack = () => {
+  const handleCreateTrack = async () => {
     if (!newTrackName) return
     const version = newTrackVersion === '__none__' ? '' : newTrackVersion
-    createTrackMutation.mutate(
-      { appId, track: newTrackName, version },
-      {
-        onSuccess: () => {
-          toast.success(t`Track created`)
-          setNewTrackName('')
-          setNewTrackVersion('__none__')
-          setShowAddTrack(false)
-        },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to create track`))
-        },
-      }
-    )
+    try {
+      await toastAction(
+        createTrackMutation.mutateAsync({
+          appId,
+          track: newTrackName,
+          version,
+        }),
+        {
+          loading: t`Creating track...`,
+          success: t`Track created`,
+          error: (error) => getErrorMessage(error, t`Failed to create track`),
+        }
+      )
+      setNewTrackName('')
+      setNewTrackVersion('__none__')
+      setShowAddTrack(false)
+    } catch {
+      // toastAction already showed error
+    }
   }
 
-  const handleSetTrackVersion = (track: string, version: string) => {
-    setTrackMutation.mutate(
-      { appId, track, version },
-      {
-        onSuccess: () => {
-          toast.success(t`Track "${track}" updated to ${version}`)
-        },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to update track`))
-        },
-      }
-    )
+  const handleSetTrackVersion = async (track: string, version: string) => {
+    try {
+      await toastAction(
+        setTrackMutation.mutateAsync({ appId, track, version }),
+        {
+          loading: t`Updating track...`,
+          success: t`Track "${track}" updated to ${version}`,
+          error: (error) => getErrorMessage(error, t`Failed to update track`),
+        }
+      )
+    } catch {
+      // toastAction already showed error
+    }
   }
 
-  const handleDeleteTrack = (track: string) => {
-    deleteTrackMutation.mutate(
-      { appId, track },
-      {
-        onSuccess: () => {
-          toast.success(t`Track "${track}" deleted`)
-        },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to delete track`))
-        },
-      }
-    )
+  const handleDeleteTrack = async (track: string) => {
+    try {
+      await toastAction(
+        deleteTrackMutation.mutateAsync({ appId, track }),
+        {
+          loading: t`Deleting track...`,
+          success: t`Track "${track}" deleted`,
+          error: (error) => getErrorMessage(error, t`Failed to delete track`),
+        }
+      )
+    } catch {
+      // toastAction already showed error
+    }
   }
 
-  const handleSetDefaultTrack = (track: string) => {
-    setDefaultTrackMutation.mutate(
-      { appId, track },
-      {
-        onSuccess: () => {
-          toast.success(t`Default track set to "${track}"`)
-        },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to set default track`))
-        },
-      }
-    )
+  const handleSetDefaultTrack = async (track: string) => {
+    try {
+      await toastAction(
+        setDefaultTrackMutation.mutateAsync({ appId, track }),
+        {
+          loading: t`Setting default track...`,
+          success: t`Default track set to "${track}"`,
+          error: (error) =>
+            getErrorMessage(error, t`Failed to set default track`),
+        }
+      )
+    } catch {
+      // toastAction already showed error
+    }
   }
 
   return (
@@ -643,7 +655,7 @@ function UploadVersionDialog({
     )
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!file) {
       toast.error(t`Please select a file`)
@@ -653,27 +665,33 @@ function UploadVersionDialog({
     const install = installOption !== 'no'
     const force = installOption === 'yes-force'
 
-    uploadMutation.mutate(
-      { appId, file, install, force, tracks: selectedTracks },
-      {
-        onSuccess: (data: { version: string }) => {
-          toast.success(t`Version uploaded`, {
-            description: t`Version ${data.version} has been created.`,
-          })
-          setFile(null)
-          setInstallOption('yes')
-          // eslint-disable-next-line lingui/no-unlocalized-strings
-          setSelectedTracks(['Production'])
-          if (fileInputRef.current) {
-            fileInputRef.current.value = ''
-          }
-          onOpenChange(false)
-        },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to upload version`))
-        },
+    try {
+      await toastAction(
+        uploadMutation.mutateAsync({
+          appId,
+          file,
+          install,
+          force,
+          tracks: selectedTracks,
+        }),
+        {
+          loading: t`Uploading version...`,
+          success: (result) => t`Version ${result.version} uploaded`,
+          error: (error) =>
+            getErrorMessage(error, t`Failed to upload version`),
+        }
+      )
+      setFile(null)
+      setInstallOption('yes')
+      // eslint-disable-next-line lingui/no-unlocalized-strings
+      setSelectedTracks(['Production'])
+      if (fileInputRef.current) {
+        fileInputRef.current.value = ''
       }
-    )
+      onOpenChange(false)
+    } catch {
+      // toastAction already showed error
+    }
   }
 
   return (

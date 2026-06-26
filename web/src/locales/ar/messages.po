@@ -14,8 +14,8 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
 
 #: src/features/apps/index.tsx:157
-msgid "{name} has been created successfully."
-msgstr "تم إنشاء {name} بنجاح."
+#~ msgid "{name} has been created successfully."
+#~ msgstr "تم إنشاء {name} بنجاح."
 
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
@@ -53,7 +53,7 @@ msgstr "نوع الحساب"
 msgid "Account verified"
 msgstr "تم التحقق من الحساب"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:513
 msgid "Active version"
 msgstr "النسخة النشطة"
 
@@ -111,7 +111,7 @@ msgstr "الذكاء الاصطناعي"
 msgid "All"
 msgstr "الكل"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "All uploaded build files for this application"
 msgstr "جميع ملفات البناء المحملة لهذا التطبيق"
 
@@ -123,23 +123,23 @@ msgstr "حدث خطأ"
 msgid "An unexpected error occurred"
 msgstr "حدث خطأ غير متوقع"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:103
+#: src/routes/_authenticated/app/$appId.tsx:137
 msgid "App"
 msgstr "التطبيق"
 
-#: src/features/apps/index.tsx:156
+#: src/features/apps/index.tsx:159
 msgid "App created"
 msgstr "تم إنشاء التطبيق"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:123
+#: src/routes/_authenticated/app/$appId.tsx:127
+#: src/routes/_authenticated/app/$appId.tsx:148
+#: src/routes/_authenticated/app/$appId.tsx:152
 msgid "App not found"
 msgstr "التطبيق غير موجود"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Application ID"
 msgstr "معرّف التطبيق"
 
@@ -159,7 +159,7 @@ msgstr "تصاعدي"
 msgid "Authenticator code"
 msgstr "رمز المصادقة"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:375
 msgid "Available Versions"
 msgstr "الإصدارات المتاحة"
 
@@ -167,12 +167,12 @@ msgstr "الإصدارات المتاحة"
 msgid "Back"
 msgstr "رجوع"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:123
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:148
+#: src/routes/_authenticated/app/$appId.tsx:177
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "العودة إلى التطبيقات"
 
@@ -187,7 +187,7 @@ msgstr "العودة إلى الرئيسية"
 msgid "Boost interest"
 msgstr "تعزيز الاهتمام"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "Build File (.zip)"
 msgstr "ملف البناء (.zip)"
 
@@ -200,9 +200,9 @@ msgstr "ملف البناء (.zip)"
 #: ../../../lib/web/src/features/access/access-list.tsx:263
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
-#: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/features/apps/index.tsx:214
+#: src/routes/_authenticated/app/$appId.tsx:614
+#: src/routes/_authenticated/app/$appId.tsx:762
 msgid "Cancel"
 msgstr "إلغاء"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "مسح التحديد (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "إغلاق"
@@ -285,8 +285,8 @@ msgstr "إغلاق البحث"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "طي"
 
@@ -332,11 +332,11 @@ msgstr "المتابعة باستخدام {label}"
 msgid "Copy"
 msgstr "نسخ"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "انسخ هذا الرابط والصقه في صفحة التطبيقات على خادم Mochi الخاص بك للتثبيت."
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Core identification for this application"
 msgstr "التعريف الأساسي لهذا التطبيق"
 
@@ -356,38 +356,46 @@ msgstr "تعذّر بدء إعادة المصادقة. يرجى المحاولة
 msgid "Couldn't verify with that account. Please try again."
 msgstr "تعذّر التحقق باستخدام هذا الحساب. يرجى المحاولة مرة أخرى."
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "أنشئ بيئة جديدة (مثل Beta أو Staging) لنشر عمليات البناء."
 
-#: src/features/apps/index.tsx:55
 #: src/features/apps/index.tsx:56
-#: src/features/apps/index.tsx:60
-#: src/features/apps/index.tsx:87
-#: src/features/apps/index.tsx:176
-#: src/features/apps/index.tsx:216
+#: src/features/apps/index.tsx:57
+#: src/features/apps/index.tsx:61
+#: src/features/apps/index.tsx:88
+#: src/features/apps/index.tsx:177
+#: src/features/apps/index.tsx:217
 msgid "Create app"
 msgstr "إنشاء تطبيق"
 
-#: src/features/apps/index.tsx:174
+#: src/features/apps/index.tsx:175
 msgid "Create new app"
 msgstr "إنشاء تطبيق جديد"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:206
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Create track"
 msgstr "إنشاء مسار"
 
-#: src/features/apps/index.tsx:83
+#: src/features/apps/index.tsx:84
 msgid "Create your first app to get started"
 msgstr "أنشئ تطبيقك الأول للبدء"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:496
 msgid "Create your first release track to manage deployments"
 msgstr "أنشئ مسار إصدارك الأول لإدارة عمليات النشر"
 
-#: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/features/apps/index.tsx:158
+msgid "Creating app..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:427
+msgid "Creating track..."
+msgstr ""
+
+#: src/features/apps/index.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Creating..."
 msgstr "جارٍ الإنشاء..."
 
@@ -416,17 +424,21 @@ msgstr "افتراضي"
 msgid "Default AI account"
 msgstr "حساب الذكاء الاصطناعي الافتراضي"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Default track set to \"{track}\""
 msgstr "تم تعيين المسار الافتراضي إلى \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:556
 msgid "Delete track"
 msgstr "حذف المسار"
 
 #: ../../../lib/web/src/components/restore-banner.tsx:99
 msgid "Delete your account on the old server"
 msgstr "احذف حسابك من الخادم القديم"
+
+#: src/routes/_authenticated/app/$appId.tsx:460
+msgid "Deleting track..."
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:63
 msgid "Desc"
@@ -436,7 +448,7 @@ msgstr "تنازلي"
 msgid "Descending"
 msgstr "تنازلي"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Details"
 msgstr "التفاصيل"
 
@@ -468,24 +480,28 @@ msgstr "تجاهل"
 msgid "Displays the mobile sidebar."
 msgstr "يعرض الشريط الجانبي للهاتف."
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:231
 msgid "Distribution"
 msgstr "التوزيع"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:85
 msgid "Distribution set to {distribution}"
 msgstr "تم تعيين التوزيع إلى {distribution}"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "تنزيل"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "مناسب لعسر القراءة"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:587
 msgid "e.g. Staging"
 msgstr "مثال: Staging"
 
@@ -507,8 +523,8 @@ msgstr "أدخل رمز تطبيق المصادقة"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "توسيع"
 
@@ -524,15 +540,15 @@ msgstr "كبير جداً"
 msgid "Failed to add account"
 msgstr "فشل إضافة الحساب"
 
-#: src/features/apps/index.tsx:164
+#: src/features/apps/index.tsx:160
 msgid "Failed to create app"
 msgstr "فشل إنشاء التطبيق"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Failed to create track"
 msgstr "فشل إنشاء المسار"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Failed to delete track"
 msgstr "فشل حذف المسار"
 
@@ -544,7 +560,7 @@ msgstr "فشل إزالة الحساب"
 msgid "Failed to send verification code"
 msgstr "فشل إرسال رمز التحقق"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Failed to set default track"
 msgstr "فشل تعيين المسار الافتراضي"
 
@@ -552,20 +568,20 @@ msgstr "فشل تعيين المسار الافتراضي"
 msgid "Failed to update category"
 msgstr "فشل تحديث الفئة"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "فشل تحديث التوزيع"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:447
 msgid "Failed to update track"
 msgstr "فشل تحديث المسار"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Failed to upload version"
 msgstr "فشل رفع الإصدار"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:361
 msgid "Fingerprint"
 msgstr "البصمة"
 
@@ -651,7 +667,7 @@ msgstr "الرئيسية"
 msgid "Hot"
 msgstr "رائج"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Identity"
 msgstr "الهوية"
 
@@ -659,7 +675,7 @@ msgstr "الهوية"
 msgid "Imperial"
 msgstr "إمبراطوري"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:593
 msgid "Initial Version"
 msgstr "الإصدار الأولي"
 
@@ -667,20 +683,20 @@ msgstr "الإصدار الأولي"
 msgid "Inset"
 msgstr "داخلي"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install App"
 msgstr "تثبيت التطبيق"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:259
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Install link:"
 msgstr "رابط التثبيت:"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Install Locally"
 msgstr "تثبيت محليًا"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install this application to your server"
 msgstr "ثبّت هذا التطبيق على خادمك"
 
@@ -706,7 +722,7 @@ msgstr "التخطيط"
 msgid "Learn more"
 msgstr "اعرف المزيد"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:599
 msgid "Leave empty"
 msgstr "اتركه فارغًا"
 
@@ -723,9 +739,13 @@ msgstr "فاتح"
 msgid "Load more"
 msgstr "تحميل المزيد"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:109
 msgid "Loading app..."
 msgstr "جارٍ تحميل التطبيق..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -754,11 +774,11 @@ msgstr "تم تسجيل الخروج بنجاح"
 msgid "Logging out…"
 msgstr "جاري تسجيل الخروج…"
 
-#: src/features/apps/index.tsx:194
+#: src/features/apps/index.tsx:195
 msgid "Make app publicly available"
 msgstr "جعل التطبيق متاحاً للعموم"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:489
 msgid "Manage deployment environments and their versions"
 msgstr "إدارة بيئات النشر وإصداراتها"
 
@@ -776,7 +796,7 @@ msgstr "متوسط"
 msgid "Menu"
 msgstr "القائمة"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Metadata and configuration"
 msgstr "البيانات الوصفية والإعداد"
 
@@ -788,15 +808,15 @@ msgstr "متري"
 msgid "Monday"
 msgstr "الاثنين"
 
-#: src/features/apps/index.tsx:189
+#: src/features/apps/index.tsx:190
 msgid "My App"
 msgstr "تطبيقي"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "N/A"
 msgstr "غير متوفر"
 
-#: src/features/apps/index.tsx:183
+#: src/features/apps/index.tsx:184
 msgid "Name"
 msgstr "الاسم"
 
@@ -808,17 +828,17 @@ msgstr "خطأ في الشبكة"
 msgid "New"
 msgstr "جديد"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "New Release Track"
 msgstr "مسار إصدار جديد"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "الصورة التالية"
 
-#: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/features/apps/index.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "No"
 msgstr "لا"
 
@@ -826,7 +846,7 @@ msgstr "لا"
 msgid "No access rules configured. Add rules to control who can access this resource."
 msgstr "لم يتم تكوين قواعد وصول. أضف قواعد للتحكم في من يمكنه الوصول إلى هذا المورد."
 
-#: src/features/apps/index.tsx:82
+#: src/features/apps/index.tsx:83
 msgid "No apps yet"
 msgstr "لا توجد تطبيقات بعد"
 
@@ -859,7 +879,7 @@ msgstr "لم يتم العثور على منطقة زمنية."
 msgid "No topic record yet — try again after the next notification."
 msgstr "لا يوجد سجل موضوع بعد — حاول مرة أخرى بعد الإشعار التالي."
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:495
 msgid "No tracks"
 msgstr "لا توجد مسارات"
 
@@ -867,11 +887,11 @@ msgstr "لا توجد مسارات"
 msgid "No users found"
 msgstr "لم يتم العثور على مستخدمين"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "No version"
 msgstr "لا يوجد إصدار"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:276
 msgid "No versions"
 msgstr "لا توجد إصدارات"
 
@@ -906,8 +926,8 @@ msgstr "عذراً! الصفحة غير موجودة!"
 msgid "Open account actions"
 msgstr "فتح إجراءات الحساب"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "فتح الإجراءات"
 
@@ -926,8 +946,8 @@ msgstr "فتح قائمة التنقل"
 msgid "Open theme settings"
 msgstr "فتح إعدادات السمة"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:541
 msgid "Open track actions"
 msgstr "فتح إجراءات المسار"
 
@@ -955,31 +975,31 @@ msgstr "مفاتيح المرور"
 msgid "Please check your internet connection and try again."
 msgstr "يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى."
 
-#: src/features/apps/index.tsx:148
+#: src/features/apps/index.tsx:149
 msgid "Please enter an app name"
 msgstr "يرجى إدخال اسم تطبيق"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Please select a file"
 msgstr "يرجى تحديد ملف"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "الصورة السابقة"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Privacy"
 msgstr "الخصوصية"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:222
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
-#: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/features/apps/index.tsx:94
+#: src/routes/_authenticated/app/$appId.tsx:227
 msgid "Private"
 msgstr "خاص"
 
@@ -988,18 +1008,18 @@ msgstr "خاص"
 msgid "Profile"
 msgstr "الملف الشخصي"
 
-#: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/features/apps/index.tsx:94
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Public"
 msgstr "عام"
 
-#: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/features/apps/index.tsx:95
+#: src/routes/_authenticated/app/$appId.tsx:241
 msgid "Published"
 msgstr "منشور"
 
-#: src/features/apps/index.tsx:37
-#: src/features/apps/index.tsx:51
+#: src/features/apps/index.tsx:38
+#: src/features/apps/index.tsx:52
 msgid "Publisher"
 msgstr "الناشر"
 
@@ -1037,11 +1057,11 @@ msgstr "نسبي (5د, 3س, 2ي)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "نسبي خلال 24 ساعة، وإلا مطلق"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:488
 msgid "Release Tracks"
 msgstr "مسارات الإصدار"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:375
 msgid "Release tracks currently active"
 msgstr "مسارات الإصدار النشطة حالياً"
 
@@ -1077,8 +1097,8 @@ msgstr "إعادة تعيين"
 msgid "Reset all settings to default values"
 msgstr "إعادة تعيين كل الإعدادات إلى القيم الافتراضية"
 
-#: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/features/apps/index.tsx:95
+#: src/routes/_authenticated/app/$appId.tsx:242
 msgid "Restricted"
 msgstr "مقيد"
 
@@ -1187,13 +1207,17 @@ msgstr "قواعد الخادم"
 msgid "Session expired"
 msgstr "انتهت الجلسة"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:549
 msgid "Set as default"
 msgstr "تعيين كافتراضي"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:147
 msgid "Set origin and destination"
 msgstr "تعيين المنشأ والوجهة"
+
+#: src/routes/_authenticated/app/$appId.tsx:475
+msgid "Setting default track..."
+msgstr ""
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:93
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:99
@@ -1203,11 +1227,11 @@ msgstr "تعيين المنشأ والوجهة"
 msgid "Settings"
 msgstr "الإعدادات"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Share this link to allow others to install this app"
 msgstr "شارك هذا الرابط للسماح للآخرين بتثبيت هذا التطبيق"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:250
 msgid "Sharing"
 msgstr "المشاركة"
 
@@ -1287,8 +1311,8 @@ msgstr "الشروط والأحكام"
 msgid "That code is incorrect or has expired."
 msgstr "هذا الرمز غير صحيح أو انتهت صلاحيته."
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:153
 msgid "The requested app could not be found."
 msgstr "تعذر العثور على التطبيق المطلوب."
 
@@ -1313,10 +1337,10 @@ msgstr "تبديل الأعمدة"
 msgid "Toggle right panel"
 msgstr "تبديل اللوحة اليمنى"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "تبديل القسم"
 
@@ -1339,19 +1363,19 @@ msgstr "تبديل السمة"
 msgid "Top"
 msgstr "الأعلى"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "Track \"{track}\" deleted"
 msgstr "تم حذف المسار \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Track \"{track}\" updated to {version}"
 msgstr "تم تحديث المسار \"{track}\" إلى {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:428
 msgid "Track created"
 msgstr "تم إنشاء المسار"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Track Name"
 msgstr "اسم المسار"
 
@@ -1411,31 +1435,43 @@ msgstr "الولايات المتحدة"
 msgid "Unverified"
 msgstr "غير محقق"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:739
 msgid "Update Tracks"
 msgstr "تحديث المسارات"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:84
+msgid "Updating distribution..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:445
+msgid "Updating track..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:703
 msgid "Upload a .zip build file for your application."
 msgstr "ارفع ملف بناء .zip لتطبيقك."
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:200
 msgid "Upload new version"
 msgstr "رفع إصدار جديد"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Upload New Version"
 msgstr "رفع إصدار جديد"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:766
 msgid "Upload version"
 msgstr "رفع الإصدار"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:277
 msgid "Upload your first build to get started"
 msgstr "ارفع أول بناء لك للبدء"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:678
+msgid "Uploading version..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:766
 msgid "Uploading..."
 msgstr "جاري الرفع..."
 
@@ -1447,7 +1483,7 @@ msgstr "استخدم مفتاح المرور الخاص بك"
 msgid "User"
 msgstr "المستخدم"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:255
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "يمكن للمستخدمين تثبيت هذا التطبيق بلصق هذا الرابط في صفحة التطبيقات الخاصة بهم."
 
@@ -1473,18 +1509,22 @@ msgstr "تحقق"
 msgid "Verify email address"
 msgstr "التحقق من عنوان البريد الإلكتروني"
 
-#. placeholder {0}: data.version
 #: src/routes/_authenticated/app/$appId.tsx:661
-msgid "Version {0} has been created."
-msgstr "تم إنشاء الإصدار {0}."
+#~ msgid "Version {0} has been created."
+#~ msgstr "تم إنشاء الإصدار {0}."
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#. placeholder {0}: result.version
+#: src/routes/_authenticated/app/$appId.tsx:679
+msgid "Version {0} uploaded"
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "Version History"
 msgstr "سجل الإصدارات"
 
 #: src/routes/_authenticated/app/$appId.tsx:660
-msgid "Version uploaded"
-msgstr "تم رفع الإصدار"
+#~ msgid "Version uploaded"
+#~ msgstr "تم رفع الإصدار"
 
 #: ../../../lib/web/src/components/attachment-gallery.tsx:66
 msgid "Video thumbnail"
@@ -1515,12 +1555,12 @@ msgstr "الموقع قيد الصيانة!"
 msgid "Wednesday"
 msgstr "الأربعاء"
 
-#: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/features/apps/index.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Yes"
 msgstr "نعم"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:732
 msgid "Yes, force"
 msgstr "نعم، فرض"
 

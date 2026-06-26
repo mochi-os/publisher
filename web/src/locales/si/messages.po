@@ -14,8 +14,8 @@ msgstr ""
 "Plural-Forms: \n"
 
 #: src/features/apps/index.tsx:157
-msgid "{name} has been created successfully."
-msgstr "{name} සාර්ථකව සාදා ඇත."
+#~ msgid "{name} has been created successfully."
+#~ msgstr "{name} සාර්ථකව සාදා ඇත."
 
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
@@ -53,7 +53,7 @@ msgstr "ගිණුම් වර්ගය"
 msgid "Account verified"
 msgstr "ගිණුම සත්‍යාපනය කරන ලදී"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:513
 msgid "Active version"
 msgstr "සක්‍රීය සංස්කරණය"
 
@@ -111,7 +111,7 @@ msgstr "AI"
 msgid "All"
 msgstr "සියල්ල"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "All uploaded build files for this application"
 msgstr "මෙම යෙදුම සඳහා උඩුගත කළ සියලු build ගොනු"
 
@@ -123,23 +123,23 @@ msgstr "දෝෂයක් සිදු විය"
 msgid "An unexpected error occurred"
 msgstr "අනපේක්ෂිත දෝෂයක් සිදු විය"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:103
+#: src/routes/_authenticated/app/$appId.tsx:137
 msgid "App"
 msgstr "App"
 
-#: src/features/apps/index.tsx:156
+#: src/features/apps/index.tsx:159
 msgid "App created"
 msgstr "App එක නිර්මාණය කරන ලදී"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:123
+#: src/routes/_authenticated/app/$appId.tsx:127
+#: src/routes/_authenticated/app/$appId.tsx:148
+#: src/routes/_authenticated/app/$appId.tsx:152
 msgid "App not found"
 msgstr "App එක සොයාගත නොහැක"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Application ID"
 msgstr "Application ID"
 
@@ -159,7 +159,7 @@ msgstr "ආරෝහණ"
 msgid "Authenticator code"
 msgstr "Authenticator කේතය"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:375
 msgid "Available Versions"
 msgstr "පවතින සංස්කරණ"
 
@@ -167,12 +167,12 @@ msgstr "පවතින සංස්කරණ"
 msgid "Back"
 msgstr "ආපසු"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:123
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:148
+#: src/routes/_authenticated/app/$appId.tsx:177
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "apps වෙත ආපසු"
 
@@ -187,7 +187,7 @@ msgstr "මුල් පිටුවට ආපසු"
 msgid "Boost interest"
 msgstr "කැමැත්ත වැඩි කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "Build File (.zip)"
 msgstr "ගොඩනැගීමේ ගොනුව (.zip)"
 
@@ -200,9 +200,9 @@ msgstr "ගොඩනැගීමේ ගොනුව (.zip)"
 #: ../../../lib/web/src/features/access/access-list.tsx:263
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
-#: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/features/apps/index.tsx:214
+#: src/routes/_authenticated/app/$appId.tsx:614
+#: src/routes/_authenticated/app/$appId.tsx:762
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "තේරීම හිස් කරන්න (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "වසන්න"
@@ -285,8 +285,8 @@ msgstr "සෙවුම වසන්න"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "හකුළන්න"
 
@@ -332,11 +332,11 @@ msgstr "{label} සමඟ ඉදිරියට යන්න"
 msgid "Copy"
 msgstr "පිටපත් කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "මෙම සබැඳිය පිටපත් කර ස්ථාපනය කිරීමට ඔබේ Mochi සේවාදායකයේ යෙදුම් පිටුවට අලවන්න."
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Core identification for this application"
 msgstr "මෙම යෙදුම සඳහා මූලික හඳුනාගැනීම"
 
@@ -356,38 +356,46 @@ msgstr "නැවත සත්‍යාපනය ආරම්භ කළ නො�
 msgid "Couldn't verify with that account. Please try again."
 msgstr "එම ගිණුම සමඟ සත්‍යාපනය කළ නොහැකි විය. කරුණාකර නැවත උත්සාහ කරන්න."
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "builds deploy කිරීමට නව environment එකක් (උදා. Beta, Staging) නිර්මාණය කරන්න."
 
-#: src/features/apps/index.tsx:55
 #: src/features/apps/index.tsx:56
-#: src/features/apps/index.tsx:60
-#: src/features/apps/index.tsx:87
-#: src/features/apps/index.tsx:176
-#: src/features/apps/index.tsx:216
+#: src/features/apps/index.tsx:57
+#: src/features/apps/index.tsx:61
+#: src/features/apps/index.tsx:88
+#: src/features/apps/index.tsx:177
+#: src/features/apps/index.tsx:217
 msgid "Create app"
 msgstr "app එකක් නිර්මාණය කරන්න"
 
-#: src/features/apps/index.tsx:174
+#: src/features/apps/index.tsx:175
 msgid "Create new app"
 msgstr "නව app එකක් නිර්මාණය කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:206
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Create track"
 msgstr "track එකක් නිර්මාණය කරන්න"
 
-#: src/features/apps/index.tsx:83
+#: src/features/apps/index.tsx:84
 msgid "Create your first app to get started"
 msgstr "ආරම්භ කිරීමට ඔබේ පළමු app එක නිර්මාණය කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:496
 msgid "Create your first release track to manage deployments"
 msgstr "deployments කළමනාකරණය කිරීමට ඔබේ පළමු release track එක නිර්මාණය කරන්න"
 
-#: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/features/apps/index.tsx:158
+msgid "Creating app..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:427
+msgid "Creating track..."
+msgstr ""
+
+#: src/features/apps/index.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Creating..."
 msgstr "නිර්මාණය කරමින්..."
 
@@ -416,17 +424,21 @@ msgstr "පෙරනිමි"
 msgid "Default AI account"
 msgstr "පෙරනිමි AI ගිණුම"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Default track set to \"{track}\""
 msgstr "පෙරනිමි track \"{track}\" ලෙස සකසා ඇත"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:556
 msgid "Delete track"
 msgstr "track එක මකන්න"
 
 #: ../../../lib/web/src/components/restore-banner.tsx:99
 msgid "Delete your account on the old server"
 msgstr "පැරණි සේවාදායකයේ ඔබේ ගිණුම මකන්න"
+
+#: src/routes/_authenticated/app/$appId.tsx:460
+msgid "Deleting track..."
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:63
 msgid "Desc"
@@ -436,7 +448,7 @@ msgstr "අවරෝහණ"
 msgid "Descending"
 msgstr "අවරෝහණ"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Details"
 msgstr "විස්තර"
 
@@ -468,24 +480,28 @@ msgstr "ඉවත ලන්න"
 msgid "Displays the mobile sidebar."
 msgstr "ජංගම පැති තීරුව සංදර්ශනය කරයි."
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:231
 msgid "Distribution"
 msgstr "බෙදාහැරීම"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:85
 msgid "Distribution set to {distribution}"
 msgstr "බෙදාහැරීම {distribution} ලෙස සකසන ලදී"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "බාගත කරන්න"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "ඩිස්ලෙක්සියාවට මිත්‍ර"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:587
 msgid "e.g. Staging"
 msgstr "උදා. Staging"
 
@@ -507,8 +523,8 @@ msgstr "ඔබගේ සත්‍යාපන කේතය ඇතුළත් �
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "විහිදන්න"
 
@@ -524,15 +540,15 @@ msgstr "අමතර විශාල"
 msgid "Failed to add account"
 msgstr "ගිණුම එක් කිරීමට අසමත් විය"
 
-#: src/features/apps/index.tsx:164
+#: src/features/apps/index.tsx:160
 msgid "Failed to create app"
 msgstr "යෙදුමක් සෑදීමට අසමත් විය"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Failed to create track"
 msgstr "ට්‍රැක් එකක් සෑදීමට අසමත් විය"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Failed to delete track"
 msgstr "ට්‍රැක් එක මැකීමට අසමත් විය"
 
@@ -544,7 +560,7 @@ msgstr "ගිණුම ඉවත් කිරීමට අසමත් වි�
 msgid "Failed to send verification code"
 msgstr "සත්‍යාපන කේතය යැවීමට අසමත් විය"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Failed to set default track"
 msgstr "පෙරනිමි ට්‍රැක් එක සැකසීමට අසමත් විය"
 
@@ -552,20 +568,20 @@ msgstr "පෙරනිමි ට්‍රැක් එක සැකසීමට
 msgid "Failed to update category"
 msgstr "කාණ්ඩය යාවත්කාලීන කිරීමට අසමත් විය"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "බෙදාහැරීම යාවත්කාලීන කිරීමට අසමත් විය"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:447
 msgid "Failed to update track"
 msgstr "ට්‍රැක් එක යාවත්කාලීන කිරීමට අසමත් විය"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Failed to upload version"
 msgstr "අනුවාදය උඩුගත කිරීමට අසමත් විය"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:361
 msgid "Fingerprint"
 msgstr "ඇඟිලි සලකුණ"
 
@@ -651,7 +667,7 @@ msgstr "මුල් පිටුව"
 msgid "Hot"
 msgstr "උණුසුම්"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Identity"
 msgstr "අනන්‍යතාවය"
 
@@ -659,7 +675,7 @@ msgstr "අනන්‍යතාවය"
 msgid "Imperial"
 msgstr "ඉම්පීරියල්"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:593
 msgid "Initial Version"
 msgstr "මූලික අනුවාදය"
 
@@ -667,20 +683,20 @@ msgstr "මූලික අනුවාදය"
 msgid "Inset"
 msgstr "ඇතුළත"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install App"
 msgstr "යෙදුම ස්ථාපනය කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:259
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Install link:"
 msgstr "ස්ථාපන සබැඳිය:"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Install Locally"
 msgstr "දේශීයව ස්ථාපනය කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install this application to your server"
 msgstr "ඔබේ සේවාදායකයට මෙම යෙදුම ස්ථාපනය කරන්න"
 
@@ -706,7 +722,7 @@ msgstr "පිරිසැලසුම"
 msgid "Learn more"
 msgstr "තවත් ඉගෙන ගන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:599
 msgid "Leave empty"
 msgstr "හිස්ව තබන්න"
 
@@ -723,9 +739,13 @@ msgstr "ලා"
 msgid "Load more"
 msgstr "තවත් පූරණය කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:109
 msgid "Loading app..."
 msgstr "යෙදුම පූරණය වෙමින්..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -754,11 +774,11 @@ msgstr "සාර්ථකව ඉවත් විය"
 msgid "Logging out…"
 msgstr "ඉවත් වෙමින්…"
 
-#: src/features/apps/index.tsx:194
+#: src/features/apps/index.tsx:195
 msgid "Make app publicly available"
 msgstr "යෙදුම ප්‍රසිද්ධියේ ලබා ගත හැකි කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:489
 msgid "Manage deployment environments and their versions"
 msgstr "යෙදවුම් පරිසරයන් සහ ඒවායේ අනුවාද කළමනාකරණය කරන්න"
 
@@ -776,7 +796,7 @@ msgstr "මධ්‍යම"
 msgid "Menu"
 msgstr "මෙනුව"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Metadata and configuration"
 msgstr "පාරදත්ත සහ සැකසුම්"
 
@@ -788,15 +808,15 @@ msgstr "මිනුම"
 msgid "Monday"
 msgstr "සඳුදා"
 
-#: src/features/apps/index.tsx:189
+#: src/features/apps/index.tsx:190
 msgid "My App"
 msgstr "මගේ යෙදුම"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "N/A"
 msgstr "අදාළ නොවේ"
 
-#: src/features/apps/index.tsx:183
+#: src/features/apps/index.tsx:184
 msgid "Name"
 msgstr "නම"
 
@@ -808,17 +828,17 @@ msgstr "ජාල දෝෂය"
 msgid "New"
 msgstr "අලුත්"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "New Release Track"
 msgstr "නව නිකුත් කිරීමේ ට්‍රැක්"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "ඊළඟ පින්තූරය"
 
-#: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/features/apps/index.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "No"
 msgstr "නැත"
 
@@ -826,7 +846,7 @@ msgstr "නැත"
 msgid "No access rules configured. Add rules to control who can access this resource."
 msgstr "ප්‍රවේශ නියමයන් කිසිවක් සැකසී නැත. මෙම සම්පතට ප්‍රවේශ විය හැක්කේ කවුද යන්න පාලනය කිරීමට නියමයන් එක් කරන්න."
 
-#: src/features/apps/index.tsx:82
+#: src/features/apps/index.tsx:83
 msgid "No apps yet"
 msgstr "තවම යෙදුම් නොමැත"
 
@@ -859,7 +879,7 @@ msgstr "වේලා කලාප හමු නොවීය."
 msgid "No topic record yet — try again after the next notification."
 msgstr "තවම topic වාර්තාවක් නැත — ඊළඟ දැනුම්දීමෙන් පසු නැවත උත්සාහ කරන්න."
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:495
 msgid "No tracks"
 msgstr "ට්‍රැක් නැත"
 
@@ -867,11 +887,11 @@ msgstr "ට්‍රැක් නැත"
 msgid "No users found"
 msgstr "පරිශීලකයන් හමු නොවීය"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "No version"
 msgstr "අනුවාදයක් නැත"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:276
 msgid "No versions"
 msgstr "අනුවාද නැත"
 
@@ -906,8 +926,8 @@ msgstr "අහෝ! පිටුව හමු නොවීය!"
 msgid "Open account actions"
 msgstr "ගිණුම් ක්‍රියා විවෘත කරන්න"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "ක්‍රියා විවෘත කරන්න"
 
@@ -926,8 +946,8 @@ msgstr "සංචාලන මෙනුව විවෘත කරන්න"
 msgid "Open theme settings"
 msgstr "theme සැකසුම් විවෘත කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:541
 msgid "Open track actions"
 msgstr "track ක්‍රියා විවෘත කරන්න"
 
@@ -955,31 +975,31 @@ msgstr "මුරයතුරු"
 msgid "Please check your internet connection and try again."
 msgstr "කරුණාකර ඔබගේ අන්තර්ජාල සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න."
 
-#: src/features/apps/index.tsx:148
+#: src/features/apps/index.tsx:149
 msgid "Please enter an app name"
 msgstr "කරුණාකර app නමක් ඇතුළත් කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Please select a file"
 msgstr "කරුණාකර ගොනුවක් තෝරන්න"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "පෙර පින්තූරය"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Privacy"
 msgstr "පෞද්ගලිකත්වය"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:222
 msgid "Privacy Policy"
 msgstr "පෞද්ගලිකත්ව ප්‍රතිපත්තිය"
 
-#: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/features/apps/index.tsx:94
+#: src/routes/_authenticated/app/$appId.tsx:227
 msgid "Private"
 msgstr "පෞද්ගලික"
 
@@ -988,18 +1008,18 @@ msgstr "පෞද්ගලික"
 msgid "Profile"
 msgstr "පැතිකඩ"
 
-#: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/features/apps/index.tsx:94
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Public"
 msgstr "ප්‍රසිද්ධ"
 
-#: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/features/apps/index.tsx:95
+#: src/routes/_authenticated/app/$appId.tsx:241
 msgid "Published"
 msgstr "ප්‍රකාශයට පත් කරන ලදී"
 
-#: src/features/apps/index.tsx:37
-#: src/features/apps/index.tsx:51
+#: src/features/apps/index.tsx:38
+#: src/features/apps/index.tsx:52
 msgid "Publisher"
 msgstr "ප්‍රකාශකයා"
 
@@ -1037,11 +1057,11 @@ msgstr "සාපේක්ෂ (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "පැය 24 තුළ සාපේක්ෂ, නැතහොත් නිරපේක්ෂ"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:488
 msgid "Release Tracks"
 msgstr "නිකුත් කිරීමේ ට්‍රැක්"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:375
 msgid "Release tracks currently active"
 msgstr "දැනට ක්‍රියාකාරී නිකුත් කිරීමේ ට්‍රැක්"
 
@@ -1077,8 +1097,8 @@ msgstr "reset"
 msgid "Reset all settings to default values"
 msgstr "සියලු සැකසුම් පෙරනිමි අගයන් වෙත reset කරන්න"
 
-#: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/features/apps/index.tsx:95
+#: src/routes/_authenticated/app/$appId.tsx:242
 msgid "Restricted"
 msgstr "සීමා සහිත"
 
@@ -1187,13 +1207,17 @@ msgstr "සේවාදායක නීති"
 msgid "Session expired"
 msgstr "සැසිය කල් ඉකුත් විය"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:549
 msgid "Set as default"
 msgstr "පෙරනිමිය ලෙස සකසන්න"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:147
 msgid "Set origin and destination"
 msgstr "මූලාරම්භය සහ ගමනාන්තය සකසන්න"
+
+#: src/routes/_authenticated/app/$appId.tsx:475
+msgid "Setting default track..."
+msgstr ""
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:93
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:99
@@ -1203,11 +1227,11 @@ msgstr "මූලාරම්භය සහ ගමනාන්තය සකසන
 msgid "Settings"
 msgstr "සැකසුම්"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Share this link to allow others to install this app"
 msgstr "අන් අයට මෙම යෙදුම ස්ථාපනය කිරීමට අවසර දීම සඳහා මෙම සබැඳිය බෙදා ගන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:250
 msgid "Sharing"
 msgstr "බෙදාගැනීම"
 
@@ -1287,8 +1311,8 @@ msgstr "නියම සහ කොන්දේසි"
 msgid "That code is incorrect or has expired."
 msgstr "එම කේතය වැරදියි හෝ කල් ඉකුත් වී ඇත."
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:153
 msgid "The requested app could not be found."
 msgstr "ඉල්ලූ යෙදුම සොයා ගත නොහැකි විය."
 
@@ -1313,10 +1337,10 @@ msgstr "තීරු මාරු කරන්න"
 msgid "Toggle right panel"
 msgstr "දකුණු පැනලය මාරු කරන්න"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "කොටස ටොගල් කරන්න"
 
@@ -1339,19 +1363,19 @@ msgstr "theme මාරු කරන්න"
 msgid "Top"
 msgstr "ඉහළ"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "Track \"{track}\" deleted"
 msgstr "track \"{track}\" මකා දමන ලදී"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Track \"{track}\" updated to {version}"
 msgstr "track \"{track}\" {version} වෙත යාවත්කාලීන කරන ලදී"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:428
 msgid "Track created"
 msgstr "track නිර්මාණය කරන ලදී"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Track Name"
 msgstr "track නම"
 
@@ -1411,31 +1435,43 @@ msgstr "එක්සත් ජනපදය"
 msgid "Unverified"
 msgstr "සත්‍යාපනය නොකළ"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:739
 msgid "Update Tracks"
 msgstr "tracks යාවත්කාලීන කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:84
+msgid "Updating distribution..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:445
+msgid "Updating track..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:703
 msgid "Upload a .zip build file for your application."
 msgstr "ඔබේ යෙදුම සඳහා .zip build ගොනුවක් උඩුගත කරන්න."
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:200
 msgid "Upload new version"
 msgstr "නව අනුවාදය උඩුගත කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Upload New Version"
 msgstr "නව අනුවාදය උඩුගත කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:766
 msgid "Upload version"
 msgstr "අනුවාදය උඩුගත කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:277
 msgid "Upload your first build to get started"
 msgstr "ආරම්භ කිරීමට ඔබේ පළමු build එක උඩුගත කරන්න"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:678
+msgid "Uploading version..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:766
 msgid "Uploading..."
 msgstr "උඩුගත කරමින්..."
 
@@ -1447,7 +1483,7 @@ msgstr "ඔබගේ මුරයතුර භාවිතා කරන්න"
 msgid "User"
 msgstr "පරිශීලකයා"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:255
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "පරිශීලකයන්ට මෙම සබැඳිය ඔවුන්ගේ යෙදුම් පිටුවට අලවා මෙම යෙදුම ස්ථාපනය කළ හැකිය."
 
@@ -1473,18 +1509,22 @@ msgstr "සත්‍යාපනය කරන්න"
 msgid "Verify email address"
 msgstr "ඊමේල් ලිපිනය සත්‍යාපනය කරන්න"
 
-#. placeholder {0}: data.version
 #: src/routes/_authenticated/app/$appId.tsx:661
-msgid "Version {0} has been created."
-msgstr "අනුවාදය {0} සාදා ඇත."
+#~ msgid "Version {0} has been created."
+#~ msgstr "අනුවාදය {0} සාදා ඇත."
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#. placeholder {0}: result.version
+#: src/routes/_authenticated/app/$appId.tsx:679
+msgid "Version {0} uploaded"
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "Version History"
 msgstr "අනුවාද ඉතිහාසය"
 
 #: src/routes/_authenticated/app/$appId.tsx:660
-msgid "Version uploaded"
-msgstr "අනුවාදය උඩුගත කරන ලදී"
+#~ msgid "Version uploaded"
+#~ msgstr "අනුවාදය උඩුගත කරන ලදී"
 
 #: ../../../lib/web/src/components/attachment-gallery.tsx:66
 msgid "Video thumbnail"
@@ -1515,12 +1555,12 @@ msgstr "වෙබ් අඩවිය නඩත්තු යටතේ පවත�
 msgid "Wednesday"
 msgstr "බදාදා"
 
-#: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/features/apps/index.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Yes"
 msgstr "ඔව්"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:732
 msgid "Yes, force"
 msgstr "ඔව්, බල කරන්න"
 

@@ -14,8 +14,8 @@ msgstr ""
 "Plural-Forms: \n"
 
 #: src/features/apps/index.tsx:157
-msgid "{name} has been created successfully."
-msgstr "{name} を作成しました。"
+#~ msgid "{name} has been created successfully."
+#~ msgstr "{name} を作成しました。"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
@@ -53,7 +53,7 @@ msgstr "アカウントタイプ"
 msgid "Account verified"
 msgstr "アカウントを確認しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:513
 msgid "Active version"
 msgstr "アクティブなバージョン"
 
@@ -111,7 +111,7 @@ msgstr "AI"
 msgid "All"
 msgstr "すべて"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "All uploaded build files for this application"
 msgstr "このアプリケーションにアップロードされたすべてのビルドファイル"
 
@@ -123,23 +123,23 @@ msgstr "エラーが発生しました"
 msgid "An unexpected error occurred"
 msgstr "予期しないエラーが発生しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:103
+#: src/routes/_authenticated/app/$appId.tsx:137
 msgid "App"
 msgstr "外観"
 
-#: src/features/apps/index.tsx:156
+#: src/features/apps/index.tsx:159
 msgid "App created"
 msgstr "アプリを作成しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:123
+#: src/routes/_authenticated/app/$appId.tsx:127
+#: src/routes/_authenticated/app/$appId.tsx:148
+#: src/routes/_authenticated/app/$appId.tsx:152
 msgid "App not found"
 msgstr "アプリが見つかりません"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:216
 msgid "Application ID"
 msgstr "アプリケーション ID"
 
@@ -159,7 +159,7 @@ msgstr "昇順"
 msgid "Authenticator code"
 msgstr "認証コード"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:375
 msgid "Available Versions"
 msgstr "利用可能なバージョン"
 
@@ -167,12 +167,12 @@ msgstr "利用可能なバージョン"
 msgid "Back"
 msgstr "戻る"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:123
+#: src/routes/_authenticated/app/$appId.tsx:137
+#: src/routes/_authenticated/app/$appId.tsx:148
+#: src/routes/_authenticated/app/$appId.tsx:177
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "アプリに戻る"
 
@@ -187,7 +187,7 @@ msgstr "ホームに戻る"
 msgid "Boost interest"
 msgstr "関心を高める"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "Build File (.zip)"
 msgstr "ビルドファイル (.zip)"
 
@@ -200,9 +200,9 @@ msgstr "ビルドファイル (.zip)"
 #: ../../../lib/web/src/features/access/access-list.tsx:263
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
-#: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/features/apps/index.tsx:214
+#: src/routes/_authenticated/app/$appId.tsx:614
+#: src/routes/_authenticated/app/$appId.tsx:762
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "選択をクリア（Esc）"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "閉じる"
@@ -285,8 +285,8 @@ msgstr "検索を閉じる"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "折りたたむ"
 
@@ -332,11 +332,11 @@ msgstr "{label} で続行"
 msgid "Copy"
 msgstr "コピー"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "このリンクをコピーして、Mochiサーバーのアプリページに貼り付けてインストールしてください。"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Core identification for this application"
 msgstr "このアプリケーションのコア識別情報"
 
@@ -356,38 +356,46 @@ msgstr "再認証を開始できませんでした。もう一度お試しくだ
 msgid "Couldn't verify with that account. Please try again."
 msgstr "そのアカウントで確認できませんでした。もう一度お試しください。"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "ビルドをデプロイするための新しい環境 (Beta、Staging など) を作成します。"
 
-#: src/features/apps/index.tsx:55
 #: src/features/apps/index.tsx:56
-#: src/features/apps/index.tsx:60
-#: src/features/apps/index.tsx:87
-#: src/features/apps/index.tsx:176
-#: src/features/apps/index.tsx:216
+#: src/features/apps/index.tsx:57
+#: src/features/apps/index.tsx:61
+#: src/features/apps/index.tsx:88
+#: src/features/apps/index.tsx:177
+#: src/features/apps/index.tsx:217
 msgid "Create app"
 msgstr "アプリを作成"
 
-#: src/features/apps/index.tsx:174
+#: src/features/apps/index.tsx:175
 msgid "Create new app"
 msgstr "新しいアプリを作成"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:206
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Create track"
 msgstr "トラックを作成"
 
-#: src/features/apps/index.tsx:83
+#: src/features/apps/index.tsx:84
 msgid "Create your first app to get started"
 msgstr "最初のアプリを作成してはじめましょう"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:496
 msgid "Create your first release track to manage deployments"
 msgstr "最初のリリーストラックを作成してデプロイを管理しましょう"
 
-#: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/features/apps/index.tsx:158
+msgid "Creating app..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:427
+msgid "Creating track..."
+msgstr ""
+
+#: src/features/apps/index.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:621
 msgid "Creating..."
 msgstr "作成中..."
 
@@ -416,17 +424,21 @@ msgstr "デフォルト"
 msgid "Default AI account"
 msgstr "デフォルト AI アカウント"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:476
 msgid "Default track set to \"{track}\""
 msgstr "デフォルトトラックを「{track}」に設定しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:556
 msgid "Delete track"
 msgstr "トラックを削除"
 
 #: ../../../lib/web/src/components/restore-banner.tsx:99
 msgid "Delete your account on the old server"
 msgstr "旧サーバーのアカウントを削除する"
+
+#: src/routes/_authenticated/app/$appId.tsx:460
+msgid "Deleting track..."
+msgstr ""
 
 #: ../../../lib/web/src/components/data-table/column-header.tsx:63
 msgid "Desc"
@@ -436,7 +448,7 @@ msgstr "降順"
 msgid "Descending"
 msgstr "降順"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Details"
 msgstr "詳細"
 
@@ -468,24 +480,28 @@ msgstr "閉じる"
 msgid "Displays the mobile sidebar."
 msgstr "モバイルサイドバーを表示します。"
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:231
 msgid "Distribution"
 msgstr "配信"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:85
 msgid "Distribution set to {distribution}"
 msgstr "配布先を {distribution} に設定しました"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "ダウンロード"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr ""
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "ディスレクシア対応"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:587
 msgid "e.g. Staging"
 msgstr "例: Staging"
 
@@ -507,8 +523,8 @@ msgstr "認証アプリのコードを入力"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "展開する"
 
@@ -524,15 +540,15 @@ msgstr "特大"
 msgid "Failed to add account"
 msgstr "アカウントの追加に失敗しました"
 
-#: src/features/apps/index.tsx:164
+#: src/features/apps/index.tsx:160
 msgid "Failed to create app"
 msgstr "アプリの作成に失敗しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Failed to create track"
 msgstr "トラックの作成に失敗しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Failed to delete track"
 msgstr "トラックの削除に失敗しました"
 
@@ -544,7 +560,7 @@ msgstr "アカウントの削除に失敗しました"
 msgid "Failed to send verification code"
 msgstr "確認コードの送信に失敗しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Failed to set default track"
 msgstr "デフォルトトラックの設定に失敗しました"
 
@@ -552,20 +568,20 @@ msgstr "デフォルトトラックの設定に失敗しました"
 msgid "Failed to update category"
 msgstr "カテゴリの更新に失敗しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "配信の更新に失敗しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:447
 msgid "Failed to update track"
 msgstr "トラックの更新に失敗しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Failed to upload version"
 msgstr "バージョンのアップロードに失敗しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:361
 msgid "Fingerprint"
 msgstr "フィンガープリント"
 
@@ -651,7 +667,7 @@ msgstr "ホーム"
 msgid "Hot"
 msgstr "人気"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Identity"
 msgstr "アイデンティティ"
 
@@ -659,7 +675,7 @@ msgstr "アイデンティティ"
 msgid "Imperial"
 msgstr "ヤード・ポンド法"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:593
 msgid "Initial Version"
 msgstr "初期バージョン"
 
@@ -667,20 +683,20 @@ msgstr "初期バージョン"
 msgid "Inset"
 msgstr "インセット"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install App"
 msgstr "アプリをインストール"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:259
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Install link:"
 msgstr "インストールリンク："
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Install Locally"
 msgstr "ローカルにインストール"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install this application to your server"
 msgstr "このアプリケーションをサーバーにインストール"
 
@@ -706,7 +722,7 @@ msgstr "レイアウト"
 msgid "Learn more"
 msgstr "詳細"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:599
 msgid "Leave empty"
 msgstr "空のままにする"
 
@@ -723,9 +739,13 @@ msgstr "ライト"
 msgid "Load more"
 msgstr "もっと読み込む"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:109
 msgid "Loading app..."
 msgstr "アプリを読み込み中..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr ""
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -754,11 +774,11 @@ msgstr "ログアウトしました"
 msgid "Logging out…"
 msgstr "ログアウトしています…"
 
-#: src/features/apps/index.tsx:194
+#: src/features/apps/index.tsx:195
 msgid "Make app publicly available"
 msgstr "アプリを一般公開する"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:489
 msgid "Manage deployment environments and their versions"
 msgstr "デプロイ環境とそのバージョンを管理"
 
@@ -776,7 +796,7 @@ msgstr "中"
 msgid "Menu"
 msgstr "メニュー"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Metadata and configuration"
 msgstr "メタデータと設定"
 
@@ -788,15 +808,15 @@ msgstr "メートル法"
 msgid "Monday"
 msgstr "月曜日"
 
-#: src/features/apps/index.tsx:189
+#: src/features/apps/index.tsx:190
 msgid "My App"
 msgstr "マイアプリ"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "N/A"
 msgstr "該当なし"
 
-#: src/features/apps/index.tsx:183
+#: src/features/apps/index.tsx:184
 msgid "Name"
 msgstr "名前"
 
@@ -808,17 +828,17 @@ msgstr "ネットワークエラー"
 msgid "New"
 msgstr "新規"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "New Release Track"
 msgstr "新しいリリーストラック"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "次の画像"
 
-#: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/features/apps/index.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:733
 msgid "No"
 msgstr "いいえ"
 
@@ -826,7 +846,7 @@ msgstr "いいえ"
 msgid "No access rules configured. Add rules to control who can access this resource."
 msgstr "アクセスルールが設定されていません。このリソースへのアクセスを制御するルールを追加してください。"
 
-#: src/features/apps/index.tsx:82
+#: src/features/apps/index.tsx:83
 msgid "No apps yet"
 msgstr "まだアプリがありません"
 
@@ -859,7 +879,7 @@ msgstr "タイムゾーンが見つかりません。"
 msgid "No topic record yet — try again after the next notification."
 msgstr "まだトピック記録がありません — 次の通知後にもう一度お試しください。"
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:495
 msgid "No tracks"
 msgstr "トラックなし"
 
@@ -867,11 +887,11 @@ msgstr "トラックなし"
 msgid "No users found"
 msgstr "ユーザーが見つかりません"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:596
 msgid "No version"
 msgstr "バージョンなし"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:276
 msgid "No versions"
 msgstr "バージョンがありません"
 
@@ -906,8 +926,8 @@ msgstr "ページが見つかりません!"
 msgid "Open account actions"
 msgstr "アカウントのアクションを開く"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "操作メニューを開く"
 
@@ -926,8 +946,8 @@ msgstr "ナビゲーションメニューを開く"
 msgid "Open theme settings"
 msgstr "テーマ設定を開く"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:536
+#: src/routes/_authenticated/app/$appId.tsx:541
 msgid "Open track actions"
 msgstr "トラック操作を開く"
 
@@ -955,31 +975,31 @@ msgstr "パスキー"
 msgid "Please check your internet connection and try again."
 msgstr "インターネット接続を確認して、もう一度お試しください。"
 
-#: src/features/apps/index.tsx:148
+#: src/features/apps/index.tsx:149
 msgid "Please enter an app name"
 msgstr "アプリ名を入力してください"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Please select a file"
 msgstr "ファイルを選択してください"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "前の画像"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:364
 msgid "Privacy"
 msgstr "プライバシー"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:222
 msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
 
-#: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/features/apps/index.tsx:94
+#: src/routes/_authenticated/app/$appId.tsx:227
 msgid "Private"
 msgstr "非公開"
 
@@ -988,18 +1008,18 @@ msgstr "非公開"
 msgid "Profile"
 msgstr "プロフィール"
 
-#: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/features/apps/index.tsx:94
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Public"
 msgstr "公開"
 
-#: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/features/apps/index.tsx:95
+#: src/routes/_authenticated/app/$appId.tsx:241
 msgid "Published"
 msgstr "公開済み"
 
-#: src/features/apps/index.tsx:37
-#: src/features/apps/index.tsx:51
+#: src/features/apps/index.tsx:38
+#: src/features/apps/index.tsx:52
 msgid "Publisher"
 msgstr "パブリッシャー"
 
@@ -1037,11 +1057,11 @@ msgstr "相対 (5分、3時間、2日)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24時間以内は相対、それ以外は絶対"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:488
 msgid "Release Tracks"
 msgstr "リリーストラック"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:375
 msgid "Release tracks currently active"
 msgstr "現在アクティブなリリーストラック"
 
@@ -1077,8 +1097,8 @@ msgstr "リセット"
 msgid "Reset all settings to default values"
 msgstr "すべての設定をデフォルト値にリセット"
 
-#: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/features/apps/index.tsx:95
+#: src/routes/_authenticated/app/$appId.tsx:242
 msgid "Restricted"
 msgstr "制限付き"
 
@@ -1187,13 +1207,17 @@ msgstr "サーバーのルール"
 msgid "Session expired"
 msgstr "セッションの有効期限が切れました"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:549
 msgid "Set as default"
 msgstr "デフォルトに設定"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:147
 msgid "Set origin and destination"
 msgstr "出発地と目的地を設定"
+
+#: src/routes/_authenticated/app/$appId.tsx:475
+msgid "Setting default track..."
+msgstr ""
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:93
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:99
@@ -1203,11 +1227,11 @@ msgstr "出発地と目的地を設定"
 msgid "Settings"
 msgstr "設定"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:251
 msgid "Share this link to allow others to install this app"
 msgstr "他のユーザーがこのアプリをインストールできるよう、このリンクを共有してください"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:250
 msgid "Sharing"
 msgstr "共有"
 
@@ -1287,8 +1311,8 @@ msgstr "利用規約"
 msgid "That code is incorrect or has expired."
 msgstr "そのコードは正しくないか、有効期限が切れています。"
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:153
 msgid "The requested app could not be found."
 msgstr "指定されたアプリが見つかりませんでした。"
 
@@ -1313,10 +1337,10 @@ msgstr "列を切り替え"
 msgid "Toggle right panel"
 msgstr "右パネルを切り替え"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "セクションを切り替え"
 
@@ -1339,19 +1363,19 @@ msgstr "テーマを切り替え"
 msgid "Top"
 msgstr "トップ"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:461
 msgid "Track \"{track}\" deleted"
 msgstr "トラック「{track}」を削除しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Track \"{track}\" updated to {version}"
 msgstr "トラック「{track}」を {version} に更新しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:428
 msgid "Track created"
 msgstr "トラックを作成しました"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Track Name"
 msgstr "トラック名"
 
@@ -1411,31 +1435,43 @@ msgstr "アメリカ合衆国"
 msgid "Unverified"
 msgstr "未認証"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:739
 msgid "Update Tracks"
 msgstr "トラックを更新"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:84
+msgid "Updating distribution..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:445
+msgid "Updating track..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:703
 msgid "Upload a .zip build file for your application."
 msgstr "アプリケーションの .zip ビルドファイルをアップロードします。"
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:200
 msgid "Upload new version"
 msgstr "新しいバージョンをアップロード"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:701
 msgid "Upload New Version"
 msgstr "新しいバージョンをアップロード"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:766
 msgid "Upload version"
 msgstr "バージョンをアップロード"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:277
 msgid "Upload your first build to get started"
 msgstr "最初のビルドをアップロードしてはじめましょう"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:678
+msgid "Uploading version..."
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:766
 msgid "Uploading..."
 msgstr "アップロード中..."
 
@@ -1447,7 +1483,7 @@ msgstr "パスキーを使用"
 msgid "User"
 msgstr "ユーザー"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:255
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "ユーザーはこのリンクを自分のアプリページに貼り付けることで、このアプリケーションをインストールできます。"
 
@@ -1473,18 +1509,22 @@ msgstr "認証"
 msgid "Verify email address"
 msgstr "メールアドレスを認証"
 
-#. placeholder {0}: data.version
 #: src/routes/_authenticated/app/$appId.tsx:661
-msgid "Version {0} has been created."
-msgstr "バージョン {0} を作成しました。"
+#~ msgid "Version {0} has been created."
+#~ msgstr "バージョン {0} を作成しました。"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#. placeholder {0}: result.version
+#: src/routes/_authenticated/app/$appId.tsx:679
+msgid "Version {0} uploaded"
+msgstr ""
+
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "Version History"
 msgstr "バージョン履歴"
 
 #: src/routes/_authenticated/app/$appId.tsx:660
-msgid "Version uploaded"
-msgstr "バージョンをアップロードしました"
+#~ msgid "Version uploaded"
+#~ msgstr "バージョンをアップロードしました"
 
 #: ../../../lib/web/src/components/attachment-gallery.tsx:66
 msgid "Video thumbnail"
@@ -1515,12 +1555,12 @@ msgstr "ウェブサイトはメンテナンス中です!"
 msgid "Wednesday"
 msgstr "水曜日"
 
-#: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/features/apps/index.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:731
 msgid "Yes"
 msgstr "はい"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:732
 msgid "Yes, force"
 msgstr "はい、強制"
 

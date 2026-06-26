@@ -22,6 +22,7 @@ import {
   Main,
   getErrorMessage,
   toast,
+  toastAction,
   CardSkeleton,
   EmptyState,
   GeneralError,
@@ -142,29 +143,29 @@ function CreateAppDialog({
   const [privacy, setPrivacy] = useState('public')
   const createMutation = useCreateAppMutation()
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!name.trim()) {
       toast.error(t`Please enter an app name`)
       return
     }
 
-    createMutation.mutate(
-      { name: name.trim(), privacy },
-      {
-        onSuccess: (data: { id: string }) => {
-          toast.success(t`App created`, {
-            description: t`${name} has been created successfully.`,
-          })
-          setName('')
-          setPrivacy('public')
-          onSuccess(data.id)
-        },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to create app`))
-        },
-      }
-    )
+    const trimmedName = name.trim()
+    try {
+      const data = await toastAction(
+        createMutation.mutateAsync({ name: trimmedName, privacy }),
+        {
+          loading: t`Creating app...`,
+          success: t`App created`,
+          error: (error) => getErrorMessage(error, t`Failed to create app`),
+        }
+      )
+      setName('')
+      setPrivacy('public')
+      onSuccess(data.id)
+    } catch {
+      // toastAction already showed error
+    }
   }
 
   return (
