@@ -40,6 +40,7 @@ import {
   Tooltip,
   TooltipTrigger,
   TooltipContent,
+  textUnchanged,
 } from '@mochi/web'
 import { Upload, Plus, MoreHorizontal, Package, Shield, Globe, Lock, Loader2 } from 'lucide-react'
 import { sortVersionsDesc } from '@/lib/version'
@@ -429,7 +430,8 @@ function TracksTab({
     )
   }
 
-  const handleSetTrackVersion = (track: string, version: string) => {
+  const handleSetTrackVersion = (track: string, version: string, currentVersion: string) => {
+    if (textUnchanged(version, currentVersion)) return
     setTrackMutation.mutate(
       { appId, track, version },
       {
@@ -504,7 +506,7 @@ function TracksTab({
               <div className='flex items-center gap-3'>
                 <Select
                   value={track.version}
-                  onValueChange={(v) => handleSetTrackVersion(track.track, v)}
+                  onValueChange={(v) => handleSetTrackVersion(track.track, v, track.version)}
                 >
                   <SelectTrigger className='w-32 h-8 text-xs font-mono'>
                     <SelectValue />
