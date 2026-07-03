@@ -53,7 +53,7 @@ msgstr "Hisob turi"
 msgid "Account verified"
 msgstr "Hisob tasdiqlandi"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:503
 msgid "Active version"
 msgstr "Faol versiya"
 
@@ -82,7 +82,7 @@ msgstr "Bildirishnomalar olish va xizmatlardan foydalanish uchun hisob qoʻshing
 msgid "Add new account"
 msgstr "Yangi hisob qoʻshish"
 
-#: ../../../lib/web/src/components/post-tags.tsx:129
+#: ../../../lib/web/src/components/post-tags.tsx:133
 msgid "Add tag..."
 msgstr "Teg qoʻshish..."
 
@@ -111,20 +111,20 @@ msgstr "AI"
 msgid "All"
 msgstr "Hammasi"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "All uploaded build files for this application"
 msgstr "Bu ilova uchun yuklangan barcha Build fayllari"
 
-#: ../../../lib/web/src/lib/api-client.ts:192
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "Xatolik yuz berdi"
 
-#: ../../../lib/web/src/lib/api-client.ts:255
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:241
 msgid "An unexpected error occurred"
 msgstr "Kutilmagan xatolik yuz berdi"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:101
+#: src/routes/_authenticated/app/$appId.tsx:135
 msgid "App"
 msgstr "Ilova"
 
@@ -132,14 +132,14 @@ msgstr "Ilova"
 msgid "App created"
 msgstr "Ilova yaratildi"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "App not found"
 msgstr "Ilova topilmadi"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Application ID"
 msgstr "Ilova ID"
 
@@ -159,7 +159,7 @@ msgstr "Oʻsish boʻyicha"
 msgid "Authenticator code"
 msgstr "Autentifikator kodi"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Available Versions"
 msgstr "Mavjud versiyalar"
 
@@ -167,12 +167,12 @@ msgstr "Mavjud versiyalar"
 msgid "Back"
 msgstr "Orqaga"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:175
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Back to apps"
 msgstr "Ilovalarga qaytish"
 
@@ -182,12 +182,12 @@ msgstr "Ilovalarga qaytish"
 msgid "Back to home"
 msgstr "Bosh sahifaga qaytish"
 
-#: ../../../lib/web/src/components/post-tags.tsx:172
-#: ../../../lib/web/src/components/post-tags.tsx:184
+#: ../../../lib/web/src/components/post-tags.tsx:176
+#: ../../../lib/web/src/components/post-tags.tsx:188
 msgid "Boost interest"
 msgstr "Qiziqishni kuchaytirish"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Build File (.zip)"
 msgstr "Build fayli (.zip)"
 
@@ -201,8 +201,8 @@ msgstr "Build fayli (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
 #: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/routes/_authenticated/app/$appId.tsx:604
+#: src/routes/_authenticated/app/$appId.tsx:746
 msgid "Cancel"
 msgstr "Bekor qilish"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "Tanlovni tozalash (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "Yopish"
@@ -285,8 +285,8 @@ msgstr "Qidiruvni yopish"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "Yigʻish"
 
@@ -332,11 +332,11 @@ msgstr "{label} bilan davom etish"
 msgid "Copy"
 msgstr "Nusxalash"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:344
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Oʻrnatish uchun ushbu havolani nusxalang va Mochi serveringizning Ilovalar sahifasiga joylashtiring."
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Core identification for this application"
 msgstr "Bu ilovaning asosiy identifikatsiyasi"
 
@@ -356,7 +356,7 @@ msgstr "Qayta autentifikatsiyani boshlab bo'lmadi. Iltimos, qaytadan urinib ko'r
 msgid "Couldn't verify with that account. Please try again."
 msgstr "Ushbu hisob bilan tasdiqlab bo‘lmadi. Iltimos, qayta urinib ko‘ring."
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Build joylash uchun yangi muhit (masalan, Beta, Staging) yaratish."
 
@@ -373,8 +373,8 @@ msgstr "Ilova yaratish"
 msgid "Create new app"
 msgstr "Yangi ilova yaratish"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Create track"
 msgstr "Track yaratish"
 
@@ -382,12 +382,12 @@ msgstr "Track yaratish"
 msgid "Create your first app to get started"
 msgstr "Boshlash uchun birinchi ilovangizni yarating"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Create your first release track to manage deployments"
 msgstr "Joylashlarni boshqarish uchun birinchi Release Trackingizni yarating"
 
 #: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Creating..."
 msgstr "Yaratilmoqda..."
 
@@ -416,11 +416,11 @@ msgstr "Standart"
 msgid "Default AI account"
 msgstr "Standart AI hisobi"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Default track set to \"{track}\""
 msgstr "Standart Track \"{track}\" ga oʻrnatildi"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:546
 msgid "Delete track"
 msgstr "Trackni oʻchirish"
 
@@ -436,7 +436,7 @@ msgstr "Pasayuvchi"
 msgid "Descending"
 msgstr "Kamayish boʻyicha"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Details"
 msgstr "Tafsilotlar"
 
@@ -468,24 +468,28 @@ msgstr "Bekor qilish"
 msgid "Displays the mobile sidebar."
 msgstr "Mobil yon panelni koʻrsatadi."
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:229
 msgid "Distribution"
 msgstr "Tarqatish"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:84
 msgid "Distribution set to {distribution}"
 msgstr "Tarqatish {distribution} ga oʻrnatildi"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "Yuklab olish"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr "Yuklab olib boʻlmadi"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "Disleksiyaga moslashtirilgan"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "e.g. Staging"
 msgstr "masalan, Staging"
 
@@ -507,8 +511,8 @@ msgstr "Autentifikator kodingizni kiriting"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "Yoyish"
 
@@ -528,11 +532,11 @@ msgstr "Hisob qoʻshib boʻlmadi"
 msgid "Failed to create app"
 msgstr "Ilova yaratib boʻlmadi"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Failed to create track"
 msgstr "Trek yaratib boʻlmadi"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:456
 msgid "Failed to delete track"
 msgstr "Trekni oʻchirib boʻlmadi"
 
@@ -544,7 +548,7 @@ msgstr "Hisobni olib tashlab boʻlmadi"
 msgid "Failed to send verification code"
 msgstr "Tasdiqlash kodini yuborib boʻlmadi"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "Failed to set default track"
 msgstr "Standart trekni oʻrnatib boʻlmadi"
 
@@ -552,20 +556,20 @@ msgstr "Standart trekni oʻrnatib boʻlmadi"
 msgid "Failed to update category"
 msgstr "Toifani yangilab boʻlmadi"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "Tarqatishni yangilab boʻlmadi"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:442
 msgid "Failed to update track"
 msgstr "Trekni yangilab boʻlmadi"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:675
 msgid "Failed to upload version"
 msgstr "Versiyani yuklab boʻlmadi"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Fingerprint"
 msgstr "Barmoq izi"
 
@@ -651,7 +655,7 @@ msgstr "Bosh sahifa"
 msgid "Hot"
 msgstr "Qaynoq"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Identity"
 msgstr "Identifikatsiya"
 
@@ -659,7 +663,7 @@ msgstr "Identifikatsiya"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Initial Version"
 msgstr "Boshlangʻich versiya"
 
@@ -667,20 +671,20 @@ msgstr "Boshlangʻich versiya"
 msgid "Inset"
 msgstr "Ichkari"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install App"
 msgstr "Ilovani oʻrnatish"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Install link:"
 msgstr "Oʻrnatish havolasi:"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Install Locally"
 msgstr "Mahalliy oʻrnatish"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install this application to your server"
 msgstr "Ushbu ilovani serveringizga oʻrnating"
 
@@ -706,7 +710,7 @@ msgstr "Tartib"
 msgid "Learn more"
 msgstr "Batafsil"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:589
 msgid "Leave empty"
 msgstr "Boʻsh qoldiring"
 
@@ -723,9 +727,13 @@ msgstr "Yorugʻ"
 msgid "Load more"
 msgstr "Koʻproq yuklash"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:107
 msgid "Loading app..."
 msgstr "Ilova yuklanmoqda..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr "Kontent yuklanmoqda…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -758,7 +766,7 @@ msgstr "Chiqilmoqda…"
 msgid "Make app publicly available"
 msgstr "Ilovani ommaga ochiq qilish"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Manage deployment environments and their versions"
 msgstr "Joylashtirish muhitlarini va ularning versiyalarini boshqarish"
 
@@ -776,7 +784,7 @@ msgstr "Oʻrta"
 msgid "Menu"
 msgstr "Menyu"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Metadata and configuration"
 msgstr "Metadata va konfiguratsiya"
 
@@ -792,7 +800,7 @@ msgstr "Dushanba"
 msgid "My App"
 msgstr "Mening ilovam"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:360
 msgid "N/A"
 msgstr "Mavjud emas"
 
@@ -800,7 +808,7 @@ msgstr "Mavjud emas"
 msgid "Name"
 msgstr "Nomi"
 
-#: ../../../lib/web/src/lib/api-client.ts:300
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:288
 msgid "Network error"
 msgstr "Tarmoq xatosi"
 
@@ -808,17 +816,17 @@ msgstr "Tarmoq xatosi"
 msgid "New"
 msgstr "Yangi"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "New Release Track"
 msgstr "Yangi Release Track"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "Keyingi rasm"
 
 #: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/routes/_authenticated/app/$appId.tsx:717
 msgid "No"
 msgstr "Yoʻq"
 
@@ -859,7 +867,7 @@ msgstr "Vaqt mintaqasi topilmadi."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Hozircha mavzu yozuvi yoʻq — keyingi bildirishnomadan keyin qayta urinib koʻring."
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:485
 msgid "No tracks"
 msgstr "Trekiar yoʻq"
 
@@ -867,11 +875,11 @@ msgstr "Trekiar yoʻq"
 msgid "No users found"
 msgstr "Foydalanuvchilar topilmadi"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:586
 msgid "No version"
 msgstr "Versiya yoʻq"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "No versions"
 msgstr "Versiyalar yoʻq"
 
@@ -906,8 +914,8 @@ msgstr "Voy! Sahifa topilmadi!"
 msgid "Open account actions"
 msgstr "Hisob amallarini ochish"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "Amallarni ochish"
 
@@ -926,8 +934,8 @@ msgstr "Navigatsiya menyusini ochish"
 msgid "Open theme settings"
 msgstr "Mavzu sozlamalarini ochish"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:526
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Open track actions"
 msgstr "Trek amallarini ochish"
 
@@ -951,7 +959,7 @@ msgstr "Kirish kaliti tasdig'i muvaffaqiyatsiz tugadi. Iltimos, qaytadan urinib 
 msgid "Passkeys"
 msgstr "Passkey’lar"
 
-#: ../../../lib/web/src/lib/api-client.ts:301
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:289
 msgid "Please check your internet connection and try again."
 msgstr "Internet aloqangizni tekshiring va qayta urinib ko‘ring."
 
@@ -959,27 +967,27 @@ msgstr "Internet aloqangizni tekshiring va qayta urinib ko‘ring."
 msgid "Please enter an app name"
 msgstr "Iltimos, ilova nomini kiriting"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:651
 msgid "Please select a file"
 msgstr "Iltimos, fayl tanlang"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "Oldingi rasm"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "Privacy"
 msgstr "Maxfiylik"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Privacy Policy"
 msgstr "Maxfiylik siyosati"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Private"
 msgstr "Shaxsiy"
 
@@ -989,12 +997,12 @@ msgid "Profile"
 msgstr "Profil"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Public"
 msgstr "Ommaviy"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Published"
 msgstr "Nashr qilingan"
 
@@ -1024,8 +1032,8 @@ msgstr "Tavsiya etiladi"
 msgid "Redirecting to login."
 msgstr "Kirish sahifasiga yoʻnaltirilmoqda."
 
-#: ../../../lib/web/src/components/post-tags.tsx:192
-#: ../../../lib/web/src/components/post-tags.tsx:204
+#: ../../../lib/web/src/components/post-tags.tsx:196
+#: ../../../lib/web/src/components/post-tags.tsx:208
 msgid "Reduce interest"
 msgstr "Qiziqishni kamaytirish"
 
@@ -1037,11 +1045,11 @@ msgstr "Nisbiy (5d, 3s, 2k)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24 soat ichida nisbiy, aks holda mutlaq"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Release Tracks"
 msgstr "Release Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Release tracks currently active"
 msgstr "Hozir faol release tracks"
 
@@ -1059,8 +1067,8 @@ msgstr "Kirish qoidasini olib tashlash"
 msgid "Remove access?"
 msgstr "Kirishni olib tashlasinmi?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:212
-#: ../../../lib/web/src/components/post-tags.tsx:224
+#: ../../../lib/web/src/components/post-tags.tsx:216
+#: ../../../lib/web/src/components/post-tags.tsx:228
 msgid "Remove interest"
 msgstr "Qiziqishni olib tashlash"
 
@@ -1078,7 +1086,7 @@ msgid "Reset all settings to default values"
 msgstr "Barcha sozlamalarni standart qiymatlarga qaytarish"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Restricted"
 msgstr "Cheklangan"
 
@@ -1173,8 +1181,8 @@ msgstr "Email yuborish"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/lib/api-client.ts:259
-#: ../../../lib/web/src/lib/api-client.ts:284
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:245
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:271
 msgid "Server error"
 msgstr "Server xatosi"
 
@@ -1183,11 +1191,11 @@ msgstr "Server xatosi"
 msgid "Server rules"
 msgstr "Server qoidalari"
 
-#: ../../../lib/web/src/lib/api-client.ts:227
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:209
 msgid "Session expired"
 msgstr "Sessiya muddati tugadi"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:539
 msgid "Set as default"
 msgstr "Standart sifatida belgilash"
 
@@ -1203,11 +1211,11 @@ msgstr "Boshlang‘ich va manzilni belgilash"
 msgid "Settings"
 msgstr "Sozlamalar"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Share this link to allow others to install this app"
 msgstr "Boshqalar ushbu ilovani oʻrnatishi uchun ushbu havolani ulashing"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Sharing"
 msgstr "Ulashish"
 
@@ -1269,8 +1277,8 @@ msgstr "Tizim"
 msgid "Tag"
 msgstr "Teg"
 
-#: ../../../lib/web/src/components/post-tags.tsx:96
-#: ../../../lib/web/src/components/post-tags.tsx:107
+#: ../../../lib/web/src/components/post-tags.tsx:100
+#: ../../../lib/web/src/components/post-tags.tsx:111
 msgid "Tags"
 msgstr "Teglar"
 
@@ -1287,8 +1295,8 @@ msgstr "Shartlar va qoidalar"
 msgid "That code is incorrect or has expired."
 msgstr "Bu kod noto'g'ri yoki muddati o'tgan."
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:151
 msgid "The requested app could not be found."
 msgstr "Soʻralgan ilova topilmadi."
 
@@ -1313,10 +1321,10 @@ msgstr "Ustunlarni almashtirish"
 msgid "Toggle right panel"
 msgstr "Oʻng panelni almashtirish"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "Bo‘limni ochish/yopish"
 
@@ -1339,19 +1347,19 @@ msgstr "Mavzuni almashtirish"
 msgid "Top"
 msgstr "Yuqori"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Track \"{track}\" deleted"
 msgstr "\"{track}\" tracki oʻchirildi"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:439
 msgid "Track \"{track}\" updated to {version}"
 msgstr "\"{track}\" tracki {version} versiyasiga yangilandi"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:421
 msgid "Track created"
 msgstr "Track yaratildi"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Track Name"
 msgstr "Track nomi"
 
@@ -1386,7 +1394,7 @@ msgstr "Foydalanuvchilarni qidirish uchun yozing"
 msgid "Type to search..."
 msgstr "Qidirish uchun yozing..."
 
-#: ../../../lib/web/src/lib/api-client.ts:280
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:267
 msgid "Unable to connect to remote server"
 msgstr "Masofaviy serverga ulanib bo‘lmadi"
 
@@ -1411,31 +1419,31 @@ msgstr "Amerika Qoʻshma Shtatlari"
 msgid "Unverified"
 msgstr "Tasdiqlanmagan"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Update Tracks"
 msgstr "Tracklarni yangilash"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Upload a .zip build file for your application."
 msgstr "Ilovangiz uchun .zip Build faylini yuklang."
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:198
 msgid "Upload new version"
 msgstr "Yangi versiyani yuklash"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload New Version"
 msgstr "Yangi versiyani yuklash"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Upload version"
 msgstr "Versiyani yuklash"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:275
 msgid "Upload your first build to get started"
 msgstr "Boshlash uchun birinchi Buildni yuklang"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Uploading..."
 msgstr "Yuklanmoqda..."
 
@@ -1447,7 +1455,7 @@ msgstr "Kirish kalitingizdan foydalaning"
 msgid "User"
 msgstr "Foydalanuvchi"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:253
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Foydalanuvchilar ushbu ilovani Ilovalar sahifasiga ushbu havolani joylashtirib oʻrnatishi mumkin."
 
@@ -1474,15 +1482,15 @@ msgid "Verify email address"
 msgstr "Email manzilini tasdiqlash"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:661
+#: src/routes/_authenticated/app/$appId.tsx:663
 msgid "Version {0} has been created."
 msgstr "{0} versiyasi yaratildi."
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "Version History"
 msgstr "Versiya tarixi"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:662
 msgid "Version uploaded"
 msgstr "Versiya yuklandi"
 
@@ -1516,11 +1524,11 @@ msgid "Wednesday"
 msgstr "Chorshanba"
 
 #: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "Yes"
 msgstr "Ha"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Yes, force"
 msgstr "Ha, majburlash"
 

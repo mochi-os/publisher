@@ -53,7 +53,7 @@ msgstr "סוג חשבון"
 msgid "Account verified"
 msgstr "החשבון אומת"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:503
 msgid "Active version"
 msgstr "גרסה פעילה"
 
@@ -82,7 +82,7 @@ msgstr "הוסף חשבון כדי לקבל התראות ולהשתמש בשיר
 msgid "Add new account"
 msgstr "הוסף חשבון חדש"
 
-#: ../../../lib/web/src/components/post-tags.tsx:129
+#: ../../../lib/web/src/components/post-tags.tsx:133
 msgid "Add tag..."
 msgstr "הוסף תגית..."
 
@@ -111,20 +111,20 @@ msgstr "AI"
 msgid "All"
 msgstr "הכול"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "All uploaded build files for this application"
 msgstr "כל קובצי ה-build שהועלו עבור אפליקציה זו"
 
-#: ../../../lib/web/src/lib/api-client.ts:192
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "אירעה שגיאה"
 
-#: ../../../lib/web/src/lib/api-client.ts:255
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:241
 msgid "An unexpected error occurred"
 msgstr "אירעה שגיאה בלתי צפויה"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:101
+#: src/routes/_authenticated/app/$appId.tsx:135
 msgid "App"
 msgstr "אפליקציה"
 
@@ -132,14 +132,14 @@ msgstr "אפליקציה"
 msgid "App created"
 msgstr "האפליקציה נוצרה"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "App not found"
 msgstr "האפליקציה לא נמצאה"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Application ID"
 msgstr "מזהה אפליקציה"
 
@@ -159,7 +159,7 @@ msgstr "סדר עולה"
 msgid "Authenticator code"
 msgstr "קוד אימות"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Available Versions"
 msgstr "גרסאות זמינות"
 
@@ -167,12 +167,12 @@ msgstr "גרסאות זמינות"
 msgid "Back"
 msgstr "חזור"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:175
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Back to apps"
 msgstr "חזור לאפליקציות"
 
@@ -182,12 +182,12 @@ msgstr "חזור לאפליקציות"
 msgid "Back to home"
 msgstr "חזרה לבית"
 
-#: ../../../lib/web/src/components/post-tags.tsx:172
-#: ../../../lib/web/src/components/post-tags.tsx:184
+#: ../../../lib/web/src/components/post-tags.tsx:176
+#: ../../../lib/web/src/components/post-tags.tsx:188
 msgid "Boost interest"
 msgstr "הגבר עניין"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Build File (.zip)"
 msgstr "קובץ build‏ (.zip)"
 
@@ -201,8 +201,8 @@ msgstr "קובץ build‏ (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
 #: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/routes/_authenticated/app/$appId.tsx:604
+#: src/routes/_authenticated/app/$appId.tsx:746
 msgid "Cancel"
 msgstr "ביטול"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "נקה בחירה (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "סגור"
@@ -285,8 +285,8 @@ msgstr "סגור חיפוש"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "כיווץ"
 
@@ -332,11 +332,11 @@ msgstr "המשך עם {label}"
 msgid "Copy"
 msgstr "העתק"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:344
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "העתיקו את הקישור הזה והדביקו אותו בעמוד האפליקציות של שרת Mochi שלכם כדי להתקין."
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Core identification for this application"
 msgstr "זיהוי ליבה עבור אפליקציה זו"
 
@@ -356,7 +356,7 @@ msgstr "לא ניתן היה להתחיל את האימות מחדש. נסה ש�
 msgid "Couldn't verify with that account. Please try again."
 msgstr "לא ניתן היה לאמת עם החשבון הזה. נסה שוב."
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "צור סביבה חדשה (לדוגמה Beta, Staging) לפריסת builds."
 
@@ -373,8 +373,8 @@ msgstr "צור אפליקציה"
 msgid "Create new app"
 msgstr "צור אפליקציה חדשה"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Create track"
 msgstr "צור Track"
 
@@ -382,12 +382,12 @@ msgstr "צור Track"
 msgid "Create your first app to get started"
 msgstr "צור את האפליקציה הראשונה שלך כדי להתחיל"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Create your first release track to manage deployments"
 msgstr "צור את ה-Release Track הראשון שלך לניהול פריסות"
 
 #: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Creating..."
 msgstr "יוצר..."
 
@@ -416,11 +416,11 @@ msgstr "ברירת מחדל"
 msgid "Default AI account"
 msgstr "חשבון AI ברירת מחדל"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Default track set to \"{track}\""
 msgstr "Track ברירת המחדל הוגדר ל-\"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:546
 msgid "Delete track"
 msgstr "מחק Track"
 
@@ -436,7 +436,7 @@ msgstr "יורד"
 msgid "Descending"
 msgstr "סדר יורד"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Details"
 msgstr "פרטים"
 
@@ -468,24 +468,28 @@ msgstr "סגור"
 msgid "Displays the mobile sidebar."
 msgstr "מציג את סרגל הצד למובייל."
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:229
 msgid "Distribution"
 msgstr "הפצה"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:84
 msgid "Distribution set to {distribution}"
 msgstr "ההפצה הוגדרה ל-{distribution}"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "הורדה"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr "ההורדה נכשלה"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "ידידותי לדיסלקציה"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "e.g. Staging"
 msgstr "לדוגמה Staging"
 
@@ -507,8 +511,8 @@ msgstr "הזן את הקוד מאפליקציית האימות"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "הרחבה"
 
@@ -528,11 +532,11 @@ msgstr "הוספת החשבון נכשלה"
 msgid "Failed to create app"
 msgstr "יצירת האפליקציה נכשלה"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Failed to create track"
 msgstr "יצירת הערוץ נכשלה"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:456
 msgid "Failed to delete track"
 msgstr "מחיקת הערוץ נכשלה"
 
@@ -544,7 +548,7 @@ msgstr "הסרת החשבון נכשלה"
 msgid "Failed to send verification code"
 msgstr "שליחת קוד האימות נכשלה"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "Failed to set default track"
 msgstr "הגדרת ערוץ ברירת המחדל נכשלה"
 
@@ -552,20 +556,20 @@ msgstr "הגדרת ערוץ ברירת המחדל נכשלה"
 msgid "Failed to update category"
 msgstr "עדכון הקטגוריה נכשל"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "עדכון ההפצה נכשל"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:442
 msgid "Failed to update track"
 msgstr "עדכון הערוץ נכשל"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:675
 msgid "Failed to upload version"
 msgstr "העלאת הגרסה נכשלה"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Fingerprint"
 msgstr "טביעת אצבע"
 
@@ -651,7 +655,7 @@ msgstr "בית"
 msgid "Hot"
 msgstr "חם"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Identity"
 msgstr "זהות"
 
@@ -659,7 +663,7 @@ msgstr "זהות"
 msgid "Imperial"
 msgstr "אימפריאלי"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Initial Version"
 msgstr "גרסה ראשונית"
 
@@ -667,20 +671,20 @@ msgstr "גרסה ראשונית"
 msgid "Inset"
 msgstr "פנימי"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install App"
 msgstr "התקן אפליקציה"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Install link:"
 msgstr "קישור התקנה:"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Install Locally"
 msgstr "התקן מקומית"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install this application to your server"
 msgstr "התקן את האפליקציה הזו לשרת שלך"
 
@@ -706,7 +710,7 @@ msgstr "פריסה"
 msgid "Learn more"
 msgstr "מידע נוסף"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:589
 msgid "Leave empty"
 msgstr "השאר ריק"
 
@@ -723,9 +727,13 @@ msgstr "בהיר"
 msgid "Load more"
 msgstr "טען עוד"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:107
 msgid "Loading app..."
 msgstr "טוען אפליקציה..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr "טוען תוכן…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -758,7 +766,7 @@ msgstr "מתנתק…"
 msgid "Make app publicly available"
 msgstr "הפוך את האפליקציה לזמינה לציבור"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Manage deployment environments and their versions"
 msgstr "ניהול סביבות פריסה והגרסאות שלהן"
 
@@ -776,7 +784,7 @@ msgstr "בינוני"
 msgid "Menu"
 msgstr "תפריט"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Metadata and configuration"
 msgstr "מטא-נתונים ותצורה"
 
@@ -792,7 +800,7 @@ msgstr "יום שני"
 msgid "My App"
 msgstr "האפליקציה שלי"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:360
 msgid "N/A"
 msgstr "לא רלוונטי"
 
@@ -800,7 +808,7 @@ msgstr "לא רלוונטי"
 msgid "Name"
 msgstr "שם"
 
-#: ../../../lib/web/src/lib/api-client.ts:300
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:288
 msgid "Network error"
 msgstr "שגיאת רשת"
 
@@ -808,17 +816,17 @@ msgstr "שגיאת רשת"
 msgid "New"
 msgstr "חדש"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "New Release Track"
 msgstr "ערוץ הפצה חדש"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "התמונה הבאה"
 
 #: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/routes/_authenticated/app/$appId.tsx:717
 msgid "No"
 msgstr "לא"
 
@@ -859,7 +867,7 @@ msgstr "לא נמצא אזור זמן."
 msgid "No topic record yet — try again after the next notification."
 msgstr "עדיין אין רשומת נושא — נסה שוב לאחר ההתראה הבאה."
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:485
 msgid "No tracks"
 msgstr "אין ערוצים"
 
@@ -867,11 +875,11 @@ msgstr "אין ערוצים"
 msgid "No users found"
 msgstr "לא נמצאו משתמשים"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:586
 msgid "No version"
 msgstr "אין גרסה"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "No versions"
 msgstr "אין גרסאות"
 
@@ -906,8 +914,8 @@ msgstr "אופס! הדף לא נמצא!"
 msgid "Open account actions"
 msgstr "פתח פעולות חשבון"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "פתיחת פעולות"
 
@@ -926,8 +934,8 @@ msgstr "פתח תפריט ניווט"
 msgid "Open theme settings"
 msgstr "פתח הגדרות ערכת נושא"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:526
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Open track actions"
 msgstr "פתח פעולות ערוץ"
 
@@ -951,7 +959,7 @@ msgstr "אימות מפתח הגישה נכשל. נסה שוב."
 msgid "Passkeys"
 msgstr "מפתחות גישה"
 
-#: ../../../lib/web/src/lib/api-client.ts:301
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:289
 msgid "Please check your internet connection and try again."
 msgstr "בדקו את חיבור האינטרנט ונסו שוב."
 
@@ -959,27 +967,27 @@ msgstr "בדקו את חיבור האינטרנט ונסו שוב."
 msgid "Please enter an app name"
 msgstr "הזן שם אפליקציה"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:651
 msgid "Please select a file"
 msgstr "בחר קובץ"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "התמונה הקודמת"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "Privacy"
 msgstr "פרטיות"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Privacy Policy"
 msgstr "מדיניות פרטיות"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Private"
 msgstr "פרטי"
 
@@ -989,12 +997,12 @@ msgid "Profile"
 msgstr "פרופיל"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Public"
 msgstr "ציבורי"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Published"
 msgstr "פורסם"
 
@@ -1024,8 +1032,8 @@ msgstr "מומלץ"
 msgid "Redirecting to login."
 msgstr "מפנה לדף ההתחברות."
 
-#: ../../../lib/web/src/components/post-tags.tsx:192
-#: ../../../lib/web/src/components/post-tags.tsx:204
+#: ../../../lib/web/src/components/post-tags.tsx:196
+#: ../../../lib/web/src/components/post-tags.tsx:208
 msgid "Reduce interest"
 msgstr "הפחת עניין"
 
@@ -1037,11 +1045,11 @@ msgstr "יחסי (5 דקות, 3 שעות, 2 ימים)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "יחסי בתוך 24 שעות, אחרת מוחלט"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Release Tracks"
 msgstr "ערוצי הפצה"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Release tracks currently active"
 msgstr "ערוצי הפצה פעילים כרגע"
 
@@ -1059,8 +1067,8 @@ msgstr "הסר כלל גישה"
 msgid "Remove access?"
 msgstr "להסיר גישה?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:212
-#: ../../../lib/web/src/components/post-tags.tsx:224
+#: ../../../lib/web/src/components/post-tags.tsx:216
+#: ../../../lib/web/src/components/post-tags.tsx:228
 msgid "Remove interest"
 msgstr "הסר עניין"
 
@@ -1078,7 +1086,7 @@ msgid "Reset all settings to default values"
 msgstr "אפס את כל ההגדרות לערכי ברירת המחדל"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Restricted"
 msgstr "מוגבל"
 
@@ -1173,8 +1181,8 @@ msgstr "שלח אימייל"
 msgid "Serif"
 msgstr "סריף"
 
-#: ../../../lib/web/src/lib/api-client.ts:259
-#: ../../../lib/web/src/lib/api-client.ts:284
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:245
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:271
 msgid "Server error"
 msgstr "שגיאת שרת"
 
@@ -1183,11 +1191,11 @@ msgstr "שגיאת שרת"
 msgid "Server rules"
 msgstr "כללי השרת"
 
-#: ../../../lib/web/src/lib/api-client.ts:227
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:209
 msgid "Session expired"
 msgstr "ההפעלה פגה"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:539
 msgid "Set as default"
 msgstr "קבע כברירת מחדל"
 
@@ -1203,11 +1211,11 @@ msgstr "קבע מקור ויעד"
 msgid "Settings"
 msgstr "הגדרות"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Share this link to allow others to install this app"
 msgstr "שתפו את הקישור הזה כדי לאפשר לאחרים להתקין את האפליקציה הזו"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Sharing"
 msgstr "שיתוף"
 
@@ -1269,8 +1277,8 @@ msgstr "מערכת"
 msgid "Tag"
 msgstr "תגית"
 
-#: ../../../lib/web/src/components/post-tags.tsx:96
-#: ../../../lib/web/src/components/post-tags.tsx:107
+#: ../../../lib/web/src/components/post-tags.tsx:100
+#: ../../../lib/web/src/components/post-tags.tsx:111
 msgid "Tags"
 msgstr "תגיות"
 
@@ -1287,8 +1295,8 @@ msgstr "תנאים והגבלות"
 msgid "That code is incorrect or has expired."
 msgstr "הקוד שגוי או שתוקפו פג."
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:151
 msgid "The requested app could not be found."
 msgstr "האפליקציה המבוקשת לא נמצאה."
 
@@ -1313,10 +1321,10 @@ msgstr "החלף עמודות"
 msgid "Toggle right panel"
 msgstr "החלף פנל ימני"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "החלפת מצב מקטע"
 
@@ -1339,19 +1347,19 @@ msgstr "החלף ערכת נושא"
 msgid "Top"
 msgstr "ראש"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Track \"{track}\" deleted"
 msgstr "הערוץ \"{track}\" נמחק"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:439
 msgid "Track \"{track}\" updated to {version}"
 msgstr "הערוץ \"{track}\" עודכן ל-{version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:421
 msgid "Track created"
 msgstr "הערוץ נוצר"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Track Name"
 msgstr "שם ערוץ"
 
@@ -1386,7 +1394,7 @@ msgstr "הקלד לחיפוש משתמשים"
 msgid "Type to search..."
 msgstr "הקלד לחיפוש..."
 
-#: ../../../lib/web/src/lib/api-client.ts:280
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:267
 msgid "Unable to connect to remote server"
 msgstr "לא ניתן להתחבר לשרת המרוחק"
 
@@ -1411,31 +1419,31 @@ msgstr "ארצות הברית"
 msgid "Unverified"
 msgstr "לא מאומת"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Update Tracks"
 msgstr "עדכן ערוצים"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Upload a .zip build file for your application."
 msgstr "העלה קובץ build בפורמט .zip עבור היישום שלך."
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:198
 msgid "Upload new version"
 msgstr "העלה גרסה חדשה"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload New Version"
 msgstr "העלה גרסה חדשה"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Upload version"
 msgstr "העלה גרסה"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:275
 msgid "Upload your first build to get started"
 msgstr "העלה את ה-build הראשון שלך כדי להתחיל"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Uploading..."
 msgstr "מעלה..."
 
@@ -1447,7 +1455,7 @@ msgstr "השתמש במפתח הגישה שלך"
 msgid "User"
 msgstr "משתמש"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:253
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "משתמשים יכולים להתקין את האפליקציה הזו על ידי הדבקת הקישור הזה בעמוד האפליקציות שלהם."
 
@@ -1474,15 +1482,15 @@ msgid "Verify email address"
 msgstr "אמת כתובת אימייל"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:661
+#: src/routes/_authenticated/app/$appId.tsx:663
 msgid "Version {0} has been created."
 msgstr "גרסה {0} נוצרה."
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "Version History"
 msgstr "היסטוריית גרסאות"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:662
 msgid "Version uploaded"
 msgstr "הגרסה הועלתה"
 
@@ -1516,11 +1524,11 @@ msgid "Wednesday"
 msgstr "יום רביעי"
 
 #: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "Yes"
 msgstr "כן"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Yes, force"
 msgstr "כן, אכוף"
 

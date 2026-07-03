@@ -53,7 +53,7 @@ msgstr "Тип акаунт"
 msgid "Account verified"
 msgstr "Акаунтът е потвърден"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:503
 msgid "Active version"
 msgstr "Активна версия"
 
@@ -82,7 +82,7 @@ msgstr "Добавете акаунт, за да получавате извес
 msgid "Add new account"
 msgstr "Добави нов акаунт"
 
-#: ../../../lib/web/src/components/post-tags.tsx:129
+#: ../../../lib/web/src/components/post-tags.tsx:133
 msgid "Add tag..."
 msgstr "Добави етикет..."
 
@@ -111,20 +111,20 @@ msgstr "AI"
 msgid "All"
 msgstr "Всички"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "All uploaded build files for this application"
 msgstr "Всички качени Build файлове за това приложение"
 
-#: ../../../lib/web/src/lib/api-client.ts:192
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "Възникна грешка"
 
-#: ../../../lib/web/src/lib/api-client.ts:255
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:241
 msgid "An unexpected error occurred"
 msgstr "Възникна неочаквана грешка"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:101
+#: src/routes/_authenticated/app/$appId.tsx:135
 msgid "App"
 msgstr "Приложение"
 
@@ -132,14 +132,14 @@ msgstr "Приложение"
 msgid "App created"
 msgstr "Приложението е създадено"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "App not found"
 msgstr "Приложението не е намерено"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Application ID"
 msgstr "ID на приложението"
 
@@ -159,7 +159,7 @@ msgstr "Възходящ"
 msgid "Authenticator code"
 msgstr "Код от authenticator"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Available Versions"
 msgstr "Налични версии"
 
@@ -167,12 +167,12 @@ msgstr "Налични версии"
 msgid "Back"
 msgstr "Назад"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:175
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Back to apps"
 msgstr "Обратно към приложенията"
 
@@ -182,12 +182,12 @@ msgstr "Обратно към приложенията"
 msgid "Back to home"
 msgstr "Назад към началото"
 
-#: ../../../lib/web/src/components/post-tags.tsx:172
-#: ../../../lib/web/src/components/post-tags.tsx:184
+#: ../../../lib/web/src/components/post-tags.tsx:176
+#: ../../../lib/web/src/components/post-tags.tsx:188
 msgid "Boost interest"
 msgstr "Усили интереса"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Build File (.zip)"
 msgstr "Build файл (.zip)"
 
@@ -201,8 +201,8 @@ msgstr "Build файл (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
 #: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/routes/_authenticated/app/$appId.tsx:604
+#: src/routes/_authenticated/app/$appId.tsx:746
 msgid "Cancel"
 msgstr "Отказ"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "Изчисти избраното (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "Затвори"
@@ -285,8 +285,8 @@ msgstr "Затвори търсенето"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "Свиване"
 
@@ -332,11 +332,11 @@ msgstr "Продължи с {label}"
 msgid "Copy"
 msgstr "Копирай"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:344
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Копирайте тази връзка и я поставете на страницата Приложения на вашия Mochi сървър, за да я инсталирате."
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Core identification for this application"
 msgstr "Основна идентификация за това приложение"
 
@@ -356,7 +356,7 @@ msgstr "Повторното удостоверяване не можа да з�
 msgid "Couldn't verify with that account. Please try again."
 msgstr "Потвърждаването с този акаунт не бе успешно. Моля, опитайте отново."
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Създайте нова среда (напр. Beta, Staging), за да внедрявате Builds."
 
@@ -373,8 +373,8 @@ msgstr "Създай приложение"
 msgid "Create new app"
 msgstr "Създай ново приложение"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Create track"
 msgstr "Създай track"
 
@@ -382,12 +382,12 @@ msgstr "Създай track"
 msgid "Create your first app to get started"
 msgstr "Създайте първото си приложение, за да започнете"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Create your first release track to manage deployments"
 msgstr "Създайте първия си Release track за управление на внедряванията"
 
 #: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Creating..."
 msgstr "Създаване..."
 
@@ -416,11 +416,11 @@ msgstr "По подразбиране"
 msgid "Default AI account"
 msgstr "AI акаунт по подразбиране"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Default track set to \"{track}\""
 msgstr "Track по подразбиране е зададен на \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:546
 msgid "Delete track"
 msgstr "Изтрий track"
 
@@ -436,7 +436,7 @@ msgstr "Низх."
 msgid "Descending"
 msgstr "Низходящ"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Details"
 msgstr "Детайли"
 
@@ -468,24 +468,28 @@ msgstr "Отхвърли"
 msgid "Displays the mobile sidebar."
 msgstr "Показва мобилната странична лента."
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:229
 msgid "Distribution"
 msgstr "Разпределение"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:84
 msgid "Distribution set to {distribution}"
 msgstr "Разпределението е зададено на {distribution}"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "Изтегляне"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr "Изтеглянето е неуспешно"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "Подходящ за дислексия"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "e.g. Staging"
 msgstr "напр. Staging"
 
@@ -507,8 +511,8 @@ msgstr "Въведете кода от приложението за удост�
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "Разгъване"
 
@@ -528,11 +532,11 @@ msgstr "Неуспешно добавяне на акаунт"
 msgid "Failed to create app"
 msgstr "Неуспешно създаване на приложение"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Failed to create track"
 msgstr "Неуспешно създаване на песен"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:456
 msgid "Failed to delete track"
 msgstr "Неуспешно изтриване на песен"
 
@@ -544,7 +548,7 @@ msgstr "Неуспешно премахване на акаунт"
 msgid "Failed to send verification code"
 msgstr "Неуспешно изпращане на код за потвърждение"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "Failed to set default track"
 msgstr "Неуспешно задаване на песен по подразбиране"
 
@@ -552,20 +556,20 @@ msgstr "Неуспешно задаване на песен по подразб�
 msgid "Failed to update category"
 msgstr "Неуспешна актуализация на категория"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "Неуспешна актуализация на разпространение"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:442
 msgid "Failed to update track"
 msgstr "Неуспешна актуализация на песен"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:675
 msgid "Failed to upload version"
 msgstr "Неуспешно качване на версия"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Fingerprint"
 msgstr "Отпечатък"
 
@@ -651,7 +655,7 @@ msgstr "Начало"
 msgid "Hot"
 msgstr "Горещо"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Identity"
 msgstr "Самоличност"
 
@@ -659,7 +663,7 @@ msgstr "Самоличност"
 msgid "Imperial"
 msgstr "Имперски"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Initial Version"
 msgstr "Първоначална версия"
 
@@ -667,20 +671,20 @@ msgstr "Първоначална версия"
 msgid "Inset"
 msgstr "Вмъкнато"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install App"
 msgstr "Инсталиране на приложение"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Install link:"
 msgstr "Връзка за инсталиране:"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Install Locally"
 msgstr "Инсталирайте локално"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install this application to your server"
 msgstr "Инсталирайте това приложение на вашия сървър"
 
@@ -706,7 +710,7 @@ msgstr "Оформление"
 msgid "Learn more"
 msgstr "Научи повече"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:589
 msgid "Leave empty"
 msgstr "Оставете празно"
 
@@ -723,9 +727,13 @@ msgstr "Светъл"
 msgid "Load more"
 msgstr "Зареди още"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:107
 msgid "Loading app..."
 msgstr "Зареждане на приложението..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr "Зареждане на съдържанието…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -758,7 +766,7 @@ msgstr "Излизане…"
 msgid "Make app publicly available"
 msgstr "Направи приложението публично достъпно"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Manage deployment environments and their versions"
 msgstr "Управление на средите за разгръщане и техните версии"
 
@@ -776,7 +784,7 @@ msgstr "Среден"
 msgid "Menu"
 msgstr "Меню"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Metadata and configuration"
 msgstr "Метаданни и конфигурация"
 
@@ -792,7 +800,7 @@ msgstr "Понеделник"
 msgid "My App"
 msgstr "Моето приложение"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:360
 msgid "N/A"
 msgstr "Няма"
 
@@ -800,7 +808,7 @@ msgstr "Няма"
 msgid "Name"
 msgstr "Име"
 
-#: ../../../lib/web/src/lib/api-client.ts:300
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:288
 msgid "Network error"
 msgstr "Мрежова грешка"
 
@@ -808,17 +816,17 @@ msgstr "Мрежова грешка"
 msgid "New"
 msgstr "Ново"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "New Release Track"
 msgstr "Нов Release Track"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "Следващо изображение"
 
 #: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/routes/_authenticated/app/$appId.tsx:717
 msgid "No"
 msgstr "Не"
 
@@ -859,7 +867,7 @@ msgstr "Не е намерена часова зона."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Все още няма запис за темата — опитайте отново след следващото известие."
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:485
 msgid "No tracks"
 msgstr "Няма tracks"
 
@@ -867,11 +875,11 @@ msgstr "Няма tracks"
 msgid "No users found"
 msgstr "Не са намерени потребители"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:586
 msgid "No version"
 msgstr "Без версия"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "No versions"
 msgstr "Няма версии"
 
@@ -906,8 +914,8 @@ msgstr "Опа! Страницата не е намерена!"
 msgid "Open account actions"
 msgstr "Отвори действия за акаунта"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "Отвори действията"
 
@@ -926,8 +934,8 @@ msgstr "Отвори менюто за навигация"
 msgid "Open theme settings"
 msgstr "Отвори настройки на темата"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:526
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Open track actions"
 msgstr "Отвори действия за track"
 
@@ -951,7 +959,7 @@ msgstr "Проверката на ключа за достъп беше неус
 msgid "Passkeys"
 msgstr "Ключове за достъп"
 
-#: ../../../lib/web/src/lib/api-client.ts:301
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:289
 msgid "Please check your internet connection and try again."
 msgstr "Проверете интернет връзката си и опитайте отново."
 
@@ -959,27 +967,27 @@ msgstr "Проверете интернет връзката си и опита�
 msgid "Please enter an app name"
 msgstr "Моля, въведете име на приложението"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:651
 msgid "Please select a file"
 msgstr "Моля, изберете файл"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "Предишно изображение"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "Privacy"
 msgstr "Поверителност"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Privacy Policy"
 msgstr "Политика за поверителност"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Private"
 msgstr "Частен"
 
@@ -989,12 +997,12 @@ msgid "Profile"
 msgstr "Профил"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Public"
 msgstr "Публичен"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Published"
 msgstr "Публикуван"
 
@@ -1024,8 +1032,8 @@ msgstr "Препоръчано"
 msgid "Redirecting to login."
 msgstr "Пренасочване към вход."
 
-#: ../../../lib/web/src/components/post-tags.tsx:192
-#: ../../../lib/web/src/components/post-tags.tsx:204
+#: ../../../lib/web/src/components/post-tags.tsx:196
+#: ../../../lib/web/src/components/post-tags.tsx:208
 msgid "Reduce interest"
 msgstr "Намали лихвата"
 
@@ -1037,11 +1045,11 @@ msgstr "Относително (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Относително в рамките на 24 часа, иначе абсолютно"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Release Tracks"
 msgstr "Release Tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Release tracks currently active"
 msgstr "Активни в момента Release tracks"
 
@@ -1059,8 +1067,8 @@ msgstr "Премахни правило за достъп"
 msgid "Remove access?"
 msgstr "Премахни достъпа?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:212
-#: ../../../lib/web/src/components/post-tags.tsx:224
+#: ../../../lib/web/src/components/post-tags.tsx:216
+#: ../../../lib/web/src/components/post-tags.tsx:228
 msgid "Remove interest"
 msgstr "Премахни интерес"
 
@@ -1078,7 +1086,7 @@ msgid "Reset all settings to default values"
 msgstr "Нулирай всички настройки до стойностите по подразбиране"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Restricted"
 msgstr "Ограничен"
 
@@ -1173,8 +1181,8 @@ msgstr "Изпрати имейл"
 msgid "Serif"
 msgstr "Серифен"
 
-#: ../../../lib/web/src/lib/api-client.ts:259
-#: ../../../lib/web/src/lib/api-client.ts:284
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:245
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:271
 msgid "Server error"
 msgstr "Грешка на сървъра"
 
@@ -1183,11 +1191,11 @@ msgstr "Грешка на сървъра"
 msgid "Server rules"
 msgstr "Правила на сървъра"
 
-#: ../../../lib/web/src/lib/api-client.ts:227
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:209
 msgid "Session expired"
 msgstr "Сесията изтече"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:539
 msgid "Set as default"
 msgstr "Задай по подразбиране"
 
@@ -1203,11 +1211,11 @@ msgstr "Задай начало и край"
 msgid "Settings"
 msgstr "Настройки"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Share this link to allow others to install this app"
 msgstr "Споделете тази връзка, за да позволите на други да инсталират това приложение"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Sharing"
 msgstr "Споделяне"
 
@@ -1269,8 +1277,8 @@ msgstr "Система"
 msgid "Tag"
 msgstr "Етикет"
 
-#: ../../../lib/web/src/components/post-tags.tsx:96
-#: ../../../lib/web/src/components/post-tags.tsx:107
+#: ../../../lib/web/src/components/post-tags.tsx:100
+#: ../../../lib/web/src/components/post-tags.tsx:111
 msgid "Tags"
 msgstr "Етикети"
 
@@ -1287,8 +1295,8 @@ msgstr "Общи условия"
 msgid "That code is incorrect or has expired."
 msgstr "Този код е неправилен или е изтекъл."
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:151
 msgid "The requested app could not be found."
 msgstr "Заявеното приложение не може да бъде намерено."
 
@@ -1313,10 +1321,10 @@ msgstr "Превключи колоните"
 msgid "Toggle right panel"
 msgstr "Превключи десния панел"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "Превключване на секцията"
 
@@ -1339,19 +1347,19 @@ msgstr "Превключи темата"
 msgid "Top"
 msgstr "Най-горе"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Track \"{track}\" deleted"
 msgstr "Track „{track}“ е изтрит"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:439
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track „{track}“ е обновен до {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:421
 msgid "Track created"
 msgstr "Track е създаден"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Track Name"
 msgstr "Име на Track"
 
@@ -1386,7 +1394,7 @@ msgstr "Пишете, за да търсите потребители"
 msgid "Type to search..."
 msgstr "Пишете, за да търсите..."
 
-#: ../../../lib/web/src/lib/api-client.ts:280
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:267
 msgid "Unable to connect to remote server"
 msgstr "Неуспешно свързване с отдалечения сървър"
 
@@ -1411,31 +1419,31 @@ msgstr "Съединени щати"
 msgid "Unverified"
 msgstr "Непотвърдено"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Update Tracks"
 msgstr "Обнови Track-овете"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Upload a .zip build file for your application."
 msgstr "Качете .zip Build файл за вашето приложение."
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:198
 msgid "Upload new version"
 msgstr "Качи нова версия"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload New Version"
 msgstr "Качи нова версия"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Upload version"
 msgstr "Качи версия"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:275
 msgid "Upload your first build to get started"
 msgstr "Качете първия си Build, за да започнете"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Uploading..."
 msgstr "Качване..."
 
@@ -1447,7 +1455,7 @@ msgstr "Използвайте своя ключ за достъп"
 msgid "User"
 msgstr "Потребител"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:253
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Потребителите могат да инсталират това приложение, като поставят тази връзка в страницата си Приложения."
 
@@ -1474,15 +1482,15 @@ msgid "Verify email address"
 msgstr "Потвърди имейл адреса"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:661
+#: src/routes/_authenticated/app/$appId.tsx:663
 msgid "Version {0} has been created."
 msgstr "Версия {0} е създадена."
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "Version History"
 msgstr "История на версиите"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:662
 msgid "Version uploaded"
 msgstr "Версията е качена"
 
@@ -1516,11 +1524,11 @@ msgid "Wednesday"
 msgstr "Сряда"
 
 #: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "Yes"
 msgstr "Да"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Yes, force"
 msgstr "Да, принудително"
 

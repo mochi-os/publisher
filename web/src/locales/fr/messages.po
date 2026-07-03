@@ -53,7 +53,7 @@ msgstr "Type de compte"
 msgid "Account verified"
 msgstr "Compte vérifié"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:503
 msgid "Active version"
 msgstr "Version active"
 
@@ -82,7 +82,7 @@ msgstr "Ajoutez un compte pour recevoir des notifications et utiliser les servic
 msgid "Add new account"
 msgstr "Ajouter un nouveau compte"
 
-#: ../../../lib/web/src/components/post-tags.tsx:129
+#: ../../../lib/web/src/components/post-tags.tsx:133
 msgid "Add tag..."
 msgstr "Ajouter un tag…"
 
@@ -111,20 +111,20 @@ msgstr "IA"
 msgid "All"
 msgstr "Tout"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "All uploaded build files for this application"
 msgstr "Tous les fichiers de build téléversés pour cette application"
 
-#: ../../../lib/web/src/lib/api-client.ts:192
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "Une erreur s'est produite"
 
-#: ../../../lib/web/src/lib/api-client.ts:255
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:241
 msgid "An unexpected error occurred"
 msgstr "Une erreur inattendue s'est produite"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:101
+#: src/routes/_authenticated/app/$appId.tsx:135
 msgid "App"
 msgstr "Apparence"
 
@@ -132,14 +132,14 @@ msgstr "Apparence"
 msgid "App created"
 msgstr "Application créée"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "App not found"
 msgstr "Application introuvable"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Application ID"
 msgstr "ID de l'application"
 
@@ -159,7 +159,7 @@ msgstr "Croissant"
 msgid "Authenticator code"
 msgstr "Code d'authentification"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Available Versions"
 msgstr "Versions disponibles"
 
@@ -167,12 +167,12 @@ msgstr "Versions disponibles"
 msgid "Back"
 msgstr "Retour"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:175
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Back to apps"
 msgstr "Retour aux applications"
 
@@ -182,12 +182,12 @@ msgstr "Retour aux applications"
 msgid "Back to home"
 msgstr "Retour à l’accueil"
 
-#: ../../../lib/web/src/components/post-tags.tsx:172
-#: ../../../lib/web/src/components/post-tags.tsx:184
+#: ../../../lib/web/src/components/post-tags.tsx:176
+#: ../../../lib/web/src/components/post-tags.tsx:188
 msgid "Boost interest"
 msgstr "Augmenter l'intérêt"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Build File (.zip)"
 msgstr "Fichier de build (.zip)"
 
@@ -201,8 +201,8 @@ msgstr "Fichier de build (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
 #: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/routes/_authenticated/app/$appId.tsx:604
+#: src/routes/_authenticated/app/$appId.tsx:746
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "Effacer la sélection (Échap)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "Fermer"
@@ -285,8 +285,8 @@ msgstr "Fermer la recherche"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "Réduire"
 
@@ -332,11 +332,11 @@ msgstr "Continuer avec {label}"
 msgid "Copy"
 msgstr "Copier"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:344
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Copiez ce lien et collez-le dans la page Applications de votre serveur Mochi pour l'installer."
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Core identification for this application"
 msgstr "Identification principale de cette application"
 
@@ -356,7 +356,7 @@ msgstr "Impossible de démarrer la réauthentification. Veuillez réessayer."
 msgid "Couldn't verify with that account. Please try again."
 msgstr "Impossible de vérifier avec ce compte. Veuillez réessayer."
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Créez un nouvel environnement (par exemple Bêta, Préproduction) pour déployer des builds."
 
@@ -373,8 +373,8 @@ msgstr "Créer l'application"
 msgid "Create new app"
 msgstr "Créer une nouvelle application"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Create track"
 msgstr "Créer une piste"
 
@@ -382,12 +382,12 @@ msgstr "Créer une piste"
 msgid "Create your first app to get started"
 msgstr "Créez votre première application pour commencer"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Create your first release track to manage deployments"
 msgstr "Créez votre première release track pour gérer les déploiements"
 
 #: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Creating..."
 msgstr "Création..."
 
@@ -416,11 +416,11 @@ msgstr "Par défaut"
 msgid "Default AI account"
 msgstr "Compte IA par défaut"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Default track set to \"{track}\""
 msgstr "Track par défaut défini sur « {track} »"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:546
 msgid "Delete track"
 msgstr "Supprimer la piste"
 
@@ -436,7 +436,7 @@ msgstr "Décroissant"
 msgid "Descending"
 msgstr "Décroissant"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Details"
 msgstr "Détails"
 
@@ -468,24 +468,28 @@ msgstr "Ignorer"
 msgid "Displays the mobile sidebar."
 msgstr "Affiche la barre latérale mobile."
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:229
 msgid "Distribution"
 msgstr "Distribution"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:84
 msgid "Distribution set to {distribution}"
 msgstr "Distribution définie sur {distribution}"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "Télécharger"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr "Échec du téléchargement"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "Adapté à la dyslexie"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "e.g. Staging"
 msgstr "p. ex. Staging"
 
@@ -507,8 +511,8 @@ msgstr "Saisissez le code de votre application d'authentification"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "Développer"
 
@@ -528,11 +532,11 @@ msgstr "Échec de l'ajout du compte"
 msgid "Failed to create app"
 msgstr "Échec de la création de l'application"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Failed to create track"
 msgstr "Échec de la création de la piste"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:456
 msgid "Failed to delete track"
 msgstr "Échec de la suppression de la piste"
 
@@ -544,7 +548,7 @@ msgstr "Échec de la suppression du compte"
 msgid "Failed to send verification code"
 msgstr "Échec de l'envoi du code de vérification"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "Failed to set default track"
 msgstr "Échec de la définition de la piste par défaut"
 
@@ -552,20 +556,20 @@ msgstr "Échec de la définition de la piste par défaut"
 msgid "Failed to update category"
 msgstr "Échec de la mise à jour de la catégorie"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "Échec de la mise à jour de la distribution"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:442
 msgid "Failed to update track"
 msgstr "Échec de la mise à jour de la piste"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:675
 msgid "Failed to upload version"
 msgstr "Échec du téléversement de la version"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Fingerprint"
 msgstr "Empreinte"
 
@@ -651,7 +655,7 @@ msgstr "Accueil"
 msgid "Hot"
 msgstr "Populaire"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Identity"
 msgstr "Identité"
 
@@ -659,7 +663,7 @@ msgstr "Identité"
 msgid "Imperial"
 msgstr "Impérial"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Initial Version"
 msgstr "Version initiale"
 
@@ -667,20 +671,20 @@ msgstr "Version initiale"
 msgid "Inset"
 msgstr "Encastré"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install App"
 msgstr "Installer l'application"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Install link:"
 msgstr "Lien d'installation :"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Install Locally"
 msgstr "Installer localement"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install this application to your server"
 msgstr "Installer cette application sur votre serveur"
 
@@ -706,7 +710,7 @@ msgstr "Disposition"
 msgid "Learn more"
 msgstr "En savoir plus"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:589
 msgid "Leave empty"
 msgstr "Laisser vide"
 
@@ -723,9 +727,13 @@ msgstr "Clair"
 msgid "Load more"
 msgstr "Charger plus"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:107
 msgid "Loading app..."
 msgstr "Chargement de l'application..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr "Chargement du contenu…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -758,7 +766,7 @@ msgstr "Déconnexion en cours…"
 msgid "Make app publicly available"
 msgstr "Rendre l'application publique"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Manage deployment environments and their versions"
 msgstr "Gérer les environnements de déploiement et leurs versions"
 
@@ -776,7 +784,7 @@ msgstr "Moyen"
 msgid "Menu"
 msgstr "Menu"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Metadata and configuration"
 msgstr "Métadonnées et configuration"
 
@@ -792,7 +800,7 @@ msgstr "Lundi"
 msgid "My App"
 msgstr "Mon application"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:360
 msgid "N/A"
 msgstr "S.O."
 
@@ -800,7 +808,7 @@ msgstr "S.O."
 msgid "Name"
 msgstr "Nom"
 
-#: ../../../lib/web/src/lib/api-client.ts:300
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:288
 msgid "Network error"
 msgstr "Erreur réseau"
 
@@ -808,17 +816,17 @@ msgstr "Erreur réseau"
 msgid "New"
 msgstr "Nouveau"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "New Release Track"
 msgstr "Nouvelle piste de publication"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "Image suivante"
 
 #: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/routes/_authenticated/app/$appId.tsx:717
 msgid "No"
 msgstr "Non"
 
@@ -859,7 +867,7 @@ msgstr "Aucun fuseau horaire trouvé."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Aucun enregistrement de sujet pour le moment — réessayez après la prochaine notification."
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:485
 msgid "No tracks"
 msgstr "Aucune piste"
 
@@ -867,11 +875,11 @@ msgstr "Aucune piste"
 msgid "No users found"
 msgstr "Aucun utilisateur trouvé"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:586
 msgid "No version"
 msgstr "Aucune version"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "No versions"
 msgstr "Aucune version"
 
@@ -906,8 +914,8 @@ msgstr "Oups ! Page introuvable !"
 msgid "Open account actions"
 msgstr "Ouvrir les actions du compte"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "Ouvrir les actions"
 
@@ -926,8 +934,8 @@ msgstr "Ouvrir le menu de navigation"
 msgid "Open theme settings"
 msgstr "Ouvrir les paramètres du thème"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:526
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Open track actions"
 msgstr "Ouvrir les actions de piste"
 
@@ -951,7 +959,7 @@ msgstr "La vérification par clé d'accès a échoué. Veuillez réessayer."
 msgid "Passkeys"
 msgstr "Clés d'accès"
 
-#: ../../../lib/web/src/lib/api-client.ts:301
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:289
 msgid "Please check your internet connection and try again."
 msgstr "Veuillez vérifier votre connexion Internet et réessayer."
 
@@ -959,27 +967,27 @@ msgstr "Veuillez vérifier votre connexion Internet et réessayer."
 msgid "Please enter an app name"
 msgstr "Veuillez saisir un nom d'application"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:651
 msgid "Please select a file"
 msgstr "Veuillez sélectionner un fichier"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "Image précédente"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "Privacy"
 msgstr "Confidentialité"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Privacy Policy"
 msgstr "Politique de confidentialité"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Private"
 msgstr "Privé"
 
@@ -989,12 +997,12 @@ msgid "Profile"
 msgstr "Profil"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Public"
 msgstr "Public"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Published"
 msgstr "Publié"
 
@@ -1024,8 +1032,8 @@ msgstr "Recommandé"
 msgid "Redirecting to login."
 msgstr "Redirection vers la connexion."
 
-#: ../../../lib/web/src/components/post-tags.tsx:192
-#: ../../../lib/web/src/components/post-tags.tsx:204
+#: ../../../lib/web/src/components/post-tags.tsx:196
+#: ../../../lib/web/src/components/post-tags.tsx:208
 msgid "Reduce interest"
 msgstr "Réduire l'intérêt"
 
@@ -1037,11 +1045,11 @@ msgstr "Relatif (5min, 3h, 2j)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relatif dans les 24 heures, sinon absolu"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Release Tracks"
 msgstr "Pistes de publication"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Release tracks currently active"
 msgstr "Release tracks actives actuellement"
 
@@ -1059,8 +1067,8 @@ msgstr "Supprimer la règle d'accès"
 msgid "Remove access?"
 msgstr "Supprimer l'accès ?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:212
-#: ../../../lib/web/src/components/post-tags.tsx:224
+#: ../../../lib/web/src/components/post-tags.tsx:216
+#: ../../../lib/web/src/components/post-tags.tsx:228
 msgid "Remove interest"
 msgstr "Supprimer l'intérêt"
 
@@ -1078,7 +1086,7 @@ msgid "Reset all settings to default values"
 msgstr "Réinitialiser tous les paramètres aux valeurs par défaut"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Restricted"
 msgstr "Restreint"
 
@@ -1173,8 +1181,8 @@ msgstr "Envoyer l'e-mail"
 msgid "Serif"
 msgstr "Serif"
 
-#: ../../../lib/web/src/lib/api-client.ts:259
-#: ../../../lib/web/src/lib/api-client.ts:284
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:245
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:271
 msgid "Server error"
 msgstr "Erreur du serveur"
 
@@ -1183,11 +1191,11 @@ msgstr "Erreur du serveur"
 msgid "Server rules"
 msgstr "Règles du serveur"
 
-#: ../../../lib/web/src/lib/api-client.ts:227
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:209
 msgid "Session expired"
 msgstr "Session expirée"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:539
 msgid "Set as default"
 msgstr "Définir par défaut"
 
@@ -1203,11 +1211,11 @@ msgstr "Définir l'origine et la destination"
 msgid "Settings"
 msgstr "Paramètres"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Share this link to allow others to install this app"
 msgstr "Partagez ce lien pour permettre à d'autres d'installer cette application"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Sharing"
 msgstr "Partage"
 
@@ -1269,8 +1277,8 @@ msgstr "Système"
 msgid "Tag"
 msgstr "Étiquette"
 
-#: ../../../lib/web/src/components/post-tags.tsx:96
-#: ../../../lib/web/src/components/post-tags.tsx:107
+#: ../../../lib/web/src/components/post-tags.tsx:100
+#: ../../../lib/web/src/components/post-tags.tsx:111
 msgid "Tags"
 msgstr "Étiquettes"
 
@@ -1287,8 +1295,8 @@ msgstr "Conditions générales"
 msgid "That code is incorrect or has expired."
 msgstr "Ce code est incorrect ou a expiré."
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:151
 msgid "The requested app could not be found."
 msgstr "L'application demandée est introuvable."
 
@@ -1313,10 +1321,10 @@ msgstr "Basculer les colonnes"
 msgid "Toggle right panel"
 msgstr "Basculer le panneau droit"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "Afficher ou masquer la section"
 
@@ -1339,19 +1347,19 @@ msgstr "Basculer le thème"
 msgid "Top"
 msgstr "Meilleur"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Track \"{track}\" deleted"
 msgstr "Track « {track} » supprimée"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:439
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track « {track} » mise à jour vers {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:421
 msgid "Track created"
 msgstr "Piste créée"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Track Name"
 msgstr "Nom de la piste"
 
@@ -1386,7 +1394,7 @@ msgstr "Tapez pour rechercher des utilisateurs"
 msgid "Type to search..."
 msgstr "Tapez pour rechercher…"
 
-#: ../../../lib/web/src/lib/api-client.ts:280
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:267
 msgid "Unable to connect to remote server"
 msgstr "Impossible de se connecter au serveur distant"
 
@@ -1411,31 +1419,31 @@ msgstr "États-Unis"
 msgid "Unverified"
 msgstr "Non vérifié"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Update Tracks"
 msgstr "Mettre à jour les pistes"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Upload a .zip build file for your application."
 msgstr "Téléversez un fichier de build .zip pour votre application."
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:198
 msgid "Upload new version"
 msgstr "Téléverser une nouvelle version"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload New Version"
 msgstr "Téléverser une nouvelle version"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Upload version"
 msgstr "Envoyer la version"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:275
 msgid "Upload your first build to get started"
 msgstr "Téléversez votre premier build pour commencer"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Uploading..."
 msgstr "Téléversement..."
 
@@ -1447,7 +1455,7 @@ msgstr "Utiliser votre clé d'accès"
 msgid "User"
 msgstr "Utilisateur"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:253
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Les utilisateurs peuvent installer cette application en collant ce lien dans leur page Applications."
 
@@ -1474,15 +1482,15 @@ msgid "Verify email address"
 msgstr "Vérifier l'adresse e-mail"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:661
+#: src/routes/_authenticated/app/$appId.tsx:663
 msgid "Version {0} has been created."
 msgstr "La version {0} a été créée."
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "Version History"
 msgstr "Historique des versions"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:662
 msgid "Version uploaded"
 msgstr "Version téléversée"
 
@@ -1516,11 +1524,11 @@ msgid "Wednesday"
 msgstr "Mercredi"
 
 #: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "Yes"
 msgstr "Oui"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Yes, force"
 msgstr "Oui, forcer"
 

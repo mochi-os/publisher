@@ -53,7 +53,7 @@ msgstr "የመለያ ዓይነት"
 msgid "Account verified"
 msgstr "መለያ ተረጋግጧል"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:503
 msgid "Active version"
 msgstr "ንቁ ስሪት"
 
@@ -82,7 +82,7 @@ msgstr "ማሳወቂያዎችን ለመቀበልና አገልግሎቶችን ለ
 msgid "Add new account"
 msgstr "አዲስ መለያ ጨምር"
 
-#: ../../../lib/web/src/components/post-tags.tsx:129
+#: ../../../lib/web/src/components/post-tags.tsx:133
 msgid "Add tag..."
 msgstr "መለያ ጨምር..."
 
@@ -111,20 +111,20 @@ msgstr "AI"
 msgid "All"
 msgstr "ሁሉም"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "All uploaded build files for this application"
 msgstr "ለዚህ መተግበሪያ የተጫኑ ሁሉም የግንባታ ፋይሎች"
 
-#: ../../../lib/web/src/lib/api-client.ts:192
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "ስህተት ተከስቷል"
 
-#: ../../../lib/web/src/lib/api-client.ts:255
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:241
 msgid "An unexpected error occurred"
 msgstr "ያልተጠበቀ ስህተት ተከስቷል"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:101
+#: src/routes/_authenticated/app/$appId.tsx:135
 msgid "App"
 msgstr "መተግበሪያ"
 
@@ -132,14 +132,14 @@ msgstr "መተግበሪያ"
 msgid "App created"
 msgstr "መተግበሪያ ተፈጥሯል"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "App not found"
 msgstr "መተግበሪያ አልተገኘም"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Application ID"
 msgstr "የመተግበሪያ መለያ"
 
@@ -159,7 +159,7 @@ msgstr "ከታች ወደ ላይ"
 msgid "Authenticator code"
 msgstr "የማረጋገጫ ኮድ"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Available Versions"
 msgstr "ያሉ ስሪቶች"
 
@@ -167,12 +167,12 @@ msgstr "ያሉ ስሪቶች"
 msgid "Back"
 msgstr "ተመለስ"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:175
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Back to apps"
 msgstr "ወደ መተግበሪያዎች ተመለስ"
 
@@ -182,12 +182,12 @@ msgstr "ወደ መተግበሪያዎች ተመለስ"
 msgid "Back to home"
 msgstr "ወደ መነሻ ተመለስ"
 
-#: ../../../lib/web/src/components/post-tags.tsx:172
-#: ../../../lib/web/src/components/post-tags.tsx:184
+#: ../../../lib/web/src/components/post-tags.tsx:176
+#: ../../../lib/web/src/components/post-tags.tsx:188
 msgid "Boost interest"
 msgstr "ፍላጎትን አሳድግ"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Build File (.zip)"
 msgstr "የግንባታ ፋይል (.zip)"
 
@@ -201,8 +201,8 @@ msgstr "የግንባታ ፋይል (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
 #: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/routes/_authenticated/app/$appId.tsx:604
+#: src/routes/_authenticated/app/$appId.tsx:746
 msgid "Cancel"
 msgstr "ይቅር"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "ምርጫ አጽዳ (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "ዝጋ"
@@ -285,8 +285,8 @@ msgstr "ፍለጋን ዝጋ"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "ሰብስብ"
 
@@ -332,11 +332,11 @@ msgstr "በ{label} ይቀጥሉ"
 msgid "Copy"
 msgstr "ቅዳ"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:344
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "ይህን አገናኝ ይቅዱ እና ለመጫን ወደ Mochi አገልጋይዎ መተግበሪያዎች ገጽ ይለጥፉ።"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Core identification for this application"
 msgstr "ለዚህ መተግበሪያ ዋና መለያ"
 
@@ -356,7 +356,7 @@ msgstr "እንደገና ማረጋገጥን መጀመር አልተቻለም። �
 msgid "Couldn't verify with that account. Please try again."
 msgstr "በዚያ መለያ ማረጋገጥ አልተቻለም። እባክዎ እንደገና ይሞክሩ።"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "ግንባታዎችን ለማሰማራት አዲስ አካባቢ (ለምሳሌ ቤታ፣ ስቴጂንግ) ፍጠር።"
 
@@ -373,8 +373,8 @@ msgstr "መተግበሪያ ፍጠር"
 msgid "Create new app"
 msgstr "አዲስ መተግበሪያ ፍጠር"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Create track"
 msgstr "ትራክ ፍጠር"
 
@@ -382,12 +382,12 @@ msgstr "ትራክ ፍጠር"
 msgid "Create your first app to get started"
 msgstr "ለመጀመር የመጀመሪያ መተግበሪያህን ፍጠር"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Create your first release track to manage deployments"
 msgstr "ማሰማራቶችን ለማስተዳደር የመጀመሪያ የመለቀቂያ ትራክህን ፍጠር"
 
 #: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Creating..."
 msgstr "በመፍጠር ላይ..."
 
@@ -416,11 +416,11 @@ msgstr "ነባሪ"
 msgid "Default AI account"
 msgstr "ነባሪ የAI መለያ"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Default track set to \"{track}\""
 msgstr "ነባሪ ትራክ ወደ \"{track}\" ተቀናብሯል"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:546
 msgid "Delete track"
 msgstr "ትራክ ሰርዝ"
 
@@ -436,7 +436,7 @@ msgstr "ቁልቁለት"
 msgid "Descending"
 msgstr "ከላይ ወደ ታች"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Details"
 msgstr "ዝርዝሮች"
 
@@ -468,24 +468,28 @@ msgstr "አጥፋ"
 msgid "Displays the mobile sidebar."
 msgstr "የሞባይል ጎንደርን ያሳያል።"
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:229
 msgid "Distribution"
 msgstr "ስርጭት"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:84
 msgid "Distribution set to {distribution}"
 msgstr "ስርጭት ወደ {distribution} ተቀናብሯል"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "አውርድ"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr "ማውረድ አልተሳካም"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "ለዲስሌክሲያ ምቹ"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "e.g. Staging"
 msgstr "ለምሳሌ Staging"
 
@@ -507,8 +511,8 @@ msgstr "የአረጋጋጭዎን ኮድ ያስገቡ"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "ዘርጋ"
 
@@ -528,11 +532,11 @@ msgstr "መለያ መጨመር አልተሳካም"
 msgid "Failed to create app"
 msgstr "መተግበሪያ መፍጠር አልተሳካም"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Failed to create track"
 msgstr "ትራክ መፍጠር አልተሳካም"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:456
 msgid "Failed to delete track"
 msgstr "ትራክ መሰረዝ አልተሳካም"
 
@@ -544,7 +548,7 @@ msgstr "መለያን ማስወገድ አልተሳካም"
 msgid "Failed to send verification code"
 msgstr "የማረጋገጫ ኮድ መላክ አልተሳካም"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "Failed to set default track"
 msgstr "ነባሪ ትራክ ማቀናበር አልተሳካም"
 
@@ -552,20 +556,20 @@ msgstr "ነባሪ ትራክ ማቀናበር አልተሳካም"
 msgid "Failed to update category"
 msgstr "ምድብን ማዘመን አልተሳካም"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "ስርጭትን ማዘመን አልተሳካም"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:442
 msgid "Failed to update track"
 msgstr "ትራክን ማዘመን አልተሳካም"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:675
 msgid "Failed to upload version"
 msgstr "ስሪት መስቀል አልተሳካም"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Fingerprint"
 msgstr "ጣት አሻራ"
 
@@ -651,7 +655,7 @@ msgstr "መነሻ"
 msgid "Hot"
 msgstr "ሞቅ ያለ"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Identity"
 msgstr "ማንነት"
 
@@ -659,7 +663,7 @@ msgstr "ማንነት"
 msgid "Imperial"
 msgstr "ኢምፔሪያል"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Initial Version"
 msgstr "የመጀመሪያ ስሪት"
 
@@ -667,20 +671,20 @@ msgstr "የመጀመሪያ ስሪት"
 msgid "Inset"
 msgstr "ውስጠኛ"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install App"
 msgstr "መተግበሪያ ጫን"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Install link:"
 msgstr "የመጫን አገናኝ:"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Install Locally"
 msgstr "በአካባቢው ጫን"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install this application to your server"
 msgstr "ይህንን መተግበሪያ ወደ አገልጋይዎ ይጫኑ"
 
@@ -706,7 +710,7 @@ msgstr "አቀማመጥ"
 msgid "Learn more"
 msgstr "ተጨማሪ ይወቁ"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:589
 msgid "Leave empty"
 msgstr "ባዶ ይተዉት"
 
@@ -723,9 +727,13 @@ msgstr "ብርሃን"
 msgid "Load more"
 msgstr "ተጨማሪ ጫን"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:107
 msgid "Loading app..."
 msgstr "መተግበሪያ በመጫን ላይ..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr "ይዘት በመጫን ላይ…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -758,7 +766,7 @@ msgstr "በመውጣት ላይ…"
 msgid "Make app publicly available"
 msgstr "መተግበሪያውን ለሕዝብ ይፋ አድርግ"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Manage deployment environments and their versions"
 msgstr "የማሰማራት አካባቢዎችን እና ስሪቶቻቸውን አስተዳድር"
 
@@ -776,7 +784,7 @@ msgstr "መካከለኛ"
 msgid "Menu"
 msgstr "ምናሌ"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Metadata and configuration"
 msgstr "ሜታዳታ እና ውቅረት"
 
@@ -792,7 +800,7 @@ msgstr "ሰኞ"
 msgid "My App"
 msgstr "የእኔ መተግበሪያ"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:360
 msgid "N/A"
 msgstr "አይመለከትም"
 
@@ -800,7 +808,7 @@ msgstr "አይመለከትም"
 msgid "Name"
 msgstr "ስም"
 
-#: ../../../lib/web/src/lib/api-client.ts:300
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:288
 msgid "Network error"
 msgstr "የአውታረ መረብ ስህተት"
 
@@ -808,17 +816,17 @@ msgstr "የአውታረ መረብ ስህተት"
 msgid "New"
 msgstr "አዲስ"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "New Release Track"
 msgstr "አዲስ የመልቀቂያ ትራክ"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "ቀጣይ ምስል"
 
 #: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/routes/_authenticated/app/$appId.tsx:717
 msgid "No"
 msgstr "አይ"
 
@@ -859,7 +867,7 @@ msgstr "ምንም የሰዓት ሰቅ አልተገኘም።"
 msgid "No topic record yet — try again after the next notification."
 msgstr "እስካሁን የርዕስ መዝገብ የለም — ከቀጣዩ ማሳወቂያ በኋላ እንደገና ይሞክሩ።"
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:485
 msgid "No tracks"
 msgstr "ምንም ትራኮች የሉም"
 
@@ -867,11 +875,11 @@ msgstr "ምንም ትራኮች የሉም"
 msgid "No users found"
 msgstr "ምንም ተጠቃሚዎች አልተገኙም"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:586
 msgid "No version"
 msgstr "ምንም ስሪት የለም"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "No versions"
 msgstr "ምንም ስሪቶች የሉም"
 
@@ -906,8 +914,8 @@ msgstr "ኦህ! ገጽ አልተገኘም!"
 msgid "Open account actions"
 msgstr "የመለያ ድርጊቶችን ክፈት"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "እርምጃዎችን ክፈት"
 
@@ -926,8 +934,8 @@ msgstr "የዳሰሳ ምናሌን ክፈት"
 msgid "Open theme settings"
 msgstr "የገጽታ ቅንብሮችን ክፈት"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:526
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Open track actions"
 msgstr "የትራክ ድርጊቶችን ክፈት"
 
@@ -951,7 +959,7 @@ msgstr "የይለፍ ቁልፍ ማረጋገጫ አልተሳካም። እባክ�
 msgid "Passkeys"
 msgstr "ፓስኪዎች"
 
-#: ../../../lib/web/src/lib/api-client.ts:301
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:289
 msgid "Please check your internet connection and try again."
 msgstr "እባክዎ የበይነመረብ ግንኙነትዎን አረጋግጠው እንደገና ይሞክሩ።"
 
@@ -959,27 +967,27 @@ msgstr "እባክዎ የበይነመረብ ግንኙነትዎን አረጋግጠ
 msgid "Please enter an app name"
 msgstr "እባክዎን የመተግበሪያ ስም ያስገቡ"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:651
 msgid "Please select a file"
 msgstr "እባክዎን ፋይል ይምረጡ"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "ቀዳሚ ምስል"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "Privacy"
 msgstr "ግላዊነት"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Privacy Policy"
 msgstr "የግላዊነት ፖሊሲ"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Private"
 msgstr "የግል"
 
@@ -989,12 +997,12 @@ msgid "Profile"
 msgstr "መገለጫ"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Public"
 msgstr "ሕዝባዊ"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Published"
 msgstr "ታትሟል"
 
@@ -1024,8 +1032,8 @@ msgstr "የተመከረ"
 msgid "Redirecting to login."
 msgstr "ወደ መግቢያ በማዘዋወር ላይ።"
 
-#: ../../../lib/web/src/components/post-tags.tsx:192
-#: ../../../lib/web/src/components/post-tags.tsx:204
+#: ../../../lib/web/src/components/post-tags.tsx:196
+#: ../../../lib/web/src/components/post-tags.tsx:208
 msgid "Reduce interest"
 msgstr "ፍላጎትን ቀንስ"
 
@@ -1037,11 +1045,11 @@ msgstr "አንፃራዊ (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "በ24 ሰዓታት ውስጥ አንፃራዊ፣ ካልሆነ ፍጹም"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Release Tracks"
 msgstr "የመልቀቂያ ትራኮች"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Release tracks currently active"
 msgstr "በአሁኑ ጊዜ ንቁ የመልቀቂያ ትራኮች"
 
@@ -1059,8 +1067,8 @@ msgstr "የድረሳ ህግ አስወግድ"
 msgid "Remove access?"
 msgstr "ድረሳ ይወገድ?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:212
-#: ../../../lib/web/src/components/post-tags.tsx:224
+#: ../../../lib/web/src/components/post-tags.tsx:216
+#: ../../../lib/web/src/components/post-tags.tsx:228
 msgid "Remove interest"
 msgstr "ፍላጎት አስወግድ"
 
@@ -1078,7 +1086,7 @@ msgid "Reset all settings to default values"
 msgstr "ሁሉንም ቅንብሮች ወደ ነባሪ እሴቶች ዳግም አስጀምር"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Restricted"
 msgstr "የተገደበ"
 
@@ -1173,8 +1181,8 @@ msgstr "ኢሜይል ላክ"
 msgid "Serif"
 msgstr "ሰሪፍ"
 
-#: ../../../lib/web/src/lib/api-client.ts:259
-#: ../../../lib/web/src/lib/api-client.ts:284
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:245
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:271
 msgid "Server error"
 msgstr "የአገልጋይ ስህተት"
 
@@ -1183,11 +1191,11 @@ msgstr "የአገልጋይ ስህተት"
 msgid "Server rules"
 msgstr "የሰርቨር ህጎች"
 
-#: ../../../lib/web/src/lib/api-client.ts:227
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:209
 msgid "Session expired"
 msgstr "ክፍለ-ጊዜ አብቅቷል"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:539
 msgid "Set as default"
 msgstr "እንደ ነባሪ ያድርጉ"
 
@@ -1203,11 +1211,11 @@ msgstr "መነሻ እና መድረሻ ያዘጋጁ"
 msgid "Settings"
 msgstr "ቅንብሮች"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Share this link to allow others to install this app"
 msgstr "ሌሎች ይህን መተግበሪያ እንዲጭኑ ለመፍቀድ ይህን አገናኝ ያጋሩ"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Sharing"
 msgstr "ማጋራት"
 
@@ -1269,8 +1277,8 @@ msgstr "ስርዓት"
 msgid "Tag"
 msgstr "መለያ"
 
-#: ../../../lib/web/src/components/post-tags.tsx:96
-#: ../../../lib/web/src/components/post-tags.tsx:107
+#: ../../../lib/web/src/components/post-tags.tsx:100
+#: ../../../lib/web/src/components/post-tags.tsx:111
 msgid "Tags"
 msgstr "መለያዎች"
 
@@ -1287,8 +1295,8 @@ msgstr "ውሎችና መመሪያዎች"
 msgid "That code is incorrect or has expired."
 msgstr "ያ ኮድ የተሳሳተ ነው ወይም ጊዜው አልፎበታል።"
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:151
 msgid "The requested app could not be found."
 msgstr "የተጠየቀው መተግበሪያ ሊገኝ አልቻለም።"
 
@@ -1313,10 +1321,10 @@ msgstr "አምዶችን ቀይር"
 msgid "Toggle right panel"
 msgstr "ቀኝ ፓኔል ቀይር"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "ክፍልን ቀያይር"
 
@@ -1339,19 +1347,19 @@ msgstr "ገጽታ ቀይር"
 msgid "Top"
 msgstr "ላይ"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Track \"{track}\" deleted"
 msgstr "ትራክ \"{track}\" ተሰርዟል"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:439
 msgid "Track \"{track}\" updated to {version}"
 msgstr "ትራክ \"{track}\" ወደ {version} ተዘምኗል"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:421
 msgid "Track created"
 msgstr "ትራክ ተፈጥሯል"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Track Name"
 msgstr "የትራክ ስም"
 
@@ -1386,7 +1394,7 @@ msgstr "ተጠቃሚዎችን ለመፈለግ ይተይቡ"
 msgid "Type to search..."
 msgstr "ለመፈለግ ይተይቡ..."
 
-#: ../../../lib/web/src/lib/api-client.ts:280
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:267
 msgid "Unable to connect to remote server"
 msgstr "ከርቀት አገልጋይ ጋር መገናኘት አልተቻለም"
 
@@ -1411,31 +1419,31 @@ msgstr "ዩናይትድ ስቴትስ"
 msgid "Unverified"
 msgstr "ያልተረጋገጠ"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Update Tracks"
 msgstr "ትራኮችን ይዘምኑ"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Upload a .zip build file for your application."
 msgstr "ለመተግበሪያዎ የ.zip ግንባታ ፋይል ይስቀሉ።"
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:198
 msgid "Upload new version"
 msgstr "አዲስ ስሪት ይስቀሉ"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload New Version"
 msgstr "አዲስ ስሪት ይስቀሉ"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Upload version"
 msgstr "ስሪት ስቀል"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:275
 msgid "Upload your first build to get started"
 msgstr "ለመጀመር የመጀመሪያ ግንባታዎን ይስቀሉ"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Uploading..."
 msgstr "በመስቀል ላይ..."
 
@@ -1447,7 +1455,7 @@ msgstr "የይለፍ ቁልፍዎን ይጠቀሙ"
 msgid "User"
 msgstr "ተጠቃሚ"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:253
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "ተጠቃሚዎች ይህን አገናኝ ወደ መተግበሪያዎች ገጻቸው በመለጠፍ ይህን መተግበሪያ መጫን ይችላሉ።"
 
@@ -1474,15 +1482,15 @@ msgid "Verify email address"
 msgstr "የኢሜይል አድራሻ ያረጋግጡ"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:661
+#: src/routes/_authenticated/app/$appId.tsx:663
 msgid "Version {0} has been created."
 msgstr "ስሪት {0} ተፈጥሯል።"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "Version History"
 msgstr "የስሪት ታሪክ"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:662
 msgid "Version uploaded"
 msgstr "ስሪት ተሰቅሏል"
 
@@ -1516,11 +1524,11 @@ msgid "Wednesday"
 msgstr "ረቡዕ"
 
 #: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "Yes"
 msgstr "አዎ"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Yes, force"
 msgstr "አዎ፣ አስገድድ"
 

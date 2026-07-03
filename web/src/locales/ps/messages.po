@@ -53,7 +53,7 @@ msgstr "د حساب ډول"
 msgid "Account verified"
 msgstr "حساب تایید شو"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:503
 msgid "Active version"
 msgstr "فعاله نسخه"
 
@@ -82,7 +82,7 @@ msgstr "د خبرتیاوو ترلاسه کولو او خدماتو کارولو
 msgid "Add new account"
 msgstr "نوی حساب اضافه کړئ"
 
-#: ../../../lib/web/src/components/post-tags.tsx:129
+#: ../../../lib/web/src/components/post-tags.tsx:133
 msgid "Add tag..."
 msgstr "ټاګ اضافه کړئ..."
 
@@ -111,20 +111,20 @@ msgstr "AI"
 msgid "All"
 msgstr "ټول"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "All uploaded build files for this application"
 msgstr "د دې اپلیکیشن لپاره ټول اپلوډ شوي Build فایلونه"
 
-#: ../../../lib/web/src/lib/api-client.ts:192
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "یوه تېروتنه رامنځته شوه"
 
-#: ../../../lib/web/src/lib/api-client.ts:255
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:241
 msgid "An unexpected error occurred"
 msgstr "یوه ناڅاپي تېروتنه رامنځته شوه"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:101
+#: src/routes/_authenticated/app/$appId.tsx:135
 msgid "App"
 msgstr "اپلیکیشن"
 
@@ -132,14 +132,14 @@ msgstr "اپلیکیشن"
 msgid "App created"
 msgstr "اپلیکیشن جوړ شو"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "App not found"
 msgstr "اپلیکیشن ونه موندل شو"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Application ID"
 msgstr "د غوښتنلیک ID"
 
@@ -159,7 +159,7 @@ msgstr "د کم څخه ډېر"
 msgid "Authenticator code"
 msgstr "د Authenticator کوډ"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Available Versions"
 msgstr "موجودې نسخې"
 
@@ -167,12 +167,12 @@ msgstr "موجودې نسخې"
 msgid "Back"
 msgstr "شاته"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:175
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Back to apps"
 msgstr "بیرته اپلیکیشنونو ته"
 
@@ -182,12 +182,12 @@ msgstr "بیرته اپلیکیشنونو ته"
 msgid "Back to home"
 msgstr "کور ته بېرته"
 
-#: ../../../lib/web/src/components/post-tags.tsx:172
-#: ../../../lib/web/src/components/post-tags.tsx:184
+#: ../../../lib/web/src/components/post-tags.tsx:176
+#: ../../../lib/web/src/components/post-tags.tsx:188
 msgid "Boost interest"
 msgstr "دلچسپي ډیره کړه"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Build File (.zip)"
 msgstr "Build فایل (.zip)"
 
@@ -201,8 +201,8 @@ msgstr "Build فایل (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
 #: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/routes/_authenticated/app/$appId.tsx:604
+#: src/routes/_authenticated/app/$appId.tsx:746
 msgid "Cancel"
 msgstr "لغوه کول"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "ټاکل پاک کړئ (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "وتړئ"
@@ -285,8 +285,8 @@ msgstr "لټون وتړئ"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "راټولول"
 
@@ -332,11 +332,11 @@ msgstr "د {label} سره دوام ورکړئ"
 msgid "Copy"
 msgstr "کاپي کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:344
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "د نصبولو لپاره دا لینک کاپي کړئ او د خپل Mochi سرور د اپلیکیشنونه پاڼې کې یې پیسټ کړئ."
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Core identification for this application"
 msgstr "د دې غوښتنلیک لپاره اصلي پیژندنه"
 
@@ -356,7 +356,7 @@ msgstr "بیا تصدیق پیلیدلی نشو. مهرباني وکړئ بیا 
 msgid "Couldn't verify with that account. Please try again."
 msgstr "د دغه حساب سره تصدیق ونشو. مهرباني وکړئ بیا هڅه وکړئ."
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "د Builds د ځای پر ځای کولو لپاره نوی چاپیریال (د بیلګې په توګه Beta، Staging) جوړ کړئ."
 
@@ -373,8 +373,8 @@ msgstr "اپلیکیشن جوړ کړئ"
 msgid "Create new app"
 msgstr "نوی اپلیکیشن جوړ کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Create track"
 msgstr "Track جوړ کړئ"
 
@@ -382,12 +382,12 @@ msgstr "Track جوړ کړئ"
 msgid "Create your first app to get started"
 msgstr "د پیل کولو لپاره خپل لومړی اپلیکیشن جوړ کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Create your first release track to manage deployments"
 msgstr "د ځای پر ځای کولو اداره کولو لپاره خپل لومړی Release Track جوړ کړئ"
 
 #: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Creating..."
 msgstr "جوړیږي..."
 
@@ -416,11 +416,11 @@ msgstr "ډیفالټ"
 msgid "Default AI account"
 msgstr "د AI ډیفالټ حساب"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Default track set to \"{track}\""
 msgstr "ډیفالټ Track ته \"{track}\" وټاکل شو"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:546
 msgid "Delete track"
 msgstr "Track ړنګ کړئ"
 
@@ -436,7 +436,7 @@ msgstr "نزولي"
 msgid "Descending"
 msgstr "د ډېر څخه کم"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Details"
 msgstr "تفصیلات"
 
@@ -468,24 +468,28 @@ msgstr "وردکړه"
 msgid "Displays the mobile sidebar."
 msgstr "موبایل څنګې پټۍ ښیي."
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:229
 msgid "Distribution"
 msgstr "ویش"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:84
 msgid "Distribution set to {distribution}"
 msgstr "ویش وټاکل شو {distribution}"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "ډاونلوډ"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr "ډاونلوډ ناکام شو"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "د لوستلو ستونزې سره مطابقت لري"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "e.g. Staging"
 msgstr "د بېلګې په توګه Staging"
 
@@ -507,8 +511,8 @@ msgstr "د خپل تصدیق کوونکي کوډ دننه کړئ"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "غځول"
 
@@ -528,11 +532,11 @@ msgstr "د حساب اضافه کولو پاتې راغلل"
 msgid "Failed to create app"
 msgstr "د اپ جوړولو پاتې راغلل"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Failed to create track"
 msgstr "د لارې جوړولو پاتې راغلل"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:456
 msgid "Failed to delete track"
 msgstr "د لارې حذف کولو پاتې راغلل"
 
@@ -544,7 +548,7 @@ msgstr "د حساب لیرې کولو پاتې راغلل"
 msgid "Failed to send verification code"
 msgstr "د تصدیق کوډ لیږلو پاتې راغلل"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "Failed to set default track"
 msgstr "د ډیفالټ لارې ټاکلو پاتې راغلل"
 
@@ -552,20 +556,20 @@ msgstr "د ډیفالټ لارې ټاکلو پاتې راغلل"
 msgid "Failed to update category"
 msgstr "د کټګورۍ تازه کولو پاتې راغلل"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "د توزیع تازه کولو پاتې راغلل"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:442
 msgid "Failed to update track"
 msgstr "د لارې تازه کولو پاتې راغلل"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:675
 msgid "Failed to upload version"
 msgstr "د نسخې اپلوډ پاتې راغلل"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Fingerprint"
 msgstr "Fingerprint"
 
@@ -651,7 +655,7 @@ msgstr "کور"
 msgid "Hot"
 msgstr "ګرم"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Identity"
 msgstr "هویت"
 
@@ -659,7 +663,7 @@ msgstr "هویت"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Initial Version"
 msgstr "ابتدایي نسخه"
 
@@ -667,20 +671,20 @@ msgstr "ابتدایي نسخه"
 msgid "Inset"
 msgstr "Inset"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install App"
 msgstr "اپ نصب کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Install link:"
 msgstr "د نصب لینک:"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Install Locally"
 msgstr "په محلي ډول نصب کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install this application to your server"
 msgstr "دا اپلیکیشن خپل سرور ته نصب کړئ"
 
@@ -706,7 +710,7 @@ msgstr "ترتیب"
 msgid "Learn more"
 msgstr "نور زده کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:589
 msgid "Leave empty"
 msgstr "خالي پریږدئ"
 
@@ -723,9 +727,13 @@ msgstr "روښانه"
 msgid "Load more"
 msgstr "نور بار کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:107
 msgid "Loading app..."
 msgstr "اپ بار کیږي..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr "منځپانګه بارېږي…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -758,7 +766,7 @@ msgstr "لاګ آوټ کیږي…"
 msgid "Make app publicly available"
 msgstr "اپ په عامه ډول شتون ولري"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Manage deployment environments and their versions"
 msgstr "د ګمارلو چاپیریالونه او د هغوی نسخې اداره کړئ"
 
@@ -776,7 +784,7 @@ msgstr "منځنی"
 msgid "Menu"
 msgstr "مینو"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Metadata and configuration"
 msgstr "میټاډاټا او تنظیمات"
 
@@ -792,7 +800,7 @@ msgstr "دوشنبه"
 msgid "My App"
 msgstr "زما اپ"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:360
 msgid "N/A"
 msgstr "نه شته"
 
@@ -800,7 +808,7 @@ msgstr "نه شته"
 msgid "Name"
 msgstr "نوم"
 
-#: ../../../lib/web/src/lib/api-client.ts:300
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:288
 msgid "Network error"
 msgstr "د شبکې تېروتنه"
 
@@ -808,17 +816,17 @@ msgstr "د شبکې تېروتنه"
 msgid "New"
 msgstr "نوی"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "New Release Track"
 msgstr "د نوي Release لاره"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "بله انځور"
 
 #: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/routes/_authenticated/app/$appId.tsx:717
 msgid "No"
 msgstr "نه"
 
@@ -859,7 +867,7 @@ msgstr "هیڅ وخت زون ونه موندل شو."
 msgid "No topic record yet — try again after the next notification."
 msgstr "تر اوسه د موضوع هیڅ ریکارډ نشته — د راتلونکې خبرتیا وروسته بیا هڅه وکړئ."
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:485
 msgid "No tracks"
 msgstr "هیڅ لارې نشته"
 
@@ -867,11 +875,11 @@ msgstr "هیڅ لارې نشته"
 msgid "No users found"
 msgstr "هیڅ کاروونکي ونه موندل شول"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:586
 msgid "No version"
 msgstr "هیڅ نسخه نشته"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "No versions"
 msgstr "هیڅ نسخې نشته"
 
@@ -906,8 +914,8 @@ msgstr "اوه! پاڼه ونه موندل شوه!"
 msgid "Open account actions"
 msgstr "د حساب کړنې خلاصې کړئ"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "کړنې پرانیزئ"
 
@@ -926,8 +934,8 @@ msgstr "د نیویګیشن مینو خلاص کړئ"
 msgid "Open theme settings"
 msgstr "د ت موضوع تنظیمات خلاص کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:526
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Open track actions"
 msgstr "د لارې کړنې خلاصې کړئ"
 
@@ -951,7 +959,7 @@ msgstr "د پاس کیلۍ تایید ناکام شو. مهرباني وکړئ �
 msgid "Passkeys"
 msgstr "د لاسرسي کيلۍ"
 
-#: ../../../lib/web/src/lib/api-client.ts:301
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:289
 msgid "Please check your internet connection and try again."
 msgstr "مهرباني وکړئ خپل د انټرنیټ اړیکه وګورئ او بیا هڅه وکړئ."
 
@@ -959,27 +967,27 @@ msgstr "مهرباني وکړئ خپل د انټرنیټ اړیکه وګورئ �
 msgid "Please enter an app name"
 msgstr "مهرباني وکړئ د ایپ نوم دننه کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:651
 msgid "Please select a file"
 msgstr "مهرباني وکړئ یوه فایل وټاکئ"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "تېر انځور"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "Privacy"
 msgstr "محرمیت"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Privacy Policy"
 msgstr "د محرمیت پالیسي"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Private"
 msgstr "خصوصي"
 
@@ -989,12 +997,12 @@ msgid "Profile"
 msgstr "پروفایل"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Public"
 msgstr "عامه"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Published"
 msgstr "خپور شوی"
 
@@ -1024,8 +1032,8 @@ msgstr "سپارښتل شوی"
 msgid "Redirecting to login."
 msgstr "ننوتلو ته بیرته لارښود کول."
 
-#: ../../../lib/web/src/components/post-tags.tsx:192
-#: ../../../lib/web/src/components/post-tags.tsx:204
+#: ../../../lib/web/src/components/post-tags.tsx:196
+#: ../../../lib/web/src/components/post-tags.tsx:208
 msgid "Reduce interest"
 msgstr "د سود کمول"
 
@@ -1037,11 +1045,11 @@ msgstr "نسبي (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "په 24 ساعتونو کې نسبي، که نه نو مطلق"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Release Tracks"
 msgstr "د Release لارې"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Release tracks currently active"
 msgstr "د Release لارې اوس مهال فعالې دي"
 
@@ -1059,8 +1067,8 @@ msgstr "د لاسرسي قاعده لرې کړئ"
 msgid "Remove access?"
 msgstr "لاسرسی لرې کړو؟"
 
-#: ../../../lib/web/src/components/post-tags.tsx:212
-#: ../../../lib/web/src/components/post-tags.tsx:224
+#: ../../../lib/web/src/components/post-tags.tsx:216
+#: ../../../lib/web/src/components/post-tags.tsx:228
 msgid "Remove interest"
 msgstr "علاقه لرې کړئ"
 
@@ -1078,7 +1086,7 @@ msgid "Reset all settings to default values"
 msgstr "ټول تنظیمات د ډیفالټ ارزښتونو ته بیرته تنظیم کړئ"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Restricted"
 msgstr "محدود شوی"
 
@@ -1173,8 +1181,8 @@ msgstr "بریښنالیک ولېږئ"
 msgid "Serif"
 msgstr "سيريف"
 
-#: ../../../lib/web/src/lib/api-client.ts:259
-#: ../../../lib/web/src/lib/api-client.ts:284
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:245
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:271
 msgid "Server error"
 msgstr "د سرور تېروتنه"
 
@@ -1183,11 +1191,11 @@ msgstr "د سرور تېروتنه"
 msgid "Server rules"
 msgstr "د Server قواعد"
 
-#: ../../../lib/web/src/lib/api-client.ts:227
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:209
 msgid "Session expired"
 msgstr "ناسته پای ته ورسېده"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:539
 msgid "Set as default"
 msgstr "د اصلي په توګه وټاکئ"
 
@@ -1203,11 +1211,11 @@ msgstr "سرچینه او منزل وټاکئ"
 msgid "Settings"
 msgstr "ترتیبات"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Share this link to allow others to install this app"
 msgstr "د دې اپ نصبولو ته د نورو اجازه ورکولو لپاره دا لینک شریک کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Sharing"
 msgstr "شریکول"
 
@@ -1269,8 +1277,8 @@ msgstr "سیسټم"
 msgid "Tag"
 msgstr "ټاګ"
 
-#: ../../../lib/web/src/components/post-tags.tsx:96
-#: ../../../lib/web/src/components/post-tags.tsx:107
+#: ../../../lib/web/src/components/post-tags.tsx:100
+#: ../../../lib/web/src/components/post-tags.tsx:111
 msgid "Tags"
 msgstr "ټاګونه"
 
@@ -1287,8 +1295,8 @@ msgstr "شرایط او مقررات"
 msgid "That code is incorrect or has expired."
 msgstr "هغه کوډ غلط دی یا یې موده تېره ده."
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:151
 msgid "The requested app could not be found."
 msgstr "غوښتل شوی اپ ونه موندل شو."
 
@@ -1313,10 +1321,10 @@ msgstr "ستنې بدلې کړئ"
 msgid "Toggle right panel"
 msgstr "ښیې پټه بدل کړئ"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "برخه بدلول"
 
@@ -1339,19 +1347,19 @@ msgstr "ښکارندوی بدل کړئ"
 msgid "Top"
 msgstr "بره"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Track \"{track}\" deleted"
 msgstr "Track \"{track}\" حذف شو"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:439
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track \"{track}\" {version} ته نوی شو"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:421
 msgid "Track created"
 msgstr "Track جوړ شو"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Track Name"
 msgstr "د Track نوم"
 
@@ -1386,7 +1394,7 @@ msgstr "د کاروونکو لټون لپاره ولیکئ"
 msgid "Type to search..."
 msgstr "د لټون لپاره ولیکئ..."
 
-#: ../../../lib/web/src/lib/api-client.ts:280
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:267
 msgid "Unable to connect to remote server"
 msgstr "له لرې پرتي سرور سره نښلېدل ونشول"
 
@@ -1411,31 +1419,31 @@ msgstr "متحده ایالات"
 msgid "Unverified"
 msgstr "تصدیق نه شوی"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Update Tracks"
 msgstr "Trackونه نوي کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Upload a .zip build file for your application."
 msgstr "د خپل اپلیکیشن لپاره د .zip Build فایل اپلوډ کړئ."
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:198
 msgid "Upload new version"
 msgstr "نوې نسخه اپلوډ کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload New Version"
 msgstr "نوې نسخه اپلوډ کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Upload version"
 msgstr "نسخه اپلوډ کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:275
 msgid "Upload your first build to get started"
 msgstr "د پیل لپاره خپل لومړی Build اپلوډ کړئ"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Uploading..."
 msgstr "اپلوډ کیږي..."
 
@@ -1447,7 +1455,7 @@ msgstr "خپله پاس کیلۍ وکاروئ"
 msgid "User"
 msgstr "کاروونکی"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:253
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "کاروونکي کولی شي دا اپلیکیشن د خپلې اپلیکیشنونه پاڼې کې د دې لینک پیسټ کولو سره نصب کړي."
 
@@ -1474,15 +1482,15 @@ msgid "Verify email address"
 msgstr "د ایمیل پته تصدیق کړئ"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:661
+#: src/routes/_authenticated/app/$appId.tsx:663
 msgid "Version {0} has been created."
 msgstr "نسخه {0} جوړه شوه."
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "Version History"
 msgstr "د نسخې تاریخ"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:662
 msgid "Version uploaded"
 msgstr "نسخه اپلوډ شوه"
 
@@ -1516,11 +1524,11 @@ msgid "Wednesday"
 msgstr "چهارشنبه"
 
 #: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "Yes"
 msgstr "هو"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Yes, force"
 msgstr "هو، اړ کول"
 

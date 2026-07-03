@@ -53,7 +53,7 @@ msgstr "অ্যাকাউন্টের ধরন"
 msgid "Account verified"
 msgstr "অ্যাকাউন্ট যাচাই করা হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:503
 msgid "Active version"
 msgstr "সক্রিয় সংস্করণ"
 
@@ -82,7 +82,7 @@ msgstr "নোটিফিকেশন পেতে এবং পরিষেব
 msgid "Add new account"
 msgstr "নতুন অ্যাকাউন্ট যোগ করুন"
 
-#: ../../../lib/web/src/components/post-tags.tsx:129
+#: ../../../lib/web/src/components/post-tags.tsx:133
 msgid "Add tag..."
 msgstr "ট্যাগ যোগ করুন..."
 
@@ -111,20 +111,20 @@ msgstr "AI"
 msgid "All"
 msgstr "সব"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "All uploaded build files for this application"
 msgstr "এই অ্যাপ্লিকেশনের সব আপলোড করা বিল্ড ফাইল"
 
-#: ../../../lib/web/src/lib/api-client.ts:192
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "একটি ত্রুটি ঘটেছে"
 
-#: ../../../lib/web/src/lib/api-client.ts:255
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:241
 msgid "An unexpected error occurred"
 msgstr "একটি অপ্রত্যাশিত ত্রুটি ঘটেছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:101
+#: src/routes/_authenticated/app/$appId.tsx:135
 msgid "App"
 msgstr "অ্যাপ"
 
@@ -132,14 +132,14 @@ msgstr "অ্যাপ"
 msgid "App created"
 msgstr "অ্যাপ তৈরি হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "App not found"
 msgstr "অ্যাপ পাওয়া যায়নি"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Application ID"
 msgstr "অ্যাপ্লিকেশন ID"
 
@@ -159,7 +159,7 @@ msgstr "ঊর্ধ্বক্রম"
 msgid "Authenticator code"
 msgstr "অথেন্টিকেটর কোড"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Available Versions"
 msgstr "উপলব্ধ সংস্করণ"
 
@@ -167,12 +167,12 @@ msgstr "উপলব্ধ সংস্করণ"
 msgid "Back"
 msgstr "ফিরে যান"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:175
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Back to apps"
 msgstr "অ্যাপে ফিরে যান"
 
@@ -182,12 +182,12 @@ msgstr "অ্যাপে ফিরে যান"
 msgid "Back to home"
 msgstr "হোমে ফিরে যান"
 
-#: ../../../lib/web/src/components/post-tags.tsx:172
-#: ../../../lib/web/src/components/post-tags.tsx:184
+#: ../../../lib/web/src/components/post-tags.tsx:176
+#: ../../../lib/web/src/components/post-tags.tsx:188
 msgid "Boost interest"
 msgstr "আগ্রহ বৃদ্ধি করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Build File (.zip)"
 msgstr "বিল্ড ফাইল (.zip)"
 
@@ -201,8 +201,8 @@ msgstr "বিল্ড ফাইল (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
 #: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/routes/_authenticated/app/$appId.tsx:604
+#: src/routes/_authenticated/app/$appId.tsx:746
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "নির্বাচন পরিষ্কার করুন (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "বন্ধ করুন"
@@ -285,8 +285,8 @@ msgstr "অনুসন্ধান বন্ধ করুন"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "সংকুচিত করুন"
 
@@ -332,11 +332,11 @@ msgstr "{label} দিয়ে চালিয়ে যান"
 msgid "Copy"
 msgstr "কপি করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:344
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "এই লিঙ্কটি কপি করুন এবং ইনস্টল করতে আপনার Mochi সার্ভারের অ্যাপস পৃষ্ঠায় পেস্ট করুন।"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Core identification for this application"
 msgstr "এই অ্যাপ্লিকেশনের জন্য মূল শনাক্তকরণ"
 
@@ -356,7 +356,7 @@ msgstr "পুনরায় প্রমাণীকরণ শুরু কর
 msgid "Couldn't verify with that account. Please try again."
 msgstr "ওই অ্যাকাউন্ট দিয়ে যাচাই করা যায়নি। অনুগ্রহ করে আবার চেষ্টা করুন।"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "বিল্ড ডিপ্লয় করতে একটি নতুন পরিবেশ (যেমন Beta, Staging) তৈরি করুন।"
 
@@ -373,8 +373,8 @@ msgstr "অ্যাপ তৈরি করুন"
 msgid "Create new app"
 msgstr "নতুন অ্যাপ তৈরি করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Create track"
 msgstr "ট্র্যাক তৈরি করুন"
 
@@ -382,12 +382,12 @@ msgstr "ট্র্যাক তৈরি করুন"
 msgid "Create your first app to get started"
 msgstr "শুরু করতে আপনার প্রথম অ্যাপ তৈরি করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Create your first release track to manage deployments"
 msgstr "ডিপ্লয়মেন্ট পরিচালনা করতে আপনার প্রথম রিলিজ ট্র্যাক তৈরি করুন"
 
 #: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Creating..."
 msgstr "তৈরি করা হচ্ছে..."
 
@@ -416,11 +416,11 @@ msgstr "ডিফল্ট"
 msgid "Default AI account"
 msgstr "ডিফল্ট AI অ্যাকাউন্ট"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Default track set to \"{track}\""
 msgstr "ডিফল্ট ট্র্যাক \"{track}\"-এ সেট করা হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:546
 msgid "Delete track"
 msgstr "ট্র্যাক মুছুন"
 
@@ -436,7 +436,7 @@ msgstr "অধঃক্রম"
 msgid "Descending"
 msgstr "অধঃক্রম"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Details"
 msgstr "বিবরণ"
 
@@ -468,24 +468,28 @@ msgstr "বাতিল করুন"
 msgid "Displays the mobile sidebar."
 msgstr "মোবাইল সাইডবার প্রদর্শন করে।"
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:229
 msgid "Distribution"
 msgstr "বিতরণ"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:84
 msgid "Distribution set to {distribution}"
 msgstr "বিতরণ {distribution}-এ সেট করা হয়েছে"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "ডাউনলোড"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr "ডাউনলোড ব্যর্থ হয়েছে"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "ডিসলেক্সিয়া-বান্ধব"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "e.g. Staging"
 msgstr "যেমন Staging"
 
@@ -507,8 +511,8 @@ msgstr "আপনার প্রমাণীকরণকারী কোড ল
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "প্রসারিত করুন"
 
@@ -528,11 +532,11 @@ msgstr "অ্যাকাউন্ট যোগ করতে ব্যর্থ
 msgid "Failed to create app"
 msgstr "অ্যাপ তৈরি করতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Failed to create track"
 msgstr "ট্র্যাক তৈরি করতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:456
 msgid "Failed to delete track"
 msgstr "ট্র্যাক মুছতে ব্যর্থ"
 
@@ -544,7 +548,7 @@ msgstr "অ্যাকাউন্ট সরাতে ব্যর্থ"
 msgid "Failed to send verification code"
 msgstr "যাচাইকরণ কোড পাঠাতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "Failed to set default track"
 msgstr "ডিফল্ট ট্র্যাক সেট করতে ব্যর্থ"
 
@@ -552,20 +556,20 @@ msgstr "ডিফল্ট ট্র্যাক সেট করতে ব্�
 msgid "Failed to update category"
 msgstr "ক্যাটাগরি আপডেট করতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "বিতরণ আপডেট করতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:442
 msgid "Failed to update track"
 msgstr "ট্র্যাক আপডেট করতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:675
 msgid "Failed to upload version"
 msgstr "সংস্করণ আপলোড করতে ব্যর্থ"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Fingerprint"
 msgstr "ফিঙ্গারপ্রিন্ট"
 
@@ -651,7 +655,7 @@ msgstr "হোম"
 msgid "Hot"
 msgstr "জনপ্রিয়"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Identity"
 msgstr "পরিচয়"
 
@@ -659,7 +663,7 @@ msgstr "পরিচয়"
 msgid "Imperial"
 msgstr "ইম্পেরিয়াল"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Initial Version"
 msgstr "প্রাথমিক সংস্করণ"
 
@@ -667,20 +671,20 @@ msgstr "প্রাথমিক সংস্করণ"
 msgid "Inset"
 msgstr "ইনসেট"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install App"
 msgstr "অ্যাপ ইনস্টল করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Install link:"
 msgstr "ইনস্টল লিঙ্ক:"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Install Locally"
 msgstr "স্থানীয়ভাবে ইনস্টল করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install this application to your server"
 msgstr "এই অ্যাপ্লিকেশনটি আপনার সার্ভারে ইনস্টল করুন"
 
@@ -706,7 +710,7 @@ msgstr "লেআউট"
 msgid "Learn more"
 msgstr "আরও জানুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:589
 msgid "Leave empty"
 msgstr "খালি রাখুন"
 
@@ -723,9 +727,13 @@ msgstr "হালকা"
 msgid "Load more"
 msgstr "আরও লোড করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:107
 msgid "Loading app..."
 msgstr "অ্যাপ লোড হচ্ছে..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr "কন্টেন্ট লোড হচ্ছে…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -758,7 +766,7 @@ msgstr "লগ আউট হচ্ছে…"
 msgid "Make app publicly available"
 msgstr "অ্যাপটি সর্বজনীনভাবে উপলব্ধ করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Manage deployment environments and their versions"
 msgstr "ডিপ্লয়মেন্ট এনভায়রনমেন্ট ও তাদের সংস্করণ পরিচালনা করুন"
 
@@ -776,7 +784,7 @@ msgstr "মাঝারি"
 msgid "Menu"
 msgstr "মেনু"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Metadata and configuration"
 msgstr "মেটাডেটা ও কনফিগারেশন"
 
@@ -792,7 +800,7 @@ msgstr "সোমবার"
 msgid "My App"
 msgstr "আমার অ্যাপ"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:360
 msgid "N/A"
 msgstr "প্রযোজ্য নয়"
 
@@ -800,7 +808,7 @@ msgstr "প্রযোজ্য নয়"
 msgid "Name"
 msgstr "নাম"
 
-#: ../../../lib/web/src/lib/api-client.ts:300
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:288
 msgid "Network error"
 msgstr "নেটওয়ার্ক ত্রুটি"
 
@@ -808,17 +816,17 @@ msgstr "নেটওয়ার্ক ত্রুটি"
 msgid "New"
 msgstr "নতুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "New Release Track"
 msgstr "নতুন রিলিজ ট্র্যাক"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "পরবর্তী ছবি"
 
 #: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/routes/_authenticated/app/$appId.tsx:717
 msgid "No"
 msgstr "না"
 
@@ -859,7 +867,7 @@ msgstr "কোনো টাইম জোন পাওয়া যায়ন�
 msgid "No topic record yet — try again after the next notification."
 msgstr "এখনও কোনো বিষয়ের রেকর্ড নেই — পরবর্তী বিজ্ঞপ্তির পরে আবার চেষ্টা করুন।"
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:485
 msgid "No tracks"
 msgstr "কোনো ট্র্যাক নেই"
 
@@ -867,11 +875,11 @@ msgstr "কোনো ট্র্যাক নেই"
 msgid "No users found"
 msgstr "কোনো ব্যবহারকারী পাওয়া যায়নি"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:586
 msgid "No version"
 msgstr "কোনো সংস্করণ নেই"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "No versions"
 msgstr "কোনো সংস্করণ নেই"
 
@@ -906,8 +914,8 @@ msgstr "ওহ! পৃষ্ঠাটি পাওয়া যায়নি!"
 msgid "Open account actions"
 msgstr "অ্যাকাউন্ট অ্যাকশন খুলুন"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "অ্যাকশন খুলুন"
 
@@ -926,8 +934,8 @@ msgstr "নেভিগেশন মেনু খুলুন"
 msgid "Open theme settings"
 msgstr "থিম সেটিংস খুলুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:526
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Open track actions"
 msgstr "ট্র্যাক অ্যাকশন খুলুন"
 
@@ -951,7 +959,7 @@ msgstr "পাসকি যাচাই ব্যর্থ হয়েছে।
 msgid "Passkeys"
 msgstr "পাসকি"
 
-#: ../../../lib/web/src/lib/api-client.ts:301
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:289
 msgid "Please check your internet connection and try again."
 msgstr "অনুগ্রহ করে আপনার ইন্টারনেট সংযোগ পরীক্ষা করে আবার চেষ্টা করুন।"
 
@@ -959,27 +967,27 @@ msgstr "অনুগ্রহ করে আপনার ইন্টারনে
 msgid "Please enter an app name"
 msgstr "অনুগ্রহ করে একটি অ্যাপের নাম লিখুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:651
 msgid "Please select a file"
 msgstr "অনুগ্রহ করে একটি ফাইল নির্বাচন করুন"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "পূর্ববর্তী ছবি"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "Privacy"
 msgstr "গোপনীয়তা"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Privacy Policy"
 msgstr "গোপনীয়তা নীতি"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Private"
 msgstr "প্রাইভেট"
 
@@ -989,12 +997,12 @@ msgid "Profile"
 msgstr "প্রোফাইল"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Public"
 msgstr "সর্বজনীন"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Published"
 msgstr "প্রকাশিত"
 
@@ -1024,8 +1032,8 @@ msgstr "সুপারিশকৃত"
 msgid "Redirecting to login."
 msgstr "লগইনে রিডাইরেক্ট করা হচ্ছে।"
 
-#: ../../../lib/web/src/components/post-tags.tsx:192
-#: ../../../lib/web/src/components/post-tags.tsx:204
+#: ../../../lib/web/src/components/post-tags.tsx:196
+#: ../../../lib/web/src/components/post-tags.tsx:208
 msgid "Reduce interest"
 msgstr "আগ্রহ কমান"
 
@@ -1037,11 +1045,11 @@ msgstr "আপেক্ষিক (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "২৪ ঘণ্টার মধ্যে আপেক্ষিক, অন্যথায় পরম"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Release Tracks"
 msgstr "রিলিজ ট্র্যাক"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Release tracks currently active"
 msgstr "বর্তমানে সক্রিয় রিলিজ ট্র্যাক"
 
@@ -1059,8 +1067,8 @@ msgstr "অ্যাক্সেস নিয়ম সরান"
 msgid "Remove access?"
 msgstr "অ্যাক্সেস সরাবেন?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:212
-#: ../../../lib/web/src/components/post-tags.tsx:224
+#: ../../../lib/web/src/components/post-tags.tsx:216
+#: ../../../lib/web/src/components/post-tags.tsx:228
 msgid "Remove interest"
 msgstr "আগ্রহ সরান"
 
@@ -1078,7 +1086,7 @@ msgid "Reset all settings to default values"
 msgstr "সমস্ত সেটিংস ডিফল্ট মানে রিসেট করুন"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Restricted"
 msgstr "সীমাবদ্ধ"
 
@@ -1173,8 +1181,8 @@ msgstr "ইমেইল পাঠান"
 msgid "Serif"
 msgstr "সেরিফ"
 
-#: ../../../lib/web/src/lib/api-client.ts:259
-#: ../../../lib/web/src/lib/api-client.ts:284
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:245
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:271
 msgid "Server error"
 msgstr "সার্ভার ত্রুটি"
 
@@ -1183,11 +1191,11 @@ msgstr "সার্ভার ত্রুটি"
 msgid "Server rules"
 msgstr "সার্ভারের নিয়মাবলী"
 
-#: ../../../lib/web/src/lib/api-client.ts:227
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:209
 msgid "Session expired"
 msgstr "সেশনের মেয়াদ শেষ হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:539
 msgid "Set as default"
 msgstr "ডিফল্ট হিসাবে সেট করুন"
 
@@ -1203,11 +1211,11 @@ msgstr "উৎস ও গন্তব্য সেট করুন"
 msgid "Settings"
 msgstr "সেটিংস"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Share this link to allow others to install this app"
 msgstr "অন্যদের এই অ্যাপটি ইনস্টল করার অনুমতি দিতে এই লিঙ্কটি শেয়ার করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Sharing"
 msgstr "শেয়ারিং"
 
@@ -1269,8 +1277,8 @@ msgstr "সিস্টেম"
 msgid "Tag"
 msgstr "ট্যাগ"
 
-#: ../../../lib/web/src/components/post-tags.tsx:96
-#: ../../../lib/web/src/components/post-tags.tsx:107
+#: ../../../lib/web/src/components/post-tags.tsx:100
+#: ../../../lib/web/src/components/post-tags.tsx:111
 msgid "Tags"
 msgstr "ট্যাগ"
 
@@ -1287,8 +1295,8 @@ msgstr "শর্তাবলী"
 msgid "That code is incorrect or has expired."
 msgstr "কোডটি ভুল বা এর মেয়াদ শেষ হয়ে গেছে।"
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:151
 msgid "The requested app could not be found."
 msgstr "অনুরোধিত অ্যাপ পাওয়া যায়নি।"
 
@@ -1313,10 +1321,10 @@ msgstr "কলাম টগল করুন"
 msgid "Toggle right panel"
 msgstr "ডান প্যানেল টগল করুন"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "বিভাগ টগল করুন"
 
@@ -1339,19 +1347,19 @@ msgstr "থিম টগল করুন"
 msgid "Top"
 msgstr "উপরে"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Track \"{track}\" deleted"
 msgstr "Track \"{track}\" মুছে ফেলা হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:439
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track \"{track}\" {version}-এ আপডেট হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:421
 msgid "Track created"
 msgstr "Track তৈরি হয়েছে"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Track Name"
 msgstr "Track নাম"
 
@@ -1386,7 +1394,7 @@ msgstr "ব্যবহারকারী অনুসন্ধান করত�
 msgid "Type to search..."
 msgstr "অনুসন্ধান করতে টাইপ করুন..."
 
-#: ../../../lib/web/src/lib/api-client.ts:280
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:267
 msgid "Unable to connect to remote server"
 msgstr "দূরবর্তী সার্ভারে সংযোগ করা যায়নি"
 
@@ -1411,31 +1419,31 @@ msgstr "যুক্তরাষ্ট্র"
 msgid "Unverified"
 msgstr "যাচাই করা হয়নি"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Update Tracks"
 msgstr "Track আপডেট করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Upload a .zip build file for your application."
 msgstr "আপনার অ্যাপ্লিকেশনের জন্য একটি .zip বিল্ড ফাইল আপলোড করুন।"
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:198
 msgid "Upload new version"
 msgstr "নতুন সংস্করণ আপলোড করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload New Version"
 msgstr "নতুন সংস্করণ আপলোড করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Upload version"
 msgstr "সংস্করণ আপলোড করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:275
 msgid "Upload your first build to get started"
 msgstr "শুরু করতে আপনার প্রথম বিল্ড আপলোড করুন"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Uploading..."
 msgstr "আপলোড করা হচ্ছে..."
 
@@ -1447,7 +1455,7 @@ msgstr "আপনার পাসকি ব্যবহার করুন"
 msgid "User"
 msgstr "ব্যবহারকারী"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:253
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "ব্যবহারকারীরা তাদের অ্যাপস পৃষ্ঠায় এই লিঙ্কটি পেস্ট করে এই অ্যাপ্লিকেশনটি ইনস্টল করতে পারেন।"
 
@@ -1474,15 +1482,15 @@ msgid "Verify email address"
 msgstr "ইমেল ঠিকানা যাচাই করুন"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:661
+#: src/routes/_authenticated/app/$appId.tsx:663
 msgid "Version {0} has been created."
 msgstr "সংস্করণ {0} তৈরি করা হয়েছে।"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "Version History"
 msgstr "সংস্করণ ইতিহাস"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:662
 msgid "Version uploaded"
 msgstr "সংস্করণ আপলোড করা হয়েছে"
 
@@ -1516,11 +1524,11 @@ msgid "Wednesday"
 msgstr "বুধবার"
 
 #: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "Yes"
 msgstr "হ্যাঁ"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Yes, force"
 msgstr "হ্যাঁ, বাধ্য করুন"
 

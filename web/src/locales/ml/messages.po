@@ -53,7 +53,7 @@ msgstr "അക്കൗണ്ട് തരം"
 msgid "Account verified"
 msgstr "അക്കൗണ്ട് പരിശോധിച്ചുറപ്പിച്ചു"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:503
 msgid "Active version"
 msgstr "സജീവ പതിപ്പ്"
 
@@ -82,7 +82,7 @@ msgstr "അറിയിപ്പുകൾ സ്വീകരിക്കാന�
 msgid "Add new account"
 msgstr "പുതിയ അക്കൗണ്ട് ചേർക്കുക"
 
-#: ../../../lib/web/src/components/post-tags.tsx:129
+#: ../../../lib/web/src/components/post-tags.tsx:133
 msgid "Add tag..."
 msgstr "ടാഗ് ചേർക്കുക..."
 
@@ -111,20 +111,20 @@ msgstr "AI"
 msgid "All"
 msgstr "എല്ലാം"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "All uploaded build files for this application"
 msgstr "ഈ ആപ്ലിക്കേഷനായി അപ്‌ലോഡ് ചെയ്ത എല്ലാ ബിൽഡ് ഫയലുകളും"
 
-#: ../../../lib/web/src/lib/api-client.ts:192
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "ഒരു പിശക് സംഭവിച്ചു"
 
-#: ../../../lib/web/src/lib/api-client.ts:255
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:241
 msgid "An unexpected error occurred"
 msgstr "അപ്രതീക്ഷിത പിശക് സംഭവിച്ചു"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:101
+#: src/routes/_authenticated/app/$appId.tsx:135
 msgid "App"
 msgstr "ആപ്പ്"
 
@@ -132,14 +132,14 @@ msgstr "ആപ്പ്"
 msgid "App created"
 msgstr "ആപ്പ് സൃഷ്ടിച്ചു"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "App not found"
 msgstr "ആപ്പ് കണ്ടെത്തിയില്ല"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Application ID"
 msgstr "ആപ്ലിക്കേഷൻ ID"
 
@@ -159,7 +159,7 @@ msgstr "ആരോഹണ ക്രമം"
 msgid "Authenticator code"
 msgstr "Authenticator കോഡ്"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Available Versions"
 msgstr "ലഭ്യമായ പതിപ്പുകൾ"
 
@@ -167,12 +167,12 @@ msgstr "ലഭ്യമായ പതിപ്പുകൾ"
 msgid "Back"
 msgstr "തിരികെ"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:175
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Back to apps"
 msgstr "ആപ്പുകളിലേക്ക് തിരികെ"
 
@@ -182,12 +182,12 @@ msgstr "ആപ്പുകളിലേക്ക് തിരികെ"
 msgid "Back to home"
 msgstr "ഹോമിലേക്ക് മടങ്ങുക"
 
-#: ../../../lib/web/src/components/post-tags.tsx:172
-#: ../../../lib/web/src/components/post-tags.tsx:184
+#: ../../../lib/web/src/components/post-tags.tsx:176
+#: ../../../lib/web/src/components/post-tags.tsx:188
 msgid "Boost interest"
 msgstr "താൽപ്പര്യം വർദ്ധിപ്പിക്കുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Build File (.zip)"
 msgstr "ബിൽഡ് ഫയൽ (.zip)"
 
@@ -201,8 +201,8 @@ msgstr "ബിൽഡ് ഫയൽ (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
 #: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/routes/_authenticated/app/$appId.tsx:604
+#: src/routes/_authenticated/app/$appId.tsx:746
 msgid "Cancel"
 msgstr "റദ്ദാക്കുക"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "തിരഞ്ഞെടുപ്പ് മായ്ക്കുക (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "അടയ്ക്കുക"
@@ -285,8 +285,8 @@ msgstr "തിരയൽ അടയ്ക്കുക"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "ചുരുക്കുക"
 
@@ -332,11 +332,11 @@ msgstr "{label} ഉപയോഗിച്ച് തുടരുക"
 msgid "Copy"
 msgstr "പകർത്തുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:344
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "ഈ ലിങ്ക് പകർത്തി ഇൻസ്റ്റാൾ ചെയ്യാൻ നിങ്ങളുടെ Mochi സെർവറിന്റെ ആപ്പുകൾ പേജിൽ ഒട്ടിക്കുക."
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Core identification for this application"
 msgstr "ഈ ആപ്ലിക്കേഷനുള്ള പ്രധാന തിരിച്ചറിയൽ"
 
@@ -356,7 +356,7 @@ msgstr "വീണ്ടും പരിശോധന ആരംഭിക്കാ�
 msgid "Couldn't verify with that account. Please try again."
 msgstr "ആ അക്കൗണ്ട് ഉപയോഗിച്ച് പരിശോധിക്കാനായില്ല. വീണ്ടും ശ്രമിക്കുക."
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "ബിൽഡുകൾ deploy ചെയ്യാൻ ഒരു പുതിയ environment (ഉദാ. Beta, Staging) സൃഷ്ടിക്കുക."
 
@@ -373,8 +373,8 @@ msgstr "ആപ്പ് സൃഷ്ടിക്കുക"
 msgid "Create new app"
 msgstr "പുതിയ ആപ്പ് സൃഷ്ടിക്കുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Create track"
 msgstr "Track സൃഷ്ടിക്കുക"
 
@@ -382,12 +382,12 @@ msgstr "Track സൃഷ്ടിക്കുക"
 msgid "Create your first app to get started"
 msgstr "ആരംഭിക്കാൻ നിങ്ങളുടെ ആദ്യ ആപ്പ് സൃഷ്ടിക്കുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Create your first release track to manage deployments"
 msgstr "Deployments മാനേജ് ചെയ്യാൻ നിങ്ങളുടെ ആദ്യ release track സൃഷ്ടിക്കുക"
 
 #: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Creating..."
 msgstr "സൃഷ്ടിക്കുന്നു..."
 
@@ -416,11 +416,11 @@ msgstr "ഡിഫോൾട്ട്"
 msgid "Default AI account"
 msgstr "ഡിഫോൾട്ട് AI അക്കൗണ്ട്"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Default track set to \"{track}\""
 msgstr "ഡിഫോൾട്ട് track \"{track}\" ആയി സജ്ജമാക്കി"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:546
 msgid "Delete track"
 msgstr "Track ഇല്ലാതാക്കുക"
 
@@ -436,7 +436,7 @@ msgstr "Desc"
 msgid "Descending"
 msgstr "അവരോഹണ ക്രമം"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Details"
 msgstr "വിശദാംശങ്ങൾ"
 
@@ -468,24 +468,28 @@ msgstr "ഒഴിവാക്കുക"
 msgid "Displays the mobile sidebar."
 msgstr "മൊബൈൽ സൈഡ്‌ബാർ പ്രദർശിപ്പിക്കുന്നു."
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:229
 msgid "Distribution"
 msgstr "വിതരണം"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:84
 msgid "Distribution set to {distribution}"
 msgstr "വിതരണം {distribution} ആയി സജ്ജമാക്കി"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "ഡൗൺലോഡ്"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr "ഡൗൺലോഡ് പരാജയപ്പെട്ടു"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "ഡിസ്ലെക്സിയ-സൗഹൃദം"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "e.g. Staging"
 msgstr "ഉദാ. Staging"
 
@@ -507,8 +511,8 @@ msgstr "നിങ്ങളുടെ ഓതെന്റിക്കേറ്റ�
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "വികസിപ്പിക്കുക"
 
@@ -528,11 +532,11 @@ msgstr "അക്കൗണ്ട് ചേർക്കുന്നതിൽ പ�
 msgid "Failed to create app"
 msgstr "ആപ്പ് സൃഷ്ടിക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Failed to create track"
 msgstr "ട്രാക്ക് സൃഷ്ടിക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:456
 msgid "Failed to delete track"
 msgstr "ട്രാക്ക് ഇല്ലാതാക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
@@ -544,7 +548,7 @@ msgstr "അക്കൗണ്ട് നീക്കം ചെയ്യുന്�
 msgid "Failed to send verification code"
 msgstr "സ്ഥിരീകരണ കോഡ് അയയ്ക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "Failed to set default track"
 msgstr "ഡിഫോൾട്ട് ട്രാക്ക് സജ്ജമാക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
@@ -552,20 +556,20 @@ msgstr "ഡിഫോൾട്ട് ട്രാക്ക് സജ്ജമാ�
 msgid "Failed to update category"
 msgstr "വിഭാഗം പുതുക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "വിതരണം പുതുക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:442
 msgid "Failed to update track"
 msgstr "ട്രാക്ക് പുതുക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:675
 msgid "Failed to upload version"
 msgstr "പതിപ്പ് അപ്‌ലോഡ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Fingerprint"
 msgstr "വിരലടയാളം"
 
@@ -651,7 +655,7 @@ msgstr "ഹോം"
 msgid "Hot"
 msgstr "ഹോട്ട്"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Identity"
 msgstr "സ്വത്വം"
 
@@ -659,7 +663,7 @@ msgstr "സ്വത്വം"
 msgid "Imperial"
 msgstr "ഇംപീരിയൽ"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Initial Version"
 msgstr "പ്രാരംഭ പതിപ്പ്"
 
@@ -667,20 +671,20 @@ msgstr "പ്രാരംഭ പതിപ്പ്"
 msgid "Inset"
 msgstr "ഇൻസെറ്റ്"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install App"
 msgstr "ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്യുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Install link:"
 msgstr "ഇൻസ്റ്റാൾ ലിങ്ക്:"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Install Locally"
 msgstr "പ്രാദേശികമായി ഇൻസ്റ്റാൾ ചെയ്യുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install this application to your server"
 msgstr "ഈ ആപ്ലിക്കേഷൻ നിങ്ങളുടെ സെർവറിൽ ഇൻസ്റ്റാൾ ചെയ്യുക"
 
@@ -706,7 +710,7 @@ msgstr "ലേഔട്ട്"
 msgid "Learn more"
 msgstr "കൂടുതലറിയുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:589
 msgid "Leave empty"
 msgstr "ശൂന്യമായി വിടുക"
 
@@ -723,9 +727,13 @@ msgstr "ലൈറ്റ്"
 msgid "Load more"
 msgstr "കൂടുതൽ ലോഡുചെയ്യുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:107
 msgid "Loading app..."
 msgstr "ആപ്പ് ലോഡുചെയ്യുന്നു..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr "ഉള്ളടക്കം ലോഡ് ചെയ്യുന്നു…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -758,7 +766,7 @@ msgstr "ലോഗ് ഔട്ട് ചെയ്യുന്നു…"
 msgid "Make app publicly available"
 msgstr "ആപ്പ് പൊതുവായി ലഭ്യമാക്കുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Manage deployment environments and their versions"
 msgstr "ഡിപ്ലോയ്മെന്റ് എൻവയോൺമെന്റുകളും അവയുടെ വേർഷനുകളും മാനേജ് ചെയ്യുക"
 
@@ -776,7 +784,7 @@ msgstr "ഇടത്തരം"
 msgid "Menu"
 msgstr "മെനു"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Metadata and configuration"
 msgstr "മെറ്റാഡാറ്റയും കോൺഫിഗറേഷനും"
 
@@ -792,7 +800,7 @@ msgstr "തിങ്കളാഴ്ച"
 msgid "My App"
 msgstr "എന്റെ ആപ്പ്"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:360
 msgid "N/A"
 msgstr "ബാധകമല്ല"
 
@@ -800,7 +808,7 @@ msgstr "ബാധകമല്ല"
 msgid "Name"
 msgstr "പേര്"
 
-#: ../../../lib/web/src/lib/api-client.ts:300
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:288
 msgid "Network error"
 msgstr "നെറ്റ്‌വർക്ക് പിശക്"
 
@@ -808,17 +816,17 @@ msgstr "നെറ്റ്‌വർക്ക് പിശക്"
 msgid "New"
 msgstr "പുതിയത്"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "New Release Track"
 msgstr "പുതിയ റിലീസ് ട്രാക്ക്"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "അടുത്ത ചിത്രം"
 
 #: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/routes/_authenticated/app/$appId.tsx:717
 msgid "No"
 msgstr "ഇല്ല"
 
@@ -859,7 +867,7 @@ msgstr "സമയ മേഖലയൊന്നും കണ്ടെത്തി�
 msgid "No topic record yet — try again after the next notification."
 msgstr "വിഷയ റെക്കോർഡ് ഇതുവരെയില്ല — അടുത്ത അറിയിപ്പിന് ശേഷം വീണ്ടും ശ്രമിക്കുക."
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:485
 msgid "No tracks"
 msgstr "ട്രാക്കുകളൊന്നുമില്ല"
 
@@ -867,11 +875,11 @@ msgstr "ട്രാക്കുകളൊന്നുമില്ല"
 msgid "No users found"
 msgstr "ഉപയോക്താക്കളെ കണ്ടെത്തിയില്ല"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:586
 msgid "No version"
 msgstr "വേർഷൻ ഇല്ല"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "No versions"
 msgstr "വേർഷനുകളൊന്നുമില്ല"
 
@@ -906,8 +914,8 @@ msgstr "ഓ! പേജ് കണ്ടെത്തിയില്ല!"
 msgid "Open account actions"
 msgstr "അക്കൗണ്ട് പ്രവർത്തനങ്ങൾ തുറക്കുക"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "പ്രവർത്തനങ്ങൾ തുറക്കുക"
 
@@ -926,8 +934,8 @@ msgstr "navigation മെനു തുറക്കുക"
 msgid "Open theme settings"
 msgstr "തീം സെറ്റിങ്ങുകൾ തുറക്കുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:526
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Open track actions"
 msgstr "ട്രാക്ക് പ്രവർത്തനങ്ങൾ തുറക്കുക"
 
@@ -951,7 +959,7 @@ msgstr "പാസ്‌കീ പരിശോധന പരാജയപ്പെ�
 msgid "Passkeys"
 msgstr "പാസ്കീകൾ"
 
-#: ../../../lib/web/src/lib/api-client.ts:301
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:289
 msgid "Please check your internet connection and try again."
 msgstr "നിങ്ങളുടെ ഇന്റർനെറ്റ് കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക."
 
@@ -959,27 +967,27 @@ msgstr "നിങ്ങളുടെ ഇന്റർനെറ്റ് കണക�
 msgid "Please enter an app name"
 msgstr "ഒരു ആപ്പ് പേര് നൽകുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:651
 msgid "Please select a file"
 msgstr "ഒരു ഫയൽ തിരഞ്ഞെടുക്കുക"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "മുമ്പത്തെ ഫോട്ടോ"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "Privacy"
 msgstr "സ്വകാര്യതാ നയം"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Privacy Policy"
 msgstr "സ്വകാര്യം"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Private"
 msgstr "തുടരുക"
 
@@ -989,12 +997,12 @@ msgid "Profile"
 msgstr "പ്രൊഫൈൽ പ്രിവ്യൂ"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Public"
 msgstr "OAuth redirects-കൾക്കായുള്ള പൊതു URL"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Published"
 msgstr "പ്രസാധകൻ"
 
@@ -1024,8 +1032,8 @@ msgstr "ശുപാർശ ചെയ്യുന്ന CRM-കൾ"
 msgid "Redirecting to login."
 msgstr "Redirects"
 
-#: ../../../lib/web/src/components/post-tags.tsx:192
-#: ../../../lib/web/src/components/post-tags.tsx:204
+#: ../../../lib/web/src/components/post-tags.tsx:196
+#: ../../../lib/web/src/components/post-tags.tsx:208
 msgid "Reduce interest"
 msgstr "പുതുക്കുക"
 
@@ -1037,11 +1045,11 @@ msgstr "24 മണിക്കൂറിനുള്ളിൽ ആപേക്ഷ�
 msgid "Relative within 24 hours, else absolute"
 msgstr "റിലീസ് ട്രാക്കുകൾ"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Release Tracks"
 msgstr "നിലവിൽ സജീവമായ റിലീസ് ട്രാക്കുകൾ"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Release tracks currently active"
 msgstr "വീണ്ടും ലിസ്റ്റ് ചെയ്യുക"
 
@@ -1059,8 +1067,8 @@ msgstr "ആക്സസ് നീക്കം ചെയ്യണോ?"
 msgid "Remove access?"
 msgstr "അക്കൗണ്ട് നീക്കം ചെയ്യണോ?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:212
-#: ../../../lib/web/src/components/post-tags.tsx:224
+#: ../../../lib/web/src/components/post-tags.tsx:216
+#: ../../../lib/web/src/components/post-tags.tsx:228
 msgid "Remove interest"
 msgstr "item നീക്കം ചെയ്യുക"
 
@@ -1078,7 +1086,7 @@ msgid "Reset all settings to default values"
 msgstr "മുൻഗണനകൾ റീസെറ്റ് ചെയ്യണോ?"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Restricted"
 msgstr "നിയന്ത്രിച്ചു"
 
@@ -1173,8 +1181,8 @@ msgstr "ഇമെയിൽ അയയ്ക്കുക"
 msgid "Serif"
 msgstr "സെരിഫ്"
 
-#: ../../../lib/web/src/lib/api-client.ts:259
-#: ../../../lib/web/src/lib/api-client.ts:284
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:245
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:271
 msgid "Server error"
 msgstr "സെർവർ പിശക്"
 
@@ -1183,11 +1191,11 @@ msgstr "സെർവർ പിശക്"
 msgid "Server rules"
 msgstr "സെർവർ നിയമങ്ങൾ"
 
-#: ../../../lib/web/src/lib/api-client.ts:227
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:209
 msgid "Session expired"
 msgstr "സെഷൻ കാലഹരണപ്പെട്ടു"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:539
 msgid "Set as default"
 msgstr "സ്ഥിരസ്ഥിതിയായി സജ്ജമാക്കുക"
 
@@ -1203,11 +1211,11 @@ msgstr "ഉത്ഭവവും ലക്ഷ്യസ്ഥാനവും സ�
 msgid "Settings"
 msgstr "ക്രമീകരണങ്ങൾ"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Share this link to allow others to install this app"
 msgstr "മറ്റുള്ളവർക്ക് ഈ ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്യാൻ അനുവദിക്കാൻ ഈ ലിങ്ക് പങ്കിടുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Sharing"
 msgstr "ഷെയറിംഗ്"
 
@@ -1269,8 +1277,8 @@ msgstr "സിസ്റ്റം"
 msgid "Tag"
 msgstr "ടാഗ്"
 
-#: ../../../lib/web/src/components/post-tags.tsx:96
-#: ../../../lib/web/src/components/post-tags.tsx:107
+#: ../../../lib/web/src/components/post-tags.tsx:100
+#: ../../../lib/web/src/components/post-tags.tsx:111
 msgid "Tags"
 msgstr "ടാഗുകൾ"
 
@@ -1287,8 +1295,8 @@ msgstr "നിബന്ധനകളും വ്യവസ്ഥകളും"
 msgid "That code is incorrect or has expired."
 msgstr "ആ കോഡ് തെറ്റാണ് അല്ലെങ്കിൽ കാലഹരണപ്പെട്ടു."
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:151
 msgid "The requested app could not be found."
 msgstr "അഭ്യർത്ഥിച്ച ആപ്പ് കണ്ടെത്താൻ കഴിഞ്ഞില്ല."
 
@@ -1313,10 +1321,10 @@ msgstr "കോളങ്ങൾ ടോഗിൾ ചെയ്യുക"
 msgid "Toggle right panel"
 msgstr "വലത് പാനൽ ടോഗിൾ ചെയ്യുക"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "വിഭാഗം മാറ്റുക"
 
@@ -1339,19 +1347,19 @@ msgstr "തീം ടോഗിൾ ചെയ്യുക"
 msgid "Top"
 msgstr "മുകളിൽ"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Track \"{track}\" deleted"
 msgstr "\"{track}\" ട്രാക്ക് ഇല്ലാതാക്കി"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:439
 msgid "Track \"{track}\" updated to {version}"
 msgstr "\"{track}\" ട്രാക്ക് {version}-ലേക്ക് അപ്ഡേറ്റ് ചെയ്തു"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:421
 msgid "Track created"
 msgstr "ട്രാക്ക് സൃഷ്ടിച്ചു"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Track Name"
 msgstr "ട്രാക്ക് പേര്"
 
@@ -1386,7 +1394,7 @@ msgstr "ഉപയോക്താക്കളെ തിരയാൻ ടൈപ്�
 msgid "Type to search..."
 msgstr "തിരയാൻ ടൈപ്പ് ചെയ്യുക..."
 
-#: ../../../lib/web/src/lib/api-client.ts:280
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:267
 msgid "Unable to connect to remote server"
 msgstr "റിമോട്ട് സെർവറുമായി കണക്റ്റ് ചെയ്യാൻ കഴിഞ്ഞില്ല"
 
@@ -1411,31 +1419,31 @@ msgstr "യുണൈറ്റഡ് സ്റ്റേറ്റ്സ്"
 msgid "Unverified"
 msgstr "സ്ഥിരീകരിച്ചിട്ടില്ല"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Update Tracks"
 msgstr "ട്രാക്കുകൾ അപ്ഡേറ്റ് ചെയ്യുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Upload a .zip build file for your application."
 msgstr "നിങ്ങളുടെ ആപ്ലിക്കേഷനായി ഒരു .zip ബിൽഡ് ഫയൽ അപ്‌ലോഡ് ചെയ്യുക."
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:198
 msgid "Upload new version"
 msgstr "പുതിയ പതിപ്പ് അപ്‌ലോഡ് ചെയ്യുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload New Version"
 msgstr "പുതിയ പതിപ്പ് അപ്‌ലോഡ് ചെയ്യുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Upload version"
 msgstr "പതിപ്പ് അപ്‌ലോഡ് ചെയ്യുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:275
 msgid "Upload your first build to get started"
 msgstr "ആരംഭിക്കാൻ നിങ്ങളുടെ ആദ്യ ബിൽഡ് അപ്‌ലോഡ് ചെയ്യുക"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Uploading..."
 msgstr "അപ്‌ലോഡ് ചെയ്യുന്നു..."
 
@@ -1447,7 +1455,7 @@ msgstr "നിങ്ങളുടെ പാസ്‌കീ ഉപയോഗിക�
 msgid "User"
 msgstr "ഉപയോക്താവ്"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:253
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "ഉപയോക്താക്കൾക്ക് ഈ ലിങ്ക് അവരുടെ ആപ്പുകൾ പേജിൽ ഒട്ടിച്ച് ഈ ആപ്ലിക്കേഷൻ ഇൻസ്റ്റാൾ ചെയ്യാം."
 
@@ -1474,15 +1482,15 @@ msgid "Verify email address"
 msgstr "ഇമെയിൽ വിലാസം സ്ഥിരീകരിക്കുക"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:661
+#: src/routes/_authenticated/app/$appId.tsx:663
 msgid "Version {0} has been created."
 msgstr "പതിപ്പ് {0} സൃഷ്ടിച്ചു."
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "Version History"
 msgstr "പതിപ്പ് ചരിത്രം"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:662
 msgid "Version uploaded"
 msgstr "പതിപ്പ് അപ്‌ലോഡ് ചെയ്തു"
 
@@ -1516,11 +1524,11 @@ msgid "Wednesday"
 msgstr "ബുധനാഴ്ച"
 
 #: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "Yes"
 msgstr "അതെ"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Yes, force"
 msgstr "അതെ, നിർബന്ധിക്കുക"
 

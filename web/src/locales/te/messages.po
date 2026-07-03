@@ -53,7 +53,7 @@ msgstr "ఖాతా రకం"
 msgid "Account verified"
 msgstr "ఖాతా ధృవీకరించబడింది"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:503
 msgid "Active version"
 msgstr "క్రియాశీల వెర్షన్"
 
@@ -82,7 +82,7 @@ msgstr "నోటిఫికేషన్‌లను అందుకోవడ�
 msgid "Add new account"
 msgstr "కొత్త ఖాతాను జోడించండి"
 
-#: ../../../lib/web/src/components/post-tags.tsx:129
+#: ../../../lib/web/src/components/post-tags.tsx:133
 msgid "Add tag..."
 msgstr "ట్యాగ్‌ను జోడించండి..."
 
@@ -111,20 +111,20 @@ msgstr "AI"
 msgid "All"
 msgstr "అన్నీ"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "All uploaded build files for this application"
 msgstr "ఈ అప్లికేషన్ కోసం అప్‌లోడ్ చేయబడిన అన్ని బిల్డ్ ఫైల్‌లు"
 
-#: ../../../lib/web/src/lib/api-client.ts:192
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "లోపం సంభవించింది"
 
-#: ../../../lib/web/src/lib/api-client.ts:255
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:241
 msgid "An unexpected error occurred"
 msgstr "ఊహించని లోపం సంభవించింది"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:101
+#: src/routes/_authenticated/app/$appId.tsx:135
 msgid "App"
 msgstr "యాప్"
 
@@ -132,14 +132,14 @@ msgstr "యాప్"
 msgid "App created"
 msgstr "యాప్ సృష్టించబడింది"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "App not found"
 msgstr "యాప్ కనుగొనబడలేదు"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Application ID"
 msgstr "అప్లికేషన్ ID"
 
@@ -159,7 +159,7 @@ msgstr "ఆరోహణ"
 msgid "Authenticator code"
 msgstr "ఆథెంటికేటర్ కోడ్"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Available Versions"
 msgstr "అందుబాటులో ఉన్న వెర్షన్‌లు"
 
@@ -167,12 +167,12 @@ msgstr "అందుబాటులో ఉన్న వెర్షన్‌ల�
 msgid "Back"
 msgstr "వెనుకకు"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:175
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Back to apps"
 msgstr "యాప్‌లకు తిరిగి"
 
@@ -182,12 +182,12 @@ msgstr "యాప్‌లకు తిరిగి"
 msgid "Back to home"
 msgstr "హోమ్‌కు తిరిగి వెళ్ళండి"
 
-#: ../../../lib/web/src/components/post-tags.tsx:172
-#: ../../../lib/web/src/components/post-tags.tsx:184
+#: ../../../lib/web/src/components/post-tags.tsx:176
+#: ../../../lib/web/src/components/post-tags.tsx:188
 msgid "Boost interest"
 msgstr "ఆసక్తిని పెంచండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Build File (.zip)"
 msgstr "బిల్డ్ ఫైల్ (.zip)"
 
@@ -201,8 +201,8 @@ msgstr "బిల్డ్ ఫైల్ (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
 #: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/routes/_authenticated/app/$appId.tsx:604
+#: src/routes/_authenticated/app/$appId.tsx:746
 msgid "Cancel"
 msgstr "రద్దు చేయండి"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "ఎంపికను క్లియర్ చేయండి (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "మూసివేయండి"
@@ -285,8 +285,8 @@ msgstr "శోధనను మూసివేయండి"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "కుదించు"
 
@@ -332,11 +332,11 @@ msgstr "{label}తో కొనసాగించండి"
 msgid "Copy"
 msgstr "కాపీ చేయండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:344
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "ఈ లింక్‌ను కాపీ చేసి, ఇన్‌స్టాల్ చేయడానికి మీ Mochi సర్వర్ యొక్క యాప్‌లు పేజీలో పేస్ట్ చేయండి."
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Core identification for this application"
 msgstr "ఈ అప్లికేషన్ కోసం కోర్ గుర్తింపు"
 
@@ -356,7 +356,7 @@ msgstr "పునఃప్రమాణీకరణను ప్రారంభ�
 msgid "Couldn't verify with that account. Please try again."
 msgstr "ఆ ఖాతాతో ధృవీకరించడం సాధ్యం కాలేదు. దయచేసి మళ్లీ ప్రయత్నించండి."
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "బిల్డ్‌లను డిప్లాయ్ చేయడానికి కొత్త వాతావరణాన్ని (ఉదా. Beta, Staging) సృష్టించండి."
 
@@ -373,8 +373,8 @@ msgstr "యాప్‌ను సృష్టించండి"
 msgid "Create new app"
 msgstr "కొత్త యాప్‌ను సృష్టించండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Create track"
 msgstr "ట్రాక్‌ను సృష్టించండి"
 
@@ -382,12 +382,12 @@ msgstr "ట్రాక్‌ను సృష్టించండి"
 msgid "Create your first app to get started"
 msgstr "ప్రారంభించడానికి మీ మొదటి యాప్‌ను సృష్టించండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Create your first release track to manage deployments"
 msgstr "డిప్లాయ్‌మెంట్‌లను నిర్వహించడానికి మీ మొదటి రిలీజ్ ట్రాక్‌ను సృష్టించండి"
 
 #: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Creating..."
 msgstr "సృష్టిస్తోంది..."
 
@@ -416,11 +416,11 @@ msgstr "డిఫాల్ట్"
 msgid "Default AI account"
 msgstr "డిఫాల్ట్ AI ఖాతా"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Default track set to \"{track}\""
 msgstr "డిఫాల్ట్ ట్రాక్ \"{track}\"కి సెట్ చేయబడింది"
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:546
 msgid "Delete track"
 msgstr "ట్రాక్‌ను తొలగించండి"
 
@@ -436,7 +436,7 @@ msgstr "అవరోహణ"
 msgid "Descending"
 msgstr "అవరోహణ"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Details"
 msgstr "వివరాలు"
 
@@ -468,24 +468,28 @@ msgstr "విస్మరించండి"
 msgid "Displays the mobile sidebar."
 msgstr "మొబైల్ సైడ్‌బార్‌ను ప్రదర్శిస్తుంది."
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:229
 msgid "Distribution"
 msgstr "పంపిణీ"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:84
 msgid "Distribution set to {distribution}"
 msgstr "పంపిణీ {distribution}కి సెట్ చేయబడింది"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "డౌన్‌లోడ్"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr "డౌన్‌లోడ్ విఫలమైంది"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "డిస్లెక్సియా-అనుకూలం"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "e.g. Staging"
 msgstr "ఉదా. Staging"
 
@@ -507,8 +511,8 @@ msgstr "మీ ప్రమాణీకరణ కోడ్‌ను నమోద
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "విస్తరించు"
 
@@ -528,11 +532,11 @@ msgstr "ఖాతాను జోడించడంలో విఫలమైం�
 msgid "Failed to create app"
 msgstr "యాప్‌ను సృష్టించడంలో విఫలమైంది"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Failed to create track"
 msgstr "ట్రాక్‌ను సృష్టించడంలో విఫలమైంది"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:456
 msgid "Failed to delete track"
 msgstr "ట్రాక్‌ను తొలగించడంలో విఫలమైంది"
 
@@ -544,7 +548,7 @@ msgstr "ఖాతాను తీసివేయడంలో విఫలమై�
 msgid "Failed to send verification code"
 msgstr "ధృవీకరణ కోడ్‌ను పంపడంలో విఫలమైంది"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "Failed to set default track"
 msgstr "డిఫాల్ట్ ట్రాక్‌ను సెట్ చేయడంలో విఫలమైంది"
 
@@ -552,20 +556,20 @@ msgstr "డిఫాల్ట్ ట్రాక్‌ను సెట్ చే
 msgid "Failed to update category"
 msgstr "విభాగాన్ని నవీకరించడంలో విఫలమైంది"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "పంపిణీని నవీకరించడంలో విఫలమైంది"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:442
 msgid "Failed to update track"
 msgstr "ట్రాక్‌ను నవీకరించడంలో విఫలమైంది"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:675
 msgid "Failed to upload version"
 msgstr "వెర్షన్‌ను అప్‌లోడ్ చేయడంలో విఫలమైంది"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Fingerprint"
 msgstr "వేలిముద్ర"
 
@@ -651,7 +655,7 @@ msgstr "హోమ్"
 msgid "Hot"
 msgstr "హాట్"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Identity"
 msgstr "గుర్తింపు"
 
@@ -659,7 +663,7 @@ msgstr "గుర్తింపు"
 msgid "Imperial"
 msgstr "ఇంపీరియల్"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Initial Version"
 msgstr "ప్రారంభ వెర్షన్"
 
@@ -667,20 +671,20 @@ msgstr "ప్రారంభ వెర్షన్"
 msgid "Inset"
 msgstr "ఇన్‌సెట్"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install App"
 msgstr "యాప్‌ను ఇన్‌స్టాల్ చేయండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Install link:"
 msgstr "ఇన్‌స్టాల్ లింక్:"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Install Locally"
 msgstr "స్థానికంగా ఇన్‌స్టాల్ చేయండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install this application to your server"
 msgstr "ఈ అప్లికేషన్‌ను మీ సర్వర్‌లో ఇన్‌స్టాల్ చేయండి"
 
@@ -706,7 +710,7 @@ msgstr "లేఅవుట్"
 msgid "Learn more"
 msgstr "మరింత తెలుసుకోండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:589
 msgid "Leave empty"
 msgstr "ఖాళీగా ఉంచండి"
 
@@ -723,9 +727,13 @@ msgstr "లైట్"
 msgid "Load more"
 msgstr "మరింత లోడ్ చేయండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:107
 msgid "Loading app..."
 msgstr "యాప్ లోడ్ చేస్తోంది..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr "కంటెంట్ లోడ్ అవుతోంది…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -758,7 +766,7 @@ msgstr "లాగ్ అవుట్ చేస్తోంది…"
 msgid "Make app publicly available"
 msgstr "యాప్‌ను పబ్లిక్‌గా అందుబాటులో ఉంచండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Manage deployment environments and their versions"
 msgstr "డిప్లాయ్‌మెంట్ ఎన్విరాన్‌మెంట్‌లు మరియు వాటి వెర్షన్‌లను నిర్వహించండి"
 
@@ -776,7 +784,7 @@ msgstr "మధ్యస్థం"
 msgid "Menu"
 msgstr "మెను"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Metadata and configuration"
 msgstr "మెటాడేటా మరియు కాన్ఫిగరేషన్"
 
@@ -792,7 +800,7 @@ msgstr "సోమవారం"
 msgid "My App"
 msgstr "నా యాప్"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:360
 msgid "N/A"
 msgstr "వర్తించదు"
 
@@ -800,7 +808,7 @@ msgstr "వర్తించదు"
 msgid "Name"
 msgstr "పేరు"
 
-#: ../../../lib/web/src/lib/api-client.ts:300
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:288
 msgid "Network error"
 msgstr "నెట్‌వర్క్ లోపం"
 
@@ -808,17 +816,17 @@ msgstr "నెట్‌వర్క్ లోపం"
 msgid "New"
 msgstr "కొత్తది"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "New Release Track"
 msgstr "కొత్త రిలీజ్ ట్రాక్"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "తదుపరి చిత్రం"
 
 #: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/routes/_authenticated/app/$appId.tsx:717
 msgid "No"
 msgstr "కాదు"
 
@@ -859,7 +867,7 @@ msgstr "టైం జోన్ కనుగొనబడలేదు."
 msgid "No topic record yet — try again after the next notification."
 msgstr "ఇంకా టాపిక్ రికార్డ్ లేదు — తదుపరి నోటిఫికేషన్ తర్వాత మళ్లీ ప్రయత్నించండి."
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:485
 msgid "No tracks"
 msgstr "ట్రాక్‌లు లేవు"
 
@@ -867,11 +875,11 @@ msgstr "ట్రాక్‌లు లేవు"
 msgid "No users found"
 msgstr "యూజర్‌లు ఎవరూ కనుగొనబడలేదు"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:586
 msgid "No version"
 msgstr "వెర్షన్ లేదు"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "No versions"
 msgstr "వెర్షన్‌లు లేవు"
 
@@ -906,8 +914,8 @@ msgstr "అయ్యో! పేజీ కనుగొనబడలేదు!"
 msgid "Open account actions"
 msgstr "ఖాతా చర్యలను ఓపెన్ చేయండి"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "చర్యలను తెరవండి"
 
@@ -926,8 +934,8 @@ msgstr "నావిగేషన్ మెనుని ఓపెన్ చేయ
 msgid "Open theme settings"
 msgstr "థీమ్ సెట్టింగ్‌లను ఓపెన్ చేయండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:526
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Open track actions"
 msgstr "ట్రాక్ చర్యలను ఓపెన్ చేయండి"
 
@@ -951,7 +959,7 @@ msgstr "పాస్‌కీ ధృవీకరణ విఫలమైంది.
 msgid "Passkeys"
 msgstr "పాస్‌కీలు"
 
-#: ../../../lib/web/src/lib/api-client.ts:301
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:289
 msgid "Please check your internet connection and try again."
 msgstr "దయచేసి మీ ఇంటర్నెట్ కనెక్షన్‌ను తనిఖీ చేసి మళ్లీ ప్రయత్నించండి."
 
@@ -959,27 +967,27 @@ msgstr "దయచేసి మీ ఇంటర్నెట్ కనెక్ష
 msgid "Please enter an app name"
 msgstr "యాప్ పేరును ఎంటర్ చేయండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:651
 msgid "Please select a file"
 msgstr "ఫైల్‌ను ఎంచుకోండి"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "మునుపటి చిత్రం"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "Privacy"
 msgstr "గోప్యత"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Privacy Policy"
 msgstr "గోప్యతా విధానం"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Private"
 msgstr "ప్రైవేట్"
 
@@ -989,12 +997,12 @@ msgid "Profile"
 msgstr "ప్రొఫైల్"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Public"
 msgstr "పబ్లిక్"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Published"
 msgstr "పబ్లిష్ చేయబడింది"
 
@@ -1024,8 +1032,8 @@ msgstr "రికమెండ్ చేయబడింది"
 msgid "Redirecting to login."
 msgstr "లాగిన్‌కు రీడైరెక్ట్ చేస్తోంది."
 
-#: ../../../lib/web/src/components/post-tags.tsx:192
-#: ../../../lib/web/src/components/post-tags.tsx:204
+#: ../../../lib/web/src/components/post-tags.tsx:196
+#: ../../../lib/web/src/components/post-tags.tsx:208
 msgid "Reduce interest"
 msgstr "ఆసక్తిని తగ్గించండి"
 
@@ -1037,11 +1045,11 @@ msgstr "సాపేక్ష (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24 గంటల్లో సాపేక్ష, లేకపోతే నిరపేక్ష"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Release Tracks"
 msgstr "రిలీజ్ ట్రాక్‌లు"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Release tracks currently active"
 msgstr "ప్రస్తుతం యాక్టివ్‌గా ఉన్న రిలీజ్ ట్రాక్‌లు"
 
@@ -1059,8 +1067,8 @@ msgstr "యాక్సెస్ నియమాన్ని తొలగిం�
 msgid "Remove access?"
 msgstr "యాక్సెస్‌ను తొలగించాలా?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:212
-#: ../../../lib/web/src/components/post-tags.tsx:224
+#: ../../../lib/web/src/components/post-tags.tsx:216
+#: ../../../lib/web/src/components/post-tags.tsx:228
 msgid "Remove interest"
 msgstr "ఆసక్తిని తొలగించండి"
 
@@ -1078,7 +1086,7 @@ msgid "Reset all settings to default values"
 msgstr "అన్ని సెట్టింగ్‌లను డిఫాల్ట్ విలువలకు రీసెట్ చేయండి"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Restricted"
 msgstr "నిషేధించబడింది"
 
@@ -1173,8 +1181,8 @@ msgstr "ఇమెయిల్ పంపండి"
 msgid "Serif"
 msgstr "సెరిఫ్"
 
-#: ../../../lib/web/src/lib/api-client.ts:259
-#: ../../../lib/web/src/lib/api-client.ts:284
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:245
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:271
 msgid "Server error"
 msgstr "సర్వర్ లోపం"
 
@@ -1183,11 +1191,11 @@ msgstr "సర్వర్ లోపం"
 msgid "Server rules"
 msgstr "సర్వర్ నియమాలు"
 
-#: ../../../lib/web/src/lib/api-client.ts:227
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:209
 msgid "Session expired"
 msgstr "సెషన్ గడువు ముగిసింది"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:539
 msgid "Set as default"
 msgstr "డిఫాల్ట్‌గా సెట్ చేయండి"
 
@@ -1203,11 +1211,11 @@ msgstr "మూలం మరియు గమ్యస్థానాన్ని 
 msgid "Settings"
 msgstr "సెట్టింగ్‌లు"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Share this link to allow others to install this app"
 msgstr "ఇతరులు ఈ యాప్‌ను ఇన్‌స్టాల్ చేయడానికి అనుమతించడానికి ఈ లింక్‌ను భాగస్వామ్యం చేయండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Sharing"
 msgstr "షేరింగ్"
 
@@ -1269,8 +1277,8 @@ msgstr "సిస్టమ్"
 msgid "Tag"
 msgstr "ట్యాగ్"
 
-#: ../../../lib/web/src/components/post-tags.tsx:96
-#: ../../../lib/web/src/components/post-tags.tsx:107
+#: ../../../lib/web/src/components/post-tags.tsx:100
+#: ../../../lib/web/src/components/post-tags.tsx:111
 msgid "Tags"
 msgstr "ట్యాగ్‌లు"
 
@@ -1287,8 +1295,8 @@ msgstr "నియమాలు మరియు షరతులు"
 msgid "That code is incorrect or has expired."
 msgstr "ఆ కోడ్ తప్పు లేదా గడువు ముగిసింది."
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:151
 msgid "The requested app could not be found."
 msgstr "అభ్యర్థించిన యాప్ కనుగొనబడలేదు."
 
@@ -1313,10 +1321,10 @@ msgstr "కాలమ్‌లను టోగుల్ చేయండి"
 msgid "Toggle right panel"
 msgstr "కుడి ప్యానెల్‌ను టోగుల్ చేయండి"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "విభాగాన్ని మార్చు"
 
@@ -1339,19 +1347,19 @@ msgstr "థీమ్‌ను టోగుల్ చేయండి"
 msgid "Top"
 msgstr "ఎగువ"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Track \"{track}\" deleted"
 msgstr "ట్రాక్ \"{track}\" తొలగించబడింది"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:439
 msgid "Track \"{track}\" updated to {version}"
 msgstr "ట్రాక్ \"{track}\" {version}కు నవీకరించబడింది"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:421
 msgid "Track created"
 msgstr "ట్రాక్ సృష్టించబడింది"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Track Name"
 msgstr "ట్రాక్ పేరు"
 
@@ -1386,7 +1394,7 @@ msgstr "యూజర్లను శోధించడానికి టైప�
 msgid "Type to search..."
 msgstr "శోధించడానికి టైప్ చేయండి..."
 
-#: ../../../lib/web/src/lib/api-client.ts:280
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:267
 msgid "Unable to connect to remote server"
 msgstr "రిమోట్ సర్వర్‌కు కనెక్ట్ చేయడం సాధ్యం కాలేదు"
 
@@ -1411,31 +1419,31 @@ msgstr "యునైటెడ్ స్టేట్స్"
 msgid "Unverified"
 msgstr "ధృవీకరించబడలేదు"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Update Tracks"
 msgstr "ట్రాక్‌లను నవీకరించండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Upload a .zip build file for your application."
 msgstr "మీ అప్లికేషన్ కోసం ఒక .zip బిల్డ్ ఫైల్‌ను అప్‌లోడ్ చేయండి."
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:198
 msgid "Upload new version"
 msgstr "కొత్త వెర్షన్‌ను అప్‌లోడ్ చేయండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload New Version"
 msgstr "కొత్త వెర్షన్‌ను అప్‌లోడ్ చేయండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Upload version"
 msgstr "వెర్షన్‌ను అప్‌లోడ్ చేయండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:275
 msgid "Upload your first build to get started"
 msgstr "ప్రారంభించడానికి మీ మొదటి బిల్డ్‌ను అప్‌లోడ్ చేయండి"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Uploading..."
 msgstr "అప్‌లోడ్ చేస్తోంది..."
 
@@ -1447,7 +1455,7 @@ msgstr "మీ పాస్‌కీని ఉపయోగించండి"
 msgid "User"
 msgstr "యూజర్"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:253
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "వినియోగదారులు ఈ లింక్‌ను తమ యాప్‌లు పేజీలో పేస్ట్ చేయడం ద్వారా ఈ అప్లికేషన్‌ను ఇన్‌స్టాల్ చేయవచ్చు."
 
@@ -1474,15 +1482,15 @@ msgid "Verify email address"
 msgstr "ఇమెయిల్ చిరునామాను ధృవీకరించండి"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:661
+#: src/routes/_authenticated/app/$appId.tsx:663
 msgid "Version {0} has been created."
 msgstr "వెర్షన్ {0} సృష్టించబడింది."
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "Version History"
 msgstr "వెర్షన్ హిస్టరీ"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:662
 msgid "Version uploaded"
 msgstr "వెర్షన్ అప్‌లోడ్ చేయబడింది"
 
@@ -1516,11 +1524,11 @@ msgid "Wednesday"
 msgstr "బుధవారం"
 
 #: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "Yes"
 msgstr "అవును"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Yes, force"
 msgstr "అవును, ఫోర్స్"
 

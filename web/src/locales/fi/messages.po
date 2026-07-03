@@ -53,7 +53,7 @@ msgstr "Tilin tyyppi"
 msgid "Account verified"
 msgstr "Tili vahvistettu"
 
-#: src/routes/_authenticated/app/$appId.tsx:501
+#: src/routes/_authenticated/app/$appId.tsx:503
 msgid "Active version"
 msgstr "Aktiivinen versio"
 
@@ -82,7 +82,7 @@ msgstr "Lisää tili saadaksesi ilmoituksia ja käyttääksesi palveluita."
 msgid "Add new account"
 msgstr "Lisää uusi tili"
 
-#: ../../../lib/web/src/components/post-tags.tsx:129
+#: ../../../lib/web/src/components/post-tags.tsx:133
 msgid "Add tag..."
 msgstr "Lisää tunniste..."
 
@@ -111,20 +111,20 @@ msgstr "Tekoäly"
 msgid "All"
 msgstr "Kaikki"
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "All uploaded build files for this application"
 msgstr "Kaikki tämän sovelluksen ladatut build-tiedostot"
 
-#: ../../../lib/web/src/lib/api-client.ts:192
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "Tapahtui virhe"
 
-#: ../../../lib/web/src/lib/api-client.ts:255
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:241
 msgid "An unexpected error occurred"
 msgstr "Tapahtui odottamaton virhe"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
-#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:101
+#: src/routes/_authenticated/app/$appId.tsx:135
 msgid "App"
 msgstr "Sovellus"
 
@@ -132,14 +132,14 @@ msgstr "Sovellus"
 msgid "App created"
 msgstr "Sovellus luotu"
 
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:124
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:149
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:125
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:150
 msgid "App not found"
 msgstr "Sovellusta ei löydy"
 
-#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:214
 msgid "Application ID"
 msgstr "Sovelluksen tunnus"
 
@@ -159,7 +159,7 @@ msgstr "Nouseva"
 msgid "Authenticator code"
 msgstr "Todennuskoodi"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Available Versions"
 msgstr "Saatavilla olevat versiot"
 
@@ -167,12 +167,12 @@ msgstr "Saatavilla olevat versiot"
 msgid "Back"
 msgstr "Takaisin"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
-#: src/routes/_authenticated/app/$appId.tsx:120
-#: src/routes/_authenticated/app/$appId.tsx:134
-#: src/routes/_authenticated/app/$appId.tsx:145
-#: src/routes/_authenticated/app/$appId.tsx:174
-#: src/routes/_authenticated/app/$appId.tsx:337
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:121
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:146
+#: src/routes/_authenticated/app/$appId.tsx:175
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Back to apps"
 msgstr "Takaisin sovelluksiin"
 
@@ -182,12 +182,12 @@ msgstr "Takaisin sovelluksiin"
 msgid "Back to home"
 msgstr "Takaisin etusivulle"
 
-#: ../../../lib/web/src/components/post-tags.tsx:172
-#: ../../../lib/web/src/components/post-tags.tsx:184
+#: ../../../lib/web/src/components/post-tags.tsx:176
+#: ../../../lib/web/src/components/post-tags.tsx:188
 msgid "Boost interest"
 msgstr "Korosta kiinnostusta"
 
-#: src/routes/_authenticated/app/$appId.tsx:692
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Build File (.zip)"
 msgstr "Koontitiedosto (.zip)"
 
@@ -201,8 +201,8 @@ msgstr "Koontitiedosto (.zip)"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
 #: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:602
-#: src/routes/_authenticated/app/$appId.tsx:744
+#: src/routes/_authenticated/app/$appId.tsx:604
+#: src/routes/_authenticated/app/$appId.tsx:746
 msgid "Cancel"
 msgstr "Peruuta"
 
@@ -263,8 +263,8 @@ msgid "Clear selection (Escape)"
 msgstr "Tyhjennä valinta (Escape)"
 
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:332
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:335
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:354
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:357
 #: ../../../lib/web/src/components/ui/sheet.tsx:79
 msgid "Close"
 msgstr "Sulje"
@@ -285,8 +285,8 @@ msgstr "Sulje haku"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Collapse"
 msgstr "Tiivistä"
 
@@ -332,11 +332,11 @@ msgstr "Jatka käyttäen palvelua {label}"
 msgid "Copy"
 msgstr "Kopioi"
 
-#: src/routes/_authenticated/app/$appId.tsx:343
+#: src/routes/_authenticated/app/$appId.tsx:344
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kopioi tämä linkki ja liitä se Mochi-palvelimesi Sovellukset-sivulle asentaaksesi."
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Core identification for this application"
 msgstr "Tämän sovelluksen ydintunniste"
 
@@ -356,7 +356,7 @@ msgstr "Uudelleentodennuksen aloittaminen ei onnistunut. Yritä uudelleen."
 msgid "Couldn't verify with that account. Please try again."
 msgstr "Vahvistaminen tällä tilillä ei onnistunut. Yritä uudelleen."
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
 msgstr "Luo uusi ympäristö (esim. Beta, Staging) buildien julkaisua varten."
 
@@ -373,8 +373,8 @@ msgstr "Luo sovellus"
 msgid "Create new app"
 msgstr "Luo uusi sovellus"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:204
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Create track"
 msgstr "Luo Track"
 
@@ -382,12 +382,12 @@ msgstr "Luo Track"
 msgid "Create your first app to get started"
 msgstr "Luo ensimmäinen sovelluksesi aloittaaksesi"
 
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Create your first release track to manage deployments"
 msgstr "Luo ensimmäinen julkaisu-Track hallitaksesi käyttöönottoja"
 
 #: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:609
+#: src/routes/_authenticated/app/$appId.tsx:611
 msgid "Creating..."
 msgstr "Luodaan..."
 
@@ -416,11 +416,11 @@ msgstr "Oletus"
 msgid "Default AI account"
 msgstr "Oletustekoälytili"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Default track set to \"{track}\""
 msgstr "Oletus-Trackiksi asetettu \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:544
+#: src/routes/_authenticated/app/$appId.tsx:546
 msgid "Delete track"
 msgstr "Poista Track"
 
@@ -436,7 +436,7 @@ msgstr "Laskeva"
 msgid "Descending"
 msgstr "Laskeva"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Details"
 msgstr "Tiedot"
 
@@ -468,24 +468,28 @@ msgstr "Hylkää"
 msgid "Displays the mobile sidebar."
 msgstr "Näyttää mobiilisivupalkin."
 
-#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:229
 msgid "Distribution"
 msgstr "Jakelu"
 
-#: src/routes/_authenticated/app/$appId.tsx:83
+#: src/routes/_authenticated/app/$appId.tsx:84
 msgid "Distribution set to {distribution}"
 msgstr "Jakelu asetettu: {distribution}"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:320
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:326
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:338
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:348
 msgid "Download"
 msgstr "Lataa"
+
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:68
+msgid "Download failed"
+msgstr "Lataus epäonnistui"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:146
 msgid "Dyslexia-friendly"
 msgstr "Lukihäiriöystävällinen"
 
-#: src/routes/_authenticated/app/$appId.tsx:575
+#: src/routes/_authenticated/app/$appId.tsx:577
 msgid "e.g. Staging"
 msgstr "esim. Staging"
 
@@ -507,8 +511,8 @@ msgstr "Anna todennussovelluksen koodi"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
-#: ../../../lib/web/src/components/tree-row.tsx:255
-#: ../../../lib/web/src/components/tree-row.tsx:269
+#: ../../../lib/web/src/components/tree-row.tsx:338
+#: ../../../lib/web/src/components/tree-row.tsx:352
 msgid "Expand"
 msgstr "Laajenna"
 
@@ -528,11 +532,11 @@ msgstr "Tilin lisääminen epäonnistui"
 msgid "Failed to create app"
 msgstr "Sovelluksen luominen epäonnistui"
 
-#: src/routes/_authenticated/app/$appId.tsx:426
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Failed to create track"
 msgstr "Raidan luominen epäonnistui"
 
-#: src/routes/_authenticated/app/$appId.tsx:454
+#: src/routes/_authenticated/app/$appId.tsx:456
 msgid "Failed to delete track"
 msgstr "Raidan poistaminen epäonnistui"
 
@@ -544,7 +548,7 @@ msgstr "Tilin poisto epäonnistui"
 msgid "Failed to send verification code"
 msgstr "Vahvistuskoodin lähetys epäonnistui"
 
-#: src/routes/_authenticated/app/$appId.tsx:468
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "Failed to set default track"
 msgstr "Oletusraidan asettaminen epäonnistui"
 
@@ -552,20 +556,20 @@ msgstr "Oletusraidan asettaminen epäonnistui"
 msgid "Failed to update category"
 msgstr "Kategorian päivitys epäonnistui"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:87
 msgid "Failed to update distribution"
 msgstr "Jakelun päivitys epäonnistui"
 
-#: src/routes/_authenticated/app/$appId.tsx:440
+#: src/routes/_authenticated/app/$appId.tsx:442
 msgid "Failed to update track"
 msgstr "Raidan päivitys epäonnistui"
 
-#: src/routes/_authenticated/app/$appId.tsx:673
+#: src/routes/_authenticated/app/$appId.tsx:675
 msgid "Failed to upload version"
 msgstr "Version lähetys epäonnistui"
 
-#: src/routes/_authenticated/app/$appId.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:358
+#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Fingerprint"
 msgstr "Sormenjälki"
 
@@ -651,7 +655,7 @@ msgstr "Etusivu"
 msgid "Hot"
 msgstr "Kuuma"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
+#: src/routes/_authenticated/app/$appId.tsx:212
 msgid "Identity"
 msgstr "Identiteetti"
 
@@ -659,7 +663,7 @@ msgstr "Identiteetti"
 msgid "Imperial"
 msgstr "Brittiläinen"
 
-#: src/routes/_authenticated/app/$appId.tsx:581
+#: src/routes/_authenticated/app/$appId.tsx:583
 msgid "Initial Version"
 msgstr "Alkuperäinen versio"
 
@@ -667,20 +671,20 @@ msgstr "Alkuperäinen versio"
 msgid "Inset"
 msgstr "Sisennetty"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install App"
 msgstr "Asenna sovellus"
 
-#: src/routes/_authenticated/app/$appId.tsx:256
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:348
 msgid "Install link:"
 msgstr "Asennuslinkki:"
 
-#: src/routes/_authenticated/app/$appId.tsx:705
+#: src/routes/_authenticated/app/$appId.tsx:707
 msgid "Install Locally"
 msgstr "Asenna paikallisesti"
 
-#: src/routes/_authenticated/app/$appId.tsx:340
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Install this application to your server"
 msgstr "Asenna tämä sovellus palvelimellesi"
 
@@ -706,7 +710,7 @@ msgstr "Asettelu"
 msgid "Learn more"
 msgstr "Lue lisää"
 
-#: src/routes/_authenticated/app/$appId.tsx:587
+#: src/routes/_authenticated/app/$appId.tsx:589
 msgid "Leave empty"
 msgstr "Jätä tyhjäksi"
 
@@ -723,9 +727,13 @@ msgstr "Vaalea"
 msgid "Load more"
 msgstr "Lataa lisää"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:107
 msgid "Loading app..."
 msgstr "Ladataan sovellusta..."
+
+#: ../../../lib/web/src/components/ui/loading-content.tsx:29
+msgid "Loading content…"
+msgstr "Ladataan sisältöä…"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 #: ../../../lib/web/src/features/document/document-page.tsx:90
@@ -758,7 +766,7 @@ msgstr "Kirjaudutaan ulos…"
 msgid "Make app publicly available"
 msgstr "Aseta sovellus julkisesti saataville"
 
-#: src/routes/_authenticated/app/$appId.tsx:477
+#: src/routes/_authenticated/app/$appId.tsx:479
 msgid "Manage deployment environments and their versions"
 msgstr "Hallitse käyttöönottoympäristöjä ja niiden versioita"
 
@@ -776,7 +784,7 @@ msgstr "Keskikoko"
 msgid "Menu"
 msgstr "Valikko"
 
-#: src/routes/_authenticated/app/$appId.tsx:356
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Metadata and configuration"
 msgstr "Metatiedot ja asetukset"
 
@@ -792,7 +800,7 @@ msgstr "Maanantai"
 msgid "My App"
 msgstr "Sovellukseni"
 
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:360
 msgid "N/A"
 msgstr "Ei saatavilla"
 
@@ -800,7 +808,7 @@ msgstr "Ei saatavilla"
 msgid "Name"
 msgstr "Nimi"
 
-#: ../../../lib/web/src/lib/api-client.ts:300
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:288
 msgid "Network error"
 msgstr "Verkkovirhe"
 
@@ -808,17 +816,17 @@ msgstr "Verkkovirhe"
 msgid "New"
 msgstr "Uusi"
 
-#: src/routes/_authenticated/app/$appId.tsx:563
+#: src/routes/_authenticated/app/$appId.tsx:565
 msgid "New Release Track"
 msgstr "Uusi julkaisukanava"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:366
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:371
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "Seuraava kuva"
 
 #: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/routes/_authenticated/app/$appId.tsx:717
 msgid "No"
 msgstr "Ei"
 
@@ -859,7 +867,7 @@ msgstr "Aikavyöhykettä ei löytynyt."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Ei vielä aihetietoa — yritä uudelleen seuraavan ilmoituksen jälkeen."
 
-#: src/routes/_authenticated/app/$appId.tsx:483
+#: src/routes/_authenticated/app/$appId.tsx:485
 msgid "No tracks"
 msgstr "Ei kanavia"
 
@@ -867,11 +875,11 @@ msgstr "Ei kanavia"
 msgid "No users found"
 msgstr "Käyttäjiä ei löytynyt"
 
-#: src/routes/_authenticated/app/$appId.tsx:584
+#: src/routes/_authenticated/app/$appId.tsx:586
 msgid "No version"
 msgstr "Ei versiota"
 
-#: src/routes/_authenticated/app/$appId.tsx:273
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "No versions"
 msgstr "Ei versioita"
 
@@ -906,8 +914,8 @@ msgstr "Hups! Sivua ei löytynyt!"
 msgid "Open account actions"
 msgstr "Avaa tilin toiminnot"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:152
-#: ../../../lib/web/src/components/layout/nav-group.tsx:157
+#: ../../../lib/web/src/components/layout/nav-group.tsx:182
+#: ../../../lib/web/src/components/layout/nav-group.tsx:187
 msgid "Open actions"
 msgstr "Avaa toiminnot"
 
@@ -926,8 +934,8 @@ msgstr "Avaa navigointivalikko"
 msgid "Open theme settings"
 msgstr "Avaa teeman asetukset"
 
-#: src/routes/_authenticated/app/$appId.tsx:524
-#: src/routes/_authenticated/app/$appId.tsx:529
+#: src/routes/_authenticated/app/$appId.tsx:526
+#: src/routes/_authenticated/app/$appId.tsx:531
 msgid "Open track actions"
 msgstr "Avaa kanavan toiminnot"
 
@@ -951,7 +959,7 @@ msgstr "Avainkoodin vahvistus epäonnistui. Yritä uudelleen."
 msgid "Passkeys"
 msgstr "Avainkoodit"
 
-#: ../../../lib/web/src/lib/api-client.ts:301
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:289
 msgid "Please check your internet connection and try again."
 msgstr "Tarkista internetyhteytesi ja yritä uudelleen."
 
@@ -959,27 +967,27 @@ msgstr "Tarkista internetyhteytesi ja yritä uudelleen."
 msgid "Please enter an app name"
 msgstr "Syötä sovelluksen nimi"
 
-#: src/routes/_authenticated/app/$appId.tsx:649
+#: src/routes/_authenticated/app/$appId.tsx:651
 msgid "Please select a file"
 msgstr "Valitse tiedosto"
 
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:351
-#: ../../../lib/web/src/components/ui/image-lightbox.tsx:356
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:373
+#: ../../../lib/web/src/components/ui/image-lightbox.tsx:378
 msgid "Previous image"
 msgstr "Edellinen kuva"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:362
 msgid "Privacy"
 msgstr "Yksityisyys"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:220
 msgid "Privacy Policy"
 msgstr "Tietosuojakäytäntö"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:225
 msgid "Private"
 msgstr "Yksityinen"
 
@@ -989,12 +997,12 @@ msgid "Profile"
 msgstr "Profiili"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Public"
 msgstr "Julkinen"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:238
+#: src/routes/_authenticated/app/$appId.tsx:239
 msgid "Published"
 msgstr "Julkaistu"
 
@@ -1024,8 +1032,8 @@ msgstr "Suositeltu"
 msgid "Redirecting to login."
 msgstr "Uudelleenohjataan kirjautumiseen."
 
-#: ../../../lib/web/src/components/post-tags.tsx:192
-#: ../../../lib/web/src/components/post-tags.tsx:204
+#: ../../../lib/web/src/components/post-tags.tsx:196
+#: ../../../lib/web/src/components/post-tags.tsx:208
 msgid "Reduce interest"
 msgstr "Vähennä kiinnostusta"
 
@@ -1037,11 +1045,11 @@ msgstr "Suhteellinen (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Suhteellinen 24 tunnin sisällä, muuten absoluuttinen"
 
-#: src/routes/_authenticated/app/$appId.tsx:476
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Release Tracks"
 msgstr "Julkaisukanavat"
 
-#: src/routes/_authenticated/app/$appId.tsx:372
+#: src/routes/_authenticated/app/$appId.tsx:373
 msgid "Release tracks currently active"
 msgstr "Tällä hetkellä aktiiviset julkaisukanavat"
 
@@ -1059,8 +1067,8 @@ msgstr "Poista käyttöoikeussääntö"
 msgid "Remove access?"
 msgstr "Poistetaanko käyttöoikeus?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:212
-#: ../../../lib/web/src/components/post-tags.tsx:224
+#: ../../../lib/web/src/components/post-tags.tsx:216
+#: ../../../lib/web/src/components/post-tags.tsx:228
 msgid "Remove interest"
 msgstr "Poista kiinnostus"
 
@@ -1078,7 +1086,7 @@ msgid "Reset all settings to default values"
 msgstr "Palauta kaikki asetukset oletusarvoihin"
 
 #: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/routes/_authenticated/app/$appId.tsx:240
 msgid "Restricted"
 msgstr "Rajoitettu"
 
@@ -1173,8 +1181,8 @@ msgstr "Lähetä sähköposti"
 msgid "Serif"
 msgstr "Pääteviivallinen"
 
-#: ../../../lib/web/src/lib/api-client.ts:259
-#: ../../../lib/web/src/lib/api-client.ts:284
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:245
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:271
 msgid "Server error"
 msgstr "Palvelinvirhe"
 
@@ -1183,11 +1191,11 @@ msgstr "Palvelinvirhe"
 msgid "Server rules"
 msgstr "Palvelimen säännöt"
 
-#: ../../../lib/web/src/lib/api-client.ts:227
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:209
 msgid "Session expired"
 msgstr "Istunto vanhentui"
 
-#: src/routes/_authenticated/app/$appId.tsx:537
+#: src/routes/_authenticated/app/$appId.tsx:539
 msgid "Set as default"
 msgstr "Aseta oletukseksi"
 
@@ -1203,11 +1211,11 @@ msgstr "Aseta lähtöpaikka ja määränpää"
 msgid "Settings"
 msgstr "Asetukset"
 
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Share this link to allow others to install this app"
 msgstr "Jaa tämä linkki, jotta muut voivat asentaa tämän sovelluksen"
 
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Sharing"
 msgstr "Jaetaan"
 
@@ -1269,8 +1277,8 @@ msgstr "Järjestelmä"
 msgid "Tag"
 msgstr "Tunniste"
 
-#: ../../../lib/web/src/components/post-tags.tsx:96
-#: ../../../lib/web/src/components/post-tags.tsx:107
+#: ../../../lib/web/src/components/post-tags.tsx:100
+#: ../../../lib/web/src/components/post-tags.tsx:111
 msgid "Tags"
 msgstr "Tunnisteet"
 
@@ -1287,8 +1295,8 @@ msgstr "Käyttöehdot"
 msgid "That code is incorrect or has expired."
 msgstr "Koodi on virheellinen tai vanhentunut."
 
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:151
 msgid "The requested app could not be found."
 msgstr "Pyydettyä sovellusta ei löytynyt."
 
@@ -1313,10 +1321,10 @@ msgstr "Vaihda sarakkeet"
 msgid "Toggle right panel"
 msgstr "Vaihda oikeaa paneelia"
 
-#: ../../../lib/web/src/components/layout/nav-group.tsx:321
-#: ../../../lib/web/src/components/layout/nav-group.tsx:328
-#: ../../../lib/web/src/components/layout/nav-group.tsx:451
-#: ../../../lib/web/src/components/layout/nav-group.tsx:458
+#: ../../../lib/web/src/components/layout/nav-group.tsx:351
+#: ../../../lib/web/src/components/layout/nav-group.tsx:358
+#: ../../../lib/web/src/components/layout/nav-group.tsx:481
+#: ../../../lib/web/src/components/layout/nav-group.tsx:488
 msgid "Toggle section"
 msgstr "Näytä tai piilota osio"
 
@@ -1339,19 +1347,19 @@ msgstr "Vaihda teema"
 msgid "Top"
 msgstr "Ylin"
 
-#: src/routes/_authenticated/app/$appId.tsx:451
+#: src/routes/_authenticated/app/$appId.tsx:453
 msgid "Track \"{track}\" deleted"
 msgstr "Raita \"{track}\" poistettu"
 
-#: src/routes/_authenticated/app/$appId.tsx:437
+#: src/routes/_authenticated/app/$appId.tsx:439
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Raita \"{track}\" päivitetty versioon {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:420
+#: src/routes/_authenticated/app/$appId.tsx:421
 msgid "Track created"
 msgstr "Raita luotu"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Track Name"
 msgstr "Raidan nimi"
 
@@ -1386,7 +1394,7 @@ msgstr "Kirjoita hakeaksesi käyttäjiä"
 msgid "Type to search..."
 msgstr "Kirjoita hakeaksesi..."
 
-#: ../../../lib/web/src/lib/api-client.ts:280
+#: ../../../lib/web/src/lib/api-response-interceptors.ts:267
 msgid "Unable to connect to remote server"
 msgstr "Etäpalvelimeen ei saatu yhteyttä"
 
@@ -1411,31 +1419,31 @@ msgstr "Yhdysvallat"
 msgid "Unverified"
 msgstr "Vahvistamaton"
 
-#: src/routes/_authenticated/app/$appId.tsx:721
+#: src/routes/_authenticated/app/$appId.tsx:723
 msgid "Update Tracks"
 msgstr "Päivitä raidat"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Upload a .zip build file for your application."
 msgstr "Lähetä sovelluksesi .zip-koontitiedosto."
 
-#: src/routes/_authenticated/app/$appId.tsx:197
+#: src/routes/_authenticated/app/$appId.tsx:198
 msgid "Upload new version"
 msgstr "Lähetä uusi versio"
 
-#: src/routes/_authenticated/app/$appId.tsx:683
+#: src/routes/_authenticated/app/$appId.tsx:685
 msgid "Upload New Version"
 msgstr "Lähetä uusi versio"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Upload version"
 msgstr "Lähetä versio"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:275
 msgid "Upload your first build to get started"
 msgstr "Lähetä ensimmäinen koontiversiosi aloittaaksesi"
 
-#: src/routes/_authenticated/app/$appId.tsx:748
+#: src/routes/_authenticated/app/$appId.tsx:750
 msgid "Uploading..."
 msgstr "Lähetetään..."
 
@@ -1447,7 +1455,7 @@ msgstr "Käytä avainkoodiasi"
 msgid "User"
 msgstr "Käyttäjä"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:253
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Käyttäjät voivat asentaa tämän sovelluksen liittämällä linkin Sovellukset-sivulleen."
 
@@ -1474,15 +1482,15 @@ msgid "Verify email address"
 msgstr "Vahvista sähköpostiosoite"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:661
+#: src/routes/_authenticated/app/$appId.tsx:663
 msgid "Version {0} has been created."
 msgstr "Versio {0} on luotu."
 
-#: src/routes/_authenticated/app/$appId.tsx:268
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "Version History"
 msgstr "Versiohistoria"
 
-#: src/routes/_authenticated/app/$appId.tsx:660
+#: src/routes/_authenticated/app/$appId.tsx:662
 msgid "Version uploaded"
 msgstr "Versio lähetetty"
 
@@ -1516,11 +1524,11 @@ msgid "Wednesday"
 msgstr "Keskiviikko"
 
 #: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:713
+#: src/routes/_authenticated/app/$appId.tsx:715
 msgid "Yes"
 msgstr "Kyllä"
 
-#: src/routes/_authenticated/app/$appId.tsx:714
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Yes, force"
 msgstr "Kyllä, pakota"
 
