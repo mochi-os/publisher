@@ -334,7 +334,7 @@ def action_track_set(a):
 		return
 
 	now = mochi.time.now()
-	mochi.db.execute("update tracks set version=?, updated=? where app=? and track=? and updated<=?", version, now, id, track, now)
+	mochi.db.execute("update tracks set version=?, updated=? where app=? and track=?", version, now, id, track)
 	return {"data": {"track": track, "version": version}}
 
 # Delete a track
@@ -505,5 +505,5 @@ def action_distribution_set(a):
 		return
 
 	now = mochi.time.now()
-	mochi.db.execute("update apps set distribution=?, updated=? where id=? and updated<=?", distribution, now, id, now)
+	mochi.db.execute("update apps set distribution=?, updated=? where id=?", distribution, now, id)
 	return {"data": {"distribution": distribution}}
