@@ -71,34 +71,6 @@ def database_create():
 	mochi.db.execute("create index versions_file on versions( file )")
 	mochi.db.execute("create table tracks ( app references apps( id ), track text not null, version text not null, updated integer not null default 0, primary key ( app, track ) )")
 
-# Upgrade database to specified schema version
-def database_upgrade(version):
-	if version == 3:
-		cols = [r["name"] for r in mochi.db.table("apps")]
-		if "distribution" not in cols:
-			mochi.db.execute("alter table apps add column distribution text not null default 'published'")
-	# v4/v5 used to set restricted apps' entity privacy to private to remove
-	# them from the directory. That broke P2P routing for non-local peers,
-	# because entity_peer() resolves entity -> peer via the local directory.
-	# v6 restores entity privacy to public so routing works again.
-	if version == 6:
-		for app in mochi.db.rows("select id from apps where distribution='restricted'"):
-			if mochi.entity.get(app["id"]):
-				mochi.entity.update(app["id"], privacy="public")
-	if version == 7:
-		# Replication-safety (#84): LWW on the track-version pointer and the app
-		# distribution policy. Add an `updated` timestamp; the writes below become
-		# conditional `where updated <= ?` so the newest write wins identically on
-		# every host (converges) and a re-delivered op is an idempotent no-op,
-		# instead of bare last-arrival-wins that diverges across paired hosts.
-		apps_cols = [r["name"] for r in mochi.db.table("apps")]
-		if "updated" not in apps_cols:
-			mochi.db.execute("alter table apps add column updated integer not null default 0")
-		tracks_cols = [r["name"] for r in mochi.db.table("tracks")]
-		if "updated" not in tracks_cols:
-			mochi.db.execute("alter table tracks add column updated integer not null default 0")
-
-# List apps
 def action_list(a):
 	apps = mochi.db.rows("select a.*, t.version from apps a left join tracks t on a.id = t.app and t.track = a.default_track")
 	return {"data": {"apps": apps}}

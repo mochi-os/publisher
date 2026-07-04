@@ -15,10 +15,9 @@
 	"execute": ["publisher.star"],
 
 	"database": {
-		"schema": 7,
+		"schema": 1,
 		"file": "publisher.db",
 		"create": {"function": "database_create"},
-		"upgrade": {"function": "database_upgrade"}
 	},
 
 	"icons": [
