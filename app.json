@@ -15,7 +15,7 @@
 	"execute": ["publisher.star"],
 
 	"database": {
-		"schema": 1,
+		"schema": 2,
 		"file": "publisher.db",
 		"create": {"function": "database_create"},
 	},
