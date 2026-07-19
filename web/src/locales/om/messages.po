@@ -13,9 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/features/apps/index.tsx:157
-msgid "{name} has been created successfully."
-msgstr "{name} milkaa'inaan uumameera."
+#. js-lingui-explicit-id
+#: ../../../lib/web/src/lib/error-normalizer.ts:204
+msgid "Please check your internet connection and try again."
+msgstr "Maaloo walqunnamtii intarneetii kee mirkaneeffadhuutii irra deebi'ii yaali."
 
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
@@ -57,10 +58,6 @@ msgstr "Gosa akkaawuntii"
 msgid "Account verified"
 msgstr "Akkaawuntiin mirkanaa'e"
 
-#: src/routes/_authenticated/app/$appId.tsx:503
-msgid "Active version"
-msgstr "Vershinii hojii irra jiru"
-
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Dabali"
@@ -86,7 +83,7 @@ msgstr "Akkaawuntii dabali beeksisa fi tajaajila fayyadamuuf."
 msgid "Add new account"
 msgstr "Akkaawuntii haaraa dabali"
 
-#: ../../../lib/web/src/components/post-tags.tsx:133
+#: ../../../lib/web/src/components/post-tags.tsx:137
 msgid "Add tag..."
 msgstr "Tag dabali..."
 
@@ -115,10 +112,6 @@ msgstr "AI"
 msgid "All"
 msgstr "Hunda"
 
-#: src/routes/_authenticated/app/$appId.tsx:269
-msgid "All uploaded build files for this application"
-msgstr "Faayiloota build appii kanaaf ol fe'aman hundi"
-
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "Dogoggorri uumame"
@@ -127,23 +120,23 @@ msgstr "Dogoggorri uumame"
 msgid "An unexpected error occurred"
 msgstr "Dogoggorri hin eegamne uumame"
 
-#: src/routes/_authenticated/app/$appId.tsx:101
-#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:140
 msgid "App"
 msgstr "Appii"
 
-#: src/features/apps/index.tsx:156
+#: src/features/apps/index.tsx:155
 msgid "App created"
 msgstr "Appiin uumame"
 
-#: src/routes/_authenticated/app/$appId.tsx:121
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:146
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:151
+#: src/routes/_authenticated/app/$appId.tsx:155
 msgid "App not found"
 msgstr "Appiin hin argamne"
 
-#: src/routes/_authenticated/app/$appId.tsx:214
+#: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Application ID"
 msgstr "ID Appilikeeshinii"
 
@@ -163,20 +156,20 @@ msgstr "Ol kaʼaa"
 msgid "Authenticator code"
 msgstr "Koodii mirkaneessaa"
 
-#: src/routes/_authenticated/app/$appId.tsx:373
-msgid "Available Versions"
-msgstr "Vershinoonni jiran"
+#: src/routes/_authenticated/app/$appId.tsx:361
+msgid "Available versions"
+msgstr "Versiiwwan jiran"
 
 #: ../../../lib/web/src/components/place-picker.tsx:155
 msgid "Back"
 msgstr "Duuba"
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:121
-#: src/routes/_authenticated/app/$appId.tsx:135
-#: src/routes/_authenticated/app/$appId.tsx:146
-#: src/routes/_authenticated/app/$appId.tsx:175
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:113
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:140
+#: src/routes/_authenticated/app/$appId.tsx:151
+#: src/routes/_authenticated/app/$appId.tsx:180
+#: src/routes/_authenticated/app/$appId.tsx:333
 msgid "Back to apps"
 msgstr "Gara appiitti deebi'i"
 
@@ -186,14 +179,14 @@ msgstr "Gara appiitti deebi'i"
 msgid "Back to home"
 msgstr "Gara mana deebi’uu"
 
-#: ../../../lib/web/src/components/post-tags.tsx:176
-#: ../../../lib/web/src/components/post-tags.tsx:188
+#: ../../../lib/web/src/components/post-tags.tsx:180
+#: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Fedhii cimsi"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
-msgid "Build File (.zip)"
-msgstr "Faayilii Build (.zip)"
+#: src/routes/_authenticated/app/$appId.tsx:674
+msgid "Build file"
+msgstr "Faayilii build"
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:67
 #: ../../../lib/web/src/components/step-up-dialog.tsx:363
@@ -204,9 +197,9 @@ msgstr "Faayilii Build (.zip)"
 #: ../../../lib/web/src/features/access/access-list.tsx:263
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
-#: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:604
-#: src/routes/_authenticated/app/$appId.tsx:746
+#: src/features/apps/index.tsx:209
+#: src/routes/_authenticated/app/$appId.tsx:586
+#: src/routes/_authenticated/app/$appId.tsx:726
 msgid "Cancel"
 msgstr "Haquu"
 
@@ -336,13 +329,9 @@ msgstr "{label} waliin itti fufi"
 msgid "Copy"
 msgstr "Garagalchi"
 
-#: src/routes/_authenticated/app/$appId.tsx:344
+#: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Hidhata kana koppii godhi, hidhuuf fuula Appiilee sarvarii Mochi keetiitti maxxansi."
-
-#: src/routes/_authenticated/app/$appId.tsx:212
-msgid "Core identification for this application"
-msgstr "Eenyummaa bu'uura appilikeeshinii kanaaf"
 
 #: ../../../lib/web/src/features/document/document-page.tsx:84
 msgid "Could not load this document. Please try again later."
@@ -360,38 +349,29 @@ msgstr "Mirkaneessa irra deebiʼaa jalqabuu hin dandeenye. Maaloo irra deebiʼii
 msgid "Couldn't verify with that account. Please try again."
 msgstr "Akkaawuntii sana waliin mirkaneessuun hin danda'amne. Maaloo irra deebi'ii yaali."
 
-#: src/routes/_authenticated/app/$appId.tsx:567
-msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
-msgstr "Naannoo haaraa (fkn. Beta, Staging) builds dirsisuuf uumi."
-
 #: src/features/apps/index.tsx:55
 #: src/features/apps/index.tsx:56
 #: src/features/apps/index.tsx:60
-#: src/features/apps/index.tsx:87
-#: src/features/apps/index.tsx:176
-#: src/features/apps/index.tsx:216
+#: src/features/apps/index.tsx:86
+#: src/features/apps/index.tsx:171
+#: src/features/apps/index.tsx:173
+#: src/features/apps/index.tsx:212
 msgid "Create app"
 msgstr "Appii uumi"
 
-#: src/features/apps/index.tsx:174
-msgid "Create new app"
-msgstr "Appii haaraa uumi"
-
-#: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:611
+#: src/routes/_authenticated/app/$appId.tsx:209
+#: src/routes/_authenticated/app/$appId.tsx:547
+#: src/routes/_authenticated/app/$appId.tsx:549
+#: src/routes/_authenticated/app/$appId.tsx:593
 msgid "Create track"
 msgstr "Track uumi"
 
-#: src/features/apps/index.tsx:83
-msgid "Create your first app to get started"
-msgstr "Eegaluuf appii kee jalqabaa uumi"
+#: src/routes/_authenticated/app/$appId.tsx:471
+msgid "Create your first release track"
+msgstr "Daandii gadhiisa keessan isa jalqabaa uumaa"
 
-#: src/routes/_authenticated/app/$appId.tsx:486
-msgid "Create your first release track to manage deployments"
-msgstr "Bobbii bulchuuf release track jalqabaa kee uumi"
-
-#: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:611
+#: src/features/apps/index.tsx:212
+#: src/routes/_authenticated/app/$appId.tsx:593
 msgid "Creating..."
 msgstr "Uumaa jira..."
 
@@ -417,6 +397,7 @@ msgid "Data conflict"
 msgstr "Walitti bu'iinsa deetaa"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:310
+#: src/routes/_authenticated/app/$appId.tsx:484
 msgid "Default"
 msgstr "Idilee"
 
@@ -424,11 +405,11 @@ msgstr "Idilee"
 msgid "Default AI account"
 msgstr "Akkaawuntii AI idilee"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Default track set to \"{track}\""
 msgstr "Track idilee gara \"{track}\"tti qabameera"
 
-#: src/routes/_authenticated/app/$appId.tsx:546
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Delete track"
 msgstr "Track haqi"
 
@@ -444,7 +425,8 @@ msgstr "Gadii"
 msgid "Descending"
 msgstr "Gad buʼaa"
 
-#: src/routes/_authenticated/app/$appId.tsx:357
+#: src/routes/_authenticated/app/$appId.tsx:96
+#: src/routes/_authenticated/app/$appId.tsx:345
 msgid "Details"
 msgstr "Bal'inaan"
 
@@ -476,7 +458,7 @@ msgstr "Dhiisi"
 msgid "Displays the mobile sidebar."
 msgstr "Cinaa moobaayilaa mul'isa."
 
-#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:234
 msgid "Distribution"
 msgstr "Raabsa"
 
@@ -497,7 +479,7 @@ msgstr "Buufachuun hin milkoofne"
 msgid "Dyslexia-friendly"
 msgstr "Dyslexiyaa Walitti Dhufu"
 
-#: src/routes/_authenticated/app/$appId.tsx:577
+#: src/routes/_authenticated/app/$appId.tsx:559
 msgid "e.g. Staging"
 msgstr "fkn. Steejingii"
 
@@ -536,15 +518,15 @@ msgstr "Guddaa Akkaan"
 msgid "Failed to add account"
 msgstr "Akkaawuntii dabaluu hin dandeenye"
 
-#: src/features/apps/index.tsx:164
+#: src/features/apps/index.tsx:161
 msgid "Failed to create app"
 msgstr "Appii uumuu hin dandeenye"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Failed to create track"
 msgstr "Sarara uumuu hin dandeenye"
 
-#: src/routes/_authenticated/app/$appId.tsx:456
+#: src/routes/_authenticated/app/$appId.tsx:444
 msgid "Failed to delete track"
 msgstr "Sarara haquu hin dandeenye"
 
@@ -556,7 +538,7 @@ msgstr "Akkaawuntii haquu hin dandeenye"
 msgid "Failed to send verification code"
 msgstr "Koodii mirkanaa ergamuu hin dandeenye"
 
-#: src/routes/_authenticated/app/$appId.tsx:470
+#: src/routes/_authenticated/app/$appId.tsx:458
 msgid "Failed to set default track"
 msgstr "Boorsa idilee kaa'uu hin dandeenye"
 
@@ -568,16 +550,16 @@ msgstr "Ramaddii toattaachuu hin dandeenye"
 msgid "Failed to update distribution"
 msgstr "Raabsaa toattaachuu hin dandeenye"
 
-#: src/routes/_authenticated/app/$appId.tsx:442
+#: src/routes/_authenticated/app/$appId.tsx:430
 msgid "Failed to update track"
 msgstr "Boorsa toattaachuu hin dandeenye"
 
-#: src/routes/_authenticated/app/$appId.tsx:675
+#: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Failed to upload version"
 msgstr "Vershinii olkaa'uu hin dandeenye"
 
-#: src/routes/_authenticated/app/$appId.tsx:217
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:347
 msgid "Fingerprint"
 msgstr "Maxxansa quba"
 
@@ -663,7 +645,7 @@ msgstr "Mana"
 msgid "Hot"
 msgstr "Ho'aa"
 
-#: src/routes/_authenticated/app/$appId.tsx:212
+#: src/routes/_authenticated/app/$appId.tsx:217
 msgid "Identity"
 msgstr "Eenyummaa"
 
@@ -671,30 +653,21 @@ msgstr "Eenyummaa"
 msgid "Imperial"
 msgstr "Imperial"
 
-#: src/routes/_authenticated/app/$appId.tsx:583
-msgid "Initial Version"
-msgstr "Vershinii Jalqabaa"
+#: src/routes/_authenticated/app/$appId.tsx:565
+msgid "Initial version"
+msgstr "Versii jalqabaa"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:252
 msgid "Inset"
 msgstr "Inset"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
-msgid "Install App"
-msgstr "Appii Hidhi"
+#: src/routes/_authenticated/app/$appId.tsx:336
+msgid "Install app"
+msgstr "Appii fe'i"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
-#: src/routes/_authenticated/app/$appId.tsx:348
-msgid "Install link:"
-msgstr "Hidhaa hidhamuu:"
-
-#: src/routes/_authenticated/app/$appId.tsx:707
-msgid "Install Locally"
-msgstr "Naannootti Hidhi"
-
-#: src/routes/_authenticated/app/$appId.tsx:341
-msgid "Install this application to your server"
-msgstr "Appii kana sarvarii keetti hidhi"
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "Install locally"
+msgstr "Naannootti fe'i"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Interests"
@@ -718,7 +691,7 @@ msgstr "Bocii"
 msgid "Learn more"
 msgstr "Caalaatti baradhu"
 
-#: src/routes/_authenticated/app/$appId.tsx:589
+#: src/routes/_authenticated/app/$appId.tsx:571
 msgid "Leave empty"
 msgstr "Duwwaa kaa'i"
 
@@ -735,7 +708,7 @@ msgstr "Ifaa"
 msgid "Load more"
 msgstr "Caalaa fe'i"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
+#: src/routes/_authenticated/app/$appId.tsx:112
 msgid "Loading app..."
 msgstr "Appii fe'aa jiraa..."
 
@@ -770,13 +743,9 @@ msgstr "Milkaa'inaan ba'e"
 msgid "Logging out…"
 msgstr "Ba'aa jiraa…"
 
-#: src/features/apps/index.tsx:194
+#: src/features/apps/index.tsx:190
 msgid "Make app publicly available"
 msgstr "Appii ummataaf banaa godhi"
-
-#: src/routes/_authenticated/app/$appId.tsx:479
-msgid "Manage deployment environments and their versions"
-msgstr "Naannoolee fe'iinsaa fi vershinii isaanii toattaachi"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:92
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:99
@@ -792,10 +761,6 @@ msgstr "Giddu-galeessa"
 msgid "Menu"
 msgstr "Menu"
 
-#: src/routes/_authenticated/app/$appId.tsx:357
-msgid "Metadata and configuration"
-msgstr "Metadata fi sirreeffama"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
 msgstr "Metric"
@@ -804,15 +769,7 @@ msgstr "Metric"
 msgid "Monday"
 msgstr "Wiixata"
 
-#: src/features/apps/index.tsx:189
-msgid "My App"
-msgstr "Appii Koo"
-
-#: src/routes/_authenticated/app/$appId.tsx:360
-msgid "N/A"
-msgstr "Hin jiru"
-
-#: src/features/apps/index.tsx:183
+#: src/features/apps/index.tsx:180
 msgid "Name"
 msgstr "Maqaa"
 
@@ -825,17 +782,13 @@ msgstr "Dogoggora networkii"
 msgid "New"
 msgstr "Haaraa"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
-msgid "New Release Track"
-msgstr "Daandii Release Haaraa"
-
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "Suuraa itti aanu"
 
-#: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:717
+#: src/features/apps/index.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:697
 msgid "No"
 msgstr "Lakki"
 
@@ -876,7 +829,7 @@ msgstr "Aanaan sa'aatii hin argamne."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Hanga ammaatti galmeen mata duree hin jiru — beeksisa itti aanu booda irra deebi'ii yaali."
 
-#: src/routes/_authenticated/app/$appId.tsx:485
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "No tracks"
 msgstr "Daandiiwwan hin jiran"
 
@@ -884,11 +837,11 @@ msgstr "Daandiiwwan hin jiran"
 msgid "No users found"
 msgstr "Fayyadamtoonni hin argamne"
 
-#: src/routes/_authenticated/app/$appId.tsx:586
+#: src/routes/_authenticated/app/$appId.tsx:568
 msgid "No version"
 msgstr "Versiin hin jiru"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "No versions"
 msgstr "Versiiwwan hin jiran"
 
@@ -947,8 +900,8 @@ msgstr "Menyuu naviigeeshinii bani"
 msgid "Open theme settings"
 msgstr "Qindaa'inoota mata duree bani"
 
-#: src/routes/_authenticated/app/$appId.tsx:526
-#: src/routes/_authenticated/app/$appId.tsx:531
+#: src/routes/_authenticated/app/$appId.tsx:508
+#: src/routes/_authenticated/app/$appId.tsx:513
 msgid "Open track actions"
 msgstr "Sochiiwwan daandii bani"
 
@@ -974,15 +927,14 @@ msgstr "Passkey-wwan"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
-#: ../../../lib/web/src/lib/error-normalizer.ts:201
 msgid "Please check your internet connection and try again."
 msgstr "Maaloo walqunnamtii intarneetii kee mirkaneeffadhuutii irra deebi'ii yaali."
 
-#: src/features/apps/index.tsx:148
+#: src/features/apps/index.tsx:147
 msgid "Please enter an app name"
 msgstr "Maaloo maqaa aappii galchi"
 
-#: src/routes/_authenticated/app/$appId.tsx:651
+#: src/routes/_authenticated/app/$appId.tsx:633
 msgid "Please select a file"
 msgstr "Maaloo faayilii fili"
 
@@ -1001,16 +953,14 @@ msgstr "Suuraa duraa"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:362
+#: src/routes/_authenticated/app/$appId.tsx:225
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Privacy"
 msgstr "Iccitii"
 
-#: src/routes/_authenticated/app/$appId.tsx:220
-msgid "Privacy Policy"
-msgstr "Imaammata Iccitii"
-
-#: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:225
+#: src/features/apps/index.tsx:92
+#: src/routes/_authenticated/app/$appId.tsx:230
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Private"
 msgstr "Dhuunfaa"
 
@@ -1019,13 +969,14 @@ msgstr "Dhuunfaa"
 msgid "Profile"
 msgstr "Piroofaayilii"
 
-#: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:223
+#: src/features/apps/index.tsx:92
+#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Public"
 msgstr "Ifa"
 
-#: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/features/apps/index.tsx:93
+#: src/routes/_authenticated/app/$appId.tsx:244
 msgid "Published"
 msgstr "Maxxansame"
 
@@ -1047,7 +998,7 @@ msgid "Re-register your passkeys on this server"
 msgstr "Furtuuwwan seensaa kee sajoo kana irratti irra deebi'ii galmeessi"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
-#: ../../../lib/web/src/components/search-entity-page.tsx:240
+#: ../../../lib/web/src/components/search-entity-page.tsx:242
 msgid "Recommended"
 msgstr "Yaadachifame"
 
@@ -1055,8 +1006,8 @@ msgstr "Yaadachifame"
 msgid "Redirecting to login."
 msgstr "Gara galmeetti deebi'aa jira."
 
-#: ../../../lib/web/src/components/post-tags.tsx:196
-#: ../../../lib/web/src/components/post-tags.tsx:208
+#: ../../../lib/web/src/components/post-tags.tsx:200
+#: ../../../lib/web/src/components/post-tags.tsx:212
 msgid "Reduce interest"
 msgstr "Dantaa hir'isi"
 
@@ -1068,13 +1019,9 @@ msgstr "Walqabataa (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Sa'aatii 24 keessatti walqabataa, kanaa alatti guutuu"
 
-#: src/routes/_authenticated/app/$appId.tsx:478
-msgid "Release Tracks"
-msgstr "Daandii Release"
-
-#: src/routes/_authenticated/app/$appId.tsx:373
-msgid "Release tracks currently active"
-msgstr "Daandiwwan Release amma sochii qaban"
+#: src/routes/_authenticated/app/$appId.tsx:465
+msgid "Release tracks"
+msgstr "Daandiiwwan gadhiisaa"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:265
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
@@ -1090,8 +1037,8 @@ msgstr "Seera itti seenumsaa haqi"
 msgid "Remove access?"
 msgstr "Itti seenumsa haquuf?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:216
-#: ../../../lib/web/src/components/post-tags.tsx:228
+#: ../../../lib/web/src/components/post-tags.tsx:220
+#: ../../../lib/web/src/components/post-tags.tsx:232
 msgid "Remove interest"
 msgstr "Dantaa haqi"
 
@@ -1108,8 +1055,8 @@ msgstr "Haaromsi"
 msgid "Reset all settings to default values"
 msgstr "Qindaa'inoota hunda gara durtiitti deebisi"
 
-#: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:240
+#: src/features/apps/index.tsx:93
+#: src/routes/_authenticated/app/$appId.tsx:245
 msgid "Restricted"
 msgstr "Daangeefamee"
 
@@ -1155,7 +1102,7 @@ msgid "Search..."
 msgstr "Barbaadi..."
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
-#: ../../../lib/web/src/components/search-entity-page.tsx:198
+#: ../../../lib/web/src/components/search-entity-page.tsx:200
 #: ../../../lib/web/src/features/access/access-dialog.tsx:202
 msgid "Searching..."
 msgstr "Barbaadaa jira..."
@@ -1218,7 +1165,7 @@ msgstr "Seerota server"
 msgid "Session expired. Please log in again."
 msgstr "Seeshinichi dhumateera. Maaloo irra deebi'ii seeni."
 
-#: src/routes/_authenticated/app/$appId.tsx:539
+#: src/routes/_authenticated/app/$appId.tsx:521
 msgid "Set as default"
 msgstr "Akka durmessaatti qindeessi"
 
@@ -1234,11 +1181,7 @@ msgstr "Madda fi galma qindeessi"
 msgid "Settings"
 msgstr "Qindaa'inoota"
 
-#: src/routes/_authenticated/app/$appId.tsx:249
-msgid "Share this link to allow others to install this app"
-msgstr "Namoonni biroo akka appii kana hidhan eeyyamuuf hidhata kana qoodi"
-
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:252
 msgid "Sharing"
 msgstr "Qoodaa"
 
@@ -1300,8 +1243,8 @@ msgstr "Sirna"
 msgid "Tag"
 msgstr "Tag"
 
-#: ../../../lib/web/src/components/post-tags.tsx:100
-#: ../../../lib/web/src/components/post-tags.tsx:111
+#: ../../../lib/web/src/components/post-tags.tsx:101
+#: ../../../lib/web/src/components/post-tags.tsx:115
 msgid "Tags"
 msgstr "Tagoota"
 
@@ -1318,8 +1261,8 @@ msgstr "Haalota fi tarsiimoolee"
 msgid "That code is incorrect or has expired."
 msgstr "Koodiin sun sirrii miti yookaan yeroon isaa darbeera."
 
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:151
+#: src/routes/_authenticated/app/$appId.tsx:131
+#: src/routes/_authenticated/app/$appId.tsx:156
 msgid "The requested app could not be found."
 msgstr "Appiin gaafatame hin argamne."
 
@@ -1378,28 +1321,32 @@ msgstr "Gaaffiiwwan baay'ee garmalee"
 msgid "Top"
 msgstr "Ol"
 
-#: src/routes/_authenticated/app/$appId.tsx:453
+#: src/routes/_authenticated/app/$appId.tsx:441
 msgid "Track \"{track}\" deleted"
 msgstr "Trakii \"{track}\" haqameera"
 
-#: src/routes/_authenticated/app/$appId.tsx:439
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Trakii \"{track}\" gara {version} tti haaromfameera"
 
-#: src/routes/_authenticated/app/$appId.tsx:421
+#: src/routes/_authenticated/app/$appId.tsx:409
 msgid "Track created"
 msgstr "Trakii uumameera"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
-msgid "Track Name"
-msgstr "Maqaa Trakii"
+#: src/routes/_authenticated/app/$appId.tsx:555
+msgid "Track name"
+msgstr "Maqaa daandii"
+
+#: src/routes/_authenticated/app/$appId.tsx:98
+msgid "Tracks"
+msgstr "Daandiiwwan"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
 msgid "Travelling"
 msgstr "Imala"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:190
-#: ../../../lib/web/src/components/search-entity-page.tsx:214
+#: ../../../lib/web/src/components/search-entity-page.tsx:216
 msgid "Try adjusting your search terms"
 msgstr "Jechoota barbaacha kee sirreessuu yaali"
 
@@ -1450,31 +1397,25 @@ msgstr "Yunaaytid Isteeths"
 msgid "Unverified"
 msgstr "Hin mirkanaa'amne"
 
-#: src/routes/_authenticated/app/$appId.tsx:723
-msgid "Update Tracks"
-msgstr "Trakiwwan Haaromsi"
+#: src/routes/_authenticated/app/$appId.tsx:703
+msgid "Update tracks"
+msgstr "Daandiiwwan haaromsi"
 
-#: src/routes/_authenticated/app/$appId.tsx:687
-msgid "Upload a .zip build file for your application."
-msgstr "Faayilii build .zip sagantaa keetiif olfe'i."
-
-#: src/routes/_authenticated/app/$appId.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:665
+#: src/routes/_authenticated/app/$appId.tsx:667
 msgid "Upload new version"
 msgstr "Fooyya'iinsa haaraa olfe'i"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
-msgid "Upload New Version"
-msgstr "Fooyya'iinsa Haaraa Olfe'i"
-
-#: src/routes/_authenticated/app/$appId.tsx:750
+#: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Upload version"
 msgstr "Versii fe’uu"
 
-#: src/routes/_authenticated/app/$appId.tsx:275
-msgid "Upload your first build to get started"
-msgstr "Eegaluuf build kee jalqabaa olfe'i"
+#: src/routes/_authenticated/app/$appId.tsx:270
+msgid "Upload your first build"
+msgstr "Build keessan isa jalqabaa olfe'aa"
 
-#: src/routes/_authenticated/app/$appId.tsx:750
+#: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Uploading..."
 msgstr "Olfe'aa jira..."
 
@@ -1486,7 +1427,7 @@ msgstr "Passkey kee fayyadami"
 msgid "User"
 msgstr "Fayyadamaa"
 
-#: src/routes/_authenticated/app/$appId.tsx:253
+#: src/routes/_authenticated/app/$appId.tsx:255
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Fayyadamtoonni hidhata kana fuula Appiilee isaaniitti maxxansuun appii kana hidhuu danda'u."
 
@@ -1513,19 +1454,19 @@ msgid "Verify email address"
 msgstr "Teessoo iimeelii mirkaneessi"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:663
-msgid "Version {0} has been created."
-msgstr "Fooyya'iinsi {0} uumameera."
+#: src/routes/_authenticated/app/$appId.tsx:644
+msgid "Version {0} uploaded"
+msgstr "Versiin {0} olfe'ameera"
 
-#: src/routes/_authenticated/app/$appId.tsx:269
-msgid "Version History"
-msgstr "Seenaa Fooyya'iinsa"
+#: src/routes/_authenticated/app/$appId.tsx:264
+msgid "Version history"
+msgstr "Seenaa versii"
 
-#: src/routes/_authenticated/app/$appId.tsx:662
-msgid "Version uploaded"
-msgstr "Fooyya'iinsi olfe'ameera"
+#: src/routes/_authenticated/app/$appId.tsx:97
+msgid "Versions"
+msgstr "Versiiwwan"
 
-#: ../../../lib/web/src/components/attachment-gallery.tsx:66
+#: ../../../lib/web/src/components/attachment-gallery.tsx:74
 msgid "Video thumbnail"
 msgstr "Suuraa duraa viidiyoo"
 
@@ -1554,12 +1495,12 @@ msgstr "Saayitiin sirreeffama jala jira!"
 msgid "Wednesday"
 msgstr "Roobii"
 
-#: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:695
 msgid "Yes"
 msgstr "Eeyyee"
 
-#: src/routes/_authenticated/app/$appId.tsx:716
+#: src/routes/_authenticated/app/$appId.tsx:696
 msgid "Yes, force"
 msgstr "Eeyyee, dirqamaan"
 

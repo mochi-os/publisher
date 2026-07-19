@@ -80,7 +80,6 @@ export function Apps() {
               <EmptyState
                 icon={Package}
                 title={t`No apps yet`}
-                description={t`Create your first app to get started`}
               >
                 <Button onClick={openCreateDialog}>
                   <Plus className='me-2 h-4 w-4' />
@@ -153,9 +152,7 @@ function CreateAppDialog({
       { name: name.trim(), privacy },
       {
         onSuccess: (data: { id: string }) => {
-          toast.success(t`App created`, {
-            description: t`${name} has been created successfully.`,
-          })
+          toast.success(t`App created`)
           setName('')
           setPrivacy('public')
           onSuccess(data.id)
@@ -171,7 +168,7 @@ function CreateAppDialog({
     <ResponsiveDialog open={open} onOpenChange={onOpenChange}>
       <ResponsiveDialogContent>
         <ResponsiveDialogHeader>
-          <ResponsiveDialogTitle><Trans>Create new app</Trans></ResponsiveDialogTitle>
+          <ResponsiveDialogTitle><Trans>Create app</Trans></ResponsiveDialogTitle>
           <ResponsiveDialogDescription className="sr-only">
             <Trans>Create app</Trans>
           </ResponsiveDialogDescription>
@@ -186,7 +183,6 @@ function CreateAppDialog({
                 id='name'
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder={t`My App`}
               />
             </div>
             <div className='space-y-2'>

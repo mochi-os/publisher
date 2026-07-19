@@ -13,9 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/features/apps/index.tsx:157
-msgid "{name} has been created successfully."
-msgstr "{name} var búið til."
+#. js-lingui-explicit-id
+#: ../../../lib/web/src/lib/error-normalizer.ts:204
+msgid "Please check your internet connection and try again."
+msgstr "Athugaðu nettenginguna og reyndu aftur."
 
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
@@ -57,10 +58,6 @@ msgstr "Tegund reiknings"
 msgid "Account verified"
 msgstr "Reikningur staðfestur"
 
-#: src/routes/_authenticated/app/$appId.tsx:503
-msgid "Active version"
-msgstr "Virk útgáfa"
-
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
 msgstr "Bæta við"
@@ -86,7 +83,7 @@ msgstr "Bæta við reikningi til að fá tilkynningar og nota þjónustur."
 msgid "Add new account"
 msgstr "Bæta við nýjum reikningi"
 
-#: ../../../lib/web/src/components/post-tags.tsx:133
+#: ../../../lib/web/src/components/post-tags.tsx:137
 msgid "Add tag..."
 msgstr "Bæta við merki..."
 
@@ -115,10 +112,6 @@ msgstr "Gervigreind"
 msgid "All"
 msgstr "Allt"
 
-#: src/routes/_authenticated/app/$appId.tsx:269
-msgid "All uploaded build files for this application"
-msgstr "Allar uppsendar smíðaskrár fyrir þetta forrit"
-
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:159
 msgid "An error occurred"
 msgstr "Villa kom upp"
@@ -127,23 +120,23 @@ msgstr "Villa kom upp"
 msgid "An unexpected error occurred"
 msgstr "Óvænt villa kom upp"
 
-#: src/routes/_authenticated/app/$appId.tsx:101
-#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:106
+#: src/routes/_authenticated/app/$appId.tsx:140
 msgid "App"
 msgstr "Forrit"
 
-#: src/features/apps/index.tsx:156
+#: src/features/apps/index.tsx:155
 msgid "App created"
 msgstr "Forrit búið til"
 
-#: src/routes/_authenticated/app/$appId.tsx:121
-#: src/routes/_authenticated/app/$appId.tsx:125
-#: src/routes/_authenticated/app/$appId.tsx:146
-#: src/routes/_authenticated/app/$appId.tsx:150
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:151
+#: src/routes/_authenticated/app/$appId.tsx:155
 msgid "App not found"
 msgstr "Forrit fannst ekki"
 
-#: src/routes/_authenticated/app/$appId.tsx:214
+#: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Application ID"
 msgstr "Forritaauðkenni"
 
@@ -163,20 +156,20 @@ msgstr "Hækkandi"
 msgid "Authenticator code"
 msgstr "Auðkennisnúmer"
 
-#: src/routes/_authenticated/app/$appId.tsx:373
-msgid "Available Versions"
+#: src/routes/_authenticated/app/$appId.tsx:361
+msgid "Available versions"
 msgstr "Tiltækar útgáfur"
 
 #: ../../../lib/web/src/components/place-picker.tsx:155
 msgid "Back"
 msgstr "Til baka"
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:121
-#: src/routes/_authenticated/app/$appId.tsx:135
-#: src/routes/_authenticated/app/$appId.tsx:146
-#: src/routes/_authenticated/app/$appId.tsx:175
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:113
+#: src/routes/_authenticated/app/$appId.tsx:126
+#: src/routes/_authenticated/app/$appId.tsx:140
+#: src/routes/_authenticated/app/$appId.tsx:151
+#: src/routes/_authenticated/app/$appId.tsx:180
+#: src/routes/_authenticated/app/$appId.tsx:333
 msgid "Back to apps"
 msgstr "Til baka í forrit"
 
@@ -186,14 +179,14 @@ msgstr "Til baka í forrit"
 msgid "Back to home"
 msgstr "Til baka á forsíðu"
 
-#: ../../../lib/web/src/components/post-tags.tsx:176
-#: ../../../lib/web/src/components/post-tags.tsx:188
+#: ../../../lib/web/src/components/post-tags.tsx:180
+#: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
 msgstr "Auka áhuga"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
-msgid "Build File (.zip)"
-msgstr "Smíðaskrá (.zip)"
+#: src/routes/_authenticated/app/$appId.tsx:674
+msgid "Build file"
+msgstr "Smíðaskrá"
 
 #: ../../../lib/web/src/components/responsive-confirm-dialog.tsx:67
 #: ../../../lib/web/src/components/step-up-dialog.tsx:363
@@ -204,9 +197,9 @@ msgstr "Smíðaskrá (.zip)"
 #: ../../../lib/web/src/features/access/access-list.tsx:263
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:89
-#: src/features/apps/index.tsx:213
-#: src/routes/_authenticated/app/$appId.tsx:604
-#: src/routes/_authenticated/app/$appId.tsx:746
+#: src/features/apps/index.tsx:209
+#: src/routes/_authenticated/app/$appId.tsx:586
+#: src/routes/_authenticated/app/$appId.tsx:726
 msgid "Cancel"
 msgstr "Hætta við"
 
@@ -336,13 +329,9 @@ msgstr "Halda áfram með {label}"
 msgid "Copy"
 msgstr "Afrita"
 
-#: src/routes/_authenticated/app/$appId.tsx:344
+#: src/routes/_authenticated/app/$appId.tsx:339
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Afritaðu þennan hlekk og límdu hann á Forrit-síðu Mochi-þjónsins þíns til að setja upp."
-
-#: src/routes/_authenticated/app/$appId.tsx:212
-msgid "Core identification for this application"
-msgstr "Grunnauðkenni fyrir þetta forrit"
 
 #: ../../../lib/web/src/features/document/document-page.tsx:84
 msgid "Could not load this document. Please try again later."
@@ -360,38 +349,29 @@ msgstr "Ekki tókst að hefja endurauðkenningu. Reyndu aftur."
 msgid "Couldn't verify with that account. Please try again."
 msgstr "Ekki tókst að staðfesta með þeim reikningi. Reyndu aftur."
 
-#: src/routes/_authenticated/app/$appId.tsx:567
-msgid "Create a new environment (e.g. Beta, Staging) to deploy builds."
-msgstr "Búa til nýtt umhverfi (t.d. Beta, Staging) til að setja upp smíðar."
-
 #: src/features/apps/index.tsx:55
 #: src/features/apps/index.tsx:56
 #: src/features/apps/index.tsx:60
-#: src/features/apps/index.tsx:87
-#: src/features/apps/index.tsx:176
-#: src/features/apps/index.tsx:216
+#: src/features/apps/index.tsx:86
+#: src/features/apps/index.tsx:171
+#: src/features/apps/index.tsx:173
+#: src/features/apps/index.tsx:212
 msgid "Create app"
 msgstr "Búa til forrit"
 
-#: src/features/apps/index.tsx:174
-msgid "Create new app"
-msgstr "Búa til nýtt forrit"
-
-#: src/routes/_authenticated/app/$appId.tsx:204
-#: src/routes/_authenticated/app/$appId.tsx:611
+#: src/routes/_authenticated/app/$appId.tsx:209
+#: src/routes/_authenticated/app/$appId.tsx:547
+#: src/routes/_authenticated/app/$appId.tsx:549
+#: src/routes/_authenticated/app/$appId.tsx:593
 msgid "Create track"
 msgstr "Búa til rás"
 
-#: src/features/apps/index.tsx:83
-msgid "Create your first app to get started"
-msgstr "Búðu til fyrsta forritið þitt til að byrja"
+#: src/routes/_authenticated/app/$appId.tsx:471
+msgid "Create your first release track"
+msgstr "Búðu til fyrstu útgáfurásina þína"
 
-#: src/routes/_authenticated/app/$appId.tsx:486
-msgid "Create your first release track to manage deployments"
-msgstr "Búðu til fyrstu útgáfurásina þína til að stjórna uppsetningum"
-
-#: src/features/apps/index.tsx:216
-#: src/routes/_authenticated/app/$appId.tsx:611
+#: src/features/apps/index.tsx:212
+#: src/routes/_authenticated/app/$appId.tsx:593
 msgid "Creating..."
 msgstr "Bý til..."
 
@@ -417,6 +397,7 @@ msgid "Data conflict"
 msgstr "Gagnaárekstur"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:310
+#: src/routes/_authenticated/app/$appId.tsx:484
 msgid "Default"
 msgstr "Sjálfgefið"
 
@@ -424,11 +405,11 @@ msgstr "Sjálfgefið"
 msgid "Default AI account"
 msgstr "Sjálfgefinn gervigreindarreikningur"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:455
 msgid "Default track set to \"{track}\""
 msgstr "Sjálfgefin rás stillt á „{track}“"
 
-#: src/routes/_authenticated/app/$appId.tsx:546
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Delete track"
 msgstr "Eyða rás"
 
@@ -444,7 +425,8 @@ msgstr "Lækkandi"
 msgid "Descending"
 msgstr "Lækkandi"
 
-#: src/routes/_authenticated/app/$appId.tsx:357
+#: src/routes/_authenticated/app/$appId.tsx:96
+#: src/routes/_authenticated/app/$appId.tsx:345
 msgid "Details"
 msgstr "Smáatriði"
 
@@ -476,7 +458,7 @@ msgstr "Hafna"
 msgid "Displays the mobile sidebar."
 msgstr "Sýnir hliðarstiku farsíma."
 
-#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:234
 msgid "Distribution"
 msgstr "Dreifing"
 
@@ -497,7 +479,7 @@ msgstr "Niðurhal mistókst"
 msgid "Dyslexia-friendly"
 msgstr "Lesblinduvænt"
 
-#: src/routes/_authenticated/app/$appId.tsx:577
+#: src/routes/_authenticated/app/$appId.tsx:559
 msgid "e.g. Staging"
 msgstr "t.d. Staging"
 
@@ -536,15 +518,15 @@ msgstr "Mjög stórt"
 msgid "Failed to add account"
 msgstr "Tókst ekki að bæta við reikningi"
 
-#: src/features/apps/index.tsx:164
+#: src/features/apps/index.tsx:161
 msgid "Failed to create app"
 msgstr "Tókst ekki að búa til forrit"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:415
 msgid "Failed to create track"
 msgstr "Tókst ekki að búa til rás"
 
-#: src/routes/_authenticated/app/$appId.tsx:456
+#: src/routes/_authenticated/app/$appId.tsx:444
 msgid "Failed to delete track"
 msgstr "Tókst ekki að eyða rás"
 
@@ -556,7 +538,7 @@ msgstr "Tókst ekki að fjarlægja reikning"
 msgid "Failed to send verification code"
 msgstr "Tókst ekki að senda staðfestingarkóða"
 
-#: src/routes/_authenticated/app/$appId.tsx:470
+#: src/routes/_authenticated/app/$appId.tsx:458
 msgid "Failed to set default track"
 msgstr "Tókst ekki að stilla sjálfgefna rás"
 
@@ -568,16 +550,16 @@ msgstr "Tókst ekki að uppfæra flokk"
 msgid "Failed to update distribution"
 msgstr "Tókst ekki að uppfæra dreifingu"
 
-#: src/routes/_authenticated/app/$appId.tsx:442
+#: src/routes/_authenticated/app/$appId.tsx:430
 msgid "Failed to update track"
 msgstr "Tókst ekki að uppfæra rás"
 
-#: src/routes/_authenticated/app/$appId.tsx:675
+#: src/routes/_authenticated/app/$appId.tsx:655
 msgid "Failed to upload version"
 msgstr "Tókst ekki að hlaða upp útgáfu"
 
-#: src/routes/_authenticated/app/$appId.tsx:217
-#: src/routes/_authenticated/app/$appId.tsx:359
+#: src/routes/_authenticated/app/$appId.tsx:222
+#: src/routes/_authenticated/app/$appId.tsx:347
 msgid "Fingerprint"
 msgstr "Fingrafar"
 
@@ -663,7 +645,7 @@ msgstr "Heim"
 msgid "Hot"
 msgstr "Heitt"
 
-#: src/routes/_authenticated/app/$appId.tsx:212
+#: src/routes/_authenticated/app/$appId.tsx:217
 msgid "Identity"
 msgstr "Auðkenni"
 
@@ -671,30 +653,21 @@ msgstr "Auðkenni"
 msgid "Imperial"
 msgstr "Bresk mælieining"
 
-#: src/routes/_authenticated/app/$appId.tsx:583
-msgid "Initial Version"
+#: src/routes/_authenticated/app/$appId.tsx:565
+msgid "Initial version"
 msgstr "Upphafleg útgáfa"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:252
 msgid "Inset"
 msgstr "Innfellt"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
-msgid "Install App"
+#: src/routes/_authenticated/app/$appId.tsx:336
+msgid "Install app"
 msgstr "Setja upp forrit"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
-#: src/routes/_authenticated/app/$appId.tsx:348
-msgid "Install link:"
-msgstr "Uppsetningartengill:"
-
-#: src/routes/_authenticated/app/$appId.tsx:707
-msgid "Install Locally"
+#: src/routes/_authenticated/app/$appId.tsx:687
+msgid "Install locally"
 msgstr "Setja upp staðbundið"
-
-#: src/routes/_authenticated/app/$appId.tsx:341
-msgid "Install this application to your server"
-msgstr "Settu þetta forrit upp á þínum netþjóni"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Interests"
@@ -718,7 +691,7 @@ msgstr "Umgjörð"
 msgid "Learn more"
 msgstr "Læra meira"
 
-#: src/routes/_authenticated/app/$appId.tsx:589
+#: src/routes/_authenticated/app/$appId.tsx:571
 msgid "Leave empty"
 msgstr "Skildu eftir autt"
 
@@ -735,7 +708,7 @@ msgstr "Ljóst"
 msgid "Load more"
 msgstr "Hlaða meiru"
 
-#: src/routes/_authenticated/app/$appId.tsx:107
+#: src/routes/_authenticated/app/$appId.tsx:112
 msgid "Loading app..."
 msgstr "Hleð forriti..."
 
@@ -770,13 +743,9 @@ msgstr "Útskráning tókst"
 msgid "Logging out…"
 msgstr "Útskrái…"
 
-#: src/features/apps/index.tsx:194
+#: src/features/apps/index.tsx:190
 msgid "Make app publicly available"
 msgstr "Gera forrit aðgengilegt almenningi"
-
-#: src/routes/_authenticated/app/$appId.tsx:479
-msgid "Manage deployment environments and their versions"
-msgstr "Stjórnaðu uppsetningarumhverfum og útgáfum þeirra"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:92
 #: ../../../lib/web/src/components/layout/notification-menu.tsx:99
@@ -792,10 +761,6 @@ msgstr "Miðlungs"
 msgid "Menu"
 msgstr "Valmynd"
 
-#: src/routes/_authenticated/app/$appId.tsx:357
-msgid "Metadata and configuration"
-msgstr "Lýsigögn og stillingar"
-
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
 msgstr "Mæling"
@@ -804,15 +769,7 @@ msgstr "Mæling"
 msgid "Monday"
 msgstr "Mánudagur"
 
-#: src/features/apps/index.tsx:189
-msgid "My App"
-msgstr "Forritið mitt"
-
-#: src/routes/_authenticated/app/$appId.tsx:360
-msgid "N/A"
-msgstr "Á ekki við"
-
-#: src/features/apps/index.tsx:183
+#: src/features/apps/index.tsx:180
 msgid "Name"
 msgstr "Nafn"
 
@@ -825,17 +782,13 @@ msgstr "Netvilla"
 msgid "New"
 msgstr "Nýtt"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
-msgid "New Release Track"
-msgstr "Ný útgáfubraut"
-
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:388
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:393
 msgid "Next image"
 msgstr "Næsta mynd"
 
-#: src/features/apps/index.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:717
+#: src/features/apps/index.tsx:199
+#: src/routes/_authenticated/app/$appId.tsx:697
 msgid "No"
 msgstr "Nei"
 
@@ -876,7 +829,7 @@ msgstr "Ekkert tímabelti fannst."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Engin færsla um efni ennþá — reyndu aftur eftir næstu tilkynningu."
 
-#: src/routes/_authenticated/app/$appId.tsx:485
+#: src/routes/_authenticated/app/$appId.tsx:470
 msgid "No tracks"
 msgstr "Engar brautir"
 
@@ -884,11 +837,11 @@ msgstr "Engar brautir"
 msgid "No users found"
 msgstr "Engir notendur fundust"
 
-#: src/routes/_authenticated/app/$appId.tsx:586
+#: src/routes/_authenticated/app/$appId.tsx:568
 msgid "No version"
 msgstr "Engin útgáfa"
 
-#: src/routes/_authenticated/app/$appId.tsx:274
+#: src/routes/_authenticated/app/$appId.tsx:269
 msgid "No versions"
 msgstr "Engar útgáfur"
 
@@ -947,8 +900,8 @@ msgstr "Opna leiðsögnarvalmynd"
 msgid "Open theme settings"
 msgstr "Opna þemastillingar"
 
-#: src/routes/_authenticated/app/$appId.tsx:526
-#: src/routes/_authenticated/app/$appId.tsx:531
+#: src/routes/_authenticated/app/$appId.tsx:508
+#: src/routes/_authenticated/app/$appId.tsx:513
 msgid "Open track actions"
 msgstr "Opna brautaraðgerðir"
 
@@ -974,15 +927,14 @@ msgstr "Aðgangslyklar"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
-#: ../../../lib/web/src/lib/error-normalizer.ts:201
 msgid "Please check your internet connection and try again."
 msgstr "Athugaðu nettenginguna og reyndu aftur."
 
-#: src/features/apps/index.tsx:148
+#: src/features/apps/index.tsx:147
 msgid "Please enter an app name"
 msgstr "Sláðu inn heiti forrits"
 
-#: src/routes/_authenticated/app/$appId.tsx:651
+#: src/routes/_authenticated/app/$appId.tsx:633
 msgid "Please select a file"
 msgstr "Veldu skrá"
 
@@ -1001,16 +953,14 @@ msgstr "Fyrri mynd"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:362
+#: src/routes/_authenticated/app/$appId.tsx:225
+#: src/routes/_authenticated/app/$appId.tsx:350
 msgid "Privacy"
 msgstr "Friðhelgi"
 
-#: src/routes/_authenticated/app/$appId.tsx:220
-msgid "Privacy Policy"
-msgstr "Friðhelgisstefna"
-
-#: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:225
+#: src/features/apps/index.tsx:92
+#: src/routes/_authenticated/app/$appId.tsx:230
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Private"
 msgstr "Einkamál"
 
@@ -1019,13 +969,14 @@ msgstr "Einkamál"
 msgid "Profile"
 msgstr "Síða"
 
-#: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:223
+#: src/features/apps/index.tsx:92
+#: src/routes/_authenticated/app/$appId.tsx:228
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Public"
 msgstr "Opinbert"
 
-#: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:239
+#: src/features/apps/index.tsx:93
+#: src/routes/_authenticated/app/$appId.tsx:244
 msgid "Published"
 msgstr "Birt"
 
@@ -1047,7 +998,7 @@ msgid "Re-register your passkeys on this server"
 msgstr "Skráðu aðgangslyklana þína aftur á þessum netþjóni"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:216
-#: ../../../lib/web/src/components/search-entity-page.tsx:240
+#: ../../../lib/web/src/components/search-entity-page.tsx:242
 msgid "Recommended"
 msgstr "Mælt með"
 
@@ -1055,8 +1006,8 @@ msgstr "Mælt með"
 msgid "Redirecting to login."
 msgstr "Áframsendi á innskráningu."
 
-#: ../../../lib/web/src/components/post-tags.tsx:196
-#: ../../../lib/web/src/components/post-tags.tsx:208
+#: ../../../lib/web/src/components/post-tags.tsx:200
+#: ../../../lib/web/src/components/post-tags.tsx:212
 msgid "Reduce interest"
 msgstr "Minnka áhuga"
 
@@ -1068,13 +1019,9 @@ msgstr "Afstætt (5 mín, 3 klst, 2 d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Afstætt innan 24 klst, annars algjört"
 
-#: src/routes/_authenticated/app/$appId.tsx:478
-msgid "Release Tracks"
-msgstr "Útgáfubrautir"
-
-#: src/routes/_authenticated/app/$appId.tsx:373
-msgid "Release tracks currently active"
-msgstr "Útgáfubrautir sem eru virkar"
+#: src/routes/_authenticated/app/$appId.tsx:465
+msgid "Release tracks"
+msgstr "Útgáfurásir"
 
 #: ../../../lib/web/src/features/access/access-list.tsx:265
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
@@ -1090,8 +1037,8 @@ msgstr "Fjarlægja aðgangsreglu"
 msgid "Remove access?"
 msgstr "Fjarlægja aðgang?"
 
-#: ../../../lib/web/src/components/post-tags.tsx:216
-#: ../../../lib/web/src/components/post-tags.tsx:228
+#: ../../../lib/web/src/components/post-tags.tsx:220
+#: ../../../lib/web/src/components/post-tags.tsx:232
 msgid "Remove interest"
 msgstr "Fjarlægja áhuga"
 
@@ -1108,8 +1055,8 @@ msgstr "Endurstilla"
 msgid "Reset all settings to default values"
 msgstr "Endurstilla allar stillingar á sjálfgefin gildi"
 
-#: src/features/apps/index.tsx:94
-#: src/routes/_authenticated/app/$appId.tsx:240
+#: src/features/apps/index.tsx:93
+#: src/routes/_authenticated/app/$appId.tsx:245
 msgid "Restricted"
 msgstr "Takmarkað"
 
@@ -1155,7 +1102,7 @@ msgid "Search..."
 msgstr "Leita..."
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:174
-#: ../../../lib/web/src/components/search-entity-page.tsx:198
+#: ../../../lib/web/src/components/search-entity-page.tsx:200
 #: ../../../lib/web/src/features/access/access-dialog.tsx:202
 msgid "Searching..."
 msgstr "Leita..."
@@ -1218,7 +1165,7 @@ msgstr "Reglur þjónsins"
 msgid "Session expired. Please log in again."
 msgstr "Setan er útrunnin. Skráðu þig aftur inn."
 
-#: src/routes/_authenticated/app/$appId.tsx:539
+#: src/routes/_authenticated/app/$appId.tsx:521
 msgid "Set as default"
 msgstr "Stilla sem sjálfgefið"
 
@@ -1234,11 +1181,7 @@ msgstr "Stilltu upphafsstað og áfangastað"
 msgid "Settings"
 msgstr "Stillingar"
 
-#: src/routes/_authenticated/app/$appId.tsx:249
-msgid "Share this link to allow others to install this app"
-msgstr "Deildu þessum hlekk svo aðrir geti sett upp þetta forrit"
-
-#: src/routes/_authenticated/app/$appId.tsx:248
+#: src/routes/_authenticated/app/$appId.tsx:252
 msgid "Sharing"
 msgstr "Deiling"
 
@@ -1300,8 +1243,8 @@ msgstr "Kerfi"
 msgid "Tag"
 msgstr "Merki"
 
-#: ../../../lib/web/src/components/post-tags.tsx:100
-#: ../../../lib/web/src/components/post-tags.tsx:111
+#: ../../../lib/web/src/components/post-tags.tsx:101
+#: ../../../lib/web/src/components/post-tags.tsx:115
 msgid "Tags"
 msgstr "Merki"
 
@@ -1318,8 +1261,8 @@ msgstr "Skilmálar og skilyrði"
 msgid "That code is incorrect or has expired."
 msgstr "Þessi kóði er rangur eða útrunninn."
 
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:151
+#: src/routes/_authenticated/app/$appId.tsx:131
+#: src/routes/_authenticated/app/$appId.tsx:156
 msgid "The requested app could not be found."
 msgstr "Umbeðna forritið fannst ekki."
 
@@ -1378,28 +1321,32 @@ msgstr "Of margar beiðnir"
 msgid "Top"
 msgstr "Efst"
 
-#: src/routes/_authenticated/app/$appId.tsx:453
+#: src/routes/_authenticated/app/$appId.tsx:441
 msgid "Track \"{track}\" deleted"
 msgstr "Rás „{track}“ eytt"
 
-#: src/routes/_authenticated/app/$appId.tsx:439
+#: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Rás „{track}“ uppfærð í {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:421
+#: src/routes/_authenticated/app/$appId.tsx:409
 msgid "Track created"
 msgstr "Rás búin til"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
-msgid "Track Name"
-msgstr "Nafn rásar"
+#: src/routes/_authenticated/app/$appId.tsx:555
+msgid "Track name"
+msgstr "Heiti rásar"
+
+#: src/routes/_authenticated/app/$appId.tsx:98
+msgid "Tracks"
+msgstr "Rásir"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
 msgid "Travelling"
 msgstr "Á ferðalagi"
 
 #: ../../../lib/web/src/components/search-entity-dialog.tsx:190
-#: ../../../lib/web/src/components/search-entity-page.tsx:214
+#: ../../../lib/web/src/components/search-entity-page.tsx:216
 msgid "Try adjusting your search terms"
 msgstr "Reyndu að breyta leitarskilyrðum þínum"
 
@@ -1450,31 +1397,25 @@ msgstr "Bandaríkin"
 msgid "Unverified"
 msgstr "Óstaðfest"
 
-#: src/routes/_authenticated/app/$appId.tsx:723
-msgid "Update Tracks"
+#: src/routes/_authenticated/app/$appId.tsx:703
+msgid "Update tracks"
 msgstr "Uppfæra rásir"
 
-#: src/routes/_authenticated/app/$appId.tsx:687
-msgid "Upload a .zip build file for your application."
-msgstr "Hlaða upp .zip-byggingarskrá fyrir forritið þitt."
-
-#: src/routes/_authenticated/app/$appId.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:203
+#: src/routes/_authenticated/app/$appId.tsx:665
+#: src/routes/_authenticated/app/$appId.tsx:667
 msgid "Upload new version"
 msgstr "Hlaða upp nýrri útgáfu"
 
-#: src/routes/_authenticated/app/$appId.tsx:685
-msgid "Upload New Version"
-msgstr "Hlaða upp nýrri útgáfu"
-
-#: src/routes/_authenticated/app/$appId.tsx:750
+#: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Upload version"
 msgstr "Hlaða upp útgáfu"
 
-#: src/routes/_authenticated/app/$appId.tsx:275
-msgid "Upload your first build to get started"
-msgstr "Hladdu upp fyrstu byggingunni þinni til að hefjast handa"
+#: src/routes/_authenticated/app/$appId.tsx:270
+msgid "Upload your first build"
+msgstr "Hladdu upp fyrstu smíðinni þinni"
 
-#: src/routes/_authenticated/app/$appId.tsx:750
+#: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Uploading..."
 msgstr "Hleð upp..."
 
@@ -1486,7 +1427,7 @@ msgstr "Notaðu aðgangslykilinn þinn"
 msgid "User"
 msgstr "Notandi"
 
-#: src/routes/_authenticated/app/$appId.tsx:253
+#: src/routes/_authenticated/app/$appId.tsx:255
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Notendur geta sett upp þetta forrit með því að líma þennan hlekk á Forrit-síðuna sína."
 
@@ -1513,19 +1454,19 @@ msgid "Verify email address"
 msgstr "Sannprófa netfang"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:663
-msgid "Version {0} has been created."
-msgstr "Útgáfa {0} hefur verið búin til."
+#: src/routes/_authenticated/app/$appId.tsx:644
+msgid "Version {0} uploaded"
+msgstr "Útgáfu {0} hlaðið upp"
 
-#: src/routes/_authenticated/app/$appId.tsx:269
-msgid "Version History"
+#: src/routes/_authenticated/app/$appId.tsx:264
+msgid "Version history"
 msgstr "Útgáfusaga"
 
-#: src/routes/_authenticated/app/$appId.tsx:662
-msgid "Version uploaded"
-msgstr "Útgáfu hlaðið upp"
+#: src/routes/_authenticated/app/$appId.tsx:97
+msgid "Versions"
+msgstr "Útgáfur"
 
-#: ../../../lib/web/src/components/attachment-gallery.tsx:66
+#: ../../../lib/web/src/components/attachment-gallery.tsx:74
 msgid "Video thumbnail"
 msgstr "Smámynd myndbands"
 
@@ -1554,12 +1495,12 @@ msgstr "Vefsvæðið er í viðhaldi!"
 msgid "Wednesday"
 msgstr "Miðvikudagur"
 
-#: src/features/apps/index.tsx:202
-#: src/routes/_authenticated/app/$appId.tsx:715
+#: src/features/apps/index.tsx:198
+#: src/routes/_authenticated/app/$appId.tsx:695
 msgid "Yes"
 msgstr "Já"
 
-#: src/routes/_authenticated/app/$appId.tsx:716
+#: src/routes/_authenticated/app/$appId.tsx:696
 msgid "Yes, force"
 msgstr "Já, þvinga"
 

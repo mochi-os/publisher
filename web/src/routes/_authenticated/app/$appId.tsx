@@ -92,6 +92,11 @@ function AppPage() {
   const navigateApp = Route.useNavigate()
   const { tab } = Route.useSearch()
   const activeTab = tab ?? 'details'
+  const tabLabels: Record<TabId, string> = {
+    details: t`Details`,
+    versions: t`Versions`,
+    tracks: t`Tracks`,
+  }
 
   const setActiveTab = (newTab: TabId) => {
     void navigateApp({ search: { tab: newTab }, replace: true })
@@ -182,13 +187,13 @@ function AppPage() {
                 onClick={() => setActiveTab(tab)}
                 className={cn(
                   'px-4 py-2 text-sm font-medium transition-colors',
-                  'border-b-2 -mb-px capitalize',
+                  'border-b-2 -mb-px',
                   activeTab === tab
                     ? 'border-primary text-foreground'
                     : 'border-transparent text-muted-foreground hover:text-foreground'
                 )}
               >
-                {tab}
+                {tabLabels[tab]}
               </button>
             ))}
           </div>
@@ -209,7 +214,7 @@ function AppPage() {
         <div className="pt-2">
           {activeTab === 'details' && (
             <div className='space-y-6'>
-              <Section title={t`Identity`} description={t`Core identification for this application`}>
+              <Section title={t`Identity`}>
                 <div className="divide-y-0">
                   <FieldRow label={t`Application ID`}>
                     <DataChip value={app.id} />
@@ -217,7 +222,7 @@ function AppPage() {
                   <FieldRow label={t`Fingerprint`}>
                     <DataChip value={app.fingerprint || ''} truncate='middle' />
                   </FieldRow>
-                  <FieldRow label={t`Privacy Policy`}>
+                  <FieldRow label={t`Privacy`}>
                     <div className="flex items-center gap-2">
                       {app.privacy === 'public' ? (
                         <DataChip value={t`Public`} icon={<Globe className="size-3.5" />} copyable={false} />
@@ -244,35 +249,25 @@ function AppPage() {
                 </div>
               </Section>
 
-              <Section
-                title={t`Sharing`}
-                description={t`Share this link to allow others to install this app`}
-              >
+              <Section title={t`Sharing`}>
                 <div className="space-y-4">
                   <p className='text-muted-foreground text-sm'>
                     <Trans>Users can install this application by pasting this link into their Apps page.</Trans>
                   </p>
-                  <div className='space-y-2 py-2'>
-                    <dt className='text-muted-foreground text-sm font-medium leading-tight'>
-                      {t`Install link:`}
-                    </dt>
-                    <dd className='flex min-w-0 items-center gap-2'>
-                      <DataChip value={shareString} copyButtonMode='always' />
-                    </dd>
-                  </div>
+                  <DataChip value={shareString} copyButtonMode='always' />
                 </div>
               </Section>
             </div>
           )}
 
           {activeTab === 'versions' && (
-            <Section title={t`Version History`} description={t`All uploaded build files for this application`}>
+            <Section title={t`Version history`}>
               {versions.length === 0 ? (
                 <div className="py-8">
                   <EmptyState
                     icon={Package}
                     title={t`No versions`}
-                    description={t`Upload your first build to get started`}
+                    description={t`Upload your first build`}
                   />
                 </div>
               ) : (
@@ -338,39 +333,32 @@ function SharePage({
       <PageHeader title={app.name} back={{ label: t`Back to apps`, onFallback: onBack }} />
       <Main className='pt-2'>
         <div className='space-y-6'>
-          <Section title={t`Install App`} description={t`Install this application to your server`}>
+          <Section title={t`Install app`}>
             <div className="space-y-4">
               <p className='text-muted-foreground text-sm'>
                 <Trans>Copy this link and paste it in your Mochi server's Apps page to install.</Trans>
               </p>
-              <div className='space-y-2 py-2'>
-                <dt className='text-muted-foreground text-sm font-medium leading-tight'>
-                  {t`Install link:`}
-                </dt>
-                <dd className='flex min-w-0 items-center gap-2'>
-                  <DataChip value={shareString} copyButtonMode='always' />
-                </dd>
-              </div>
+              <DataChip value={shareString} copyButtonMode='always' />
             </div>
           </Section>
 
-          <Section title={t`Details`} description={t`Metadata and configuration`}>
+          <Section title={t`Details`}>
             <div className="divide-y-0">
               <FieldRow label={t`Fingerprint`}>
-                <DataChip value={app.fingerprint || t`N/A`} truncate='middle' />
+                <DataChip value={app.fingerprint || ''} truncate='middle' />
               </FieldRow>
               <FieldRow label={t`Privacy`}>
-                <DataChip 
-                  value={app.privacy} 
-                  icon={app.privacy === 'public' ? <Globe className="size-3.5" /> : <Lock className="size-3.5" />} 
-                  copyable={false} 
+                <DataChip
+                  value={app.privacy === 'public' ? t`Public` : t`Private`}
+                  icon={app.privacy === 'public' ? <Globe className="size-3.5" /> : <Lock className="size-3.5" />}
+                  copyable={false}
                 />
               </FieldRow>
             </div>
           </Section>
 
           {tracks.length > 0 && (
-            <Section title={t`Available Versions`} description={t`Release tracks currently active`}>
+            <Section title={t`Available versions`}>
               <div className='divide-y border rounded-lg overflow-hidden'>
                 {tracks.map((track) => (
                   <div key={track.track} className='flex items-center justify-between py-3 px-4'>
@@ -474,16 +462,13 @@ function TracksTab({
   }
 
   return (
-    <Section 
-      title={t`Release Tracks`} 
-      description={t`Manage deployment environments and their versions`}
-    >
+    <Section title={t`Release tracks`}>
       {tracks.length === 0 ? (
         <div className="py-8">
           <EmptyState
             icon={Shield}
             title={t`No tracks`}
-            description={t`Create your first release track to manage deployments`}
+            description={t`Create your first release track`}
           />
         </div>
       ) : (
@@ -493,16 +478,13 @@ function TracksTab({
               key={track.track}
               className='flex items-center justify-between px-4 py-3 transition-colors hover:bg-surface-2'
             >
-              <div className="flex flex-col">
-                <span className='font-semibold text-sm flex items-center gap-2'>
-                  {track.track}
-                  {track.track === defaultTrack && (
-                    <span className='text-[10px] uppercase tracking-wider bg-primary/10 text-primary px-1.5 py-0.5 rounded-full'>default</span>
-                  )}
-                </span>
-                <span className="text-xs text-muted-foreground"><Trans>Active version</Trans></span>
-              </div>
-              
+              <span className='font-semibold text-sm flex items-center gap-2'>
+                {track.track}
+                {track.track === defaultTrack && (
+                  <span className='text-[10px] uppercase tracking-wider bg-primary/10 text-primary px-1.5 py-0.5 rounded-full'><Trans>Default</Trans></span>
+                )}
+              </span>
+
               <div className='flex items-center gap-3'>
                 <Select
                   value={track.version}
@@ -562,15 +544,15 @@ function TracksTab({
       }}>
         <ResponsiveDialogContent>
           <ResponsiveDialogHeader>
-            <ResponsiveDialogTitle><Trans>New Release Track</Trans></ResponsiveDialogTitle>
-            <ResponsiveDialogDescription>
-              <Trans>Create a new environment (e.g. Beta, Staging) to deploy builds.</Trans>
+            <ResponsiveDialogTitle><Trans>Create track</Trans></ResponsiveDialogTitle>
+            <ResponsiveDialogDescription className='sr-only'>
+              <Trans>Create track</Trans>
             </ResponsiveDialogDescription>
           </ResponsiveDialogHeader>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
               <label htmlFor='trackName' className='text-sm font-medium'>
-                <Trans>Track Name</Trans>
+                <Trans>Track name</Trans>
               </label>
               <Input
                 id='trackName'
@@ -580,7 +562,7 @@ function TracksTab({
               />
             </div>
             <div className='space-y-2'>
-              <label className='text-sm font-medium'><Trans>Initial Version</Trans></label>
+              <label className='text-sm font-medium'><Trans>Initial version</Trans></label>
               <Select value={newTrackVersion} onValueChange={setNewTrackVersion}>
                 <SelectTrigger>
                   <SelectValue placeholder={t`No version`} />
@@ -659,9 +641,7 @@ function UploadVersionDialog({
       { appId, file, install, force, tracks: selectedTracks },
       {
         onSuccess: (data: { version: string }) => {
-          toast.success(t`Version uploaded`, {
-            description: t`Version ${data.version} has been created.`,
-          })
+          toast.success(t`Version ${data.version} uploaded`)
           setFile(null)
           setInstallOption('yes')
           // eslint-disable-next-line lingui/no-unlocalized-strings
@@ -682,16 +662,16 @@ function UploadVersionDialog({
     <ResponsiveDialog open={open} onOpenChange={onOpenChange}>
       <ResponsiveDialogContent>
         <ResponsiveDialogHeader>
-          <ResponsiveDialogTitle><Trans>Upload New Version</Trans></ResponsiveDialogTitle>
-          <ResponsiveDialogDescription>
-            <Trans>Upload a .zip build file for your application.</Trans>
+          <ResponsiveDialogTitle><Trans>Upload new version</Trans></ResponsiveDialogTitle>
+          <ResponsiveDialogDescription className='sr-only'>
+            <Trans>Upload new version</Trans>
           </ResponsiveDialogDescription>
         </ResponsiveDialogHeader>
         <form onSubmit={handleSubmit}>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
               <label htmlFor='file' className='text-sm font-medium'>
-                <Trans>Build File (.zip)</Trans>
+                <Trans>Build file</Trans>
               </label>
               <Input
                 ref={fileInputRef}
@@ -704,7 +684,7 @@ function UploadVersionDialog({
             {showInstallOption && (
               <div className='space-y-2'>
                 <label htmlFor='install' className='text-sm font-medium'>
-                  <Trans>Install Locally</Trans>
+                  <Trans>Install locally</Trans>
                 </label>
                 <select
                   id='install'
@@ -720,7 +700,7 @@ function UploadVersionDialog({
             )}
             {availableTracks.length > 0 && (
               <div className='space-y-2'>
-                <label className='text-sm font-medium'><Trans>Update Tracks</Trans></label>
+                <label className='text-sm font-medium'><Trans>Update tracks</Trans></label>
                 <div className='grid grid-cols-2 gap-2'>
                   {availableTracks.map((track) => (
                     <label key={track} className='flex cursor-pointer items-center gap-2 rounded-md border p-2 transition-colors hover:bg-hover active:bg-interactive-active'>
