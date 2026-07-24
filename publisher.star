@@ -88,6 +88,25 @@ def database_create():
 	mochi.db.execute("create index versions_file on versions( file )")
 	mochi.db.execute("create table tracks ( app references apps( id ), track text not null, version text not null, updated integer not null default 0, primary key ( app, track ) )")
 
+# Resolve the app named by the "app" input for a write action, or set an error
+# and return None. Validates id format (400 - an ill-formed id would otherwise
+# make mochi.entity.get raise and surface as a 500), ownership (403), and
+# existence (404). The id format accepted mirrors mochi.entity.get (entity or
+# fingerprint) so the ownership check never sees an id it would reject.
+def require_owned_app(a):
+	id = a.input("app")
+	if not id or not (mochi.text.valid(id, "entity") or mochi.text.valid(id, "fingerprint")):
+		a.error.label(400, "errors.invalid_app_id")
+		return None
+	if not mochi.entity.get(id):
+		a.error.label(403, "errors.access_denied")
+		return None
+	app = mochi.db.row("select * from apps where id=?", id)
+	if not app:
+		a.error.label(404, "errors.app_not_found")
+		return None
+	return app
+
 def action_list(a):
 	apps = mochi.db.rows("select a.*, t.version from apps a left join tracks t on a.id = t.app and t.track = a.default_track")
 	return {"data": {"apps": apps}}
@@ -122,8 +141,10 @@ def action_view(a):
 		tracks = [t for t in tracks_all if t.get("version")]
 		return {"data": {"app": app, "tracks": tracks, "versions": [], "administrator": False, "share": True, "publisher": publisher}}
 
-	# For administrators, return full management info including empty tracks
-	versions = mochi.db.rows("select * from versions where app=? order by version", app["id"])
+	# For administrators, return full management info including empty tracks.
+	# No SQL order-by: version is a text column, so SQLite sorts it lexically
+	# ("0.10" before "0.9"). The web frontend sorts versions numerically.
+	versions = mochi.db.rows("select * from versions where app=?", app["id"])
 	return {"data": {"app": app, "tracks": tracks_all, "versions": versions, "administrator": True, "share": False, "publisher": publisher}}
 
 # Create new app
@@ -158,17 +179,10 @@ def action_create(a):
 
 # Create a version
 def action_version_create(a):
-	id = a.input("app")
-	if not id or len(id) > 51:
-		a.error.label(400, "errors.invalid_app_id")
+	app = require_owned_app(a)
+	if app == None:
 		return
-	if not mochi.entity.get(id):
-		a.error.label(403, "errors.access_denied")
-		return
-	app = mochi.db.row("select * from apps where id=?", id)
-	if not app:
-		a.error.label(404, "errors.app_not_found")
-		return
+	id = app["id"]
 
 	# Tracks to update, defaulting to the app's default track when none are
 	# specified. Validated up front, before the package is installed and the
@@ -277,17 +291,10 @@ def action_prune(a):
 
 # Create a new track
 def action_track_create(a):
-	id = a.input("app")
-	if not id or len(id) > 51:
-		a.error.label(400, "errors.invalid_app_id")
+	app = require_owned_app(a)
+	if app == None:
 		return
-	if not mochi.entity.get(id):
-		a.error.label(403, "errors.access_denied")
-		return
-	app = mochi.db.row("select * from apps where id=?", id)
-	if not app:
-		a.error.label(404, "errors.app_not_found")
-		return
+	id = app["id"]
 
 	track = a.input("track")
 	if not track or not track_valid(track):
@@ -317,17 +324,10 @@ def action_track_create(a):
 
 # Set which version a track points to
 def action_track_set(a):
-	id = a.input("app")
-	if not id or len(id) > 51:
-		a.error.label(400, "errors.invalid_app_id")
+	app = require_owned_app(a)
+	if app == None:
 		return
-	if not mochi.entity.get(id):
-		a.error.label(403, "errors.access_denied")
-		return
-	app = mochi.db.row("select * from apps where id=?", id)
-	if not app:
-		a.error.label(404, "errors.app_not_found")
-		return
+	id = app["id"]
 
 	track = a.input("track")
 	if not track or len(track) > 50:
@@ -357,17 +357,10 @@ def action_track_set(a):
 
 # Delete a track
 def action_track_delete(a):
-	id = a.input("app")
-	if not id or len(id) > 51:
-		a.error.label(400, "errors.invalid_app_id")
+	app = require_owned_app(a)
+	if app == None:
 		return
-	if not mochi.entity.get(id):
-		a.error.label(403, "errors.access_denied")
-		return
-	app = mochi.db.row("select * from apps where id=?", id)
-	if not app:
-		a.error.label(404, "errors.app_not_found")
-		return
+	id = app["id"]
 
 	track = a.input("track")
 	if not track or len(track) > 50:
@@ -384,17 +377,10 @@ def action_track_delete(a):
 
 # Set the default track for an app
 def action_default_track_set(a):
-	id = a.input("app")
-	if not id or len(id) > 51:
-		a.error.label(400, "errors.invalid_app_id")
+	app = require_owned_app(a)
+	if app == None:
 		return
-	if not mochi.entity.get(id):
-		a.error.label(403, "errors.access_denied")
-		return
-	app = mochi.db.row("select * from apps where id=?", id)
-	if not app:
-		a.error.label(404, "errors.app_not_found")
-		return
+	id = app["id"]
 
 	track = a.input("track")
 	if not track or len(track) > 50:
@@ -419,7 +405,7 @@ def event_information(e):
 	# content) keep working. The @publisher flow needs the explicit field
 	# because the stream target is the publisher entity, not the app.
 	app_id = e.content("app") or e.header("to")
-	if not app_id:
+	if not app_id or len(app_id) > 51:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
 	if not a:
@@ -505,17 +491,10 @@ def event_version(e):
 
 # Set the distribution policy for an app (published/restricted)
 def action_distribution_set(a):
-	id = a.input("app")
-	if not id or len(id) > 51:
-		a.error.label(400, "errors.invalid_app_id")
+	app = require_owned_app(a)
+	if app == None:
 		return
-	if not mochi.entity.get(id):
-		a.error.label(403, "errors.access_denied")
-		return
-	app = mochi.db.row("select * from apps where id=?", id)
-	if not app:
-		a.error.label(404, "errors.app_not_found")
-		return
+	id = app["id"]
 
 	distribution = a.input("distribution")
 	if distribution not in ("published", "restricted"):
