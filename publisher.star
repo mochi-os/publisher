@@ -54,13 +54,16 @@ def prune_versions(app_id):
 		keep[latest["version"]] = True
 		remaining = [r for r in remaining if r["version"] != latest["version"]]
 
-	# Prune the rest: zip first, then the record.
+	# Prune the rest: record first, then the zip - and only when no other
+	# version row still references the same file. Rows created before archives
+	# got server-derived names can share one client-named zip across versions
+	# or apps, and deleting it would break the surviving references.
 	pruned = 0
 	for r in rows:
 		if not keep.get(r["version"]):
-			if r["file"]:
-				mochi.file.delete(r["file"])
 			mochi.db.execute("delete from versions where app=? and version=?", app_id, r["version"])
+			if r["file"] and not mochi.db.row("select 1 from versions where file=?", r["file"]):
+				mochi.file.delete(r["file"])
 			pruned = pruned + 1
 	return pruned
 
@@ -161,11 +164,15 @@ def action_version_create(a):
 		a.error.label(404, "errors.app_not_found")
 		return
 
-	file = a.input("file")
-	if not mochi.text.valid(file, "filename"):
+	# The archive is stored under a server-derived name once the version is
+	# known; the client filename is never used for storage, since client-named
+	# archives let two versions or two apps share one file (overwritten bytes,
+	# cross-linked rows, pruning a still-referenced zip).
+	if not a.input("file"):
 		a.error.label(400, "errors.file_name_invalid")
 		return
 
+	file = "upload_" + mochi.random.alphanumeric(8) + ".zip"
 	a.upload("file", file)
 
 	# Validate paths match existing version (unless force=true)
@@ -205,8 +212,21 @@ def action_version_create(a):
 	if install:
 		mochi.app.version.set(app["id"], version, "")
 
-	# Use insert or ignore to prevent duplicate version entries from concurrent requests
-	mochi.db.execute("insert or ignore into versions ( app, version, file ) values ( ?, ?, ? )", app["id"], version, file)
+	# Store the archive under a name derived from the app and version, so
+	# different apps and versions can never collide and re-uploading the same
+	# version overwrites its archive in place (same-version redeploys).
+	storage = app["id"] + "_" + version + ".zip"
+	a.upload("file", storage)
+	mochi.file.delete(file)
+
+	# Repoint the version row at this archive. A re-upload can leave a
+	# previous archive under a legacy client-supplied name; delete it once no
+	# other version references it.
+	previous = mochi.db.row("select file from versions where app=? and version=?", app["id"], version)
+	mochi.db.execute("replace into versions ( app, version, file ) values ( ?, ?, ? )", app["id"], version, storage)
+	if previous and previous["file"] and previous["file"] != storage:
+		if not mochi.db.row("select 1 from versions where file=?", previous["file"]):
+			mochi.file.delete(previous["file"])
 
 	# Update specified tracks, or default to app's default track if none specified
 	tracks_input = a.input("tracks")
