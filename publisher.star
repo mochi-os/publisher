@@ -19,6 +19,12 @@ def version_greater(a, b):
 			return False
 	return False
 
+# A track name is at most 50 characters of letters, digits, "-" and "_" -
+# the one rule for every path that creates tracks (explicit create and
+# version upload).
+def track_valid(track):
+	return len(track) <= 50 and track.replace("-", "").replace("_", "").isalnum()
+
 # Number of most-recent versions to retain per app, regardless of track. Any
 # version a track points at is always kept as well; everything older is pruned
 # so the release archive stays bounded. Pruning runs on each upload and can be
@@ -164,6 +170,24 @@ def action_version_create(a):
 		a.error.label(404, "errors.app_not_found")
 		return
 
+	# Tracks to update, defaulting to the app's default track when none are
+	# specified. Validated up front, before the package is installed and the
+	# archive stored: the upload path must not mint track names that
+	# action_track_create would reject.
+	tracks = []
+	tracks_input = a.input("tracks")
+	if tracks_input:
+		for track in tracks_input.split(","):
+			track = track.strip()
+			if not track:
+				continue
+			if not track_valid(track):
+				a.error.label(400, "errors.invalid_track_name")
+				return
+			tracks.append(track)
+	else:
+		tracks = [app.get("default_track", "Production")]
+
 	# The archive is stored under a server-derived name once the version is
 	# known; the client filename is never used for storage, since client-named
 	# archives let two versions or two apps share one file (overwritten bytes,
@@ -228,17 +252,11 @@ def action_version_create(a):
 		if not mochi.db.row("select 1 from versions where file=?", previous["file"]):
 			mochi.file.delete(previous["file"])
 
-	# Update specified tracks, or default to app's default track if none specified
-	tracks_input = a.input("tracks")
-	if tracks_input:
-		tracks = tracks_input.split(",")
-	else:
-		tracks = [app.get("default_track", "Production")]
-
+	# Point the chosen tracks at this version, stamping updated the same as
+	# action_track_set (replace would otherwise reset it to the default 0).
+	now = mochi.time.now()
 	for track in tracks:
-		track = track.strip()
-		if track:
-			mochi.db.execute("replace into tracks ( app, track, version ) values ( ?, ?, ? )", app["id"], track, version)
+		mochi.db.execute("replace into tracks ( app, track, version, updated ) values ( ?, ?, ?, ? )", app["id"], track, version, now)
 
 	# Enforce the retention policy now that the new version is assigned to its
 	# tracks (so it is always in the keep-set).
@@ -272,7 +290,7 @@ def action_track_create(a):
 		return
 
 	track = a.input("track")
-	if not track or len(track) > 50 or not track.replace("-", "").replace("_", "").isalnum():
+	if not track or not track_valid(track):
 		a.error.label(400, "errors.invalid_track_name")
 		return
 
