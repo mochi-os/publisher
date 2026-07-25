@@ -396,6 +396,12 @@ def action_default_track_set(a):
 	mochi.db.execute("update apps set default_track=? where id=?", track, id)
 	return {"data": {"default_track": track}}
 
+# The "message" strings in these three event handlers are deliberately English
+# and not label keys: they are P2P protocol diagnostics, not user-facing text.
+# Callers branch on the numeric "status" and render their own localised error
+# (see the apps app's errors.* labels), so translating these would add per-locale
+# churn that no user ever sees. Reviewed and kept English 2026-07-24.
+
 # Receive a request for information about an app
 # Private apps are accessible if the requester knows the publisher ID.
 # Apps with distribution='restricted' refuse to serve metadata to remote callers.
