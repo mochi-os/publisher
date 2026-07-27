@@ -1276,7 +1276,7 @@ msgstr "Mövzu yeniləndi"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:69
 msgid "Theme Settings"
-msgstr "Hələ heç bir moderasiya tədbiri qeyd olunmayıb"
+msgstr "Mövzu parametrləri"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:62
 msgid "Thursday"
@@ -1323,7 +1323,7 @@ msgstr "Mövzular"
 
 #: src/routes/_authenticated/app/$appId.tsx:441
 msgid "Track \"{track}\" deleted"
-msgstr "İz adı"
+msgstr "\"{track}\" izi silindi"
 
 #: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Track \"{track}\" updated to {version}"
@@ -1370,7 +1370,7 @@ msgstr "Mesajınızı yazın…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:183
 msgid "Type to search..."
-msgstr "Növlər"
+msgstr "Axtarmaq üçün yazın..."
 
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:282
 msgid "Unable to connect to remote server"
@@ -1379,7 +1379,7 @@ msgstr "Uzaq serverə qoşulmaq mümkün olmadı"
 #: ../../../lib/web/src/lib/auth-manager.ts:85
 #: ../../../lib/web/src/lib/auth-manager.ts:97
 msgid "Unable to redirect to login. Please try again."
-msgstr "Təyin edilməyib"
+msgstr "Girişə yönləndirmək mümkün olmadı. Yenidən cəhd edin."
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:155
 msgid "Unassigned"
@@ -1417,7 +1417,7 @@ msgstr "İlk build-inizi yükləyin"
 
 #: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Uploading..."
-msgstr "Joker domenlər üçün *.domain.com istifadə edin"
+msgstr "Yüklənir..."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:338
 msgid "Use your passkey"
@@ -1441,7 +1441,7 @@ msgstr "Yoxlanıldı"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:248
 msgid "Verification failed"
-msgstr "Yoxla"
+msgstr "Doğrulama uğursuz oldu"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:388
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:172
@@ -1451,7 +1451,7 @@ msgstr "DNS-i yoxla"
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:61
 msgid "Verify email address"
-msgstr "Versiya"
+msgstr "E-poçt ünvanını doğrulayın"
 
 #. placeholder {0}: data.version
 #: src/routes/_authenticated/app/$appId.tsx:644
@@ -1485,7 +1485,7 @@ msgstr "Element təfərrüatlarına baxın və redaktə edin"
 
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:16
 msgid "We'll be back online shortly."
-msgstr "Mochi-ni sınamağa və dürüst rəy bildirməyə hazır olan erkən istifadəçiləri axtarırıq. Versiya 0.3-dür, bəzi xətaları var, lakin gündəlik istifadə üçün hazırdır."
+msgstr "Tezliklə yenidən onlayn olacağıq."
 
 #: ../../../lib/web/src/features/errors/maintenance-error.tsx:13
 msgid "Website is under maintenance!"
