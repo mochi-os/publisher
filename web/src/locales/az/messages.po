@@ -1413,7 +1413,7 @@ msgstr "\"{track}\" izi silindi"
 
 #: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Track \"{track}\" updated to {version}"
-msgstr "İz yaradıldı"
+msgstr "\"{track}\" treki {version} versiyasına yeniləndi"
 
 #: src/routes/_authenticated/app/$appId.tsx:409
 msgid "Track created"

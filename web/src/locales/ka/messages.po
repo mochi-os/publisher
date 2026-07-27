@@ -1413,7 +1413,7 @@ msgstr "ტრეკი \"{track}\" წაიშალა"
 
 #: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Track \"{track}\" updated to {version}"
-msgstr "ტრეკი \"{track}\" წაიშალა"
+msgstr "ტრეკი „{track}“ განახლდა ვერსიამდე {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx:409
 msgid "Track created"
@@ -1503,7 +1503,7 @@ msgstr "ატვირთეთ თქვენი პირველი ბი
 
 #: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Uploading..."
-msgstr "{uploading} იტვირთება..."
+msgstr "იტვირთება..."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx:338
 msgid "Use your passkey"
@@ -1511,7 +1511,7 @@ msgstr "გამოიყენეთ თქვენი passkey"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:158
 msgid "User"
-msgstr "გამოიყენება წასაკითხი ID-ებისთვის, როგორიცაა {0}-1, {1}-2"
+msgstr "მომხმარებელი"
 
 #: src/routes/_authenticated/app/$appId.tsx:255
 msgid "Users can install this application by pasting this link into their Apps page."
@@ -1554,7 +1554,7 @@ msgstr "ვერსიები"
 
 #: ../../../lib/web/src/components/attachment-gallery.tsx:79
 msgid "Video thumbnail"
-msgstr "ვერსია {0} შეიქმნა."
+msgstr "ვიდეოს მინიატურა"
 
 #. placeholder {0}: currentMedia.name
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:246

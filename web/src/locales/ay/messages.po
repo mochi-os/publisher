@@ -1409,11 +1409,11 @@ msgstr "Patxa nivel"
 
 #: src/routes/_authenticated/app/$appId.tsx:441
 msgid "Track \"{track}\" deleted"
-msgstr "Track \"{track}\" {version} ukar machaqachata"
+msgstr "\"{track}\" thakhix chhaqtayatawa"
 
 #: src/routes/_authenticated/app/$appId.tsx:427
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track Suti"
+msgstr "\"{track}\" thakhix {version} ukar machaqachatawa"
 
 #: src/routes/_authenticated/app/$appId.tsx:409
 msgid "Track created"
