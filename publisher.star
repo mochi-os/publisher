@@ -4,6 +4,18 @@
 # This file is part of Mochi, licensed under the GNU AGPL v3 with the
 # Mochi Application Interface Exception - see license.txt and license-exception.md.
 
+# decimal(value) -> bool: whether value is a non-empty ASCII decimal string.
+# This is what .isdigit() was reached for, but isdigit() also accepts Unicode
+# digit forms (Arabic-Indic "٣", Devanagari "३") that int() rejects,
+# which aborts the action as a 500 instead of taking the guard's else branch.
+def decimal(value):
+    if not value:
+        return False
+    for c in value.elems():
+        if c not in "0123456789":
+            return False
+    return True
+
 # Compare two dotted version strings numerically (e.g. "1.11" > "1.9"), mirroring
 # the core version_greater() comparator, which Starlark cannot call directly.
 # Non-numeric segments count as 0.
@@ -11,8 +23,8 @@ def version_greater(a, b):
 	pa = a.split(".")
 	pb = b.split(".")
 	for i in range(max(len(pa), len(pb))):
-		na = int(pa[i]) if i < len(pa) and pa[i].isdigit() else 0
-		nb = int(pb[i]) if i < len(pb) and pb[i].isdigit() else 0
+		na = int(pa[i]) if i < len(pa) and decimal(pa[i]) else 0
+		nb = int(pb[i]) if i < len(pb) and decimal(pb[i]) else 0
 		if na > nb:
 			return True
 		if na < nb:
