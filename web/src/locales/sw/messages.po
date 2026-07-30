@@ -52,6 +52,10 @@ msgstr "{selectedCount, plural, one {# vimechaguliwa} other {# vimechaguliwa}}"
 msgid "{selectedCount, plural, one {Bulk actions for # selected {entityName}} other {Bulk actions for # selected {manyName}}}"
 msgstr "{selectedCount, plural, one {Vitendo vya wingi kwa {entityName} # iliyochaguliwa} other {Vitendo vya wingi kwa {manyName} # zilizochaguliwa}}"
 
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:52
+msgid "{sentLabel} of {totalLabel}"
+msgstr "{sentLabel} kati ya {totalLabel}"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:132
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Fungua menyu (arifa # ambayo haijasomwa)} other {Fungua menyu (arifa # ambazo hazijasomwa)}}"
@@ -286,12 +290,12 @@ msgstr "Faili ya build"
 msgid "Cancel"
 msgstr "Ghairi"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:146
 msgid "Category for this notification"
 msgstr "Kategoria ya arifa hii"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:124
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:127
+#: ../../../lib/web/src/components/notification-category-button.tsx:138
 msgid "Change notification category"
 msgstr "Badilisha kategoria ya arifa"
 
@@ -588,6 +592,14 @@ msgstr "Mwelekeo"
 msgid "Directory"
 msgstr "Saraka"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:300
+msgid "Discard"
+msgstr "Tupa"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:298
+msgid "Discard draft?"
+msgstr "Tupa rasimu?"
+
 #: ../../../lib/web/src/lib/chat-ui.ts:25
 #: ../../../lib/web/src/lib/chat-ui.ts:29
 msgid "Disconnected"
@@ -715,7 +727,7 @@ msgstr "Imeshindwa kutuma msimbo wa uthibitisho"
 msgid "Failed to set default track"
 msgstr "Imeshindwa kuweka wimbo chaguo-msingi"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:111
+#: ../../../lib/web/src/components/notification-category-button.tsx:114
 msgid "Failed to update category"
 msgstr "Imeshindwa kusasisha kategoria"
 
@@ -1078,7 +1090,7 @@ msgstr "Hakuna matokeo yaliyopatikana."
 msgid "No time zone found."
 msgstr "Hakuna saa za eneo zilizopatikana."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:150
 msgid "No topic record yet — try again after the next notification."
 msgstr "Hakuna rekodi ya mada bado — jaribu tena baada ya arifa inayofuata."
 
@@ -1201,6 +1213,7 @@ msgstr "Passkey"
 msgid "Pick a date"
 msgstr "Chagua tarehe"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:95
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
 msgid "Please check your internet connection and try again."
@@ -1243,6 +1256,10 @@ msgstr "Faragha"
 #: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Private"
 msgstr "Ya faragha"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:50
+msgid "Processing…"
+msgstr "Inachakata…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:137
 #: ../../../lib/web/src/components/profile-dropdown.tsx:114
@@ -1315,6 +1332,7 @@ msgstr "Linganifu ndani ya saa 24, vinginevyo kamili"
 msgid "Release tracks"
 msgstr "Track za utoaji"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:232
 #: ../../../lib/web/src/features/access/access-list.tsx:270
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
@@ -1367,6 +1385,10 @@ msgstr "Weka upya mipangilio yote kwa thamani chaguo-msingi"
 #: src/routes/_authenticated/app/$appId.tsx:245
 msgid "Restricted"
 msgstr "Imezuiliwa"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:249
+msgid "Retry"
+msgstr "Jaribu tena"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:362
 msgid "Right to Left"
@@ -1757,7 +1779,7 @@ msgstr "Imeshindwa kuunganisha kwenye seva ya mbali"
 msgid "Unable to redirect to login. Please try again."
 msgstr "Imeshindwa kuelekeza upya kwenye kuingia. Tafadhali jaribu tena."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:155
+#: ../../../lib/web/src/components/notification-category-button.tsx:158
 msgid "Unassigned"
 msgstr "Haijapewa"
 
@@ -1791,6 +1813,10 @@ msgstr "Sasisha track"
 #: src/routes/_authenticated/app/$appId.tsx:667
 msgid "Upload new version"
 msgstr "Pakia toleo jipya"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:34
+msgid "Upload progress"
+msgstr "Maendeleo ya upakiaji"
 
 #: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Upload version"
@@ -1927,3 +1953,15 @@ msgstr "Umesoma yote!"
 #: ../../../lib/web/src/components/restore-banner.tsx:91
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Akaunti yako ilihamishiwa hapa kutoka {source}. Mpaka uifute hapo, ujumbe na arifa zinaweza kufikia seva zote mbili, baadhi ya maudhui yako bado yanatolewa kutoka seva ya zamani, na wafuasi wanaweza kuchukua dakika chache kukupata hapa."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:291
+msgid "Your attachments will be lost."
+msgstr "Viambatisho vyako vitapotea."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:289
+msgid "Your text and attachments will be lost."
+msgstr "Maandishi na viambatisho vyako vitapotea."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:292
+msgid "Your text will be lost."
+msgstr "Maandishi yako yatapotea."

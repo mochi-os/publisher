@@ -52,6 +52,10 @@ msgstr "{selectedCount, plural, one {# zaznaczono} few {# zaznaczono} many {# za
 msgid "{selectedCount, plural, one {Bulk actions for # selected {entityName}} other {Bulk actions for # selected {manyName}}}"
 msgstr "{selectedCount, plural, one {Operacje zbiorcze dla # zaznaczonego {entityName}} few {Operacje zbiorcze dla # zaznaczonych {manyName}} many {Operacje zbiorcze dla # zaznaczonych {manyName}} other {Operacje zbiorcze dla # zaznaczonego {manyName}}}"
 
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:52
+msgid "{sentLabel} of {totalLabel}"
+msgstr "{sentLabel} z {totalLabel}"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:132
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Otwórz menu (# nieprzeczytane powiadomienie)} few {Otwórz menu (# nieprzeczytane powiadomienia)} many {Otwórz menu (# nieprzeczytanych powiadomień)} other {Otwórz menu (# nieprzeczytanego powiadomienia)}}"
@@ -286,12 +290,12 @@ msgstr "Plik kompilacji"
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:146
 msgid "Category for this notification"
 msgstr "Kategoria tego powiadomienia"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:124
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:127
+#: ../../../lib/web/src/components/notification-category-button.tsx:138
 msgid "Change notification category"
 msgstr "Zmień kategorię powiadomienia"
 
@@ -588,6 +592,14 @@ msgstr "Kierunek"
 msgid "Directory"
 msgstr "Katalog"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:300
+msgid "Discard"
+msgstr "Odrzuć"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:298
+msgid "Discard draft?"
+msgstr "Odrzucić wersję roboczą?"
+
 #: ../../../lib/web/src/lib/chat-ui.ts:25
 #: ../../../lib/web/src/lib/chat-ui.ts:29
 msgid "Disconnected"
@@ -715,7 +727,7 @@ msgstr "Nie udało się wysłać kodu weryfikacyjnego"
 msgid "Failed to set default track"
 msgstr "Nie udało się ustawić domyślnej ścieżki"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:111
+#: ../../../lib/web/src/components/notification-category-button.tsx:114
 msgid "Failed to update category"
 msgstr "Nie udało się zaktualizować kategorii"
 
@@ -1078,7 +1090,7 @@ msgstr "Nie znaleziono wyników."
 msgid "No time zone found."
 msgstr "Nie znaleziono strefy czasowej."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:150
 msgid "No topic record yet — try again after the next notification."
 msgstr "Brak jeszcze rekordu tematu — spróbuj ponownie po następnym powiadomieniu."
 
@@ -1201,6 +1213,7 @@ msgstr "Klucze dostępu"
 msgid "Pick a date"
 msgstr "Wybierz datę"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:95
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
 msgid "Please check your internet connection and try again."
@@ -1243,6 +1256,10 @@ msgstr "Prywatność"
 #: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Private"
 msgstr "Prywatny"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:50
+msgid "Processing…"
+msgstr "Przetwarzanie…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:137
 #: ../../../lib/web/src/components/profile-dropdown.tsx:114
@@ -1315,6 +1332,7 @@ msgstr "Względny w ciągu 24 godzin, w przeciwnym razie bezwzględny"
 msgid "Release tracks"
 msgstr "Ścieżki wydań"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:232
 #: ../../../lib/web/src/features/access/access-list.tsx:270
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
@@ -1367,6 +1385,10 @@ msgstr "Zresetuj wszystkie ustawienia do wartości domyślnych"
 #: src/routes/_authenticated/app/$appId.tsx:245
 msgid "Restricted"
 msgstr "Ograniczony"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:249
+msgid "Retry"
+msgstr "Ponów próbę"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:362
 msgid "Right to Left"
@@ -1757,7 +1779,7 @@ msgstr "Nie można połączyć się ze zdalnym serwerem"
 msgid "Unable to redirect to login. Please try again."
 msgstr "Nie można przekierować do logowania. Spróbuj ponownie."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:155
+#: ../../../lib/web/src/components/notification-category-button.tsx:158
 msgid "Unassigned"
 msgstr "Nieprzypisane"
 
@@ -1791,6 +1813,10 @@ msgstr "Aktualizuj ścieżki"
 #: src/routes/_authenticated/app/$appId.tsx:667
 msgid "Upload new version"
 msgstr "Prześlij nową wersję"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:34
+msgid "Upload progress"
+msgstr "Postęp przesyłania"
 
 #: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Upload version"
@@ -1927,3 +1953,15 @@ msgstr "Wszystko przeczytane!"
 #: ../../../lib/web/src/components/restore-banner.tsx:91
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Twoje konto zostało przeniesione tutaj z {source}. Dopóki go tam nie usuniesz, wiadomości i powiadomienia mogą docierać do obu serwerów, część twoich treści nadal jest serwowana ze starego serwera, a obserwujący mogą potrzebować kilku minut, aby cię tu znaleźć."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:291
+msgid "Your attachments will be lost."
+msgstr "Twoje załączniki zostaną utracone."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:289
+msgid "Your text and attachments will be lost."
+msgstr "Twój tekst i załączniki zostaną utracone."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:292
+msgid "Your text will be lost."
+msgstr "Twój tekst zostanie utracony."

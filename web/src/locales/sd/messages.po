@@ -52,6 +52,10 @@ msgstr "{selectedCount, plural, one {# چونڊيل} other {# چونڊيل}}"
 msgid "{selectedCount, plural, one {Bulk actions for # selected {entityName}} other {Bulk actions for # selected {manyName}}}"
 msgstr "{selectedCount, plural, one {# چونڊيل {entityName} لاءِ وڏي پيماني تي عمل} other {# چونڊيل {manyName} لاءِ وڏي پيماني تي عمل}}"
 
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:52
+msgid "{sentLabel} of {totalLabel}"
+msgstr "{totalLabel} مان {sentLabel}"
+
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:132
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {مينيو کوليو (# اڻ پڙهيل اطلاع)} other {مينيو کوليو (# اڻ پڙهيل اطلاعون)}}"
@@ -286,12 +290,12 @@ msgstr "بلڊ فائل"
 msgid "Cancel"
 msgstr "منسوخ ڪريو"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:143
+#: ../../../lib/web/src/components/notification-category-button.tsx:146
 msgid "Category for this notification"
 msgstr "هن اطلاع لاءِ زمرو"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:124
-#: ../../../lib/web/src/components/notification-category-button.tsx:135
+#: ../../../lib/web/src/components/notification-category-button.tsx:127
+#: ../../../lib/web/src/components/notification-category-button.tsx:138
 msgid "Change notification category"
 msgstr "اطلاع جو زمرو تبديل ڪريو"
 
@@ -588,6 +592,14 @@ msgstr "هدايت"
 msgid "Directory"
 msgstr "ڊائريڪٽري"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:300
+msgid "Discard"
+msgstr "رد ڪريو"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:298
+msgid "Discard draft?"
+msgstr "مسودو رد ڪجي؟"
+
 #: ../../../lib/web/src/lib/chat-ui.ts:25
 #: ../../../lib/web/src/lib/chat-ui.ts:29
 msgid "Disconnected"
@@ -715,7 +727,7 @@ msgstr "تصديق ڪوڊ موڪلڻ ۾ ناڪام"
 msgid "Failed to set default track"
 msgstr "ڊفالٽ ٽريڪ مقرر ڪرڻ ۾ ناڪام"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:111
+#: ../../../lib/web/src/components/notification-category-button.tsx:114
 msgid "Failed to update category"
 msgstr "زمرو اپڊيٽ ڪرڻ ۾ ناڪام"
 
@@ -1078,7 +1090,7 @@ msgstr "ڪو نتيجو نه مليو."
 msgid "No time zone found."
 msgstr "ڪو ٽائيم زون نه مليو."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:147
+#: ../../../lib/web/src/components/notification-category-button.tsx:150
 msgid "No topic record yet — try again after the next notification."
 msgstr "اڃا ڪو ٽاپڪ رڪارڊ نه آهي — اڳيون اطلاع کان پوءِ ٻيهر ڪوشش ڪريو."
 
@@ -1201,6 +1213,7 @@ msgstr "پاسي ڪيز"
 msgid "Pick a date"
 msgstr "تاريخ چونڊيو"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:95
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:304
 msgid "Please check your internet connection and try again."
@@ -1243,6 +1256,10 @@ msgstr "رازداري"
 #: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Private"
 msgstr "نجي"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:50
+msgid "Processing…"
+msgstr "پروسيس ٿي رهيو آهي…"
 
 #: ../../../lib/web/src/components/layout/nav-user.tsx:137
 #: ../../../lib/web/src/components/profile-dropdown.tsx:114
@@ -1315,6 +1332,7 @@ msgstr "24 ڪلاڪن اندر نسبتي، ٻي صورت ۾ مطلق"
 msgid "Release tracks"
 msgstr "رليز ٽريڪ"
 
+#: ../../../lib/web/src/components/comment-composer.tsx:232
 #: ../../../lib/web/src/features/access/access-list.tsx:270
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
@@ -1367,6 +1385,10 @@ msgstr "سڀ سيٽنگون ڊفالٽ قدرن تي ري سيٽ ڪريو"
 #: src/routes/_authenticated/app/$appId.tsx:245
 msgid "Restricted"
 msgstr "محدود"
+
+#: ../../../lib/web/src/components/comment-composer.tsx:249
+msgid "Retry"
+msgstr "ٻيهر ڪوشش ڪريو"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:362
 msgid "Right to Left"
@@ -1757,7 +1779,7 @@ msgstr "ريموٽ سرور سان ڳنڍڻ ناممڪن"
 msgid "Unable to redirect to login. Please try again."
 msgstr "لاگ ان ڏانھن ريڊائريڪٽ ڪرڻ ۾ ناڪام. مھرباني ڪري ٻيھر ڪوشش ڪريو."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:155
+#: ../../../lib/web/src/components/notification-category-button.tsx:158
 msgid "Unassigned"
 msgstr "غير تفويض ٿيل"
 
@@ -1791,6 +1813,10 @@ msgstr "ٽريڪ اپڊيٽ ڪريو"
 #: src/routes/_authenticated/app/$appId.tsx:667
 msgid "Upload new version"
 msgstr "نئون ورزن اپ لوڊ ڪريو"
+
+#: ../../../lib/web/src/components/ui/upload-progress.tsx:34
+msgid "Upload progress"
+msgstr "اپلوڊ جي پيش رفت"
 
 #: src/routes/_authenticated/app/$appId.tsx:730
 msgid "Upload version"
@@ -1927,3 +1953,15 @@ msgstr "توھان سڀ ڏسي ورتو!"
 #: ../../../lib/web/src/components/restore-banner.tsx:91
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "توهان جو اڪائونٽ {source} کان هتي منتقل ڪيو ويو. جيستائين توهان اتي ان کي نه ختم ڪيو، پيغام ۽ اطلاع ٻنهي سرورن تي پهچي سگهن ٿا، توهان جو ڪجهه مواد اڃا به پراڻي سرور کان فراهم ٿئي ٿو، ۽ پيروڪارن کي هتي توهان کي ڳولڻ ۾ ڪجهه منٽ لڳي سگهن ٿا."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:291
+msgid "Your attachments will be lost."
+msgstr "توهان جون منسلڪات گم ٿي وينديون."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:289
+msgid "Your text and attachments will be lost."
+msgstr "توهان جو متن ۽ منسلڪات گم ٿي وينديون."
+
+#: ../../../lib/web/src/components/comment-composer.tsx:292
+msgid "Your text will be lost."
+msgstr "توهان جو متن ضايع ٿي ويندو."

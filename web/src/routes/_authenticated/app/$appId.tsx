@@ -41,6 +41,8 @@ import {
   TooltipTrigger,
   TooltipContent,
   textUnchanged,
+  UploadProgress,
+  useUploadProgress,
 } from '@mochi/web'
 import { Upload, Plus, MoreHorizontal, Package, Shield, Globe, Lock, Loader2 } from 'lucide-react'
 import { sortVersionsDesc } from '@/lib/version'
@@ -620,6 +622,7 @@ function UploadVersionDialog({
   const [selectedTracks, setSelectedTracks] = useState<string[]>(['Production'])
   const fileInputRef = useRef<HTMLInputElement>(null)
   const uploadMutation = useUploadVersionMutation()
+  const { progress, upload } = useUploadProgress()
 
   const toggleTrack = (track: string) => {
     setSelectedTracks((prev) =>
@@ -627,7 +630,7 @@ function UploadVersionDialog({
     )
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!file) {
       toast.error(t`Please select a file`)
@@ -637,25 +640,29 @@ function UploadVersionDialog({
     const install = installOption !== 'no'
     const force = installOption === 'yes-force'
 
-    uploadMutation.mutate(
-      { appId, file, install, force, tracks: selectedTracks },
-      {
-        onSuccess: (data: { version: string }) => {
-          toast.success(t`Version ${data.version} uploaded`)
-          setFile(null)
-          setInstallOption('yes')
-          // eslint-disable-next-line lingui/no-unlocalized-strings
-          setSelectedTracks(['Production'])
-          if (fileInputRef.current) {
-            fileInputRef.current.value = ''
-          }
-          onOpenChange(false)
-        },
-        onError: (error) => {
-          toast.error(getErrorMessage(error, t`Failed to upload version`))
-        },
+    try {
+      const data = await upload((onProgress) =>
+        uploadMutation.mutateAsync({
+          appId,
+          file,
+          install,
+          force,
+          tracks: selectedTracks,
+          onProgress,
+        })
+      )
+      toast.success(t`Version ${data.version} uploaded`)
+      setFile(null)
+      setInstallOption('yes')
+      // eslint-disable-next-line lingui/no-unlocalized-strings
+      setSelectedTracks(['Production'])
+      if (fileInputRef.current) {
+        fileInputRef.current.value = ''
       }
-    )
+      onOpenChange(false)
+    } catch (error) {
+      toast.error(getErrorMessage(error, t`Failed to upload version`))
+    }
   }
 
   return (
@@ -717,6 +724,7 @@ function UploadVersionDialog({
               </div>
             )}
           </div>
+          <UploadProgress progress={progress} className='pt-2' />
           <ResponsiveDialogFooter>
             <Button
               type='button'

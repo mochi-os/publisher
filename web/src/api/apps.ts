@@ -4,6 +4,7 @@
 // Mochi Application Interface Exception - see license.txt and license-exception.md.
 
 import { requestHelpers } from '@mochi/web'
+import type { AxiosProgressEvent } from 'axios'
 import endpoints from '@/api/endpoints'
 import type {
   AppsListResponse,
@@ -52,7 +53,8 @@ const uploadVersion = async (
   file: File,
   install: boolean,
   force: boolean,
-  tracks?: string[]
+  tracks?: string[],
+  onProgress?: (event: AxiosProgressEvent) => void
 ): Promise<{ version: string; app: App; tracks: string[] }> => {
   const formData = new FormData()
   formData.append('file', file)
@@ -71,6 +73,7 @@ const uploadVersion = async (
       headers: {
         'Content-Type': 'multipart/form-data',
       },
+      onUploadProgress: onProgress,
     }
   )
   return response
