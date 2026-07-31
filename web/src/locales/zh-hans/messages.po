@@ -36,6 +36,10 @@ msgstr "{entityLabel}名称"
 msgid "{entityLabel} name is required"
 msgstr "{entityLabel}名称为必填项"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} 提议和棋"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {已选择 {entityName}} other {已选择 {manyName}}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} / {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {打开菜单（# 条未读通知）} other {打开菜单（# 条未读通知）}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} 个嵌套"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 小时"
@@ -71,6 +80,10 @@ msgstr "24 小时"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "绝对(日期和时间)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "接受"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,6 +113,7 @@ msgstr "账户类型"
 msgid "Account verified"
 msgstr "账户已验证"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
@@ -121,6 +135,14 @@ msgstr "添加账户"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "添加账户以接收通知并使用服务。"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "添加清单项"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "添加条目..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -186,8 +208,8 @@ msgstr "任何人"
 msgid "Anyone who is logged in"
 msgstr "任何已登录的人"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
-#: src/routes/_authenticated/app/$appId.tsx:140
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:142
 msgid "App"
 msgstr "应用"
 
@@ -195,14 +217,14 @@ msgstr "应用"
 msgid "App created"
 msgstr "应用已创建"
 
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:130
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:132
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:157
 msgid "App not found"
 msgstr "未找到应用"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Application ID"
 msgstr "应用 ID"
 
@@ -227,7 +249,7 @@ msgstr "已认证用户"
 msgid "Authenticator code"
 msgstr "身份验证码"
 
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:363
 msgid "Available versions"
 msgstr "可用版本"
 
@@ -243,12 +265,12 @@ msgstr "{name} 的头像"
 msgid "Back"
 msgstr "返回"
 
-#: src/routes/_authenticated/app/$appId.tsx:113
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:140
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:180
-#: src/routes/_authenticated/app/$appId.tsx:333
+#: src/routes/_authenticated/app/$appId.tsx:115
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:182
+#: src/routes/_authenticated/app/$appId.tsx:335
 msgid "Back to apps"
 msgstr "返回应用"
 
@@ -262,6 +284,11 @@ msgstr "返回首页"
 msgid "Banner"
 msgstr "横幅"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "已阻止跳转到不可信链接"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
@@ -271,7 +298,7 @@ msgstr "提升兴趣"
 msgid "Browser notifications"
 msgstr "浏览器通知"
 
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Build file"
 msgstr "构建文件"
 
@@ -285,8 +312,8 @@ msgstr "构建文件"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:586
-#: src/routes/_authenticated/app/$appId.tsx:726
+#: src/routes/_authenticated/app/$appId.tsx:588
+#: src/routes/_authenticated/app/$appId.tsx:734
 msgid "Cancel"
 msgstr "取消"
 
@@ -302,6 +329,10 @@ msgstr "更改通知分类"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "选择\"全部\"以查看过往通知。"
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "从侧边栏选择一个游戏或开始新游戏。"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -453,7 +484,7 @@ msgstr "已复制到剪贴板"
 msgid "Copy"
 msgstr "复制"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "复制此链接并粘贴到您的 Mochi 服务器的应用页面进行安装。"
 
@@ -488,20 +519,20 @@ msgstr "创建{0}"
 msgid "Create app"
 msgstr "创建应用"
 
-#: src/routes/_authenticated/app/$appId.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:547
+#: src/routes/_authenticated/app/$appId.tsx:211
 #: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:551
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create track"
 msgstr "创建发布通道"
 
-#: src/routes/_authenticated/app/$appId.tsx:471
+#: src/routes/_authenticated/app/$appId.tsx:473
 msgid "Create your first release track"
 msgstr "创建你的第一个发布通道"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:258
 #: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "创建中..."
 
@@ -531,8 +562,12 @@ msgstr "深色模式"
 msgid "Data conflict"
 msgstr "数据冲突"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "拒绝"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Default"
 msgstr "默认"
 
@@ -540,15 +575,15 @@ msgstr "默认"
 msgid "Default AI account"
 msgstr "默认 AI 账户"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "默认通道已设置为 \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:528
+#: src/routes/_authenticated/app/$appId.tsx:530
 msgid "Delete track"
 msgstr "删除通道"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "删除旧服务器上的账户"
 
@@ -564,8 +599,8 @@ msgstr "降序"
 msgid "Description"
 msgstr "描述"
 
-#: src/routes/_authenticated/app/$appId.tsx:96
-#: src/routes/_authenticated/app/$appId.tsx:345
+#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:347
 msgid "Details"
 msgstr "详情"
 
@@ -605,8 +640,8 @@ msgstr "放弃草稿?"
 msgid "Disconnected"
 msgstr "已断开"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "关闭"
 
@@ -614,11 +649,11 @@ msgstr "关闭"
 msgid "Displays the mobile sidebar."
 msgstr "显示移动端侧边栏。"
 
-#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:236
 msgid "Distribution"
 msgstr "分发"
 
-#: src/routes/_authenticated/app/$appId.tsx:84
+#: src/routes/_authenticated/app/$appId.tsx:86
 msgid "Distribution set to {distribution}"
 msgstr "分发设置为 {distribution}"
 
@@ -635,7 +670,7 @@ msgstr "下载失败"
 msgid "Dyslexia-friendly"
 msgstr "阅读障碍友好"
 
-#: src/routes/_authenticated/app/$appId.tsx:559
+#: src/routes/_authenticated/app/$appId.tsx:561
 msgid "e.g. Staging"
 msgstr "例如 Staging"
 
@@ -695,11 +730,11 @@ msgstr "复制失败"
 msgid "Failed to create app"
 msgstr "创建应用失败"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:417
 msgid "Failed to create track"
 msgstr "创建轨道失败"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "删除轨道失败"
 
@@ -723,7 +758,7 @@ msgstr "移除账户失败"
 msgid "Failed to send verification code"
 msgstr "发送验证码失败"
 
-#: src/routes/_authenticated/app/$appId.tsx:458
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "设置默认轨道失败"
 
@@ -731,15 +766,15 @@ msgstr "设置默认轨道失败"
 msgid "Failed to update category"
 msgstr "更新分类失败"
 
-#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:89
 msgid "Failed to update distribution"
 msgstr "更新分发失败"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "更新轨道失败"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:664
 msgid "Failed to upload version"
 msgstr "上传版本失败"
 
@@ -747,12 +782,12 @@ msgstr "上传版本失败"
 msgid "Filter..."
 msgstr "筛选..."
 
-#: src/routes/_authenticated/app/$appId.tsx:222
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:349
 msgid "Fingerprint"
 msgstr "指纹"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "完成账户迁移"
 
@@ -843,7 +878,7 @@ msgstr "首页"
 msgid "Hot"
 msgstr "热门"
 
-#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Identity"
 msgstr "身份"
 
@@ -860,7 +895,7 @@ msgstr "英制"
 msgid "Including anonymous users"
 msgstr "包括匿名用户"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Initial version"
 msgstr "初始版本"
 
@@ -876,17 +911,21 @@ msgstr "{name} 的首字母头像"
 msgid "Inset"
 msgstr "嵌入"
 
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Install app"
 msgstr "安装应用"
 
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Install locally"
 msgstr "在本地安装"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Interests"
 msgstr "兴趣"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "日期无效"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -918,7 +957,7 @@ msgstr "布局"
 msgid "Learn more"
 msgstr "了解更多"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Leave empty"
 msgstr "留空"
 
@@ -940,7 +979,7 @@ msgstr "浅色"
 msgid "Load more"
 msgstr "加载更多"
 
-#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:114
 msgid "Loading app..."
 msgstr "正在加载应用..."
 
@@ -983,8 +1022,8 @@ msgstr "公开发布应用"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "管理用于通知和服务的已连接账户。"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "全部标为已读"
@@ -1000,6 +1039,10 @@ msgstr "中"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "菜单"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "消息"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -1034,13 +1077,18 @@ msgstr "网络错误"
 msgid "New"
 msgstr "新建"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "新游戏"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
 msgstr "下一张图片"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:697
+#: src/routes/_authenticated/app/$appId.tsx:704
 msgid "No"
 msgstr "否"
 
@@ -1056,6 +1104,10 @@ msgstr "暂无应用"
 msgid "No connected accounts"
 msgstr "无已连接的账户"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "暂无游戏"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "无可用群组"
@@ -1064,6 +1116,7 @@ msgstr "无可用群组"
 msgid "No notifications yet"
 msgstr "暂无通知"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "未找到任何人"
@@ -1094,7 +1147,7 @@ msgstr "未找到时区。"
 msgid "No topic record yet — try again after the next notification."
 msgstr "暂无主题记录,请在下次通知后重试。"
 
-#: src/routes/_authenticated/app/$appId.tsx:470
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "No tracks"
 msgstr "无轨道"
 
@@ -1102,11 +1155,11 @@ msgstr "无轨道"
 msgid "No users found"
 msgstr "未找到用户"
 
-#: src/routes/_authenticated/app/$appId.tsx:568
+#: src/routes/_authenticated/app/$appId.tsx:570
 msgid "No version"
 msgstr "无版本"
 
-#: src/routes/_authenticated/app/$appId.tsx:269
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "No versions"
 msgstr "无版本"
 
@@ -1138,7 +1191,7 @@ msgid "Notifications"
 msgstr "通知"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "通知：{0}"
 
@@ -1179,8 +1232,8 @@ msgstr "打开导航菜单"
 msgid "Open theme settings"
 msgstr "打开主题设置"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
-#: src/routes/_authenticated/app/$appId.tsx:513
+#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Open track actions"
 msgstr "打开轨道操作"
 
@@ -1205,7 +1258,7 @@ msgstr "通行密钥"
 msgid "Passkey verification failed. Please try again."
 msgstr "通行密钥验证失败。请重试。"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "通行密钥"
 
@@ -1227,7 +1280,7 @@ msgstr "请输入应用名称"
 msgid "Please log in with the appropriate credentials <0/> to access this resource."
 msgstr "请使用适当的凭据登录 <0/> 以访问此资源。"
 
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "请选择一个文件"
 
@@ -1246,14 +1299,14 @@ msgstr "上一张图片"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:225
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Privacy"
 msgstr "隐私"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Private"
 msgstr "私有"
 
@@ -1271,13 +1324,13 @@ msgid "Project members"
 msgstr "项目成员"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:228
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:230
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Public"
 msgstr "公开"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:244
+#: src/routes/_authenticated/app/$appId.tsx:246
 msgid "Published"
 msgstr "已发布"
 
@@ -1294,11 +1347,11 @@ msgstr "推送通知"
 msgid "Raised"
 msgstr "凸起"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "在此服务器上重新关联账户"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "在此服务器上重新注册您的通行密钥"
 
@@ -1328,7 +1381,7 @@ msgstr "相对时间(5分钟、3小时、2天)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24 小时内显示相对时间,否则显示绝对时间"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Release tracks"
 msgstr "发布通道"
 
@@ -1363,6 +1416,10 @@ msgstr "移除访问权限?"
 msgid "Remove interest"
 msgstr "移除兴趣"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "移除条目"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:367
 msgid "Resend email"
 msgstr "重新发送邮件"
@@ -1382,7 +1439,7 @@ msgid "Reset all settings to default values"
 msgstr "将所有设置重置为默认值"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:245
+#: src/routes/_authenticated/app/$appId.tsx:247
 msgid "Restricted"
 msgstr "已受限"
 
@@ -1458,6 +1515,10 @@ msgstr "正在搜索..."
 msgid "Select {0}"
 msgstr "选择{0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "选择游戏"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "选择用户、群组或其他规则以授予访问权限。"
@@ -1502,6 +1563,11 @@ msgstr "选择站点方向"
 msgid "Select theme preference"
 msgstr "选择主题偏好"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "选择..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "项已选择"
@@ -1518,6 +1584,11 @@ msgstr "再次发送"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "发送邮件"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "发送消息"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1537,7 +1608,7 @@ msgstr "服务器规则"
 msgid "Session expired. Please log in again."
 msgstr "会话已过期，请重新登录。"
 
-#: src/routes/_authenticated/app/$appId.tsx:521
+#: src/routes/_authenticated/app/$appId.tsx:523
 msgid "Set as default"
 msgstr "设为默认"
 
@@ -1553,7 +1624,7 @@ msgstr "设置起点和终点"
 msgid "Settings"
 msgstr "设置"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:254
 msgid "Sharing"
 msgstr "分享"
 
@@ -1647,8 +1718,8 @@ msgstr "服务条款"
 msgid "That code is incorrect or has expired."
 msgstr "该代码不正确或已过期。"
 
-#: src/routes/_authenticated/app/$appId.tsx:131
-#: src/routes/_authenticated/app/$appId.tsx:156
+#: src/routes/_authenticated/app/$appId.tsx:133
+#: src/routes/_authenticated/app/$appId.tsx:158
 msgid "The requested app could not be found."
 msgstr "找不到请求的应用。"
 
@@ -1719,23 +1790,23 @@ msgstr "请求次数过多"
 msgid "Top"
 msgstr "顶部"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "轨道“{track}”已删除"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "轨道“{track}”已更新到 {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:409
+#: src/routes/_authenticated/app/$appId.tsx:411
 msgid "Track created"
 msgstr "已创建轨道"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "Track name"
 msgstr "通道名称"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:100
 msgid "Tracks"
 msgstr "通道"
 
@@ -1761,6 +1832,10 @@ msgstr "星期二"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "输入命令或搜索..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "输入消息…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1804,13 +1879,13 @@ msgstr "未知"
 msgid "Unverified"
 msgstr "未验证"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "Update tracks"
 msgstr "更新通道"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:665
-#: src/routes/_authenticated/app/$appId.tsx:667
+#: src/routes/_authenticated/app/$appId.tsx:205
+#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:674
 msgid "Upload new version"
 msgstr "上传新版本"
 
@@ -1818,15 +1893,15 @@ msgstr "上传新版本"
 msgid "Upload progress"
 msgstr "上传进度"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Upload version"
 msgstr "上传版本"
 
-#: src/routes/_authenticated/app/$appId.tsx:270
+#: src/routes/_authenticated/app/$appId.tsx:272
 msgid "Upload your first build"
 msgstr "上传你的第一个构建"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Uploading..."
 msgstr "正在上传..."
 
@@ -1839,7 +1914,7 @@ msgstr "使用您的通行密钥"
 msgid "User"
 msgstr "用户"
 
-#: src/routes/_authenticated/app/$appId.tsx:255
+#: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "用户可以通过将此链接粘贴到他们的应用页面来安装此应用程序。"
 
@@ -1866,15 +1941,15 @@ msgid "Verify email address"
 msgstr "验证邮箱地址"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:644
+#: src/routes/_authenticated/app/$appId.tsx:654
 msgid "Version {0} uploaded"
 msgstr "版本 {0} 已上传"
 
-#: src/routes/_authenticated/app/$appId.tsx:264
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Version history"
 msgstr "版本历史"
 
-#: src/routes/_authenticated/app/$appId.tsx:97
+#: src/routes/_authenticated/app/$appId.tsx:99
 msgid "Versions"
 msgstr "版本"
 
@@ -1895,8 +1970,8 @@ msgstr "查看"
 msgid "View all"
 msgstr "查看全部"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "查看所有通知"
 
@@ -1926,11 +2001,11 @@ msgid "Wednesday"
 msgstr "星期三"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:695
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "Yes"
 msgstr "是"
 
-#: src/routes/_authenticated/app/$appId.tsx:696
+#: src/routes/_authenticated/app/$appId.tsx:703
 msgid "Yes, force"
 msgstr "是,强制"
 
@@ -1950,7 +2025,7 @@ msgstr "您提交了以下值："
 msgid "You're all caught up!"
 msgstr "全部已读！"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "您的账户已从 {source} 迁移至此。在您于那里删除之前，消息和通知可能会同时到达两个服务器，您的部分内容仍会从旧服务器提供，关注者可能需要几分钟才能在此找到您。"
 

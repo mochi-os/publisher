@@ -36,6 +36,10 @@ msgstr "{entityLabel} izena"
 msgid "{entityLabel} name is required"
 msgstr "{entityLabel} izena beharrezkoa da"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName}-(e)k berdinketa eskaini du"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} hautatuta} other {{manyName} hautatuta}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} / {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Ireki menua (irakurri gabeko # jakinarazpen)} other {Ireki menua (irakurri gabeko # jakinarazpen)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} kabiratuta"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 ordu"
@@ -71,6 +80,10 @@ msgstr "24 ordu"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Absolutua (data eta ordua)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Onartu"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,6 +113,7 @@ msgstr "Kontu mota"
 msgid "Account verified"
 msgstr "Kontua egiaztatua"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
@@ -121,6 +135,14 @@ msgstr "Gehitu kontua"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Gehitu kontu bat jakinarazpenak jasotzeko eta zerbitzuak erabiltzeko."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Gehitu egiaztapen-zerrendako elementua"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Gehitu elementua..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -186,8 +208,8 @@ msgstr "Edonor"
 msgid "Anyone who is logged in"
 msgstr "Saioa hasi duen edonor"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
-#: src/routes/_authenticated/app/$appId.tsx:140
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:142
 msgid "App"
 msgstr "Aplikazioa"
 
@@ -195,14 +217,14 @@ msgstr "Aplikazioa"
 msgid "App created"
 msgstr "Aplikazioa sortu da"
 
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:130
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:132
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:157
 msgid "App not found"
 msgstr "Aplikazioa ez da aurkitu"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Application ID"
 msgstr "Aplikazioaren IDa"
 
@@ -227,7 +249,7 @@ msgstr "Autentifikatutako erabiltzaileak"
 msgid "Authenticator code"
 msgstr "Autentifikatzaile kodea"
 
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:363
 msgid "Available versions"
 msgstr "Bertsio erabilgarriak"
 
@@ -243,12 +265,12 @@ msgstr "{name}(r)en avatarra"
 msgid "Back"
 msgstr "Atzera"
 
-#: src/routes/_authenticated/app/$appId.tsx:113
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:140
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:180
-#: src/routes/_authenticated/app/$appId.tsx:333
+#: src/routes/_authenticated/app/$appId.tsx:115
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:182
+#: src/routes/_authenticated/app/$appId.tsx:335
 msgid "Back to apps"
 msgstr "Itzuli aplikazioetara"
 
@@ -262,6 +284,11 @@ msgstr "Itzuli hasierara"
 msgid "Banner"
 msgstr "Iragarki-banda"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Konfiantzazkoa ez den estekarako nabigazioa blokeatu da"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
@@ -271,7 +298,7 @@ msgstr "Bultzatu interesa"
 msgid "Browser notifications"
 msgstr "Nabigatzaile jakinarazpenak"
 
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Build file"
 msgstr "Konpilazio-fitxategia"
 
@@ -285,8 +312,8 @@ msgstr "Konpilazio-fitxategia"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:586
-#: src/routes/_authenticated/app/$appId.tsx:726
+#: src/routes/_authenticated/app/$appId.tsx:588
+#: src/routes/_authenticated/app/$appId.tsx:734
 msgid "Cancel"
 msgstr "Utzi"
 
@@ -302,6 +329,10 @@ msgstr "Aldatu jakinarazpen kategoria"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Markatu «Guztiak» aurreko jakinarazpenak ikusteko."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Aukeratu joko bat alboko barratik edo hasi berri bat."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -453,7 +484,7 @@ msgstr "Arbelera kopiatu da"
 msgid "Copy"
 msgstr "Kopiatu"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kopiatu esteka hau eta itsatsi zure Mochi zerbitzariaren Aplikazioak orrian instalatzeko."
 
@@ -488,20 +519,20 @@ msgstr "Sortu {0}"
 msgid "Create app"
 msgstr "Sortu aplikazioa"
 
-#: src/routes/_authenticated/app/$appId.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:547
+#: src/routes/_authenticated/app/$appId.tsx:211
 #: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:551
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create track"
 msgstr "Sortu pista"
 
-#: src/routes/_authenticated/app/$appId.tsx:471
+#: src/routes/_authenticated/app/$appId.tsx:473
 msgid "Create your first release track"
 msgstr "Sortu zure lehen argitalpen-pista"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:258
 #: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Sortzen..."
 
@@ -531,8 +562,12 @@ msgstr "Modu iluna"
 msgid "Data conflict"
 msgstr "Datu-gatazka"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Ukatu"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Default"
 msgstr "Lehenetsia"
 
@@ -540,15 +575,15 @@ msgstr "Lehenetsia"
 msgid "Default AI account"
 msgstr "Lehenetsitako AA kontua"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "Lehenetsitako pista \"{track}\"-(e)ra ezarrita"
 
-#: src/routes/_authenticated/app/$appId.tsx:528
+#: src/routes/_authenticated/app/$appId.tsx:530
 msgid "Delete track"
 msgstr "Ezabatu pista"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Ezabatu zure kontua zerbitzari zaharrean"
 
@@ -564,8 +599,8 @@ msgstr "Beherakorra"
 msgid "Description"
 msgstr "Deskribapena"
 
-#: src/routes/_authenticated/app/$appId.tsx:96
-#: src/routes/_authenticated/app/$appId.tsx:345
+#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:347
 msgid "Details"
 msgstr "Xehetasunak"
 
@@ -605,8 +640,8 @@ msgstr "Zirriborroa baztertu?"
 msgid "Disconnected"
 msgstr "Deskonektatuta"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Baztertu"
 
@@ -614,11 +649,11 @@ msgstr "Baztertu"
 msgid "Displays the mobile sidebar."
 msgstr "Mugikorraren alboko barra erakusten du."
 
-#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:236
 msgid "Distribution"
 msgstr "Banaketa"
 
-#: src/routes/_authenticated/app/$appId.tsx:84
+#: src/routes/_authenticated/app/$appId.tsx:86
 msgid "Distribution set to {distribution}"
 msgstr "Banaketa {distribution}-ra ezarri da"
 
@@ -635,7 +670,7 @@ msgstr "Deskargak huts egin du"
 msgid "Dyslexia-friendly"
 msgstr "Dislexiarako egokia"
 
-#: src/routes/_authenticated/app/$appId.tsx:559
+#: src/routes/_authenticated/app/$appId.tsx:561
 msgid "e.g. Staging"
 msgstr "adib. Staging"
 
@@ -695,11 +730,11 @@ msgstr "Ezin izan da kopiatu"
 msgid "Failed to create app"
 msgstr "Ezin izan da aplikazioa sortu"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:417
 msgid "Failed to create track"
 msgstr "Ezin izan da kanala sortu"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "Ezin izan da kanala ezabatu"
 
@@ -723,7 +758,7 @@ msgstr "Ezin izan da kontua kendu"
 msgid "Failed to send verification code"
 msgstr "Ezin izan da egiaztapen-kodea bidali"
 
-#: src/routes/_authenticated/app/$appId.tsx:458
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "Ezin izan da kanal lehenetsia ezarri"
 
@@ -731,15 +766,15 @@ msgstr "Ezin izan da kanal lehenetsia ezarri"
 msgid "Failed to update category"
 msgstr "Ezin izan da kategoria eguneratu"
 
-#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:89
 msgid "Failed to update distribution"
 msgstr "Ezin izan da banaketa eguneratu"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "Ezin izan da kanala eguneratu"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:664
 msgid "Failed to upload version"
 msgstr "Ezin izan da bertsioa igo"
 
@@ -747,12 +782,12 @@ msgstr "Ezin izan da bertsioa igo"
 msgid "Filter..."
 msgstr "Iragazi..."
 
-#: src/routes/_authenticated/app/$appId.tsx:222
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:349
 msgid "Fingerprint"
 msgstr "Hatz-marka"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Amaitu kontuaren mugiketa"
 
@@ -843,7 +878,7 @@ msgstr "Hasiera"
 msgid "Hot"
 msgstr "Beroa"
 
-#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Identity"
 msgstr "Identitatea"
 
@@ -860,7 +895,7 @@ msgstr "Inperiala"
 msgid "Including anonymous users"
 msgstr "Erabiltzaile anonimoak barne"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Initial version"
 msgstr "Hasierako bertsioa"
 
@@ -876,17 +911,21 @@ msgstr "{name}(r)en inizialen avatarra"
 msgid "Inset"
 msgstr "Sartzea"
 
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Install app"
 msgstr "Instalatu aplikazioa"
 
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Install locally"
 msgstr "Instalatu lokalki"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Interests"
 msgstr "Interesak"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Data baliogabea"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -918,7 +957,7 @@ msgstr "Diseinua"
 msgid "Learn more"
 msgstr "Ikasi gehiago"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Leave empty"
 msgstr "Utzi hutsik"
 
@@ -940,7 +979,7 @@ msgstr "Argia"
 msgid "Load more"
 msgstr "Kargatu gehiago"
 
-#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:114
 msgid "Loading app..."
 msgstr "Aplikazioa kargatzen..."
 
@@ -983,8 +1022,8 @@ msgstr "Egin aplikazioa publikoki erabilgarri"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Kudeatu konektatutako kontuak jakinarazpenetarako eta zerbitzuetarako."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Markatu denak irakurritzat"
@@ -1000,6 +1039,10 @@ msgstr "Ertaina"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Menua"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Mezua"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -1034,13 +1077,18 @@ msgstr "Sareko errorea"
 msgid "New"
 msgstr "Berria"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Joko berria"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
 msgstr "Hurrengo irudia"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:697
+#: src/routes/_authenticated/app/$appId.tsx:704
 msgid "No"
 msgstr "Ez"
 
@@ -1056,6 +1104,10 @@ msgstr "Oraindik aplikaziorik ez"
 msgid "No connected accounts"
 msgstr "Konektatutako konturik ez"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Oraindik jokorik ez"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Ez dago talde erabilgarririk"
@@ -1064,6 +1116,7 @@ msgstr "Ez dago talde erabilgarririk"
 msgid "No notifications yet"
 msgstr "Oraindik ez dago jakinarazpenik"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Ez da pertsonarik aurkitu"
@@ -1094,7 +1147,7 @@ msgstr "Ez da ordu-zonarik aurkitu."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Oraindik gairik ez — saiatu berriro hurrengo jakinarazpenaren ondoren."
 
-#: src/routes/_authenticated/app/$appId.tsx:470
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "No tracks"
 msgstr "Pistarik ez"
 
@@ -1102,11 +1155,11 @@ msgstr "Pistarik ez"
 msgid "No users found"
 msgstr "Ez da erabiltzailerik aurkitu"
 
-#: src/routes/_authenticated/app/$appId.tsx:568
+#: src/routes/_authenticated/app/$appId.tsx:570
 msgid "No version"
 msgstr "Bertsiorik ez"
 
-#: src/routes/_authenticated/app/$appId.tsx:269
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "No versions"
 msgstr "Bertsiorik ez"
 
@@ -1138,7 +1191,7 @@ msgid "Notifications"
 msgstr "Jakinarazpenak"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Jakinarazpenak: {0}"
 
@@ -1179,8 +1232,8 @@ msgstr "Ireki nabigazio-menua"
 msgid "Open theme settings"
 msgstr "Ireki gaiaren ezarpenak"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
-#: src/routes/_authenticated/app/$appId.tsx:513
+#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Open track actions"
 msgstr "Ireki pista-ekintzak"
 
@@ -1205,7 +1258,7 @@ msgstr "Passkey-a"
 msgid "Passkey verification failed. Please try again."
 msgstr "Sarbide-gakoaren egiaztapenak huts egin du. Saiatu berriro."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Passkey-ak"
 
@@ -1227,7 +1280,7 @@ msgstr "Mesedez sartu aplikazioaren izena"
 msgid "Please log in with the appropriate credentials <0/> to access this resource."
 msgstr "Baliabide honetara sartzeko <0/> hasi saioa kredentzial egokiekin."
 
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Mesedez hautatu fitxategi bat"
 
@@ -1246,14 +1299,14 @@ msgstr "Aurreko irudia"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:225
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Privacy"
 msgstr "Pribatutasuna"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Private"
 msgstr "Pribatua"
 
@@ -1271,13 +1324,13 @@ msgid "Project members"
 msgstr "Proiektuko kideak"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:228
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:230
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Public"
 msgstr "Publikoa"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:244
+#: src/routes/_authenticated/app/$appId.tsx:246
 msgid "Published"
 msgstr "Argitaratuta"
 
@@ -1294,11 +1347,11 @@ msgstr "Push jakinarazpena"
 msgid "Raised"
 msgstr "Goratua"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Berriro lotu zure kontuak zerbitzari honetan"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Erregistratu berriro zure sarbide-gakoak zerbitzari honetan"
 
@@ -1328,7 +1381,7 @@ msgstr "Erlatiboa (5m, 3o, 2e)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Erlatiboa 24 ordu barruan, bestela absolutua"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Release tracks"
 msgstr "Argitalpen-pistak"
 
@@ -1363,6 +1416,10 @@ msgstr "Sarbidea kendu?"
 msgid "Remove interest"
 msgstr "Kendu interesa"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Kendu elementua"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:367
 msgid "Resend email"
 msgstr "Bidali mezua berriro"
@@ -1382,7 +1439,7 @@ msgid "Reset all settings to default values"
 msgstr "Berrezarri ezarpen guztiak balio lehenetsietara"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:245
+#: src/routes/_authenticated/app/$appId.tsx:247
 msgid "Restricted"
 msgstr "Murriztua"
 
@@ -1458,6 +1515,10 @@ msgstr "Bilatzen..."
 msgid "Select {0}"
 msgstr "Hautatu {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Hautatu joko bat"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Hautatu erabiltzaile, talde edo beste arau bat sarbidea emateko."
@@ -1502,6 +1563,11 @@ msgstr "Hautatu gunearen norabidea"
 msgid "Select theme preference"
 msgstr "Hautatu gaiaren hobespena"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Hautatu..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "hautatuta"
@@ -1518,6 +1584,11 @@ msgstr "Bidali berriz"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Bidali emaila"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Bidali mezua"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1537,7 +1608,7 @@ msgstr "Zerbitzariaren arauak"
 msgid "Session expired. Please log in again."
 msgstr "Saioa iraungi da. Hasi saioa berriro."
 
-#: src/routes/_authenticated/app/$appId.tsx:521
+#: src/routes/_authenticated/app/$appId.tsx:523
 msgid "Set as default"
 msgstr "Ezarri lehenetsi gisa"
 
@@ -1553,7 +1624,7 @@ msgstr "Ezarri jatorria eta helmuga"
 msgid "Settings"
 msgstr "Ezarpenak"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:254
 msgid "Sharing"
 msgstr "Partekatzea"
 
@@ -1647,8 +1718,8 @@ msgstr "Baldintzak"
 msgid "That code is incorrect or has expired."
 msgstr "Kode hori okerra da edo iraungi egin da."
 
-#: src/routes/_authenticated/app/$appId.tsx:131
-#: src/routes/_authenticated/app/$appId.tsx:156
+#: src/routes/_authenticated/app/$appId.tsx:133
+#: src/routes/_authenticated/app/$appId.tsx:158
 msgid "The requested app could not be found."
 msgstr "Eskatutako aplikazioa ezin izan da aurkitu."
 
@@ -1719,23 +1790,23 @@ msgstr "Eskaera gehiegi"
 msgid "Top"
 msgstr "Goia"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "\"{track}\" pista ezabatu da"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "\"{track}\" pista {version}-(e)ra eguneratu da"
 
-#: src/routes/_authenticated/app/$appId.tsx:409
+#: src/routes/_authenticated/app/$appId.tsx:411
 msgid "Track created"
 msgstr "Pista sortu da"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "Track name"
 msgstr "Pistaren izena"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:100
 msgid "Tracks"
 msgstr "Pistak"
 
@@ -1761,6 +1832,10 @@ msgstr "Asteartea"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Idatzi komando bat edo bilatu..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Idatzi mezu bat…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1804,13 +1879,13 @@ msgstr "Ezezaguna"
 msgid "Unverified"
 msgstr "Egiaztatu gabe"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "Update tracks"
 msgstr "Eguneratu pistak"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:665
-#: src/routes/_authenticated/app/$appId.tsx:667
+#: src/routes/_authenticated/app/$appId.tsx:205
+#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:674
 msgid "Upload new version"
 msgstr "Igo bertsio berria"
 
@@ -1818,15 +1893,15 @@ msgstr "Igo bertsio berria"
 msgid "Upload progress"
 msgstr "Igoeraren aurrerapena"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Upload version"
 msgstr "Igo bertsioa"
 
-#: src/routes/_authenticated/app/$appId.tsx:270
+#: src/routes/_authenticated/app/$appId.tsx:272
 msgid "Upload your first build"
 msgstr "Igo zure lehen konpilazioa"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Uploading..."
 msgstr "Igotzen..."
 
@@ -1839,7 +1914,7 @@ msgstr "Erabili zure sarbide-gakoa"
 msgid "User"
 msgstr "Erabiltzailea"
 
-#: src/routes/_authenticated/app/$appId.tsx:255
+#: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Erabiltzaileek aplikazio hau instala dezakete esteka hau Aplikazioak orrian itsatsita."
 
@@ -1866,15 +1941,15 @@ msgid "Verify email address"
 msgstr "Egiaztatu helbide elektronikoa"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:644
+#: src/routes/_authenticated/app/$appId.tsx:654
 msgid "Version {0} uploaded"
 msgstr "{0} bertsioa igo da"
 
-#: src/routes/_authenticated/app/$appId.tsx:264
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Version history"
 msgstr "Bertsioen historia"
 
-#: src/routes/_authenticated/app/$appId.tsx:97
+#: src/routes/_authenticated/app/$appId.tsx:99
 msgid "Versions"
 msgstr "Bertsioak"
 
@@ -1895,8 +1970,8 @@ msgstr "Ikusi"
 msgid "View all"
 msgstr "Ikusi guztiak"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Ikusi jakinarazpen guztiak"
 
@@ -1926,11 +2001,11 @@ msgid "Wednesday"
 msgstr "Asteazkena"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:695
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "Yes"
 msgstr "Bai"
 
-#: src/routes/_authenticated/app/$appId.tsx:696
+#: src/routes/_authenticated/app/$appId.tsx:703
 msgid "Yes, force"
 msgstr "Bai, behartu"
 
@@ -1950,7 +2025,7 @@ msgstr "Balio hauek bidali dituzu:"
 msgid "You're all caught up!"
 msgstr "Dena irakurri duzu!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Zure kontua {source}-etik hona mugitu da. Han ezabatu arte, mezuak eta jakinarazpenak bi zerbitzarietara irits daitezke, zure edukiaren zati bat zerbitzari zaharretik ematen jarraitzen du, eta jarraitzaileek minutu batzuk behar izan ditzakete zu hemen aurkitzeko."
 

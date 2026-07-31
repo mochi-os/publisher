@@ -36,6 +36,10 @@ msgstr "Pangalan ng {entityLabel}"
 msgid "{entityLabel} name is required"
 msgstr "Kailangan ang pangalan ng {entityLabel}"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "Nag-alok ng draw si {opponentName}"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} ang napili} other {{manyName} ang napili}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} sa {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Buksan ang menu (# hindi pa nababasang notification)} other {Buksan ang menu (# hindi pa nababasang notification)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} naka-nest"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 oras"
@@ -71,6 +80,10 @@ msgstr "24 oras"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Absolute (petsa at oras)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Tanggapin"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,6 +113,7 @@ msgstr "Uri ng account"
 msgid "Account verified"
 msgstr "Na-verify ang account"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
@@ -121,6 +135,14 @@ msgstr "Magdagdag ng account"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Magdagdag ng account para makatanggap ng notification at gamitin ang mga serbisyo."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Magdagdag ng checklist item"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Magdagdag ng item..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -186,8 +208,8 @@ msgstr "Kahit sino"
 msgid "Anyone who is logged in"
 msgstr "Sinumang naka-log in"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
-#: src/routes/_authenticated/app/$appId.tsx:140
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:142
 msgid "App"
 msgstr "App"
 
@@ -195,14 +217,14 @@ msgstr "App"
 msgid "App created"
 msgstr "Nagawa ang app"
 
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:130
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:132
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:157
 msgid "App not found"
 msgstr "Hindi nahanap ang app"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Application ID"
 msgstr "Application ID"
 
@@ -227,7 +249,7 @@ msgstr "Mga naka-authenticate na user"
 msgid "Authenticator code"
 msgstr "Code ng authenticator"
 
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:363
 msgid "Available versions"
 msgstr "Mga available na bersyon"
 
@@ -243,12 +265,12 @@ msgstr "Avatar para kay {name}"
 msgid "Back"
 msgstr "Bumalik"
 
-#: src/routes/_authenticated/app/$appId.tsx:113
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:140
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:180
-#: src/routes/_authenticated/app/$appId.tsx:333
+#: src/routes/_authenticated/app/$appId.tsx:115
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:182
+#: src/routes/_authenticated/app/$appId.tsx:335
 msgid "Back to apps"
 msgstr "Bumalik sa mga app"
 
@@ -262,6 +284,11 @@ msgstr "Bumalik sa home"
 msgid "Banner"
 msgstr "Banner"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Hinarang ang pag-navigate sa di-pinagkakatiwalaang link"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
@@ -271,7 +298,7 @@ msgstr "Palakasin ang interes"
 msgid "Browser notifications"
 msgstr "Mga notification ng browser"
 
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Build file"
 msgstr "Build file"
 
@@ -285,8 +312,8 @@ msgstr "Build file"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:586
-#: src/routes/_authenticated/app/$appId.tsx:726
+#: src/routes/_authenticated/app/$appId.tsx:588
+#: src/routes/_authenticated/app/$appId.tsx:734
 msgid "Cancel"
 msgstr "Kanselahin"
 
@@ -302,6 +329,10 @@ msgstr "Baguhin ang category ng notification"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Piliin ang \"Lahat\" para makita ang mga dating notification."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Pumili ng laro mula sa sidebar o magsimula ng bago."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -453,7 +484,7 @@ msgstr "Nakopya sa clipboard"
 msgid "Copy"
 msgstr "Kopyahin"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kopyahin ang link na ito at i-paste sa pahina ng Mga app ng iyong Mochi server upang i-install."
 
@@ -488,20 +519,20 @@ msgstr "Gumawa ng {0}"
 msgid "Create app"
 msgstr "Gumawa ng app"
 
-#: src/routes/_authenticated/app/$appId.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:547
+#: src/routes/_authenticated/app/$appId.tsx:211
 #: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:551
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create track"
 msgstr "Gumawa ng track"
 
-#: src/routes/_authenticated/app/$appId.tsx:471
+#: src/routes/_authenticated/app/$appId.tsx:473
 msgid "Create your first release track"
 msgstr "Gumawa ng iyong unang release track"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:258
 #: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Ginagawa..."
 
@@ -531,8 +562,12 @@ msgstr "Dark mode"
 msgid "Data conflict"
 msgstr "Salungatan sa data"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Tanggihan"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Default"
 msgstr "Default"
 
@@ -540,15 +575,15 @@ msgstr "Default"
 msgid "Default AI account"
 msgstr "Default na AI account"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "Naitakda ang default track sa \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:528
+#: src/routes/_authenticated/app/$appId.tsx:530
 msgid "Delete track"
 msgstr "I-delete ang track"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Burahin ang iyong account sa lumang server"
 
@@ -564,8 +599,8 @@ msgstr "Pababa"
 msgid "Description"
 msgstr "Paglalarawan"
 
-#: src/routes/_authenticated/app/$appId.tsx:96
-#: src/routes/_authenticated/app/$appId.tsx:345
+#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:347
 msgid "Details"
 msgstr "Mga detalye"
 
@@ -605,8 +640,8 @@ msgstr "Itapon ang draft?"
 msgid "Disconnected"
 msgstr "Nadiskonekta"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "I-dismiss"
 
@@ -614,11 +649,11 @@ msgstr "I-dismiss"
 msgid "Displays the mobile sidebar."
 msgstr "Ipinapakita ang mobile sidebar."
 
-#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:236
 msgid "Distribution"
 msgstr "Distribution"
 
-#: src/routes/_authenticated/app/$appId.tsx:84
+#: src/routes/_authenticated/app/$appId.tsx:86
 msgid "Distribution set to {distribution}"
 msgstr "Naka-set ang distribution sa {distribution}"
 
@@ -635,7 +670,7 @@ msgstr "Nabigo ang pag-download"
 msgid "Dyslexia-friendly"
 msgstr "Angkop sa dyslexia"
 
-#: src/routes/_authenticated/app/$appId.tsx:559
+#: src/routes/_authenticated/app/$appId.tsx:561
 msgid "e.g. Staging"
 msgstr "hal. Staging"
 
@@ -695,11 +730,11 @@ msgstr "Nabigong kumopya"
 msgid "Failed to create app"
 msgstr "Nabigong gumawa ng app"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:417
 msgid "Failed to create track"
 msgstr "Nabigong gumawa ng track"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "Nabigong magdelete ng track"
 
@@ -723,7 +758,7 @@ msgstr "Nabigong tanggalin ang account"
 msgid "Failed to send verification code"
 msgstr "Nabigong magpadala ng verification code"
 
-#: src/routes/_authenticated/app/$appId.tsx:458
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "Nabigong i-set ang default track"
 
@@ -731,15 +766,15 @@ msgstr "Nabigong i-set ang default track"
 msgid "Failed to update category"
 msgstr "Nabigong i-update ang category"
 
-#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:89
 msgid "Failed to update distribution"
 msgstr "Nabigong i-update ang distribution"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "Nabigong i-update ang track"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:664
 msgid "Failed to upload version"
 msgstr "Nabigong mag-upload ng version"
 
@@ -747,12 +782,12 @@ msgstr "Nabigong mag-upload ng version"
 msgid "Filter..."
 msgstr "I-filter..."
 
-#: src/routes/_authenticated/app/$appId.tsx:222
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:349
 msgid "Fingerprint"
 msgstr "Fingerprint"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Tapusin ang paglipat ng iyong account"
 
@@ -843,7 +878,7 @@ msgstr "Home"
 msgid "Hot"
 msgstr "Hot"
 
-#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Identity"
 msgstr "Identity"
 
@@ -860,7 +895,7 @@ msgstr "Imperial"
 msgid "Including anonymous users"
 msgstr "Kasama ang mga anonymous na user"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Initial version"
 msgstr "Panimulang bersyon"
 
@@ -876,17 +911,21 @@ msgstr "Initials avatar para kay {name}"
 msgid "Inset"
 msgstr "Inset"
 
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Install app"
 msgstr "I-install ang app"
 
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Install locally"
 msgstr "I-install nang lokal"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Interests"
 msgstr "Mga interest"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Invalid na petsa"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -918,7 +957,7 @@ msgstr "Layout"
 msgid "Learn more"
 msgstr "Matuto pa"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Leave empty"
 msgstr "Iwanang walang laman"
 
@@ -940,7 +979,7 @@ msgstr "Light"
 msgid "Load more"
 msgstr "Mag-load ng higit pa"
 
-#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:114
 msgid "Loading app..."
 msgstr "Nilo-load ang app..."
 
@@ -983,8 +1022,8 @@ msgstr "Gawing pampublikong magagamit ang app"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Pamahalaan ang iyong mga nakakonektang account para sa mga notification at serbisyo."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Markahan lahat bilang nabasa"
@@ -1000,6 +1039,10 @@ msgstr "Katamtaman"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Menu"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Mensahe"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -1034,13 +1077,18 @@ msgstr "Error sa network"
 msgid "New"
 msgstr "Bago"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Bagong laro"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
 msgstr "Susunod na imahe"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:697
+#: src/routes/_authenticated/app/$appId.tsx:704
 msgid "No"
 msgstr "Hindi"
 
@@ -1056,6 +1104,10 @@ msgstr "Wala pang app"
 msgid "No connected accounts"
 msgstr "Walang nakakonektang account"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Wala pang laro"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Walang available na grupo"
@@ -1064,6 +1116,7 @@ msgstr "Walang available na grupo"
 msgid "No notifications yet"
 msgstr "Wala pang notification"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Walang nakitang tao"
@@ -1094,7 +1147,7 @@ msgstr "Walang nakitang time zone."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Wala pang topic record — subukan muli pagkatapos ng susunod na notification."
 
-#: src/routes/_authenticated/app/$appId.tsx:470
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "No tracks"
 msgstr "Walang track"
 
@@ -1102,11 +1155,11 @@ msgstr "Walang track"
 msgid "No users found"
 msgstr "Walang nakitang user"
 
-#: src/routes/_authenticated/app/$appId.tsx:568
+#: src/routes/_authenticated/app/$appId.tsx:570
 msgid "No version"
 msgstr "Walang bersyon"
 
-#: src/routes/_authenticated/app/$appId.tsx:269
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "No versions"
 msgstr "Walang bersyon"
 
@@ -1138,7 +1191,7 @@ msgid "Notifications"
 msgstr "Mga Notification"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Mga notification: {0}"
 
@@ -1179,8 +1232,8 @@ msgstr "Buksan ang navigation menu"
 msgid "Open theme settings"
 msgstr "Buksan ang mga setting ng theme"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
-#: src/routes/_authenticated/app/$appId.tsx:513
+#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Open track actions"
 msgstr "Buksan ang mga aksyon ng track"
 
@@ -1205,7 +1258,7 @@ msgstr "Passkey"
 msgid "Passkey verification failed. Please try again."
 msgstr "Nabigo ang pag-verify ng passkey. Pakisubukang muli."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Mga Passkey"
 
@@ -1227,7 +1280,7 @@ msgstr "Mangyaring maglagay ng pangalan ng app"
 msgid "Please log in with the appropriate credentials <0/> to access this resource."
 msgstr "Mag-log in gamit ang naaangkop na mga kredensyal <0/> upang ma-access ang mapagkukunang ito."
 
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Mangyaring pumili ng file"
 
@@ -1246,14 +1299,14 @@ msgstr "Nakaraang imahe"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:225
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Privacy"
 msgstr "Privacy"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Private"
 msgstr "Pribado"
 
@@ -1271,13 +1324,13 @@ msgid "Project members"
 msgstr "Mga miyembro ng proyekto"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:228
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:230
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Public"
 msgstr "Pampubliko"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:244
+#: src/routes/_authenticated/app/$appId.tsx:246
 msgid "Published"
 msgstr "Na-publish"
 
@@ -1294,11 +1347,11 @@ msgstr "Push notification"
 msgid "Raised"
 msgstr "Nakaangat"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "I-relink ang iyong mga account sa server na ito"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Muling irehistro ang iyong mga passkey sa server na ito"
 
@@ -1328,7 +1381,7 @@ msgstr "Relatibo (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relatibo sa loob ng 24 na oras, kung hindi ay absolute"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Release tracks"
 msgstr "Mga release track"
 
@@ -1363,6 +1416,10 @@ msgstr "Alisin ang access?"
 msgid "Remove interest"
 msgstr "Alisin ang interes"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Alisin ang item"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:367
 msgid "Resend email"
 msgstr "Muling ipadala ang email"
@@ -1382,7 +1439,7 @@ msgid "Reset all settings to default values"
 msgstr "I-reset ang lahat ng setting sa mga default na halaga"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:245
+#: src/routes/_authenticated/app/$appId.tsx:247
 msgid "Restricted"
 msgstr "Restricted"
 
@@ -1458,6 +1515,10 @@ msgstr "Naghahanap..."
 msgid "Select {0}"
 msgstr "Pumili ng {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Pumili ng laro"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Pumili ng user, group, o iba pang panuntunan para magbigay ng access."
@@ -1502,6 +1563,11 @@ msgstr "Pumili ng direksyon ng site"
 msgid "Select theme preference"
 msgstr "Pumili ng theme preference"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Pumili..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "napili"
@@ -1518,6 +1584,11 @@ msgstr "Ipadala muli"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Magpadala ng email"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Ipadala ang mensahe"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1537,7 +1608,7 @@ msgstr "Mga patakaran ng server"
 msgid "Session expired. Please log in again."
 msgstr "Nag-expire na ang session. Mag-log in muli."
 
-#: src/routes/_authenticated/app/$appId.tsx:521
+#: src/routes/_authenticated/app/$appId.tsx:523
 msgid "Set as default"
 msgstr "Itakda bilang default"
 
@@ -1553,7 +1624,7 @@ msgstr "Itakda ang origin at destination"
 msgid "Settings"
 msgstr "Mga setting"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:254
 msgid "Sharing"
 msgstr "Pagbabahagi"
 
@@ -1647,8 +1718,8 @@ msgstr "Mga tuntunin at kundisyon"
 msgid "That code is incorrect or has expired."
 msgstr "Mali ang code na iyon o nag-expire na."
 
-#: src/routes/_authenticated/app/$appId.tsx:131
-#: src/routes/_authenticated/app/$appId.tsx:156
+#: src/routes/_authenticated/app/$appId.tsx:133
+#: src/routes/_authenticated/app/$appId.tsx:158
 msgid "The requested app could not be found."
 msgstr "Hindi nakita ang hiniling na app."
 
@@ -1719,23 +1790,23 @@ msgstr "Masyadong maraming request"
 msgid "Top"
 msgstr "Itaas"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "Natanggal ang track na \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Na-update ang track na \"{track}\" sa {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:409
+#: src/routes/_authenticated/app/$appId.tsx:411
 msgid "Track created"
 msgstr "Nalikha ang track"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "Track name"
 msgstr "Pangalan ng track"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:100
 msgid "Tracks"
 msgstr "Mga track"
 
@@ -1761,6 +1832,10 @@ msgstr "Martes"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Mag-type ng command o maghanap..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Mag-type ng mensahe…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1804,13 +1879,13 @@ msgstr "Hindi alam"
 msgid "Unverified"
 msgstr "Hindi naberipika"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "Update tracks"
 msgstr "I-update ang mga track"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:665
-#: src/routes/_authenticated/app/$appId.tsx:667
+#: src/routes/_authenticated/app/$appId.tsx:205
+#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:674
 msgid "Upload new version"
 msgstr "Mag-upload ng bagong bersyon"
 
@@ -1818,15 +1893,15 @@ msgstr "Mag-upload ng bagong bersyon"
 msgid "Upload progress"
 msgstr "Progreso ng pag-upload"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Upload version"
 msgstr "Mag-upload ng bersyon"
 
-#: src/routes/_authenticated/app/$appId.tsx:270
+#: src/routes/_authenticated/app/$appId.tsx:272
 msgid "Upload your first build"
 msgstr "I-upload ang iyong unang build"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Uploading..."
 msgstr "Nag-u-upload..."
 
@@ -1839,7 +1914,7 @@ msgstr "Gamitin ang iyong passkey"
 msgid "User"
 msgstr "User"
 
-#: src/routes/_authenticated/app/$appId.tsx:255
+#: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Maaaring i-install ng mga user ang aplikasyong ito sa pamamagitan ng pag-paste ng link na ito sa kanilang pahina ng Mga app."
 
@@ -1866,15 +1941,15 @@ msgid "Verify email address"
 msgstr "Beripikahin ang email address"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:644
+#: src/routes/_authenticated/app/$appId.tsx:654
 msgid "Version {0} uploaded"
 msgstr "Na-upload ang bersyon {0}"
 
-#: src/routes/_authenticated/app/$appId.tsx:264
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Version history"
 msgstr "Kasaysayan ng bersyon"
 
-#: src/routes/_authenticated/app/$appId.tsx:97
+#: src/routes/_authenticated/app/$appId.tsx:99
 msgid "Versions"
 msgstr "Mga bersyon"
 
@@ -1895,8 +1970,8 @@ msgstr "Tingnan"
 msgid "View all"
 msgstr "Tingnan lahat"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Tingnan lahat ng notification"
 
@@ -1926,11 +2001,11 @@ msgid "Wednesday"
 msgstr "Miyerkules"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:695
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "Yes"
 msgstr "Oo"
 
-#: src/routes/_authenticated/app/$appId.tsx:696
+#: src/routes/_authenticated/app/$appId.tsx:703
 msgid "Yes, force"
 msgstr "Oo, puwersahin"
 
@@ -1950,7 +2025,7 @@ msgstr "Isinumite mo ang mga sumusunod na halaga:"
 msgid "You're all caught up!"
 msgstr "Nakita mo na lahat!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Ang iyong account ay inilipat dito mula sa {source}. Hanggang hindi mo ito binubura doon, ang mga mensahe at abiso ay maaaring maabot ang parehong mga server, ang ilan sa iyong nilalaman ay patuloy na pinaglilingkuran mula sa lumang server, at ang mga tagasunod ay maaaring maglaan ng ilang minuto upang mahanap ka dito."
 

@@ -36,6 +36,10 @@ msgstr "{entityLabel}-navn"
 msgid "{entityLabel} name is required"
 msgstr "{entityLabel}-navn er påkrevd"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} tilbød remis"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} valgt} other {{manyName} valgt}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} av {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Åpne meny (# ulest varsel)} other {Åpne meny (# uleste varsler)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} nestede"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 timer"
@@ -71,6 +80,10 @@ msgstr "24 timer"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Absolutt (dato og klokkeslett)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Godta"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,6 +113,7 @@ msgstr "Kontotype"
 msgid "Account verified"
 msgstr "Konto bekreftet"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
@@ -121,6 +135,14 @@ msgstr "Legg til konto"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Legg til en konto for å motta varsler og bruke tjenester."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Legg til sjekklisteelement"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Legg til element …"
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -186,8 +208,8 @@ msgstr "Alle"
 msgid "Anyone who is logged in"
 msgstr "Alle som er logget inn"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
-#: src/routes/_authenticated/app/$appId.tsx:140
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:142
 msgid "App"
 msgstr "App"
 
@@ -195,14 +217,14 @@ msgstr "App"
 msgid "App created"
 msgstr "App opprettet"
 
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:130
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:132
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:157
 msgid "App not found"
 msgstr "Fant ikke app"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Application ID"
 msgstr "Applikasjons-ID"
 
@@ -227,7 +249,7 @@ msgstr "Autentiserte brukere"
 msgid "Authenticator code"
 msgstr "Autentiseringskode"
 
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:363
 msgid "Available versions"
 msgstr "Tilgjengelige versjoner"
 
@@ -243,12 +265,12 @@ msgstr "Avatar for {name}"
 msgid "Back"
 msgstr "Tilbake"
 
-#: src/routes/_authenticated/app/$appId.tsx:113
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:140
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:180
-#: src/routes/_authenticated/app/$appId.tsx:333
+#: src/routes/_authenticated/app/$appId.tsx:115
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:182
+#: src/routes/_authenticated/app/$appId.tsx:335
 msgid "Back to apps"
 msgstr "Tilbake til apper"
 
@@ -262,6 +284,11 @@ msgstr "Tilbake til start"
 msgid "Banner"
 msgstr "Banner"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Blokkerte navigasjon til ikke-pålitelig lenke"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
@@ -271,7 +298,7 @@ msgstr "Øk interesse"
 msgid "Browser notifications"
 msgstr "Nettleservarsler"
 
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Build file"
 msgstr "Build-fil"
 
@@ -285,8 +312,8 @@ msgstr "Build-fil"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:586
-#: src/routes/_authenticated/app/$appId.tsx:726
+#: src/routes/_authenticated/app/$appId.tsx:588
+#: src/routes/_authenticated/app/$appId.tsx:734
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -302,6 +329,10 @@ msgstr "Endre varselkategori"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Velg «Alle» for å se tidligere varsler."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Velg et spill fra sidefeltet eller start et nytt."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -453,7 +484,7 @@ msgstr "Kopiert til utklippstavlen"
 msgid "Copy"
 msgstr "Kopier"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kopier denne lenken og lim den inn på Apper-siden på Mochi-serveren din for å installere den."
 
@@ -488,20 +519,20 @@ msgstr "Opprett {0}"
 msgid "Create app"
 msgstr "Opprett app"
 
-#: src/routes/_authenticated/app/$appId.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:547
+#: src/routes/_authenticated/app/$appId.tsx:211
 #: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:551
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create track"
 msgstr "Opprett spor"
 
-#: src/routes/_authenticated/app/$appId.tsx:471
+#: src/routes/_authenticated/app/$appId.tsx:473
 msgid "Create your first release track"
 msgstr "Opprett ditt første utgivelsesspor"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:258
 #: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Oppretter …"
 
@@ -531,8 +562,12 @@ msgstr "Mørkt utseende"
 msgid "Data conflict"
 msgstr "Datakonflikt"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Avslå"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Default"
 msgstr "Standard"
 
@@ -540,15 +575,15 @@ msgstr "Standard"
 msgid "Default AI account"
 msgstr "Standard KI-konto"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "Standardspor satt til «{track}»"
 
-#: src/routes/_authenticated/app/$appId.tsx:528
+#: src/routes/_authenticated/app/$appId.tsx:530
 msgid "Delete track"
 msgstr "Slett spor"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Slett kontoen din på den gamle serveren"
 
@@ -564,8 +599,8 @@ msgstr "Synkende"
 msgid "Description"
 msgstr "Beskrivelse"
 
-#: src/routes/_authenticated/app/$appId.tsx:96
-#: src/routes/_authenticated/app/$appId.tsx:345
+#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:347
 msgid "Details"
 msgstr "Detaljer"
 
@@ -605,8 +640,8 @@ msgstr "Forkaste utkastet?"
 msgid "Disconnected"
 msgstr "Frakoblet"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Lukk"
 
@@ -614,11 +649,11 @@ msgstr "Lukk"
 msgid "Displays the mobile sidebar."
 msgstr "Viser sidefeltet for mobil."
 
-#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:236
 msgid "Distribution"
 msgstr "Distribusjon"
 
-#: src/routes/_authenticated/app/$appId.tsx:84
+#: src/routes/_authenticated/app/$appId.tsx:86
 msgid "Distribution set to {distribution}"
 msgstr "Distribusjon satt til {distribution}"
 
@@ -635,7 +670,7 @@ msgstr "Nedlastingen mislyktes"
 msgid "Dyslexia-friendly"
 msgstr "Dyslektikervennlig"
 
-#: src/routes/_authenticated/app/$appId.tsx:559
+#: src/routes/_authenticated/app/$appId.tsx:561
 msgid "e.g. Staging"
 msgstr "f.eks. Staging"
 
@@ -695,11 +730,11 @@ msgstr "Kunne ikke kopiere"
 msgid "Failed to create app"
 msgstr "Kunne ikke opprette app"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:417
 msgid "Failed to create track"
 msgstr "Kunne ikke opprette spor"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "Kunne ikke slette spor"
 
@@ -723,7 +758,7 @@ msgstr "Kunne ikke fjerne konto"
 msgid "Failed to send verification code"
 msgstr "Kunne ikke sende bekreftelseskode"
 
-#: src/routes/_authenticated/app/$appId.tsx:458
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "Kunne ikke angi standardspor"
 
@@ -731,15 +766,15 @@ msgstr "Kunne ikke angi standardspor"
 msgid "Failed to update category"
 msgstr "Kunne ikke oppdatere kategori"
 
-#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:89
 msgid "Failed to update distribution"
 msgstr "Kunne ikke oppdatere distribusjon"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "Kunne ikke oppdatere spor"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:664
 msgid "Failed to upload version"
 msgstr "Kunne ikke laste opp versjon"
 
@@ -747,12 +782,12 @@ msgstr "Kunne ikke laste opp versjon"
 msgid "Filter..."
 msgstr "Filtrer..."
 
-#: src/routes/_authenticated/app/$appId.tsx:222
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:349
 msgid "Fingerprint"
 msgstr "Fingeravtrykk"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Fullfør flyttingen av kontoen din"
 
@@ -843,7 +878,7 @@ msgstr "Hjem"
 msgid "Hot"
 msgstr "Populært"
 
-#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Identity"
 msgstr "Identitet"
 
@@ -860,7 +895,7 @@ msgstr "Imperialsk"
 msgid "Including anonymous users"
 msgstr "Inkludert anonyme brukere"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Initial version"
 msgstr "Startversjon"
 
@@ -876,17 +911,21 @@ msgstr "Initialavatar for {name}"
 msgid "Inset"
 msgstr "Innfelt"
 
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Install app"
 msgstr "Installer app"
 
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Install locally"
 msgstr "Installer lokalt"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Interests"
 msgstr "Interesser"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Ugyldig dato"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -918,7 +957,7 @@ msgstr "Layout"
 msgid "Learn more"
 msgstr "Les mer"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Leave empty"
 msgstr "La stå tom"
 
@@ -940,7 +979,7 @@ msgstr "Lys"
 msgid "Load more"
 msgstr "Last inn flere"
 
-#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:114
 msgid "Loading app..."
 msgstr "Laster app ..."
 
@@ -983,8 +1022,8 @@ msgstr "Gjør appen offentlig tilgjengelig"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Administrer dine tilkoblede kontoer for varsler og tjenester."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Merk alle som lest"
@@ -1000,6 +1039,10 @@ msgstr "Middels"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Meny"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Melding"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -1034,13 +1077,18 @@ msgstr "Nettverksfeil"
 msgid "New"
 msgstr "Ny"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Nytt spill"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
 msgstr "Neste bilde"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:697
+#: src/routes/_authenticated/app/$appId.tsx:704
 msgid "No"
 msgstr "Nei"
 
@@ -1056,6 +1104,10 @@ msgstr "Ingen apper ennå"
 msgid "No connected accounts"
 msgstr "Ingen tilkoblede kontoer"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Ingen spill ennå"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Ingen grupper tilgjengelig"
@@ -1064,6 +1116,7 @@ msgstr "Ingen grupper tilgjengelig"
 msgid "No notifications yet"
 msgstr "Ingen varsler ennå"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Ingen personer funnet"
@@ -1094,7 +1147,7 @@ msgstr "Ingen tidssone funnet."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Ingen emnepost ennå – prøv igjen etter neste varsel."
 
-#: src/routes/_authenticated/app/$appId.tsx:470
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "No tracks"
 msgstr "Ingen spor"
 
@@ -1102,11 +1155,11 @@ msgstr "Ingen spor"
 msgid "No users found"
 msgstr "Ingen brukere funnet"
 
-#: src/routes/_authenticated/app/$appId.tsx:568
+#: src/routes/_authenticated/app/$appId.tsx:570
 msgid "No version"
 msgstr "Ingen versjon"
 
-#: src/routes/_authenticated/app/$appId.tsx:269
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "No versions"
 msgstr "Ingen versjoner"
 
@@ -1138,7 +1191,7 @@ msgid "Notifications"
 msgstr "Varsler"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Varsler: {0}"
 
@@ -1179,8 +1232,8 @@ msgstr "Åpne navigasjonsmeny"
 msgid "Open theme settings"
 msgstr "Åpne temainnstillinger"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
-#: src/routes/_authenticated/app/$appId.tsx:513
+#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Open track actions"
 msgstr "Åpne sporhandlinger"
 
@@ -1205,7 +1258,7 @@ msgstr "Passnøkkel"
 msgid "Passkey verification failed. Please try again."
 msgstr "Verifisering med passnøkkel mislyktes. Prøv igjen."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Passnøkler"
 
@@ -1227,7 +1280,7 @@ msgstr "Skriv inn et appnavn"
 msgid "Please log in with the appropriate credentials <0/> to access this resource."
 msgstr "Logg inn med riktig legitimasjon <0/> for å få tilgang til denne ressursen."
 
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Velg en fil"
 
@@ -1246,14 +1299,14 @@ msgstr "Forrige bilde"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:225
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Privacy"
 msgstr "Personvern"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Private"
 msgstr "Privat"
 
@@ -1271,13 +1324,13 @@ msgid "Project members"
 msgstr "Prosjektmedlemmer"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:228
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:230
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Public"
 msgstr "Offentlig"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:244
+#: src/routes/_authenticated/app/$appId.tsx:246
 msgid "Published"
 msgstr "Publisert"
 
@@ -1294,11 +1347,11 @@ msgstr "Push-varsel"
 msgid "Raised"
 msgstr "Hevet"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Koble kontoene dine til på nytt på denne serveren"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Registrer tilgangsnøklene dine på nytt på denne serveren"
 
@@ -1328,7 +1381,7 @@ msgstr "Relativ (5m, 3t, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relativ innen 24 timer, ellers absolutt"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Release tracks"
 msgstr "Utgivelsesspor"
 
@@ -1363,6 +1416,10 @@ msgstr "Fjerne tilgang?"
 msgid "Remove interest"
 msgstr "Fjern interesse"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Fjern element"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:367
 msgid "Resend email"
 msgstr "Send e-post på nytt"
@@ -1382,7 +1439,7 @@ msgid "Reset all settings to default values"
 msgstr "Tilbakestill alle innstillinger til standardverdier"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:245
+#: src/routes/_authenticated/app/$appId.tsx:247
 msgid "Restricted"
 msgstr "Begrenset"
 
@@ -1458,6 +1515,10 @@ msgstr "Søker ..."
 msgid "Select {0}"
 msgstr "Velg {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Velg et spill"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Velg en bruker, gruppe eller annen regel for å gi tilgang."
@@ -1502,6 +1563,11 @@ msgstr "Velg nettstedsretning"
 msgid "Select theme preference"
 msgstr "Velg temapreferanse"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Velg ..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "valgt"
@@ -1518,6 +1584,11 @@ msgstr "Send på nytt"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Send e-post"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Send melding"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1537,7 +1608,7 @@ msgstr "Serverregler"
 msgid "Session expired. Please log in again."
 msgstr "Økten er utløpt. Logg inn på nytt."
 
-#: src/routes/_authenticated/app/$appId.tsx:521
+#: src/routes/_authenticated/app/$appId.tsx:523
 msgid "Set as default"
 msgstr "Angi som standard"
 
@@ -1553,7 +1624,7 @@ msgstr "Angi opprinnelse og destinasjon"
 msgid "Settings"
 msgstr "Innstillinger"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:254
 msgid "Sharing"
 msgstr "Deling"
 
@@ -1647,8 +1718,8 @@ msgstr "Vilkår og betingelser"
 msgid "That code is incorrect or has expired."
 msgstr "Den koden er feil eller har utløpt."
 
-#: src/routes/_authenticated/app/$appId.tsx:131
-#: src/routes/_authenticated/app/$appId.tsx:156
+#: src/routes/_authenticated/app/$appId.tsx:133
+#: src/routes/_authenticated/app/$appId.tsx:158
 msgid "The requested app could not be found."
 msgstr "Den forespurte appen ble ikke funnet."
 
@@ -1719,23 +1790,23 @@ msgstr "For mange forespørsler"
 msgid "Top"
 msgstr "Topp"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "Spor «{track}» slettet"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Spor «{track}» oppdatert til {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:409
+#: src/routes/_authenticated/app/$appId.tsx:411
 msgid "Track created"
 msgstr "Spor opprettet"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "Track name"
 msgstr "Spornavn"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:100
 msgid "Tracks"
 msgstr "Spor"
 
@@ -1761,6 +1832,10 @@ msgstr "Tirsdag"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Skriv en kommando eller søk ..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Skriv en melding …"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1804,13 +1879,13 @@ msgstr "Ukjent"
 msgid "Unverified"
 msgstr "Ikke verifisert"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "Update tracks"
 msgstr "Oppdater spor"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:665
-#: src/routes/_authenticated/app/$appId.tsx:667
+#: src/routes/_authenticated/app/$appId.tsx:205
+#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:674
 msgid "Upload new version"
 msgstr "Last opp ny versjon"
 
@@ -1818,15 +1893,15 @@ msgstr "Last opp ny versjon"
 msgid "Upload progress"
 msgstr "Fremdrift for opplasting"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Upload version"
 msgstr "Last opp versjon"
 
-#: src/routes/_authenticated/app/$appId.tsx:270
+#: src/routes/_authenticated/app/$appId.tsx:272
 msgid "Upload your first build"
 msgstr "Last opp din første build"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Uploading..."
 msgstr "Laster opp ..."
 
@@ -1839,7 +1914,7 @@ msgstr "Bruk passnøkkelen din"
 msgid "User"
 msgstr "Bruker"
 
-#: src/routes/_authenticated/app/$appId.tsx:255
+#: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Brukere kan installere dette programmet ved å lime inn lenken på Apper-siden sin."
 
@@ -1866,15 +1941,15 @@ msgid "Verify email address"
 msgstr "Verifiser e-postadresse"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:644
+#: src/routes/_authenticated/app/$appId.tsx:654
 msgid "Version {0} uploaded"
 msgstr "Versjon {0} lastet opp"
 
-#: src/routes/_authenticated/app/$appId.tsx:264
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Version history"
 msgstr "Versjonshistorikk"
 
-#: src/routes/_authenticated/app/$appId.tsx:97
+#: src/routes/_authenticated/app/$appId.tsx:99
 msgid "Versions"
 msgstr "Versjoner"
 
@@ -1895,8 +1970,8 @@ msgstr "Vis"
 msgid "View all"
 msgstr "Vis alle"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Vis alle varsler"
 
@@ -1926,11 +2001,11 @@ msgid "Wednesday"
 msgstr "Onsdag"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:695
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "Yes"
 msgstr "Ja"
 
-#: src/routes/_authenticated/app/$appId.tsx:696
+#: src/routes/_authenticated/app/$appId.tsx:703
 msgid "Yes, force"
 msgstr "Ja, tving"
 
@@ -1950,7 +2025,7 @@ msgstr "Du sendte inn følgende verdier:"
 msgid "You're all caught up!"
 msgstr "Du er ajour!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Kontoen din ble flyttet hit fra {source}. Inntil du sletter den der, kan meldinger og varsler nå begge serverne, noe av innholdet ditt fortsetter å bli levert fra den gamle serveren, og følgerne dine kan trenge noen minutter på å finne deg her."
 

@@ -36,6 +36,10 @@ msgstr "Όνομα {entityLabel}"
 msgid "{entityLabel} name is required"
 msgstr "Το όνομα {entityLabel} είναι υποχρεωτικό"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "Ο/Η {opponentName} πρότεινε ισοπαλία"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} επιλέχθηκε} other {{manyName} επιλέχθηκαν}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel} από {totalLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Άνοιγμα μενού (# μη αναγνωσμένη ειδοποίηση)} other {Άνοιγμα μενού (# μη αναγνωσμένες ειδοποιήσεις)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} ένθετα"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 ώρες"
@@ -71,6 +80,10 @@ msgstr "24 ώρες"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Απόλυτη (ημερομηνία και ώρα)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Αποδοχή"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,6 +113,7 @@ msgstr "Τύπος λογαριασμού"
 msgid "Account verified"
 msgstr "Ο λογαριασμός επαληθεύτηκε"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
@@ -121,6 +135,14 @@ msgstr "Προσθήκη λογαριασμού"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Προσθέστε έναν λογαριασμό για να λαμβάνετε ειδοποιήσεις και να χρησιμοποιείτε υπηρεσίες."
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Προσθήκη στοιχείου λίστας ελέγχου"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Προσθήκη στοιχείου..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -186,8 +208,8 @@ msgstr "Οποιοσδήποτε"
 msgid "Anyone who is logged in"
 msgstr "Οποιοσδήποτε είναι συνδεδεμένος"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
-#: src/routes/_authenticated/app/$appId.tsx:140
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:142
 msgid "App"
 msgstr "Εφαρμογή"
 
@@ -195,14 +217,14 @@ msgstr "Εφαρμογή"
 msgid "App created"
 msgstr "Η εφαρμογή δημιουργήθηκε"
 
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:130
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:132
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:157
 msgid "App not found"
 msgstr "Η εφαρμογή δεν βρέθηκε"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Application ID"
 msgstr "Αναγνωριστικό εφαρμογής"
 
@@ -227,7 +249,7 @@ msgstr "Πιστοποιημένοι χρήστες"
 msgid "Authenticator code"
 msgstr "Κωδικός ελέγχου ταυτότητας"
 
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:363
 msgid "Available versions"
 msgstr "Διαθέσιμες εκδόσεις"
 
@@ -243,12 +265,12 @@ msgstr "Άβαταρ για {name}"
 msgid "Back"
 msgstr "Πίσω"
 
-#: src/routes/_authenticated/app/$appId.tsx:113
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:140
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:180
-#: src/routes/_authenticated/app/$appId.tsx:333
+#: src/routes/_authenticated/app/$appId.tsx:115
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:182
+#: src/routes/_authenticated/app/$appId.tsx:335
 msgid "Back to apps"
 msgstr "Πίσω στις εφαρμογές"
 
@@ -262,6 +284,11 @@ msgstr "Επιστροφή στην αρχή"
 msgid "Banner"
 msgstr "Μπάνερ"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Αποκλείστηκε η πλοήγηση σε μη αξιόπιστο σύνδεσμο"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
@@ -271,7 +298,7 @@ msgstr "Ενίσχυση ενδιαφέροντος"
 msgid "Browser notifications"
 msgstr "Ειδοποιήσεις προγράμματος περιήγησης"
 
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Build file"
 msgstr "Αρχείο build"
 
@@ -285,8 +312,8 @@ msgstr "Αρχείο build"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:586
-#: src/routes/_authenticated/app/$appId.tsx:726
+#: src/routes/_authenticated/app/$appId.tsx:588
+#: src/routes/_authenticated/app/$appId.tsx:734
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -302,6 +329,10 @@ msgstr "Αλλαγή κατηγορίας ειδοποίησης"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Επιλέξτε «Όλα» για να δείτε παλαιότερες ειδοποιήσεις."
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Επιλέξτε ένα παιχνίδι από την πλαϊνή στήλη ή ξεκινήστε ένα νέο."
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -453,7 +484,7 @@ msgstr "Αντιγράφηκε στο πρόχειρο"
 msgid "Copy"
 msgstr "Αντιγραφή"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Αντιγράψτε αυτόν τον σύνδεσμο και επικολλήστε τον στη σελίδα Εφαρμογές του διακομιστή Mochi σας για να την εγκαταστήσετε."
 
@@ -488,20 +519,20 @@ msgstr "Δημιουργία {0}"
 msgid "Create app"
 msgstr "Δημιουργία εφαρμογής"
 
-#: src/routes/_authenticated/app/$appId.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:547
+#: src/routes/_authenticated/app/$appId.tsx:211
 #: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:551
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create track"
 msgstr "Δημιουργία track"
 
-#: src/routes/_authenticated/app/$appId.tsx:471
+#: src/routes/_authenticated/app/$appId.tsx:473
 msgid "Create your first release track"
 msgstr "Δημιουργήστε το πρώτο σας track κυκλοφορίας"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:258
 #: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Δημιουργία..."
 
@@ -531,8 +562,12 @@ msgstr "Σκοτεινή λειτουργία"
 msgid "Data conflict"
 msgstr "Διένεξη δεδομένων"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Απόρριψη"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Default"
 msgstr "Προεπιλογή"
 
@@ -540,15 +575,15 @@ msgstr "Προεπιλογή"
 msgid "Default AI account"
 msgstr "Προεπιλεγμένος λογαριασμός AI"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "Το προεπιλεγμένο track ορίστηκε σε \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:528
+#: src/routes/_authenticated/app/$appId.tsx:530
 msgid "Delete track"
 msgstr "Διαγραφή track"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Διαγράψτε τον λογαριασμό σας στον παλιό διακομιστή"
 
@@ -564,8 +599,8 @@ msgstr "Φθίνουσα"
 msgid "Description"
 msgstr "Περιγραφή"
 
-#: src/routes/_authenticated/app/$appId.tsx:96
-#: src/routes/_authenticated/app/$appId.tsx:345
+#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:347
 msgid "Details"
 msgstr "Λεπτομέρειες"
 
@@ -605,8 +640,8 @@ msgstr "Απόρριψη πρόχειρου;"
 msgid "Disconnected"
 msgstr "Αποσυνδεδεμένο"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Απόρριψη"
 
@@ -614,11 +649,11 @@ msgstr "Απόρριψη"
 msgid "Displays the mobile sidebar."
 msgstr "Εμφανίζει την πλευρική μπάρα κινητού."
 
-#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:236
 msgid "Distribution"
 msgstr "Διανομή"
 
-#: src/routes/_authenticated/app/$appId.tsx:84
+#: src/routes/_authenticated/app/$appId.tsx:86
 msgid "Distribution set to {distribution}"
 msgstr "Η διανομή ορίστηκε σε {distribution}"
 
@@ -635,7 +670,7 @@ msgstr "Η λήψη απέτυχε"
 msgid "Dyslexia-friendly"
 msgstr "Φιλικό προς δυσλεξία"
 
-#: src/routes/_authenticated/app/$appId.tsx:559
+#: src/routes/_authenticated/app/$appId.tsx:561
 msgid "e.g. Staging"
 msgstr "π.χ. Staging"
 
@@ -695,11 +730,11 @@ msgstr "Αποτυχία αντιγραφής"
 msgid "Failed to create app"
 msgstr "Αποτυχία δημιουργίας εφαρμογής"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:417
 msgid "Failed to create track"
 msgstr "Αποτυχία δημιουργίας καναλιού"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "Αποτυχία διαγραφής καναλιού"
 
@@ -723,7 +758,7 @@ msgstr "Αποτυχία αφαίρεσης λογαριασμού"
 msgid "Failed to send verification code"
 msgstr "Αποτυχία αποστολής κωδικού επαλήθευσης"
 
-#: src/routes/_authenticated/app/$appId.tsx:458
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "Αποτυχία ορισμού προεπιλεγμένου καναλιού"
 
@@ -731,15 +766,15 @@ msgstr "Αποτυχία ορισμού προεπιλεγμένου καναλ�
 msgid "Failed to update category"
 msgstr "Αποτυχία ενημέρωσης κατηγορίας"
 
-#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:89
 msgid "Failed to update distribution"
 msgstr "Αποτυχία ενημέρωσης διανομής"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "Αποτυχία ενημέρωσης καναλιού"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:664
 msgid "Failed to upload version"
 msgstr "Αποτυχία μεταφόρτωσης έκδοσης"
 
@@ -747,12 +782,12 @@ msgstr "Αποτυχία μεταφόρτωσης έκδοσης"
 msgid "Filter..."
 msgstr "Φιλτράρισμα..."
 
-#: src/routes/_authenticated/app/$appId.tsx:222
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:349
 msgid "Fingerprint"
 msgstr "Αποτύπωμα"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Ολοκληρώστε τη μεταφορά του λογαριασμού σας"
 
@@ -843,7 +878,7 @@ msgstr "Αρχική"
 msgid "Hot"
 msgstr "Δημοφιλή"
 
-#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Identity"
 msgstr "Ταυτότητα"
 
@@ -860,7 +895,7 @@ msgstr "Αυτοκρατορικό"
 msgid "Including anonymous users"
 msgstr "Συμπεριλαμβανομένων ανώνυμων χρηστών"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Initial version"
 msgstr "Αρχική έκδοση"
 
@@ -876,17 +911,21 @@ msgstr "Άβαταρ αρχικών για {name}"
 msgid "Inset"
 msgstr "Εσωτερικό"
 
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Install app"
 msgstr "Εγκατάσταση εφαρμογής"
 
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Install locally"
 msgstr "Τοπική εγκατάσταση"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Interests"
 msgstr "Ενδιαφέροντα"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Μη έγκυρη ημερομηνία"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -918,7 +957,7 @@ msgstr "Διάταξη"
 msgid "Learn more"
 msgstr "Μάθετε περισσότερα"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Leave empty"
 msgstr "Αφήστε κενό"
 
@@ -940,7 +979,7 @@ msgstr "Φωτεινό"
 msgid "Load more"
 msgstr "Φόρτωση περισσότερων"
 
-#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:114
 msgid "Loading app..."
 msgstr "Φόρτωση εφαρμογής..."
 
@@ -983,8 +1022,8 @@ msgstr "Καταστήστε την εφαρμογή δημόσια διαθέσ
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Διαχειριστείτε τους συνδεδεμένους λογαριασμούς σας για ειδοποιήσεις και υπηρεσίες."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Σήμανση όλων ως αναγνωσμένα"
@@ -1000,6 +1039,10 @@ msgstr "Μεσαίο"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Μενού"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Μήνυμα"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -1034,13 +1077,18 @@ msgstr "Σφάλμα δικτύου"
 msgid "New"
 msgstr "Νέο"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Νέο παιχνίδι"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
 msgstr "Επόμενη εικόνα"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:697
+#: src/routes/_authenticated/app/$appId.tsx:704
 msgid "No"
 msgstr "Όχι"
 
@@ -1056,6 +1104,10 @@ msgstr "Δεν υπάρχουν ακόμη εφαρμογές"
 msgid "No connected accounts"
 msgstr "Δεν υπάρχουν συνδεδεμένοι λογαριασμοί"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Δεν υπάρχουν ακόμη παιχνίδια"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Δεν υπάρχουν διαθέσιμες ομάδες"
@@ -1064,6 +1116,7 @@ msgstr "Δεν υπάρχουν διαθέσιμες ομάδες"
 msgid "No notifications yet"
 msgstr "Καμία ειδοποίηση ακόμη"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Δεν βρέθηκαν άτομα"
@@ -1094,7 +1147,7 @@ msgstr "Δεν βρέθηκε ζώνη ώρας."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Δεν υπάρχει ακόμη εγγραφή θέματος — προσπαθήστε ξανά μετά την επόμενη ειδοποίηση."
 
-#: src/routes/_authenticated/app/$appId.tsx:470
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "No tracks"
 msgstr "Χωρίς κανάλια"
 
@@ -1102,11 +1155,11 @@ msgstr "Χωρίς κανάλια"
 msgid "No users found"
 msgstr "Δεν βρέθηκαν χρήστες"
 
-#: src/routes/_authenticated/app/$appId.tsx:568
+#: src/routes/_authenticated/app/$appId.tsx:570
 msgid "No version"
 msgstr "Χωρίς έκδοση"
 
-#: src/routes/_authenticated/app/$appId.tsx:269
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "No versions"
 msgstr "Χωρίς εκδόσεις"
 
@@ -1138,7 +1191,7 @@ msgid "Notifications"
 msgstr "Ειδοποιήσεις"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Ειδοποιήσεις: {0}"
 
@@ -1179,8 +1232,8 @@ msgstr "Άνοιγμα μενού πλοήγησης"
 msgid "Open theme settings"
 msgstr "Άνοιγμα ρυθμίσεων θέματος"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
-#: src/routes/_authenticated/app/$appId.tsx:513
+#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Open track actions"
 msgstr "Άνοιγμα ενεργειών καναλιού"
 
@@ -1205,7 +1258,7 @@ msgstr "Κλειδί πρόσβασης"
 msgid "Passkey verification failed. Please try again."
 msgstr "Η επαλήθευση με κλειδί πρόσβασης απέτυχε. Δοκιμάστε ξανά."
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Κλειδιά πρόσβασης"
 
@@ -1227,7 +1280,7 @@ msgstr "Εισαγάγετε ένα όνομα εφαρμογής"
 msgid "Please log in with the appropriate credentials <0/> to access this resource."
 msgstr "Συνδεθείτε με τα κατάλληλα διαπιστευτήρια <0/> για πρόσβαση σε αυτόν τον πόρο."
 
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Επιλέξτε ένα αρχείο"
 
@@ -1246,14 +1299,14 @@ msgstr "Προηγούμενη εικόνα"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:225
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Privacy"
 msgstr "Ιδιωτικότητα"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Private"
 msgstr "Ιδιωτικό"
 
@@ -1271,13 +1324,13 @@ msgid "Project members"
 msgstr "Μέλη έργου"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:228
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:230
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Public"
 msgstr "Δημόσιο"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:244
+#: src/routes/_authenticated/app/$appId.tsx:246
 msgid "Published"
 msgstr "Δημοσιεύτηκε"
 
@@ -1294,11 +1347,11 @@ msgstr "Ειδοποίηση push"
 msgid "Raised"
 msgstr "Ανυψωμένη"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Επανασυνδέστε τους λογαριασμούς σας σε αυτόν τον διακομιστή"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Καταχωρίστε ξανά τα κλειδιά πρόσβασής σας σε αυτόν τον διακομιστή"
 
@@ -1328,7 +1381,7 @@ msgstr "Σχετικό (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Σχετικό εντός 24 ωρών, αλλιώς απόλυτο"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Release tracks"
 msgstr "Tracks κυκλοφορίας"
 
@@ -1363,6 +1416,10 @@ msgstr "Αφαίρεση πρόσβασης;"
 msgid "Remove interest"
 msgstr "Αφαίρεση ενδιαφέροντος"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Αφαίρεση στοιχείου"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:367
 msgid "Resend email"
 msgstr "Επαναποστολή email"
@@ -1382,7 +1439,7 @@ msgid "Reset all settings to default values"
 msgstr "Επαναφορά όλων των ρυθμίσεων σε προεπιλεγμένες τιμές"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:245
+#: src/routes/_authenticated/app/$appId.tsx:247
 msgid "Restricted"
 msgstr "Περιορισμένο"
 
@@ -1458,6 +1515,10 @@ msgstr "Αναζήτηση..."
 msgid "Select {0}"
 msgstr "Επιλογή {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Επιλέξτε ένα παιχνίδι"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Επιλέξτε έναν χρήστη, ομάδα ή άλλον κανόνα για να παραχωρήσετε πρόσβαση."
@@ -1502,6 +1563,11 @@ msgstr "Επιλέξτε κατεύθυνση ιστότοπου"
 msgid "Select theme preference"
 msgstr "Επιλέξτε προτίμηση θέματος"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Επιλογή..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "επιλεγμένα"
@@ -1518,6 +1584,11 @@ msgstr "Αποστολή ξανά"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Αποστολή email"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Αποστολή μηνύματος"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1537,7 +1608,7 @@ msgstr "Κανόνες του διακομιστή"
 msgid "Session expired. Please log in again."
 msgstr "Η συνεδρία έληξε. Συνδεθείτε ξανά."
 
-#: src/routes/_authenticated/app/$appId.tsx:521
+#: src/routes/_authenticated/app/$appId.tsx:523
 msgid "Set as default"
 msgstr "Ορισμός ως προεπιλογή"
 
@@ -1553,7 +1624,7 @@ msgstr "Ορίστε αφετηρία και προορισμό"
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:254
 msgid "Sharing"
 msgstr "Κοινή χρήση"
 
@@ -1647,8 +1718,8 @@ msgstr "Όροι και προϋποθέσεις"
 msgid "That code is incorrect or has expired."
 msgstr "Αυτός ο κωδικός είναι λανθασμένος ή έχει λήξει."
 
-#: src/routes/_authenticated/app/$appId.tsx:131
-#: src/routes/_authenticated/app/$appId.tsx:156
+#: src/routes/_authenticated/app/$appId.tsx:133
+#: src/routes/_authenticated/app/$appId.tsx:158
 msgid "The requested app could not be found."
 msgstr "Δεν ήταν δυνατή η εύρεση της ζητούμενης εφαρμογής."
 
@@ -1719,23 +1790,23 @@ msgstr "Πάρα πολλά αιτήματα"
 msgid "Top"
 msgstr "Κορυφή"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "Το track «{track}» διαγράφηκε"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Το track «{track}» ενημερώθηκε στην έκδοση {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:409
+#: src/routes/_authenticated/app/$appId.tsx:411
 msgid "Track created"
 msgstr "Το track δημιουργήθηκε"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "Track name"
 msgstr "Όνομα track"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:100
 msgid "Tracks"
 msgstr "Tracks"
 
@@ -1761,6 +1832,10 @@ msgstr "Τρίτη"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Πληκτρολογήστε μια εντολή ή αναζητήστε..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Πληκτρολογήστε ένα μήνυμα…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1804,13 +1879,13 @@ msgstr "Άγνωστο"
 msgid "Unverified"
 msgstr "Μη επαληθευμένο"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "Update tracks"
 msgstr "Ενημέρωση tracks"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:665
-#: src/routes/_authenticated/app/$appId.tsx:667
+#: src/routes/_authenticated/app/$appId.tsx:205
+#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:674
 msgid "Upload new version"
 msgstr "Μεταφόρτωση νέας έκδοσης"
 
@@ -1818,15 +1893,15 @@ msgstr "Μεταφόρτωση νέας έκδοσης"
 msgid "Upload progress"
 msgstr "Πρόοδος μεταφόρτωσης"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Upload version"
 msgstr "Αποστολή έκδοσης"
 
-#: src/routes/_authenticated/app/$appId.tsx:270
+#: src/routes/_authenticated/app/$appId.tsx:272
 msgid "Upload your first build"
 msgstr "Μεταφορτώστε το πρώτο σας build"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Uploading..."
 msgstr "Μεταφόρτωση..."
 
@@ -1839,7 +1914,7 @@ msgstr "Χρησιμοποιήστε το κλειδί πρόσβασής σας
 msgid "User"
 msgstr "Χρήστης"
 
-#: src/routes/_authenticated/app/$appId.tsx:255
+#: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Οι χρήστες μπορούν να εγκαταστήσουν αυτήν την εφαρμογή επικολλώντας αυτόν τον σύνδεσμο στη σελίδα Εφαρμογές τους."
 
@@ -1866,15 +1941,15 @@ msgid "Verify email address"
 msgstr "Επαλήθευση διεύθυνσης email"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:644
+#: src/routes/_authenticated/app/$appId.tsx:654
 msgid "Version {0} uploaded"
 msgstr "Η έκδοση {0} μεταφορτώθηκε"
 
-#: src/routes/_authenticated/app/$appId.tsx:264
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Version history"
 msgstr "Ιστορικό εκδόσεων"
 
-#: src/routes/_authenticated/app/$appId.tsx:97
+#: src/routes/_authenticated/app/$appId.tsx:99
 msgid "Versions"
 msgstr "Εκδόσεις"
 
@@ -1895,8 +1970,8 @@ msgstr "Προβολή"
 msgid "View all"
 msgstr "Προβολή όλων"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Προβολή όλων των ειδοποιήσεων"
 
@@ -1926,11 +2001,11 @@ msgid "Wednesday"
 msgstr "Τετάρτη"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:695
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "Yes"
 msgstr "Ναι"
 
-#: src/routes/_authenticated/app/$appId.tsx:696
+#: src/routes/_authenticated/app/$appId.tsx:703
 msgid "Yes, force"
 msgstr "Ναι, εξαναγκασμός"
 
@@ -1950,7 +2025,7 @@ msgstr "Υποβάλατε τις ακόλουθες τιμές:"
 msgid "You're all caught up!"
 msgstr "Τα είδατε όλα!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Ο λογαριασμός σας μεταφέρθηκε εδώ από {source}. Μέχρι να τον διαγράψετε εκεί, τα μηνύματα και οι ειδοποιήσεις μπορεί να φτάνουν και στους δύο διακομιστές, μέρος του περιεχομένου σας συνεχίζει να εξυπηρετείται από τον παλιό διακομιστή και οι ακόλουθοί σας ενδέχεται να χρειαστούν λίγα λεπτά για να σας βρουν εδώ."
 

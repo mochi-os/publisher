@@ -36,6 +36,10 @@ msgstr "{entityLabel}-ի անունը"
 msgid "{entityLabel} name is required"
 msgstr "{entityLabel}-ի անունը պարտադիր է"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName}-ը առաջարկեց ոչ-ոքի"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} ընտրված է} other {{manyName} ընտրված են}}"
@@ -60,6 +64,11 @@ msgstr "{sentLabel}՝ {totalLabel}-ից"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {Բացել ընտրացանկը (# չկարդացված ծանուցում)} other {Բացել ընտրացանկը (# չկարդացված ծանուցում)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} ներդրված"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 ժամ"
@@ -71,6 +80,10 @@ msgstr "24 ժամ"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "Բացարձակ (ամսաթիվ և ժամ)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "Ընդունել"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,6 +113,7 @@ msgstr "Հաշվի արգելափակումը հանված է"
 msgid "Account verified"
 msgstr "Հաշիվներ"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
@@ -121,6 +135,14 @@ msgstr "Ավելացնել հաշիվ ծանուցումներ ստանալու 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "Ավելացնել հավելված լրացուցիչ անվտանգության համար"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "Ավելացնել դաս"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "Ավելացնել հղում"
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -186,8 +208,8 @@ msgstr "Ցանկացած ոք"
 msgid "Anyone who is logged in"
 msgstr "Ցանկացած մուտք գործած անձ"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
-#: src/routes/_authenticated/app/$appId.tsx:140
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:142
 msgid "App"
 msgstr "Հավելվածի ID"
 
@@ -195,14 +217,14 @@ msgstr "Հավելվածի ID"
 msgid "App created"
 msgstr "Հավելվածի տեղեկություններ"
 
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:130
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:132
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:157
 msgid "App not found"
 msgstr "Հավելվածի օգտատիրական միջերեսներ"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Application ID"
 msgstr "Կիրառել"
 
@@ -227,7 +249,7 @@ msgstr "Նույնականացված օգտատերեր"
 msgid "Authenticator code"
 msgstr "Նույնականացուցիչի կոդ"
 
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:363
 msgid "Available versions"
 msgstr "Հասանելի տարբերակներ"
 
@@ -243,12 +265,12 @@ msgstr "{name}-ի ավատար"
 msgid "Back"
 msgstr "Հետ դեպի CRM"
 
-#: src/routes/_authenticated/app/$appId.tsx:113
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:140
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:180
-#: src/routes/_authenticated/app/$appId.tsx:333
+#: src/routes/_authenticated/app/$appId.tsx:115
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:182
+#: src/routes/_authenticated/app/$appId.tsx:335
 msgid "Back to apps"
 msgstr "Հետ դեպի զրույց"
 
@@ -262,6 +284,11 @@ msgstr "Վերադառնալ տուն"
 msgid "Banner"
 msgstr "Բաններն հանված է"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "Արգելափակվեց անցումը անվստահելի հղման"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
@@ -271,7 +298,7 @@ msgstr "Եզրագծի գույն"
 msgid "Browser notifications"
 msgstr "Build ֆայլ (.zip)"
 
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Build file"
 msgstr "Կառուցման ֆայլ"
 
@@ -285,8 +312,8 @@ msgstr "Կառուցման ֆայլ"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:586
-#: src/routes/_authenticated/app/$appId.tsx:726
+#: src/routes/_authenticated/app/$appId.tsx:588
+#: src/routes/_authenticated/app/$appId.tsx:734
 msgid "Cancel"
 msgstr "Չեղարկել մեկնաբանությունը"
 
@@ -302,6 +329,10 @@ msgstr "Փոփոխություններ"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "Ընտրեք «Բոլորը»՝ նախորդ ծանուցումները տեսնելու համար։"
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "Ընտրեք խաղ կողագոտուց կամ սկսեք նորը։"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -453,7 +484,7 @@ msgstr "Պատճենել"
 msgid "Copy"
 msgstr "Պատճենել ամենը"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Պատճենեք այս հղումը և տեղադրեք այն ձեր Mochi սերվերի Հավելվածներ էջում տեղադրելու համար։"
 
@@ -488,20 +519,20 @@ msgstr "Ստեղծել {0}"
 msgid "Create app"
 msgstr "Ստեղծել ճյուղ"
 
-#: src/routes/_authenticated/app/$appId.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:547
+#: src/routes/_authenticated/app/$appId.tsx:211
 #: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:551
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create track"
 msgstr "Ստեղծել օգտատեր"
 
-#: src/routes/_authenticated/app/$appId.tsx:471
+#: src/routes/_authenticated/app/$appId.tsx:473
 msgid "Create your first release track"
 msgstr "Ստեղծեք ձեր առաջին թողարկման ուղին"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:258
 #: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "Ստեղծվում է…"
 
@@ -531,8 +562,12 @@ msgstr "Վահանակ"
 msgid "Data conflict"
 msgstr "Տվյալների կոնֆլիկտ"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "Մերժել"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Default"
 msgstr "Լռելյայն"
 
@@ -540,15 +575,15 @@ msgstr "Լռելյայն"
 msgid "Default AI account"
 msgstr "Լռելյայն AI հաշիվ"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "Լռելյայն track-ը սահմանված է «{track}»"
 
-#: src/routes/_authenticated/app/$appId.tsx:528
+#: src/routes/_authenticated/app/$appId.tsx:530
 msgid "Delete track"
 msgstr "Ջնջել track-ը"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "Ջնջեք ձեր հաշիվը հին սերվերում"
 
@@ -564,8 +599,8 @@ msgstr "Նվազման կարգով"
 msgid "Description"
 msgstr "Նկարագրություն"
 
-#: src/routes/_authenticated/app/$appId.tsx:96
-#: src/routes/_authenticated/app/$appId.tsx:345
+#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:347
 msgid "Details"
 msgstr "Մանրամասներ"
 
@@ -605,8 +640,8 @@ msgstr "Հրաժարվե՞լ սևագրից։"
 msgid "Disconnected"
 msgstr "Անջատված"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "Հեռացնել"
 
@@ -614,11 +649,11 @@ msgstr "Հեռացնել"
 msgid "Displays the mobile sidebar."
 msgstr "Ցուցադրում է բջջային կողագոտին։"
 
-#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:236
 msgid "Distribution"
 msgstr "Բաշխում"
 
-#: src/routes/_authenticated/app/$appId.tsx:84
+#: src/routes/_authenticated/app/$appId.tsx:86
 msgid "Distribution set to {distribution}"
 msgstr "Բաշխումը սահմանված է {distribution}"
 
@@ -635,7 +670,7 @@ msgstr "Ներբեռնումը ձախողվեց"
 msgid "Dyslexia-friendly"
 msgstr "Դիսլեքսիայի հարմար"
 
-#: src/routes/_authenticated/app/$appId.tsx:559
+#: src/routes/_authenticated/app/$appId.tsx:561
 msgid "e.g. Staging"
 msgstr "օր.՝ Staging"
 
@@ -695,11 +730,11 @@ msgstr "Չհաջողվեց պատճենել"
 msgid "Failed to create app"
 msgstr "Չհաջողվեց ստեղծել հավելվածը"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:417
 msgid "Failed to create track"
 msgstr "Չհաջողվեց ստեղծել ուղին"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "Չհաջողվեց ջնջել ուղին"
 
@@ -723,7 +758,7 @@ msgstr "Չհաջողվեց հեռացնել հաշիվը"
 msgid "Failed to send verification code"
 msgstr "Չհաջողվեց ուղարկել հաստատման կոդը"
 
-#: src/routes/_authenticated/app/$appId.tsx:458
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "Չհաջողվեց սահմանել լռելյայն ուղին"
 
@@ -731,15 +766,15 @@ msgstr "Չհաջողվեց սահմանել լռելյայն ուղին"
 msgid "Failed to update category"
 msgstr "Չհաջողվեց թարմացնել կատեգորիան"
 
-#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:89
 msgid "Failed to update distribution"
 msgstr "Չհաջողվեց թարմացնել բաշխումը"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "Չհաջողվեց թարմացնել ուղին"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:664
 msgid "Failed to upload version"
 msgstr "Չհաջողվեց վերբեռնել տարբերակը"
 
@@ -747,12 +782,12 @@ msgstr "Չհաջողվեց վերբեռնել տարբերակը"
 msgid "Filter..."
 msgstr "Զտել..."
 
-#: src/routes/_authenticated/app/$appId.tsx:222
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:349
 msgid "Fingerprint"
 msgstr "Մատնահետք"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "Ավարտեք ձեր հաշվի տեղափոխությունը"
 
@@ -843,7 +878,7 @@ msgstr "Տուն"
 msgid "Hot"
 msgstr "Թեժ"
 
-#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Identity"
 msgstr "Ինքնություն"
 
@@ -860,7 +895,7 @@ msgstr "Իմպերիալ"
 msgid "Including anonymous users"
 msgstr "Ներառյալ անանուն օգտատերերը"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Initial version"
 msgstr "Սկզբնական տարբերակ"
 
@@ -876,17 +911,21 @@ msgstr "{name}-ի սկզբնատառերի ավատար"
 msgid "Inset"
 msgstr "Տեղադրել տեղական"
 
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Install app"
 msgstr "Տեղադրել հավելվածը"
 
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Install locally"
 msgstr "Տեղադրել լոկալ"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Interests"
 msgstr "Անվավեր նույնականացման կոդ"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "Անվավեր հաստատման կոդ"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -918,7 +957,7 @@ msgstr "Թողեք մեկնաբանություն..."
 msgid "Learn more"
 msgstr "Թողեք ակնարկ"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Leave empty"
 msgstr "Լքվում է..."
 
@@ -940,7 +979,7 @@ msgstr "Կապել հաշիվը"
 msgid "Load more"
 msgstr "Բեռնվում են վճարների մանրամասները..."
 
-#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:114
 msgid "Loading app..."
 msgstr "Բեռնվում են խմբերը..."
 
@@ -983,8 +1022,8 @@ msgstr "Դարձնել հավելվածը հանրությանը հասանել�
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Կառավարեք ձեր միացված հաշիվները ծանուցումների և ծառայությունների համար։"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "Markdown-ը աջակցվում է"
@@ -1000,6 +1039,10 @@ msgstr "Միջին"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "Միաձուլման հարցումներ"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "Հաղորդագրեք ձեր ընկերներին, անհատապես կամ խմբերով, peer-to-peer և կոդավորված։"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -1034,13 +1077,18 @@ msgstr "Ցանցի սխալ"
 msgid "New"
 msgstr "Նոր"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "Նոր խաղ"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
 msgstr "Հաջորդ նկարը"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:697
+#: src/routes/_authenticated/app/$appId.tsx:704
 msgid "No"
 msgstr "Ոչ"
 
@@ -1056,6 +1104,10 @@ msgstr "Դեռ հավելվածներ չկան"
 msgid "No connected accounts"
 msgstr "Կապակցված հաշիվներ չկան"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "Դեռ խաղեր չկան"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "Հասանելի խմբեր չկան"
@@ -1064,6 +1116,7 @@ msgstr "Հասանելի խմբեր չկան"
 msgid "No notifications yet"
 msgstr "Դեռ ծանուցումներ չկան"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "Մարդիկ չեն գտնվել"
@@ -1094,7 +1147,7 @@ msgstr "Ժամային գոտի չի գտնվել։"
 msgid "No topic record yet — try again after the next notification."
 msgstr "Դեռ թեմայի գրառում չկա — փորձեք նորից հաջորդ ծանուցումից հետո։"
 
-#: src/routes/_authenticated/app/$appId.tsx:470
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "No tracks"
 msgstr "Ուղիներ չկան"
 
@@ -1102,11 +1155,11 @@ msgstr "Ուղիներ չկան"
 msgid "No users found"
 msgstr "Օգտատերեր չեն գտնվել"
 
-#: src/routes/_authenticated/app/$appId.tsx:568
+#: src/routes/_authenticated/app/$appId.tsx:570
 msgid "No version"
 msgstr "Տարբերակ չկա"
 
-#: src/routes/_authenticated/app/$appId.tsx:269
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "No versions"
 msgstr "Տարբերակներ չկան"
 
@@ -1138,7 +1191,7 @@ msgid "Notifications"
 msgstr "Ծանուցումներ"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "Ծանուցումներ՝ {0}"
 
@@ -1179,8 +1232,8 @@ msgstr "Բացել նավիգացիոն մենյուն"
 msgid "Open theme settings"
 msgstr "Բացել թեմայի կարգավորումները"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
-#: src/routes/_authenticated/app/$appId.tsx:513
+#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Open track actions"
 msgstr "Բացել ուղու գործողությունները"
 
@@ -1205,7 +1258,7 @@ msgstr "Անցաբանալի"
 msgid "Passkey verification failed. Please try again."
 msgstr "Անցաբանալու ստուգումը ձախողվեց։ Խնդրում ենք նորից փորձել։"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "Անցաբանալիներ"
 
@@ -1227,7 +1280,7 @@ msgstr "Խնդրում ենք մուտքագրել հավելվածի անուն
 msgid "Please log in with the appropriate credentials <0/> to access this resource."
 msgstr "Խնդրում ենք մուտք գործել համապատասխան հավատարմագրերով՝ <0/> այս ռեսուրսին հասանելիություն ստանալու համար։"
 
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "Խնդրում ենք ընտրել ֆայլ"
 
@@ -1246,14 +1299,14 @@ msgstr "Նախորդ նկարը"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:225
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Privacy"
 msgstr "Գաղտնիություն"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Private"
 msgstr "Մասնավոր"
 
@@ -1271,13 +1324,13 @@ msgid "Project members"
 msgstr "Նախագծի անդամներ"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:228
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:230
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Public"
 msgstr "Հանրային"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:244
+#: src/routes/_authenticated/app/$appId.tsx:246
 msgid "Published"
 msgstr "Հրապարակված է"
 
@@ -1294,11 +1347,11 @@ msgstr "Push ծանուցում"
 msgid "Raised"
 msgstr "Բարձրացված"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "Նորից կապեք ձեր հաշիվները այս սերվերում"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "Կրկին գրանցեք ձեր անցաբառերը այս սերվերում"
 
@@ -1328,7 +1381,7 @@ msgstr "Հարաբերական (5մ, 3ժ, 2օ)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Հարաբերական 24 ժամվա ընթացքում, այլապես՝ բացարձակ"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Release tracks"
 msgstr "Թողարկման ուղիներ"
 
@@ -1363,6 +1416,10 @@ msgstr "Հեռացնե՞լ մուտքը։"
 msgid "Remove interest"
 msgstr "Հեռացնել հետաքրքրությունը"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "Հեռացնել տարրը"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:367
 msgid "Resend email"
 msgstr "Կրկին ուղարկել նամակը"
@@ -1382,7 +1439,7 @@ msgid "Reset all settings to default values"
 msgstr "Վերականգնել բոլոր կարգավորումները լռելյայն արժեքների"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:245
+#: src/routes/_authenticated/app/$appId.tsx:247
 msgid "Restricted"
 msgstr "Սահմանափակված"
 
@@ -1458,6 +1515,10 @@ msgstr "Որոնում..."
 msgid "Select {0}"
 msgstr "Ընտրել {0}"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "Ընտրել խաղ"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "Ընտրեք օգտատեր, խումբ կամ այլ կանոն՝ մուտք տրամադրելու համար։"
@@ -1502,6 +1563,11 @@ msgstr "Ընտրել կայքի ուղղությունը"
 msgid "Select theme preference"
 msgstr "Ընտրել թեմայի նախընտրությունը"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "Ընտրել..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "ընտրված"
@@ -1518,6 +1584,11 @@ msgstr "Ուղարկել կրկին"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "Ուղարկել էլ. փոստ"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "Ուղարկել հաղորդագրությունը"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1537,7 +1608,7 @@ msgstr "Սերվերի կանոններ"
 msgid "Session expired. Please log in again."
 msgstr "Աշխատաշրջանի ժամկետը սպառվել է։ Խնդրում ենք նորից մուտք գործել։"
 
-#: src/routes/_authenticated/app/$appId.tsx:521
+#: src/routes/_authenticated/app/$appId.tsx:523
 msgid "Set as default"
 msgstr "Սահմանել որպես կանխադրված"
 
@@ -1553,7 +1624,7 @@ msgstr "Սահմանել ծագումը և նպատակակետը"
 msgid "Settings"
 msgstr "Կարգավորումներ"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:254
 msgid "Sharing"
 msgstr "Կիսում"
 
@@ -1647,8 +1718,8 @@ msgstr "Պայմաններ և կանոններ"
 msgid "That code is incorrect or has expired."
 msgstr "Այդ կոդը սխալ է կամ ժամկետանց է։"
 
-#: src/routes/_authenticated/app/$appId.tsx:131
-#: src/routes/_authenticated/app/$appId.tsx:156
+#: src/routes/_authenticated/app/$appId.tsx:133
+#: src/routes/_authenticated/app/$appId.tsx:158
 msgid "The requested app could not be found."
 msgstr "Հարցված հավելվածը չի կարող գտնվել:"
 
@@ -1719,23 +1790,23 @@ msgstr "Չափազանց շատ հարցումներ"
 msgid "Top"
 msgstr "Վերև"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "Track \"{track}\" ջնջվեց"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track \"{track}\" թարմացվեց {version}-ի"
 
-#: src/routes/_authenticated/app/$appId.tsx:409
+#: src/routes/_authenticated/app/$appId.tsx:411
 msgid "Track created"
 msgstr "Track-ը ստեղծվեց"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "Track name"
 msgstr "Ուղու անունը"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:100
 msgid "Tracks"
 msgstr "Ուղիներ"
 
@@ -1761,6 +1832,10 @@ msgstr "Երեքշաբթի"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "Մուտքագրեք հրաման կամ որոնեք..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "Մուտքագրեք հաղորդագրություն…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1804,13 +1879,13 @@ msgstr "Անհայտ"
 msgid "Unverified"
 msgstr "Չստուգված"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "Update tracks"
 msgstr "Թարմացնել ուղիները"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:665
-#: src/routes/_authenticated/app/$appId.tsx:667
+#: src/routes/_authenticated/app/$appId.tsx:205
+#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:674
 msgid "Upload new version"
 msgstr "Վերբեռնել նոր տարբերակ"
 
@@ -1818,15 +1893,15 @@ msgstr "Վերբեռնել նոր տարբերակ"
 msgid "Upload progress"
 msgstr "Վերբեռնման ընթացքը"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Upload version"
 msgstr "Վերբեռնել տարբերակը"
 
-#: src/routes/_authenticated/app/$appId.tsx:270
+#: src/routes/_authenticated/app/$appId.tsx:272
 msgid "Upload your first build"
 msgstr "Վերբեռնեք ձեր առաջին բիլդը"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Uploading..."
 msgstr "Վերբեռնվում է..."
 
@@ -1839,7 +1914,7 @@ msgstr "Օգտագործեք ձեր անցաբանալին"
 msgid "User"
 msgstr "Օգտատեր"
 
-#: src/routes/_authenticated/app/$appId.tsx:255
+#: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Օգտվողները կարող են տեղադրել այս հավելվածը՝ տեղադրելով այս հղումը իրենց Հավելվածներ էջում։"
 
@@ -1866,15 +1941,15 @@ msgid "Verify email address"
 msgstr "Ստուգել էլ. փոստի հասցեն"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:644
+#: src/routes/_authenticated/app/$appId.tsx:654
 msgid "Version {0} uploaded"
 msgstr "Տարբերակ {0}-ը վերբեռնված է"
 
-#: src/routes/_authenticated/app/$appId.tsx:264
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Version history"
 msgstr "Տարբերակների պատմություն"
 
-#: src/routes/_authenticated/app/$appId.tsx:97
+#: src/routes/_authenticated/app/$appId.tsx:99
 msgid "Versions"
 msgstr "Տարբերակներ"
 
@@ -1895,8 +1970,8 @@ msgstr "Դիտել"
 msgid "View all"
 msgstr "Դիտել բոլորը"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "Դիտել բոլոր ծանուցումները"
 
@@ -1926,11 +2001,11 @@ msgid "Wednesday"
 msgstr "Չորեքշաբթի"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:695
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "Yes"
 msgstr "Այո"
 
-#: src/routes/_authenticated/app/$appId.tsx:696
+#: src/routes/_authenticated/app/$appId.tsx:703
 msgid "Yes, force"
 msgstr "Այո, պարտադրել"
 
@@ -1950,7 +2025,7 @@ msgstr "Դուք ուղարկեցիք հետևյալ արժեքները՝"
 msgid "You're all caught up!"
 msgstr "Դուք ամեն ինչ տեսել եք։"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "Ձեր հաշիվը տեղափոխվել է այստեղ {source}-ից: Մինչ այն ջնջեք այնտեղ, հաղորդագրություններն ու ծանուցումները կարող են հասնել երկու սերվերներին, ձեր որոշ բովանդակություն դեռ մատուցվում է հին սերվերից, և հետևորդները կարող են մի քանի րոպե պահանջել ձեզ գտնելու համար:"
 

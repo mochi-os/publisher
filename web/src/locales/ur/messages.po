@@ -36,6 +36,10 @@ msgstr "{entityLabel} کا نام"
 msgid "{entityLabel} name is required"
 msgstr "{entityLabel} کا نام ضروری ہے"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:29
+msgid "{opponentName} offered a draw"
+msgstr "{opponentName} نے ڈرا کی پیشکش کی"
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:210
 msgid "{selectedCount, plural, one {{entityName} selected} other {{manyName} selected}}"
 msgstr "{selectedCount, plural, one {{entityName} منتخب} other {{manyName} منتخب}}"
@@ -60,6 +64,11 @@ msgstr "{totalLabel} میں سے {sentLabel}"
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {مینو کھولیں (# غیر پڑھی اطلاع)} other {مینو کھولیں (# غیر پڑھی اطلاعات)}}"
 
+#. placeholder {0}: countDeepChildren(object.id)
+#: ../../../lib/web/src/components/entity/entity-board-card.tsx:421
+msgid "+{0} nested"
+msgstr "+{0} نیسٹڈ"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:42
 msgid "12 hours"
 msgstr "12 گھنٹے"
@@ -71,6 +80,10 @@ msgstr "24 گھنٹے"
 #: ../../../lib/web/src/lib/preference-utils.ts:51
 msgid "Absolute (date and time)"
 msgstr "مطلق (تاریخ اور وقت)"
+
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:45
+msgid "Accept"
+msgstr "قبول کریں"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx:60
 msgid "Access denied"
@@ -100,6 +113,7 @@ msgstr "اکاؤنٹ کی قسم"
 msgid "Account verified"
 msgstr "اکاؤنٹ تصدیق شدہ"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:196
 msgid "Add"
@@ -121,6 +135,14 @@ msgstr "اکاؤنٹ شامل کریں"
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:297
 msgid "Add an account to receive notifications and use services."
 msgstr "نوٹیفکیشنز وصول کرنے اور سروسز استعمال کرنے کے لیے اکاؤنٹ شامل کریں۔"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:687
+msgid "Add checklist item"
+msgstr "چیک لسٹ آئٹم شامل کریں"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:705
+msgid "Add item..."
+msgstr "آئٹم شامل کریں..."
 
 #: ../../../lib/web/src/features/accounts/account-picker.tsx:102
 msgid "Add new account"
@@ -186,8 +208,8 @@ msgstr "کوئی بھی"
 msgid "Anyone who is logged in"
 msgstr "کوئی بھی جو لاگ ان ہو"
 
-#: src/routes/_authenticated/app/$appId.tsx:106
-#: src/routes/_authenticated/app/$appId.tsx:140
+#: src/routes/_authenticated/app/$appId.tsx:108
+#: src/routes/_authenticated/app/$appId.tsx:142
 msgid "App"
 msgstr "ایپ"
 
@@ -195,14 +217,14 @@ msgstr "ایپ"
 msgid "App created"
 msgstr "ایپ بنا دی گئی"
 
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:130
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:132
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:157
 msgid "App not found"
 msgstr "ایپ نہیں ملی"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Application ID"
 msgstr "Application ID"
 
@@ -227,7 +249,7 @@ msgstr "تصدیق شدہ صارفین"
 msgid "Authenticator code"
 msgstr "Authenticator کوڈ"
 
-#: src/routes/_authenticated/app/$appId.tsx:361
+#: src/routes/_authenticated/app/$appId.tsx:363
 msgid "Available versions"
 msgstr "دستیاب ورژنز"
 
@@ -243,12 +265,12 @@ msgstr "{name} کے لیے اوتار"
 msgid "Back"
 msgstr "واپس"
 
-#: src/routes/_authenticated/app/$appId.tsx:113
-#: src/routes/_authenticated/app/$appId.tsx:126
-#: src/routes/_authenticated/app/$appId.tsx:140
-#: src/routes/_authenticated/app/$appId.tsx:151
-#: src/routes/_authenticated/app/$appId.tsx:180
-#: src/routes/_authenticated/app/$appId.tsx:333
+#: src/routes/_authenticated/app/$appId.tsx:115
+#: src/routes/_authenticated/app/$appId.tsx:128
+#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:153
+#: src/routes/_authenticated/app/$appId.tsx:182
+#: src/routes/_authenticated/app/$appId.tsx:335
 msgid "Back to apps"
 msgstr "ایپس پر واپس"
 
@@ -262,6 +284,11 @@ msgstr "گھر واپس جائیں"
 msgid "Banner"
 msgstr "بینر"
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+msgid "Blocked navigation to untrusted link"
+msgstr "غیر بھروسہ مند لنک پر نیویگیشن مسدود"
+
 #: ../../../lib/web/src/components/post-tags.tsx:180
 #: ../../../lib/web/src/components/post-tags.tsx:192
 msgid "Boost interest"
@@ -271,7 +298,7 @@ msgstr "دلچسپی بڑھائیں"
 msgid "Browser notifications"
 msgstr "براؤزر نوٹیفکیشنز"
 
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:681
 msgid "Build file"
 msgstr "بلڈ فائل"
 
@@ -285,8 +312,8 @@ msgstr "بلڈ فائل"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:188
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:586
-#: src/routes/_authenticated/app/$appId.tsx:726
+#: src/routes/_authenticated/app/$appId.tsx:588
+#: src/routes/_authenticated/app/$appId.tsx:734
 msgid "Cancel"
 msgstr "منسوخ کریں"
 
@@ -302,6 +329,10 @@ msgstr "نوٹیفکیشن کا زمرہ تبدیل کریں"
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:198
 msgid "Check \"All\" to see your past notifications."
 msgstr "اپنی پچھلی اطلاعات دیکھنے کے لیے \"سب\" منتخب کریں۔"
+
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+msgid "Choose a game from the sidebar or start a new one."
+msgstr "سائڈ بار سے گیم منتخب کریں یا نئی شروع کریں۔"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:329
 msgid "Choose between default expanded, compact icon-only, or full layout mode"
@@ -453,7 +484,7 @@ msgstr "Clipboard پر کاپی ہو گیا"
 msgid "Copy"
 msgstr "کاپی کریں"
 
-#: src/routes/_authenticated/app/$appId.tsx:339
+#: src/routes/_authenticated/app/$appId.tsx:341
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "اس لنک کو کاپی کریں اور انسٹال کرنے کے لیے اپنے Mochi سرور کی ایپس پیج پر پیسٹ کریں۔"
 
@@ -488,20 +519,20 @@ msgstr "{0} بنائیں"
 msgid "Create app"
 msgstr "ایپ بنائیں"
 
-#: src/routes/_authenticated/app/$appId.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:547
+#: src/routes/_authenticated/app/$appId.tsx:211
 #: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:551
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Create track"
 msgstr "Track بنائیں"
 
-#: src/routes/_authenticated/app/$appId.tsx:471
+#: src/routes/_authenticated/app/$appId.tsx:473
 msgid "Create your first release track"
 msgstr "اپنا پہلا ریلیز ٹریک بنائیں"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:258
 #: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:595
 msgid "Creating..."
 msgstr "بن رہا ہے..."
 
@@ -531,8 +562,12 @@ msgstr "Dark موڈ"
 msgid "Data conflict"
 msgstr "ڈیٹا کا تصادم"
 
+#: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx:41
+msgid "Decline"
+msgstr "انکار کریں"
+
 #: ../../../lib/web/src/components/config-drawer.tsx:311
-#: src/routes/_authenticated/app/$appId.tsx:484
+#: src/routes/_authenticated/app/$appId.tsx:486
 msgid "Default"
 msgstr "ڈیفالٹ"
 
@@ -540,15 +575,15 @@ msgstr "ڈیفالٹ"
 msgid "Default AI account"
 msgstr "ڈیفالٹ AI اکاؤنٹ"
 
-#: src/routes/_authenticated/app/$appId.tsx:455
+#: src/routes/_authenticated/app/$appId.tsx:457
 msgid "Default track set to \"{track}\""
 msgstr "ڈیفالٹ track \"{track}\" پر مقرر"
 
-#: src/routes/_authenticated/app/$appId.tsx:528
+#: src/routes/_authenticated/app/$appId.tsx:530
 msgid "Delete track"
 msgstr "Track حذف کریں"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:99
+#: ../../../lib/web/src/components/restore-banner.tsx:115
 msgid "Delete your account on the old server"
 msgstr "پرانے سرور پر اپنا اکاؤنٹ حذف کریں"
 
@@ -564,8 +599,8 @@ msgstr "نزولی"
 msgid "Description"
 msgstr "تفصیل"
 
-#: src/routes/_authenticated/app/$appId.tsx:96
-#: src/routes/_authenticated/app/$appId.tsx:345
+#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:347
 msgid "Details"
 msgstr "تفصیلات"
 
@@ -605,8 +640,8 @@ msgstr "مسودہ رد کریں؟"
 msgid "Disconnected"
 msgstr "منقطع"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:79
-#: ../../../lib/web/src/components/restore-banner.tsx:85
+#: ../../../lib/web/src/components/restore-banner.tsx:94
+#: ../../../lib/web/src/components/restore-banner.tsx:100
 msgid "Dismiss"
 msgstr "برخاست کریں"
 
@@ -614,11 +649,11 @@ msgstr "برخاست کریں"
 msgid "Displays the mobile sidebar."
 msgstr "موبائل سائڈبار دکھاتا ہے۔"
 
-#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:236
 msgid "Distribution"
 msgstr "تقسیم"
 
-#: src/routes/_authenticated/app/$appId.tsx:84
+#: src/routes/_authenticated/app/$appId.tsx:86
 msgid "Distribution set to {distribution}"
 msgstr "تقسیم {distribution} پر مقرر کر دی گئی"
 
@@ -635,7 +670,7 @@ msgstr "ڈاؤن لوڈ ناکام"
 msgid "Dyslexia-friendly"
 msgstr "ڈسلیکسیا کے لیے موزوں"
 
-#: src/routes/_authenticated/app/$appId.tsx:559
+#: src/routes/_authenticated/app/$appId.tsx:561
 msgid "e.g. Staging"
 msgstr "مثلاً Staging"
 
@@ -695,11 +730,11 @@ msgstr "کاپی کرنے میں ناکامی"
 msgid "Failed to create app"
 msgstr "ایپ بنانے میں ناکامی"
 
-#: src/routes/_authenticated/app/$appId.tsx:415
+#: src/routes/_authenticated/app/$appId.tsx:417
 msgid "Failed to create track"
 msgstr "ٹریک بنانے میں ناکامی"
 
-#: src/routes/_authenticated/app/$appId.tsx:444
+#: src/routes/_authenticated/app/$appId.tsx:446
 msgid "Failed to delete track"
 msgstr "ٹریک حذف کرنے میں ناکامی"
 
@@ -723,7 +758,7 @@ msgstr "اکاؤنٹ ہٹانے میں ناکامی"
 msgid "Failed to send verification code"
 msgstr "تصدیقی کوڈ بھیجنے میں ناکامی"
 
-#: src/routes/_authenticated/app/$appId.tsx:458
+#: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "ڈیفالٹ ٹریک مقرر کرنے میں ناکامی"
 
@@ -731,15 +766,15 @@ msgstr "ڈیفالٹ ٹریک مقرر کرنے میں ناکامی"
 msgid "Failed to update category"
 msgstr "زمرہ اپڈیٹ کرنے میں ناکامی"
 
-#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:89
 msgid "Failed to update distribution"
 msgstr "تقسیم اپڈیٹ کرنے میں ناکامی"
 
-#: src/routes/_authenticated/app/$appId.tsx:430
+#: src/routes/_authenticated/app/$appId.tsx:432
 msgid "Failed to update track"
 msgstr "ٹریک اپڈیٹ کرنے میں ناکامی"
 
-#: src/routes/_authenticated/app/$appId.tsx:655
+#: src/routes/_authenticated/app/$appId.tsx:664
 msgid "Failed to upload version"
 msgstr "ورژن اپ لوڈ کرنے میں ناکامی"
 
@@ -747,12 +782,12 @@ msgstr "ورژن اپ لوڈ کرنے میں ناکامی"
 msgid "Filter..."
 msgstr "فلٹر..."
 
-#: src/routes/_authenticated/app/$appId.tsx:222
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:224
+#: src/routes/_authenticated/app/$appId.tsx:349
 msgid "Fingerprint"
 msgstr "فنگر پرنٹ"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:88
+#: ../../../lib/web/src/components/restore-banner.tsx:103
 msgid "Finish moving your account"
 msgstr "اپنا اکاؤنٹ منتقل کرنا مکمل کریں"
 
@@ -843,7 +878,7 @@ msgstr "ہوم"
 msgid "Hot"
 msgstr "ہاٹ"
 
-#: src/routes/_authenticated/app/$appId.tsx:217
+#: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Identity"
 msgstr "شناخت"
 
@@ -860,7 +895,7 @@ msgstr "امپیریل"
 msgid "Including anonymous users"
 msgstr "گمنام صارفین سمیت"
 
-#: src/routes/_authenticated/app/$appId.tsx:565
+#: src/routes/_authenticated/app/$appId.tsx:567
 msgid "Initial version"
 msgstr "ابتدائی ورژن"
 
@@ -876,17 +911,21 @@ msgstr "{name} کے لیے ابتدائی حروف کا اوتار"
 msgid "Inset"
 msgstr "انسیٹ"
 
-#: src/routes/_authenticated/app/$appId.tsx:336
+#: src/routes/_authenticated/app/$appId.tsx:338
 msgid "Install app"
 msgstr "ایپ انسٹال کریں"
 
-#: src/routes/_authenticated/app/$appId.tsx:687
+#: src/routes/_authenticated/app/$appId.tsx:694
 msgid "Install locally"
 msgstr "مقامی طور پر انسٹال کریں"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:42
 msgid "Interests"
 msgstr "دلچسپیاں"
+
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:550
+msgid "Invalid date"
+msgstr "غلط تاریخ"
 
 #: ../../../lib/web/src/components/tag-input.tsx:38
 msgid "Invalid tag: letters, numbers, spaces, hyphens, and slashes only (max 50 chars)"
@@ -918,7 +957,7 @@ msgstr "لے آؤٹ"
 msgid "Learn more"
 msgstr "مزید جانیں"
 
-#: src/routes/_authenticated/app/$appId.tsx:571
+#: src/routes/_authenticated/app/$appId.tsx:573
 msgid "Leave empty"
 msgstr "خالی چھوڑ دیں"
 
@@ -940,7 +979,7 @@ msgstr "لائٹ"
 msgid "Load more"
 msgstr "مزید لوڈ کریں"
 
-#: src/routes/_authenticated/app/$appId.tsx:112
+#: src/routes/_authenticated/app/$appId.tsx:114
 msgid "Loading app..."
 msgstr "ایپ لوڈ ہو رہی ہے..."
 
@@ -983,8 +1022,8 @@ msgstr "ایپ کو عوامی طور پر دستیاب بنائیں"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "اطلاعات اور خدمات کے لیے اپنے منسلک اکاؤنٹس کا نظم کریں۔"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:93
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:100
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "سب کو پڑھا ہوا نشان زد کریں"
@@ -1000,6 +1039,10 @@ msgstr "درمیانہ"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx:173
 msgid "Menu"
 msgstr "مینو"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:35
+msgid "Message"
+msgstr "پیغام"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:85
 msgid "Metric"
@@ -1034,13 +1077,18 @@ msgstr "نیٹ ورک کی خرابی"
 msgid "New"
 msgstr "نیا"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+msgid "New game"
+msgstr "نیا گیم"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:392
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:397
 msgid "Next image"
 msgstr "اگلی تصویر"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:697
+#: src/routes/_authenticated/app/$appId.tsx:704
 msgid "No"
 msgstr "نہیں"
 
@@ -1056,6 +1104,10 @@ msgstr "ابھی تک کوئی ایپس نہیں"
 msgid "No connected accounts"
 msgstr "کوئی منسلک اکاؤنٹس نہیں"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+msgid "No games yet"
+msgstr "ابھی تک کوئی گیمز نہیں"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:241
 msgid "No groups available"
 msgstr "کوئی گروپ دستیاب نہیں"
@@ -1064,6 +1116,7 @@ msgstr "کوئی گروپ دستیاب نہیں"
 msgid "No notifications yet"
 msgstr "ابھی تک کوئی اطلاع نہیں"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:336
 #: ../../../lib/web/src/components/person-picker.tsx:84
 msgid "No people found"
 msgstr "کوئی لوگ نہیں ملے"
@@ -1094,7 +1147,7 @@ msgstr "کوئی time zone نہیں ملا۔"
 msgid "No topic record yet — try again after the next notification."
 msgstr "ابھی تک کوئی topic record نہیں — اگلی notification کے بعد دوبارہ کوشش کریں۔"
 
-#: src/routes/_authenticated/app/$appId.tsx:470
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "No tracks"
 msgstr "کوئی tracks نہیں"
 
@@ -1102,11 +1155,11 @@ msgstr "کوئی tracks نہیں"
 msgid "No users found"
 msgstr "کوئی صارفین نہیں ملے"
 
-#: src/routes/_authenticated/app/$appId.tsx:568
+#: src/routes/_authenticated/app/$appId.tsx:570
 msgid "No version"
 msgstr "کوئی ورژن نہیں"
 
-#: src/routes/_authenticated/app/$appId.tsx:269
+#: src/routes/_authenticated/app/$appId.tsx:271
 msgid "No versions"
 msgstr "کوئی ورژنز نہیں"
 
@@ -1138,7 +1191,7 @@ msgid "Notifications"
 msgstr "notifications"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:86
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
 msgid "Notifications: {0}"
 msgstr "اطلاعات: {0}"
 
@@ -1179,8 +1232,8 @@ msgstr "navigation مینو کھولیں"
 msgid "Open theme settings"
 msgstr "تھیم سیٹنگز کھولیں"
 
-#: src/routes/_authenticated/app/$appId.tsx:508
-#: src/routes/_authenticated/app/$appId.tsx:513
+#: src/routes/_authenticated/app/$appId.tsx:510
+#: src/routes/_authenticated/app/$appId.tsx:515
 msgid "Open track actions"
 msgstr "track actions کھولیں"
 
@@ -1205,7 +1258,7 @@ msgstr "passkey"
 msgid "Passkey verification failed. Please try again."
 msgstr "پاس کی کی تصدیق ناکام ہو گئی۔ براہ کرم دوبارہ کوشش کریں۔"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:135
+#: ../../../lib/web/src/components/restore-banner.tsx:152
 msgid "Passkeys"
 msgstr "passkeys"
 
@@ -1227,7 +1280,7 @@ msgstr "براہ کرم ایپ کا نام درج کریں"
 msgid "Please log in with the appropriate credentials <0/> to access this resource."
 msgstr "اس وسیلے تک رسائی کے لیے <0/> براہ کرم مناسب اسناد کے ساتھ لاگ ان کریں۔"
 
-#: src/routes/_authenticated/app/$appId.tsx:633
+#: src/routes/_authenticated/app/$appId.tsx:636
 msgid "Please select a file"
 msgstr "براہ کرم ایک فائل منتخب کریں"
 
@@ -1246,14 +1299,14 @@ msgstr "پچھلی تصویر"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:27
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:225
-#: src/routes/_authenticated/app/$appId.tsx:350
+#: src/routes/_authenticated/app/$appId.tsx:227
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Privacy"
 msgstr "پرائیویسی"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Private"
 msgstr "نجی"
 
@@ -1271,13 +1324,13 @@ msgid "Project members"
 msgstr "پروجیکٹ ممبران"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:228
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:230
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Public"
 msgstr "عوامی"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:244
+#: src/routes/_authenticated/app/$appId.tsx:246
 msgid "Published"
 msgstr "publish ہو گیا"
 
@@ -1294,11 +1347,11 @@ msgstr "پش اطلاع"
 msgid "Raised"
 msgstr "ابھرا ہوا"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:107
+#: ../../../lib/web/src/components/restore-banner.tsx:124
 msgid "Re-link your accounts on this server"
 msgstr "اس سرور پر اپنے اکاؤنٹس دوبارہ لنک کریں"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:129
+#: ../../../lib/web/src/components/restore-banner.tsx:146
 msgid "Re-register your passkeys on this server"
 msgstr "اس سرور پر اپنی پاس کیز دوبارہ رجسٹر کریں"
 
@@ -1328,7 +1381,7 @@ msgstr "نسبتی (5m، 3h، 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24 گھنٹوں کے اندر نسبتی، ورنہ مطلق"
 
-#: src/routes/_authenticated/app/$appId.tsx:465
+#: src/routes/_authenticated/app/$appId.tsx:467
 msgid "Release tracks"
 msgstr "ریلیز ٹریکس"
 
@@ -1363,6 +1416,10 @@ msgstr "رسائی ہٹائیں؟"
 msgid "Remove interest"
 msgstr "دلچسپی ہٹائیں"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:671
+msgid "Remove item"
+msgstr "item ہٹائیں"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:367
 msgid "Resend email"
 msgstr "ای میل دوبارہ بھیجیں"
@@ -1382,7 +1439,7 @@ msgid "Reset all settings to default values"
 msgstr "تمام سیٹنگز کو ڈیفالٹ ویلیوز پر reset کریں"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:245
+#: src/routes/_authenticated/app/$appId.tsx:247
 msgid "Restricted"
 msgstr "محدود"
 
@@ -1458,6 +1515,10 @@ msgstr "تلاش کیا جا رہا ہے..."
 msgid "Select {0}"
 msgstr "{0} منتخب کریں"
 
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+msgid "Select a game"
+msgstr "گیم منتخب کریں"
+
 #: ../../../lib/web/src/features/access/access-dialog.tsx:150
 msgid "Select a user, group, or other rule to grant access."
 msgstr "رسائی دینے کے لیے صارف، گروپ، یا کوئی اور قاعدہ منتخب کریں۔"
@@ -1502,6 +1563,11 @@ msgstr "سائٹ کی سمت منتخب کریں"
 msgid "Select theme preference"
 msgstr "تھیم کی ترجیح منتخب کریں"
 
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:252
+#: ../../../lib/web/src/components/entity/entity-field-editor.tsx:335
+msgid "Select..."
+msgstr "منتخب کریں..."
+
 #: ../../../lib/web/src/components/data-table/bulk-actions.tsx:216
 msgid "selected"
 msgstr "منتخب"
@@ -1518,6 +1584,11 @@ msgstr "دوبارہ بھیجیں"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:307
 msgid "Send email"
 msgstr "ای میل بھیجیں"
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:52
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:61
+msgid "Send message"
+msgstr "پیغام بھیجیں"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:145
 msgid "Serif"
@@ -1537,7 +1608,7 @@ msgstr "سرور قواعد"
 msgid "Session expired. Please log in again."
 msgstr "سیشن کی میعاد ختم ہو گئی ہے۔ براہ کرم دوبارہ لاگ اِن کریں۔"
 
-#: src/routes/_authenticated/app/$appId.tsx:521
+#: src/routes/_authenticated/app/$appId.tsx:523
 msgid "Set as default"
 msgstr "ڈیفالٹ کے طور پر مقرر کریں"
 
@@ -1553,7 +1624,7 @@ msgstr "ابتدائی مقام اور منزل مقرر کریں"
 msgid "Settings"
 msgstr "سیٹنگز"
 
-#: src/routes/_authenticated/app/$appId.tsx:252
+#: src/routes/_authenticated/app/$appId.tsx:254
 msgid "Sharing"
 msgstr "شیئر کیا جا رہا ہے"
 
@@ -1647,8 +1718,8 @@ msgstr "شرائط و ضوابط"
 msgid "That code is incorrect or has expired."
 msgstr "وہ کوڈ غلط ہے یا اس کی میعاد ختم ہو چکی ہے۔"
 
-#: src/routes/_authenticated/app/$appId.tsx:131
-#: src/routes/_authenticated/app/$appId.tsx:156
+#: src/routes/_authenticated/app/$appId.tsx:133
+#: src/routes/_authenticated/app/$appId.tsx:158
 msgid "The requested app could not be found."
 msgstr "درخواست کردہ ایپ نہیں ملی۔"
 
@@ -1719,23 +1790,23 @@ msgstr "بہت زیادہ درخواستیں"
 msgid "Top"
 msgstr "اوپر"
 
-#: src/routes/_authenticated/app/$appId.tsx:441
+#: src/routes/_authenticated/app/$appId.tsx:443
 msgid "Track \"{track}\" deleted"
 msgstr "ٹریک \"{track}\" حذف کر دیا گیا"
 
-#: src/routes/_authenticated/app/$appId.tsx:427
+#: src/routes/_authenticated/app/$appId.tsx:429
 msgid "Track \"{track}\" updated to {version}"
 msgstr "ٹریک \"{track}\" {version} پر اپ ڈیٹ ہو گیا"
 
-#: src/routes/_authenticated/app/$appId.tsx:409
+#: src/routes/_authenticated/app/$appId.tsx:411
 msgid "Track created"
 msgstr "ٹریک بنا دیا گیا"
 
-#: src/routes/_authenticated/app/$appId.tsx:555
+#: src/routes/_authenticated/app/$appId.tsx:557
 msgid "Track name"
 msgstr "ٹریک کا نام"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
+#: src/routes/_authenticated/app/$appId.tsx:100
 msgid "Tracks"
 msgstr "ٹریکس"
 
@@ -1761,6 +1832,10 @@ msgstr "منگل"
 #: ../../../lib/web/src/components/command-menu.tsx:52
 msgid "Type a command or search..."
 msgstr "کمانڈ ٹائپ کریں یا تلاش کریں..."
+
+#: ../../../lib/web/src/components/game/game-chat-input.tsx:39
+msgid "Type a message…"
+msgstr "پیغام ٹائپ کریں…"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:191
 msgid "Type to search users"
@@ -1804,13 +1879,13 @@ msgstr "نامعلوم"
 msgid "Unverified"
 msgstr "غیر تصدیق شدہ"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "Update tracks"
 msgstr "ٹریکس اپ ڈیٹ کریں"
 
-#: src/routes/_authenticated/app/$appId.tsx:203
-#: src/routes/_authenticated/app/$appId.tsx:665
-#: src/routes/_authenticated/app/$appId.tsx:667
+#: src/routes/_authenticated/app/$appId.tsx:205
+#: src/routes/_authenticated/app/$appId.tsx:672
+#: src/routes/_authenticated/app/$appId.tsx:674
 msgid "Upload new version"
 msgstr "نیا ورژن اپ لوڈ کریں"
 
@@ -1818,15 +1893,15 @@ msgstr "نیا ورژن اپ لوڈ کریں"
 msgid "Upload progress"
 msgstr "اپ لوڈ کی پیش رفت"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Upload version"
 msgstr "ورژن اپ لوڈ کریں"
 
-#: src/routes/_authenticated/app/$appId.tsx:270
+#: src/routes/_authenticated/app/$appId.tsx:272
 msgid "Upload your first build"
 msgstr "اپنا پہلا بلڈ اپ لوڈ کریں"
 
-#: src/routes/_authenticated/app/$appId.tsx:730
+#: src/routes/_authenticated/app/$appId.tsx:738
 msgid "Uploading..."
 msgstr "اپ لوڈ کیا جا رہا ہے..."
 
@@ -1839,7 +1914,7 @@ msgstr "اپنی پاس کی استعمال کریں"
 msgid "User"
 msgstr "صارف"
 
-#: src/routes/_authenticated/app/$appId.tsx:255
+#: src/routes/_authenticated/app/$appId.tsx:257
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "صارفین اس لنک کو اپنی ایپس پیج پر پیسٹ کر کے یہ ایپلیکیشن انسٹال کر سکتے ہیں۔"
 
@@ -1866,15 +1941,15 @@ msgid "Verify email address"
 msgstr "ای میل ایڈریس کی تصدیق کریں"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:644
+#: src/routes/_authenticated/app/$appId.tsx:654
 msgid "Version {0} uploaded"
 msgstr "ورژن {0} اپ لوڈ ہو گیا"
 
-#: src/routes/_authenticated/app/$appId.tsx:264
+#: src/routes/_authenticated/app/$appId.tsx:266
 msgid "Version history"
 msgstr "ورژن کی تاریخ"
 
-#: src/routes/_authenticated/app/$appId.tsx:97
+#: src/routes/_authenticated/app/$appId.tsx:99
 msgid "Versions"
 msgstr "ورژنز"
 
@@ -1895,8 +1970,8 @@ msgstr "دیکھیں"
 msgid "View all"
 msgstr "سب دیکھیں"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:106
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:114
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
 msgid "View all notifications"
 msgstr "تمام نوٹیفکیشنز دیکھیں"
 
@@ -1926,11 +2001,11 @@ msgid "Wednesday"
 msgstr "بدھ"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:695
+#: src/routes/_authenticated/app/$appId.tsx:702
 msgid "Yes"
 msgstr "ہاں"
 
-#: src/routes/_authenticated/app/$appId.tsx:696
+#: src/routes/_authenticated/app/$appId.tsx:703
 msgid "Yes, force"
 msgstr "ہاں، زبردستی"
 
@@ -1950,7 +2025,7 @@ msgstr "آپ نے درج ذیل اقدار جمع کیں:"
 msgid "You're all caught up!"
 msgstr "آپ نے سب دیکھ لیا!"
 
-#: ../../../lib/web/src/components/restore-banner.tsx:91
+#: ../../../lib/web/src/components/restore-banner.tsx:106
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "آپ کا اکاؤنٹ {source} سے یہاں منتقل کر دیا گیا ہے۔ جب تک آپ اسے وہاں سے حذف نہیں کرتے، پیغامات اور اطلاعات دونوں سرورز تک پہنچ سکتی ہیں، آپ کے کچھ مواد پرانے سرور سے فراہم ہوتے رہیں گے، اور فالوورز کو آپ کو یہاں تلاش کرنے میں چند منٹ لگ سکتے ہیں۔"
 
