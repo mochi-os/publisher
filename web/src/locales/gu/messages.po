@@ -60,7 +60,7 @@ msgstr "{selectedCount, plural, one {# પસંદ કરેલ {entityName} �
 msgid "{sentLabel} of {totalLabel}"
 msgstr "{totalLabel}માંથી {sentLabel}"
 
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:148
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:165
 msgid "{unreadCount, plural, one {Open menu (# unread notification)} other {Open menu (# unread notifications)}}"
 msgstr "{unreadCount, plural, one {મેનૂ ખોલો (# વણવાંચેલ સૂચના)} other {મેનૂ ખોલો (# વણવાંચેલ સૂચનાઓ)}}"
 
@@ -105,7 +105,7 @@ msgstr "ખાતું ઉમેર્યું"
 msgid "Account removed"
 msgstr "ખાતું દૂર કર્યું"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:126
+#: ../../../lib/web/src/features/accounts/account-add.tsx:139
 msgid "Account type"
 msgstr "ખાતાનો પ્રકાર"
 
@@ -115,11 +115,11 @@ msgstr "ખાતું ચકાસાયું"
 
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx:717
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
-#: ../../../lib/web/src/features/accounts/account-add.tsx:196
+#: ../../../lib/web/src/features/accounts/account-add.tsx:209
 msgid "Add"
 msgstr "ઉમેરો"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:120
+#: ../../../lib/web/src/features/accounts/account-add.tsx:133
 msgid "Add a new account"
 msgstr "નવું ખાતું ઉમેરો"
 
@@ -127,7 +127,7 @@ msgstr "નવું ખાતું ઉમેરો"
 msgid "Add access"
 msgstr "ઍક્સેસ ઉમેરો"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:119
+#: ../../../lib/web/src/features/accounts/account-add.tsx:132
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:288
 msgid "Add account"
 msgstr "ખાતું ઉમેરો"
@@ -157,7 +157,7 @@ msgstr "ટૅગ ઉમેરો..."
 msgid "Add team/app"
 msgstr "ટીમ/એપ્લિકેશન ઉમેરો"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:162
+#: ../../../lib/web/src/features/accounts/account-add.tsx:175
 msgid "Add to existing notifications"
 msgstr "વર્તમાન સૂચનાઓમાં ઉમેરો"
 
@@ -249,6 +249,10 @@ msgstr "પ્રમાણિત વપરાશકર્તાઓ"
 msgid "Authenticator code"
 msgstr "Authenticator કોડ"
 
+#: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx:51
+msgid "Available keyboard shortcuts"
+msgstr "ઉપલબ્ધ કીબોર્ડ શૉર્ટકટ્સ"
+
 #: src/routes/_authenticated/app/$appId.tsx:363
 msgid "Available versions"
 msgstr "ઉપલબ્ધ વર્ઝન"
@@ -284,8 +288,8 @@ msgstr "મુખ્ય પૃષ્ઠ પર પાછા જાઓ"
 msgid "Banner"
 msgstr "બૅનર"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:156
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:166
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:237
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:247
 msgid "Blocked navigation to untrusted link"
 msgstr "વિશ્વાસપાત્ર નથી તેવી લિંક પર નેવિગેશન અવરોધિત કર્યું"
 
@@ -309,7 +313,7 @@ msgstr "બિલ્ડ ફાઇલ"
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:132
 #: ../../../lib/web/src/features/access/access-dialog.tsx:328
 #: ../../../lib/web/src/features/access/access-list.tsx:268
-#: ../../../lib/web/src/features/accounts/account-add.tsx:188
+#: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
 #: src/routes/_authenticated/app/$appId.tsx:588
@@ -317,12 +321,12 @@ msgstr "બિલ્ડ ફાઇલ"
 msgid "Cancel"
 msgstr "રદ કરો"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:146
+#: ../../../lib/web/src/components/notification-category-button.tsx:102
 msgid "Category for this notification"
 msgstr "આ સૂચના માટેની શ્રેણી"
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:127
-#: ../../../lib/web/src/components/notification-category-button.tsx:138
+#: ../../../lib/web/src/components/notification-category-button.tsx:83
+#: ../../../lib/web/src/components/notification-category-button.tsx:94
 msgid "Change notification category"
 msgstr "સૂચના શ્રેણી બદલો"
 
@@ -330,7 +334,7 @@ msgstr "સૂચના શ્રેણી બદલો"
 msgid "Check \"All\" to see your past notifications."
 msgstr "તમારી અગાઉની સૂચનાઓ જોવા માટે \"બધું\" પસંદ કરો."
 
-#: ../../../lib/web/src/components/game/game-empty-state.tsx:38
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
 msgid "Choose a game from the sidebar or start a new one."
 msgstr "સાઇડબારમાંથી રમત પસંદ કરો અથવા નવી શરૂ કરો."
 
@@ -355,8 +359,8 @@ msgstr "સિસ્ટમ પસંદગી, લાઇટ મોડ, અથવ
 msgid "Choose language"
 msgstr "ભાષા પસંદ કરો"
 
-#: ../../../lib/web/src/components/colour-picker.tsx:270
-#: ../../../lib/web/src/components/colour-picker.tsx:351
+#: ../../../lib/web/src/components/colour-picker.tsx:274
+#: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:164
 #: ../../../lib/web/src/components/travelling-picker.tsx:170
 #: ../../../lib/web/src/components/travelling-picker.tsx:231
@@ -402,6 +406,10 @@ msgstr "નેવિગેશન બંધ કરો"
 #: ../../../lib/web/src/components/layout/right-panel.tsx:268
 msgid "Close panel"
 msgstr "પેનલ બંધ કરો"
+
+#: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx:32
+msgid "Close panel / cancel"
+msgstr "પેનલ બંધ કરો / રદ કરો"
 
 #: ../../../lib/web/src/components/header-search.tsx:54
 msgid "Close search"
@@ -492,6 +500,10 @@ msgstr "આ લિંકને કૉપિ કરો અને ઇન્સ્�
 msgid "Could not load this document. Please try again later."
 msgstr "આ દસ્તાવેજ લોડ કરી શક્યા નહીં. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો."
 
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:121
+msgid "Couldn't load notifications"
+msgstr "સૂચનાઓ લોડ કરી શકાઈ નથી"
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:184
 msgid "Couldn't send the code. Please try again."
 msgstr "કોડ મોકલી શકાયો નહીં. કૃપા કરીને ફરી પ્રયાસ કરો."
@@ -519,6 +531,10 @@ msgstr "{0} બનાવો"
 msgid "Create app"
 msgstr "એપ્લિકેશન બનાવો"
 
+#: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx:25
+msgid "Create new item"
+msgstr "નવી આઇટમ બનાવો"
+
 #: src/routes/_authenticated/app/$appId.tsx:211
 #: src/routes/_authenticated/app/$appId.tsx:549
 #: src/routes/_authenticated/app/$appId.tsx:551
@@ -536,11 +552,11 @@ msgstr "તમારો પહેલો રિલીઝ ટ્રેક બન�
 msgid "Creating..."
 msgstr "બનાવી રહ્યું છે..."
 
-#: ../../../lib/web/src/components/map-view.tsx:208
+#: ../../../lib/web/src/components/map-view.tsx:217
 msgid "Current location"
 msgstr "વર્તમાન સ્થાન"
 
-#: ../../../lib/web/src/components/colour-picker.tsx:261
+#: ../../../lib/web/src/components/colour-picker.tsx:265
 msgid "Custom"
 msgstr "કસ્ટમ"
 
@@ -550,9 +566,6 @@ msgstr "કસ્ટમ"
 msgid "Dark"
 msgstr "ડાર્ક"
 
-#: ../../../lib/web/src/components/layout/nav-user.tsx:91
-#: ../../../lib/web/src/components/layout/nav-user.tsx:154
-#: ../../../lib/web/src/components/layout/nav-user.tsx:205
 #: ../../../lib/web/src/components/profile-dropdown.tsx:87
 #: ../../../lib/web/src/components/profile-dropdown.tsx:123
 msgid "Dark mode"
@@ -571,7 +584,7 @@ msgstr "નકારો"
 msgid "Default"
 msgstr "ડિફૉલ્ટ"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:172
+#: ../../../lib/web/src/features/accounts/account-add.tsx:185
 msgid "Default AI account"
 msgstr "ડિફૉલ્ટ AI ખાતું"
 
@@ -627,11 +640,11 @@ msgstr "દિશા"
 msgid "Directory"
 msgstr "નિર્દેશિકા"
 
-#: ../../../lib/web/src/components/comment-composer.tsx:300
+#: ../../../lib/web/src/components/comment-composer.tsx:304
 msgid "Discard"
 msgstr "રદ કરો"
 
-#: ../../../lib/web/src/components/comment-composer.tsx:298
+#: ../../../lib/web/src/components/comment-composer.tsx:302
 msgid "Discard draft?"
 msgstr "ડ્રાફ્ટ રદ કરવો?"
 
@@ -677,6 +690,10 @@ msgstr "દા.ત. Staging"
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:154
 msgid "Edit {label}"
 msgstr "{label} સંપાદિત કરો"
+
+#: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx:31
+msgid "Edit selected card"
+msgstr "પસંદ કરેલ કાર્ડ સંપાદિત કરો"
 
 #: ../../../lib/web/src/features/accounts/types.ts:15
 msgid "Email"
@@ -730,6 +747,10 @@ msgstr "કૉપિ કરવામાં નિષ્ફળ"
 msgid "Failed to create app"
 msgstr "ઍપ બનાવવામાં નિષ્ફળ"
 
+#: ../../../lib/web/src/components/options-menu.tsx:99
+msgid "Failed to create link"
+msgstr "લિંક બનાવવામાં નિષ્ફળ"
+
 #: src/routes/_authenticated/app/$appId.tsx:417
 msgid "Failed to create track"
 msgstr "ટ્રેક બનાવવામાં નિષ્ફળ"
@@ -738,9 +759,17 @@ msgstr "ટ્રેક બનાવવામાં નિષ્ફળ"
 msgid "Failed to delete track"
 msgstr "ટ્રેક કાઢી નાખવામાં નિષ્ફળ"
 
+#: ../../../lib/web/src/components/options-menu.tsx:123
+msgid "Failed to get RSS token"
+msgstr "RSS ટોકન મેળવવામાં નિષ્ફળ"
+
 #: ../../../lib/web/src/hooks/use-load-more.ts:74
 msgid "Failed to load"
 msgstr "લોડ કરવામાં નિષ્ફળ"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:72
+msgid "Failed to load history"
+msgstr "ઇતિહાસ લોડ કરવામાં નિષ્ફળ"
 
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:263
 msgid "Failed to load image"
@@ -754,6 +783,10 @@ msgstr "વિડિઓ લોડ કરવામાં નિષ્ફળ"
 msgid "Failed to remove account"
 msgstr "એકાઉન્ટ દૂર કરવામાં નિષ્ફળ"
 
+#: ../../../lib/web/src/components/options-menu.tsx:133
+msgid "Failed to revoke RSS access"
+msgstr "RSS ઍક્સેસ રદ કરવામાં નિષ્ફળ"
+
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:257
 msgid "Failed to send verification code"
 msgstr "ચકાસણી કોડ મોકલવામાં નિષ્ફળ"
@@ -761,10 +794,6 @@ msgstr "ચકાસણી કોડ મોકલવામાં નિષ્ફ
 #: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "ડિફૉલ્ટ ટ્રેક સેટ કરવામાં નિષ્ફળ"
-
-#: ../../../lib/web/src/components/notification-category-button.tsx:114
-msgid "Failed to update category"
-msgstr "કેટેગરી અપડેટ કરવામાં નિષ્ફળ"
 
 #: src/routes/_authenticated/app/$appId.tsx:89
 msgid "Failed to update distribution"
@@ -867,8 +896,12 @@ msgstr "છુપાવો"
 msgid "Hide password"
 msgstr "પાસવર્ડ છુપાવો"
 
+#: ../../../lib/web/src/components/audit-timeline.tsx:64
+msgid "History"
+msgstr "ઇતિહાસ"
+
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx:90
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:175
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:192
 #: ../../../lib/web/src/components/layout/top-bar.tsx:71
 #: ../../../lib/web/src/components/layout/top-bar.tsx:100
 msgid "Home"
@@ -943,6 +976,10 @@ msgstr "એવું લાગે છે કે તમે જે પૃષ્ઠ
 msgid "Just now"
 msgstr "હમણાં જ"
 
+#: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx:48
+msgid "Keyboard shortcuts"
+msgstr "કીબોર્ડ શૉર્ટકટ્સ"
+
 #: ../../../lib/web/src/lib/preference-utils.ts:108
 #: ../../../lib/web/src/lib/preference-utils.ts:135
 msgid "Large"
@@ -975,6 +1012,10 @@ msgstr "ફક્ત અક્ષરો, અંકો, જગ્યાઓ અન
 msgid "Light"
 msgstr "લાઇટ"
 
+#: ../../../lib/web/src/components/options-menu.tsx:190
+msgid "Link"
+msgstr "લિંક"
+
 #: ../../../lib/web/src/components/ui/load-more.tsx:35
 msgid "Load more"
 msgstr "વધુ લોડ કરો"
@@ -992,9 +1033,6 @@ msgstr "સામગ્રી લોડ થઈ રહી છે…"
 msgid "Loading..."
 msgstr "લોડ થઈ રહ્યું છે..."
 
-#: ../../../lib/web/src/components/layout/nav-user.tsx:101
-#: ../../../lib/web/src/components/layout/nav-user.tsx:167
-#: ../../../lib/web/src/components/layout/nav-user.tsx:215
 #: ../../../lib/web/src/components/profile-dropdown.tsx:69
 #: ../../../lib/web/src/components/profile-dropdown.tsx:98
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:26
@@ -1022,8 +1060,8 @@ msgstr "એપને જાહેરમાં ઉપલબ્ધ કરો"
 msgid "Manage your connected accounts for notifications and services."
 msgstr "સૂચનાઓ અને સેવાઓ માટે તમારા જોડાયેલા એકાઉન્ટ્સનું સંચાલન કરો."
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:118
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:125
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:202
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:209
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:224
 msgid "Mark all as read"
 msgstr "બધાને વાંચેલા તરીકે માર્ક કરો"
@@ -1036,7 +1074,7 @@ msgstr "MCP સર્વર"
 msgid "Medium"
 msgstr "મધ્યમ"
 
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:190
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:207
 msgid "Menu"
 msgstr "મેનૂ"
 
@@ -1052,9 +1090,18 @@ msgstr "મેટ્રિક"
 msgid "Mochi web"
 msgstr "Mochi વેબ"
 
+#: ../../../lib/web/src/components/options-menu.tsx:164
+msgid "Moderation"
+msgstr ""
+
 #: ../../../lib/web/src/lib/preference-utils.ts:59
 msgid "Monday"
 msgstr "સોમવાર"
+
+#: ../../../lib/web/src/components/options-menu.tsx:145
+#: ../../../lib/web/src/components/options-menu.tsx:152
+msgid "More options"
+msgstr "વધુ વિકલ્પો"
 
 #: src/features/apps/index.tsx:180
 msgid "Name"
@@ -1077,8 +1124,8 @@ msgstr "નેટવર્ક ભૂલ"
 msgid "New"
 msgstr "નવું"
 
-#: ../../../lib/web/src/components/game/game-empty-state.tsx:42
-#: ../../../lib/web/src/components/game/game-empty-state.tsx:54
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:41
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:53
 msgid "New game"
 msgstr "નવી ગેમ"
 
@@ -1104,7 +1151,7 @@ msgstr "હજુ સુધી કોઈ એપ્સ નથી"
 msgid "No connected accounts"
 msgstr "કોઈ કનેક્ટેડ ખાતા નથી"
 
-#: ../../../lib/web/src/components/game/game-empty-state.tsx:51
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:50
 msgid "No games yet"
 msgstr "હજુ સુધી કોઈ ગેમ્સ નથી"
 
@@ -1143,13 +1190,17 @@ msgstr "કોઈ પરિણામો મળ્યા નથી."
 msgid "No time zone found."
 msgstr "કોઈ ટાઇમ ઝોન મળ્યો નથી."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:150
+#: ../../../lib/web/src/components/notification-category-button.tsx:106
 msgid "No topic record yet — try again after the next notification."
 msgstr "હજુ સુધી કોઈ ટોપિક રેકોર્ડ નથી — પછીની સૂચના પછી ફરી પ્રયાસ કરો."
 
 #: src/routes/_authenticated/app/$appId.tsx:472
 msgid "No tracks"
 msgstr "કોઈ ટ્રેક્સ નથી"
+
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:132
+msgid "No unread notifications"
+msgstr "કોઈ વાંચ્યા વગરની સૂચનાઓ નથી"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx:206
 msgid "No users found"
@@ -1163,7 +1214,7 @@ msgstr "કોઈ વર્ઝન નથી"
 msgid "No versions"
 msgstr "કોઈ વર્ઝન્સ નથી"
 
-#: ../../../lib/web/src/components/colour-picker.tsx:345
+#: ../../../lib/web/src/components/colour-picker.tsx:349
 #: ../../../lib/web/src/components/person-picker.tsx:350
 #: ../../../lib/web/src/lib/preference-utils.ts:105
 #: ../../../lib/web/src/lib/preference-utils.ts:125
@@ -1191,7 +1242,7 @@ msgid "Notifications"
 msgstr "સૂચનાઓ"
 
 #. placeholder {0}: unread.length
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:111
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:195
 msgid "Notifications: {0}"
 msgstr "સૂચનાઓ: {0}"
 
@@ -1213,7 +1264,7 @@ msgstr "ખાતાની ક્રિયાઓ ખોલો"
 msgid "Open actions"
 msgstr "ક્રિયાઓ ખોલો"
 
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:149
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:166
 msgid "Open menu"
 msgstr "મેનૂ ખોલો"
 
@@ -1226,6 +1277,10 @@ msgstr "નેવિગેશન ખોલો"
 #: ../../../lib/web/src/components/layout/top-nav.tsx:44
 msgid "Open navigation menu"
 msgstr "નેવિગેશન મેનૂ ખોલો"
+
+#: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx:30
+msgid "Open selected card"
+msgstr "પસંદ કરેલ કાર્ડ ખોલો"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:58
 #: ../../../lib/web/src/components/config-drawer.tsx:66
@@ -1266,7 +1321,7 @@ msgstr "પાસકીઝ"
 msgid "Pick a date"
 msgstr "તારીખ પસંદ કરો"
 
-#: ../../../lib/web/src/components/comment-composer.tsx:95
+#: ../../../lib/web/src/components/comment-composer.tsx:99
 #: ../../../lib/web/src/features/errors/general-error.tsx:54
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:323
 msgid "Please check your internet connection and try again."
@@ -1292,6 +1347,14 @@ msgstr "કૃપા કરીને ફરી પ્રયાસ કરો."
 msgid "Please wait a moment and try again."
 msgstr "કૃપા કરીને થોડી રાહ જુઓ અને ફરી પ્રયાસ કરો."
 
+#: ../../../lib/web/src/components/options-menu.tsx:175
+msgid "Posts"
+msgstr "પોસ્ટ્સ"
+
+#: ../../../lib/web/src/components/options-menu.tsx:178
+msgid "Posts and comments"
+msgstr "પોસ્ટ્સ અને કૉમેન્ટ્સ"
+
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:377
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:382
 msgid "Previous image"
@@ -1314,7 +1377,6 @@ msgstr "ખાનગી"
 msgid "Processing…"
 msgstr "પ્રક્રિયા થઈ રહી છે…"
 
-#: ../../../lib/web/src/components/layout/nav-user.tsx:137
 #: ../../../lib/web/src/components/profile-dropdown.tsx:114
 msgid "Profile"
 msgstr "પ્રોફાઇલ"
@@ -1355,7 +1417,7 @@ msgstr "આ સર્વર પર તમારા ખાતાઓ ફરીથ�
 msgid "Re-register your passkeys on this server"
 msgstr "આ સર્વર પર તમારી પાસકી ફરીથી નોંધણી કરો"
 
-#: ../../../lib/web/src/components/search-entity-dialog.tsx:217
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:220
 #: ../../../lib/web/src/components/search-entity-page.tsx:243
 msgid "Recommended"
 msgstr "ભલામણ કરેલ"
@@ -1364,7 +1426,7 @@ msgstr "ભલામણ કરેલ"
 msgid "Reconnecting ({retries})..."
 msgstr "ફરીથી કનેક્ટ થઈ રહ્યું છે ({retries})..."
 
-#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:133
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:136
 msgid "Redirecting to login."
 msgstr "લોગિન પર રિડાયરેક્ટ થઈ રહ્યું છે."
 
@@ -1385,7 +1447,7 @@ msgstr "24 કલાકની અંદર સાપેક્ષ, અન્ય�
 msgid "Release tracks"
 msgstr "રિલીઝ ટ્રેક"
 
-#: ../../../lib/web/src/components/comment-composer.tsx:232
+#: ../../../lib/web/src/components/comment-composer.tsx:236
 #: ../../../lib/web/src/features/access/access-list.tsx:270
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:180
 msgid "Remove"
@@ -1443,9 +1505,13 @@ msgstr "તમામ સેટિંગ્સને ડિફૉલ્ટ મૂ
 msgid "Restricted"
 msgstr "પ્રતિબંધિત"
 
-#: ../../../lib/web/src/components/comment-composer.tsx:249
+#: ../../../lib/web/src/components/comment-composer.tsx:253
 msgid "Retry"
 msgstr "ફરી પ્રયાસ કરો"
+
+#: ../../../lib/web/src/components/options-menu.tsx:181
+msgid "Revoke access"
+msgstr "ઍક્સેસ રદ કરો"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:362
 msgid "Right to Left"
@@ -1454,6 +1520,18 @@ msgstr "જમણે થી ડાબે"
 #: ../../../lib/web/src/components/data-table/pagination.tsx:65
 msgid "Rows per page"
 msgstr "પ્રતિ પૃષ્ઠ પંક્તિઓ"
+
+#: ../../../lib/web/src/components/options-menu.tsx:131
+msgid "RSS access revoked"
+msgstr "RSS ઍક્સેસ રદ કરી"
+
+#: ../../../lib/web/src/components/options-menu.tsx:171
+msgid "RSS feed"
+msgstr "RSS ફીડ"
+
+#: ../../../lib/web/src/components/options-menu.tsx:121
+msgid "RSS URL copied to clipboard"
+msgstr "RSS URL ક્લિપબોર્ડ પર કૉપિ થઈ"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:64
 msgid "Saturday"
@@ -1504,7 +1582,7 @@ msgstr "વપરાશકર્તાઓ શોધો"
 msgid "Search..."
 msgstr "શોધો..."
 
-#: ../../../lib/web/src/components/search-entity-dialog.tsx:175
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:178
 #: ../../../lib/web/src/components/search-entity-page.tsx:201
 #: ../../../lib/web/src/features/access/access-dialog.tsx:202
 msgid "Searching..."
@@ -1515,7 +1593,7 @@ msgstr "શોધી રહ્યું છે..."
 msgid "Select {0}"
 msgstr "{0} પસંદ કરો"
 
-#: ../../../lib/web/src/components/game/game-empty-state.tsx:37
+#: ../../../lib/web/src/components/game/game-empty-state.tsx:36
 msgid "Select a game"
 msgstr "રમત પસંદ કરો"
 
@@ -1531,7 +1609,7 @@ msgstr "ઍક્સેસ નિયમ પસંદ કરો"
 msgid "Select account"
 msgstr "એકાઉન્ટ પસંદ કરો"
 
-#: ../../../lib/web/src/features/accounts/account-add.tsx:129
+#: ../../../lib/web/src/features/accounts/account-add.tsx:142
 msgid "Select account type"
 msgstr "ખાતા પ્રકાર પસંદ કરો"
 
@@ -1547,9 +1625,17 @@ msgstr "લેઆઉટ શૈલી પસંદ કરો"
 msgid "Select location"
 msgstr "સ્થાન પસંદ કરો"
 
+#: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx:28
+msgid "Select next card"
+msgstr "આગલું કાર્ડ પસંદ કરો"
+
 #: ../../../lib/web/src/components/person-picker.tsx:83
 msgid "Select person..."
 msgstr "વ્યક્તિ પસંદ કરો..."
+
+#: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx:29
+msgid "Select previous card"
+msgstr "પાછલું કાર્ડ પસંદ કરો"
 
 #: ../../../lib/web/src/components/config-drawer.tsx:247
 msgid "Select sidebar style"
@@ -1616,11 +1702,9 @@ msgstr "ડિફોલ્ટ તરીકે સેટ કરો"
 msgid "Set origin and destination"
 msgstr "મૂળ અને ગંતવ્ય સેટ કરો"
 
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:109
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:115
-#: ../../../lib/web/src/components/layout/nav-user.tsx:84
-#: ../../../lib/web/src/components/layout/nav-user.tsx:148
-#: ../../../lib/web/src/components/layout/nav-user.tsx:198
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:126
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:132
+#: ../../../lib/web/src/components/options-menu.tsx:196
 msgid "Settings"
 msgstr "સેટિંગ્સ"
 
@@ -1632,6 +1716,10 @@ msgstr "શેરિંગ"
 msgid "Show password"
 msgstr "પાસવર્ડ બતાવો"
 
+#: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx:33
+msgid "Show this help"
+msgstr "આ સહાય બતાવો"
+
 #: ../../../lib/web/src/components/ui/load-more.tsx:39
 msgid "Showing {totalShown} of {total}"
 msgstr "{total} માંથી {totalShown} બતાવી રહ્યું છે"
@@ -1642,12 +1730,12 @@ msgstr "{total} માંથી {totalShown} બતાવી રહ્યું 
 msgid "Sidebar"
 msgstr "સાઇડબાર"
 
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:121
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:127
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:138
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:144
 msgid "Sign out"
 msgstr "સાઇન આઉટ કરો"
 
-#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:131
+#: ../../../lib/web/src/components/layout/authenticated-layout.tsx:134
 msgid "Signing out..."
 msgstr "સાઇન આઉટ થઈ રહ્યું છે..."
 
@@ -1659,6 +1747,10 @@ msgstr "મુખ્ય પર જાઓ"
 #: ../../../lib/web/src/lib/preference-utils.ts:133
 msgid "Small"
 msgstr "નાનું"
+
+#: ../../../lib/web/src/components/options-menu.tsx:158
+msgid "Sources"
+msgstr "સ્રોતો"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:97
 msgid "Spacious"
@@ -1681,6 +1773,11 @@ msgstr "સબ્સ્ક્રાઇબ કરો"
 msgid "Sunday"
 msgstr "રવિવાર"
 
+#: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx:27
+msgid "Switch to view 1-9"
+msgstr "દૃશ્ય 1-9 પર સ્વિચ કરો"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:111
 #: ../../../lib/web/src/components/config-drawer.tsx:209
 #: ../../../lib/web/src/components/theme-switch.tsx:59
 #: ../../../lib/web/src/lib/preference-utils.ts:21
@@ -1726,10 +1823,6 @@ msgstr "વિનંતી કરેલી એપ મળી નથી."
 #: ../../../lib/web/src/features/errors/general-error.tsx:68
 msgid "The requested content could not be found."
 msgstr "વિનંતી કરેલી સામગ્રી મળી શકી નથી."
-
-#: ../../../lib/web/src/lib/api-response-interceptors.ts:152
-#~ msgid "The server returned a web page instead of data, which usually means the address was wrong."
-#~ msgstr ""
 
 #: ../../../lib/web/src/lib/api-response-interceptors.ts:152
 msgid "The server returned a web page instead of data."
@@ -1790,6 +1883,10 @@ msgstr "સાઇડબાર ટૉગલ કરો"
 msgid "Toggle theme"
 msgstr "થીમ ટૉગલ કરો"
 
+#: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx:26
+msgid "Toggle view options"
+msgstr "દૃશ્ય વિકલ્પો ટૉગલ કરો"
+
 #: ../../../lib/web/src/features/errors/general-error.tsx:74
 msgid "Too many requests"
 msgstr "ઘણી બધી વિનંતીઓ"
@@ -1822,7 +1919,7 @@ msgstr "ટ્રેક"
 msgid "Travelling"
 msgstr "મુસાફરી કરી રહ્યું છે"
 
-#: ../../../lib/web/src/components/search-entity-dialog.tsx:191
+#: ../../../lib/web/src/components/search-entity-dialog.tsx:194
 #: ../../../lib/web/src/components/search-entity-page.tsx:217
 msgid "Try adjusting your search terms"
 msgstr "તમારી શોધ શરતોને સમાયોજિત કરવાનો પ્રયાસ કરો"
@@ -1857,12 +1954,12 @@ msgstr "શોધવા માટે ટાઇપ કરો..."
 msgid "Unable to connect to remote server"
 msgstr "રિમોટ સર્વર સાથે કનેક્ટ કરી શકાયું નથી"
 
-#: ../../../lib/web/src/lib/auth-manager.ts:85
-#: ../../../lib/web/src/lib/auth-manager.ts:97
+#: ../../../lib/web/src/lib/auth-manager.ts:92
+#: ../../../lib/web/src/lib/auth-manager.ts:104
 msgid "Unable to redirect to login. Please try again."
 msgstr "લૉગિન પર રીડાયરેક્ટ કરી શકાતું નથી. કૃપા કરીને ફરી પ્રયાસ કરો."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:158
+#: ../../../lib/web/src/components/notification-category-button.tsx:114
 msgid "Unassigned"
 msgstr "અસોંપાયેલ"
 
@@ -1882,6 +1979,10 @@ msgstr "યુનાઇટેડ સ્ટેટ્સ"
 #: ../../../lib/web/src/features/accounts/types.ts:29
 msgid "Unknown"
 msgstr "અજાણ્યું"
+
+#: ../../../lib/web/src/components/options-menu.tsx:211
+msgid "Unsubscribe"
+msgstr "અનસબ્સ્ક્રાઇબ કરો"
 
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:135
 msgid "Unverified"
@@ -1917,7 +2018,7 @@ msgstr "અપલોડ કરી રહ્યું છે..."
 msgid "Use your passkey"
 msgstr "તમારી પાસકીનો ઉપયોગ કરો"
 
-#: ../../../lib/web/src/components/layout/mochi-menu.tsx:102
+#: ../../../lib/web/src/components/layout/mochi-menu.tsx:119
 #: ../../../lib/web/src/features/access/access-dialog.tsx:158
 msgid "User"
 msgstr "વપરાશકર્તા"
@@ -1978,8 +2079,8 @@ msgstr "જુઓ"
 msgid "View all"
 msgstr "બધું જુઓ"
 
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:131
-#: ../../../lib/web/src/components/layout/notification-menu.tsx:139
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:215
+#: ../../../lib/web/src/components/layout/notification-menu.tsx:223
 msgid "View all notifications"
 msgstr "બધી સૂચનાઓ જુઓ"
 
@@ -2025,10 +2126,6 @@ msgstr "તમારી પાસે આ વિભાગની ઍક્સે�
 msgid "You don't have necessary permission <0/>to view this resource."
 msgstr "આ સંસાધન જોવા માટે <0/>તમારી પાસે જરૂરી પરવાનગી નથી."
 
-#: ../../../lib/web/src/lib/show-submitted-data.tsx:9
-msgid "You submitted the following values:"
-msgstr "તમે નીચેના મૂલ્યો સબમિટ કર્યા:"
-
 #: ../../../lib/web/src/components/notifications-dropdown.tsx:193
 msgid "You're all caught up!"
 msgstr "તમે બધું જોઈ લીધું!"
@@ -2037,14 +2134,14 @@ msgstr "તમે બધું જોઈ લીધું!"
 msgid "Your account was moved here from {source}. Until you delete it there, messages and notifications may reach both servers, some of your content keeps being served from the old server, and followers may take a few minutes to find you here."
 msgstr "તમારું ખાતું {source} પરથી અહીં ખસેડવામાં આવ્યું. જ્યાં સુધી તમે ત્યાં તેને કાઢી ન નાખો, સંદેશા અને સૂચનાઓ બંને સર્વર સુધી પહોંચી શકે, કેટલીક સામગ્રી જૂના સર્વરથી પ્રદાન કરાતી રહે, અને ફૉલોઅર્સ ને તમને અહીં શોધવામાં થોડી મિનિટ લાગી શકે."
 
-#: ../../../lib/web/src/components/comment-composer.tsx:291
+#: ../../../lib/web/src/components/comment-composer.tsx:295
 msgid "Your attachments will be lost."
 msgstr "તમારા જોડાણો ખોવાઈ જશે."
 
-#: ../../../lib/web/src/components/comment-composer.tsx:289
+#: ../../../lib/web/src/components/comment-composer.tsx:293
 msgid "Your text and attachments will be lost."
 msgstr "તમારું લખાણ અને જોડાણો ખોવાઈ જશે."
 
-#: ../../../lib/web/src/components/comment-composer.tsx:292
+#: ../../../lib/web/src/components/comment-composer.tsx:296
 msgid "Your text will be lost."
 msgstr "તમારું લખાણ ખોવાઈ જશે."
