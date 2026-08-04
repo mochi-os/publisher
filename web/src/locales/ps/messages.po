@@ -322,8 +322,8 @@ msgid "Cancel"
 msgstr "لغوه کول"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:102
-msgid "Category for this notification"
-msgstr "د دې خبرتیا لپاره کټګورۍ"
+msgid "Category for these notifications"
+msgstr "د دې خبرتیاوو لپاره کټګورۍ"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:83
 #: ../../../lib/web/src/components/notification-category-button.tsx:94
@@ -1056,6 +1056,10 @@ msgstr "لاګ آوټ کیږي…"
 msgid "Make app publicly available"
 msgstr "اپ په عامه ډول شتون ولري"
 
+#: ../../../lib/web/src/components/notification-category-button.tsx:130
+msgid "Manage categories"
+msgstr "کټګورۍ اداره کړئ"
+
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:192
 msgid "Manage your connected accounts for notifications and services."
 msgstr "د خبرتیاوو او خدماتو لپاره خپل نښلول شوي حسابونه اداره کړئ."
@@ -1190,7 +1194,7 @@ msgstr "هیڅ پایلې ونه موندل شوې."
 msgid "No time zone found."
 msgstr "هیڅ وخت زون ونه موندل شو."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:106
+#: ../../../lib/web/src/components/notification-category-button.tsx:109
 msgid "No topic record yet — try again after the next notification."
 msgstr "تر اوسه د موضوع هیڅ ریکارډ نشته — د راتلونکې خبرتیا وروسته بیا هڅه وکړئ."
 
@@ -1959,7 +1963,7 @@ msgstr "له لرې پرتي سرور سره نښلېدل ونشول"
 msgid "Unable to redirect to login. Please try again."
 msgstr "ننوتلو ته لارښوونه نشي کیدلی. مهرباني وکړئ بیا هڅه وکړئ."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:114
+#: ../../../lib/web/src/components/notification-category-button.tsx:117
 msgid "Unassigned"
 msgstr "نه ګمارل شوی"
 

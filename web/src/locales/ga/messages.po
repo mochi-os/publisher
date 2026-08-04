@@ -322,8 +322,8 @@ msgid "Cancel"
 msgstr "Cealaigh"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:102
-msgid "Category for this notification"
-msgstr "Catagóir don fhógra seo"
+msgid "Category for these notifications"
+msgstr "Catagóir do na fógraí seo"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:83
 #: ../../../lib/web/src/components/notification-category-button.tsx:94
@@ -1056,6 +1056,10 @@ msgstr "Á logáil amach…"
 msgid "Make app publicly available"
 msgstr "Cuir aip ar fáil go poiblí"
 
+#: ../../../lib/web/src/components/notification-category-button.tsx:130
+msgid "Manage categories"
+msgstr "Bainistigh catagóirí"
+
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:192
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Bainistigh do chuntais nasctha le haghaidh fógraí agus seirbhísí."
@@ -1190,7 +1194,7 @@ msgstr "Níor aimsíodh aon toradh."
 msgid "No time zone found."
 msgstr "Níor aimsíodh aon chrios ama."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:106
+#: ../../../lib/web/src/components/notification-category-button.tsx:109
 msgid "No topic record yet — try again after the next notification."
 msgstr "Níl aon taifead ábhair fós — bain triail eile as tar éis an chéad fhógra eile."
 
@@ -1959,7 +1963,7 @@ msgstr "Ní féidir nascadh leis an bhfreastalaí cianda"
 msgid "Unable to redirect to login. Please try again."
 msgstr "Ní féidir athsheoladh chuig logáil isteach. Bain triail eile as le do thoil."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:114
+#: ../../../lib/web/src/components/notification-category-button.tsx:117
 msgid "Unassigned"
 msgstr "Gan sannadh"
 

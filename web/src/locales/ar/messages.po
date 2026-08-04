@@ -322,8 +322,8 @@ msgid "Cancel"
 msgstr "إلغاء"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:102
-msgid "Category for this notification"
-msgstr "فئة هذا الإشعار"
+msgid "Category for these notifications"
+msgstr "فئة هذه الإشعارات"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:83
 #: ../../../lib/web/src/components/notification-category-button.tsx:94
@@ -1056,6 +1056,10 @@ msgstr "جاري تسجيل الخروج…"
 msgid "Make app publicly available"
 msgstr "جعل التطبيق متاحاً للعموم"
 
+#: ../../../lib/web/src/components/notification-category-button.tsx:130
+msgid "Manage categories"
+msgstr "إدارة الفئات"
+
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:192
 msgid "Manage your connected accounts for notifications and services."
 msgstr "إدارة حساباتك المتصلة للإشعارات والخدمات."
@@ -1190,7 +1194,7 @@ msgstr "لم يتم العثور على نتائج."
 msgid "No time zone found."
 msgstr "لم يتم العثور على منطقة زمنية."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:106
+#: ../../../lib/web/src/components/notification-category-button.tsx:109
 msgid "No topic record yet — try again after the next notification."
 msgstr "لا يوجد سجل موضوع بعد — حاول مرة أخرى بعد الإشعار التالي."
 
@@ -1959,7 +1963,7 @@ msgstr "تعذّر الاتصال بالخادم البعيد"
 msgid "Unable to redirect to login. Please try again."
 msgstr "تعذر إعادة التوجيه إلى تسجيل الدخول. يرجى المحاولة مرة أخرى."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:114
+#: ../../../lib/web/src/components/notification-category-button.tsx:117
 msgid "Unassigned"
 msgstr "غير معين"
 

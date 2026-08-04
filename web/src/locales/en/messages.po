@@ -322,8 +322,8 @@ msgid "Cancel"
 msgstr "Cancel"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:102
-msgid "Category for this notification"
-msgstr "Category for this notification"
+msgid "Category for these notifications"
+msgstr "Category for these notifications"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:83
 #: ../../../lib/web/src/components/notification-category-button.tsx:94
@@ -1056,6 +1056,10 @@ msgstr "Logging out…"
 msgid "Make app publicly available"
 msgstr "Make app publicly available"
 
+#: ../../../lib/web/src/components/notification-category-button.tsx:130
+msgid "Manage categories"
+msgstr "Manage categories"
+
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:192
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Manage your connected accounts for notifications and services."
@@ -1190,7 +1194,7 @@ msgstr "No results found."
 msgid "No time zone found."
 msgstr "No time zone found."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:106
+#: ../../../lib/web/src/components/notification-category-button.tsx:109
 msgid "No topic record yet — try again after the next notification."
 msgstr "No topic record yet — try again after the next notification."
 
@@ -1959,7 +1963,7 @@ msgstr "Unable to connect to remote server"
 msgid "Unable to redirect to login. Please try again."
 msgstr "Unable to redirect to login. Please try again."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:114
+#: ../../../lib/web/src/components/notification-category-button.tsx:117
 msgid "Unassigned"
 msgstr "Unassigned"
 

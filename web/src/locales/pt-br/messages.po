@@ -322,8 +322,8 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:102
-msgid "Category for this notification"
-msgstr "Categoria desta notificação"
+msgid "Category for these notifications"
+msgstr "Categoria destas notificações"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx:83
 #: ../../../lib/web/src/components/notification-category-button.tsx:94
@@ -1056,6 +1056,10 @@ msgstr "Desconectando…"
 msgid "Make app publicly available"
 msgstr "Tornar o aplicativo disponível publicamente"
 
+#: ../../../lib/web/src/components/notification-category-button.tsx:130
+msgid "Manage categories"
+msgstr "Gerenciar categorias"
+
 #: ../../../lib/web/src/features/accounts/account-manager.tsx:192
 msgid "Manage your connected accounts for notifications and services."
 msgstr "Gerencie suas contas conectadas para notificações e serviços."
@@ -1190,7 +1194,7 @@ msgstr "Nenhum resultado encontrado."
 msgid "No time zone found."
 msgstr "Nenhum fuso horário encontrado."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:106
+#: ../../../lib/web/src/components/notification-category-button.tsx:109
 msgid "No topic record yet — try again after the next notification."
 msgstr "Ainda não há registro do tópico — tente novamente após a próxima notificação."
 
@@ -1959,7 +1963,7 @@ msgstr "Não foi possível conectar ao servidor remoto"
 msgid "Unable to redirect to login. Please try again."
 msgstr "Não foi possível redirecionar para o login. Tente novamente."
 
-#: ../../../lib/web/src/components/notification-category-button.tsx:114
+#: ../../../lib/web/src/components/notification-category-button.tsx:117
 msgid "Unassigned"
 msgstr "Não atribuído"
 
