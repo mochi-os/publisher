@@ -123,6 +123,63 @@ def action_list(a):
 	apps = mochi.db.rows("select a.*, t.version from apps a left join tracks t on a.id = t.app and t.track = a.default_track")
 	return {"data": {"apps": apps}}
 
+def action_share(a):
+	"""Public share page for one app, read from the PUBLISHER's database.
+
+	Entity-scoped on purpose. The class-level action below runs as the caller,
+	so a share link resolved the visitor's own (usually empty) publisher
+	database and 404'd for every logged-in visitor who was not the publisher;
+	it only appeared to work anonymously, because a public class-level action
+	falls back to the first administrator. With the app entity in the path core
+	resolves the owner, so every visitor reads the same rows.
+
+	Share data only, never management data: with the owner's database in hand,
+	keying management off the caller's administrator role would hand another
+	administrator on this server the version list for an app they do not own.
+	The management view stays on the class-level action, where the caller's own
+	database is the right one to read."""
+	id = a.input("app")
+	if not id or len(id) > 51:
+		a.error.label(400, "errors.invalid_app_id")
+		return
+
+	# Local rows first: the publisher's own visit, and the app's own server.
+	app = mochi.db.row("select * from apps where id=?", id)
+	tracks = []
+	if app:
+		if app.get("distribution") == "restricted":
+			a.error.label(404, "errors.app_not_found")
+			return
+		tracks = [t for t in mochi.db.rows("select * from tracks where app=?", app["id"]) if t.get("version")]
+	else:
+		# Not ours. A database holds one user's rows, so another visitor's
+		# copy simply does not have this app - asking the publisher over P2P
+		# is how Mochi reads someone else's data, the same way apps/apps.star
+		# resolves an app for the install page. event_information is
+		# anonymous, and refuses restricted apps itself.
+		s = mochi.remote.stream(id, "publisher", "information", {"app": id})
+		if not s:
+			a.error.label(404, "errors.app_not_found")
+			return
+		status = s.read()
+		if type(status) != "dict" or status.get("status") != "200":
+			a.error.label(404, "errors.app_not_found")
+			return
+		app = s.read()
+		# The responder chose what to send, so bind it to the app that was
+		# asked for rather than trusting the id it reports back.
+		if type(app) != "dict" or app.get("id") != id:
+			a.error.label(502, "errors.app_not_found")
+			return
+		remote_tracks = s.read()
+		if type(remote_tracks) == "list":
+			tracks = [t for t in remote_tracks if type(t) == "dict" and t.get("version")]
+
+	fp = mochi.entity.fingerprint(id)
+	app["fingerprint"] = fp[:3] + "-" + fp[3:6] + "-" + fp[6:]
+	return {"data": {"app": app, "tracks": tracks, "versions": [],
+		"administrator": False, "share": True, "publisher": id}}
+
 # View an app (supports both authenticated and anonymous access)
 def action_view(a):
 	id = a.input("app")

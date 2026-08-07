@@ -6,7 +6,13 @@
 const endpoints = {
   apps: {
     list: '-/list',
+    // Management view: class-level, so it reads the CALLER's own database.
+    // Right for the publisher, empty for anyone else - which is why the share
+    // page cannot use it.
     get: (id: string) => `-/view?app=${id}`,
+    // Share view: entity-scoped, so core resolves the app's OWNER and every
+    // visitor reads the publisher's rows. Share data only.
+    share: (id: string) => `${id}/-/share`,
     create: '-/create',
     uploadVersion: (id: string) => `${id}/-/version/create`,
     trackCreate: (id: string) => `${id}/-/track/create`,

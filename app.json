@@ -31,7 +31,8 @@
 		"images": {"files": "web/dist/images"},
 		"-/list": {"function": "action_list"},
 		"app/:app": {"file": "web/dist/index.html", "public": true},
-		"-/view": {"function": "action_view", "public": true},
+		"-/view": {"function": "action_view"},
+		":app/-/share": {"function": "action_share", "public": true},
 		"-/create": {"function": "action_create"},
 		"-/prune": {"function": "action_prune"},
 		":app/-/version/create": {"function": "action_version_create"},
@@ -43,7 +44,7 @@
 	},
 
 	"events": {
-		"information": {"function": "event_information", "anonymous": true, "services": ["apps"]},
+		"information": {"function": "event_information", "anonymous": true, "services": ["apps", "publisher"]},
 		"get": {"function": "event_get", "anonymous": true, "services": ["apps"]},
 		"version": {"function": "event_version", "anonymous": true, "services": ["apps"]}
 	}
