@@ -1244,7 +1244,7 @@ msgstr "Ishushu"
 
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:152
 msgid "ID"
-msgstr ""
+msgstr "Isazisi"
 
 #: src/routes/_authenticated/app/$appId.tsx:219
 msgid "Identity"
