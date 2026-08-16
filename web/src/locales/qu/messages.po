@@ -946,8 +946,7 @@ msgstr "Disleksia llamkaywanmi"
 
 #: src/routes/_authenticated/app/$appId.tsx:561
 msgid "e.g. Staging"
-msgstr "e.g. Staging"
-
+msgstr "kikin: Staging"
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:308
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:353
 msgid "Edit"
