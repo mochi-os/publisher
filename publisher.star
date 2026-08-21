@@ -43,11 +43,8 @@ def track_valid(track):
 # applied to the whole backlog via action_prune.
 version_retention = 5
 
-# prune_versions removes an app's release versions that are neither pointed at by
-# a track nor among the most-recent version_retention. Deletes go through
-# mochi.file.delete / mochi.db.execute so they journal and replicate to every
-# host in the user's set; a raw filesystem/sqlite delete would be reverted on the
-# next resync. Returns the number of versions pruned.
+# prune_versions removes an app's versions that are neither pointed at by a
+# track nor among the most-recent version_retention. Returns the number pruned.
 def prune_versions(app_id):
 	rows = mochi.db.rows("select version, file from versions where app=?", app_id) or []
 	if len(rows) <= version_retention:
@@ -87,9 +84,8 @@ def prune_versions(app_id):
 
 def database_upgrade(version):
 	if version == 2:
-		# Drop the pre-2026-07 broadcast tables left in the app data DB when
-		# broadcast state moved to the per-app system DB - inert, but stale
-		# sequence/log copies mislead diagnosis.
+		# Drop the broadcast tables left in the app data DB when broadcast state moved
+		# to the per-app system DB - stale copies mislead diagnosis.
 		for table in ["sequence", "log", "acknowledged", "received"]:
 			mochi.db.execute("drop table if exists " + table)
 
@@ -100,11 +96,9 @@ def database_create():
 	mochi.db.execute("create index versions_file on versions( file )")
 	mochi.db.execute("create table tracks ( app references apps( id ), track text not null, version text not null, updated integer not null default 0, primary key ( app, track ) )")
 
-# Resolve the app named by the "app" input for a write action, or set an error
-# and return None. Validates id format (400 - an ill-formed id would otherwise
-# make mochi.entity.get raise and surface as a 500), ownership (403), and
-# existence (404). The id format accepted mirrors mochi.entity.get (entity or
-# fingerprint) so the ownership check never sees an id it would reject.
+# Resolve the "app" input for a write action or set an error and return None: id
+# format (400 - mochi.entity.get raises on an ill-formed id), ownership (403),
+# existence (404).
 def require_owned_app(a):
 	id = a.input("app")
 	if not id or not (mochi.text.valid(id, "entity") or mochi.text.valid(id, "fingerprint")):
@@ -124,20 +118,9 @@ def action_list(a):
 	return {"data": {"apps": apps}}
 
 def action_share(a):
-	"""Public share page for one app, read from the PUBLISHER's database.
-
-	Entity-scoped on purpose. The class-level action below runs as the caller,
-	so a share link resolved the visitor's own (usually empty) publisher
-	database and 404'd for every logged-in visitor who was not the publisher;
-	it only appeared to work anonymously, because a public class-level action
-	falls back to the first administrator. With the app entity in the path core
-	resolves the owner, so every visitor reads the same rows.
-
-	Share data only, never management data: with the owner's database in hand,
-	keying management off the caller's administrator role would hand another
-	administrator on this server the version list for an app they do not own.
-	The management view stays on the class-level action, where the caller's own
-	database is the right one to read."""
+	"""Public share page for one app, read from the publisher's database. Entity-scoped so
+	core resolves the owner for every visitor; the class-level action reads the caller's
+	own database. Share data only - never the version list, which is management data."""
 	id = a.input("app")
 	if not id or len(id) > 51:
 		a.error.label(400, "errors.invalid_app_id")
@@ -152,11 +135,8 @@ def action_share(a):
 			return
 		tracks = [t for t in mochi.db.rows("select * from tracks where app=?", app["id"]) if t.get("version")]
 	else:
-		# Not ours. A database holds one user's rows, so another visitor's
-		# copy simply does not have this app - asking the publisher over P2P
-		# is how Mochi reads someone else's data, the same way apps/apps.star
-		# resolves an app for the install page. event_information is
-		# anonymous, and refuses restricted apps itself.
+		# Not in this database: ask the publisher over P2P, as apps/apps.star does.
+		# event_information refuses restricted apps itself.
 		s = mochi.remote.stream(id, "publisher", "information", {"app": id})
 		if not s:
 			a.error.label(404, "errors.app_not_found")
@@ -465,11 +445,9 @@ def action_default_track_set(a):
 	mochi.db.execute("update apps set default_track=? where id=?", track, id)
 	return {"data": {"default_track": track}}
 
-# The "message" strings in these three event handlers are deliberately English
-# and not label keys: they are P2P protocol diagnostics, not user-facing text.
-# Callers branch on the numeric "status" and render their own localised error
-# (see the apps app's errors.* labels), so translating these would add per-locale
-# churn that no user ever sees. Reviewed and kept English 2026-07-24.
+# The "message" strings in these event handlers are P2P diagnostics, not
+# user-facing text: callers branch on "status" and render their own labels. Keep
+# them English.
 
 # Receive a request for information about an app
 # Private apps are accessible if the requester knows the publisher ID.
@@ -502,11 +480,9 @@ def event_get(e):
 	a = mochi.db.row("select * from apps where id=?", app_id)
 	if not a:
 		return e.write({"status": "404", "message": "App not found"})
-	# Restricted apps are refused to remote peers, but a replica host must be
-	# able to install/upgrade its own co-hosted restricted app from the local
-	# (replicated-in) publisher store. e.header("local") is true only for an
-	# in-process self-loop stream (unforgeable from off-host), so it grants the
-	# local app-update path the package while still denying remote callers.
+	# e.header("local") is true only for an in-process self-loop stream, so the
+	# local app-update path can fetch a restricted app while remote peers are
+	# refused.
 	if a.get("distribution") == "restricted" and not e.header("local"):
 		return e.write({"status": "403", "message": "This app is private"})
 

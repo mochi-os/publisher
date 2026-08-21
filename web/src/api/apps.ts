@@ -31,13 +31,9 @@ const getApp = async (id: string): Promise<{
   share: boolean
   publisher: string
 }> => {
-  // The management view first: it reads the caller's own database, so it
-  // answers for the publisher and 404s for everyone else. Everyone else is a
-  // share-link visitor, and the entity-scoped share view reads the
-  // publisher's rows, so it answers for them - logged in or not. Before this
-  // the page made only the first call, so a share link worked when logged out
-  // (a public class-level action falls back to the first administrator) and
-  // 404'd the moment the visitor signed in.
+  // Management view first: it reads the caller's own database, so it answers
+  // only for the publisher. Everyone else gets the entity-scoped share view,
+  // logged in or not.
   try {
     return await requestHelpers.get<AppDetailsResponse>(endpoints.apps.get(id))
   } catch {
