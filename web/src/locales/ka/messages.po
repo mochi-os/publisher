@@ -2716,7 +2716,7 @@ msgstr "ვებსაიტი ტექმომსახურებაშ�
 
 #: ../../../lib/web/src/lib/preference-utils.ts:61
 msgid "Wednesday"
-msgstr "ვებსაიტი ტექმომსახურებაშია!"
+msgstr "ოთხშაბათი"
 
 #: src/features/apps/index.tsx:198
 #: src/routes/_authenticated/app/$appId.tsx:702
