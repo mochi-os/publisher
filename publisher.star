@@ -99,6 +99,15 @@ def database_create():
 # Resolve the "app" input for a write action or set an error and return None: id
 # format (400 - mochi.entity.get raises on an ill-formed id), ownership (403),
 # existence (404).
+def sweep_uploads(keep):
+	# Clear staging archives orphaned by an earlier run. Anything in flight for
+	# a concurrent upload by the same user goes too, which is the same trade
+	# apps/apps.star makes in sweep_packages(); the alternative is leaking them
+	# forever, which is what happened before.
+	for file in mochi.file.list("") or []:
+		if file != keep and file.startswith("upload_") and file.endswith(".zip"):
+			mochi.file.delete(file)
+
 def require_owned_app(a):
 	id = a.input("app")
 	if not id or not (mochi.text.valid(id, "entity") or mochi.text.valid(id, "fingerprint")):
@@ -118,11 +127,16 @@ def action_list(a):
 	return {"data": {"apps": apps}}
 
 def action_share(a):
-	"""Public share page for one app, read from the publisher's database. Entity-scoped so
-	core resolves the owner for every visitor; the class-level action reads the caller's
-	own database. Share data only - never the version list, which is management data."""
+	"""Public share page for one app. Share data only - never the version list, which is
+	management data.
+
+	Storage resolves to the entity owner only for an ANONYMOUS visitor; an authenticated
+	one reads their own database, finds nothing for someone else's app, and takes the P2P
+	branch below - a self-loop when the app is hosted here. Correct, but a round trip."""
 	id = a.input("app")
-	if not id or len(id) > 51:
+	# mochi.remote.stream below aborts the action with a 500 on a malformed id,
+	# and this route is public. Same guard as require_owned_app.
+	if not id or not (mochi.text.valid(id, "entity") or mochi.text.valid(id, "fingerprint")):
 		a.error.label(400, "errors.invalid_app_id")
 		return
 
@@ -178,23 +192,32 @@ def action_view(a):
 	# Get publisher identity for share string
 	publisher = a.user.identity.id if a.user and a.user.identity else ""
 
-	# Check if user is authenticated and is an administrator
-	is_admin = a.user and a.user.role == "administrator"
+	# Anyone may publish, so managing an app is a question of owning it, not of
+	# holding a role - the same test every write action here already uses. The
+	# database is per-user, so this row is already the caller's own; the check
+	# is what separates the owner's management view from the share view.
+	owned = a.user and mochi.entity.get(app["id"])
 
-	# For anonymous users or non-admins, return public share info only (filter empty tracks).
-	# Restricted apps deny existence to non-admins so they have no public share page.
-	if not is_admin:
+	# Whether a version may be installed onto this server is a different
+	# question, and core answers it - api_app_package_install gates on
+	# administrator or apps_install_user. Mirror that rather than reusing the
+	# ownership answer, as apps/apps.star does for can_install.
+	installer = a.user and (a.user.role == "administrator" or mochi.setting.get("apps_install_user") == "true")
+
+	# Not the owner: public share info only (filter empty tracks). Restricted
+	# apps deny existence to non-owners so they have no public share page.
+	if not owned:
 		if app.get("distribution") == "restricted":
 			a.error.label(404, "errors.app_not_found")
 			return
 		tracks = [t for t in tracks_all if t.get("version")]
 		return {"data": {"app": app, "tracks": tracks, "versions": [], "administrator": False, "share": True, "publisher": publisher}}
 
-	# For administrators, return full management info including empty tracks.
+	# The owner gets full management info, including empty tracks.
 	# No SQL order-by: version is a text column, so SQLite sorts it lexically
 	# ("0.10" before "0.9"). The web frontend sorts versions numerically.
 	versions = mochi.db.rows("select * from versions where app=?", app["id"])
-	return {"data": {"app": app, "tracks": tracks_all, "versions": versions, "administrator": True, "share": False, "publisher": publisher}}
+	return {"data": {"app": app, "tracks": tracks_all, "versions": versions, "administrator": installer, "share": False, "publisher": publisher}}
 
 # Create new app
 def action_create(a):
@@ -261,6 +284,13 @@ def action_version_create(a):
 
 	file = "upload_" + mochi.random.alphanumeric(8) + ".zip"
 	a.upload("file", file)
+
+	# mochi.app.package.install raises rather than returning falsy on every
+	# failure path, and a Starlark error aborts the action, so the deletes below
+	# never run and that archive is orphaned. Sweep what earlier runs left.
+	# After the upload, not before: mochi.file.list aborts when the app's file
+	# root does not exist yet, and the upload is what creates it.
+	sweep_uploads(file)
 
 	# Validate paths match existing version (unless force=true)
 	force = a.input("force") == "yes"
@@ -330,9 +360,9 @@ def action_version_create(a):
 # Apply the retention policy across every app in one pass (admin one-off for the
 # existing backlog; ongoing pruning happens automatically on each upload).
 def action_prune(a):
-	if not (a.user and a.user.role == "administrator"):
-		a.error.label(403, "errors.access_denied")
-		return
+	# No role test: the publisher database is per-user, so this only ever walks
+	# the caller's own apps. Pruning old versions of an app you published is
+	# part of managing it, and anyone may publish.
 	total = 0
 	for app in mochi.db.rows("select id from apps") or []:
 		total = total + prune_versions(app["id"])
