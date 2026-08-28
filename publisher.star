@@ -166,7 +166,7 @@ def action_share(a):
 			a.error.label(502, "errors.app_not_found")
 			return
 		remote_tracks = s.read()
-		if type(remote_tracks) == "list":
+		if type(remote_tracks) in ["list", "tuple"]:
 			tracks = [t for t in remote_tracks if type(t) == "dict" and t.get("version")]
 
 	fp = mochi.entity.fingerprint(id)
