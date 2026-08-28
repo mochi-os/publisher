@@ -99,6 +99,23 @@ def database_create():
 # Resolve the "app" input for a write action or set an error and return None: id
 # format (400 - mochi.entity.get raises on an ill-formed id), ownership (403),
 # existence (404).
+# Whether an archive is one mochi.app.package.get can read. That API answers
+# every failure with a Starlark error rather than a falsy value, and an error
+# aborts the action, so `if not info:` after it can never run and an unreadable
+# upload surfaced as a bare 500 where the handler means to say 400.
+# mochi.archive.list is the one archive call that reports a bad zip by returning
+# None instead of raising. "app.json" exactly: zip_entry_read matches the entry
+# name with no prefix or directory allowance, so this accepts precisely what
+# core accepts.
+def package_readable(file):
+	entries = mochi.archive.list(file)
+	if entries == None:
+		return False
+	for entry in entries:
+		if entry["name"] == "app.json":
+			return True
+	return False
+
 def sweep_uploads(keep):
 	# Clear staging archives orphaned by an earlier run. Anything in flight for
 	# a concurrent upload by the same user goes too, which is the same trade
@@ -292,14 +309,18 @@ def action_version_create(a):
 	# root does not exist yet, and the upload is what creates it.
 	sweep_uploads(file)
 
+	# Refuse an unreadable archive before mochi.app.package.get, which aborts the
+	# action on one. force skips the paths comparison below, not this: the upload
+	# has to be a readable package either way.
+	if not package_readable(file):
+		mochi.file.delete(file)
+		a.error.label(400, "errors.failed_to_read_app_info_from_archive")
+		return
+
 	# Validate paths match existing version (unless force=true)
 	force = a.input("force") == "yes"
 	if not force:
 		new_info = mochi.app.package.get(file)
-		if not new_info:
-			mochi.file.delete(file)
-			a.error.label(400, "errors.failed_to_read_app_info_from_archive")
-			return
 
 		# Get the semantically-latest existing version. The version column is text,
 		# so sorting in SQL would order lexically ("0.9" after "0.10"); pick the max
@@ -308,9 +329,13 @@ def action_version_create(a):
 		for row in mochi.db.rows("select version, file from versions where app=?", app["id"]):
 			if not existing or version_greater(row["version"], existing["version"]):
 				existing = row
-		if existing and existing["file"] and mochi.file.exists(existing["file"]):
+		# package_readable, not `if old_info` after the call: a corrupt STORED
+		# archive used to abort this upload with a 500, where skipping the
+		# comparison is what the guard was written to do.
+		if existing and existing["file"] and mochi.file.exists(existing["file"]) \
+				and package_readable(existing["file"]):
 			old_info = mochi.app.package.get(existing["file"])
-			if old_info and old_info.get("paths"):
+			if old_info.get("paths"):
 				new_paths = new_info.get("paths") or []
 				old_paths = old_info.get("paths") or []
 				if new_paths != old_paths:
@@ -318,12 +343,13 @@ def action_version_create(a):
 					a.error.label(400, "errors.paths_mismatch", expected=str(old_paths), got=str(new_paths))
 					return
 
+	# No `if not version:` guard: as the sweep comment above says, install raises
+	# on every failure path, and a package that installs always carries a version
+	# - manifest_validate refuses an empty or malformed one before install
+	# returns. The archive an aborted install leaves behind is what sweep_uploads
+	# clears on the next upload.
 	install = a.input("install") == "yes"
 	version = mochi.app.package.install(app["id"], file, not install)
-	if not version:
-		mochi.file.delete(file)
-		a.error.label(500, "errors.failed_to_install_app_version")
-		return
 
 	# Set the installed version as the system default
 	if install:
