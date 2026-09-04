@@ -114,6 +114,10 @@ msgstr "ລະດັບການເຂົ້າເຖິງ"
 msgid "Account type"
 msgstr "ປະເພດບັນຊີ"
 
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:415
+msgid "Activity"
+msgstr "ກິດຈະກຳ"
+
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx:758
 #: ../../../lib/web/src/features/access/access-dialog.tsx:332
 #: ../../../lib/web/src/features/accounts/account-add.tsx:209
@@ -157,7 +161,7 @@ msgstr "ເພີ່ມຊ່ອງຂໍ້ມູນ"
 msgid "Add item..."
 msgstr "ເພີ່ມລາຍການ..."
 
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:320
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:314
 msgid "Add link"
 msgstr "ເພີ່ມລິ້ງ"
 
@@ -251,6 +255,10 @@ msgstr "ID ແອັບພລິເຄຊັນ"
 msgid "Are you sure you want to delete \"{0}\"?"
 msgstr "ທ່ານແນ່ໃຈບໍວ່າຕ້ອງການລົບ \"{0}\"?"
 
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:671
+msgid "Are you sure you want to delete \"{title}\"? This action cannot be undone."
+msgstr "ທ່ານແນ່ໃຈບໍວ່າຕ້ອງການລົບ \"{title}\"? ການກະທຳນີ້ບໍ່ສາມາດຍົກເລີກໄດ້."
+
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx:631
 msgid "Are you sure you want to delete the \"{name}\" column? This cannot be undone."
 msgstr "ທ່ານແນ່ໃຈບໍວ່າຕ້ອງການລົບຖັນ \"{name}\"? ນີ້ບໍ່ສາມາດຍົກເລີກໄດ້."
@@ -262,6 +270,14 @@ msgstr "ທ່ານແນ່ໃຈບໍວ່າຕ້ອງການລົບ
 #: ../../../lib/web/src/components/sign-out-dialog.tsx:27
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
 msgstr "ທ່ານແນ່ໃຈບໍວ່າຕ້ອງການອອກຈາກລະບົບ? ທ່ານຈະຕ້ອງເຂົ້າສູ່ລະບົບອີກຄັ້ງເພື່ອເຂົ້າເຖິງບັນຊີຂອງທ່ານ."
+
+#: ../../../lib/web/src/components/game/game-end-dialogs.tsx:39
+msgid "Are you sure you want to resign?"
+msgstr "ທ່ານແນ່ໃຈບໍວ່າຕ້ອງການຍອມແພ້?"
+
+#: ../../../lib/web/src/components/game/game-end-dialogs.tsx:38
+msgid "Are you sure you want to resign? {opponentName} will win the game."
+msgstr "ທ່ານແນ່ໃຈບໍວ່າຕ້ອງການຍອມແພ້? {opponentName} ຈະຊະນະເກມ."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx:27
 msgid "Ascending"
@@ -318,12 +334,21 @@ msgstr "ກັບຄືນຫາແອັບ"
 msgid "Back to home"
 msgstr "ກັບໄປໜ້າຫຼັກ"
 
+#: ../../../lib/web/src/components/banner-section.tsx:80
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "ປ້າຍ"
 
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:68
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:215
+#: ../../../lib/web/src/components/banner-section.tsx:69
+msgid "Banner removed"
+msgstr "ລົບປ້າຍແລ້ວ"
+
+#: ../../../lib/web/src/components/banner-section.tsx:69
+msgid "Banner updated"
+msgstr "ອັບເດດປ້າຍແລ້ວ"
+
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:72
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:209
 msgid "Blocked by"
 msgstr "ຖືກບລັອກໂດຍ"
 
@@ -332,7 +357,7 @@ msgstr "ຖືກບລັອກໂດຍ"
 msgid "Blocked navigation to untrusted link"
 msgstr "ບລັອກການນຳທາງໄປຫາລິ້ງທີ່ບໍ່ເຊື່ອຖື"
 
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:66
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:70
 msgid "Blocks"
 msgstr "ບລັອກ"
 
@@ -438,6 +463,7 @@ msgstr "ເລືອກເກມຈາກແຖບຂ້າງ ຫຼື ເລ�
 msgid "Choose language"
 msgstr "ເລືອກພາສາ"
 
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -455,8 +481,8 @@ msgstr "ລ້າງທັງໝົດ"
 msgid "Clear search"
 msgstr "ລ້າງການຄົ້ນຫາ"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:523
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:528
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:517
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:522
 #: ../../../lib/web/src/components/ui/dialog.tsx:78
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:480
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:483
@@ -530,6 +556,11 @@ msgstr "ການກະທຳຄຳເຫັນ"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:455
 msgid "Comments"
 msgstr "ຄຳເຫັນ"
+
+#. placeholder {0}: data.comment_count || 0
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:411
+msgid "Comments ({0})"
+msgstr "ຄຳເຫັນ ({0})"
 
 #: ../../../lib/web/src/lib/preference-utils.ts:90
 msgid "Compact"
@@ -614,8 +645,8 @@ msgstr "ບໍ່ສາມາດຢືນຢັນດ້ວຍບັນຊີນ
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx:551
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx:691
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:513
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:682
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:507
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/entity/entity-tree-view.tsx:672
 msgid "Create"
 msgstr "ສ້າງ"
@@ -659,7 +690,7 @@ msgstr "ສ້າງແລ້ວ"
 msgid "Created {field}"
 msgstr "ສ້າງ {field} ແລ້ວ"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:682
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
 #: src/features/apps/index.tsx:212
 #: src/routes/_authenticated/app/$appId.tsx:595
@@ -717,6 +748,8 @@ msgstr "ກຳນົດແທຣັກເລີ່ມຕົ້ນເປັນ \"
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx:208
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx:255
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx:317
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:672
+#: ../../../lib/web/src/components/game/game-end-dialogs.tsx:78
 msgid "Delete"
 msgstr "ລົບ"
 
@@ -735,6 +768,16 @@ msgstr "ລົບຄຳເຫັນ"
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:304
 msgid "Delete field"
 msgstr "ລົບຊ່ອງຂໍ້ມູນ"
+
+#: ../../../lib/web/src/components/game/game-end-dialogs.tsx:69
+msgid "Delete game?"
+msgstr "ລົບເກມ?"
+
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:486
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:491
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:670
+msgid "Delete item"
+msgstr "ລົບລາຍການ"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:117
 msgid "Delete option"
@@ -765,6 +808,10 @@ msgstr "ລຶບແລ້ວ"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx:58
 msgid "Deleted {field}"
 msgstr "ລຶບ {field} ແລ້ວ"
+
+#: ../../../lib/web/src/components/game/game-end-dialogs.tsx:75
+msgid "Deleting..."
+msgstr "ກຳລັງລົບ..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx:27
 msgid "Descending"
@@ -833,6 +880,7 @@ msgid "Does not match the required pattern"
 msgstr "ບໍ່ກົງກັບຮູບແບບທີ່ຕ້ອງການ"
 
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:309
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:495
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx:523
 msgid "Done"
 msgstr "ສຳເລັດແລ້ວ"
@@ -848,7 +896,7 @@ msgstr "ດາວໂຫຼດ"
 msgid "Download failed"
 msgstr "ດາວໂຫຼດບໍ່ສຳເລັດ"
 
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:67
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:71
 msgid "Duplicates"
 msgstr "ຊ້ຳກັນ"
 
@@ -907,6 +955,10 @@ msgstr "ອີເມວ"
 msgid "Email code"
 msgstr "ລະຫັດອີເມວ"
 
+#: ../../../lib/web/src/components/banner-section.tsx:88
+msgid "Enter banner text (markdown supported)..."
+msgstr "ປ້ອນຂໍ້ຄວາມແບນເນີ (ຮອງຮັບ markdown)..."
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx:290
 msgid "Enter the code from your email"
 msgstr "ປ້ອນລະຫັດຈາກອີເມວຂອງທ່ານ"
@@ -914,6 +966,10 @@ msgstr "ປ້ອນລະຫັດຈາກອີເມວຂອງທ່ານ
 #: ../../../lib/web/src/components/step-up-dialog.tsx:315
 msgid "Enter your authenticator code"
 msgstr "ໃສ່ລະຫັດ authenticator ຂອງທ່ານ"
+
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:381
+msgid "Error"
+msgstr "ຂໍ້ຜິດພາດ"
 
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:101
 #: ../../../lib/web/src/components/comment-tree-layout.tsx:110
@@ -947,7 +1003,7 @@ msgstr "ສຳເນົາລົ້ມເຫຼວ"
 msgid "Failed to create app"
 msgstr "ສ້າງແອັບລົ້ມເຫຼວ"
 
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:137
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:131
 #: ../../../lib/web/src/components/options-menu.tsx:98
 msgid "Failed to create link"
 msgstr "ສ້າງລິ້ງລົ້ມເຫຼວ"
@@ -955,6 +1011,10 @@ msgstr "ສ້າງລິ້ງລົ້ມເຫຼວ"
 #: src/routes/_authenticated/app/$appId.tsx:417
 msgid "Failed to create track"
 msgstr "ສ້າງຕິດຕາມລົ້ມເຫຼວ"
+
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:303
+msgid "Failed to delete"
+msgstr "ລຶບລົ້ມເຫຼວ"
 
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx:130
 msgid "Failed to delete attachment"
@@ -964,7 +1024,7 @@ msgstr "ລຶບໄຟລ໌ແນບລົ້ມເຫຼວ"
 msgid "Failed to delete comment"
 msgstr "ລຶບຄຳເຫັນລົ້ມເຫຼວ"
 
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:159
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:153
 msgid "Failed to delete link"
 msgstr "ລຶບລິ້ງລົ້ມເຫຼວ"
 
@@ -988,6 +1048,11 @@ msgstr "ໂຫຼດປະຫວັດລົ້ມເຫຼວ"
 msgid "Failed to load image"
 msgstr "ໂຫຼດຮູບພາບບໍ່ສຳເລັດ"
 
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:382
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:385
+msgid "Failed to load item"
+msgstr "ໂຫຼດລາຍການລົ້ມເຫຼວ"
+
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:213
 msgid "Failed to load prompts"
 msgstr "ໂຫຼດ prompt ລົ້ມເຫຼວ"
@@ -995,6 +1060,10 @@ msgstr "ໂຫຼດ prompt ລົ້ມເຫຼວ"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx:350
 msgid "Failed to load video"
 msgstr "ໂຫຼດວິດີໂອບໍ່ສຳເລັດ"
+
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:317
+msgid "Failed to move"
+msgstr "ຍ້າຍບໍ່ສຳເລັດ"
 
 #: ../../../lib/web/src/components/entity/entity-comment-list.tsx:155
 msgid "Failed to post comment"
@@ -1008,6 +1077,10 @@ msgstr "ຣີເຊັດ prompt ລົ້ມເຫຼວ"
 msgid "Failed to revoke RSS access"
 msgstr "ຖອນການເຂົ້າເຖິງ RSS ບໍ່ສຳເລັດ"
 
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:273
+msgid "Failed to save"
+msgstr "ບັນທຶກລົ້ມເຫຼວ"
+
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:111
 msgid "Failed to save prompt"
 msgstr "ບັນທຶກ prompt ລົ້ມເຫຼວ"
@@ -1015,6 +1088,10 @@ msgstr "ບັນທຶກ prompt ລົ້ມເຫຼວ"
 #: src/routes/_authenticated/app/$appId.tsx:460
 msgid "Failed to set default track"
 msgstr "ຕັ້ງຄ່າຕິດຕາມເລີ່ມຕົ້ນລົ້ມເຫຼວ"
+
+#: ../../../lib/web/src/components/banner-section.tsx:71
+msgid "Failed to update banner"
+msgstr "ອັບເດດແບນເນີລົ້ມເຫຼວ"
 
 #: ../../../lib/web/src/components/entity/entity-comment-list.tsx:175
 msgid "Failed to update comment"
@@ -1028,6 +1105,10 @@ msgstr "ອັບເດດການແຈກຈ່າຍລົ້ມເຫຼວ
 msgid "Failed to update track"
 msgstr "ອັບເດດການຕິດຕາມລົ້ມເຫຼວ"
 
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:288
+msgid "Failed to update watching"
+msgstr "ອັບເດດການຕິດຕາມບໍ່ສຳເລັດ"
+
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx:114
 msgid "Failed to upload attachment"
 msgstr "ອັບໂຫຼດໄຟລ໌ແນບລົ້ມເຫຼວ"
@@ -1036,7 +1117,7 @@ msgstr "ອັບໂຫຼດໄຟລ໌ແນບລົ້ມເຫຼວ"
 msgid "Failed to upload version"
 msgstr "ອັບໂຫຼດເວີຊັນລົ້ມເຫຼວ"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:611
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:605
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx:160
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx:180
 msgid "Files"
@@ -1169,6 +1250,10 @@ msgstr "ວັນທີ່ບໍ່ຖືກຕ້ອງ"
 msgid "It seems like the page you're looking for <0/>does not exist or might have been removed."
 msgstr "ເບິ່ງຄືວ່າໜ້າທີ່ທ່ານກຳລັງຊອກຫາ <0/>ບໍ່ມີ ຫຼື ອາດຖືກລຶບອອກແລ້ວ."
 
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:441
+msgid "Item details"
+msgstr "ລາຍລະອຽດລາຍການ"
+
 #: ../../../lib/web/src/lib/locale-format.ts:180
 msgid "Just now"
 msgstr "ຫາກໍ"
@@ -1202,7 +1287,7 @@ msgstr "ສະຫວ່າງ"
 msgid "Link"
 msgstr "ລິ້ງ"
 
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:279
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:273
 msgid "Links"
 msgstr "ລິ້ງ"
 
@@ -1221,6 +1306,14 @@ msgstr "ກຳລັງໂຫຼດແອັບ..."
 #: ../../../lib/web/src/components/ui/loading-content.tsx:26
 msgid "Loading content…"
 msgstr "ກຳລັງໂຫຼດເນື້ອຫາ…"
+
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:365
+msgid "Loading item"
+msgstr "ກຳລັງໂຫຼດລາຍການ"
+
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:366
+msgid "Loading item details"
+msgstr "ກຳລັງໂຫຼດລາຍລະອຽດລາຍການ"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx:39
 #: ../../../lib/web/src/features/document/document-page.tsx:88
@@ -1348,7 +1441,7 @@ msgstr "ຊື່ຕ້ອງມີ 1000 ຕົວອັກສອນຫຼືໜ
 msgid "Network error"
 msgstr "ຂໍ້ຜິດພາດເຄືອຂ່າຍ"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:498
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:492
 #: ../../../lib/web/src/components/ui/sort-selector.tsx:43
 msgid "New"
 msgstr "ໃໝ່"
@@ -1368,7 +1461,7 @@ msgstr "ຮູບຕໍ່ໄປ"
 msgid "No"
 msgstr "ບໍ່"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:577
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:571
 msgid "No {parentClassNames} to add to"
 msgstr "ບໍ່ມີ {parentClassNames} ໃຫ້ເພີ່ມເຂົ້າ"
 
@@ -1396,11 +1489,11 @@ msgstr "ຍັງບໍ່ມີເກມ"
 msgid "No groups available"
 msgstr "ບໍ່ມີກຸ່ມທີ່ມີຢູ່"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:544
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:538
 msgid "No item types can be created yet. Create the required parent items first."
 msgstr "ຍັງບໍ່ສາມາດສ້າງປະເພດລາຍການໄດ້. ສ້າງລາຍການແມ່ທີ່ຕ້ອງການກ່ອນ."
 
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:360
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:354
 msgid "No matching objects"
 msgstr "ບໍ່ມີວັດຖຸທີ່ກົງກັນ"
 
@@ -1461,9 +1554,13 @@ msgid "No views"
 msgstr "ບໍ່ມີການເບິ່ງ"
 
 #: ../../../lib/web/src/components/colour-picker.tsx:349
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:560
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:563
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:567
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:554
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:557
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:561
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:557
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:570
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:571
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:575
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx:362
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx:385
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx:388
@@ -1568,7 +1665,9 @@ msgstr "ອື່ນໆ"
 msgid "Owner"
 msgstr "ເຈົ້າຂອງ"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:552
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:546
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:553
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:569
 msgid "Parent"
 msgstr "ແມ່"
 
@@ -1653,6 +1752,10 @@ msgstr "ກຳລັງປະມວນຜົນ…"
 msgid "Prompt saved"
 msgstr "ບັນທຶກ prompt ແລ້ວ"
 
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:408
+msgid "Properties"
+msgstr "ຄຸນສົມບັດ"
+
 #: src/features/apps/index.tsx:92
 #: src/routes/_authenticated/app/$appId.tsx:230
 #: src/routes/_authenticated/app/$appId.tsx:354
@@ -1710,7 +1813,7 @@ msgstr "ກຳລັງປ່ຽນເສັ້ນທາງໄປຫາການ
 msgid "Reduce interest"
 msgstr "ຫຼຸດດອກເບ້ຍ"
 
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:65
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:69
 msgid "Relates"
 msgstr "ກ່ຽວຂ້ອງ"
 
@@ -1770,8 +1873,8 @@ msgstr "ລຶບຄວາມສົນໃຈ"
 msgid "Remove item"
 msgstr "ລຶບລາຍການ"
 
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:304
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:309
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:298
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:303
 msgid "Remove link"
 msgstr "ລຶບລິ້ງ"
 
@@ -1805,6 +1908,18 @@ msgstr "ຕ້ອງການ"
 #: ../../../lib/web/src/components/step-up-dialog.tsx:358
 msgid "Resend email"
 msgstr "ສົ່ງອີເມວອີກຄັ້ງ"
+
+#: ../../../lib/web/src/components/game/game-end-dialogs.tsx:48
+msgid "Resign"
+msgstr "ຍອມແພ້"
+
+#: ../../../lib/web/src/components/game/game-end-dialogs.tsx:35
+msgid "Resign game?"
+msgstr "ຍອມແພ້ເກມ?"
+
+#: ../../../lib/web/src/components/game/game-end-dialogs.tsx:45
+msgid "Resigning..."
+msgstr "ກຳລັງຍອມແພ້..."
 
 #: src/features/apps/index.tsx:93
 #: src/routes/_authenticated/app/$appId.tsx:247
@@ -1854,6 +1969,7 @@ msgstr "ວັນເສົາ"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
+#: ../../../lib/web/src/components/banner-section.tsx:99
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -1892,7 +2008,7 @@ msgstr "ຄົ້ນຫາປາຍທາງ..."
 msgid "Search for origin..."
 msgstr "ຄົ້ນຫາຕົ້ນທາງ..."
 
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:337
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:331
 msgid "Search objects..."
 msgstr "ຄົ້ນຫາວັດຖຸ..."
 
@@ -2083,6 +2199,11 @@ msgstr "ກວ້າງຂວາງ"
 msgid "Start the discussion by adding the first comment."
 msgstr "ເລີ່ມການສົນທະນາໂດຍການເພີ່ມຄຳເຫັນທຳອິດ."
 
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:471
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:476
+msgid "Stop watching"
+msgstr "ຢຸດການເບິ່ງ"
+
 #: ../../../lib/web/src/features/access/access-list.tsx:196
 msgid "Subject"
 msgstr "ຫົວຂໍ້"
@@ -2182,6 +2303,10 @@ msgstr "ເຊີບເວີສົ່ງຄືນໜ້າເວັບແທນ
 #: ../../../lib/web/src/lib/shell-errors.ts:17
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
 msgstr "ແອັບນີ້ບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ໃຊ້ passkey ຂອງທ່ານ. ອະນຸຍາດໃນການຕັ້ງຄ່າ, ພາຍໃຕ້ການອະນຸຍາດ."
+
+#: ../../../lib/web/src/components/game/game-end-dialogs.tsx:70
+msgid "This permanently deletes the game and its chat. This cannot be undone."
+msgstr "ການດຳເນີນການນີ້ຈະລົບເກມ ແລະ ການສົນທະນາຂອງມັນຖາວອນ. ບໍ່ສາມາດຍົກເລີກການດຳເນີນການນີ້ໄດ້."
 
 #: ../../../lib/web/src/lib/preference-utils.ts:57
 msgid "Thursday"
@@ -2319,9 +2444,8 @@ msgstr "ບໍ່ຮູ້ຈັກ"
 msgid "Unsubscribe"
 msgstr "ຍົກເລີກການສະໝັກສະມາຊິກ"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:299
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:103
-#: ../../../lib/web/src/components/entity/entity-object-links.tsx:184
+#: ../../../lib/web/src/components/entity/entity-object-links.tsx:178
+#: ../../../lib/web/src/lib/entity-title.ts:40
 msgid "Untitled"
 msgstr "ບໍ່ມີຊື່"
 
@@ -2339,7 +2463,7 @@ msgstr "ອັບເດດແລ້ວ"
 msgid "Updated {field}"
 msgstr "ອັບເດດ {field} ແລ້ວ"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:661
+#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:655
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx:304
 msgid "Upload"
 msgstr "ອັບໂຫຼດ"
@@ -2424,6 +2548,10 @@ msgstr "ຕົວເບິ່ງວິດີໂອ: {0}"
 msgid "View all notifications"
 msgstr "ເບິ່ງການແຈ້ງເຕືອນທັງໝົດ"
 
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:442
+msgid "View and edit item details"
+msgstr "ເບິ່ງແລະແກ້ໄຂລາຍລະອຽດລາຍການ"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx:170
 msgid "View controls"
 msgstr "ການຄວບຄຸມການເບິ່ງ"
@@ -2431,6 +2559,11 @@ msgstr "ການຄວບຄຸມການເບິ່ງ"
 #: ../../../lib/web/src/lib/shell-errors.ts:33
 msgid "Voice recording is not supported in this browser"
 msgstr "ບຣາວເຊີນີ້ບໍ່ຮອງຮັບການບັນທຶກສຽງ"
+
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:471
+#: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx:476
+msgid "Watch"
+msgstr "ເບິ່ງ"
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx:269
 #: ../../../lib/web/src/components/filter-bar.tsx:35
