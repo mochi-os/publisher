@@ -215,11 +215,13 @@ def action_view(a):
 	# is what separates the owner's management view from the share view.
 	owned = a.user and mochi.entity.get(app["id"])
 
-	# Whether a version may be installed onto this server is a different
-	# question, and core answers it - api_app_package_install gates on
-	# administrator or apps_install_user. Mirror that rather than reusing the
-	# ownership answer, as apps/apps.star does for can_install.
-	installer = a.user and (a.user.role == "administrator" or mochi.setting.get("apps_install_user") == "true")
+	# "Install locally" in the upload dialog also makes the version this
+	# server's default, and core's api_app_version_set is administrator-only,
+	# so the option is offered to administrators alone. Whether a version may
+	# merely be installed is a wider question (apps_install_user), and the apps
+	# app asks it; offering the option on that answer installed the package and
+	# then aborted on the default with nothing recorded.
+	administrator = a.user.role == "administrator" if a.user else False
 
 	# Not the owner: public share info only (filter empty tracks). Restricted
 	# apps deny existence to non-owners so they have no public share page.
@@ -234,7 +236,7 @@ def action_view(a):
 	# No SQL order-by: version is a text column, so SQLite sorts it lexically
 	# ("0.10" before "0.9"). The web frontend sorts versions numerically.
 	versions = mochi.db.rows("select * from versions where app=?", app["id"])
-	return {"data": {"app": app, "tracks": tracks_all, "versions": versions, "administrator": installer, "share": False, "publisher": publisher}}
+	return {"data": {"app": app, "tracks": tracks_all, "versions": versions, "administrator": administrator, "share": False, "publisher": publisher}}
 
 # Create new app
 def action_create(a):
@@ -290,6 +292,17 @@ def action_version_create(a):
 			tracks.append(track)
 	else:
 		tracks = [app.get("default_track", "Production")]
+
+	# "Install locally" also makes the version this server's default, and core's
+	# api_app_version_set refuses everyone but an administrator, whereas
+	# api_app_package_install admits any user while apps_install_user is on.
+	# Refuse before the upload: past this point the package would be installed
+	# and loaded, and the refused default would abort the action with no
+	# versions row, no track and an orphaned archive.
+	install = a.input("install") == "yes"
+	if install and a.user.role != "administrator":
+		a.error.label(403, "errors.app_installation_restricted_to_administrators")
+		return
 
 	# The archive is stored under a server-derived name once the version is
 	# known; the client filename is never used for storage, since client-named
@@ -348,12 +361,7 @@ def action_version_create(a):
 	# - manifest_validate refuses an empty or malformed one before install
 	# returns. The archive an aborted install leaves behind is what sweep_uploads
 	# clears on the next upload.
-	install = a.input("install") == "yes"
 	version = mochi.app.package.install(app["id"], file, not install)
-
-	# Set the installed version as the system default
-	if install:
-		mochi.app.version.set(app["id"], version, "")
 
 	# Store the archive under a name derived from the app and version, so
 	# different apps and versions can never collide and re-uploading the same
@@ -380,6 +388,12 @@ def action_version_create(a):
 	# Enforce the retention policy now that the new version is assigned to its
 	# tracks (so it is always in the keep-set).
 	prune_versions(app["id"])
+
+	# Set the installed version as the system default last: the versions row
+	# and tracks above are what the publisher serves, and a refusal here must
+	# not take them with it.
+	if install:
+		mochi.app.version.set(app["id"], version, "")
 
 	return {"data": {"version": version, "app": app, "tracks": tracks}}
 
