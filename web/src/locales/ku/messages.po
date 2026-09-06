@@ -230,8 +230,8 @@ msgstr "Her kesê ku têketiye"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "Her tiştê ku li vê xwarinê abone ye dê wergirtinê rawestîne. Piştre tu dikarî URLyeke nû jiber bigirî."
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "Sepan"
 
@@ -239,14 +239,14 @@ msgstr "Sepan"
 msgid "App created"
 msgstr "Sepan hat çêkirin"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "Sepan nehat dîtin"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "Nasnameya sepanê"
 
@@ -304,7 +304,7 @@ msgstr "Koda rastandinê"
 msgid "Available keyboard shortcuts"
 msgstr "Kurtebirên klavyeyê yên berdest"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "Guhertoyên berdest"
 
@@ -320,12 +320,12 @@ msgstr "Avatar ji bo {name}"
 msgid "Back"
 msgstr "Vegere"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "Vegere sepanan"
 
@@ -334,16 +334,16 @@ msgstr "Vegere sepanan"
 msgid "Back to home"
 msgstr "Vegere ser malê"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "Banner"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "Banner hat rakirin"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "Banner hat nûkirin"
 
@@ -378,7 +378,7 @@ msgstr "Rengê sînor"
 msgid "Browser notifications"
 msgstr "Agahdariyên geroka"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "Pelê build"
 
@@ -405,8 +405,8 @@ msgstr "Kamera tune ye"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "Betal bike"
 
@@ -463,7 +463,7 @@ msgstr "Lîstikekê ji panela kêlekê hilbijêre an yeke nû dest pê bike."
 msgid "Choose language"
 msgstr "Ziman hilbijêre"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "Hat kopîkirin li clipboard"
 msgid "Copy"
 msgstr "Kopî bike"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Vê girêdanê kopî bike û ji bo sazkirinê li ser rûpela Sepanên servera xwe ya Mochi pêl bibe."
 
@@ -661,7 +661,7 @@ msgstr "{entityLabel} çêbike"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "Sepan çêbike"
 
@@ -669,14 +669,14 @@ msgstr "Sepan çêbike"
 msgid "Create new item"
 msgstr "Hêmana nû çêbike"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "Track çêbike"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "Tracka weşanê ya yekem çêbike"
 
@@ -692,8 +692,8 @@ msgstr "{field} hate afirandin"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "Tê çêkirin..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "Red bike"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "Standard"
 
@@ -735,7 +735,7 @@ msgstr "Hesabê standard yê AI"
 msgid "Default sort"
 msgstr "Rêzkirina standard"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "Tracka standard bo \"{track}\" hat danîn"
 
@@ -789,7 +789,7 @@ msgstr "Vebijêrkê jê bibe"
 msgid "Delete option {0}"
 msgstr "Vebijêrka {0} jê bibe"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "Trackê jê bibe"
 
@@ -821,8 +821,8 @@ msgstr "Daketî"
 msgid "Description"
 msgstr "Şirove"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "Hûragahî"
 
@@ -867,11 +867,11 @@ msgstr "Red bike"
 msgid "Displays the mobile sidebar."
 msgstr "Panela kêlekê ya mobîl nîşan dide."
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "Belavkirin"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "Belavkirin bo {distribution} hat danîn"
 
@@ -904,7 +904,7 @@ msgstr "Dubare"
 msgid "Dyslexia-friendly"
 msgstr "Hevhewş ji bo dîslêksiyê"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "mînak. Staging"
 
@@ -955,7 +955,7 @@ msgstr "E-name"
 msgid "Email code"
 msgstr "Koda e-nameyê"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "Nivîsa pankartê binivîse (markdown tê piştgirîkirin)..."
 
@@ -1008,7 +1008,7 @@ msgstr "Çêkirina sepanê neserkeftî bû"
 msgid "Failed to create link"
 msgstr "Çêkirina lînkê neserkeftî bû"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "Çêkirina rêçê neserkeftî bû"
 
@@ -1028,7 +1028,7 @@ msgstr "Jêbirina şîroveyê neserkeftî bû"
 msgid "Failed to delete link"
 msgstr "Jêbirina lînkê neserkeftî bû"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "Jêbirina rêçê neserkeftî bû"
 
@@ -1040,7 +1040,11 @@ msgstr "Wergirtina tokena RSS neserkeftî bû"
 msgid "Failed to load"
 msgstr "Barkirin neserkeftî bû"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "Pankart nehat barkirin"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "Barkirina dîrokê neserkeftî bû"
 
@@ -1085,11 +1089,11 @@ msgstr "Tomarkirin neserkeftî bû"
 msgid "Failed to save prompt"
 msgstr "Tomarkirina prompt neserkeftî bû"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "Danîna rêça pêşfaravabûn neserkeftî bû"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "Rojanekirina pankartê neserkeftî bû"
 
@@ -1097,11 +1101,11 @@ msgstr "Rojanekirina pankartê neserkeftî bû"
 msgid "Failed to update comment"
 msgstr "Rojanekirina şîroveyê neserkeftî bû"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "Rojanekirina belavkirinê neserkeftî bû"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "Rojanekirina rêçê neserkeftî bû"
 
@@ -1113,7 +1117,7 @@ msgstr "Nûvekirina şopandinê bi ser neket"
 msgid "Failed to upload attachment"
 msgstr "Barkirina pêvekê neserkeftî bû"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "Barkirina guhertoyê neserkeftî bû"
 
@@ -1123,8 +1127,8 @@ msgstr "Barkirina guhertoyê neserkeftî bû"
 msgid "Files"
 msgstr "Pelan"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "Tilîya destan"
 
@@ -1178,7 +1182,7 @@ msgstr "Li gorî kom bike"
 msgid "Group: {0}"
 msgstr "Kom: {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "Dîrok"
 
@@ -1197,7 +1201,7 @@ msgstr "Germ"
 msgid "ID"
 msgstr "Nasname"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "Nasname"
 
@@ -1214,7 +1218,7 @@ msgstr "Imperial"
 msgid "Including anonymous users"
 msgstr "Bi bikarhênerên nenas re"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "Guhertoya destpêkê"
 
@@ -1226,11 +1230,11 @@ msgstr "Avatara tîpên destpêkê"
 msgid "Initials avatar for {name}"
 msgstr "Avatara tîpên destpêkê ji bo {name}"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "Sepanê saz bike"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "Herêmî saz bike"
 
@@ -1271,7 +1275,7 @@ msgstr "Mezin"
 msgid "Layout"
 msgstr "Bargeh"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "Vala bihêle"
 
@@ -1299,7 +1303,7 @@ msgstr "Lîste"
 msgid "Load more"
 msgstr "Bêtir bar bike"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "Sepan tê barkirin..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "Wêneya pêştir"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "Na"
 
@@ -1529,7 +1533,7 @@ msgstr "Tu herêma demê nehat dîtin."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Hêj tu tomarê mijarê tune — piştî agahdariya pêştir dîsa biceribîne."
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "Tu trakt tune"
 
@@ -1541,11 +1545,11 @@ msgstr "Tu agahdariyên nexwendî tune"
 msgid "No users found"
 msgstr "Tu bikarhêner nehatin dîtin"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "Tu guherto tune"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "Tu guherto tune"
 
@@ -1632,8 +1636,8 @@ msgstr "Çalakiyên vebijêrkê veke"
 msgid "Open selected card"
 msgstr "Karta hilbijartî veke"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "Çalakiyên traktê veke"
 
@@ -1706,7 +1710,7 @@ msgstr "Ji kerema xwe girêdana xwe ya înternetê kontrol bike û dîsa bicerib
 msgid "Please enter an app name"
 msgstr "Ji kerema xwe navê app binivîse"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "Ji kerema xwe pelekî hilbijêre"
 
@@ -1733,14 +1737,14 @@ msgstr "Wêneya pêştir"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "Nepenî"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "Taybet"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "Taybetmendî"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "Giştî"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "Hatiye weşandin"
 
@@ -1825,7 +1830,7 @@ msgstr "Goreyî (5d, 3s, 2r)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Goreyî di nav 24 saetan de, ne wisa be mutleq"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "Trackên weşanê"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "Dest jê tê berdan..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "Sînorkirî"
 
@@ -1969,7 +1975,7 @@ msgstr "Şemî"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "Qaîdeyên server"
 msgid "Session expired. Please log in again."
 msgstr "Danişîn bi dawî bû. Ji kerema xwe dîsa têkeve."
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "Wek standard saz bike"
 
@@ -2136,7 +2142,7 @@ msgstr "Çavkanî û armanc diyar bike"
 msgid "Settings"
 msgstr "Mîheng"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "Parvekirin"
 
@@ -2230,7 +2236,7 @@ msgstr "Yekşem"
 msgid "Switch to view 1-9"
 msgstr "Veguherîne dîtina 1-9"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "Daxwaza mîkrofonê nehat bersivandin"
 msgid "The passkey request was not answered"
 msgstr "Daxwaza passkey nehat bersivandin"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "Sepana xwestî nehate dîtin."
 
@@ -2347,23 +2353,23 @@ msgstr "Daxwazên pir zêde"
 msgid "Top"
 msgstr "Jor"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "Track \"{track}\" hat jêbirin"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track \"{track}\" hat nûkirin bo {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "Track hat afirandin"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "Navê trackê"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "Track"
 
@@ -2431,7 +2437,7 @@ msgstr "Çewtiya API ya nediyar"
 msgid "United States"
 msgstr "Dewletên Yekbûyî"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "Abone yî nebe"
 msgid "Untitled"
 msgstr "Bê sernav"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "Trackan nûve bike"
 
@@ -2468,9 +2474,9 @@ msgstr "{field} hate nûkirin"
 msgid "Upload"
 msgstr "Bar bike"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "Guhertoya nû bar bike"
 
@@ -2478,15 +2484,15 @@ msgstr "Guhertoya nû bar bike"
 msgid "Upload progress"
 msgstr "Pêşketina barkirinê"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "Versiyonê bar bike"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "Builda xwe ya yekem bar bike"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "Tê barkirin..."
 
@@ -2500,7 +2506,7 @@ msgstr "Passkey-ya xwe bikar bîne"
 msgid "User"
 msgstr "Bikarhêner"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Bikarhêner dikarin vê sepanê saz bikin bi pêlbarkirina vê girêdanê li ser rûpela Sepanên xwe."
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "Navnîşana e-nameyê verifîke bike"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "Guhertoya {0} hat barkirin"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "Dîroka guhertoyan"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "Guherto"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "Çarşem"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "Erê"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "Erê, bi zorê"
 

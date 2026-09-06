@@ -230,8 +230,8 @@ msgstr "Neach sam bith a tha air clàradh a-steach"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "Sguiridh rud sam bith a tha air fo-sgrìobhadh ris an inbhir seo ga fhaighinn. 'S urrainn dhut URL ùr a chopaigeadh às a dhèidh."
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "Aplacaid"
 
@@ -239,14 +239,14 @@ msgstr "Aplacaid"
 msgid "App created"
 msgstr "Aplacaid air a cruthachadh"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "Cha deach an aplacaid a lorg"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "ID aplacaid"
 
@@ -304,7 +304,7 @@ msgstr "Còd dearbhachaidh"
 msgid "Available keyboard shortcuts"
 msgstr "Ath-ghoiridean meur-chlàir ri làimh"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "Tionndaidhean rim faighinn"
 
@@ -320,12 +320,12 @@ msgstr "Avatar airson {name}"
 msgid "Back"
 msgstr "Air ais"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "Air ais gu aplacaidean"
 
@@ -334,16 +334,16 @@ msgstr "Air ais gu aplacaidean"
 msgid "Back to home"
 msgstr "Air ais dhan dachaigh"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "Bratach"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "Bratach air a thoirt air falbh"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "Bratach air ùrachadh"
 
@@ -378,7 +378,7 @@ msgstr "Dath na crìche"
 msgid "Browser notifications"
 msgstr "Brathan brabhsair"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "Faidhle togail"
 
@@ -405,8 +405,8 @@ msgstr "Chan eil an camara ri fhaighinn"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "Sguir dheth"
 
@@ -463,7 +463,7 @@ msgstr "Tagh geama bhon bhàr-thaobh no tòisich fear ùr."
 msgid "Choose language"
 msgstr "Tagh cànan"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "Air a chopaigeadh chun a' chliopaboird"
 msgid "Copy"
 msgstr "Dèan lethbhreac"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Dèan lethbhreac dhen cheangal seo agus cuir a-steach e air duilleag Aplacaidean an fhrithealaiche Mochi agad gus a stàladh."
 
@@ -661,7 +661,7 @@ msgstr "Cruthaich {entityLabel}"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "Cruthaich aplacaid"
 
@@ -669,14 +669,14 @@ msgstr "Cruthaich aplacaid"
 msgid "Create new item"
 msgstr "Cruthaich nì ùr"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "Cruthaich slighe"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "Cruthaich a' chiad slighe sgaoilidh agad"
 
@@ -692,8 +692,8 @@ msgstr "Chaidh {field} a chruthachadh"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "A' cruthachadh..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "Diùlt"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "Bunaiteach"
 
@@ -735,7 +735,7 @@ msgstr "Cunntas AI bunaiteach"
 msgid "Default sort"
 msgstr "Seòrsachadh bunaiteach"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "Slighe bhunaiteach air a suidheachadh gu \"{track}\""
 
@@ -789,7 +789,7 @@ msgstr "Sguab às roghainn"
 msgid "Delete option {0}"
 msgstr "Sguab às roghainn {0}"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "Sguab às slighe"
 
@@ -821,8 +821,8 @@ msgstr "A' teàrnadh"
 msgid "Description"
 msgstr "Tuairisgeul"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "Mion-fhiosrachadh"
 
@@ -867,11 +867,11 @@ msgstr "Leig seachad"
 msgid "Displays the mobile sidebar."
 msgstr "Seallaidh am bàr-thaobh fòn-làimhe."
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "Sgaoileadh"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "Sgaoileadh air a shuidheachadh gu {distribution}"
 
@@ -904,7 +904,7 @@ msgstr "Dùblaichean"
 msgid "Dyslexia-friendly"
 msgstr "Freagarrach do dhisléicse"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "m.e. Staging"
 
@@ -955,7 +955,7 @@ msgstr "Post-d"
 msgid "Email code"
 msgstr "Còd puist-d"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "Cuir a-steach teacsa na brataich (markdown a' faighinn taic)..."
 
@@ -1008,7 +1008,7 @@ msgstr "Cha b' urrainn app a chruthachadh"
 msgid "Failed to create link"
 msgstr "Cha b' urrainn ceangal a chruthachadh"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "Cha b' urrainn slighe a chruthachadh"
 
@@ -1028,7 +1028,7 @@ msgstr "Cha b' urrainn am beachd a sguabadh às"
 msgid "Failed to delete link"
 msgstr "Cha b' urrainn ceangal a sguabadh às"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "Cha b' urrainn slighe a sguabadh às"
 
@@ -1040,7 +1040,11 @@ msgstr "Cha b' urrainn tòcan RSS fhaighinn"
 msgid "Failed to load"
 msgstr "Cha b' urrainn luchdadh"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "Dh'fhàillig luchdachadh na brataich"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "Cha b' urrainn an eachdraidh a luchdadh"
 
@@ -1085,11 +1089,11 @@ msgstr "Cha b' urrainn sàbhaladh"
 msgid "Failed to save prompt"
 msgstr "Cha b' urrainn am brodadh a shàbhaladh"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "Cha b' urrainn an t-slighe bhunaiteach a shuidheachadh"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "Cha b' urrainn a' bhratach ùrachadh"
 
@@ -1097,11 +1101,11 @@ msgstr "Cha b' urrainn a' bhratach ùrachadh"
 msgid "Failed to update comment"
 msgstr "Cha b' urrainn am beachd ùrachadh"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "Cha b' urrainn an sgaoileadh ùrachadh"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "Cha b' urrainn an t-slighe ùrachadh"
 
@@ -1113,7 +1117,7 @@ msgstr "Dh'fhàillig ùrachadh a' chumail-sùil"
 msgid "Failed to upload attachment"
 msgstr "Cha b' urrainn an ceangaltas a luchdadh suas"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "Cha b' urrainn an tionndadh a luchdadh suas"
 
@@ -1123,8 +1127,8 @@ msgstr "Cha b' urrainn an tionndadh a luchdadh suas"
 msgid "Files"
 msgstr "Faidhlichean"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "Meur-lorg"
 
@@ -1178,7 +1182,7 @@ msgstr "Cuir ann am buidhnean a rèir"
 msgid "Group: {0}"
 msgstr "Buidheann: {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "Eachdraidh"
 
@@ -1197,7 +1201,7 @@ msgstr "Teth"
 msgid "ID"
 msgstr "ID"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "Dearbh-aithne"
 
@@ -1214,7 +1218,7 @@ msgstr "Ìmpireach"
 msgid "Including anonymous users"
 msgstr "A' gabhail a-steach cleachdaichean gun ainm"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "Tionndadh tùsail"
 
@@ -1226,11 +1230,11 @@ msgstr "Avatar litrichean-toisich"
 msgid "Initials avatar for {name}"
 msgstr "Avatar litrichean-toisich airson {name}"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "Stàlaich an aplacaid"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "Stàlaich gu h-ionadail"
 
@@ -1271,7 +1275,7 @@ msgstr "Mòr"
 msgid "Layout"
 msgstr "Cruth"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "Fàg falamh"
 
@@ -1299,7 +1303,7 @@ msgstr "Liosta"
 msgid "Load more"
 msgstr "Luchdaich barrachd"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "A' luchdadh an app..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "An ath dhealbh"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "Chan eil"
 
@@ -1529,7 +1533,7 @@ msgstr "Cha deach roinn-tìde a lorg."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Chan eil clàradh cuspair ann fhathast — feuch a-rithist às dèidh an ath bhrath."
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "Chan eil slighean ann"
 
@@ -1541,11 +1545,11 @@ msgstr "Chan eil brathan gun leughadh"
 msgid "No users found"
 msgstr "Cha deach cleachdaichean a lorg"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "Gun tionndadh"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "Gun tionndaidhean"
 
@@ -1632,8 +1636,8 @@ msgstr "Fosgail gnìomhan na roghainn"
 msgid "Open selected card"
 msgstr "Fosgail a' chairt thaghte"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "Fosgail gnìomhan na slighe"
 
@@ -1706,7 +1710,7 @@ msgstr "Thoir sùil air a' cheangal eadar-lìn agad agus feuch ris a-rithist."
 msgid "Please enter an app name"
 msgstr "Cuir a-steach ainm aplacaid"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "Tagh faidhle"
 
@@ -1733,14 +1737,14 @@ msgstr "An dealbh roimhe"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "Prìobhaideachd"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "Prìobhaideach"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "Feartan"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "Poblach"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "Foillsichte"
 
@@ -1825,7 +1830,7 @@ msgstr "Coimeasach (5m, 3u, 2l)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Coimeasach taobh a-staigh 24 uair, no fuirich absoluteach"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "Slighean sgaoilidh"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "A' leigeil seachad..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "Cuingichte"
 
@@ -1969,7 +1975,7 @@ msgstr "Disathairne"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "Riaghailtean an fhrithealaiche"
 msgid "Session expired. Please log in again."
 msgstr "Dh'fhalbh an ùine air an t-seisean. Log a-steach a-rithist."
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "Suidhich mar bhunaiteach"
 
@@ -2136,7 +2142,7 @@ msgstr "Suidhich tùs is ceann-uidhe"
 msgid "Settings"
 msgstr "Roghainnean"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "A' roinn"
 
@@ -2230,7 +2236,7 @@ msgstr "Didòmhnaich"
 msgid "Switch to view 1-9"
 msgstr "Atharraich gu sealladh 1-9"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "Cha deach an t-iarrtas micreofon a fhreagairt"
 msgid "The passkey request was not answered"
 msgstr "Cha deach an t-iarrtas pasgair a fhreagairt"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "Cha b' urrainnear an aplacaid a dh'iarradh a lorg."
 
@@ -2347,23 +2353,23 @@ msgstr "Cus iarrtasan"
 msgid "Top"
 msgstr "Mullach"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "Slighe \"{track}\" sguabte às"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Slighe \"{track}\" ùraichte gu {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "Slighe cruthaichte"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "Ainm na slighe"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "Slighean"
 
@@ -2431,7 +2437,7 @@ msgstr "Mearachd API ris nach robh dùil"
 msgid "United States"
 msgstr "Stàitean Aonaichte"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "Dì-fho-sgrìobh"
 msgid "Untitled"
 msgstr "Gun tiotal"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "Ùraich na slighean"
 
@@ -2468,9 +2474,9 @@ msgstr "Chaidh {field} ùrachadh"
 msgid "Upload"
 msgstr "Luchdaich suas"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "Luchdaich suas tionndadh ùr"
 
@@ -2478,15 +2484,15 @@ msgstr "Luchdaich suas tionndadh ùr"
 msgid "Upload progress"
 msgstr "Adhartas an luchdaidh suas"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "Luchdaich suas an tionndadh"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "Luchdaich suas a' chiad togail agad"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "A' luchdadh suas..."
 
@@ -2500,7 +2506,7 @@ msgstr "Cleachd an iuchair-inntrigidh agad"
 msgid "User"
 msgstr "Cleachdaiche"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Is urrainn do luchd-cleachdaidh an aplacaid seo a stàladh le bhith a' cur a' cheangail seo a-steach air an duilleag Aplacaidean aca."
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "Dearbh seòladh puist-d"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "Chaidh tionndadh {0} a luchdadh suas"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "Eachdraidh nan tionndaidhean"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "Tionndaidhean"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "Diciadain"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "Tha"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "Tha, èignich"
 

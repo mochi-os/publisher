@@ -230,8 +230,8 @@ msgstr "Qualsevol persona que hagi iniciat sessió"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "Tot allò subscrit a aquest canal deixarà de rebre'l. Després en podreu copiar un URL nou."
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "Aplicació"
 
@@ -239,14 +239,14 @@ msgstr "Aplicació"
 msgid "App created"
 msgstr "Aplicació creada"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "Aplicació no trobada"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "ID de l'aplicació"
 
@@ -304,7 +304,7 @@ msgstr "Codi de l'autenticador"
 msgid "Available keyboard shortcuts"
 msgstr "Dreceres de teclat disponibles"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "Versions disponibles"
 
@@ -320,12 +320,12 @@ msgstr "Avatar de {name}"
 msgid "Back"
 msgstr "Enrere"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "Torna a les aplicacions"
 
@@ -334,16 +334,16 @@ msgstr "Torna a les aplicacions"
 msgid "Back to home"
 msgstr "Torna a l’inici"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "Bàner"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "Bàner eliminat"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "Bàner actualitzat"
 
@@ -378,7 +378,7 @@ msgstr "Color de la vora"
 msgid "Browser notifications"
 msgstr "Notificacions del navegador"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "Fitxer de compilació"
 
@@ -405,8 +405,8 @@ msgstr "Càmera no disponible"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "Cancel·la"
 
@@ -463,7 +463,7 @@ msgstr "Tria una partida de la barra lateral o inicia'n una de nova."
 msgid "Choose language"
 msgstr "Tria l'idioma"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "Copiat al porta-retalls"
 msgid "Copy"
 msgstr "Copia"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Copia aquest enllaç i enganxa'l a la pàgina d'Aplicacions del teu servidor Mochi per instal·lar-la."
 
@@ -661,7 +661,7 @@ msgstr "Crea {entityLabel}"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "Crea l'aplicació"
 
@@ -669,14 +669,14 @@ msgstr "Crea l'aplicació"
 msgid "Create new item"
 msgstr "Crea un element nou"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "Crea una Track"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "Crea la teva primera pista de publicació"
 
@@ -692,8 +692,8 @@ msgstr "S'ha creat {field}"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "S'està creant..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "Rebutja"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "Per defecte"
 
@@ -735,7 +735,7 @@ msgstr "Compte d'IA per defecte"
 msgid "Default sort"
 msgstr "Ordre per defecte"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "Track per defecte establert a «{track}»"
 
@@ -789,7 +789,7 @@ msgstr "Suprimeix l'opció"
 msgid "Delete option {0}"
 msgstr "Suprimeix l'opció {0}"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "Suprimeix la Track"
 
@@ -821,8 +821,8 @@ msgstr "Descendent"
 msgid "Description"
 msgstr "Descripció"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "Detalls"
 
@@ -867,11 +867,11 @@ msgstr "Descarta"
 msgid "Displays the mobile sidebar."
 msgstr "Mostra la barra lateral mòbil."
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "Distribució"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "Distribució establerta a {distribution}"
 
@@ -904,7 +904,7 @@ msgstr "Duplicats"
 msgid "Dyslexia-friendly"
 msgstr "Apte per a la dislèxia"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "p. ex. Staging"
 
@@ -955,7 +955,7 @@ msgstr "Correu electrònic"
 msgid "Email code"
 msgstr "Codi per correu"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "Introdueix el text del bàner (admet markdown)..."
 
@@ -1008,7 +1008,7 @@ msgstr "No s'ha pogut crear l'aplicació"
 msgid "Failed to create link"
 msgstr "No s'ha pogut crear l'enllaç"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "No s'ha pogut crear la pista"
 
@@ -1028,7 +1028,7 @@ msgstr "No s'ha pogut suprimir el comentari"
 msgid "Failed to delete link"
 msgstr "No s'ha pogut suprimir l'enllaç"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "No s'ha pogut suprimir la pista"
 
@@ -1040,7 +1040,11 @@ msgstr "No s'ha pogut obtenir el testimoni RSS"
 msgid "Failed to load"
 msgstr "No s'ha pogut carregar"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "No s'ha pogut carregar el bàner"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "No s'ha pogut carregar l'historial"
 
@@ -1085,11 +1089,11 @@ msgstr "No s'ha pogut desar"
 msgid "Failed to save prompt"
 msgstr "No s'ha pogut desar l'indicador"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "No s'ha pogut establir la pista per defecte"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "No s'ha pogut actualitzar el bàner"
 
@@ -1097,11 +1101,11 @@ msgstr "No s'ha pogut actualitzar el bàner"
 msgid "Failed to update comment"
 msgstr "No s'ha pogut actualitzar el comentari"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "No s'ha pogut actualitzar la distribució"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "No s'ha pogut actualitzar la pista"
 
@@ -1113,7 +1117,7 @@ msgstr "No s'ha pogut actualitzar el seguiment"
 msgid "Failed to upload attachment"
 msgstr "No s'ha pogut pujar l'adjunt"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "No s'ha pogut pujar la versió"
 
@@ -1123,8 +1127,8 @@ msgstr "No s'ha pogut pujar la versió"
 msgid "Files"
 msgstr "Fitxers"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "Empremta"
 
@@ -1178,7 +1182,7 @@ msgstr "Agrupa per"
 msgid "Group: {0}"
 msgstr "Grup: {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "Historial"
 
@@ -1197,7 +1201,7 @@ msgstr "Popular"
 msgid "ID"
 msgstr "ID"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "Identitat"
 
@@ -1214,7 +1218,7 @@ msgstr "Imperial"
 msgid "Including anonymous users"
 msgstr "Incloent-hi usuaris anònims"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "Versió inicial"
 
@@ -1226,11 +1230,11 @@ msgstr "Avatar amb inicials"
 msgid "Initials avatar for {name}"
 msgstr "Avatar amb inicials de {name}"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "Instal·la l'aplicació"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "Instal·la localment"
 
@@ -1271,7 +1275,7 @@ msgstr "Gran"
 msgid "Layout"
 msgstr "Disposició"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "Deixa-ho en blanc"
 
@@ -1299,7 +1303,7 @@ msgstr "Llista"
 msgid "Load more"
 msgstr "Carrega'n més"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "S'està carregant l'aplicació..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "Imatge següent"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "No"
 
@@ -1529,7 +1533,7 @@ msgstr "No s'ha trobat cap fus horari."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Encara no hi ha cap registre de tema; torna-ho a provar després de la pròxima notificació."
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "Sense pistes"
 
@@ -1541,11 +1545,11 @@ msgstr "Sense notificacions no llegides"
 msgid "No users found"
 msgstr "No s'ha trobat cap usuari"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "Sense versió"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "Sense versions"
 
@@ -1632,8 +1636,8 @@ msgstr "Obre les accions de l'opció"
 msgid "Open selected card"
 msgstr "Obre la targeta seleccionada"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "Obre les accions de la pista"
 
@@ -1706,7 +1710,7 @@ msgstr "Comproveu la connexió a Internet i torneu-ho a provar."
 msgid "Please enter an app name"
 msgstr "Introdueix un nom d'aplicació"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "Selecciona un fitxer"
 
@@ -1733,14 +1737,14 @@ msgstr "Imatge anterior"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "Privadesa"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "Privat"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "Propietats"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "Públic"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "Publicat"
 
@@ -1825,7 +1830,7 @@ msgstr "Relativa (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relativa en 24 hores, si no absoluta"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "Pistes de publicació"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "Abandonant..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "Restringit"
 
@@ -1969,7 +1975,7 @@ msgstr "Dissabte"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "Regles del servidor"
 msgid "Session expired. Please log in again."
 msgstr "La sessió ha caducat. Torneu a iniciar la sessió."
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "Estableix per defecte"
 
@@ -2136,7 +2142,7 @@ msgstr "Estableix origen i destinació"
 msgid "Settings"
 msgstr "Configuració"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "Compartint"
 
@@ -2230,7 +2236,7 @@ msgstr "Diumenge"
 msgid "Switch to view 1-9"
 msgstr "Canvia a la vista 1-9"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "La sol·licitud de micròfon no s'ha respost"
 msgid "The passkey request was not answered"
 msgstr "La sol·licitud de clau d'accés no s'ha respost"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "No s'ha pogut trobar l'aplicació sol·licitada."
 
@@ -2347,23 +2353,23 @@ msgstr "Massa sol·licituds"
 msgid "Top"
 msgstr "Amunt"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "Pista \"{track}\" eliminada"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Pista \"{track}\" actualitzada a {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "Pista creada"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "Nom de la pista"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "Pistes"
 
@@ -2431,7 +2437,7 @@ msgstr "Error inesperat de l'API"
 msgid "United States"
 msgstr "Estats Units"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "Cancel·la la subscripció"
 msgid "Untitled"
 msgstr "Sense títol"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "Actualitza les pistes"
 
@@ -2468,9 +2474,9 @@ msgstr "S'ha actualitzat {field}"
 msgid "Upload"
 msgstr "Puja"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "Puja una versió nova"
 
@@ -2478,15 +2484,15 @@ msgstr "Puja una versió nova"
 msgid "Upload progress"
 msgstr "Progrés de la pujada"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "Puja la versió"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "Puja la teva primera compilació"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "Pujant..."
 
@@ -2500,7 +2506,7 @@ msgstr "Utilitzeu la vostra clau d'accés"
 msgid "User"
 msgstr "Usuari"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Els usuaris poden instal·lar aquesta aplicació enganxant aquest enllaç a la seva pàgina d'Aplicacions."
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "Verifica l'adreça de correu electrònic"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "S'ha pujat la versió {0}"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "Historial de versions"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "Versions"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "Dimecres"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "Sí"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "Sí, força"
 

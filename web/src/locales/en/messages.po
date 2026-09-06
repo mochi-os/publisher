@@ -230,8 +230,8 @@ msgstr "Anyone who is logged in"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "App"
 
@@ -239,14 +239,14 @@ msgstr "App"
 msgid "App created"
 msgstr "App created"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "App not found"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "Application ID"
 
@@ -304,7 +304,7 @@ msgstr "Authenticator code"
 msgid "Available keyboard shortcuts"
 msgstr "Available keyboard shortcuts"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "Available versions"
 
@@ -320,12 +320,12 @@ msgstr "Avatar for {name}"
 msgid "Back"
 msgstr "Back"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "Back to apps"
 
@@ -334,16 +334,16 @@ msgstr "Back to apps"
 msgid "Back to home"
 msgstr "Back to home"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "Banner"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "Banner removed"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "Banner updated"
 
@@ -378,7 +378,7 @@ msgstr "Border colour"
 msgid "Browser notifications"
 msgstr "Browser notifications"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "Build file"
 
@@ -405,8 +405,8 @@ msgstr "Camera unavailable"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "Cancel"
 
@@ -463,7 +463,7 @@ msgstr "Choose a game from the sidebar or start a new one."
 msgid "Choose language"
 msgstr "Choose language"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "Copied to clipboard"
 msgid "Copy"
 msgstr "Copy"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Copy this link and paste it in your Mochi server's Apps page to install."
 
@@ -661,7 +661,7 @@ msgstr "Create {entityLabel}"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "Create app"
 
@@ -669,14 +669,14 @@ msgstr "Create app"
 msgid "Create new item"
 msgstr "Create new item"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "Create track"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "Create your first release track"
 
@@ -692,8 +692,8 @@ msgstr "Created {field}"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "Creating..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "Decline"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "Default"
 
@@ -735,7 +735,7 @@ msgstr "Default AI account"
 msgid "Default sort"
 msgstr "Default sort"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "Default track set to \"{track}\""
 
@@ -789,7 +789,7 @@ msgstr "Delete option"
 msgid "Delete option {0}"
 msgstr "Delete option {0}"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "Delete track"
 
@@ -821,8 +821,8 @@ msgstr "Descending"
 msgid "Description"
 msgstr "Description"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "Details"
 
@@ -867,11 +867,11 @@ msgstr "Dismiss"
 msgid "Displays the mobile sidebar."
 msgstr "Displays the mobile sidebar."
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "Distribution"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "Distribution set to {distribution}"
 
@@ -904,7 +904,7 @@ msgstr "Duplicates"
 msgid "Dyslexia-friendly"
 msgstr "Dyslexia-friendly"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "e.g. Staging"
 
@@ -955,7 +955,7 @@ msgstr "Email"
 msgid "Email code"
 msgstr "Email code"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "Enter banner text (markdown supported)..."
 
@@ -1008,7 +1008,7 @@ msgstr "Failed to create app"
 msgid "Failed to create link"
 msgstr "Failed to create link"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "Failed to create track"
 
@@ -1028,7 +1028,7 @@ msgstr "Failed to delete comment"
 msgid "Failed to delete link"
 msgstr "Failed to delete link"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "Failed to delete track"
 
@@ -1040,7 +1040,11 @@ msgstr "Failed to get RSS token"
 msgid "Failed to load"
 msgstr "Failed to load"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "Failed to load banner"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "Failed to load history"
 
@@ -1085,11 +1089,11 @@ msgstr "Failed to save"
 msgid "Failed to save prompt"
 msgstr "Failed to save prompt"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "Failed to set default track"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "Failed to update banner"
 
@@ -1097,11 +1101,11 @@ msgstr "Failed to update banner"
 msgid "Failed to update comment"
 msgstr "Failed to update comment"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "Failed to update distribution"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "Failed to update track"
 
@@ -1113,7 +1117,7 @@ msgstr "Failed to update watching"
 msgid "Failed to upload attachment"
 msgstr "Failed to upload attachment"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "Failed to upload version"
 
@@ -1123,8 +1127,8 @@ msgstr "Failed to upload version"
 msgid "Files"
 msgstr "Files"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "Fingerprint"
 
@@ -1178,7 +1182,7 @@ msgstr "Group by"
 msgid "Group: {0}"
 msgstr "Group: {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "History"
 
@@ -1197,7 +1201,7 @@ msgstr "Hot"
 msgid "ID"
 msgstr "ID"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "Identity"
 
@@ -1214,7 +1218,7 @@ msgstr "Imperial"
 msgid "Including anonymous users"
 msgstr "Including anonymous users"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "Initial version"
 
@@ -1226,11 +1230,11 @@ msgstr "Initials avatar"
 msgid "Initials avatar for {name}"
 msgstr "Initials avatar for {name}"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "Install app"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "Install locally"
 
@@ -1271,7 +1275,7 @@ msgstr "Large"
 msgid "Layout"
 msgstr "Layout"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "Leave empty"
 
@@ -1299,7 +1303,7 @@ msgstr "List"
 msgid "Load more"
 msgstr "Load more"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "Loading app..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "Next image"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "No"
 
@@ -1529,7 +1533,7 @@ msgstr "No time zone found."
 msgid "No topic record yet — try again after the next notification."
 msgstr "No topic record yet — try again after the next notification."
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "No tracks"
 
@@ -1541,11 +1545,11 @@ msgstr "No unread notifications"
 msgid "No users found"
 msgstr "No users found"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "No version"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "No versions"
 
@@ -1632,8 +1636,8 @@ msgstr "Open option actions"
 msgid "Open selected card"
 msgstr "Open selected card"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "Open track actions"
 
@@ -1706,7 +1710,7 @@ msgstr "Please check your internet connection and try again."
 msgid "Please enter an app name"
 msgstr "Please enter an app name"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "Please select a file"
 
@@ -1733,14 +1737,14 @@ msgstr "Previous image"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "Privacy"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "Private"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "Properties"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "Public"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "Published"
 
@@ -1825,7 +1830,7 @@ msgstr "Relative (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relative within 24 hours, else absolute"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "Release tracks"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "Resigning..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "Restricted"
 
@@ -1969,7 +1975,7 @@ msgstr "Saturday"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "Server rules"
 msgid "Session expired. Please log in again."
 msgstr "Session expired. Please log in again."
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "Set as default"
 
@@ -2136,7 +2142,7 @@ msgstr "Set origin and destination"
 msgid "Settings"
 msgstr "Settings"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "Sharing"
 
@@ -2230,7 +2236,7 @@ msgstr "Sunday"
 msgid "Switch to view 1-9"
 msgstr "Switch to view 1-9"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "The microphone request was not answered"
 msgid "The passkey request was not answered"
 msgstr "The passkey request was not answered"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "The requested app could not be found."
 
@@ -2347,23 +2353,23 @@ msgstr "Too many requests"
 msgid "Top"
 msgstr "Top"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "Track \"{track}\" deleted"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track \"{track}\" updated to {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "Track created"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "Track name"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "Tracks"
 
@@ -2431,7 +2437,7 @@ msgstr "Unexpected API error"
 msgid "United States"
 msgstr "United States"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "Unsubscribe"
 msgid "Untitled"
 msgstr "Untitled"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "Update tracks"
 
@@ -2468,9 +2474,9 @@ msgstr "Updated {field}"
 msgid "Upload"
 msgstr "Upload"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "Upload new version"
 
@@ -2478,15 +2484,15 @@ msgstr "Upload new version"
 msgid "Upload progress"
 msgstr "Upload progress"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "Upload version"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "Upload your first build"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "Uploading..."
 
@@ -2500,7 +2506,7 @@ msgstr "Use your passkey"
 msgid "User"
 msgstr "User"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Users can install this application by pasting this link into their Apps page."
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "Verify email address"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "Version {0} uploaded"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "Version history"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "Versions"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "Wednesday"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "Yes"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "Yes, force"
 

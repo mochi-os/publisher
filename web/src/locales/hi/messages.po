@@ -230,8 +230,8 @@ msgstr "कोई भी जो लॉग इन है"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "इस फ़ीड की सदस्यता लेने वाली हर चीज़ इसे मिलना बंद हो जाएगी। बाद में आप नया URL कॉपी कर सकते हैं।"
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "ऐप"
 
@@ -239,14 +239,14 @@ msgstr "ऐप"
 msgid "App created"
 msgstr "ऐप बनाया गया"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "ऐप नहीं मिला"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "एप्लिकेशन ID"
 
@@ -304,7 +304,7 @@ msgstr "ऑथेंटिकेटर कोड"
 msgid "Available keyboard shortcuts"
 msgstr "उपलब्ध कीबोर्ड शॉर्टकट"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "उपलब्ध वर्शन"
 
@@ -320,12 +320,12 @@ msgstr "{name} के लिए अवतार"
 msgid "Back"
 msgstr "वापस"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "ऐप्स पर वापस"
 
@@ -334,16 +334,16 @@ msgstr "ऐप्स पर वापस"
 msgid "Back to home"
 msgstr "होम पर वापस जाएँ"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "बैनर"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "बैनर हटाया गया"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "बैनर अपडेट किया गया"
 
@@ -378,7 +378,7 @@ msgstr "बॉर्डर रंग"
 msgid "Browser notifications"
 msgstr "ब्राउज़र नोटिफ़िकेशन"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "बिल्ड फ़ाइल"
 
@@ -405,8 +405,8 @@ msgstr "कैमरा उपलब्ध नहीं"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "रद्द करें"
 
@@ -463,7 +463,7 @@ msgstr "साइडबार से एक गेम चुनें या न
 msgid "Choose language"
 msgstr "भाषा चुनें"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "क्लिपबोर्ड पर कॉपी किया गय�
 msgid "Copy"
 msgstr "कॉपी करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "इस लिंक को कॉपी करें और इंस्टॉल करने के लिए अपने Mochi सर्वर के ऐप्स पेज में पेस्ट करें।"
 
@@ -661,7 +661,7 @@ msgstr "{entityLabel} बनाएँ"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "ऐप बनाएँ"
 
@@ -669,14 +669,14 @@ msgstr "ऐप बनाएँ"
 msgid "Create new item"
 msgstr "नया आइटम बनाएँ"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "ट्रैक बनाएँ"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "अपना पहला रिलीज़ ट्रैक बनाएँ"
 
@@ -692,8 +692,8 @@ msgstr "{field} बनाया गया"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "बना रहे हैं..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "अस्वीकार करें"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "डिफ़ॉल्ट"
 
@@ -735,7 +735,7 @@ msgstr "डिफ़ॉल्ट AI अकाउंट"
 msgid "Default sort"
 msgstr "डिफ़ॉल्ट सॉर्ट"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "डिफ़ॉल्ट ट्रैक \"{track}\" पर सेट किया गया"
 
@@ -789,7 +789,7 @@ msgstr "विकल्प हटाएँ"
 msgid "Delete option {0}"
 msgstr "विकल्प {0} हटाएँ"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "ट्रैक हटाएँ"
 
@@ -821,8 +821,8 @@ msgstr "अवरोही"
 msgid "Description"
 msgstr "विवरण"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "विवरण"
 
@@ -867,11 +867,11 @@ msgstr "खारिज करें"
 msgid "Displays the mobile sidebar."
 msgstr "मोबाइल साइडबार प्रदर्शित करता है।"
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "वितरण"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "वितरण {distribution} पर सेट किया गया"
 
@@ -904,7 +904,7 @@ msgstr "डुप्लिकेट"
 msgid "Dyslexia-friendly"
 msgstr "डिस्लेक्सिया-अनुकूल"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "उदा. Staging"
 
@@ -955,7 +955,7 @@ msgstr "ईमेल"
 msgid "Email code"
 msgstr "ईमेल कोड"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "बैनर टेक्स्ट दर्ज करें (मार्कडाउन समर्थित)..."
 
@@ -1008,7 +1008,7 @@ msgstr "ऐप बनाने में विफल"
 msgid "Failed to create link"
 msgstr "लिंक बनाने में विफल"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "ट्रैक बनाने में विफल"
 
@@ -1028,7 +1028,7 @@ msgstr "टिप्पणी हटाने में विफल"
 msgid "Failed to delete link"
 msgstr "लिंक हटाने में विफल"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "ट्रैक हटाने में विफल"
 
@@ -1040,7 +1040,11 @@ msgstr "RSS टोकन प्राप्त करने में विफ�
 msgid "Failed to load"
 msgstr "लोड करने में विफल"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "बैनर लोड नहीं हो सका"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "इतिहास लोड करने में विफल"
 
@@ -1085,11 +1089,11 @@ msgstr "सहेजने में विफल"
 msgid "Failed to save prompt"
 msgstr "प्रॉम्प्ट सहेजने में विफल"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "डिफ़ॉल्ट ट्रैक सेट करने में विफल"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "बैनर अपडेट करने में विफल"
 
@@ -1097,11 +1101,11 @@ msgstr "बैनर अपडेट करने में विफल"
 msgid "Failed to update comment"
 msgstr "टिप्पणी अपडेट करने में विफल"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "वितरण अपडेट करने में विफल"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "ट्रैक अपडेट करने में विफल"
 
@@ -1113,7 +1117,7 @@ msgstr "निगरानी अपडेट करने में विफ�
 msgid "Failed to upload attachment"
 msgstr "अनुलग्नक अपलोड करने में विफल"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "वर्शन अपलोड करने में विफल"
 
@@ -1123,8 +1127,8 @@ msgstr "वर्शन अपलोड करने में विफल"
 msgid "Files"
 msgstr "फ़ाइलें"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "फिंगरप्रिंट"
 
@@ -1178,7 +1182,7 @@ msgstr "इसके अनुसार समूहित करें"
 msgid "Group: {0}"
 msgstr "समूह: {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "इतिहास"
 
@@ -1197,7 +1201,7 @@ msgstr "हॉट"
 msgid "ID"
 msgstr "आईडी"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "पहचान"
 
@@ -1214,7 +1218,7 @@ msgstr "इम्पीरियल"
 msgid "Including anonymous users"
 msgstr "अनाम उपयोगकर्ताओं सहित"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "प्रारंभिक वर्शन"
 
@@ -1226,11 +1230,11 @@ msgstr "आद्याक्षर अवतार"
 msgid "Initials avatar for {name}"
 msgstr "{name} के लिए आद्याक्षर अवतार"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "ऐप इंस्टॉल करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "स्थानीय रूप से इंस्टॉल करें"
 
@@ -1271,7 +1275,7 @@ msgstr "बड़ा"
 msgid "Layout"
 msgstr "लेआउट"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "खाली छोड़ें"
 
@@ -1299,7 +1303,7 @@ msgstr "सूची"
 msgid "Load more"
 msgstr "और लोड करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "ऐप लोड हो रहा है..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "अगली इमेज"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "नहीं"
 
@@ -1529,7 +1533,7 @@ msgstr "कोई टाइम ज़ोन नहीं मिला।"
 msgid "No topic record yet — try again after the next notification."
 msgstr "अभी तक कोई टॉपिक रिकॉर्ड नहीं — अगले नोटिफ़िकेशन के बाद फिर से प्रयास करें।"
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "कोई ट्रैक नहीं"
 
@@ -1541,11 +1545,11 @@ msgstr "कोई अनपढ़ी नोटिफ़िकेशन नही
 msgid "No users found"
 msgstr "कोई यूज़र नहीं मिले"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "कोई वर्शन नहीं"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "कोई वर्शन नहीं"
 
@@ -1632,8 +1636,8 @@ msgstr "विकल्प क्रियाएँ खोलें"
 msgid "Open selected card"
 msgstr "चयनित कार्ड खोलें"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "ट्रैक क्रियाएँ खोलें"
 
@@ -1706,7 +1710,7 @@ msgstr "कृपया अपना इंटरनेट कनेक्शन
 msgid "Please enter an app name"
 msgstr "कृपया ऐप नाम दर्ज करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "कृपया एक फ़ाइल चुनें"
 
@@ -1733,14 +1737,14 @@ msgstr "पिछली इमेज"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "गोपनीयता"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "निजी"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "गुण"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "सार्वजनिक"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "पब्लिश किया गया"
 
@@ -1825,7 +1830,7 @@ msgstr "सापेक्ष (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24 घंटे के भीतर सापेक्ष, अन्यथा निरपेक्ष"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "रिलीज़ ट्रैक"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "हार मान रहे हैं..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "प्रतिबंधित"
 
@@ -1969,7 +1975,7 @@ msgstr "शनिवार"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "सर्वर के नियम"
 msgid "Session expired. Please log in again."
 msgstr "सत्र समाप्त हो गया है। कृपया फिर से लॉग इन करें।"
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "डिफ़ॉल्ट के रूप में सेट करें"
 
@@ -2136,7 +2142,7 @@ msgstr "स्रोत और गंतव्य सेट करें"
 msgid "Settings"
 msgstr "सेटिंग्स"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "शेयरिंग"
 
@@ -2230,7 +2236,7 @@ msgstr "रविवार"
 msgid "Switch to view 1-9"
 msgstr "व्यू 1-9 पर स्विच करें"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "माइक्रोफ़ोन अनुरोध का उत्त
 msgid "The passkey request was not answered"
 msgstr "पासकी अनुरोध का उत्तर नहीं मिला"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "अनुरोधित ऐप नहीं मिला।"
 
@@ -2347,23 +2353,23 @@ msgstr "बहुत अधिक अनुरोध"
 msgid "Top"
 msgstr "टॉप"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "ट्रैक \"{track}\" डिलीट किया गया"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "ट्रैक \"{track}\" को {version} पर अपडेट किया गया"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "ट्रैक बनाया गया"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "ट्रैक का नाम"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "ट्रैक"
 
@@ -2431,7 +2437,7 @@ msgstr "अप्रत्याशित API त्रुटि"
 msgid "United States"
 msgstr "संयुक्त राज्य अमेरिका"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "अनसब्सक्राइब करें"
 msgid "Untitled"
 msgstr "शीर्षकहीन"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "ट्रैक अपडेट करें"
 
@@ -2468,9 +2474,9 @@ msgstr "{field} अपडेट किया गया"
 msgid "Upload"
 msgstr "अपलोड करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "नया वर्शन अपलोड करें"
 
@@ -2478,15 +2484,15 @@ msgstr "नया वर्शन अपलोड करें"
 msgid "Upload progress"
 msgstr "अपलोड प्रगति"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "संस्करण अपलोड करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "अपना पहला बिल्ड अपलोड करें"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "अपलोड किया जा रहा है..."
 
@@ -2500,7 +2506,7 @@ msgstr "अपनी पासकी का उपयोग करें"
 msgid "User"
 msgstr "यूज़र"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "उपयोगकर्ता इस लिंक को अपने ऐप्स पेज पर पेस्ट करके यह एप्लिकेशन इंस्टॉल कर सकते हैं।"
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "ईमेल पता वेरिफ़ाई करें"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "वर्शन {0} अपलोड हुआ"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "वर्शन इतिहास"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "वर्शन"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "बुधवार"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "हाँ"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "हाँ, ज़बरदस्ती करें"
 

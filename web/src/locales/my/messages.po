@@ -230,8 +230,8 @@ msgstr "ဝင်ရောက်ထားသူ မည်သူမဆို"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "ဤဖိဒ်ကို စာရင်းသွင်းထားသည့် အရာအားလုံး လက်ခံရရှိမှု ရပ်တန့်ပါမည်။ ထို့နောက် URL အသစ်ကို ကူးယူနိုင်ပါသည်။"
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "App"
 
@@ -239,14 +239,14 @@ msgstr "App"
 msgid "App created"
 msgstr "App ဖန်တီးပြီး"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "App မတွေ့ရှိပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "Application ID"
 
@@ -304,7 +304,7 @@ msgstr "Authenticator ကုဒ်"
 msgid "Available keyboard shortcuts"
 msgstr "ရရှိနိုင်သော ကီးဘုတ်ဖြတ်လမ်းများ"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "ရရှိနိုင်သော ဗားရှင်းများ"
 
@@ -320,12 +320,12 @@ msgstr "{name} အတွက် အသွင်ပုံ"
 msgid "Back"
 msgstr "နောက်သို့"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "app များသို့ ပြန်သွားမည်"
 
@@ -334,16 +334,16 @@ msgstr "app များသို့ ပြန်သွားမည်"
 msgid "Back to home"
 msgstr "ပင်မစာမျက်နှာ သို့ပြန်သွားရန်"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "ပိုစတာ"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "ပိုစတာ ဖယ်ရှားပြီး"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "ပိုစတာ ပြောင်းပြီး"
 
@@ -378,7 +378,7 @@ msgstr "ဘောင်အရောင်"
 msgid "Browser notifications"
 msgstr "Browser အကြောင်းကြားချက်များ"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "Build ဖိုင်"
 
@@ -405,8 +405,8 @@ msgstr "ကင်မရာ မရနိုင်ပါ"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "မလုပ်တော့ပါ"
 
@@ -463,7 +463,7 @@ msgstr "ဘေးဘားမှ ဂိမ်းတစ်ခုကို ရွ�
 msgid "Choose language"
 msgstr "ဘာသာစကား ရွေးချယ်ပါ"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "ကလစ်ဘုတ်သို့ ကူးပြီး"
 msgid "Copy"
 msgstr "ကူးမည်"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "ဤလင့်ခ်ကို ကူးယူပြီး ထည့်သွင်းရန် သင်၏ Mochi ဆာဗာ၏ Apps စာမျက်နှာတွင် ပွားကပ်ပါ။"
 
@@ -661,7 +661,7 @@ msgstr "{entityLabel} ဖန်တီးရန်"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "app ဖန်တီးမည်"
 
@@ -669,14 +669,14 @@ msgstr "app ဖန်တီးမည်"
 msgid "Create new item"
 msgstr "အရာအသစ် ဖန်တီးမည်"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "Track ဖန်တီးမည်"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "သင်၏ ပထမဆုံး ထုတ်ဝေမှု track ကို ဖန်တီးပါ"
 
@@ -692,8 +692,8 @@ msgstr "{field} ကို ဖန်တီးခဲ့သည်"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "ဖန်တီးနေသည်..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "ငြင်းပယ်မည်"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "မူရင်း"
 
@@ -735,7 +735,7 @@ msgstr "မူရင်း AI အကောင့်"
 msgid "Default sort"
 msgstr "မူရင်း sort"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "မူရင်း track ကို \"{track}\" သို့ သတ်မှတ်ပြီး"
 
@@ -789,7 +789,7 @@ msgstr "ရွေးချယ်စရာ ဖျက်မည်"
 msgid "Delete option {0}"
 msgstr "ရွေးချယ်စရာ {0} ဖျက်မည်"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "Track ဖျက်မည်"
 
@@ -821,8 +821,8 @@ msgstr "ကြီးစဉ်ငယ်လိုက်"
 msgid "Description"
 msgstr "ဖော်ပြချက်"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "အသေးစိတ်များ"
 
@@ -867,11 +867,11 @@ msgstr "ပယ်မည်"
 msgid "Displays the mobile sidebar."
 msgstr "မိုဘိုင်း ဘေးဘားကို ပြသသည်။"
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "ဖြန့်ချိမှု"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "ဖြန့်ချိမှုကို {distribution} သို့ သတ်မှတ်ပြီး"
 
@@ -904,7 +904,7 @@ msgstr "ထပ်နေသော"
 msgid "Dyslexia-friendly"
 msgstr "စာဖတ်ရခက်သူများအတွက်ရိုးရှင်း"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "ဥပမာ Staging"
 
@@ -955,7 +955,7 @@ msgstr "အီးမေးလ်"
 msgid "Email code"
 msgstr "အီးမေးလ် ကုဒ်"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "ဘန်နာ စာသား ထည့်ပါ (markdown ပံ့ပိုးသည်)..."
 
@@ -1008,7 +1008,7 @@ msgstr "အက်ပ် ဖန်တီး၍ မရပါ"
 msgid "Failed to create link"
 msgstr "လင့် ဖန်တီး၍ မရပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "လမ်းကြောင်း ဖန်တီး၍ မရပါ"
 
@@ -1028,7 +1028,7 @@ msgstr "မှတ်ချက် ဖျက်၍ မရပါ"
 msgid "Failed to delete link"
 msgstr "လင့် ဖျက်၍ မရပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "လမ်းကြောင်း ဖျက်၍ မရပါ"
 
@@ -1040,7 +1040,11 @@ msgstr "RSS တိုကင် ရယူ၍ မရပါ"
 msgid "Failed to load"
 msgstr "တင်၍ မရပါ"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "ဘန်နာကို ဖွင့်၍မရပါ"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "မှတ်တမ်း တင်၍ မရပါ"
 
@@ -1085,11 +1089,11 @@ msgstr "သိမ်း၍ မရပါ"
 msgid "Failed to save prompt"
 msgstr "လမ်းညွှန် သိမ်း၍ မရပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "ပုံသေ လမ်းကြောင်း သတ်မှတ်၍ မရပါ"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "ဘန်နာ ပြင်ဆင်၍ မရပါ"
 
@@ -1097,11 +1101,11 @@ msgstr "ဘန်နာ ပြင်ဆင်၍ မရပါ"
 msgid "Failed to update comment"
 msgstr "မှတ်ချက် ပြင်ဆင်၍ မရပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "ဖြန့်ဖြူးမှု ပြင်ဆင်၍ မရပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "လမ်းကြောင်း ပြင်ဆင်၍ မရပါ"
 
@@ -1113,7 +1117,7 @@ msgstr "စောင့်ကြည့်မှု အပ်ဒိတ်လု�
 msgid "Failed to upload attachment"
 msgstr "တွဲဖက်ဖိုင် တင်၍ မရပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "ဗားရှင်း တင်၍ မရပါ"
 
@@ -1123,8 +1127,8 @@ msgstr "ဗားရှင်း တင်၍ မရပါ"
 msgid "Files"
 msgstr "ဖိုင်များ"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "လက်ဗွေ"
 
@@ -1178,7 +1182,7 @@ msgstr "အလိုက် အုပ်စုဖွဲ့ရန်"
 msgid "Group: {0}"
 msgstr "အုပ်စု- {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "မှတ်တမ်း"
 
@@ -1197,7 +1201,7 @@ msgstr "လူကြိုက်များ"
 msgid "ID"
 msgstr "ID"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "ကိုယ်ပိုင်"
 
@@ -1214,7 +1218,7 @@ msgstr "Imperial"
 msgid "Including anonymous users"
 msgstr "အမည်မသိအသုံးပြုသူများအပါအဝင်"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "ကနဦး ဗားရှင်း"
 
@@ -1226,11 +1230,11 @@ msgstr "အမည်အစအက္ခရာ အသွင်ပုံ"
 msgid "Initials avatar for {name}"
 msgstr "{name} အတွက် အမည်အစအက္ခရာ အသွင်ပုံ"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "အက်ပ်ကို ထည့်သွင်းပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "စက်တွင်း ထည့်သွင်းပါ"
 
@@ -1271,7 +1275,7 @@ msgstr "ကြီး"
 msgid "Layout"
 msgstr "အပြင်အဆင်"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "ဗလာထား"
 
@@ -1299,7 +1303,7 @@ msgstr "စာရင်း"
 msgid "Load more"
 msgstr "ထပ်တင်"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "အက်ပ် တင်နေသည်..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "နောက်ပုံ"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "မဟုတ်"
 
@@ -1529,7 +1533,7 @@ msgstr "အချိန်ဇုန် မတွေ့ပါ။"
 msgid "No topic record yet — try again after the next notification."
 msgstr "topic မှတ်တမ်း မရှိသေးပါ — နောက်အသိပေးချက်ပြီးနောက် ထပ်စမ်းကြည့်ပါ။"
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "track များ မရှိ"
 
@@ -1541,11 +1545,11 @@ msgstr "ဖတ်မပြီးသေးသော အသိပေးချက�
 msgid "No users found"
 msgstr "သုံးစွဲသူများ မတွေ့ပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "version မရှိ"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "version များ မရှိ"
 
@@ -1632,8 +1636,8 @@ msgstr "ရွေးချယ်စရာ လုပ်ဆောင်ချက�
 msgid "Open selected card"
 msgstr "ရွေးချယ်ထားသော card ကို ဖွင့်"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "track လုပ်ဆောင်ချက်များကို ဖွင့်"
 
@@ -1706,7 +1710,7 @@ msgstr "သင့်အင်တာနက်ချိတ်ဆက်မှုက
 msgid "Please enter an app name"
 msgstr "app အမည် ရိုက်ထည့်ပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "ဖိုင်တစ်ခု ရွေးချယ်ပါ"
 
@@ -1733,14 +1737,14 @@ msgstr "ယခင်ပုံ"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "ကိုယ်ရေးကိုယ်တာ"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "သီးသန့်"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "ဂုဏ်သတ္တိများ"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "အများသုံး"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "ထုတ်ဝေပြီးသည်"
 
@@ -1825,7 +1830,7 @@ msgstr "ဆက်စပ် (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "၂၄ နာရီအတွင်း ဆက်စပ်၊ ပြင်ပတွင် တိကျသော"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "ထုတ်ဝေမှု track များ"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "ရှုံးကြောင်းပြောနေသည်..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "ကန့်သတ်ထား"
 
@@ -1969,7 +1975,7 @@ msgstr "စနေနေ့"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "ဆာဗာ စည်းမျဉ်းများ"
 msgid "Session expired. Please log in again."
 msgstr "စက်ရှင်သက်တမ်း ကုန်သွားပါပြီ။ ကျေးဇူးပြု၍ ထပ်မံ အကောင့်ဝင်ပါ။"
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "ပုံသေအဖြစ် သတ်မှတ်မည်"
 
@@ -2136,7 +2142,7 @@ msgstr "မူရင်းနှင့် ဦးတည်ရာ သတ်မှ�
 msgid "Settings"
 msgstr "ဆက်တင်များ"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "မျှဝေခြင်း"
 
@@ -2230,7 +2236,7 @@ msgstr "တနင်္ဂနွေ"
 msgid "Switch to view 1-9"
 msgstr "ကြည့်ရှုခြင်း 1-9 သို့ ပြောင်းမည်"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "မိုက်ခရိုဖုန်း တောင်းဆို�
 msgid "The passkey request was not answered"
 msgstr "Passkey တောင်းဆိုမှုကို မဖြေကြားခဲ့ပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "တောင်းဆိုထားသော app ကို မတွေ့ပါ။"
 
@@ -2347,23 +2353,23 @@ msgstr "တောင်းဆိုမှု များလွန်းနေ�
 msgid "Top"
 msgstr "ထိပ်"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "Track \"{track}\" ဖျက်ပြီး"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track \"{track}\" ကို {version} သို့ အပ်ဒိတ်လုပ်ပြီး"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "Track ဖန်တီးပြီး"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "Track အမည်"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "Track များ"
 
@@ -2431,7 +2437,7 @@ msgstr "မမျှော်လင့်သော API အမှား"
 msgid "United States"
 msgstr "United States"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "Subscribe ဖြုတ်မည်"
 msgid "Untitled"
 msgstr "ခေါင်းစဉ်မရှိ"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "Track များကို အပ်ဒိတ်လုပ်ပါ"
 
@@ -2468,9 +2474,9 @@ msgstr "{field} ကို အပ်ဒိတ်လုပ်ခဲ့သည်"
 msgid "Upload"
 msgstr "Upload လုပ်မည်"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "ဗားရှင်းအသစ် Upload လုပ်မည်"
 
@@ -2478,15 +2484,15 @@ msgstr "ဗားရှင်းအသစ် Upload လုပ်မည်"
 msgid "Upload progress"
 msgstr "အပ်လုဒ်တိုးတက်မှု"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "ဗားရှင်း တင်ပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "သင်၏ ပထမဆုံး build ကို upload လုပ်ပါ"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "Upload လုပ်နေသည်..."
 
@@ -2500,7 +2506,7 @@ msgstr "သင့်ပတ်စ်ကီးကို သုံးပါ"
 msgid "User"
 msgstr "သုံးစွဲသူ"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "အသုံးပြုသူများသည် ဤလင့်ခ်ကို ၎င်းတို့၏ Apps စာမျက်နှာတွင် ပွားကပ်ပြီး ဤအပလီကေးရှင်းကို ထည့်သွင်းနိုင်ပါသည်။"
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "အီးမေးလ် လိပ်စာ အတည်ပြုမည်"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "ဗားရှင်း {0} upload လုပ်ပြီးပါပြီ"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "ဗားရှင်း မှတ်တမ်း"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "ဗားရှင်းများ"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "ဗုဒ္ဓဟူး"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "ဟုတ်"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "ဟုတ်ပြီ၊ တွန်းပါ"
 

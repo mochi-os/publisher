@@ -23,12 +23,36 @@ def version_greater(a, b):
 	pa = a.split(".")
 	pb = b.split(".")
 	for i in range(max(len(pa), len(pb))):
-		na = int(pa[i]) if i < len(pa) and decimal(pa[i]) else 0
-		nb = int(pb[i]) if i < len(pb) and decimal(pb[i]) else 0
+		na = version_number(pa[i]) if i < len(pa) else 0
+		nb = version_number(pb[i]) if i < len(pb) else 0
 		if na > nb:
 			return True
 		if na < nb:
 			return False
+	# Numerically equal. A bare version outranks a suffixed one (2.0 is the
+	# release 2.0-rc2 led up to), and two suffixed versions order by their
+	# text, so retention keeps 2.0-rc2 over 2.0-rc1 rather than whichever row
+	# SQLite happened to return first. The web's compareVersions mirrors this.
+	sa = version_suffixed(pa)
+	sb = version_suffixed(pb)
+	if sa != sb:
+		return sb
+	return sa and a > b
+
+# The numeric value of one version segment: its leading digits, 0 if none.
+def version_number(segment):
+	digits = ""
+	for c in segment.elems():
+		if c < "0" or c > "9":
+			break
+		digits += c
+	return int(digits) if digits else 0
+
+# True if any segment carries more than digits (2.0-rc1, 1.0b).
+def version_suffixed(parts):
+	for p in parts:
+		if not decimal(p):
+			return True
 	return False
 
 # A track name is at most 50 characters of letters, digits, "-" and "_" -
@@ -116,18 +140,24 @@ def package_readable(file):
 			return True
 	return False
 
+# Staging archives younger than this are left alone: one may be in flight for
+# a concurrent upload by the same user, and sweeping it failed that upload
+# between its write and its reads. Anything older is an orphan.
+UPLOAD_GRACE = 3600
+
 def sweep_uploads(keep):
-	# Clear staging archives orphaned by an earlier run. Anything in flight for
-	# a concurrent upload by the same user goes too, which is the same trade
-	# apps/apps.star makes in sweep_packages(); the alternative is leaking them
-	# forever, which is what happened before.
+	# Clear staging archives orphaned by an earlier run: an aborted install
+	# leaves its archive behind, and unswept they would accumulate forever.
 	for file in mochi.file.list("") or []:
-		if file != keep and file.startswith("upload_") and file.endswith(".zip"):
+		if file == keep or not file.startswith("upload_") or not file.endswith(".zip"):
+			continue
+		age = mochi.file.age(file)
+		if age != None and age > UPLOAD_GRACE:
 			mochi.file.delete(file)
 
 def require_owned_app(a):
 	id = a.input("app")
-	if not id or not (mochi.text.valid(id, "entity") or mochi.text.valid(id, "fingerprint")):
+	if not id or not mochi.text.valid(id, "entity"):
 		a.error.label(400, "errors.invalid_app_id")
 		return None
 	if not mochi.entity.get(id):
@@ -153,7 +183,7 @@ def action_share(a):
 	id = a.input("app")
 	# mochi.remote.stream below aborts the action with a 500 on a malformed id,
 	# and this route is public. Same guard as require_owned_app.
-	if not id or not (mochi.text.valid(id, "entity") or mochi.text.valid(id, "fingerprint")):
+	if not id or not mochi.text.valid(id, "entity"):
 		a.error.label(400, "errors.invalid_app_id")
 		return
 
@@ -232,14 +262,12 @@ def action_view(a):
 	# then aborted on the default with nothing recorded.
 	administrator = a.user.role == "administrator" if a.user else False
 
-	# Not the owner: public share info only (filter empty tracks). Restricted
-	# apps deny existence to non-owners so they have no public share page.
+	# This view reads the caller's own database, so a row here whose entity the
+	# caller no longer owns is the leftover of a deleted entity, not another
+	# publisher's app - the share page is action_share's job. Not manageable.
 	if not owned:
-		if app.get("distribution") == "restricted":
-			a.error.label(404, "errors.app_not_found")
-			return
-		tracks = [t for t in tracks_all if t.get("version")]
-		return {"data": {"app": app, "tracks": tracks, "versions": [], "administrator": False, "share": True, "publisher": publisher}}
+		a.error.label(404, "errors.app_not_found")
+		return
 
 	# The owner gets full management info, including empty tracks.
 	# No SQL order-by: version is a text column, so SQLite sorts it lexically
@@ -318,7 +346,7 @@ def action_version_create(a):
 	# archives let two versions or two apps share one file (overwritten bytes,
 	# cross-linked rows, pruning a still-referenced zip).
 	if not a.input("file"):
-		a.error.label(400, "errors.file_name_invalid")
+		a.error.label(400, "errors.no_file_provided")
 		return
 
 	file = "upload_" + mochi.random.alphanumeric(8) + ".zip"
@@ -373,11 +401,12 @@ def action_version_create(a):
 	version = mochi.app.package.install(app["id"], file, not install)
 
 	# Store the archive under a name derived from the app and version, so
-	# different apps and versions can never collide and re-uploading the same
-	# version overwrites its archive in place (same-version redeploys).
+	# different apps and versions can never collide. The staging archive is the
+	# upload, so it is renamed into place rather than written a second time;
+	# move replaces an existing file, so re-uploading the same version still
+	# overwrites its archive in place (same-version redeploys).
 	storage = app["id"] + "_" + version + ".zip"
-	a.upload("file", storage)
-	mochi.file.delete(file)
+	mochi.file.move(file, storage)
 
 	# Repoint the version row at this archive. A re-upload can leave a
 	# previous archive under a legacy client-supplied name; delete it once no
@@ -500,6 +529,9 @@ def action_track_delete(a):
 		a.error.label(400, "errors.cannot_delete_the_default_track")
 		return
 
+	if not mochi.db.row("select 1 from tracks where app=? and track=?", id, track):
+		a.error.label(404, "errors.track_not_found")
+		return
 	mochi.db.execute("delete from tracks where app=? and track=?", id, track)
 	return {"data": {"deleted": track}}
 
@@ -537,12 +569,16 @@ def event_information(e):
 	# content) keep working. The @publisher flow needs the explicit field
 	# because the stream target is the publisher entity, not the app.
 	app_id = e.content("app") or e.header("to")
-	if not app_id or len(app_id) > 51:
+	if type(app_id) != "string" or not app_id or len(app_id) > 51:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
 	if not a:
 		return e.write({"status": "404", "message": "App not found"})
-	if a.get("distribution") == "restricted":
+	# See event_get: an in-process caller - this host's own apps app looking an
+	# app up or installing it by link - may read a restricted app's metadata,
+	# as it may already read its versions and fetch its package; remote peers
+	# are still refused.
+	if a.get("distribution") == "restricted" and not e.header("local"):
 		return e.write({"status": "403", "message": "This app is private"})
 
 	e.write({"status": "200"})
@@ -554,7 +590,7 @@ def event_information(e):
 # Apps with distribution='restricted' refuse to serve the package to remote callers.
 def event_get(e):
 	app_id = e.content("app") or e.header("to")
-	if not app_id:
+	if type(app_id) != "string" or not app_id or len(app_id) > 51:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
 	if not a:
@@ -566,7 +602,7 @@ def event_get(e):
 		return e.write({"status": "403", "message": "This app is private"})
 
 	version = e.content("version")
-	if not version or len(version) > 50:
+	if type(version) != "string" or not version or len(version) > 50:
 		return e.write({"status": "400", "message": "Invalid version"})
 
 	v = mochi.db.row("select * from versions where app=? and version=?", a["id"], version)
@@ -585,7 +621,7 @@ def event_get(e):
 # If no track specified, uses the app's default track
 def event_version(e):
 	app_id = e.content("app") or e.header("to")
-	if not app_id:
+	if type(app_id) != "string" or not app_id or len(app_id) > 51:
 		return e.write({"status": "400", "message": "App ID required"})
 	a = mochi.db.row("select * from apps where id=?", app_id)
 	if not a:
@@ -600,7 +636,7 @@ def event_version(e):
 	track = e.content("track", "")
 	if not track:
 		track = a["default_track"]
-	if len(track) > 50:
+	if type(track) != "string" or len(track) > 50:
 		return e.write({"status": "400", "message": "Invalid track"})
 
 	t = mochi.db.row("select version from tracks where app=? and track=?", a["id"], track)

@@ -230,8 +230,8 @@ msgstr "ნებისმიერი, ვინც შესულია"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "ყველაფერი, რაც ამ არხზეა გამოწერილი, შეწყვეტს მის მიღებას. შემდეგ შეგიძლიათ დააკოპიროთ ახალი URL."
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "აპი"
 
@@ -239,14 +239,14 @@ msgstr "აპი"
 msgid "App created"
 msgstr "აპი შექმნილია"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "აპი ვერ მოიძებნა"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "აპლიკაციის ID"
 
@@ -304,7 +304,7 @@ msgstr "Authenticator-ის კოდი"
 msgid "Available keyboard shortcuts"
 msgstr "ხელმისაწვდომი კლავიატურის მალსახმობები"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "ხელმისაწვდომი ვერსიები"
 
@@ -320,12 +320,12 @@ msgstr "{name}-ის ავატარი"
 msgid "Back"
 msgstr "უკან"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "უკან აპებში"
 
@@ -334,16 +334,16 @@ msgstr "უკან აპებში"
 msgid "Back to home"
 msgstr "მთავარზე დაბრუნება"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "ბანერი"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "ბანერი წაიშალა"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "ბანერი განახლდა"
 
@@ -378,7 +378,7 @@ msgstr "კონტურის ფერი"
 msgid "Browser notifications"
 msgstr "ბრაუზერის შეტყობინებები"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "ბილდის ფაილი"
 
@@ -405,8 +405,8 @@ msgstr "კამერა მიუწვდომელია"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "გაუქმება"
 
@@ -463,7 +463,7 @@ msgstr "აირჩიეთ თამაში გვერდითა პა
 msgid "Choose language"
 msgstr "აირჩიეთ ენა"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "ბუფერში დაკოპირდა"
 msgid "Copy"
 msgstr "კოპირება"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "დააკოპირეთ ეს ბმული და ჩასვით თქვენი Mochi სერვერის აპები გვერდზე დასაყენებლად."
 
@@ -661,7 +661,7 @@ msgstr "{entityLabel}-ის შექმნა"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "აპის შექმნა"
 
@@ -669,14 +669,14 @@ msgstr "აპის შექმნა"
 msgid "Create new item"
 msgstr "ახალი ერთეულის შექმნა"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "Track-ის შექმნა"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "შექმენით თქვენი პირველი გამოშვების track"
 
@@ -692,8 +692,8 @@ msgstr "შეიქმნა {field}"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "იქმნება..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "უარის თქმა"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "ნაგულისხმევი"
 
@@ -735,7 +735,7 @@ msgstr "ნაგულისხმევი AI ანგარიში"
 msgid "Default sort"
 msgstr "ნაგულისხმევი დახარისხება"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "ნაგულისხმევი Track დაყენებულია „{track}“-ზე"
 
@@ -789,7 +789,7 @@ msgstr "ვარიანტის წაშლა"
 msgid "Delete option {0}"
 msgstr "ვარიანტის წაშლა {0}"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "Track-ის წაშლა"
 
@@ -821,8 +821,8 @@ msgstr "კლებადობით"
 msgid "Description"
 msgstr "აღწერა"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "დეტალები"
 
@@ -867,11 +867,11 @@ msgstr "უარყოფა"
 msgid "Displays the mobile sidebar."
 msgstr "აჩვენებს მობილურის გვერდით პანელს."
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "განაწილება"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "განაწილება დაყენებულია {distribution}-ზე"
 
@@ -904,7 +904,7 @@ msgstr "დუბლიკატები"
 msgid "Dyslexia-friendly"
 msgstr "დისლექსიის თავსებადი"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "ნაგულისხმევი"
 
@@ -955,7 +955,7 @@ msgstr "ელფოსტა"
 msgid "Email code"
 msgstr "ელფოსტის კოდი"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "შეიყვანეთ ბანერის ტექსტი (markdown მხარდაჭერილია)..."
 
@@ -1008,7 +1008,7 @@ msgstr "აპლიკაციის შექმნა ვერ მოხე
 msgid "Failed to create link"
 msgstr "ბმულის შექმნა ვერ მოხერხდა"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "ტრეკის შექმნა ვერ მოხერხდა"
 
@@ -1028,7 +1028,7 @@ msgstr "კომენტარის წაშლა ვერ მოხერ
 msgid "Failed to delete link"
 msgstr "ბმულის წაშლა ვერ მოხერხდა"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "ტრეკის წაშლა ვერ მოხერხდა"
 
@@ -1040,7 +1040,11 @@ msgstr "RSS ტოკენის მიღება ვერ მოხერ�
 msgid "Failed to load"
 msgstr "ჩატვირთვა ვერ მოხერხდა"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "ბანერის ჩატვირთვა ვერ მოხერხდა"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "ისტორიის ჩატვირთვა ვერ მოხერხდა"
 
@@ -1085,11 +1089,11 @@ msgstr "შენახვა ვერ მოხერხდა"
 msgid "Failed to save prompt"
 msgstr "მოთხოვნის შენახვა ვერ მოხერხდა"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "ნაგულისხმევი ტრეკის დაყენება ვერ მოხერხდა"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "ბანერის განახლება ვერ მოხერხდა"
 
@@ -1097,11 +1101,11 @@ msgstr "ბანერის განახლება ვერ მოხე
 msgid "Failed to update comment"
 msgstr "კომენტარის განახლება ვერ მოხერხდა"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "დისტრიბუციის განახლება ვერ მოხერხდა"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "ტრეკის განახლება ვერ მოხერხდა"
 
@@ -1113,7 +1117,7 @@ msgstr "თვალყურის დევნების განახლ�
 msgid "Failed to upload attachment"
 msgstr "დანართის ატვირთვა ვერ მოხერხდა"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "ვერსიის ატვირთვა ვერ მოხერხდა"
 
@@ -1123,8 +1127,8 @@ msgstr "ვერსიის ატვირთვა ვერ მოხერ
 msgid "Files"
 msgstr "ფაილები"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "ანაბეჭდი"
 
@@ -1178,7 +1182,7 @@ msgstr "დაჯგუფება"
 msgid "Group: {0}"
 msgstr "ჯგუფი: {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "ისტორია"
 
@@ -1197,7 +1201,7 @@ msgstr "ცხელი"
 msgid "ID"
 msgstr "ID"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "ვინაობა"
 
@@ -1214,7 +1218,7 @@ msgstr "იმპერიული"
 msgid "Including anonymous users"
 msgstr "ანონიმური მომხმარებლების ჩათვლით"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "საწყისი ვერსია"
 
@@ -1226,11 +1230,11 @@ msgstr "ინიციალების ავატარი"
 msgid "Initials avatar for {name}"
 msgstr "{name}-ის ინიციალების ავატარი"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "აპის დაყენება"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "ლოკალურად დაყენება"
 
@@ -1271,7 +1275,7 @@ msgstr "დიდი"
 msgid "Layout"
 msgstr "განლაგება"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "დატოვეთ ცარიელი"
 
@@ -1299,7 +1303,7 @@ msgstr "სია"
 msgid "Load more"
 msgstr "მეტის ჩატვირთვა"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "აპლიკაციის ჩატვირთვა..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "შემდეგი სურათი"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "არა"
 
@@ -1529,7 +1533,7 @@ msgstr "დროის სარტყელი ვერ მოიძებნ
 msgid "No topic record yet — try again after the next notification."
 msgstr "თემის ჩანაწერი ჯერ არ არის — სცადეთ ხელახლა შემდეგი შეტყობინების შემდეგ."
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "ტრეკები არ არის"
 
@@ -1541,11 +1545,11 @@ msgstr "წაუკითხავი შეტყობინებები �
 msgid "No users found"
 msgstr "მომხმარებლები ვერ მოიძებნა"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "ვერსია არ არის"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "ვერსიები არ არის"
 
@@ -1632,8 +1636,8 @@ msgstr "ვარიანტის მოქმედებების გა�
 msgid "Open selected card"
 msgstr "არჩეული ბარათის გახსნა"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "ტრეკის მოქმედებების გახსნა"
 
@@ -1706,7 +1710,7 @@ msgstr "გთხოვთ, შეამოწმოთ ინტერნეტ
 msgid "Please enter an app name"
 msgstr "გთხოვთ, შეიყვანოთ აპის სახელი"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "გთხოვთ, აირჩიოთ ფაილი"
 
@@ -1733,14 +1737,14 @@ msgstr "წინა სურათი"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "კონფიდენციალურობა"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "პირადი"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "თვისებები"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "საჯარო"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "გამოქვეყნებული"
 
@@ -1825,7 +1830,7 @@ msgstr "ფარდობითი (5წ, 3ს, 2დ)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "ფარდობითი 24 საათში, წინააღმდეგ შემთხვევაში აბსოლუტური"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "გამოშვების track-ები"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "ჩაბარება..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "შეზღუდული"
 
@@ -1969,7 +1975,7 @@ msgstr "შაბათი"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "სერვერის წესები"
 msgid "Session expired. Please log in again."
 msgstr "სესიის ვადა ამოიწურა. გთხოვთ, ხელახლა შეხვიდეთ."
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "ნაგულისხმევად დაყენება"
 
@@ -2136,7 +2142,7 @@ msgstr "წყაროს და დანიშნულების დაყ
 msgid "Settings"
 msgstr "პარამეტრები"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "გაზიარება"
 
@@ -2230,7 +2236,7 @@ msgstr "კვირა"
 msgid "Switch to view 1-9"
 msgstr "გადართვა 1-9 ხედზე"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "მიკროფონის მოთხოვნას პასუ�
 msgid "The passkey request was not answered"
 msgstr "Passkey-ის მოთხოვნას პასუხი არ მოჰყვა"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "მოთხოვნილი აპი ვერ მოიძებნა."
 
@@ -2347,23 +2353,23 @@ msgstr "ზედმეტად ბევრი მოთხოვნა"
 msgid "Top"
 msgstr "ძალიან დიდი"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "ტრეკი \"{track}\" წაიშალა"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "ტრეკი „{track}“ განახლდა ვერსიამდე {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "ტრეკის სახელი"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "Track-ის სახელი"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "Track-ები"
 
@@ -2431,7 +2437,7 @@ msgstr "API-ის მოულოდნელი შეცდომა"
 msgid "United States"
 msgstr "ამ ვიკის უნიკალური იდენტიფიკატორები."
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "ამოუცნობი ანგარიში"
 msgid "Untitled"
 msgstr "შეჩერება მოხსნილია"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "Track-ების განახლება"
 
@@ -2468,9 +2474,9 @@ msgstr "განახლდა {field}"
 msgid "Upload"
 msgstr "განახლება მიმდინარეობს..."
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "ახლის ატვირთვა"
 
@@ -2478,15 +2484,15 @@ msgstr "ახლის ატვირთვა"
 msgid "Upload progress"
 msgstr "ატვირთვის მიმდინარეობა"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "ვერსიის ატვირთვა"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "ატვირთეთ თქვენი პირველი ბილდი"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "იტვირთება..."
 
@@ -2500,7 +2506,7 @@ msgstr "გამოიყენეთ თქვენი passkey"
 msgid "User"
 msgstr "მომხმარებელი"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "მომხმარებლებს შეუძლიათ ეს აპლიკაცია დააყენონ ამ ბმულის თავიანთ აპები გვერდზე ჩასმით."
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "შემოწმება და ჩართვა"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "ვერსია {0} ატვირთულია"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "ვერსიების ისტორია"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "ვერსიები"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "ოთხშაბათი"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "წლიური"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "დიახ"
 

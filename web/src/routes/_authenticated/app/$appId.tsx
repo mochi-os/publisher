@@ -78,11 +78,13 @@ function AppPage() {
   const [showUploadDialog, setShowUploadDialog] = useState(false)
   const [showAddTrack, setShowAddTrack] = useState(false)
 
-  const handleSetDistribution = (distribution: string) => {
+  const handleSetDistribution = (value: string) => {
     setDistributionMutation.mutate(
-      { appId, distribution },
+      { appId, distribution: value },
       {
         onSuccess: () => {
+          // The label, not the enum value, reaches the toast.
+          const distribution = value === 'restricted' ? t`Restricted` : t`Published`
           toast.success(t`Distribution set to ${distribution}`)
         },
         onError: (error) => {
@@ -312,6 +314,9 @@ function AppPage() {
           appId={appId}
           showInstallOption={administrator}
           availableTracks={tracks.map((t) => t.track)}
+          // 'Production' is an identifier (matches an API key), not a UI label.
+          // eslint-disable-next-line lingui/no-unlocalized-strings
+          defaultTrack={app.default_track ?? 'Production'}
         />
       </Main>
     </>
@@ -607,19 +612,21 @@ function UploadVersionDialog({
   appId,
   showInstallOption,
   availableTracks,
+  defaultTrack,
 }: {
   open: boolean
   onOpenChange: (open: boolean) => void
   appId: string
   showInstallOption: boolean
   availableTracks: string[]
+  defaultTrack: string
 }) {
   const { t } = useLingui()
   const [file, setFile] = useState<File | null>(null)
   const [installOption, setInstallOption] = useState<'yes' | 'yes-force' | 'no'>('yes')
-  // 'Production' is the track identifier (matches an API key), not a UI label.
-  // eslint-disable-next-line lingui/no-unlocalized-strings
-  const [selectedTracks, setSelectedTracks] = useState<string[]>(['Production'])
+  // The app's default track is what an upload updates unless the owner picks
+  // otherwise; a fixed name here re-created a track the owner had removed.
+  const [selectedTracks, setSelectedTracks] = useState<string[]>([defaultTrack])
   const fileInputRef = useRef<HTMLInputElement>(null)
   const uploadMutation = useUploadVersionMutation()
   const { progress, upload } = useUploadProgress()
@@ -654,8 +661,7 @@ function UploadVersionDialog({
       toast.success(t`Version ${data.version} uploaded`)
       setFile(null)
       setInstallOption('yes')
-      // eslint-disable-next-line lingui/no-unlocalized-strings
-      setSelectedTracks(['Production'])
+      setSelectedTracks([defaultTrack])
       if (fileInputRef.current) {
         fileInputRef.current.value = ''
       }

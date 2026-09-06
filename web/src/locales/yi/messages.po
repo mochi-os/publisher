@@ -230,8 +230,8 @@ msgstr "װער עס איז אײַנגעלאָגט"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "אַלץ וואָס איז אַבאָנירט אויף דעם פֿיד וועט אויפֿהערן עס צו באַקומען. איר קענט קאָפּירן אַ נייַעם URL דערנאָך."
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "אַפּ"
 
@@ -239,14 +239,14 @@ msgstr "אַפּ"
 msgid "App created"
 msgstr "אַפּ באַשאַפֿן"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "אַפּ נישט געפֿונען"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "אַפּליקאַציע ID"
 
@@ -304,7 +304,7 @@ msgstr "Authenticator קאָד"
 msgid "Available keyboard shortcuts"
 msgstr "פֿאַראַנענע קלאַוויאַטור קורצוועגן"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "פֿאַראַנענע ווערסיעס"
 
@@ -320,12 +320,12 @@ msgstr "אַװאַטאַר פֿאַר {name}"
 msgid "Back"
 msgstr "צוריק"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "צוריק צו אַפּן"
 
@@ -334,16 +334,16 @@ msgstr "צוריק צו אַפּן"
 msgid "Back to home"
 msgstr "צוריק צום הויז"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "באַנער"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "באַנער אַראָפּגענומען"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "באַנער באַנײַט"
 
@@ -378,7 +378,7 @@ msgstr "ראַנד פֿאַרב"
 msgid "Browser notifications"
 msgstr "בראָוזער נאָטיפֿיקאַציעס"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "בילד־טעקע"
 
@@ -405,8 +405,8 @@ msgstr "די קאַמערע איז נישט פֿאַראַן"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "אָפּזאָגן"
 
@@ -463,7 +463,7 @@ msgstr "קלײַבט אַ שפּיל פֿון דער סײַדבאַר אָדער
 msgid "Choose language"
 msgstr "קלײַבט שפּראַך"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "קאָפּירט צו קליפּברעט"
 msgid "Copy"
 msgstr "קאָפּירן"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "קאָפּי דעם לינק און צושטעלן עס אין אַפּן בלאַט פֿון אייער Mochi סערווער צו אינסטאַלירן."
 
@@ -661,7 +661,7 @@ msgstr "שאַף {entityLabel}"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "באַשאַפֿן אַפּ"
 
@@ -669,14 +669,14 @@ msgstr "באַשאַפֿן אַפּ"
 msgid "Create new item"
 msgstr "באַשאַפֿן נײַעם פּונקט"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "באַשאַפֿן track"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "באַשאַפֿט אײַער ערשטן אַרויסגאָב־track"
 
@@ -692,8 +692,8 @@ msgstr "באַשאַפֿן {field}"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "באַשאַפֿן..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "אָפּזאָגן"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "פֿאַרשטאַנדלעך"
 
@@ -735,7 +735,7 @@ msgstr "פֿאַרשטאַנדלעך AI קאָנטע"
 msgid "Default sort"
 msgstr "פֿאַרשטאַנדלעך סאָרט"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "פֿאַרשטאַנדלעך track באַשטימט אויף \"{track}\""
 
@@ -789,7 +789,7 @@ msgstr "אויסמעקן אָפּציע"
 msgid "Delete option {0}"
 msgstr "אויסמעקן אָפּציע {0}"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "אויסמעקן track"
 
@@ -821,8 +821,8 @@ msgstr "אַראָפּגייענדיק"
 msgid "Description"
 msgstr "באַשרײַבונג"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "פּרטים"
 
@@ -867,11 +867,11 @@ msgstr "אַראָפּזאָגן"
 msgid "Displays the mobile sidebar."
 msgstr "ווײַזט די מאָבילע סײַדבאַר."
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "פֿאַרשפּרייטונג"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "פֿאַרשפּרייטונג באַשטימט אויף {distribution}"
 
@@ -904,7 +904,7 @@ msgstr "טאָפּלען"
 msgid "Dyslexia-friendly"
 msgstr "דיסלעקסיע פֿרײַנדלעך"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "למשל Staging"
 
@@ -955,7 +955,7 @@ msgstr "בליצפּאָסט"
 msgid "Email code"
 msgstr "בליצפּאָסט־קאָד"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "גיט אַרײַן באַנער־טעקסט (markdown געשטיצט)..."
 
@@ -1008,7 +1008,7 @@ msgstr "ניט געלונגען צו שאַפֿן אַפּ"
 msgid "Failed to create link"
 msgstr "ניט געלונגען צו שאַפֿן לינק"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "ניט געלונגען צו שאַפֿן שפּור"
 
@@ -1028,7 +1028,7 @@ msgstr "ניט געלונגען צו מעקן קאָמענטאַר"
 msgid "Failed to delete link"
 msgstr "ניט געלונגען צו מעקן לינק"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "ניט געלונגען צו מעקן שפּור"
 
@@ -1040,7 +1040,11 @@ msgstr "ניט געלונגען צו באַקומען RSS־טאָקען"
 msgid "Failed to load"
 msgstr "ניט געלונגען צו לאָדן"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "נישט געקאָנט לאָדן דעם באַנער"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "ניט געלונגען צו לאָדן היסטאָריע"
 
@@ -1085,11 +1089,11 @@ msgstr "ניט געלונגען אויפֿצוהיטן"
 msgid "Failed to save prompt"
 msgstr "ניט געלונגען אויפֿצוהיטן פּראָמפּט"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "ניט געלונגען צו שטעלן ברירת־מחדל־שפּור"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "ניט געלונגען צו דערהײַנטיקן באַנער"
 
@@ -1097,11 +1101,11 @@ msgstr "ניט געלונגען צו דערהײַנטיקן באַנער"
 msgid "Failed to update comment"
 msgstr "ניט געלונגען צו דערהײַנטיקן קאָמענטאַר"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "ניט געלונגען צו דערהײַנטיקן פֿאַרשפּרייטונג"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "ניט געלונגען צו דערהײַנטיקן שפּור"
 
@@ -1113,7 +1117,7 @@ msgstr "דורכפֿאַל צו דערהײַנטיקן אָבסערוואַצי�
 msgid "Failed to upload attachment"
 msgstr "ניט געלונגען אַרויפֿצולאָדן בײַלאַגע"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "ניט געלונגען אַרויפֿצולאָדן ווערסיע"
 
@@ -1123,8 +1127,8 @@ msgstr "ניט געלונגען אַרויפֿצולאָדן ווערסיע"
 msgid "Files"
 msgstr "פֿײַלן"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "פֿינגער־אָפּדרוק"
 
@@ -1178,7 +1182,7 @@ msgstr "גרופּירן לויט"
 msgid "Group: {0}"
 msgstr "גרופּע: {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "היסטאָריע"
 
@@ -1197,7 +1201,7 @@ msgstr "הייס"
 msgid "ID"
 msgstr "ID"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "אידענטיטעט"
 
@@ -1214,7 +1218,7 @@ msgstr "אימפּעריאַל"
 msgid "Including anonymous users"
 msgstr "אַרײַנגערעכנט אַנאָנימע באַניצער"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "אָנהייב־ווערסיע"
 
@@ -1226,11 +1230,11 @@ msgstr "ראשי־תיבות אַװאַטאַר"
 msgid "Initials avatar for {name}"
 msgstr "ראשי־תיבות אַװאַטאַר פֿאַר {name}"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "אינסטאַלירן אַפּ"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "אינסטאַלירן לאָקאַל"
 
@@ -1271,7 +1275,7 @@ msgstr "גרויס"
 msgid "Layout"
 msgstr "אויסשטעל"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "לאָזט ליידיק"
 
@@ -1299,7 +1303,7 @@ msgstr "רשימה"
 msgid "Load more"
 msgstr "לאָדן מער"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "לאָדט אַפּ..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "ווײַטערדיק בילד"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "ניין"
 
@@ -1529,7 +1533,7 @@ msgstr "קיין צײַט זאָנע ניט געפֿונען."
 msgid "No topic record yet — try again after the next notification."
 msgstr "נאָך קיין טעמע רעקאָרד — פּרוּוו ווידער נאָך דער ווײַטערדיקער מעלדונג."
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "קיין רעלסן"
 
@@ -1541,11 +1545,11 @@ msgstr "קיין אומגעלייענטע מעלדונגען"
 msgid "No users found"
 msgstr "קיין באַניצערס ניט געפֿונען"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "קיין ווערסיע"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "קיין ווערסיעס"
 
@@ -1632,8 +1636,8 @@ msgstr "עפֿן אָפּציע אַקציעס"
 msgid "Open selected card"
 msgstr "עפֿן אויסגעקליבן קאַרטל"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "עפֿן רעלס אַקציעס"
 
@@ -1706,7 +1710,7 @@ msgstr "זײַט אַזוי גוט קאָנטראָלירט אײַער אינט�
 msgid "Please enter an app name"
 msgstr "זײַ אַזוי גוט און אַרײַן אַן אַפּ נאָמען"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "זײַ אַזוי גוט און קלײַב אַ פֿײַל"
 
@@ -1733,14 +1737,14 @@ msgstr "פֿריִערדיק בילד"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "פּריוואַטקײַט"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "פּריוואַט"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "אייגנשאַפֿטן"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "עפֿנטלעך"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "פֿאַרעפֿנטלעכט"
 
@@ -1825,7 +1830,7 @@ msgstr "רעלאַטיוו (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "רעלאַטיוו אין 24 שעה, אַנדערש אַבסאָלוט"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "אַרויסגאָב־tracks"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "רעזיגנירן..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "באַגרענעצט"
 
@@ -1969,7 +1975,7 @@ msgstr "שבת"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "סערווער־כּללים"
 msgid "Session expired. Please log in again."
 msgstr "די סעסיע איז אויסגעגאַנגען. ביטע לאָגט זיך ווידער אַרײַן."
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "שטעל ווי פֿאָרויסבאַשטימט"
 
@@ -2136,7 +2142,7 @@ msgstr "שטעל אָנהייב און ציל"
 msgid "Settings"
 msgstr "אײַנשטעלונגען"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "טיילן"
 
@@ -2230,7 +2236,7 @@ msgstr "זונטיק"
 msgid "Switch to view 1-9"
 msgstr "ביט איבער צו ראַם 1-9"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "די מיקראָפֿאָן־בקשה איז נישט געענטפֿער
 msgid "The passkey request was not answered"
 msgstr "די פּאַסקיי־בקשה איז נישט געענטפֿערט געוואָרן"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "די געבעטענע אַפּ איז נישט געפֿונען געוואָרן."
 
@@ -2347,23 +2353,23 @@ msgstr "צו פֿיל בקשות"
 msgid "Top"
 msgstr "אויבן"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "Track „{track}\" אויסגעמעקט"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track „{track}\" באַנײַט צו {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "Track באַשאַפֿן"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "טראַק־נאָמען"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "Tracks"
 
@@ -2431,7 +2437,7 @@ msgstr "אומדערװאַרטע API־טעות"
 msgid "United States"
 msgstr "פֿאַראייניקטע שטאַטן"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "אַבאַבאָנירן"
 msgid "Untitled"
 msgstr "אָן קעפּל"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "דערהײַנטיקן tracks"
 
@@ -2468,9 +2474,9 @@ msgstr "דערהײַנטיקט {field}"
 msgid "Upload"
 msgstr "אַרויפֿלאָדן"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "אַרויפֿלאָדן נײַע ווערסיע"
 
@@ -2478,15 +2484,15 @@ msgstr "אַרויפֿלאָדן נײַע ווערסיע"
 msgid "Upload progress"
 msgstr "אַרויפֿלאָד פּראָגרעס"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "אַרויפֿלאָדן ווערסיע"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "לאָדט אַרויף אײַער ערשטן בילד"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "אַרויפֿלאָדן..."
 
@@ -2500,7 +2506,7 @@ msgstr "ניצט אײַער passkey"
 msgid "User"
 msgstr "באַניצער"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "באַניצערס קענען אינסטאַלירן די אַפּלאַקיישאַן דורך צוטשעפּעניש דעם לינק אין זייער אַפּן בלאַט."
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "פֿאַריפֿיצירן אי־מייל אַדרעס"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "ווערסיע {0} אַרויפֿגעלאָדן"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "ווערסיע־געשיכטע"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "ווערסיעס"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "מיטוואָך"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "יאָ"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "יאָ, צווינג"
 

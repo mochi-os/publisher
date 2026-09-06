@@ -230,8 +230,8 @@ msgstr "នរណាម្នាក់ដែលបានចូល"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "អ្វីៗដែលបានជាវព័ត៌មាននេះនឹងឈប់ទទួលបាន។ បន្ទាប់មកអ្នកអាចចម្លង URL ថ្មី។"
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "កម្មវិធី"
 
@@ -239,14 +239,14 @@ msgstr "កម្មវិធី"
 msgid "App created"
 msgstr "បានបង្កើតកម្មវិធី"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "រកមិនឃើញកម្មវិធី"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "លេខសម្គាល់កម្មវិធី"
 
@@ -304,7 +304,7 @@ msgstr "កូដ Authenticator"
 msgid "Available keyboard shortcuts"
 msgstr "ផ្លូវកាត់គ្រាប់ចុចដែលមាន"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "កំណែដែលមាន"
 
@@ -320,12 +320,12 @@ msgstr "រូបតំណាងសម្រាប់ {name}"
 msgid "Back"
 msgstr "ត្រឡប់"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "ត្រឡប់ទៅកម្មវិធី"
 
@@ -334,16 +334,16 @@ msgstr "ត្រឡប់ទៅកម្មវិធី"
 msgid "Back to home"
 msgstr "ត្រឡប់ទៅទំព័រដើម"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "បដា"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "បានដកបដា"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "បានធ្វើបច្ចុប្បន្នភាពបដា"
 
@@ -378,7 +378,7 @@ msgstr "ពណ៌ស៊ុម"
 msgid "Browser notifications"
 msgstr "ការជូនដំណឹងពីកម្មវិធីរុករក"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "ឯកសារ build"
 
@@ -405,8 +405,8 @@ msgstr "កាមេរ៉ាមិនអាចប្រើបាន"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "បោះបង់"
 
@@ -463,7 +463,7 @@ msgstr "ជ្រើសរើសហ្គេមពីរបារចំហៀង
 msgid "Choose language"
 msgstr "ជ្រើសរើសភាសា"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "បានចម្លងទៅក្ដារតម្បៀតខ្ទ
 msgid "Copy"
 msgstr "ចម្លង"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "ចម្លងតំណនេះ និងដាក់វាចូលក្នុងទំព័រកម្មវិធីនៃម៉ាស៊ីនមេ Mochi របស់អ្នកដើម្បីដំឡើង។"
 
@@ -661,7 +661,7 @@ msgstr "បង្កើត {entityLabel}"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "បង្កើតកម្មវិធី"
 
@@ -669,14 +669,14 @@ msgstr "បង្កើតកម្មវិធី"
 msgid "Create new item"
 msgstr "បង្កើតធាតុថ្មី"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "បង្កើតផ្លូវ"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "បង្កើតផ្លូវចេញផ្សាយដំបូងរបស់អ្នក"
 
@@ -692,8 +692,8 @@ msgstr "បានបង្កើត {field}"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "កំពុងបង្កើត..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "បដិសេធ"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "លំនាំដើម"
 
@@ -735,7 +735,7 @@ msgstr "គណនី AI លំនាំដើម"
 msgid "Default sort"
 msgstr "ការតម្រៀបលំនាំដើម"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "ផ្លូវលំនាំដើមត្រូវបានកំណត់ទៅ \"{track}\""
 
@@ -789,7 +789,7 @@ msgstr "លុបជម្រើស"
 msgid "Delete option {0}"
 msgstr "លុបជម្រើស {0}"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "លុបផ្លូវ"
 
@@ -821,8 +821,8 @@ msgstr "តាមលំដាប់ថយ"
 msgid "Description"
 msgstr "ការពិពណ៌នា"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "ព័ត៌មានលម្អិត"
 
@@ -867,11 +867,11 @@ msgstr "បិទ"
 msgid "Displays the mobile sidebar."
 msgstr "បង្ហាញរបារចំហៀងទូរស័ព្ទ។"
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "ការចែកចាយ"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "ការចែកចាយត្រូវបានកំណត់ទៅ {distribution}"
 
@@ -904,7 +904,7 @@ msgstr "ស្ទួន"
 msgid "Dyslexia-friendly"
 msgstr "ស័ក្តិសមនឹងជំងឺឌីស្លេកស៊ី"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "ឧ. Staging"
 
@@ -955,7 +955,7 @@ msgstr "អ៊ីមែល"
 msgid "Email code"
 msgstr "កូដអ៊ីមែល"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "បញ្ចូលអត្ថបទផ្ទាំង (គាំទ្រ markdown)..."
 
@@ -1008,7 +1008,7 @@ msgstr "បរាជ័យក្នុងការបង្កើតកម្ម
 msgid "Failed to create link"
 msgstr "បរាជ័យក្នុងការបង្កើតតំណ"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "បរាជ័យក្នុងការបង្កើតបទ"
 
@@ -1028,7 +1028,7 @@ msgstr "បរាជ័យក្នុងការលុបមតិយោបល
 msgid "Failed to delete link"
 msgstr "បរាជ័យក្នុងការលុបតំណ"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "បរាជ័យក្នុងការលុបបទ"
 
@@ -1040,7 +1040,11 @@ msgstr "បរាជ័យក្នុងការទទួលយកថូខឹ
 msgid "Failed to load"
 msgstr "បរាជ័យក្នុងការផ្ទុក"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "បរាជ័យក្នុងការផ្ទុកបដា"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "បរាជ័យក្នុងការផ្ទុកប្រវត្តិ"
 
@@ -1085,11 +1089,11 @@ msgstr "បរាជ័យក្នុងការរក្សាទុក"
 msgid "Failed to save prompt"
 msgstr "បរាជ័យក្នុងការរក្សាទុកប្រអប់បញ្ចូល"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "បរាជ័យក្នុងការកំណត់បទលំនាំដើម"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពផ្ទាំង"
 
@@ -1097,11 +1101,11 @@ msgstr "បរាជ័យក្នុងការធ្វើបច្ចុប
 msgid "Failed to update comment"
 msgstr "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពមតិយោបល់"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពការចែកចាយ"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពបទ"
 
@@ -1113,7 +1117,7 @@ msgstr "ការធ្វើបច្ចុប្បន្នភាពការ
 msgid "Failed to upload attachment"
 msgstr "បរាជ័យក្នុងការផ្ទុកឡើងឯកសារភ្ជាប់"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "បរាជ័យក្នុងការផ្ទុកឡើងកំណែ"
 
@@ -1123,8 +1127,8 @@ msgstr "បរាជ័យក្នុងការផ្ទុកឡើងកំ
 msgid "Files"
 msgstr "ឯកសារ"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "ស្នាមម្រាមដៃ"
 
@@ -1178,7 +1182,7 @@ msgstr "ដាក់ជាក្រុមតាម"
 msgid "Group: {0}"
 msgstr "ក្រុម៖ {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "ប្រវត្តិ"
 
@@ -1197,7 +1201,7 @@ msgstr "ក្ដៅ"
 msgid "ID"
 msgstr "លេខសម្គាល់"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "អត្តសញ្ញាណ"
 
@@ -1214,7 +1218,7 @@ msgstr "Imperial"
 msgid "Including anonymous users"
 msgstr "រួមទាំងអ្នកប្រើអនាមិក"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "កំណែដំបូង"
 
@@ -1226,11 +1230,11 @@ msgstr "រូបតំណាងអក្សរកាត់"
 msgid "Initials avatar for {name}"
 msgstr "រូបតំណាងអក្សរកាត់សម្រាប់ {name}"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "ដំឡើងកម្មវិធី"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "ដំឡើងក្នុងមូលដ្ឋាន"
 
@@ -1271,7 +1275,7 @@ msgstr "ធំ"
 msgid "Layout"
 msgstr "ប្លង់"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "ទុកឲ្យទទេ"
 
@@ -1299,7 +1303,7 @@ msgstr "បញ្ជី"
 msgid "Load more"
 msgstr "ផ្ទុកបន្ថែម"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "កំពុងផ្ទុកកម្មវិធី..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "រូបភាពបន្ទាប់"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "ទេ"
 
@@ -1529,7 +1533,7 @@ msgstr "រកមិនឃើញតំបន់ពេលវេលា។"
 msgid "No topic record yet — try again after the next notification."
 msgstr "មិនទាន់មានកំណត់ត្រាប្រធានបទ — សាកល្បងម្តងទៀតបន្ទាប់ពីការជូនដំណឹងលើកក្រោយ។"
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "មិនមាន track"
 
@@ -1541,11 +1545,11 @@ msgstr "មិនមានការជូនដំណឹងដែលមិនទ
 msgid "No users found"
 msgstr "រកមិនឃើញអ្នកប្រើ"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "មិនមានកំណែ"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "មិនមានកំណែ"
 
@@ -1632,8 +1636,8 @@ msgstr "បើកសកម្មភាពជម្រើស"
 msgid "Open selected card"
 msgstr "បើកកាតដែលបានជ្រើសរើស"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "បើកសកម្មភាព track"
 
@@ -1706,7 +1710,7 @@ msgstr "សូមពិនិត្យការតភ្ជាប់អ៊ីន
 msgid "Please enter an app name"
 msgstr "សូមបញ្ចូលឈ្មោះកម្មវិធី"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "សូមជ្រើសរើសឯកសារ"
 
@@ -1733,14 +1737,14 @@ msgstr "រូបភាពមុន"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "ឯកជនភាព"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "ឯកជន"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "លក្ខណៈសម្បត្តិ"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "សាធារណៈ"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "បានផ្សព្វផ្សាយ"
 
@@ -1825,7 +1830,7 @@ msgstr "ទាក់ទង (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "ទាក់ទងក្នុង 24 ម៉ោង បើមិនដូច្នេះទេដាច់ខាត"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "ផ្លូវចេញផ្សាយ"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "កំពុងចុះចាញ់..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "ត្រូវបានរឹតបន្តឹង"
 
@@ -1969,7 +1975,7 @@ msgstr "ថ្ងៃសៅរ៍"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "ច្បាប់ម៉ាស៊ីនមេ"
 msgid "Session expired. Please log in again."
 msgstr "សម័យប្រើប្រាស់បានផុតកំណត់។ សូមចូលម្តងទៀត។"
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "កំណត់ជាលំនាំដើម"
 
@@ -2136,7 +2142,7 @@ msgstr "កំណត់ចំណុចចេញដំណើរ និងគោ�
 msgid "Settings"
 msgstr "ការកំណត់"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "ការចែករំលែក"
 
@@ -2230,7 +2236,7 @@ msgstr "ថ្ងៃអាទិត្យ"
 msgid "Switch to view 1-9"
 msgstr "ប្តូរទៅទិដ្ឋភាព 1-9"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "សំណើមីក្រូហ្វូនមិនត្រូវប
 msgid "The passkey request was not answered"
 msgstr "សំណើ passkey មិនត្រូវបានឆ្លើយតបទេ"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "មិនអាចស្វែងរកកម្មវិធីដែលបានស្នើ។"
 
@@ -2347,23 +2353,23 @@ msgstr "សំណើច្រើនពេក"
 msgid "Top"
 msgstr "កំពូល"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "បានលុប Track \"{track}\""
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "បានធ្វើបច្ចុប្បន្នភាព Track \"{track}\" ទៅ {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "បានបង្កើត Track"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "ឈ្មោះផ្លូវ"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "ផ្លូវ"
 
@@ -2431,7 +2437,7 @@ msgstr "កំហុស API ដែលមិនរំពឹងទុក"
 msgid "United States"
 msgstr "សហរដ្ឋអាមេរិក"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "ឈប់ជាវ"
 msgid "Untitled"
 msgstr "គ្មានចំណងជើង"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "ធ្វើបច្ចុប្បន្នភាពផ្លូវ"
 
@@ -2468,9 +2474,9 @@ msgstr "បានធ្វើបច្ចុប្បន្នភាព {field}"
 msgid "Upload"
 msgstr "បង្ហោះ"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "បង្ហោះកំណែថ្មី"
 
@@ -2478,15 +2484,15 @@ msgstr "បង្ហោះកំណែថ្មី"
 msgid "Upload progress"
 msgstr "វឌ្ឍនភាពនៃការផ្ទុកឡើង"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "ផ្ទុកកំណែឡើង"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "បង្ហោះ build ដំបូងរបស់អ្នក"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "កំពុងបង្ហោះ..."
 
@@ -2500,7 +2506,7 @@ msgstr "ប្រើ passkey របស់អ្នក"
 msgid "User"
 msgstr "អ្នកប្រើប្រាស់"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "អ្នកប្រើប្រាស់អាចដំឡើងកម្មវិធីនេះ ដោយការដាក់តំណនេះចូលក្នុងទំព័រកម្មវិធីរបស់ពួកគេ។"
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "ផ្ទៀងផ្ទាត់អាសយដ្ឋានអ៊ីមែល"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "បានបង្ហោះកំណែ {0}"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "ប្រវត្តិកំណែ"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "កំណែ"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "ថ្ងៃពុធ"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "បាទ/ចាស"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "បាទ/ចាស បង្ខំ"
 

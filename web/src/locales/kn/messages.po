@@ -230,8 +230,8 @@ msgstr "ಲಾಗಿನ್ ಆಗಿರುವ ಯಾರಾದರೂ"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "ಈ ಫೀಡ್‌ಗೆ ಚಂದಾದಾರರಾದ ಎಲ್ಲವೂ ಅದನ್ನು ಸ್ವೀಕರಿಸುವುದನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆ. ನಂತರ ನೀವು ಹೊಸ URL ಅನ್ನು ನಕಲಿಸಬಹುದು."
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "ಆ್ಯಪ್"
 
@@ -239,14 +239,14 @@ msgstr "ಆ್ಯಪ್"
 msgid "App created"
 msgstr "ಆ್ಯಪ್ ರಚಿಸಲಾಗಿದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "ಆ್ಯಪ್ ಸಿಗಲಿಲ್ಲ"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "ಅಪ್ಲಿಕೇಶನ್ ID"
 
@@ -304,7 +304,7 @@ msgstr "Authenticator ಕೋಡ್"
 msgid "Available keyboard shortcuts"
 msgstr "ಲಭ್ಯವಿರುವ ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "ಲಭ್ಯವಿರುವ ಆವೃತ್ತಿಗಳು"
 
@@ -320,12 +320,12 @@ msgstr "{name} ಗಾಗಿ ಅವತಾರ್"
 msgid "Back"
 msgstr "ಹಿಂದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "ಆ್ಯಪ್‌ಗಳಿಗೆ ಹಿಂದೆ"
 
@@ -334,16 +334,16 @@ msgstr "ಆ್ಯಪ್‌ಗಳಿಗೆ ಹಿಂದೆ"
 msgid "Back to home"
 msgstr "ಮುಖಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "ಬ್ಯಾನರ್"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "ಬ್ಯಾನರ್ ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "ಬ್ಯಾನರ್ ನವೀಕರಿಸಲಾಗಿದೆ"
 
@@ -378,7 +378,7 @@ msgstr "ಗಡಿ ಬಣ್ಣ"
 msgid "Browser notifications"
 msgstr "ಬ್ರೌಸರ್ ಅಧಿಸೂಚನೆಗಳು"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "ಬಿಲ್ಡ್ ಫೈಲ್"
 
@@ -405,8 +405,8 @@ msgstr "ಕ್ಯಾಮೆರಾ ಲಭ್ಯವಿಲ್ಲ"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "ರದ್ದುಮಾಡಿ"
 
@@ -463,7 +463,7 @@ msgstr "ಸೈಡ್‌ಬಾರ್‌ನಿಂದ ಆಟವನ್ನು ಆಯ�
 msgid "Choose language"
 msgstr "ಭಾಷೆ ಆಯ್ಕೆಮಾಡಿ"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾ�
 msgid "Copy"
 msgstr "ನಕಲಿಸಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "ಈ ಲಿಂಕ್ ಅನ್ನು ನಕಲಿಸಿ ಮತ್ತು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲು ನಿಮ್ಮ Mochi ಸರ್ವರ್‌ನ ಆ್ಯಪ್‌ಗಳು ಪುಟದಲ್ಲಿ ಅಂಟಿಸಿ."
 
@@ -661,7 +661,7 @@ msgstr "{entityLabel} ರಚಿಸಿ"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "ಆ್ಯಪ್ ರಚಿಸಿ"
 
@@ -669,14 +669,14 @@ msgstr "ಆ್ಯಪ್ ರಚಿಸಿ"
 msgid "Create new item"
 msgstr "ಹೊಸ ಐಟಂ ರಚಿಸಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "ಟ್ರ್ಯಾಕ್ ರಚಿಸಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "ನಿಮ್ಮ ಮೊದಲ ಬಿಡುಗಡೆ ಟ್ರ್ಯಾಕ್ ರಚಿಸಿ"
 
@@ -692,8 +692,8 @@ msgstr "{field} ರಚಿಸಲಾಗಿದೆ"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "ರಚಿಸಲಾಗುತ್ತಿದೆ..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "ತಿರಸ್ಕರಿಸಿ"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "ಡೀಫಾಲ್ಟ್"
 
@@ -735,7 +735,7 @@ msgstr "ಡೀಫಾಲ್ಟ್ AI ಖಾತೆ"
 msgid "Default sort"
 msgstr "ಡೀಫಾಲ್ಟ್ ವಿಂಗಡಣೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "ಡೀಫಾಲ್ಟ್ ಟ್ರ್ಯಾಕ್ ಅನ್ನು \"{track}\" ಗೆ ಹೊಂದಿಸಲಾಗಿದೆ"
 
@@ -789,7 +789,7 @@ msgstr "ಆಯ್ಕೆ ಅಳಿಸಿ"
 msgid "Delete option {0}"
 msgstr "ಆಯ್ಕೆ {0} ಅಳಿಸಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "ಟ್ರ್ಯಾಕ್ ಅಳಿಸಿ"
 
@@ -821,8 +821,8 @@ msgstr "ಅವರೋಹಣ"
 msgid "Description"
 msgstr "ವಿವರಣೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "ವಿವರಗಳು"
 
@@ -867,11 +867,11 @@ msgstr "ತಿರಸ್ಕರಿಸಿ"
 msgid "Displays the mobile sidebar."
 msgstr "ಮೊಬೈಲ್ ಸೈಡ್‌ಬಾರ್ ಪ್ರದರ್ಶಿಸುತ್ತದೆ."
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "ವಿತರಣೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "ವಿತರಣೆಯನ್ನು {distribution} ಗೆ ಹೊಂದಿಸಲಾಗಿದೆ"
 
@@ -904,7 +904,7 @@ msgstr "ನಕಲು"
 msgid "Dyslexia-friendly"
 msgstr "ಡಿಸ್ಲೆಕ್ಸಿಯಾ-ಸ್ನೇಹಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "ಉದಾ. Staging"
 
@@ -955,7 +955,7 @@ msgstr "ಇಮೇಲ್"
 msgid "Email code"
 msgstr "ಇಮೇಲ್ ಕೋಡ್"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "ಬ್ಯಾನರ್ ಪಠ್ಯ ನಮೂದಿಸಿ (ಮಾರ್ಕ್‌ಡೌನ್ ಬೆಂಬಲಿತ)..."
 
@@ -1008,7 +1008,7 @@ msgstr "ಆ್ಯಪ್ ರಚಿಸಲು ವಿಫಲವಾಗಿದೆ"
 msgid "Failed to create link"
 msgstr "ಲಿಂಕ್ ರಚಿಸಲು ವಿಫಲವಾಗಿದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "ಟ್ರ್ಯಾಕ್ ರಚಿಸಲು ವಿಫಲವಾಗಿದೆ"
 
@@ -1028,7 +1028,7 @@ msgstr "ಕಾಮೆಂಟ್ ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ"
 msgid "Failed to delete link"
 msgstr "ಲಿಂಕ್ ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "ಟ್ರ್ಯಾಕ್ ಅಳಿಸಲು ವಿಫಲವಾಗಿದೆ"
 
@@ -1040,7 +1040,11 @@ msgstr "RSS ಟೋಕನ್ ಪಡೆಯಲು ವಿಫಲವಾಗಿದೆ"
 msgid "Failed to load"
 msgstr "ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "ಬ್ಯಾನರ್ ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "ಇತಿಹಾಸ ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
 
@@ -1085,11 +1089,11 @@ msgstr "ಉಳಿಸಲು ವಿಫಲವಾಗಿದೆ"
 msgid "Failed to save prompt"
 msgstr "ಪ್ರಾಂಪ್ಟ್ ಉಳಿಸಲು ವಿಫಲವಾಗಿದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "ಡೀಫಾಲ್ಟ್ ಟ್ರ್ಯಾಕ್ ಹೊಂದಿಸಲು ವಿಫಲವಾಗಿದೆ"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "ಬ್ಯಾನರ್ ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
 
@@ -1097,11 +1101,11 @@ msgstr "ಬ್ಯಾನರ್ ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ವಿಫ
 msgid "Failed to update comment"
 msgstr "ಕಾಮೆಂಟ್ ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "ವಿತರಣೆ ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "ಟ್ರ್ಯಾಕ್ ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
 
@@ -1113,7 +1117,7 @@ msgstr "ವೀಕ್ಷಣೆ ನವೀಕರಿಸಲು ವಿಫಲವಾಗ�
 msgid "Failed to upload attachment"
 msgstr "ಲಗತ್ತು ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "ಆವೃತ್ತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ"
 
@@ -1123,8 +1127,8 @@ msgstr "ಆವೃತ್ತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ವಿಫ
 msgid "Files"
 msgstr "ಫೈಲ್‌ಗಳು"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "ಬೆರಳಚ್ಚು"
 
@@ -1178,7 +1182,7 @@ msgstr "ಇದರ ಪ್ರಕಾರ ಗುಂಪಿಸಿ"
 msgid "Group: {0}"
 msgstr "ಗುಂಪು: {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "ಇತಿಹಾಸ"
 
@@ -1197,7 +1201,7 @@ msgstr "ಹಾಟ್"
 msgid "ID"
 msgstr "ಐಡಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "ಗುರುತು"
 
@@ -1214,7 +1218,7 @@ msgstr "ಇಂಪೀರಿಯಲ್"
 msgid "Including anonymous users"
 msgstr "ಅನಾಮಧೇಯ ಬಳಕೆದಾರರು ಸೇರಿದಂತೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "ಆರಂಭಿಕ ಆವೃತ್ತಿ"
 
@@ -1226,11 +1230,11 @@ msgstr "ಆದ್ಯಕ್ಷರ ಅವತಾರ್"
 msgid "Initials avatar for {name}"
 msgstr "{name} ಗಾಗಿ ಆದ್ಯಕ್ಷರ ಅವತಾರ್"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "ಅಪ್ಲಿಕೇಶನ್ ಸ್ಥಾಪಿಸಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "ಸ್ಥಳೀಯವಾಗಿ ಸ್ಥಾಪಿಸಿ"
 
@@ -1271,7 +1275,7 @@ msgstr "ದೊಡ್ಡದು"
 msgid "Layout"
 msgstr "ಲೇಔಟ್"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "ಖಾಲಿ ಬಿಡಿ"
 
@@ -1299,7 +1303,7 @@ msgstr "ಪಟ್ಟಿ"
 msgid "Load more"
 msgstr "ಇನ್ನಷ್ಟು ಲೋಡ್ ಮಾಡಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "ಆ್ಯಪ್ ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "ಮುಂದಿನ ಚಿತ್ರ"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "ಇಲ್ಲ"
 
@@ -1529,7 +1533,7 @@ msgstr "ಯಾವುದೇ ಟೈಮ್ ಜೋನ್ ಸಿಗಲಿಲ್ಲ."
 msgid "No topic record yet — try again after the next notification."
 msgstr "ಇನ್ನೂ ಯಾವುದೇ ಟಾಪಿಕ್ ರೆಕಾರ್ಡ್ ಇಲ್ಲ — ಮುಂದಿನ ನೋಟಿಫಿಕೇಶನ್ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "ಯಾವುದೇ ಟ್ರ್ಯಾಕ್‌ಗಳಿಲ್ಲ"
 
@@ -1541,11 +1545,11 @@ msgstr "ಯಾವುದೇ ಓದದ ನೋಟಿಫಿಕೇಶನ್‌ಗಳ�
 msgid "No users found"
 msgstr "ಯಾವುದೇ ಬಳಕೆದಾರರು ಸಿಗಲಿಲ್ಲ"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "ಯಾವುದೇ ಆವೃತ್ತಿ ಇಲ್ಲ"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "ಯಾವುದೇ ಆವೃತ್ತಿಗಳಿಲ್ಲ"
 
@@ -1632,8 +1636,8 @@ msgstr "ಆಯ್ಕೆ ಆಕ್ಷನ್‌ಗಳನ್ನು ತೆರೆಯ�
 msgid "Open selected card"
 msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಕಾರ್ಡ್ ತೆರೆಯಿರಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "ಟ್ರ್ಯಾಕ್ ಆಕ್ಷನ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ"
 
@@ -1706,7 +1710,7 @@ msgstr "ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್�
 msgid "Please enter an app name"
 msgstr "ದಯವಿಟ್ಟು ಆಪ್ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "ದಯವಿಟ್ಟು ಫೈಲ್ ಆಯ್ಕೆಮಾಡಿ"
 
@@ -1733,14 +1737,14 @@ msgstr "ಹಿಂದಿನ ಚಿತ್ರ"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "ಗೌಪ್ಯತೆ"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "ಖಾಸಗಿ"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "ಗುಣಲಕ್ಷಣಗಳು"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "ಸಾರ್ವಜನಿಕ"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "ಪಬ್ಲಿಷ್ ಮಾಡಲಾಗಿದೆ"
 
@@ -1825,7 +1830,7 @@ msgstr "ಸಾಪೇಕ್ಷ (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "24 ಗಂಟೆಗಳ ಒಳಗೆ ಸಾಪೇಕ್ಷ, ಇಲ್ಲದಿದ್ದರೆ ಸಂಪೂರ್ಣ"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "ಬಿಡುಗಡೆ ಟ್ರ್ಯಾಕ್‌ಗಳು"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "ರಾಜೀನಾಮೆ ನೀಡಲಾಗುತ್ತಿದೆ..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "ನಿರ್ಬಂಧಿತ"
 
@@ -1969,7 +1975,7 @@ msgstr "ಶನಿವಾರ"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "ಸರ್ವರ್ ನಿಯಮಗಳು"
 msgid "Session expired. Please log in again."
 msgstr "ಸೆಷನ್ ಅವಧಿ ಮುಗಿದಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಲಾಗಿನ್ ಮಾಡಿ."
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "ಡೀಫಾಲ್ಟ್ ಆಗಿ ಹೊಂದಿಸಿ"
 
@@ -2136,7 +2142,7 @@ msgstr "ಮೂಲ ಮತ್ತು ಗಮ್ಯಸ್ಥಾನವನ್ನು ಹ
 msgid "Settings"
 msgstr "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "ಹಂಚಿಕೆ"
 
@@ -2230,7 +2236,7 @@ msgstr "ಭಾನುವಾರ"
 msgid "Switch to view 1-9"
 msgstr "ವೀಕ್ಷಣೆ 1-9 ಗೆ ಬದಲಾಯಿಸಿ"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "ಮೈಕ್ರೊಫೋನ್ ವಿನಂತಿಗೆ ಉತ್ತರ 
 msgid "The passkey request was not answered"
 msgstr "ಪಾಸ್‌ಕೀ ವಿನಂತಿಗೆ ಉತ್ತರ ಸಿಗಲಿಲ್ಲ"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "ವಿನಂತಿಸಿದ ಆ್ಯಪ್ ಸಿಗಲಿಲ್ಲ."
 
@@ -2347,23 +2353,23 @@ msgstr "ತುಂಬಾ ಹೆಚ್ಚು ವಿನಂತಿಗಳು"
 msgid "Top"
 msgstr "ಅಗ್ರ"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "ಟ್ರ್ಯಾಕ್ \"{track}\" ಅಳಿಸಲಾಗಿದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "ಟ್ರ್ಯಾಕ್ \"{track}\" ಅನ್ನು {version} ಗೆ ನವೀಕರಿಸಲಾಗಿದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "ಟ್ರ್ಯಾಕ್ ರಚಿಸಲಾಗಿದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "ಟ್ರ್ಯಾಕ್ ಹೆಸರು"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "ಟ್ರ್ಯಾಕ್‌ಗಳು"
 
@@ -2431,7 +2437,7 @@ msgstr "ಅನಿರೀಕ್ಷಿತ API ದೋಷ"
 msgid "United States"
 msgstr "ಯುನೈಟೆಡ್ ಸ್ಟೇಟ್ಸ್"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "ಚಂದಾದಾರಿಕೆ ರದ್ದುಗೊಳಿಸಿ"
 msgid "Untitled"
 msgstr "ಶೀರ್ಷಿಕೆರಹಿತ"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "ಟ್ರ್ಯಾಕ್‌ಗಳನ್ನು ನವೀಕರಿಸಿ"
 
@@ -2468,9 +2474,9 @@ msgstr "{field} ನವೀಕರಿಸಲಾಗಿದೆ"
 msgid "Upload"
 msgstr "ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "ಹೊಸ ಆವೃತ್ತಿಯನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
 
@@ -2478,15 +2484,15 @@ msgstr "ಹೊಸ ಆವೃತ್ತಿಯನ್ನು ಅಪ್‌ಲೋಡ್ 
 msgid "Upload progress"
 msgstr "ಅಪ್‌ಲೋಡ್ ಪ್ರಗತಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "ಆವೃತ್ತಿ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "ನಿಮ್ಮ ಮೊದಲ ಬಿಲ್ಡ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ..."
 
@@ -2500,7 +2506,7 @@ msgstr "ನಿಮ್ಮ ಪಾಸ್‌ಕೀ ಬಳಸಿ"
 msgid "User"
 msgstr "ಬಳಕೆದಾರ"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "ಬಳಕೆದಾರರು ಈ ಲಿಂಕ್ ಅನ್ನು ತಮ್ಮ ಆ್ಯಪ್‌ಗಳು ಪುಟದಲ್ಲಿ ಅಂಟಿಸುವ ಮೂಲಕ ಈ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಬಹುದು."
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ಪರಿಶೀಲಿಸಿ"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "ಆವೃತ್ತಿ {0} ಅಪ್‌ಲೋಡ್ ಆಗಿದೆ"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "ಆವೃತ್ತಿ ಇತಿಹಾಸ"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "ಆವೃತ್ತಿಗಳು"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "ಬುಧವಾರ"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "ಹೌದು"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "ಹೌದು, ಬಲವಂತವಾಗಿ"
 

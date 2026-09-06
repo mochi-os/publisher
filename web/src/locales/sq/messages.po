@@ -230,8 +230,8 @@ msgstr "Kushdo që ka hyrë"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "Gjithçka e abonuar në këtë prurje do të ndalojë ta marrë. Më pas mund të kopjoni një URL të ri."
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "Aplikacioni"
 
@@ -239,14 +239,14 @@ msgstr "Aplikacioni"
 msgid "App created"
 msgstr "Aplikacioni u krijua"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "Aplikacioni nuk u gjet"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "ID e aplikacionit"
 
@@ -304,7 +304,7 @@ msgstr "Kodi i autentikuesit"
 msgid "Available keyboard shortcuts"
 msgstr "Shkurtoret e disponueshme të tastierës"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "Versionet e disponueshme"
 
@@ -320,12 +320,12 @@ msgstr "Avatar për {name}"
 msgid "Back"
 msgstr "Mbrapa"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "Mbrapa te aplikacionet"
 
@@ -334,16 +334,16 @@ msgstr "Mbrapa te aplikacionet"
 msgid "Back to home"
 msgstr "Kthehu në fillim"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "Banner-i"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "Banner-i u hoq"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "Banner-i u përditësua"
 
@@ -378,7 +378,7 @@ msgstr "Ngjyra e kornizës"
 msgid "Browser notifications"
 msgstr "Njoftime të shfletuesit"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "Skedari i build-it"
 
@@ -405,8 +405,8 @@ msgstr "Kamera nuk është e disponueshme"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "Anulo"
 
@@ -463,7 +463,7 @@ msgstr "Zgjidh një lojë nga ana ose nis një të re."
 msgid "Choose language"
 msgstr "Zgjidh gjuhën"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "U kopjua në kujtesën e fragmenteve"
 msgid "Copy"
 msgstr "Kopjo"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kopjoje këtë lidhje dhe ngjite në faqen e Aplikacioneve të serverit tënd Mochi për ta instaluar."
 
@@ -661,7 +661,7 @@ msgstr "Krijo {entityLabel}"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "Krijo aplikacion"
 
@@ -669,14 +669,14 @@ msgstr "Krijo aplikacion"
 msgid "Create new item"
 msgstr "Krijo element të ri"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "Krijo track"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "Krijoni track-un tuaj të parë të publikimit"
 
@@ -692,8 +692,8 @@ msgstr "U krijua {field}"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "Po krijon..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "Refuzo"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "I parazgjedhur"
 
@@ -735,7 +735,7 @@ msgstr "Llogaria e parazgjedhur AI"
 msgid "Default sort"
 msgstr "Renditja e parazgjedhur"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "Track-u i parazgjedhur u caktua në \"{track}\""
 
@@ -789,7 +789,7 @@ msgstr "Fshi opsionin"
 msgid "Delete option {0}"
 msgstr "Fshi opsionin {0}"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "Fshi track-un"
 
@@ -821,8 +821,8 @@ msgstr "Në zbritje"
 msgid "Description"
 msgstr "Përshkrimi"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "Detajet"
 
@@ -867,11 +867,11 @@ msgstr "Hidhe"
 msgid "Displays the mobile sidebar."
 msgstr "Shfaq anën mobile."
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "Shpërndarja"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "Shpërndarja u caktua në {distribution}"
 
@@ -904,7 +904,7 @@ msgstr "Dublikatat"
 msgid "Dyslexia-friendly"
 msgstr "I përshtatshëm për disleksi"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "p.sh. Staging"
 
@@ -955,7 +955,7 @@ msgstr "Email"
 msgid "Email code"
 msgstr "Kodi me email"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "Shkruani tekstin e banderolës (markdown i mbështetur)..."
 
@@ -1008,7 +1008,7 @@ msgstr "Krijimi i aplikacionit dështoi"
 msgid "Failed to create link"
 msgstr "Krijimi i lidhjes dështoi"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "Krijimi i pistës dështoi"
 
@@ -1028,7 +1028,7 @@ msgstr "Fshirja e komentit dështoi"
 msgid "Failed to delete link"
 msgstr "Fshirja e lidhjes dështoi"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "Fshirja e pistës dështoi"
 
@@ -1040,7 +1040,11 @@ msgstr "Marrja e token RSS dështoi"
 msgid "Failed to load"
 msgstr "Ngarkimi dështoi"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "Ngarkimi i banderolës dështoi"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "Ngarkimi i historisë dështoi"
 
@@ -1085,11 +1089,11 @@ msgstr "Ruajtja dështoi"
 msgid "Failed to save prompt"
 msgstr "Ruajtja e udhëzimit dështoi"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "Vendosja e pistës si të paracaktuar dështoi"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "Përditësimi i banderolës dështoi"
 
@@ -1097,11 +1101,11 @@ msgstr "Përditësimi i banderolës dështoi"
 msgid "Failed to update comment"
 msgstr "Përditësimi i komentit dështoi"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "Përditësimi i shpërndarjes dështoi"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "Përditësimi i pistës dështoi"
 
@@ -1113,7 +1117,7 @@ msgstr "Përditësimi i ndjekjes dështoi"
 msgid "Failed to upload attachment"
 msgstr "Ngarkimi i bashkëngjitjes dështoi"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "Ngarkimi i versionit dështoi"
 
@@ -1123,8 +1127,8 @@ msgstr "Ngarkimi i versionit dështoi"
 msgid "Files"
 msgstr "Skedarët"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "Gjurma"
 
@@ -1178,7 +1182,7 @@ msgstr "Grupo sipas"
 msgid "Group: {0}"
 msgstr "Grupi: {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "Historia"
 
@@ -1197,7 +1201,7 @@ msgstr "Të nxehta"
 msgid "ID"
 msgstr "ID"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "Identiteti"
 
@@ -1214,7 +1218,7 @@ msgstr "Imperial"
 msgid "Including anonymous users"
 msgstr "Përfshirë përdoruesit anonimë"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "Versioni fillestar"
 
@@ -1226,11 +1230,11 @@ msgstr "Avatar me inicialet"
 msgid "Initials avatar for {name}"
 msgstr "Avatar me inicialet për {name}"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "Instalo aplikacionin"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "Instalo lokalisht"
 
@@ -1271,7 +1275,7 @@ msgstr "I madh"
 msgid "Layout"
 msgstr "Paraqitja"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "Lini bosh"
 
@@ -1299,7 +1303,7 @@ msgstr "Lista"
 msgid "Load more"
 msgstr "Ngarko më shumë"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "Duke ngarkuar aplikacionin..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "Imazhi tjetër"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "Jo"
 
@@ -1529,7 +1533,7 @@ msgstr "S'u gjet asnjë zonë kohore."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Ende asnjë regjistrim teme — provoni përsëri pas njoftimit tjetër."
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "Asnjë pistë"
 
@@ -1541,11 +1545,11 @@ msgstr "Asnjë njoftim i palexuar"
 msgid "No users found"
 msgstr "S'u gjet asnjë përdorues"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "Pa version"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "Asnjë version"
 
@@ -1632,8 +1636,8 @@ msgstr "Hap veprimet e opsionit"
 msgid "Open selected card"
 msgstr "Hap kartën e zgjedhur"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "Hap veprimet e pistës"
 
@@ -1706,7 +1710,7 @@ msgstr "Kontrolloni lidhjen tuaj me internetin dhe provoni përsëri."
 msgid "Please enter an app name"
 msgstr "Ju lutemi futni një emër aplikacioni"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "Ju lutemi zgjidhni një skedar"
 
@@ -1733,14 +1737,14 @@ msgstr "Imazhi i mëparshëm"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "Privatësia"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "Privat"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "Vetitë"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "Publik"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "I publikuar"
 
@@ -1825,7 +1830,7 @@ msgstr "Relativ (5m, 3h, 2d)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relative brenda 24 orëve, përndryshe absolute"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "Track-et e publikimit"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "Duke u dorëzuar..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "I kufizuar"
 
@@ -1969,7 +1975,7 @@ msgstr "E shtunë"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "Rregullat e serverit"
 msgid "Session expired. Please log in again."
 msgstr "Sesioni ka skaduar. Ju lutemi identifikohuni sërish."
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "Vendos si parazgjedhur"
 
@@ -2136,7 +2142,7 @@ msgstr "Vendos origjinën dhe destinacionin"
 msgid "Settings"
 msgstr "Cilësimet"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "Ndarja"
 
@@ -2230,7 +2236,7 @@ msgstr "E diel"
 msgid "Switch to view 1-9"
 msgstr "Kalo te pamja 1-9"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "Kërkesa për mikrofon nuk mori përgjigje"
 msgid "The passkey request was not answered"
 msgstr "Kërkesa për kyç nuk mori përgjigje"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "Aplikacioni i kërkuar nuk u gjet."
 
@@ -2347,23 +2353,23 @@ msgstr "Shumë kërkesa"
 msgid "Top"
 msgstr "Lart"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "Track \"{track}\" u fshi"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track \"{track}\" u përditësua në {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "Track u krijua"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "Emri i track-ut"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "Track-et"
 
@@ -2431,7 +2437,7 @@ msgstr "Gabim i papritur i API-t"
 msgid "United States"
 msgstr "Shtetet e Bashkuara"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "Çabonohu"
 msgid "Untitled"
 msgstr "Pa titull"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "Përditëso track-et"
 
@@ -2468,9 +2474,9 @@ msgstr "U përditësua {field}"
 msgid "Upload"
 msgstr "Ngarko"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "Ngarko version të ri"
 
@@ -2478,15 +2484,15 @@ msgstr "Ngarko version të ri"
 msgid "Upload progress"
 msgstr "Ecuria e ngarkimit"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "Ngarko versionin"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "Ngarkoni build-in tuaj të parë"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "Duke ngarkuar..."
 
@@ -2500,7 +2506,7 @@ msgstr "Përdorni çelësin tuaj të hyrjes"
 msgid "User"
 msgstr "Përdoruesi"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Përdoruesit mund ta instalojnë këtë aplikacion duke ngjitur këtë lidhje në faqen e tyre të Aplikacioneve."
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "Verifiko adresën e email-it"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "Versioni {0} u ngarkua"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "Historiku i versioneve"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "Versionet"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "E mërkurë"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "Po"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "Po, detyro"
 

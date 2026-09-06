@@ -28,7 +28,7 @@ import {
   PageHeader,
   naturalCompare,
 } from '@mochi/web'
-import { Package, Plus } from 'lucide-react'
+import { Loader2, Package, Plus } from 'lucide-react'
 import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
 import type { App } from '@/api/types/apps'
 
@@ -209,7 +209,8 @@ function CreateAppDialog({
               <Trans>Cancel</Trans>
             </Button>
             <Button type='submit' disabled={createMutation.isPending}>
-              {createMutation.isPending ? t`Creating...` : <><Plus className="me-2 h-4 w-4" /><Trans>Create app</Trans></>}
+              {createMutation.isPending ? <Loader2 className='size-4 animate-spin' /> : <Plus className='size-4' />}
+              {createMutation.isPending ? t`Creating...` : t`Create app`}
             </Button>
           </ResponsiveDialogFooter>
         </form>

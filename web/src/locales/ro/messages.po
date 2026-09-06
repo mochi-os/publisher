@@ -230,8 +230,8 @@ msgstr "Oricine este autentificat"
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
 msgstr "Tot ce este abonat la acest flux va înceta să îl primească. Puteți copia un URL nou după aceea."
 
-#: src/routes/_authenticated/app/$appId.tsx:108
-#: src/routes/_authenticated/app/$appId.tsx:142
+#: src/routes/_authenticated/app/$appId.tsx:110
+#: src/routes/_authenticated/app/$appId.tsx:144
 msgid "App"
 msgstr "Aplicație"
 
@@ -239,14 +239,14 @@ msgstr "Aplicație"
 msgid "App created"
 msgstr "Aplicație creată"
 
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:132
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:157
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:134
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:159
 msgid "App not found"
 msgstr "Aplicația nu a fost găsită"
 
-#: src/routes/_authenticated/app/$appId.tsx:221
+#: src/routes/_authenticated/app/$appId.tsx:223
 msgid "Application ID"
 msgstr "ID aplicație"
 
@@ -304,7 +304,7 @@ msgstr "Cod de autentificare"
 msgid "Available keyboard shortcuts"
 msgstr "Scurtături de tastatură disponibile"
 
-#: src/routes/_authenticated/app/$appId.tsx:363
+#: src/routes/_authenticated/app/$appId.tsx:368
 msgid "Available versions"
 msgstr "Versiuni disponibile"
 
@@ -320,12 +320,12 @@ msgstr "Avatar pentru {name}"
 msgid "Back"
 msgstr "Înapoi"
 
-#: src/routes/_authenticated/app/$appId.tsx:115
-#: src/routes/_authenticated/app/$appId.tsx:128
-#: src/routes/_authenticated/app/$appId.tsx:142
-#: src/routes/_authenticated/app/$appId.tsx:153
-#: src/routes/_authenticated/app/$appId.tsx:182
-#: src/routes/_authenticated/app/$appId.tsx:335
+#: src/routes/_authenticated/app/$appId.tsx:117
+#: src/routes/_authenticated/app/$appId.tsx:130
+#: src/routes/_authenticated/app/$appId.tsx:144
+#: src/routes/_authenticated/app/$appId.tsx:155
+#: src/routes/_authenticated/app/$appId.tsx:184
+#: src/routes/_authenticated/app/$appId.tsx:340
 msgid "Back to apps"
 msgstr "Înapoi la aplicații"
 
@@ -334,16 +334,16 @@ msgstr "Înapoi la aplicații"
 msgid "Back to home"
 msgstr "Înapoi la pornire"
 
-#: ../../../lib/web/src/components/banner-section.tsx:80
+#: ../../../lib/web/src/components/banner-section.tsx:91
 #: ../../../lib/web/src/components/entity-banner.tsx:17
 msgid "Banner"
 msgstr "Banner"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner removed"
 msgstr "Banner eliminat"
 
-#: ../../../lib/web/src/components/banner-section.tsx:69
+#: ../../../lib/web/src/components/banner-section.tsx:73
 msgid "Banner updated"
 msgstr "Banner actualizat"
 
@@ -378,7 +378,7 @@ msgstr "Culoare contur"
 msgid "Browser notifications"
 msgstr "Notificări de browser"
 
-#: src/routes/_authenticated/app/$appId.tsx:681
+#: src/routes/_authenticated/app/$appId.tsx:687
 msgid "Build file"
 msgstr "Fișier de build"
 
@@ -405,8 +405,8 @@ msgstr "Camera nu este disponibilă"
 #: ../../../lib/web/src/features/accounts/account-add.tsx:201
 #: ../../../lib/web/src/features/accounts/account-verify.tsx:91
 #: src/features/apps/index.tsx:209
-#: src/routes/_authenticated/app/$appId.tsx:588
-#: src/routes/_authenticated/app/$appId.tsx:734
+#: src/routes/_authenticated/app/$appId.tsx:593
+#: src/routes/_authenticated/app/$appId.tsx:740
 msgid "Cancel"
 msgstr "Anulează"
 
@@ -463,7 +463,7 @@ msgstr "Alege un joc din bara laterală sau începe unul nou."
 msgid "Choose language"
 msgstr "Alege limba"
 
-#: ../../../lib/web/src/components/banner-section.tsx:111
+#: ../../../lib/web/src/components/banner-section.tsx:123
 #: ../../../lib/web/src/components/colour-picker.tsx:274
 #: ../../../lib/web/src/components/colour-picker.tsx:355
 #: ../../../lib/web/src/components/travelling-picker.tsx:145
@@ -619,7 +619,7 @@ msgstr "Copiat în clipboard"
 msgid "Copy"
 msgstr "Copiază"
 
-#: src/routes/_authenticated/app/$appId.tsx:341
+#: src/routes/_authenticated/app/$appId.tsx:346
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Copiază acest link și lipește-l în pagina Aplicații a serverului tău Mochi pentru a o instala."
 
@@ -661,7 +661,7 @@ msgstr "Creează {entityLabel}"
 #: src/features/apps/index.tsx:86
 #: src/features/apps/index.tsx:171
 #: src/features/apps/index.tsx:173
-#: src/features/apps/index.tsx:212
+#: src/features/apps/index.tsx:213
 msgid "Create app"
 msgstr "Creează aplicație"
 
@@ -669,14 +669,14 @@ msgstr "Creează aplicație"
 msgid "Create new item"
 msgstr "Creează un element nou"
 
-#: src/routes/_authenticated/app/$appId.tsx:211
-#: src/routes/_authenticated/app/$appId.tsx:549
-#: src/routes/_authenticated/app/$appId.tsx:551
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/routes/_authenticated/app/$appId.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:554
+#: src/routes/_authenticated/app/$appId.tsx:556
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Create track"
 msgstr "Creează track"
 
-#: src/routes/_authenticated/app/$appId.tsx:473
+#: src/routes/_authenticated/app/$appId.tsx:478
 msgid "Create your first release track"
 msgstr "Creează primul tău track de lansare"
 
@@ -692,8 +692,8 @@ msgstr "Creat {field}"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx:676
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx:260
-#: src/features/apps/index.tsx:212
-#: src/routes/_authenticated/app/$appId.tsx:595
+#: src/features/apps/index.tsx:213
+#: src/routes/_authenticated/app/$appId.tsx:600
 msgid "Creating..."
 msgstr "Se creează..."
 
@@ -723,7 +723,7 @@ msgid "Decline"
 msgstr "Respinge"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:129
-#: src/routes/_authenticated/app/$appId.tsx:486
+#: src/routes/_authenticated/app/$appId.tsx:491
 msgid "Default"
 msgstr "Implicit"
 
@@ -735,7 +735,7 @@ msgstr "Cont AI implicit"
 msgid "Default sort"
 msgstr "Sortare implicită"
 
-#: src/routes/_authenticated/app/$appId.tsx:457
+#: src/routes/_authenticated/app/$appId.tsx:462
 msgid "Default track set to \"{track}\""
 msgstr "Track-ul implicit setat la „{track}”"
 
@@ -789,7 +789,7 @@ msgstr "Șterge opțiunea"
 msgid "Delete option {0}"
 msgstr "Șterge opțiunea {0}"
 
-#: src/routes/_authenticated/app/$appId.tsx:530
+#: src/routes/_authenticated/app/$appId.tsx:535
 msgid "Delete track"
 msgstr "Șterge track-ul"
 
@@ -821,8 +821,8 @@ msgstr "Descrescător"
 msgid "Description"
 msgstr "Descriere"
 
-#: src/routes/_authenticated/app/$appId.tsx:98
-#: src/routes/_authenticated/app/$appId.tsx:347
+#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:352
 msgid "Details"
 msgstr "Detalii"
 
@@ -867,11 +867,11 @@ msgstr "Renunță"
 msgid "Displays the mobile sidebar."
 msgstr "Afișează bara laterală mobilă."
 
-#: src/routes/_authenticated/app/$appId.tsx:236
+#: src/routes/_authenticated/app/$appId.tsx:238
 msgid "Distribution"
 msgstr "Distribuție"
 
-#: src/routes/_authenticated/app/$appId.tsx:86
+#: src/routes/_authenticated/app/$appId.tsx:88
 msgid "Distribution set to {distribution}"
 msgstr "Distribuție setată la {distribution}"
 
@@ -904,7 +904,7 @@ msgstr "Duplicate"
 msgid "Dyslexia-friendly"
 msgstr "Potrivit pentru dislexie"
 
-#: src/routes/_authenticated/app/$appId.tsx:561
+#: src/routes/_authenticated/app/$appId.tsx:566
 msgid "e.g. Staging"
 msgstr "de ex. Staging"
 
@@ -955,7 +955,7 @@ msgstr "Email"
 msgid "Email code"
 msgstr "Cod email"
 
-#: ../../../lib/web/src/components/banner-section.tsx:88
+#: ../../../lib/web/src/components/banner-section.tsx:99
 msgid "Enter banner text (markdown supported)..."
 msgstr "Introdu textul bannerului (markdown acceptat)..."
 
@@ -1008,7 +1008,7 @@ msgstr "Crearea aplicației a eșuat"
 msgid "Failed to create link"
 msgstr "Crearea linkului a eșuat"
 
-#: src/routes/_authenticated/app/$appId.tsx:417
+#: src/routes/_authenticated/app/$appId.tsx:422
 msgid "Failed to create track"
 msgstr "Crearea pistei a eșuat"
 
@@ -1028,7 +1028,7 @@ msgstr "Ștergerea comentariului a eșuat"
 msgid "Failed to delete link"
 msgstr "Ștergerea linkului a eșuat"
 
-#: src/routes/_authenticated/app/$appId.tsx:446
+#: src/routes/_authenticated/app/$appId.tsx:451
 msgid "Failed to delete track"
 msgstr "Ștergerea pistei a eșuat"
 
@@ -1040,7 +1040,11 @@ msgstr "Obținerea tokenului RSS a eșuat"
 msgid "Failed to load"
 msgstr "Încărcarea a eșuat"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:68
+#: ../../../lib/web/src/components/banner-section.tsx:85
+msgid "Failed to load banner"
+msgstr "Bannerul nu a putut fi încărcat"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx:70
 msgid "Failed to load history"
 msgstr "Încărcarea istoricului a eșuat"
 
@@ -1085,11 +1089,11 @@ msgstr "Salvarea a eșuat"
 msgid "Failed to save prompt"
 msgstr "Salvarea promptului a eșuat"
 
-#: src/routes/_authenticated/app/$appId.tsx:460
+#: src/routes/_authenticated/app/$appId.tsx:465
 msgid "Failed to set default track"
 msgstr "Setarea pistei implicite a eșuat"
 
-#: ../../../lib/web/src/components/banner-section.tsx:71
+#: ../../../lib/web/src/components/banner-section.tsx:75
 msgid "Failed to update banner"
 msgstr "Actualizarea bannerului a eșuat"
 
@@ -1097,11 +1101,11 @@ msgstr "Actualizarea bannerului a eșuat"
 msgid "Failed to update comment"
 msgstr "Actualizarea comentariului a eșuat"
 
-#: src/routes/_authenticated/app/$appId.tsx:89
+#: src/routes/_authenticated/app/$appId.tsx:91
 msgid "Failed to update distribution"
 msgstr "Actualizarea distribuției a eșuat"
 
-#: src/routes/_authenticated/app/$appId.tsx:432
+#: src/routes/_authenticated/app/$appId.tsx:437
 msgid "Failed to update track"
 msgstr "Actualizarea pistei a eșuat"
 
@@ -1113,7 +1117,7 @@ msgstr "Actualizarea urmăririi a eșuat"
 msgid "Failed to upload attachment"
 msgstr "Încărcarea atașamentului a eșuat"
 
-#: src/routes/_authenticated/app/$appId.tsx:664
+#: src/routes/_authenticated/app/$appId.tsx:670
 msgid "Failed to upload version"
 msgstr "Încărcarea versiunii a eșuat"
 
@@ -1123,8 +1127,8 @@ msgstr "Încărcarea versiunii a eșuat"
 msgid "Files"
 msgstr "Fișiere"
 
-#: src/routes/_authenticated/app/$appId.tsx:224
-#: src/routes/_authenticated/app/$appId.tsx:349
+#: src/routes/_authenticated/app/$appId.tsx:226
+#: src/routes/_authenticated/app/$appId.tsx:354
 msgid "Fingerprint"
 msgstr "Amprentă"
 
@@ -1178,7 +1182,7 @@ msgstr "Grupează după"
 msgid "Group: {0}"
 msgstr "Grup: {0}"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:61
+#: ../../../lib/web/src/components/audit-timeline.tsx:63
 msgid "History"
 msgstr "Istoric"
 
@@ -1197,7 +1201,7 @@ msgstr "Popular"
 msgid "ID"
 msgstr "ID"
 
-#: src/routes/_authenticated/app/$appId.tsx:219
+#: src/routes/_authenticated/app/$appId.tsx:221
 msgid "Identity"
 msgstr "Identitate"
 
@@ -1214,7 +1218,7 @@ msgstr "Imperial"
 msgid "Including anonymous users"
 msgstr "Inclusiv utilizatorii anonimi"
 
-#: src/routes/_authenticated/app/$appId.tsx:567
+#: src/routes/_authenticated/app/$appId.tsx:572
 msgid "Initial version"
 msgstr "Versiune inițială"
 
@@ -1226,11 +1230,11 @@ msgstr "Avatar cu inițiale"
 msgid "Initials avatar for {name}"
 msgstr "Avatar cu inițiale pentru {name}"
 
-#: src/routes/_authenticated/app/$appId.tsx:338
+#: src/routes/_authenticated/app/$appId.tsx:343
 msgid "Install app"
 msgstr "Instalează aplicația"
 
-#: src/routes/_authenticated/app/$appId.tsx:694
+#: src/routes/_authenticated/app/$appId.tsx:700
 msgid "Install locally"
 msgstr "Instalează local"
 
@@ -1271,7 +1275,7 @@ msgstr "Mare"
 msgid "Layout"
 msgstr "Aspect"
 
-#: src/routes/_authenticated/app/$appId.tsx:573
+#: src/routes/_authenticated/app/$appId.tsx:578
 msgid "Leave empty"
 msgstr "Lasă gol"
 
@@ -1299,7 +1303,7 @@ msgstr "Listă"
 msgid "Load more"
 msgstr "Încarcă mai multe"
 
-#: src/routes/_authenticated/app/$appId.tsx:114
+#: src/routes/_authenticated/app/$appId.tsx:116
 msgid "Loading app..."
 msgstr "Se încarcă aplicația..."
 
@@ -1457,7 +1461,7 @@ msgid "Next image"
 msgstr "Imaginea următoare"
 
 #: src/features/apps/index.tsx:199
-#: src/routes/_authenticated/app/$appId.tsx:704
+#: src/routes/_authenticated/app/$appId.tsx:710
 msgid "No"
 msgstr "Nu"
 
@@ -1529,7 +1533,7 @@ msgstr "Nu s-a găsit niciun fus orar."
 msgid "No topic record yet — try again after the next notification."
 msgstr "Încă nu există înregistrare de subiect — încearcă din nou după următoarea notificare."
 
-#: src/routes/_authenticated/app/$appId.tsx:472
+#: src/routes/_authenticated/app/$appId.tsx:477
 msgid "No tracks"
 msgstr "Niciun canal"
 
@@ -1541,11 +1545,11 @@ msgstr "Nicio notificare necitită"
 msgid "No users found"
 msgstr "Nu s-au găsit utilizatori"
 
-#: src/routes/_authenticated/app/$appId.tsx:570
+#: src/routes/_authenticated/app/$appId.tsx:575
 msgid "No version"
 msgstr "Nicio versiune"
 
-#: src/routes/_authenticated/app/$appId.tsx:271
+#: src/routes/_authenticated/app/$appId.tsx:273
 msgid "No versions"
 msgstr "Nicio versiune"
 
@@ -1632,8 +1636,8 @@ msgstr "Deschide acțiuni opțiune"
 msgid "Open selected card"
 msgstr "Deschide cardul selectat"
 
-#: src/routes/_authenticated/app/$appId.tsx:510
 #: src/routes/_authenticated/app/$appId.tsx:515
+#: src/routes/_authenticated/app/$appId.tsx:520
 msgid "Open track actions"
 msgstr "Deschide acțiuni canal"
 
@@ -1706,7 +1710,7 @@ msgstr "Verifică conexiunea la internet și încearcă din nou."
 msgid "Please enter an app name"
 msgstr "Introdu un nume de aplicație"
 
-#: src/routes/_authenticated/app/$appId.tsx:636
+#: src/routes/_authenticated/app/$appId.tsx:643
 msgid "Please select a file"
 msgstr "Selectează un fișier"
 
@@ -1733,14 +1737,14 @@ msgstr "Imaginea anterioară"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx:23
 #: ../../../lib/web/src/features/document/document-page.tsx:44
-#: src/routes/_authenticated/app/$appId.tsx:227
-#: src/routes/_authenticated/app/$appId.tsx:352
+#: src/routes/_authenticated/app/$appId.tsx:229
+#: src/routes/_authenticated/app/$appId.tsx:357
 msgid "Privacy"
 msgstr "Confidențialitate"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:232
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:234
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Private"
 msgstr "Privat"
 
@@ -1757,13 +1761,14 @@ msgid "Properties"
 msgstr "Proprietăți"
 
 #: src/features/apps/index.tsx:92
-#: src/routes/_authenticated/app/$appId.tsx:230
-#: src/routes/_authenticated/app/$appId.tsx:354
+#: src/routes/_authenticated/app/$appId.tsx:232
+#: src/routes/_authenticated/app/$appId.tsx:359
 msgid "Public"
 msgstr "Public"
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:246
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:248
 msgid "Published"
 msgstr "Publicat"
 
@@ -1825,7 +1830,7 @@ msgstr "Relativ (5m, 3h, 2z)"
 msgid "Relative within 24 hours, else absolute"
 msgstr "Relativ în 24 de ore, altfel absolut"
 
-#: src/routes/_authenticated/app/$appId.tsx:467
+#: src/routes/_authenticated/app/$appId.tsx:472
 msgid "Release tracks"
 msgstr "Track-uri de lansare"
 
@@ -1922,7 +1927,8 @@ msgid "Resigning..."
 msgstr "Se abandonează..."
 
 #: src/features/apps/index.tsx:93
-#: src/routes/_authenticated/app/$appId.tsx:247
+#: src/routes/_authenticated/app/$appId.tsx:87
+#: src/routes/_authenticated/app/$appId.tsx:249
 msgid "Restricted"
 msgstr "Restricționat"
 
@@ -1969,7 +1975,7 @@ msgstr "Sâmbătă"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx:156
 #: ../../../lib/web/src/components/attachment-composer.tsx:430
-#: ../../../lib/web/src/components/banner-section.tsx:99
+#: ../../../lib/web/src/components/banner-section.tsx:111
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx:231
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx:172
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx:126
@@ -2122,7 +2128,7 @@ msgstr "Regulile serverului"
 msgid "Session expired. Please log in again."
 msgstr "Sesiunea a expirat. Autentificați-vă din nou."
 
-#: src/routes/_authenticated/app/$appId.tsx:523
+#: src/routes/_authenticated/app/$appId.tsx:528
 msgid "Set as default"
 msgstr "Setează ca implicit"
 
@@ -2136,7 +2142,7 @@ msgstr "Setează originea și destinația"
 msgid "Settings"
 msgstr "Setări"
 
-#: src/routes/_authenticated/app/$appId.tsx:254
+#: src/routes/_authenticated/app/$appId.tsx:256
 msgid "Sharing"
 msgstr "Partajare"
 
@@ -2230,7 +2236,7 @@ msgstr "Duminică"
 msgid "Switch to view 1-9"
 msgstr "Comută la vizualizarea 1-9"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:107
+#: ../../../lib/web/src/components/audit-timeline.tsx:109
 #: ../../../lib/web/src/lib/preference-utils.ts:16
 #: ../../../lib/web/src/lib/preference-utils.ts:132
 msgid "System"
@@ -2287,8 +2293,8 @@ msgstr "Solicitarea microfonului nu a primit răspuns"
 msgid "The passkey request was not answered"
 msgstr "Solicitarea cheii de acces nu a primit răspuns"
 
-#: src/routes/_authenticated/app/$appId.tsx:133
-#: src/routes/_authenticated/app/$appId.tsx:158
+#: src/routes/_authenticated/app/$appId.tsx:135
+#: src/routes/_authenticated/app/$appId.tsx:160
 msgid "The requested app could not be found."
 msgstr "Aplicația solicitată nu a putut fi găsită."
 
@@ -2347,23 +2353,23 @@ msgstr "Prea multe solicitări"
 msgid "Top"
 msgstr "Sus"
 
-#: src/routes/_authenticated/app/$appId.tsx:443
+#: src/routes/_authenticated/app/$appId.tsx:448
 msgid "Track \"{track}\" deleted"
 msgstr "Track-ul „{track}” a fost șters"
 
-#: src/routes/_authenticated/app/$appId.tsx:429
+#: src/routes/_authenticated/app/$appId.tsx:434
 msgid "Track \"{track}\" updated to {version}"
 msgstr "Track-ul „{track}” a fost actualizat la {version}"
 
-#: src/routes/_authenticated/app/$appId.tsx:411
+#: src/routes/_authenticated/app/$appId.tsx:416
 msgid "Track created"
 msgstr "Track creat"
 
-#: src/routes/_authenticated/app/$appId.tsx:557
+#: src/routes/_authenticated/app/$appId.tsx:562
 msgid "Track name"
 msgstr "Numele track-ului"
 
-#: src/routes/_authenticated/app/$appId.tsx:100
+#: src/routes/_authenticated/app/$appId.tsx:102
 msgid "Tracks"
 msgstr "Track-uri"
 
@@ -2431,7 +2437,7 @@ msgstr "Eroare API neașteptată"
 msgid "United States"
 msgstr "Statele Unite"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx:103
+#: ../../../lib/web/src/components/audit-timeline.tsx:105
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx:167
 #: ../../../lib/web/src/components/tree-row.tsx:219
 #: ../../../lib/web/src/components/tree-row.tsx:373
@@ -2449,7 +2455,7 @@ msgstr "Dezabonează-te"
 msgid "Untitled"
 msgstr "Fără titlu"
 
-#: src/routes/_authenticated/app/$appId.tsx:710
+#: src/routes/_authenticated/app/$appId.tsx:716
 msgid "Update tracks"
 msgstr "Actualizează track-urile"
 
@@ -2468,9 +2474,9 @@ msgstr "Actualizat {field}"
 msgid "Upload"
 msgstr "Încarcă"
 
-#: src/routes/_authenticated/app/$appId.tsx:205
-#: src/routes/_authenticated/app/$appId.tsx:672
-#: src/routes/_authenticated/app/$appId.tsx:674
+#: src/routes/_authenticated/app/$appId.tsx:207
+#: src/routes/_authenticated/app/$appId.tsx:678
+#: src/routes/_authenticated/app/$appId.tsx:680
 msgid "Upload new version"
 msgstr "Încarcă versiune nouă"
 
@@ -2478,15 +2484,15 @@ msgstr "Încarcă versiune nouă"
 msgid "Upload progress"
 msgstr "Progresul încărcării"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Upload version"
 msgstr "Încarcă versiunea"
 
-#: src/routes/_authenticated/app/$appId.tsx:272
+#: src/routes/_authenticated/app/$appId.tsx:274
 msgid "Upload your first build"
 msgstr "Încarcă primul tău build"
 
-#: src/routes/_authenticated/app/$appId.tsx:738
+#: src/routes/_authenticated/app/$appId.tsx:744
 msgid "Uploading..."
 msgstr "Se încarcă..."
 
@@ -2500,7 +2506,7 @@ msgstr "Folosește cheia de acces"
 msgid "User"
 msgstr "Utilizator"
 
-#: src/routes/_authenticated/app/$appId.tsx:257
+#: src/routes/_authenticated/app/$appId.tsx:259
 msgid "Users can install this application by pasting this link into their Apps page."
 msgstr "Utilizatorii pot instala această aplicație lipind acest link în pagina lor Aplicații."
 
@@ -2522,15 +2528,15 @@ msgid "Verify email address"
 msgstr "Verifică adresa de email"
 
 #. placeholder {0}: data.version
-#: src/routes/_authenticated/app/$appId.tsx:654
+#: src/routes/_authenticated/app/$appId.tsx:661
 msgid "Version {0} uploaded"
 msgstr "Versiunea {0} a fost încărcată"
 
-#: src/routes/_authenticated/app/$appId.tsx:266
+#: src/routes/_authenticated/app/$appId.tsx:268
 msgid "Version history"
 msgstr "Istoricul versiunilor"
 
-#: src/routes/_authenticated/app/$appId.tsx:99
+#: src/routes/_authenticated/app/$appId.tsx:101
 msgid "Versions"
 msgstr "Versiuni"
 
@@ -2584,11 +2590,11 @@ msgid "Wednesday"
 msgstr "Miercuri"
 
 #: src/features/apps/index.tsx:198
-#: src/routes/_authenticated/app/$appId.tsx:702
+#: src/routes/_authenticated/app/$appId.tsx:708
 msgid "Yes"
 msgstr "Da"
 
-#: src/routes/_authenticated/app/$appId.tsx:703
+#: src/routes/_authenticated/app/$appId.tsx:709
 msgid "Yes, force"
 msgstr "Da, forțează"
 
