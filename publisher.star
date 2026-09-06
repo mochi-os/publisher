@@ -160,11 +160,18 @@ def action_share(a):
 	# Local rows first: the publisher's own visit, and the app's own server.
 	app = mochi.db.row("select * from apps where id=?", id)
 	tracks = []
+	# The share string for a private app names where to ask, since a private
+	# app is not in the directory. That is this server's peer id, as the forums
+	# and wikis share links name it - never the app's own entity, which is the
+	# one id the directory cannot resolve. A row reached over P2P below came
+	# through the directory, so it is public and the link needs no publisher.
+	publisher = ""
 	if app:
 		if app.get("distribution") == "restricted":
 			a.error.label(404, "errors.app_not_found")
 			return
 		tracks = [t for t in mochi.db.rows("select * from tracks where app=?", app["id"]) if t.get("version")]
+		publisher = mochi.server.id()
 	else:
 		# Not in this database: ask the publisher over P2P, as apps/apps.star does.
 		# event_information refuses restricted apps itself.
@@ -189,7 +196,7 @@ def action_share(a):
 	fp = mochi.entity.fingerprint(id)
 	app["fingerprint"] = fp[:3] + "-" + fp[3:6] + "-" + fp[6:]
 	return {"data": {"app": app, "tracks": tracks, "versions": [],
-		"administrator": False, "share": True, "publisher": id}}
+		"administrator": False, "share": True, "publisher": publisher}}
 
 # View an app (supports both authenticated and anonymous access)
 def action_view(a):
@@ -206,8 +213,10 @@ def action_view(a):
 	app["fingerprint"] = fp[:3] + "-" + fp[3:6] + "-" + fp[6:]
 	tracks_all = mochi.db.rows("select * from tracks where app=?", app["id"])
 
-	# Get publisher identity for share string
-	publisher = a.user.identity.id if a.user and a.user.identity else ""
+	# The share string's publisher is where a private app can be asked for,
+	# and the row above is in this server's database: this server's peer id,
+	# not the identity of whoever is looking.
+	publisher = mochi.server.id()
 
 	# Anyone may publish, so managing an app is a question of owning it, not of
 	# holding a role - the same test every write action here already uses. The
