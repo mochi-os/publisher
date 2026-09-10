@@ -367,6 +367,16 @@ def action_version_create(a):
 		a.error.label(400, "errors.failed_to_read_app_info_from_archive")
 		return
 
+	# A package core would refuse - no version, a bad path, a missing execute
+	# file - is the uploader's problem, not the server's. Ask before the
+	# install: mochi.app.package.install raises on the refusal, and a raised
+	# action is a 500 that mails the administrator.
+	refusal = mochi.app.package.check(file)
+	if refusal:
+		mochi.file.delete(file)
+		a.error.label(400, "errors.package_refused", reason=refusal)
+		return
+
 	# Validate paths match existing version (unless force=true)
 	force = a.input("force") == "yes"
 	if not force:
@@ -393,11 +403,10 @@ def action_version_create(a):
 					a.error.label(400, "errors.paths_mismatch", expected=str(old_paths), got=str(new_paths))
 					return
 
-	# No `if not version:` guard: as the sweep comment above says, install raises
-	# on every failure path, and a package that installs always carries a version
-	# - manifest_validate refuses an empty or malformed one before install
-	# returns. The archive an aborted install leaves behind is what sweep_uploads
-	# clears on the next upload.
+	# No `if not version:` guard: install raises on every failure path, and the
+	# check above has already refused what manifest_validate refuses, so what is
+	# left to abort here is a server fault. The archive an aborted install leaves
+	# behind is what sweep_uploads clears on the next upload.
 	version = mochi.app.package.install(app["id"], file, not install)
 
 	# Store the archive under a name derived from the app and version, so
