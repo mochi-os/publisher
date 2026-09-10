@@ -2,9 +2,8 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // This file is part of Mochi, licensed under the GNU AGPL v3 with the
 // Mochi Application Interface Exception - see license.txt and license-exception.md.
-
-import { requestHelpers } from '@mochi/web'
 import type { AxiosProgressEvent } from 'axios'
+import { requestHelpers } from '@mochi/web'
 import endpoints from '@/api/endpoints'
 import type {
   AppsListResponse,
@@ -23,7 +22,9 @@ const listApps = async (): Promise<App[]> => {
   return response.apps
 }
 
-const getApp = async (id: string): Promise<{
+const getApp = async (
+  id: string
+): Promise<{
   app: App
   tracks: Track[]
   versions: Version[]
@@ -37,7 +38,9 @@ const getApp = async (id: string): Promise<{
   try {
     return await requestHelpers.get<AppDetailsResponse>(endpoints.apps.get(id))
   } catch {
-    return await requestHelpers.get<AppDetailsResponse>(endpoints.apps.share(id))
+    return await requestHelpers.get<AppDetailsResponse>(
+      endpoints.apps.share(id)
+    )
   }
 }
 
@@ -88,10 +91,10 @@ const createTrack = async (
   track: string,
   version: string
 ): Promise<{ track: string; version: string }> => {
-  const response = await requestHelpers.post<{ track: string; version: string }>(
-    endpoints.apps.trackCreate(appId),
-    { app: appId, track, version }
-  )
+  const response = await requestHelpers.post<{
+    track: string
+    version: string
+  }>(endpoints.apps.trackCreate(appId), { app: appId, track, version })
   return response
 }
 
@@ -100,10 +103,10 @@ const setTrack = async (
   track: string,
   version: string
 ): Promise<{ track: string; version: string }> => {
-  const response = await requestHelpers.post<{ track: string; version: string }>(
-    endpoints.apps.trackSet(appId),
-    { app: appId, track, version }
-  )
+  const response = await requestHelpers.post<{
+    track: string
+    version: string
+  }>(endpoints.apps.trackSet(appId), { app: appId, track, version })
   return response
 }
 

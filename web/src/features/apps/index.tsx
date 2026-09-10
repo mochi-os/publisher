@@ -2,10 +2,9 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // This file is part of Mochi, licensed under the GNU AGPL v3 with the
 // Mochi Application Interface Exception - see license.txt and license-exception.md.
-
 import { useMemo, useState } from 'react'
-import { Trans, useLingui } from '@lingui/react/macro'
 import { useNavigate } from '@tanstack/react-router'
+import { Trans, useLingui } from '@lingui/react/macro'
 import {
   usePageTitle,
   ResponsiveDialog,
@@ -29,8 +28,8 @@ import {
   naturalCompare,
 } from '@mochi/web'
 import { Loader2, Package, Plus } from 'lucide-react'
-import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
 import type { App } from '@/api/types/apps'
+import { useAppsQuery, useCreateAppMutation } from '@/hooks/useApps'
 
 export function Apps() {
   const { t } = useLingui()
@@ -40,7 +39,10 @@ export function Apps() {
 
   const { data: appsRaw, isLoading, error, refetch } = useAppsQuery()
   const apps = useMemo(
-    () => appsRaw ? [...appsRaw].sort((a, b) => naturalCompare(a.name, b.name)) : appsRaw,
+    () =>
+      appsRaw
+        ? [...appsRaw].sort((a, b) => naturalCompare(a.name, b.name))
+        : appsRaw,
     [appsRaw]
   )
   const openCreateDialog = () => setShowCreateDialog(true)
@@ -57,7 +59,9 @@ export function Apps() {
             className='h-9 w-9 px-0 sm:h-10 sm:w-auto sm:px-4'
           >
             <Plus className='h-4 w-4 sm:me-2' />
-            <span className='sr-only sm:not-sr-only'><Trans>Create app</Trans></span>
+            <span className='sr-only sm:not-sr-only'>
+              <Trans>Create app</Trans>
+            </span>
           </Button>
         }
       />
@@ -77,10 +81,7 @@ export function Apps() {
             ) : null}
 
             {error && !apps ? null : apps?.length === 0 ? (
-              <EmptyState
-                icon={Package}
-                title={t`No apps yet`}
-              >
+              <EmptyState icon={Package} title={t`No apps yet`}>
                 <Button onClick={openCreateDialog}>
                   <Plus className='me-2 h-4 w-4' />
                   <Trans>Create app</Trans>
@@ -89,18 +90,31 @@ export function Apps() {
             ) : (
               <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-3'>
                 {apps?.map((app: App) => {
-                  const privacyLabel = app.privacy === 'public' ? t`Public` : t`Private`
-                  const distributionLabel = app.distribution === 'restricted' ? t`Restricted` : t`Published`
+                  const privacyLabel =
+                    app.privacy === 'public' ? t`Public` : t`Private`
+                  const distributionLabel =
+                    app.distribution === 'restricted'
+                      ? t`Restricted`
+                      : t`Published`
                   return (
                     <Card
                       key={app.id}
                       className='flex cursor-pointer flex-col transition-shadow hover:shadow-md'
-                      onClick={() => navigate({ to: '/app/$appId', params: { appId: app.id } })}
+                      onClick={() =>
+                        navigate({
+                          to: '/app/$appId',
+                          params: { appId: app.id },
+                        })
+                      }
                     >
                       <CardHeader>
-                        <CardTitle className='truncate text-lg'>{app.name}</CardTitle>
+                        <CardTitle className='truncate text-lg'>
+                          {app.name}
+                        </CardTitle>
                         {app.version && (
-                          <p className='text-muted-foreground text-sm'>{app.version}</p>
+                          <p className='text-muted-foreground text-sm'>
+                            {app.version}
+                          </p>
                         )}
                         <p className='text-muted-foreground text-xs'>
                           {privacyLabel} · {distributionLabel}
@@ -168,8 +182,10 @@ function CreateAppDialog({
     <ResponsiveDialog open={open} onOpenChange={onOpenChange}>
       <ResponsiveDialogContent>
         <ResponsiveDialogHeader>
-          <ResponsiveDialogTitle><Trans>Create app</Trans></ResponsiveDialogTitle>
-          <ResponsiveDialogDescription className="sr-only">
+          <ResponsiveDialogTitle>
+            <Trans>Create app</Trans>
+          </ResponsiveDialogTitle>
+          <ResponsiveDialogDescription className='sr-only'>
             <Trans>Create app</Trans>
           </ResponsiveDialogDescription>
         </ResponsiveDialogHeader>
@@ -209,7 +225,11 @@ function CreateAppDialog({
               <Trans>Cancel</Trans>
             </Button>
             <Button type='submit' disabled={createMutation.isPending}>
-              {createMutation.isPending ? <Loader2 className='size-4 animate-spin' /> : <Plus className='size-4' />}
+              {createMutation.isPending ? (
+                <Loader2 className='size-4 animate-spin' />
+              ) : (
+                <Plus className='size-4' />
+              )}
               {createMutation.isPending ? t`Creating...` : t`Create app`}
             </Button>
           </ResponsiveDialogFooter>

@@ -2,10 +2,9 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // This file is part of Mochi, licensed under the GNU AGPL v3 with the
 // Mochi Application Interface Exception - see license.txt and license-exception.md.
-
 import { useState, useRef } from 'react'
-import { Trans, useLingui } from '@lingui/react/macro'
 import { createFileRoute, useNavigate } from '@tanstack/react-router'
+import { Trans, useLingui } from '@lingui/react/macro'
 import {
   Button,
   cn,
@@ -44,7 +43,16 @@ import {
   UploadProgress,
   useUploadProgress,
 } from '@mochi/web'
-import { Upload, Plus, MoreHorizontal, Package, Shield, Globe, Lock, Loader2 } from 'lucide-react'
+import {
+  Upload,
+  Plus,
+  MoreHorizontal,
+  Package,
+  Shield,
+  Globe,
+  Lock,
+  Loader2,
+} from 'lucide-react'
 import { sortVersionsDesc } from '@/lib/version'
 import {
   useAppQuery,
@@ -64,7 +72,12 @@ type AppSearch = {
 
 export const Route = createFileRoute('/_authenticated/app/$appId')({
   validateSearch: (search: Record<string, unknown>): AppSearch => ({
-    tab: (search.tab === 'details' || search.tab === 'versions' || search.tab === 'tracks') ? search.tab : undefined,
+    tab:
+      search.tab === 'details' ||
+      search.tab === 'versions' ||
+      search.tab === 'tracks'
+        ? search.tab
+        : undefined,
   }),
   component: AppPage,
 })
@@ -84,7 +97,8 @@ function AppPage() {
       {
         onSuccess: () => {
           // The label, not the enum value, reaches the toast.
-          const distribution = value === 'restricted' ? t`Restricted` : t`Published`
+          const distribution =
+            value === 'restricted' ? t`Restricted` : t`Published`
           toast.success(t`Distribution set to ${distribution}`)
         },
         onError: (error) => {
@@ -127,7 +141,10 @@ function AppPage() {
     if (error instanceof ApiError && error.status === 404) {
       return (
         <>
-          <PageHeader title={t`App not found`} back={{ label: t`Back to apps`, onFallback: goBackToApps }} />
+          <PageHeader
+            title={t`App not found`}
+            back={{ label: t`Back to apps`, onFallback: goBackToApps }}
+          />
           <Main>
             <EmptyState
               icon={Package}
@@ -141,7 +158,10 @@ function AppPage() {
 
     return (
       <>
-        <PageHeader title={t`App`} back={{ label: t`Back to apps`, onFallback: goBackToApps }} />
+        <PageHeader
+          title={t`App`}
+          back={{ label: t`Back to apps`, onFallback: goBackToApps }}
+        />
         <Main>
           <GeneralError error={error} minimal mode='inline' reset={refetch} />
         </Main>
@@ -152,7 +172,10 @@ function AppPage() {
   if (!data || !data.app) {
     return (
       <>
-        <PageHeader title={t`App not found`} back={{ label: t`Back to apps`, onFallback: goBackToApps }} />
+        <PageHeader
+          title={t`App not found`}
+          back={{ label: t`Back to apps`, onFallback: goBackToApps }}
+        />
         <Main>
           <EmptyState
             icon={Package}
@@ -175,14 +198,24 @@ function AppPage() {
 
   // Show share page for unauthenticated users or non-admins
   if (share) {
-    return <SharePage app={app} tracks={tracks} shareString={shareString} onBack={goBackToApps} />
+    return (
+      <SharePage
+        app={app}
+        tracks={tracks}
+        shareString={shareString}
+        onBack={goBackToApps}
+      />
+    )
   }
 
   // Show management page for administrators
   return (
     <>
-      <PageHeader title={app.name} back={{ label: t`Back to apps`, onFallback: goBackToApps }} />
-      <Main className='pt-2 space-y-6'>
+      <PageHeader
+        title={app.name}
+        back={{ label: t`Back to apps`, onFallback: goBackToApps }}
+      />
+      <Main className='space-y-6 pt-2'>
         <div className='flex items-center justify-between border-b'>
           <div className='flex gap-1'>
             {(['details', 'versions', 'tracks'] as const).map((tab) => (
@@ -191,10 +224,10 @@ function AppPage() {
                 onClick={() => setActiveTab(tab)}
                 className={cn(
                   'px-4 py-2 text-sm font-medium transition-colors',
-                  'border-b-2 -mb-px',
+                  '-mb-px border-b-2',
                   activeTab === tab
                     ? 'border-primary text-foreground'
-                    : 'border-transparent text-muted-foreground hover:text-foreground'
+                    : 'text-muted-foreground hover:text-foreground border-transparent'
                 )}
               >
                 {tabLabels[tab]}
@@ -202,24 +235,33 @@ function AppPage() {
             ))}
           </div>
           {activeTab === 'versions' && (
-            <Button onClick={() => setShowUploadDialog(true)} className='mb-2' size="sm">
+            <Button
+              onClick={() => setShowUploadDialog(true)}
+              className='mb-2'
+              size='sm'
+            >
               <Upload className='me-2 h-4 w-4' />
               <Trans>Upload new version</Trans>
             </Button>
           )}
           {activeTab === 'tracks' && (
-            <Button variant='outline' size='sm' onClick={() => setShowAddTrack(true)} className='mb-2'>
-              <Plus className='h-4 w-4 me-2' />
+            <Button
+              variant='outline'
+              size='sm'
+              onClick={() => setShowAddTrack(true)}
+              className='mb-2'
+            >
+              <Plus className='me-2 h-4 w-4' />
               <Trans>Create track</Trans>
             </Button>
           )}
         </div>
 
-        <div className="pt-2">
+        <div className='pt-2'>
           {activeTab === 'details' && (
             <div className='space-y-6'>
               <Section title={t`Identity`}>
-                <div className="divide-y-0">
+                <div className='divide-y-0'>
                   <FieldRow label={t`Application ID`}>
                     <DataChip value={app.id} />
                   </FieldRow>
@@ -227,11 +269,19 @@ function AppPage() {
                     <DataChip value={app.fingerprint || ''} truncate='middle' />
                   </FieldRow>
                   <FieldRow label={t`Privacy`}>
-                    <div className="flex items-center gap-2">
+                    <div className='flex items-center gap-2'>
                       {app.privacy === 'public' ? (
-                        <DataChip value={t`Public`} icon={<Globe className="size-3.5" />} copyable={false} />
+                        <DataChip
+                          value={t`Public`}
+                          icon={<Globe className='size-3.5' />}
+                          copyable={false}
+                        />
                       ) : (
-                        <DataChip value={t`Private`} icon={<Lock className="size-3.5" />} copyable={false} />
+                        <DataChip
+                          value={t`Private`}
+                          icon={<Lock className='size-3.5' />}
+                          copyable={false}
+                        />
                       )}
                     </div>
                   </FieldRow>
@@ -241,12 +291,16 @@ function AppPage() {
                       onValueChange={handleSetDistribution}
                       disabled={setDistributionMutation.isPending}
                     >
-                      <SelectTrigger className='w-36 h-8 text-xs'>
+                      <SelectTrigger className='h-8 w-36 text-xs'>
                         <SelectValue />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value='published'><Trans>Published</Trans></SelectItem>
-                        <SelectItem value='restricted'><Trans>Restricted</Trans></SelectItem>
+                        <SelectItem value='published'>
+                          <Trans>Published</Trans>
+                        </SelectItem>
+                        <SelectItem value='restricted'>
+                          <Trans>Restricted</Trans>
+                        </SelectItem>
                       </SelectContent>
                     </Select>
                   </FieldRow>
@@ -254,9 +308,12 @@ function AppPage() {
               </Section>
 
               <Section title={t`Sharing`}>
-                <div className="space-y-4">
+                <div className='space-y-4'>
                   <p className='text-muted-foreground text-sm'>
-                    <Trans>Users can install this application by pasting this link into their Apps page.</Trans>
+                    <Trans>
+                      Users can install this application by pasting this link
+                      into their Apps page.
+                    </Trans>
                   </p>
                   <DataChip value={shareString} copyButtonMode='always' />
                 </div>
@@ -267,7 +324,7 @@ function AppPage() {
           {activeTab === 'versions' && (
             <Section title={t`Version history`}>
               {versions.length === 0 ? (
-                <div className="py-8">
+                <div className='py-8'>
                   <EmptyState
                     icon={Package}
                     title={t`No versions`}
@@ -275,16 +332,19 @@ function AppPage() {
                   />
                 </div>
               ) : (
-                <div className='divide-y border rounded-lg overflow-hidden'>
+                <div className='divide-y overflow-hidden rounded-lg border'>
                   {sortVersionsDesc(versions).map((version) => (
-                    <div key={version.version} className='flex items-center justify-between px-4 py-3 transition-colors hover:bg-surface-2'>
-                      <div className="flex items-center gap-3">
-                        <Package className="size-4 text-muted-foreground" />
+                    <div
+                      key={version.version}
+                      className='hover:bg-surface-2 flex items-center justify-between px-4 py-3 transition-colors'
+                    >
+                      <div className='flex items-center gap-3'>
+                        <Package className='text-muted-foreground size-4' />
                         <span className='font-mono text-sm font-semibold'>
                           {version.version}
                         </span>
                       </div>
-                      <span className='text-muted-foreground bg-surface-2 text-xs font-mono rounded px-2 py-0.5'>
+                      <span className='text-muted-foreground bg-surface-2 rounded px-2 py-0.5 font-mono text-xs'>
                         {version.file}
                       </span>
                     </div>
@@ -337,27 +397,39 @@ function SharePage({
   const { t } = useLingui()
   return (
     <>
-      <PageHeader title={app.name} back={{ label: t`Back to apps`, onFallback: onBack }} />
+      <PageHeader
+        title={app.name}
+        back={{ label: t`Back to apps`, onFallback: onBack }}
+      />
       <Main className='pt-2'>
         <div className='space-y-6'>
           <Section title={t`Install app`}>
-            <div className="space-y-4">
+            <div className='space-y-4'>
               <p className='text-muted-foreground text-sm'>
-                <Trans>Copy this link and paste it in your Mochi server's Apps page to install.</Trans>
+                <Trans>
+                  Copy this link and paste it in your Mochi server's Apps page
+                  to install.
+                </Trans>
               </p>
               <DataChip value={shareString} copyButtonMode='always' />
             </div>
           </Section>
 
           <Section title={t`Details`}>
-            <div className="divide-y-0">
+            <div className='divide-y-0'>
               <FieldRow label={t`Fingerprint`}>
                 <DataChip value={app.fingerprint || ''} truncate='middle' />
               </FieldRow>
               <FieldRow label={t`Privacy`}>
                 <DataChip
                   value={app.privacy === 'public' ? t`Public` : t`Private`}
-                  icon={app.privacy === 'public' ? <Globe className="size-3.5" /> : <Lock className="size-3.5" />}
+                  icon={
+                    app.privacy === 'public' ? (
+                      <Globe className='size-3.5' />
+                    ) : (
+                      <Lock className='size-3.5' />
+                    )
+                  }
                   copyable={false}
                 />
               </FieldRow>
@@ -366,10 +438,13 @@ function SharePage({
 
           {tracks.length > 0 && (
             <Section title={t`Available versions`}>
-              <div className='divide-y border rounded-lg overflow-hidden'>
+              <div className='divide-y overflow-hidden rounded-lg border'>
                 {tracks.map((track) => (
-                  <div key={track.track} className='flex items-center justify-between py-3 px-4'>
-                    <span className='font-medium text-sm'>{track.track}</span>
+                  <div
+                    key={track.track}
+                    className='flex items-center justify-between px-4 py-3'
+                  >
+                    <span className='text-sm font-medium'>{track.track}</span>
                     <DataChip value={track.version} copyable={false} />
                   </div>
                 ))}
@@ -425,7 +500,11 @@ function TracksTab({
     )
   }
 
-  const handleSetTrackVersion = (track: string, version: string, currentVersion: string) => {
+  const handleSetTrackVersion = (
+    track: string,
+    version: string,
+    currentVersion: string
+  ) => {
     if (textUnchanged(version, currentVersion)) return
     setTrackMutation.mutate(
       { appId, track, version },
@@ -471,7 +550,7 @@ function TracksTab({
   return (
     <Section title={t`Release tracks`}>
       {tracks.length === 0 ? (
-        <div className="py-8">
+        <div className='py-8'>
           <EmptyState
             icon={Shield}
             title={t`No tracks`}
@@ -479,30 +558,38 @@ function TracksTab({
           />
         </div>
       ) : (
-        <div className='divide-y border rounded-lg overflow-hidden'>
+        <div className='divide-y overflow-hidden rounded-lg border'>
           {tracks.map((track) => (
             <div
               key={track.track}
-              className='flex items-center justify-between px-4 py-3 transition-colors hover:bg-surface-2'
+              className='hover:bg-surface-2 flex items-center justify-between px-4 py-3 transition-colors'
             >
-              <span className='font-semibold text-sm flex items-center gap-2'>
+              <span className='flex items-center gap-2 text-sm font-semibold'>
                 {track.track}
                 {track.track === defaultTrack && (
-                  <span className='text-[10px] uppercase tracking-wider bg-primary/10 text-primary px-1.5 py-0.5 rounded-full'><Trans>Default</Trans></span>
+                  <span className='bg-primary/10 text-primary rounded-full px-1.5 py-0.5 text-[10px] tracking-wider uppercase'>
+                    <Trans>Default</Trans>
+                  </span>
                 )}
               </span>
 
               <div className='flex items-center gap-3'>
                 <Select
                   value={track.version}
-                  onValueChange={(v) => handleSetTrackVersion(track.track, v, track.version)}
+                  onValueChange={(v) =>
+                    handleSetTrackVersion(track.track, v, track.version)
+                  }
                 >
-                  <SelectTrigger className='w-32 h-8 text-xs font-mono'>
+                  <SelectTrigger className='h-8 w-32 font-mono text-xs'>
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
                     {sortVersionsDesc(versions).map((v) => (
-                      <SelectItem key={v.version} value={v.version} className="font-mono text-xs">
+                      <SelectItem
+                        key={v.version}
+                        value={v.version}
+                        className='font-mono text-xs'
+                      >
                         {v.version}
                       </SelectItem>
                     ))}
@@ -512,7 +599,12 @@ function TracksTab({
                   <Tooltip>
                     <TooltipTrigger asChild>
                       <DropdownMenuTrigger asChild>
-                        <Button variant='ghost' size='icon' className="h-8 w-8" aria-label={t`Open track actions`}>
+                        <Button
+                          variant='ghost'
+                          size='icon'
+                          className='h-8 w-8'
+                          aria-label={t`Open track actions`}
+                        >
                           <MoreHorizontal className='h-4 w-4' />
                         </Button>
                       </DropdownMenuTrigger>
@@ -523,14 +615,14 @@ function TracksTab({
                     <DropdownMenuItem
                       onClick={() => handleSetDefaultTrack(track.track)}
                       disabled={track.track === defaultTrack}
-                      className="text-xs"
+                      className='text-xs'
                     >
                       <Trans>Set as default</Trans>
                     </DropdownMenuItem>
                     <DropdownMenuItem
                       onClick={() => handleDeleteTrack(track.track)}
                       disabled={track.track === defaultTrack}
-                      className="text-xs text-destructive"
+                      className='text-destructive text-xs'
                     >
                       <Trans>Delete track</Trans>
                     </DropdownMenuItem>
@@ -542,16 +634,21 @@ function TracksTab({
         </div>
       )}
 
-      <ResponsiveDialog open={showAddTrack} onOpenChange={(open) => {
-        setShowAddTrack(open)
-        if (!open) {
-          setNewTrackName('')
-          setNewTrackVersion('__none__')
-        }
-      }}>
+      <ResponsiveDialog
+        open={showAddTrack}
+        onOpenChange={(open) => {
+          setShowAddTrack(open)
+          if (!open) {
+            setNewTrackName('')
+            setNewTrackVersion('__none__')
+          }
+        }}
+      >
         <ResponsiveDialogContent>
           <ResponsiveDialogHeader>
-            <ResponsiveDialogTitle><Trans>Create track</Trans></ResponsiveDialogTitle>
+            <ResponsiveDialogTitle>
+              <Trans>Create track</Trans>
+            </ResponsiveDialogTitle>
             <ResponsiveDialogDescription className='sr-only'>
               <Trans>Create track</Trans>
             </ResponsiveDialogDescription>
@@ -569,15 +666,29 @@ function TracksTab({
               />
             </div>
             <div className='space-y-2'>
-              <label className='text-sm font-medium'><Trans>Initial version</Trans></label>
-              <Select value={newTrackVersion} onValueChange={setNewTrackVersion}>
+              <label className='text-sm font-medium'>
+                <Trans>Initial version</Trans>
+              </label>
+              <Select
+                value={newTrackVersion}
+                onValueChange={setNewTrackVersion}
+              >
                 <SelectTrigger>
                   <SelectValue placeholder={t`No version`} />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value='__none__' className='text-muted-foreground'><Trans>Leave empty</Trans></SelectItem>
+                  <SelectItem
+                    value='__none__'
+                    className='text-muted-foreground'
+                  >
+                    <Trans>Leave empty</Trans>
+                  </SelectItem>
                   {sortVersionsDesc(versions).map((v) => (
-                    <SelectItem key={v.version} value={v.version} className="font-mono">
+                    <SelectItem
+                      key={v.version}
+                      value={v.version}
+                      className='font-mono'
+                    >
                       {v.version}
                     </SelectItem>
                   ))}
@@ -586,17 +697,18 @@ function TracksTab({
             </div>
           </div>
           <ResponsiveDialogFooter>
-            <Button
-              variant='outline'
-              onClick={() => setShowAddTrack(false)}
-            >
+            <Button variant='outline' onClick={() => setShowAddTrack(false)}>
               <Trans>Cancel</Trans>
             </Button>
             <Button
               onClick={handleCreateTrack}
               disabled={!newTrackName || createTrackMutation.isPending}
             >
-              {createTrackMutation.isPending ? <Loader2 className='size-4 animate-spin' /> : <Plus className='size-4' />}
+              {createTrackMutation.isPending ? (
+                <Loader2 className='size-4 animate-spin' />
+              ) : (
+                <Plus className='size-4' />
+              )}
               {createTrackMutation.isPending ? t`Creating...` : t`Create track`}
             </Button>
           </ResponsiveDialogFooter>
@@ -623,7 +735,9 @@ function UploadVersionDialog({
 }) {
   const { t } = useLingui()
   const [file, setFile] = useState<File | null>(null)
-  const [installOption, setInstallOption] = useState<'yes' | 'yes-force' | 'no'>('yes')
+  const [installOption, setInstallOption] = useState<
+    'yes' | 'yes-force' | 'no'
+  >('yes')
   // The app's default track is what an upload updates unless the owner picks
   // otherwise; a fixed name here re-created a track the owner had removed.
   const [selectedTracks, setSelectedTracks] = useState<string[]>([defaultTrack])
@@ -675,7 +789,9 @@ function UploadVersionDialog({
     <ResponsiveDialog open={open} onOpenChange={onOpenChange}>
       <ResponsiveDialogContent>
         <ResponsiveDialogHeader>
-          <ResponsiveDialogTitle><Trans>Upload new version</Trans></ResponsiveDialogTitle>
+          <ResponsiveDialogTitle>
+            <Trans>Upload new version</Trans>
+          </ResponsiveDialogTitle>
           <ResponsiveDialogDescription className='sr-only'>
             <Trans>Upload new version</Trans>
           </ResponsiveDialogDescription>
@@ -702,7 +818,11 @@ function UploadVersionDialog({
                 <select
                   id='install'
                   value={installOption}
-                  onChange={(e) => setInstallOption(e.target.value as 'yes' | 'yes-force' | 'no')}
+                  onChange={(e) =>
+                    setInstallOption(
+                      e.target.value as 'yes' | 'yes-force' | 'no'
+                    )
+                  }
                   className='border-input bg-background flex h-10 w-full rounded-md border px-3 py-2 text-sm'
                 >
                   <option value='yes'>{t`Yes`}</option>
@@ -713,15 +833,20 @@ function UploadVersionDialog({
             )}
             {availableTracks.length > 0 && (
               <div className='space-y-2'>
-                <label className='text-sm font-medium'><Trans>Update tracks</Trans></label>
+                <label className='text-sm font-medium'>
+                  <Trans>Update tracks</Trans>
+                </label>
                 <div className='grid grid-cols-2 gap-2'>
                   {availableTracks.map((track) => (
-                    <label key={track} className='flex cursor-pointer items-center gap-2 rounded-md border p-2 transition-colors hover:bg-hover active:bg-interactive-active'>
+                    <label
+                      key={track}
+                      className='hover:bg-hover active:bg-interactive-active flex cursor-pointer items-center gap-2 rounded-md border p-2 transition-colors'
+                    >
                       <input
                         type='checkbox'
                         checked={selectedTracks.includes(track)}
                         onChange={() => toggleTrack(track)}
-                        className='h-4 w-4 rounded border-gray-300 accent-primary'
+                        className='accent-primary h-4 w-4 rounded border-gray-300'
                       />
                       <span className='text-sm'>{track}</span>
                     </label>
@@ -740,7 +865,11 @@ function UploadVersionDialog({
               <Trans>Cancel</Trans>
             </Button>
             <Button type='submit' disabled={uploadMutation.isPending}>
-              {uploadMutation.isPending ? <Loader2 className='size-4 animate-spin' /> : <Upload className='size-4' />}
+              {uploadMutation.isPending ? (
+                <Loader2 className='size-4 animate-spin' />
+              ) : (
+                <Upload className='size-4' />
+              )}
               {uploadMutation.isPending ? t`Uploading...` : t`Upload version`}
             </Button>
           </ResponsiveDialogFooter>
