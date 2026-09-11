@@ -36,9 +36,6 @@ import {
   GeneralError,
   ListSkeleton,
   ApiError,
-  Tooltip,
-  TooltipTrigger,
-  TooltipContent,
   textUnchanged,
   UploadProgress,
   useUploadProgress,
@@ -596,21 +593,16 @@ function TracksTab({
                   </SelectContent>
                 </Select>
                 <DropdownMenu>
-                  <Tooltip>
-                    <TooltipTrigger asChild>
-                      <DropdownMenuTrigger asChild>
-                        <Button
-                          variant='ghost'
-                          size='icon'
-                          className='h-8 w-8'
-                          aria-label={t`Open track actions`}
-                        >
-                          <MoreHorizontal className='h-4 w-4' />
-                        </Button>
-                      </DropdownMenuTrigger>
-                    </TooltipTrigger>
-                    <TooltipContent>{t`Open track actions`}</TooltipContent>
-                  </Tooltip>
+                  <DropdownMenuTrigger asChild>
+                    <Button
+                      variant='ghost'
+                      size='icon'
+                      className='h-8 w-8'
+                      aria-label={t`Open track actions`}
+                    >
+                      <MoreHorizontal className='h-4 w-4' />
+                    </Button>
+                  </DropdownMenuTrigger>
                   <DropdownMenuContent align='end'>
                     <DropdownMenuItem
                       onClick={() => handleSetDefaultTrack(track.track)}

@@ -536,7 +536,6 @@ msgid "Colour"
 msgstr "Өнгө"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
-#: ../../../lib/web/src/components/entity/entity-board-column.tsx
 msgid "Column actions"
 msgstr "Баганын үйлдлүүд"
 
@@ -552,7 +551,6 @@ msgstr "Тав тухтай"
 msgid "Command Palette"
 msgstr "Командын самбар"
 
-#: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 msgid "Comment actions"
 msgstr "Сэтгэгдлийн үйлдлүүд"
@@ -1412,7 +1410,6 @@ msgid "Monday"
 msgstr "Даваа"
 
 #: ../../../lib/web/src/components/options-menu.tsx
-#: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "Бусад сонголтууд"
 
@@ -1619,7 +1616,6 @@ msgid "Oops! Page Not Found!"
 msgstr "Уучлаарай! Хуудас олдсонгүй!"
 
 #: ../../../lib/web/src/components/layout/nav-group.tsx
-#: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Үйлдлүүдийг нээх"
 
@@ -1633,7 +1629,6 @@ msgid "Open navigation"
 msgstr "Навигац нээх"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
-#: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
 msgid "Open option actions"
 msgstr "Сонголтын үйлдлүүдийг нээх"
 
@@ -1642,11 +1637,9 @@ msgid "Open selected card"
 msgstr "Сонгосон картыг нээх"
 
 #: src/routes/_authenticated/app/$appId.tsx
-#: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
 msgstr "Track-ийн үйлдлүүдийг нээх"
 
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
 msgstr "Үзэх үйлдлүүдийг нээх"
