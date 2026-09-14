@@ -26,6 +26,10 @@ msgstr "(تم التعديل)"
 msgid "(expand)"
 msgstr "(توسيع)"
 
+#: ../../../lib/web/src/components/member-list.tsx
+msgid "(you)"
+msgstr ""
+
 #: ../../../lib/web/src/components/entity/entity-board-container.tsx
 msgid "[not set]"
 msgstr "[غير محدد]"
@@ -536,6 +540,7 @@ msgid "Colour"
 msgstr "اللون"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
+#: ../../../lib/web/src/components/entity/entity-board-column.tsx
 msgid "Column actions"
 msgstr "إجراءات العمود"
 
@@ -551,6 +556,7 @@ msgstr "مريح"
 msgid "Command Palette"
 msgstr "لوحة الأوامر"
 
+#: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 msgid "Comment actions"
 msgstr "إجراءات التعليق"
@@ -1410,6 +1416,7 @@ msgid "Monday"
 msgstr "الاثنين"
 
 #: ../../../lib/web/src/components/options-menu.tsx
+#: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "خيارات أخرى"
 
@@ -1616,6 +1623,7 @@ msgid "Oops! Page Not Found!"
 msgstr "عذراً! الصفحة غير موجودة!"
 
 #: ../../../lib/web/src/components/layout/nav-group.tsx
+#: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "فتح الإجراءات"
 
@@ -1629,6 +1637,7 @@ msgid "Open navigation"
 msgstr "فتح التنقل"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
+#: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
 msgid "Open option actions"
 msgstr "فتح إجراءات الخيار"
 
@@ -1640,6 +1649,7 @@ msgstr "فتح البطاقة المحددة"
 msgid "Open track actions"
 msgstr "فتح إجراءات المسار"
 
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
 msgstr "فتح إجراءات العرض"
@@ -1663,6 +1673,7 @@ msgstr "خيارات"
 msgid "Other"
 msgstr "أخرى"
 
+#: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Owner"
 msgstr "المالك"
@@ -1852,6 +1863,11 @@ msgstr "إزالة"
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "Remove {0} filter"
 msgstr "إزالة فلتر {0}"
+
+#: ../../../lib/web/src/components/member-list.tsx
+#: ../../../lib/web/src/components/member-list.tsx
+msgid "Remove {name}"
+msgstr ""
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/access-list.tsx

@@ -26,6 +26,10 @@ msgstr "(hatî sererast kirin)"
 msgid "(expand)"
 msgstr "(berfireh bike)"
 
+#: ../../../lib/web/src/components/member-list.tsx
+msgid "(you)"
+msgstr ""
+
 #: ../../../lib/web/src/components/entity/entity-board-container.tsx
 msgid "[not set]"
 msgstr "[neyî sazkirin]"
@@ -536,6 +540,7 @@ msgid "Colour"
 msgstr "Reng"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
+#: ../../../lib/web/src/components/entity/entity-board-column.tsx
 msgid "Column actions"
 msgstr "Kiryarên stûnê"
 
@@ -551,6 +556,7 @@ msgstr "Rehet"
 msgid "Command Palette"
 msgstr "Paleta fermanan"
 
+#: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 msgid "Comment actions"
 msgstr "Kiryarên şîroveyê"
@@ -1410,6 +1416,7 @@ msgid "Monday"
 msgstr "Duşem"
 
 #: ../../../lib/web/src/components/options-menu.tsx
+#: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "Vebijarkên zêdetir"
 
@@ -1616,6 +1623,7 @@ msgid "Oops! Page Not Found!"
 msgstr "Wey! Rûpel nehat dîtin!"
 
 #: ../../../lib/web/src/components/layout/nav-group.tsx
+#: ../../../lib/web/src/components/layout/nav-group.tsx
 msgid "Open actions"
 msgstr "Kiryaran veke"
 
@@ -1629,6 +1637,7 @@ msgid "Open navigation"
 msgstr "Navîgasyonê veke"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
+#: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
 msgid "Open option actions"
 msgstr "Çalakiyên vebijêrkê veke"
 
@@ -1640,6 +1649,7 @@ msgstr "Karta hilbijartî veke"
 msgid "Open track actions"
 msgstr "Çalakiyên traktê veke"
 
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
 msgstr "Çalakiyên dîtinê veke"
@@ -1663,6 +1673,7 @@ msgstr "Vebijêrk"
 msgid "Other"
 msgstr "Yên din"
 
+#: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Owner"
 msgstr "Xwedî"
@@ -1852,6 +1863,11 @@ msgstr "Rake"
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "Remove {0} filter"
 msgstr "Fîltera {0} rake"
+
+#: ../../../lib/web/src/components/member-list.tsx
+#: ../../../lib/web/src/components/member-list.tsx
+msgid "Remove {name}"
+msgstr ""
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/access-list.tsx
