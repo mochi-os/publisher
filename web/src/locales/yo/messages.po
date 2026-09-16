@@ -197,10 +197,6 @@ msgstr "Fi sí àwọn ìfitónilétí tó wà"
 msgid "Add view"
 msgstr "Fi ìran kún"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Ó ń fi kún..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -697,10 +693,7 @@ msgstr "Tí a dá"
 msgid "Created {field}"
 msgstr "A ṣẹ̀dá {field}"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-#: src/features/apps/index.tsx
-#: src/routes/_authenticated/app/$appId.tsx
 msgid "Creating..."
 msgstr "Ó ń dá..."
 
@@ -815,10 +808,6 @@ msgstr "A parẹ́"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "A parẹ́ {field}"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Ó ń pa rẹ́..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1930,10 +1919,6 @@ msgstr "Fi sílẹ̀"
 msgid "Resign game?"
 msgstr "Fi eré sílẹ̀?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Ń fi sílẹ̀..."
-
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -1990,10 +1975,6 @@ msgstr "Ọjọ́ Àbámẹ́ta"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Fi pamọ́"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Ń fi pamọ́..."
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/filter-bar.tsx
@@ -2499,10 +2480,6 @@ msgstr "Gbé ìtẹ̀jáde sókè"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
 msgstr "Gbé build àkọ́kọ́ rẹ jáde"
-
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Uploading..."
-msgstr "Ń gbé jáde..."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"

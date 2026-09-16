@@ -197,10 +197,6 @@ msgstr ""
 msgid "Add view"
 msgstr ""
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr ""
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr ""
@@ -697,10 +693,7 @@ msgstr ""
 msgid "Created {field}"
 msgstr ""
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-#: src/features/apps/index.tsx
-#: src/routes/_authenticated/app/$appId.tsx
 msgid "Creating..."
 msgstr ""
 
@@ -814,10 +807,6 @@ msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
-msgstr ""
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
 msgstr ""
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
@@ -1930,10 +1919,6 @@ msgstr ""
 msgid "Resign game?"
 msgstr ""
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr ""
-
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -1989,10 +1974,6 @@ msgstr ""
 #: ../../../lib/web/src/components/ui/editable-field-row.tsx
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
-msgstr ""
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
 msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2498,10 +2479,6 @@ msgstr ""
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
-msgstr ""
-
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Uploading..."
 msgstr ""
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
