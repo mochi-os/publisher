@@ -197,10 +197,6 @@ msgstr "Añadir a notificaciones existentes"
 msgid "Add view"
 msgstr "Añadir vista"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Añadiendo..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "IA"
@@ -702,13 +698,6 @@ msgstr "Creado"
 msgid "Created {field}"
 msgstr "{field} creado"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-#: src/features/apps/index.tsx
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Creating..."
-msgstr "Creando..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Ubicación actual"
@@ -820,10 +809,6 @@ msgstr "Eliminado"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} eliminado"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Eliminando..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1331,7 +1316,6 @@ msgstr "Cargando elemento"
 msgid "Loading item details"
 msgstr "Cargando detalles del elemento"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Loading..."
 msgstr "Cargando..."
@@ -1935,10 +1919,6 @@ msgstr "Rendirse"
 msgid "Resign game?"
 msgstr "¿Rendirse en la partida?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Rindiéndose..."
-
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -1995,10 +1975,6 @@ msgstr "Sábado"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Guardar"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Guardando..."
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/filter-bar.tsx
@@ -2504,10 +2480,6 @@ msgstr "Subir versión"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
 msgstr "Sube tu primera compilación"
-
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Uploading..."
-msgstr "Subiendo..."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"

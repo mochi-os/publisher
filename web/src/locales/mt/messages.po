@@ -197,10 +197,6 @@ msgstr "Żid man-notifiki eżistenti"
 msgid "Add view"
 msgstr "Żid view"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Qed jiżdied..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -702,13 +698,6 @@ msgstr "Maħluq"
 msgid "Created {field}"
 msgstr "Inħoloq {field}"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-#: src/features/apps/index.tsx
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Creating..."
-msgstr "Qed joħloq..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Post attwali"
@@ -820,10 +809,6 @@ msgstr "Tħassar"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Tħassar {field}"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Qed iħassar..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1331,7 +1316,6 @@ msgstr "Qed jitgħabba l-oġġett"
 msgid "Loading item details"
 msgstr "Qed jitgħabbew id-dettalji tal-oġġett"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Loading..."
 msgstr "Qed jitgħabba..."
@@ -1935,10 +1919,6 @@ msgstr "Irriżenja"
 msgid "Resign game?"
 msgstr "Tirriżenja l-logħba?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Qed jirriżenja..."
-
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -1995,10 +1975,6 @@ msgstr "Is-Sibt"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Issejvja"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Qed jiġi ssejvjat..."
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/filter-bar.tsx
@@ -2504,10 +2480,6 @@ msgstr "Tella’ l-verżjoni"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
 msgstr "Tella' l-ewwel build tiegħek"
-
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Uploading..."
-msgstr "Qed itella'..."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"

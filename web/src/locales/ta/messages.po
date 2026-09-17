@@ -197,10 +197,6 @@ msgstr "உள்ள அறிவிப்புகளுக்குச் ச�
 msgid "Add view"
 msgstr "காட்சி சேர்"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "சேர்க்கிறது..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -702,13 +698,6 @@ msgstr "உருவாக்கப்பட்டது"
 msgid "Created {field}"
 msgstr "{field} உருவாக்கப்பட்டது"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-#: src/features/apps/index.tsx
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Creating..."
-msgstr "உருவாக்குகிறது..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "தற்போதைய இடம்"
@@ -820,10 +809,6 @@ msgstr "நீக்கப்பட்டது"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} நீக்கப்பட்டது"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "நீக்குகிறது..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1331,7 +1316,6 @@ msgstr "உருப்படியை ஏற்றுகிறது"
 msgid "Loading item details"
 msgstr "உருப்படி விவரங்களை ஏற்றுகிறது"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Loading..."
 msgstr "ஏற்றுகிறது..."
@@ -1935,10 +1919,6 @@ msgstr "விலகு"
 msgid "Resign game?"
 msgstr "விளையாட்டிலிருந்து விலகவா?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "விலகுகிறது..."
-
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -1995,10 +1975,6 @@ msgstr "சனிக்கிழமை"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "சேமி"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "சேமிக்கிறது..."
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/filter-bar.tsx
@@ -2504,10 +2480,6 @@ msgstr "பதிப்பைப் பதிவேற்று"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
 msgstr "உங்கள் முதல் பில்டைப் பதிவேற்றுங்கள்"
-
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Uploading..."
-msgstr "பதிவேற்றுகிறது..."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"

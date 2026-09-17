@@ -197,10 +197,6 @@ msgstr "Přidat ke stávajícím oznámením"
 msgid "Add view"
 msgstr "Přidat zobrazení"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Přidávání..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -702,13 +698,6 @@ msgstr "Vytvořeno"
 msgid "Created {field}"
 msgstr "Vytvořeno {field}"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-#: src/features/apps/index.tsx
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Creating..."
-msgstr "Vytváření..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Aktuální poloha"
@@ -820,10 +809,6 @@ msgstr "Smazáno"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "Smazáno {field}"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Mazání..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1331,7 +1316,6 @@ msgstr "Načítám položku"
 msgid "Loading item details"
 msgstr "Načítám podrobnosti položky"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Loading..."
 msgstr "Načítám..."
@@ -1935,10 +1919,6 @@ msgstr "Vzdát"
 msgid "Resign game?"
 msgstr "Vzdát hru?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Vzdávání…"
-
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -1995,10 +1975,6 @@ msgstr "Sobota"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Uložit"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Ukládá se..."
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/filter-bar.tsx
@@ -2504,10 +2480,6 @@ msgstr "Nahrát verzi"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
 msgstr "Nahrajte svůj první build"
-
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Uploading..."
-msgstr "Nahrává se..."
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"

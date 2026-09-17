@@ -197,10 +197,6 @@ msgstr "Yatiyaw utjkirinakar yapxataña"
 msgid "Add view"
 msgstr "Uñacht'awi yapxataña"
 
-#: ../../../lib/web/src/features/access/access-dialog.tsx
-msgid "Adding..."
-msgstr "Yapxatkasa..."
-
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "AI"
 msgstr "AI"
@@ -702,13 +698,6 @@ msgstr "Lurata"
 msgid "Created {field}"
 msgstr "{field} lurata"
 
-#: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
-#: src/features/apps/index.tsx
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Creating..."
-msgstr "Lurkasa..."
-
 #: ../../../lib/web/src/components/map-view.tsx
 msgid "Current location"
 msgstr "Jichha cheqa"
@@ -820,10 +809,6 @@ msgstr "Chhaqtayata"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
 msgstr "{field} chhaqtayata"
-
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Deleting..."
-msgstr "Chhaqtayasa..."
 
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Descending"
@@ -1331,7 +1316,6 @@ msgstr "Item apaqaskiwa"
 msgid "Loading item details"
 msgstr "Item detallenak apaqaskiwa"
 
-#: ../../../lib/web/src/components/ui/load-more.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Loading..."
 msgstr "Apaqaskiwa..."
@@ -1935,10 +1919,6 @@ msgstr "Jaytayma"
 msgid "Resign game?"
 msgstr "¿Anatawi jaytayma?"
 
-#: ../../../lib/web/src/components/game/game-end-dialogs.tsx
-msgid "Resigning..."
-msgstr "Jaytayski..."
-
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -1995,10 +1975,6 @@ msgstr "Kharminthi"
 #: ../../../lib/web/src/components/ui/secret-field.tsx
 msgid "Save"
 msgstr "Imaña"
-
-#: ../../../lib/web/src/components/ai-prompts-editor.tsx
-msgid "Saving..."
-msgstr "Imaski..."
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/filter-bar.tsx
@@ -2504,10 +2480,6 @@ msgstr "Mä versión uchaña"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
 msgstr "Nayrïr build apayaña"
-
-#: src/routes/_authenticated/app/$appId.tsx
-msgid "Uploading..."
-msgstr "Apayasa…"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"

@@ -48,7 +48,6 @@ import {
   Shield,
   Globe,
   Lock,
-  Loader2,
 } from 'lucide-react'
 import { sortVersionsDesc } from '@/lib/version'
 import {
@@ -694,14 +693,11 @@ function TracksTab({
             </Button>
             <Button
               onClick={handleCreateTrack}
-              disabled={!newTrackName || createTrackMutation.isPending}
+              loading={createTrackMutation.isPending}
+              disabled={!newTrackName}
+              icon={<Plus className='size-4' />}
             >
-              {createTrackMutation.isPending ? (
-                <Loader2 className='size-4 animate-spin' />
-              ) : (
-                <Plus className='size-4' />
-              )}
-              {createTrackMutation.isPending ? t`Creating...` : t`Create track`}
+              <Trans>Create track</Trans>
             </Button>
           </ResponsiveDialogFooter>
         </ResponsiveDialogContent>
@@ -856,13 +852,12 @@ function UploadVersionDialog({
             >
               <Trans>Cancel</Trans>
             </Button>
-            <Button type='submit' disabled={uploadMutation.isPending}>
-              {uploadMutation.isPending ? (
-                <Loader2 className='size-4 animate-spin' />
-              ) : (
-                <Upload className='size-4' />
-              )}
-              {uploadMutation.isPending ? t`Uploading...` : t`Upload version`}
+            <Button
+              type='submit'
+              loading={uploadMutation.isPending}
+              icon={<Upload className='size-4' />}
+            >
+              <Trans>Upload version</Trans>
             </Button>
           </ResponsiveDialogFooter>
         </form>
