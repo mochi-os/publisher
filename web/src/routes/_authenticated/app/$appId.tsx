@@ -20,6 +20,7 @@ import {
   DropdownMenuTrigger,
   PageHeader,
   Input,
+  Label,
   Main,
   usePageTitle,
   getErrorMessage,
@@ -646,9 +647,9 @@ function TracksTab({
           </ResponsiveDialogHeader>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
-              <label htmlFor='trackName' className='text-sm font-medium'>
+              <Label htmlFor='trackName'>
                 <Trans>Track name</Trans>
-              </label>
+              </Label>
               <Input
                 id='trackName'
                 placeholder={t`e.g. Staging`}
@@ -657,9 +658,9 @@ function TracksTab({
               />
             </div>
             <div className='space-y-2'>
-              <label className='text-sm font-medium'>
+              <Label>
                 <Trans>Initial version</Trans>
-              </label>
+              </Label>
               <Select
                 value={newTrackVersion}
                 onValueChange={setNewTrackVersion}
@@ -787,9 +788,9 @@ function UploadVersionDialog({
         <form onSubmit={handleSubmit}>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
-              <label htmlFor='file' className='text-sm font-medium'>
+              <Label htmlFor='file'>
                 <Trans>Build file</Trans>
-              </label>
+              </Label>
               <Input
                 ref={fileInputRef}
                 id='file'
@@ -800,9 +801,9 @@ function UploadVersionDialog({
             </div>
             {showInstallOption && (
               <div className='space-y-2'>
-                <label htmlFor='install' className='text-sm font-medium'>
+                <Label htmlFor='install'>
                   <Trans>Install locally</Trans>
-                </label>
+                </Label>
                 <select
                   id='install'
                   value={installOption}
@@ -821,9 +822,9 @@ function UploadVersionDialog({
             )}
             {availableTracks.length > 0 && (
               <div className='space-y-2'>
-                <label className='text-sm font-medium'>
+                <Label>
                   <Trans>Update tracks</Trans>
-                </label>
+                </Label>
                 <div className='grid grid-cols-2 gap-2'>
                   {availableTracks.map((track) => (
                     <label
