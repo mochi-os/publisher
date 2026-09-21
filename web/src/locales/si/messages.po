@@ -238,7 +238,7 @@ msgstr "මෙම සංග්‍රහයට දායක වූ සියල�
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "App"
-msgstr "App"
+msgstr "යෙදුම"
 
 #: src/features/apps/index.tsx
 msgid "App created"

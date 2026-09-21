@@ -238,7 +238,7 @@ msgstr "Enigiets wat op hierdie voer ingeteken is, sal dit nie meer ontvang nie.
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "App"
-msgstr "App"
+msgstr "Toepassing"
 
 #: src/features/apps/index.tsx
 msgid "App created"
