@@ -734,7 +734,7 @@ msgstr "Kont AI default"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Default sort"
-msgstr "Ssortjar default"
+msgstr "Issortjar prestabbilit"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""

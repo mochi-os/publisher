@@ -734,7 +734,7 @@ msgstr "Default AI asusu"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Default sort"
-msgstr "Default sort"
+msgstr "Jeri na tsoho"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""

@@ -1738,7 +1738,7 @@ msgstr "സ്വകാര്യതാ നയം"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Private"
-msgstr "തുടരുക"
+msgstr "സ്വകാര്യം"
 
 #: ../../../lib/web/src/components/ui/upload-progress.tsx
 msgid "Processing…"
@@ -1756,18 +1756,18 @@ msgstr "സവിശേഷതകൾ"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
-msgstr "OAuth redirects-കൾക്കായുള്ള പൊതു URL"
+msgstr "പൊതു"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Published"
-msgstr "പ്രസാധകൻ"
+msgstr "പ്രസിദ്ധീകരിച്ചു"
 
 #: src/features/apps/index.tsx
 #: src/features/apps/index.tsx
 msgid "Publisher"
-msgstr "പ്രസിദ്ധീകരിക്കുന്നു..."
+msgstr "പ്രസാധകൻ"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
