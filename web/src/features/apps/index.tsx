@@ -18,6 +18,7 @@ import {
   CardHeader,
   CardTitle,
   Input,
+  Label,
   Main,
   getErrorMessage,
   toast,
@@ -192,9 +193,9 @@ function CreateAppDialog({
         <form onSubmit={handleSubmit}>
           <div className='space-y-4 py-4'>
             <div className='space-y-2'>
-              <label htmlFor='name' className='text-sm font-medium'>
+              <Label htmlFor='name'>
                 <Trans>Name</Trans>
-              </label>
+              </Label>
               <Input
                 id='name'
                 value={name}
@@ -202,9 +203,9 @@ function CreateAppDialog({
               />
             </div>
             <div className='space-y-2'>
-              <label htmlFor='privacy' className='text-sm font-medium'>
+              <Label htmlFor='privacy'>
                 <Trans>Make app publicly available</Trans>
-              </label>
+              </Label>
               <select
                 id='privacy'
                 value={privacy}
