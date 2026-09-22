@@ -719,19 +719,19 @@ msgstr "אָפּזאָגן"
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default"
-msgstr "פֿאַרשטאַנדלעך"
+msgstr "סטאַנדאַרד"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx
 msgid "Default AI account"
-msgstr "פֿאַרשטאַנדלעך AI קאָנטע"
+msgstr "סטאַנדאַרד AI קאָנטע"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Default sort"
-msgstr "פֿאַרשטאַנדלעך סאָרט"
+msgstr "סטאַנדאַרד סאָרטירונג"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "פֿאַרשטאַנדלעך track באַשטימט אויף \"{track}\""
+msgstr "סטאַנדאַרד track באַשטימט אויף \"{track}\""
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx

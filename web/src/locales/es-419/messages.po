@@ -238,7 +238,7 @@ msgstr "Todo lo suscrito a este canal dejará de recibirlo. Después puedes copi
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "App"
-msgstr "App"
+msgstr "Aplicación"
 
 #: src/features/apps/index.tsx
 msgid "App created"

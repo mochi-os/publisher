@@ -727,7 +727,7 @@ msgstr "Default AI cuenta"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Default sort"
-msgstr "Default sort"
+msgstr "Allichay predeterminado"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""

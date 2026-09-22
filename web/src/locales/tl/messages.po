@@ -727,7 +727,7 @@ msgstr "Default na AI account"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Default sort"
-msgstr "Default na sort"
+msgstr "Default na pag-uuri"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
@@ -1724,7 +1724,7 @@ msgstr "Nakaraang imahe"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Privacy"
-msgstr "Privacy"
+msgstr "Pagkapribado"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -1916,7 +1916,7 @@ msgstr "Sumuko sa laro?"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Restricted"
-msgstr "Restricted"
+msgstr "Pinaghigpitan"
 
 #: ../../../lib/web/src/components/attachment-composer.tsx
 msgid "Retry"

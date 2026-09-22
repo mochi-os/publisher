@@ -590,9 +590,13 @@ def event_information(e):
 	if a.get("distribution") == "restricted" and not e.header("local"):
 		return e.write({"status": "403", "message": "This app is private"})
 
+	# Payload-first: both frames exist before the status goes out, so a failure
+	# here never follows a 200 (check-stream-answer.py).
+	information = {"id": a["id"], "name": a["name"], "privacy": a["privacy"], "default_track": a["default_track"]}
+	tracks = mochi.db.rows("select track, version from tracks where app=?", a["id"])
 	e.write({"status": "200"})
-	e.write({"id": a["id"], "name": a["name"], "privacy": a["privacy"], "default_track": a["default_track"]})
-	e.write(mochi.db.rows("select track, version from tracks where app=?", a["id"]))
+	e.write(information)
+	e.write(tracks)
 
 # Receive a request to download an app
 # Private apps are accessible if the requester knows the publisher ID.
@@ -656,13 +660,14 @@ def event_version(e):
 	# TODO(0.3-cleanup): Remove version/track fields when all servers are 0.3
 	all_tracks = mochi.db.rows("select track, version from tracks where app=?", a["id"])
 
-	e.write({"status": "200"})
-	e.write({
+	answer = {
 		"version": t["version"],           # Backward compat for 0.2 clients
 		"track": track,                     # Backward compat for 0.2 clients
 		"default_track": a["default_track"],
 		"tracks": all_tracks                # All tracks for 0.3+ clients
-	})
+	}
+	e.write({"status": "200"})
+	e.write(answer)
 
 # Set the distribution policy for an app (published/restricted)
 def action_distribution_set(a):
