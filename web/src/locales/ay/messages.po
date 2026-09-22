@@ -458,11 +458,11 @@ msgstr "{field} mayjt'ayata"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
-msgstr "Checkbox"
+msgstr "Casilla"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checklist"
-msgstr "Checklist"
+msgstr "Comprobación lista"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
@@ -726,7 +726,7 @@ msgstr "Jark'aña"
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default"
-msgstr "Default"
+msgstr "Nayrïri"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx
 msgid "Default AI account"
@@ -903,7 +903,7 @@ msgstr "Dislexia jaqinakataki"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "e.g. Staging"
-msgstr "sañani my-album.zip"
+msgstr "sañani Staging"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -1127,7 +1127,7 @@ msgstr "Archivonaka"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Fingerprint"
-msgstr "Fingerprint"
+msgstr "Luk'ana unancha"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Finish moving your account"
@@ -1574,7 +1574,7 @@ msgstr "Janiwa"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Normal"
-msgstr "Walja"
+msgstr "Normal"
 
 #: ../../../lib/web/src/components/attachment-image.tsx
 #: ../../../lib/web/src/features/errors/general-error.tsx
@@ -1756,7 +1756,7 @@ msgstr "Propiedadanaka"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
-msgstr "Public"
+msgstr "Taqiniru"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2153,7 +2153,7 @@ msgstr "{totalShown} uñstayasa, {total}-ta"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr "Thiya barra"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 msgid "Sign in with an account that has access <0/> to this resource."
@@ -2340,7 +2340,7 @@ msgstr "Walja mayiwinaka"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Patxa nivel"
+msgstr "Patxa"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
@@ -2352,7 +2352,7 @@ msgstr "\"{track}\" thakhix {version} ukar machaqachatawa"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Pidu trackiyaña"
+msgstr "Track lurata"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
@@ -2411,11 +2411,11 @@ msgstr "Feeds servicio ukamp sync lurañ janiw atkiti. Cacheata datos uñstayata
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Unassigned"
-msgstr "Janiw permitidakit"
+msgstr "Jan asignata"
 
 #: ../../../lib/web/src/components/attachment-image.tsx
 msgid "Unavailable"
-msgstr "Banx apaqaña"
+msgstr "Janiw utjkiti"
 
 #: ../../../lib/web/src/lib/request.ts
 #: ../../../lib/web/src/lib/request.ts
@@ -2424,7 +2424,7 @@ msgstr "Jan suyt'ata API pantjawi"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "United States"
-msgstr "Unidades"
+msgstr "Estados Unidos"
 
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
@@ -2437,12 +2437,12 @@ msgstr "Jan uñt'ata"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Unsubscribe"
-msgstr "CRM ukatpach suscripción jaytaña?"
+msgstr "Suscripción jaytaña"
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 #: ../../../lib/web/src/lib/entity-title.ts
 msgid "Untitled"
-msgstr "Jan sutini listing"
+msgstr "Jan sutini"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
@@ -2489,7 +2489,7 @@ msgstr "Passkey ukma apnaqama"
 #: ../../../lib/web/src/features/access/access-dialog.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "User"
-msgstr "Apnaqiri banata"
+msgstr "Apnaqiri"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Users can install this application by pasting this link into their Apps page."
@@ -2545,7 +2545,7 @@ msgstr "Aka apnaqirin activa sesionanak uñjaña ukat jaytaña."
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "View controls"
-msgstr "Uñjañaki"
+msgstr "Uñjañ controlanaka"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Voice recording is not supported in this browser"
@@ -2581,7 +2581,7 @@ msgstr "Jisa"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Yes, force"
-msgstr "Juma"
+msgstr "Jisa, ch'amañchaña"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "You do not have access to this section."

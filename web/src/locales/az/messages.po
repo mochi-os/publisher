@@ -866,7 +866,7 @@ msgstr "Mobil yan paneli göstərir."
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Distribution"
-msgstr "Distribution"
+msgstr "Paylanma"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Distribution set to {distribution}"
@@ -903,7 +903,7 @@ msgstr "Disleksiya üçün uyğun"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "e.g. Staging"
-msgstr "məs., Feedly, NewsBlur"
+msgstr "məs. Staging"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2340,7 +2340,7 @@ msgstr "Həddindən çox sorğu"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Mövzular"
+msgstr "Yuxarı"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
@@ -2352,7 +2352,7 @@ msgstr "\"{track}\" treki {version} versiyasına yeniləndi"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "İzləmə"
+msgstr "Trek yaradıldı"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
@@ -2411,11 +2411,11 @@ msgstr "Girişə yönləndirmək mümkün olmadı. Yenidən cəhd edin."
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Unassigned"
-msgstr "İcazəsiz giriş"
+msgstr "Təyin edilməyib"
 
 #: ../../../lib/web/src/components/attachment-image.tsx
 msgid "Unavailable"
-msgstr "Hesabın banını götür"
+msgstr "Əlçatan deyil"
 
 #: ../../../lib/web/src/lib/request.ts
 #: ../../../lib/web/src/lib/request.ts
@@ -2424,7 +2424,7 @@ msgstr "Gözlənilməz API xətası"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "United States"
-msgstr "Naməlum"
+msgstr "Birləşmiş Ştatlar"
 
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
@@ -2433,16 +2433,16 @@ msgstr "Naməlum"
 #: ../../../lib/web/src/components/tree-table-header.tsx
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Unknown"
-msgstr "Naməlum cihaz"
+msgstr "Naməlum"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Unsubscribe"
-msgstr "CRM-dən abunəlikdən çıx"
+msgstr "Abunəlikdən çıx"
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 #: ../../../lib/web/src/lib/entity-title.ts
 msgid "Untitled"
-msgstr "Təsdiqlənməyib"
+msgstr "Başlıqsız"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
@@ -2452,7 +2452,7 @@ msgstr "Track-ləri yenilə"
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Updated"
-msgstr "Yenilənir..."
+msgstr "Yeniləndi"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Updated {field}"
@@ -2489,7 +2489,7 @@ msgstr "Giriş açarınızdan istifadə edin"
 #: ../../../lib/web/src/features/access/access-dialog.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "User"
-msgstr "İstifadəçi yaradıldı"
+msgstr "İstifadəçi"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Users can install this application by pasting this link into their Apps page."
@@ -2506,7 +2506,7 @@ msgstr "Yoxlama uğursuz oldu"
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/features/accounts/account-verify.tsx
 msgid "Verify"
-msgstr "DNS-i yoxla"
+msgstr "Yoxla"
 
 #: ../../../lib/web/src/features/accounts/account-verify.tsx
 msgid "Verify email address"
