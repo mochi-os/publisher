@@ -239,7 +239,7 @@ msgstr "Гэнэтийн алдаа гарлаа"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Android push мэдэгдэл"
+msgstr "Android пуш мэдэгдэл"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -326,7 +326,7 @@ msgstr "Баталгаажсан хэрэглэгчид"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Authenticator code"
-msgstr "Authenticator код"
+msgstr "Баталгаажуулагчийн код"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Available keyboard shortcuts"
@@ -413,7 +413,7 @@ msgstr "Хөтчийн мэдэгдэл"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Build file"
-msgstr "Build файл"
+msgstr "Бүтээцийн файл"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Calendar server"
@@ -570,7 +570,7 @@ msgstr "Хураах"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx
 msgid "Collapse sidebar"
-msgstr "Sidebar хумих"
+msgstr "Хажуугийн самбарыг хумих"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
@@ -727,11 +727,11 @@ msgstr "Шинэ зүйл үүсгэх"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Track үүсгэх"
+msgstr "Суваг үүсгэх"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Анхны гаргалтын track-аа үүсгэнэ үү"
+msgstr "Анхны гаргалтын сувгаа үүсгэнэ үү"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Үндсэн эрэмбэлэлт"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Үндсэн track \"{track}\" болж тохируулагдсан"
+msgstr "Үндсэн суваг \"{track}\" болж тохируулагдсан"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "{0} сонголтыг устгах"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Track устгах"
+msgstr "Суваг устгах"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "Холбоос үүсгэж чадсангүй"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Track үүсгэж чадсангүй"
+msgstr "Суваг үүсгэж чадсангүй"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,11 +1076,11 @@ msgstr "Холбоос устгаж чадсангүй"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Track устгаж чадсангүй"
+msgstr "Суваг устгаж чадсангүй"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
-msgstr "RSS token авч чадсангүй"
+msgstr "RSS токен авч чадсангүй"
 
 #: ../../../lib/web/src/hooks/use-load-more.ts
 msgid "Failed to load"
@@ -1137,7 +1137,7 @@ msgstr "Промпт хадгалж чадсангүй"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Үндсэн track-г тохируулж чадсангүй"
+msgstr "Үндсэн сувгийг тохируулж чадсангүй"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Тараалтыг шинэчилж чадсангүй"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Track шинэчилж чадсангүй"
+msgstr "Суваг шинэчилж чадсангүй"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1176,7 +1176,7 @@ msgstr "Файлууд"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Fingerprint"
-msgstr "Fingerprint"
+msgstr "Хурууны хээ"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Finish moving your account"
@@ -1249,7 +1249,7 @@ msgstr "ID"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Identity"
-msgstr "Identity"
+msgstr "Танилт"
 
 #. placeholder {0}: currentMedia.name
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
@@ -1258,7 +1258,7 @@ msgstr "Зураг үзэгч: {0}"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "Империал"
 
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Сүлжээний алдаа"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Шинэ"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Хамгийн шинэ"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Сэдвийн бичлэг алга — дараагийн мэдэгд
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Track алга"
+msgstr "Суваг алга"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,11 +1666,15 @@ msgstr "Юу ч олдсонгүй"
 msgid "Notifications: {0}"
 msgstr "Мэдэгдэл: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "Тоо"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "Дугаар"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -1699,7 +1707,7 @@ msgstr "Сонгосон картыг нээх"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Track-ийн үйлдлүүдийг нээх"
+msgstr "Сувгийн үйлдлүүдийг нээх"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1822,7 +1830,7 @@ msgstr "Боловсруулж байна…"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Prompt saved"
-msgstr "Prompt хадгалагдсан"
+msgstr "Промпт хадгалагдсан"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Properties"
@@ -1847,7 +1855,7 @@ msgstr "Хэвлэгч"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
-msgstr "Push мэдэгдэл"
+msgstr "Пуш мэдэгдэл"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Raised"
@@ -1900,7 +1908,7 @@ msgstr "24 цагийн дотор харьцангуй, эс бөгөөс үн�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Гаргалтын track-ууд"
+msgstr "Гаргалтын сувгууд"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -1967,7 +1975,7 @@ msgstr "Багана нэр өөрчлөх"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 msgid "Rename this board column"
-msgstr "Энэ board-ын баганын нэр өөрчлөх"
+msgstr "Энэ самбарын баганын нэр өөрчлөх"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -2041,7 +2049,7 @@ msgstr "RSS фид"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "RSS URL copied to clipboard"
-msgstr "RSS URL clipboard руу хуулагдсан"
+msgstr "RSS URL түр санах ой руу хуулагдсан"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Saturday"
@@ -2115,7 +2123,7 @@ msgstr "Хайж байна..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Сонгох"
+msgstr "Сонголт"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "Үзэхээ зогсоох"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Сэдэв"
+msgstr "Хэрэглэгч эсвэл бүлэг"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Ням гараг"
 msgid "Switch to view 1-9"
 msgstr "1-9 харагдац руу шилжих"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Систем"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Систем"
 
@@ -2361,7 +2373,7 @@ msgstr "Микрофоны хүсэлтэд хариу ирсэнгүй"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "Passkey хүсэлтэд хариу ирсэнгүй"
+msgstr "Нэвтрэх түлхүүрийн хүсэлтэд хариу ирсэнгүй"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2378,7 +2390,7 @@ msgstr "Сервер өгөгдлийн оронд вэб хуудас буца�
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "Энэ аппад таны passkey-г ашиглахыг зөвшөөрөөгүй. Тохиргооны Зөвшөөрөл хэсэгт зөвшөөрнө үү."
+msgstr "Энэ аппад таны нэвтрэх түлхүүрийг ашиглахыг зөвшөөрөөгүй. Тохиргооны Зөвшөөрөл хэсэгт зөвшөөрнө үү."
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2421,27 +2433,27 @@ msgstr "Хэт олон хүсэлт"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Дээд"
+msgstr "Шилдэг"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "\"{track}\" Track устгагдсан"
+msgstr "\"{track}\" суваг устгагдсан"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "\"{track}\" Track {version} болж шинэчлэгдсэн"
+msgstr "\"{track}\" суваг {version} болж шинэчлэгдсэн"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track үүсгэгдсэн"
+msgstr "Суваг үүсгэгдсэн"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Track-ийн нэр"
+msgstr "Сувгийн нэр"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Track-ууд"
+msgstr "Сувгууд"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Гарчиггүй"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Track-уудыг шинэчлэх"
+msgstr "Сувгуудыг шинэчлэх"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2560,7 +2572,7 @@ msgstr "Хувилбарыг байршуулах"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
-msgstr "Анхны build-ээ байршуулна уу"
+msgstr "Анхны бүтээцээ байршуулна уу"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"

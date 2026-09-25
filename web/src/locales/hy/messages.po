@@ -239,7 +239,7 @@ msgstr "Անսպասելի սխալ առաջացավ"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Android push"
+msgstr "Android պուշ-ծանուցումներ"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -727,11 +727,11 @@ msgstr "Ստեղծել նոր տարր"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Ստեղծել ուղի"
+msgstr "Ստեղծել ալիք"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Ստեղծեք ձեր առաջին թողարկման ուղին"
+msgstr "Ստեղծեք ձեր առաջին թողարկման ալիքը"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Լռելյայն տեսակավորում"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Լռելյայն track-ը սահմանված է «{track}»"
+msgstr "«{track}»-ը սահմանվեց որպես լռելյայն ալիք"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Ջնջել {0} տարբերակը"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Ջնջել track-ը"
+msgstr "Ջնջել ալիքը"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "Չհաջողվեց ստեղծել հղումը"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Չհաջողվեց ստեղծել ուղին"
+msgstr "Չհաջողվեց ստեղծել ալիքը"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Չհաջողվեց ջնջել հղումը"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Չհաջողվեց ջնջել ուղին"
+msgstr "Չհաջողվեց ջնջել ալիքը"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Չհաջողվեց պահպանել հուշումը"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Չհաջողվեց սահմանել լռելյայն ուղին"
+msgstr "Չհաջողվեց սահմանել լռելյայն ալիքը"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Չհաջողվեց թարմացնել բաշխումը"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Չհաջողվեց թարմացնել ուղին"
+msgstr "Չհաջողվեց թարմացնել ալիքը"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1237,7 +1237,7 @@ msgstr "Պատմություն"
 #: ../../../lib/web/src/components/layout/top-bar.tsx
 #: ../../../lib/web/src/components/layout/top-bar.tsx
 msgid "Home"
-msgstr "Տուն"
+msgstr "Գլխավոր"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Hot"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Ցանցի սխալ"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Նոր"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Նորերը"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Դեռ թեմայի գրառում չկա — փորձեք նորից հ
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Ուղիներ չկան"
+msgstr "Ալիքներ չկան"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,11 +1666,15 @@ msgstr "Ոչինչ չի գտնվել"
 msgid "Notifications: {0}"
 msgstr "Ծանուցումներ՝ {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "Թիվ"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "Համար"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -1699,7 +1707,7 @@ msgstr "Բացել ընտրված քարտը"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Բացել ուղու գործողությունները"
+msgstr "Բացել ալիքի գործողությունները"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1847,7 +1855,7 @@ msgstr "Հրապարակիչ"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
-msgstr "Push ծանուցում"
+msgstr "Պուշ-ծանուցում"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Raised"
@@ -1900,7 +1908,7 @@ msgstr "Հարաբերական 24 ժամվա ընթացքում, այլապես�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Թողարկման ուղիներ"
+msgstr "Թողարկման ալիքներ"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2041,7 +2049,7 @@ msgstr "RSS հոսք"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "RSS URL copied to clipboard"
-msgstr "RSS URL-ը պատճենվեց clipboard-ին"
+msgstr "RSS URL-ը պատճենվեց սեղմատախտակին"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Saturday"
@@ -2115,7 +2123,7 @@ msgstr "Որոնում..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Ընտրել"
+msgstr "Ընտրություն"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "Դադարեցնել դիտումը"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Թեմա"
+msgstr "Օգտատեր կամ խումբ"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Կիրակի"
 msgid "Switch to view 1-9"
 msgstr "Անցնել 1-9 տեսքի"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Համակարգ"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Համակարգ"
 
@@ -2421,27 +2433,27 @@ msgstr "Չափազանց շատ հարցումներ"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Վերև"
+msgstr "Լավագույն"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track \"{track}\" ջնջվեց"
+msgstr "«{track}» ալիքը ջնջվեց"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track \"{track}\" թարմացվեց {version}-ի"
+msgstr "«{track}» ալիքը թարմացվեց մինչև {version} տարբերակը"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track-ը ստեղծվեց"
+msgstr "Ալիքը ստեղծվեց"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Ուղու անունը"
+msgstr "Ալիքի անունը"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Ուղիներ"
+msgstr "Ալիքներ"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Անվերնագիր"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Թարմացնել ուղիները"
+msgstr "Թարմացնել ալիքները"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

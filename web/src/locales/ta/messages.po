@@ -727,11 +727,11 @@ msgstr "புதிய உருப்படி உருவாக்கு"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "ட்ராக் உருவாக்கு"
+msgstr "சேனலை உருவாக்கு"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "உங்கள் முதல் வெளியீட்டு ட்ராக்கை உருவாக்குங்கள்"
+msgstr "உங்கள் முதல் வெளியீட்டுச் சேனலை உருவாக்குங்கள்"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "இயல்புநிலை வரிசை"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "இயல்புநிலை ட்ராக் \"{track}\"-க்கு அமைக்கப்பட்டது"
+msgstr "இயல்புநிலை சேனல் \"{track}\" ஆக அமைக்கப்பட்டது"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "விருப்பம் {0}-ஐ நீக்கு"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "ட்ராக்கை நீக்கு"
+msgstr "சேனலை நீக்கு"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "இணைப்பை உருவாக்க முடியவில�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "டிராக்கை உருவாக்க முடியவில்லை"
+msgstr "சேனலை உருவாக்க முடியவில்லை"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "இணைப்பை நீக்க முடியவில்லை"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "டிராக்கை நீக்க முடியவில்லை"
+msgstr "சேனலை நீக்க முடியவில்லை"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "ப்ராம்ப்டை சேமிக்க முடியவ�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "இயல்புநிலை டிராக்கை அமைக்க முடியவில்லை"
+msgstr "இயல்புநிலை சேனலை அமைக்க முடியவில்லை"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "விநியோகத்தைப் புதுப்பிக்�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "டிராக்கைப் புதுப்பிக்க முடியவில்லை"
+msgstr "சேனலைப் புதுப்பிக்க முடியவில்லை"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "பிணையப் பிழை"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "புதியது"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "சமீபத்தியவை"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "தலைப்புப் பதிவு இன்னும் இல
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "ட்ராக்குகள் இல்லை"
+msgstr "சேனல்கள் இல்லை"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "எதுவும் கிடைக்கவில்லை"
 msgid "Notifications: {0}"
 msgstr "அறிவிப்புகள்: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "எண்"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "எண்"
 
@@ -1699,7 +1707,7 @@ msgstr "தேர்ந்தெடுத்த அட்டையை திற"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "ட்ராக் செயல்களைத் திறக்கவும்"
+msgstr "சேனல் செயல்களைத் திறக்கவும்"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1742,7 +1750,7 @@ msgstr "கடவுக்குறி"
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkey verification failed. Please try again."
-msgstr "கடவுவிசை சரிபார்ப்பு தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்."
+msgstr "கடவுக்குறி சரிபார்ப்பு தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்."
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Passkeys"
@@ -1822,7 +1830,7 @@ msgstr "செயலாக்கப்படுகிறது…"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Prompt saved"
-msgstr "Prompt சேமிக்கப்பட்டது"
+msgstr "தூண்டுதல் சேமிக்கப்பட்டது"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Properties"
@@ -1859,7 +1867,7 @@ msgstr "இந்த சேவையகத்தில் உங்கள் க
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Re-register your passkeys on this server"
-msgstr "இந்த சேவையகத்தில் உங்கள் கடவுச்சாவிகளை மீண்டும் பதிவு செய்யவும்"
+msgstr "இந்த சேவையகத்தில் உங்கள் கடவுக்குறிகளை மீண்டும் பதிவு செய்யவும்"
 
 #: ../../../lib/web/src/components/search-entity-page.tsx
 msgid "Recommended"
@@ -1900,7 +1908,7 @@ msgstr "24 மணி நேரத்திற்குள் சார்பு,
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "வெளியீட்டு ட்ராக்குகள்"
+msgstr "வெளியீட்டுச் சேனல்கள்"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -1921,7 +1929,7 @@ msgstr "அகற்று"
 #: ../../../lib/web/src/components/filter-bar.tsx
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "Remove {0} filter"
-msgstr "{0} filter-ஐ அகற்று"
+msgstr "{0} வடிகட்டியை அகற்று"
 
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
@@ -2041,7 +2049,7 @@ msgstr "RSS ஃபீட்"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "RSS URL copied to clipboard"
-msgstr "RSS URL clipboard-க்கு நகலெடுக்கப்பட்டது"
+msgstr "RSS URL கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Saturday"
@@ -2115,7 +2123,7 @@ msgstr "தேடுகிறது..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "தேர்ந்தெடு"
+msgstr "தேர்வு"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "பார்ப்பதை நிறுத்து"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "பொருள்"
+msgstr "பயனர் அல்லது குழு"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "ஞாயிற்றுக்கிழமை"
 msgid "Switch to view 1-9"
 msgstr "காட்சி 1-9 க்கு மாறு"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "சிஸ்டம்"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "சிஸ்டம்"
 
@@ -2361,7 +2373,7 @@ msgstr "மைக்ரோஃபோன் கோரிக்கைக்கு �
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "Passkey கோரிக்கைக்கு பதில் இல்லை"
+msgstr "கடவுக்குறி கோரிக்கைக்கு பதில் இல்லை"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2378,7 +2390,7 @@ msgstr "சேவையகம் தரவுக்குப் பதிலா�
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "இந்த ஆப்ஸுக்கு உங்கள் passkey-ஐப் பயன்படுத்த அனுமதி இல்லை. அமைப்புகளில், அனுமதிகள் பிரிவில் அதை அனுமதிக்கவும்."
+msgstr "இந்த ஆப்ஸுக்கு உங்கள் கடவுக்குறியைப் பயன்படுத்த அனுமதி இல்லை. அமைப்புகளில், அனுமதிகள் பிரிவில் அதை அனுமதிக்கவும்."
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2421,27 +2433,27 @@ msgstr "மிக அதிகமான கோரிக்கைகள்"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "மேல்"
+msgstr "சிறந்தவை"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "டிராக் \"{track}\" நீக்கப்பட்டது"
+msgstr "சேனல் \"{track}\" நீக்கப்பட்டது"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "டிராக் \"{track}\" {version}-க்கு புதுப்பிக்கப்பட்டது"
+msgstr "சேனல் \"{track}\" {version}-க்கு புதுப்பிக்கப்பட்டது"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "டிராக் உருவாக்கப்பட்டது"
+msgstr "சேனல் உருவாக்கப்பட்டது"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "ட்ராக் பெயர்"
+msgstr "சேனல் பெயர்"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "ட்ராக்குகள்"
+msgstr "சேனல்கள்"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "தலைப்பிடாதது"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "ட்ராக்குகளைப் புதுப்பிக்கவும்"
+msgstr "சேனல்களைப் புதுப்பிக்கவும்"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2564,7 +2576,7 @@ msgstr "உங்கள் முதல் பில்டைப் பதிவ
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"
-msgstr "உங்கள் கடவுவிசையைப் பயன்படுத்தவும்"
+msgstr "உங்கள் கடவுக்குறியைப் பயன்படுத்தவும்"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 #: ../../../lib/web/src/features/access/access-dialog.tsx

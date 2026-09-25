@@ -252,7 +252,7 @@ msgstr "የገባ ማንኛውም ሰው"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Anything subscribed to this feed will stop receiving it. You can copy a new URL afterwards."
-msgstr "በዚህ ምግብ የተመዘገበ ማንኛውም ነገር መቀበሉን ያቆማል። ከዚያ በኋላ አዲስ URL መቅዳት ይችላሉ።"
+msgstr "በዚህ ፊድ የተመዘገበ ማንኛውም ነገር መቀበሉን ያቆማል። ከዚያ በኋላ አዲስ URL መቅዳት ይችላሉ።"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -727,11 +727,11 @@ msgstr "አዲስ ንጥል ፍጠር"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "ትራክ ፍጠር"
+msgstr "ቻናል ፍጠር"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "የመጀመሪያ የልቀት ትራክዎን ይፍጠሩ"
+msgstr "የመጀመሪያ የልቀት ቻናልዎን ይፍጠሩ"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "ነባሪ ቅደም ተከተል"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "ነባሪ ትራክ ወደ \"{track}\" ተቀናብሯል"
+msgstr "ነባሪ ቻናል ወደ \"{track}\" ተቀናብሯል"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "አማራጭ {0} ሰርዝ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "ትራክ ሰርዝ"
+msgstr "ቻናል ሰርዝ"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -903,7 +903,7 @@ msgstr "ተቋርጧል"
 #: ../../../lib/web/src/components/restore-banner.tsx
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Dismiss"
-msgstr "አጥፋ"
+msgstr "ዝጋ"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx
 msgid "Displays the mobile sidebar."
@@ -948,7 +948,7 @@ msgstr "ለዲስሌክሲያ ምቹ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "e.g. Staging"
-msgstr "ለምሳሌ Staging"
+msgstr "ለምሳሌ ስቴጂንግ"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -1056,7 +1056,7 @@ msgstr "አገናኝ መፍጠር አልተሳካም"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "ትራክ መፍጠር አልተሳካም"
+msgstr "ቻናል መፍጠር አልተሳካም"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "አገናኝ መሰረዝ አልተሳካም"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "ትራክ መሰረዝ አልተሳካም"
+msgstr "ቻናል መሰረዝ አልተሳካም"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "ጥያቄ ማስቀመጥ አልተሳካም"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "ነባሪ ትራክ ማቀናበር አልተሳካም"
+msgstr "ነባሪ ቻናል ማቀናበር አልተሳካም"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "ስርጭትን ማዘመን አልተሳካም"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "ትራክን ማዘመን አልተሳካም"
+msgstr "ቻናልን ማዘመን አልተሳካም"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "የአውታረ መረብ ስህተት"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "አዲስ"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "አዳዲስ"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "እስካሁን የርዕስ መዝገብ የለም — ከቀጣዩ ማ
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "ምንም ትራኮች የሉም"
+msgstr "ምንም ቻናሎች የሉም"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "ምንም አልተገኘም"
 msgid "Notifications: {0}"
 msgstr "ማሳወቂያዎች፦ {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "ቁጥር"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "ቁጥር"
 
@@ -1699,7 +1707,7 @@ msgstr "የተመረጠውን ካርድ ክፈት"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "የትራክ ድርጊቶችን ክፈት"
+msgstr "የቻናል ድርጊቶችን ክፈት"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1737,12 +1745,12 @@ msgstr "ወላጅ"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Passkey"
-msgstr "የይለፍ ቁልፍ"
+msgstr "ፓስኪ"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkey verification failed. Please try again."
-msgstr "የይለፍ ቁልፍ ማረጋገጫ አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
+msgstr "ፓስኪ ማረጋገጫ አልተሳካም። እባክዎ እንደገና ይሞክሩ።"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Passkeys"
@@ -1900,7 +1908,7 @@ msgstr "በ24 ሰዓታት ውስጥ አንፃራዊ፣ ካልሆነ ፍጹም"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "የልቀት ትራኮች"
+msgstr "የልቀት ቻናሎች"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "በመፈለግ ላይ..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "ይምረጡ"
+msgstr "ምርጫ"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "መከታተል አቁም"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "ርዕሰ ጉዳይ"
+msgstr "ተጠቃሚ ወይም ቡድን"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,11 +2314,15 @@ msgstr "እሁድ"
 msgid "Switch to view 1-9"
 msgstr "ወደ ዕይታ 1-9 ቀይር"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "System"
 msgstr "ስርዓት"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx
+msgctxt "actor"
+msgid "System"
+msgstr "ስርዓቱ"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
@@ -2421,27 +2433,27 @@ msgstr "በጣም ብዙ ጥያቄዎች"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "ላይ"
+msgstr "ምርጥ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "ትራክ \"{track}\" ተሰርዟል"
+msgstr "ቻናል \"{track}\" ተሰርዟል"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "ትራክ \"{track}\" ወደ {version} ተዘምኗል"
+msgstr "ቻናል \"{track}\" ወደ {version} ተዘምኗል"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "ትራክ ተፈጥሯል"
+msgstr "ቻናል ተፈጥሯል"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "የትራክ ስም"
+msgstr "የቻናል ስም"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "ትራኮች"
+msgstr "ቻናሎች"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "ርዕስ የለሽ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "ትራኮችን ያዘምኑ"
+msgstr "ቻናሎችን ያዘምኑ"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2564,7 +2576,7 @@ msgstr "የመጀመሪያ ግንባታዎን ይስቀሉ"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"
-msgstr "የይለፍ ቁልፍዎን ይጠቀሙ"
+msgstr "ፓስኪዎን ይጠቀሙ"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 #: ../../../lib/web/src/features/access/access-dialog.tsx

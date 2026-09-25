@@ -239,7 +239,7 @@ msgstr "Gözlənilməz xəta baş verdi"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Android push"
+msgstr "Android push bildirişi"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -727,11 +727,11 @@ msgstr "Yeni element yarat"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Track yarat"
+msgstr "Kanal yarat"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "İlk buraxılış track-inizi yaradın"
+msgstr "İlk buraxılış kanalınızı yaradın"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Standart sıralama"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Default track \"{track}\" olaraq təyin edildi"
+msgstr "Standart kanal \"{track}\" olaraq təyin edildi"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "{0} variantını sil"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Track-i sil"
+msgstr "Kanalı sil"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "Link yaratmaq alınmadı"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "İz yaratmaq alınmadı"
+msgstr "Kanal yaratmaq alınmadı"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Linki silmək alınmadı"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "İzi silmək alınmadı"
+msgstr "Kanalı silmək alınmadı"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Promptu saxlamaq alınmadı"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Standart izi təyin etmək alınmadı"
+msgstr "Standart kanalı təyin etmək alınmadı"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Paylanmanı yeniləmək alınmadı"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "İzi yeniləmək alınmadı"
+msgstr "Kanalı yeniləmək alınmadı"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1237,7 +1237,7 @@ msgstr "Tarixçə"
 #: ../../../lib/web/src/components/layout/top-bar.tsx
 #: ../../../lib/web/src/components/layout/top-bar.tsx
 msgid "Home"
-msgstr "Ev"
+msgstr "Ana səhifə"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Hot"
@@ -1396,7 +1396,7 @@ msgstr "Kateqoriyaları idarə et"
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "Manual"
-msgstr "Manual"
+msgstr "Əl ilə"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Şəbəkə xətası"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Yeni"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Ən yeni"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Hələ mövzu qeydi yoxdur — növbəti bildirişdən sonra yenidən c�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Track yoxdur"
+msgstr "Kanal yoxdur"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "Heç nə tapılmadı"
 msgid "Notifications: {0}"
 msgstr "Bildirişlər: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Nömrə"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Nömrə"
 
@@ -1699,7 +1707,7 @@ msgstr "Seçilmiş kartı aç"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Track əməliyyatlarını aç"
+msgstr "Kanal əməliyyatlarını aç"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "24 saat içində nisbi, əks halda mütləq"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Buraxılış track-ləri"
+msgstr "Buraxılış kanalları"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "Axtarılır..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Seç"
+msgstr "Seçim"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "İzləməyi dayandır"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Mövzu"
+msgstr "İstifadəçi və ya qrup"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Bazar"
 msgid "Switch to view 1-9"
 msgstr "1-9 görünüşünə keç"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Sistem"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Sistem"
 
@@ -2421,27 +2433,27 @@ msgstr "Həddindən çox sorğu"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Yuxarı"
+msgstr "Ən yaxşı"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "\"{track}\" izi silindi"
+msgstr "\"{track}\" kanalı silindi"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "\"{track}\" treki {version} versiyasına yeniləndi"
+msgstr "\"{track}\" kanalı {version} versiyasına yeniləndi"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Trek yaradıldı"
+msgstr "Kanal yaradıldı"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Track adı"
+msgstr "Kanal adı"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Track-lər"
+msgstr "Kanallar"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Başlıqsız"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Track-ləri yenilə"
+msgstr "Kanalları yenilə"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

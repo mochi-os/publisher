@@ -396,7 +396,7 @@ msgstr "Bloqueia"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Board"
-msgstr "Tabuleiro"
+msgstr "Quadro"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 #: ../../../lib/web/src/components/post-tags.tsx
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Erro de rede"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Novo"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Recentes"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Ainda não há registo do tópico — tente novamente após a próxima n
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Sem faixas"
+msgstr "Sem canais"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "Nada encontrado"
 msgid "Notifications: {0}"
 msgstr "Notificações: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Número"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Número"
 
@@ -1699,7 +1707,7 @@ msgstr "Abrir cartão selecionado"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Abrir ações da faixa"
+msgstr "Abrir ações do canal"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -2115,7 +2123,7 @@ msgstr "A pesquisar..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Selecionar"
+msgstr "Seleção"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "Deixar de seguir"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Assunto"
+msgstr "Utilizador ou grupo"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Domingo"
 msgid "Switch to view 1-9"
 msgstr "Mudar para vista 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Sistema"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Sistema"
 
@@ -2421,19 +2433,19 @@ msgstr "Demasiados pedidos"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Topo"
+msgstr "Melhores"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Faixa \"{track}\" eliminada"
+msgstr "Canal \"{track}\" eliminado"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Faixa \"{track}\" atualizada para {version}"
+msgstr "Canal \"{track}\" atualizado para {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Faixa criada"
+msgstr "Canal criado"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"

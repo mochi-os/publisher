@@ -157,7 +157,7 @@ msgstr "အကောင့်အသစ် ထည့်မည်"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 msgid "Add a new field to this class"
-msgstr "ဤ class ထဲသို့ field အသစ်ထည့်မည်"
+msgstr "ဤ အတန်းအစား ထဲသို့ အကွက် အသစ်ထည့်မည်"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx
 msgid "Add access"
@@ -173,12 +173,12 @@ msgstr "စာတန်းထည့်ရန်"
 
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Add checklist item"
-msgstr "checklist အရာ ထည့်မည်"
+msgstr "စစ်ဆေးစာရင်း အရာ ထည့်မည်"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 msgid "Add field"
-msgstr "field ထည့်မည်"
+msgstr "အကွက် ထည့်မည်"
 
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Add item..."
@@ -198,7 +198,7 @@ msgstr "ရွေးချယ်စရာ ထည့်မည်"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Add tag..."
-msgstr "tag ထည့်ရန်..."
+msgstr "တက်ဂ် ထည့်ရန်..."
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx
 msgid "Add to existing notifications"
@@ -239,7 +239,7 @@ msgstr "မမျှော်လင့်ထားသော အမှားတ�
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Android push အကြောင်းကြားချက်"
+msgstr "Android တွန်းပို့ အကြောင်းကြားချက်"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -257,22 +257,22 @@ msgstr "ဤဖိဒ်ကို စာရင်းသွင်းထားသ�
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "App"
-msgstr "App"
+msgstr "အက်ပ်"
 
 #: src/features/apps/index.tsx
 msgid "App created"
-msgstr "App ဖန်တီးပြီး"
+msgstr "အက်ပ် ဖန်တီးပြီး"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "App not found"
-msgstr "App မတွေ့ရှိပါ"
+msgstr "အက်ပ် မတွေ့ရှိပါ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Application ID"
-msgstr "Application ID"
+msgstr "အက်ပ် ID"
 
 #. placeholder {0}: deleteTarget?.name
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx
@@ -293,7 +293,7 @@ msgstr "ဤမှတ်ချက်ကို ဖျက်မှာသေချ�
 
 #: ../../../lib/web/src/components/sign-out-dialog.tsx
 msgid "Are you sure you want to log out? You will need to log in again to access your account."
-msgstr "log out လုပ်မှာသေချာပါသလား? သင့်အကောင့်ကို ပြန်ဝင်ရန် log in ပြန်လုပ်ရမည်။"
+msgstr "အကောင့်ထွက်မှာ သေချာပါသလား? သင့်အကောင့်ကို ပြန်ဝင်ရန် ထပ်မံ အကောင့်ဝင်ရမည်။"
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "Are you sure you want to resign?"
@@ -326,7 +326,7 @@ msgstr "အတည်ပြုပြီး အသုံးပြုသူမျ�
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Authenticator code"
-msgstr "Authenticator ကုဒ်"
+msgstr "အထောက်အထားစိစစ်ရေး ကုဒ်"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Available keyboard shortcuts"
@@ -409,11 +409,11 @@ msgstr "ဘောင်အရောင်"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Browser notifications"
-msgstr "Browser အကြောင်းကြားချက်များ"
+msgstr "ဘရောက်ဇာ အကြောင်းကြားချက်များ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Build file"
-msgstr "Build ဖိုင်"
+msgstr "တည်ဆောက်မှု ဖိုင်"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Calendar server"
@@ -490,11 +490,11 @@ msgstr "ပြောင်းလဲထားသော အကြိမ်"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
-msgstr "checkbox"
+msgstr "အမှန်ခြစ်ကွက်"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checklist"
-msgstr "Checklist"
+msgstr "စစ်ဆေးစာရင်း"
 
 #: ../../../lib/web/src/components/ui/date-picker.tsx
 msgid "Choose a date"
@@ -541,12 +541,12 @@ msgstr "ပိတ်မည်"
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Close dialog"
-msgstr "dialog ပိတ်မည်"
+msgstr "ဒိုင်ယာလော့ဂ် ပိတ်မည်"
 
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx
 #: ../../../lib/web/src/components/layout/app-sidebar.tsx
 msgid "Close navigation"
-msgstr "navigation ပိတ်မည်"
+msgstr "လမ်းညွှန်မှု ပိတ်မည်"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx
 #: ../../../lib/web/src/components/layout/right-panel.tsx
@@ -555,7 +555,7 @@ msgstr "ပန်နယ်ပိတ်ပါ"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Close panel / cancel"
-msgstr "panel ပိတ်မည် / မလုပ်တော့ပါ"
+msgstr "ပန်နယ် ပိတ်မည် / မလုပ်တော့ပါ"
 
 #: ../../../lib/web/src/components/header-search.tsx
 msgid "Close search"
@@ -716,7 +716,7 @@ msgstr "{entityLabel} ဖန်တီးရန်"
 #: src/features/apps/index.tsx
 #: src/features/apps/index.tsx
 msgid "Create app"
-msgstr "app ဖန်တီးမည်"
+msgstr "အက်ပ် ဖန်တီးမည်"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Create new item"
@@ -727,11 +727,11 @@ msgstr "အရာအသစ် ဖန်တီးမည်"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Track ဖန်တီးမည်"
+msgstr "ချန်နယ် ဖန်တီးမည်"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "သင်၏ ပထမဆုံး ထုတ်ဝေမှု track ကို ဖန်တီးပါ"
+msgstr "သင်၏ ပထမဆုံး ထုတ်ဝေမှု ချန်နယ်ကို ဖန်တီးပါ"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "မူရင်း စီစဉ်မှု"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "မူရင်း track ကို \"{track}\" သို့ သတ်မှတ်ပြီး"
+msgstr "မူရင်း ချန်နယ်ကို \"{track}\" သို့ သတ်မှတ်ပြီး"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -813,7 +813,7 @@ msgstr "မှတ်ချက် ဖျက်မည်"
 
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
-msgstr "field ဖျက်မည်"
+msgstr "အကွက် ဖျက်မည်"
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "Delete game?"
@@ -837,7 +837,7 @@ msgstr "ရွေးချယ်စရာ {0} ဖျက်မည်"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Track ဖျက်မည်"
+msgstr "ချန်နယ် ဖျက်မည်"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -870,7 +870,7 @@ msgstr "အသေးစိတ်များ"
 
 #: ../../../lib/web/src/components/layout/right-panel.tsx
 msgid "Details Panel"
-msgstr "အသေးစိတ် Panel"
+msgstr "အသေးစိတ် ပန်နယ်"
 
 #: ../../../lib/web/src/components/language-picker.tsx
 #: ../../../lib/web/src/components/timezone-select.tsx
@@ -881,7 +881,7 @@ msgstr "အသေးစိတ် Panel"
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Detect from web browser"
-msgstr "Web browser မှ ရှာဖွေဖော်ထုတ်မည်"
+msgstr "ဝဘ် ဘရောက်ဇာ မှ ရှာဖွေဖော်ထုတ်မည်"
 
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "Directory"
@@ -903,7 +903,7 @@ msgstr "ချိတ်ဆက်မှု ပြတ်တောက်ပြီ�
 #: ../../../lib/web/src/components/restore-banner.tsx
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Dismiss"
-msgstr "ပယ်မည်"
+msgstr "ပိတ်မည်"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx
 msgid "Displays the mobile sidebar."
@@ -948,7 +948,7 @@ msgstr "စာဖတ်ရခက်သူများအတွက်ရိုး
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "e.g. Staging"
-msgstr "ဥပမာ Staging"
+msgstr "ဥပမာ စမ်းသပ်အဆင့်"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -1056,7 +1056,7 @@ msgstr "လင့် ဖန်တီး၍ မရပါ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "လမ်းကြောင်း ဖန်တီး၍ မရပါ"
+msgstr "ချန်နယ် ဖန်တီး၍ မရပါ"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "လင့် ဖျက်၍ မရပါ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "လမ်းကြောင်း ဖျက်၍ မရပါ"
+msgstr "ချန်နယ် ဖျက်၍ မရပါ"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "လမ်းညွှန် သိမ်း၍ မရပါ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "ပုံသေ လမ်းကြောင်း သတ်မှတ်၍ မရပါ"
+msgstr "မူရင်း ချန်နယ် သတ်မှတ်၍ မရပါ"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "ဖြန့်ဖြူးမှု ပြင်ဆင်၍ မရပ�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "လမ်းကြောင်း ပြင်ဆင်၍ မရပါ"
+msgstr "ချန်နယ်ကို အပ်ဒိတ်လုပ်၍ မရပါ"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1258,7 +1258,7 @@ msgstr "ပုံကြည့်ရှုစနစ်- {0}"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "အင်ပီးရီးယယ်"
 
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "ကွန်ရက် အမှား"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "အသစ်"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "အသစ်ဆုံး"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1558,7 +1562,7 @@ msgstr "အုပ်စုများ မရရှိနိုင်ပါ"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No item types can be created yet. Create the required parent items first."
-msgstr "item အမျိုးအစားအသစ်များ မဖန်တီးနိုင်သေးပါ။ လိုအပ်သော parent item များကို ဦးစွာဖန်တီးပါ။"
+msgstr "အရာ အမျိုးအစားအသစ်များ မဖန်တီးနိုင်သေးပါ။ လိုအပ်သော မိဘ အရာ များကို ဦးစွာဖန်တီးပါ။"
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 msgid "No matching objects"
@@ -1594,11 +1598,11 @@ msgstr "အချိန်ဇုန် မတွေ့ပါ။"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "No topic record yet — try again after the next notification."
-msgstr "topic မှတ်တမ်း မရှိသေးပါ — နောက်အသိပေးချက်ပြီးနောက် ထပ်စမ်းကြည့်ပါ။"
+msgstr "ခေါင်းစဉ် မှတ်တမ်း မရှိသေးပါ — နောက်အသိပေးချက်ပြီးနောက် ထပ်စမ်းကြည့်ပါ။"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "track များ မရှိ"
+msgstr "ချန်နယ်များ မရှိပါ"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "ဘာမှ မတွေ့ပါ"
 msgid "Notifications: {0}"
 msgstr "အကြောင်းကြားချက်များ- {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "နံပါတ်"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "နံပါတ်"
 
@@ -1687,7 +1695,7 @@ msgstr "မီနူးကို ဖွင့်"
 #: ../../../lib/web/src/components/layout/top-bar.tsx
 #: ../../../lib/web/src/components/layout/top-bar.tsx
 msgid "Open navigation"
-msgstr "navigation ကို ဖွင့်"
+msgstr "လမ်းညွှန်မှု ကို ဖွင့်"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
 msgid "Open option actions"
@@ -1695,20 +1703,20 @@ msgstr "ရွေးချယ်စရာ လုပ်ဆောင်ချက�
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Open selected card"
-msgstr "ရွေးချယ်ထားသော card ကို ဖွင့်"
+msgstr "ရွေးချယ်ထားသော ကတ် ကို ဖွင့်"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "track လုပ်ဆောင်ချက်များကို ဖွင့်"
+msgstr "ချန်နယ် လုပ်ဆောင်ချက်များကို ဖွင့်"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
-msgstr "view လုပ်ဆောင်ချက်များကို ဖွင့်"
+msgstr "ကြည့်ရှုမှု လုပ်ဆောင်ချက်များကို ဖွင့်"
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "Open view controls"
-msgstr "view ထိန်းချုပ်မှုများကို ဖွင့်"
+msgstr "ကြည့်ရှုမှု ထိန်းချုပ်မှုများကို ဖွင့်"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
@@ -1733,11 +1741,11 @@ msgstr "ပိုင်ရှင်"
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Parent"
-msgstr "Parent"
+msgstr "မိဘ"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Passkey"
-msgstr "Passkey"
+msgstr "ဝင်ရောက်ခွင့်သော့"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/lib/shell-errors.ts
@@ -1768,7 +1776,7 @@ msgstr "သင့်အင်တာနက်ချိတ်ဆက်မှုက
 
 #: src/features/apps/index.tsx
 msgid "Please enter an app name"
-msgstr "app အမည် ရိုက်ထည့်ပါ"
+msgstr "အက်ပ် အမည် ရိုက်ထည့်ပါ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Please select a file"
@@ -1822,7 +1830,7 @@ msgstr "လုပ်ဆောင်နေသည်…"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Prompt saved"
-msgstr "Prompt သိမ်းပြီးပါပြီ"
+msgstr "ညွှန်ကြားချက် သိမ်းပြီးပါပြီ"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Properties"
@@ -1847,7 +1855,7 @@ msgstr "ထုတ်ဝေသူ"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
-msgstr "Push အကြောင်းကြားချက်"
+msgstr "တွန်းပို့ အကြောင်းကြားချက်"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Raised"
@@ -1879,7 +1887,7 @@ msgstr "အသံဖမ်းယူမှုတွင် အသံမပါရ�
 
 #: ../../../lib/web/src/components/layout/authenticated-layout.tsx
 msgid "Redirecting to login."
-msgstr "Login သို့ redirect လုပ်နေသည်။"
+msgstr "ဝင်ရောက်ခြင်း သို့ လမ်းကြောင်းလွှဲနေသည်။"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 #: ../../../lib/web/src/components/post-tags.tsx
@@ -1900,7 +1908,7 @@ msgstr "၂၄ နာရီအတွင်း ဆက်စပ်၊ ပြင်
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "ထုတ်ဝေမှု track များ"
+msgstr "ထုတ်ဝေမှု ချန်နယ်များ"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -1921,7 +1929,7 @@ msgstr "ဖယ်ရှား"
 #: ../../../lib/web/src/components/filter-bar.tsx
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "Remove {0} filter"
-msgstr "{0} filter ဖယ်ရှား"
+msgstr "{0} စစ်ထုတ်မှု ဖယ်ရှား"
 
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
@@ -1949,7 +1957,7 @@ msgstr "စိတ်ဝင်စားမှု ဖယ်ရှား"
 
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Remove item"
-msgstr "item ဖယ်ရှား"
+msgstr "အရာ ဖယ်ရှား"
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
@@ -1967,7 +1975,7 @@ msgstr "ကော်လံ အမည်ပြောင်း"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 msgid "Rename this board column"
-msgstr "ဤ board column ကို အမည်ပြောင်း"
+msgstr "ဤ ဘုတ် ကော်လံ ကို အမည်ပြောင်း"
 
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -2041,7 +2049,7 @@ msgstr "RSS ဖိဒ်"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "RSS URL copied to clipboard"
-msgstr "RSS URL ကို clipboard သို့ ကူးယူပြီးပါပြီ"
+msgstr "RSS URL ကို ကလစ်ဘုတ် သို့ ကူးယူပြီးပါပြီ"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Saturday"
@@ -2078,11 +2086,11 @@ msgstr "နေရာရှာပါ..."
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Search for destination..."
-msgstr "destination ရှာဖွေ..."
+msgstr "ဦးတည်ရာ ရှာဖွေ..."
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Search for origin..."
-msgstr "Origin ရှာဖွေ..."
+msgstr "မူလနေရာ ရှာဖွေ..."
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 msgid "Search objects..."
@@ -2098,7 +2106,7 @@ msgstr "သုံးစွဲသူများ ရှာဖွေ"
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "Search, watch, and sort this view."
-msgstr "ဤ view ကို ရှာဖွေ၊ စောင့်ကြည့်ပြီး စီပါ။"
+msgstr "ဤ ကြည့်ရှုမှု ကို ရှာဖွေ၊ စောင့်ကြည့်ပြီး စီပါ။"
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2115,11 +2123,11 @@ msgstr "ရှာဖွေနေသည်..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "ရွေးချယ်"
+msgstr "ရွေးချယ်မှု"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
-msgstr "field တစ်ခုကို ရွေးချယ်ပါ"
+msgstr "အကွက် တစ်ခုကို ရွေးချယ်ပါ"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Select a game"
@@ -2282,7 +2290,7 @@ msgstr "ကြည့်ရှုခြင်း ရပ်မည်"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "ခေါင်းစဉ်"
+msgstr "သုံးစွဲသူ သို့မဟုတ် အုပ်စု"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2296,7 +2304,7 @@ msgstr "ပြန်ဖြေချက် တင်ပြမည်"
 #: ../../../lib/web/src/components/recommended-entities.tsx
 #: ../../../lib/web/src/components/search-entity-page.tsx
 msgid "Subscribe"
-msgstr "Subscribe လုပ်မည်"
+msgstr "စာရင်းသွင်းမည်"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Sunday"
@@ -2306,15 +2314,19 @@ msgstr "တနင်္ဂနွေ"
 msgid "Switch to view 1-9"
 msgstr "ကြည့်ရှုခြင်း 1-9 သို့ ပြောင်းမည်"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "System"
 msgstr "စနစ်"
 
+#: ../../../lib/web/src/components/audit-timeline.tsx
+msgctxt "actor"
+msgid "System"
+msgstr "စနစ်"
+
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
-msgstr "Tag ရှိနှင့်ပြီးဖြစ်သည်"
+msgstr "တက်ဂ် ရှိနှင့်ပြီးဖြစ်သည်"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag must be 50 characters or less"
@@ -2361,12 +2373,12 @@ msgstr "မိုက်ခရိုဖုန်း တောင်းဆို�
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "Passkey တောင်းဆိုမှုကို မဖြေကြားခဲ့ပါ"
+msgstr "ဝင်ရောက်ခွင့်သော့ တောင်းဆိုမှုကို မဖြေကြားခဲ့ပါ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "The requested app could not be found."
-msgstr "တောင်းဆိုထားသော app ကို မတွေ့ပါ။"
+msgstr "တောင်းဆိုထားသော အက်ပ် ကို မတွေ့ပါ။"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "The requested content could not be found."
@@ -2378,7 +2390,7 @@ msgstr "ဆာဗာသည် ဒေတာအစား ဝဘ်စာမျက�
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "ဤအက်ပ်သည် သင့် passkey ကို အသုံးပြုခွင့်မရှိပါ။ ဆက်တင်များရှိ ခွင့်ပြုချက်များအောက်တွင် ခွင့်ပြုပါ။"
+msgstr "ဤအက်ပ်သည် သင့် ဝင်ရောက်ခွင့်သော့ ကို အသုံးပြုခွင့်မရှိပါ။ ဆက်တင်များရှိ ခွင့်ပြုချက်များအောက်တွင် ခွင့်ပြုပါ။"
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2413,7 +2425,7 @@ msgstr "ကြည့်ရှုရွေးချယ်စရာ ဖွင့�
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "Toggle watched filter"
-msgstr "ကြည့်ရှုနေသော filter ဖွင့်/ပိတ်"
+msgstr "ကြည့်ရှုနေသော စစ်ထုတ်မှု ဖွင့်/ပိတ်"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "Too many requests"
@@ -2421,27 +2433,27 @@ msgstr "တောင်းဆိုမှု များလွန်းနေ�
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "ထိပ်"
+msgstr "ထိပ်တန်း"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track \"{track}\" ဖျက်ပြီး"
+msgstr "ချန်နယ် \"{track}\" ဖျက်ပြီး"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track \"{track}\" ကို {version} သို့ အပ်ဒိတ်လုပ်ပြီး"
+msgstr "ချန်နယ် \"{track}\" ကို {version} သို့ အပ်ဒိတ်လုပ်ပြီး"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track ဖန်တီးပြီး"
+msgstr "ချန်နယ် ဖန်တီးပြီး"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Track အမည်"
+msgstr "ချန်နယ် အမည်"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Track များ"
+msgstr "ချန်နယ်များ"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2467,7 +2479,7 @@ msgstr "အမျိုးအစား"
 
 #: ../../../lib/web/src/components/command-menu.tsx
 msgid "Type a command or search..."
-msgstr "command တစ်ခု ရိုက်ပါ သို့မဟုတ် ရှာပါ..."
+msgstr "အမိန့် တစ်ခု ရိုက်ပါ သို့မဟုတ် ရှာပါ..."
 
 #: ../../../lib/web/src/components/game/game-chat-input.tsx
 msgid "Type a message…"
@@ -2488,7 +2500,7 @@ msgstr "အဝေးထိန်းဆာဗာသို့ ချိတ်ဆ�
 #: ../../../lib/web/src/lib/auth-manager.ts
 #: ../../../lib/web/src/lib/auth-manager.ts
 msgid "Unable to redirect to login. Please try again."
-msgstr "Login သို့ redirect လုပ်၍ မရပါ။ ထပ်ကြိုးစားပါ။"
+msgstr "ဝင်ရောက်ခြင်း သို့ လမ်းကြောင်းလွှဲ၍ မရပါ။ ထပ်ကြိုးစားပါ။"
 
 #: ../../../lib/web/src/components/notification-category-button.tsx
 msgid "Unassigned"
@@ -2505,7 +2517,7 @@ msgstr "မမျှော်လင့်သော API အမှား"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "United States"
-msgstr "United States"
+msgstr "အမေရိကန်ပြည်ထောင်စု"
 
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
@@ -2527,7 +2539,7 @@ msgstr "ခေါင်းစဉ်မရှိ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Track များကို အပ်ဒိတ်လုပ်ပါ"
+msgstr "ချန်နယ်များကို အပ်ဒိတ်လုပ်ပါ"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2542,13 +2554,13 @@ msgstr "{field} ကို အပ်ဒိတ်လုပ်ခဲ့သည်"
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx
 msgid "Upload"
-msgstr "Upload လုပ်မည်"
+msgstr "အပ်လုဒ် လုပ်မည်"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload new version"
-msgstr "ဗားရှင်းအသစ် Upload လုပ်မည်"
+msgstr "ဗားရှင်းအသစ် အပ်လုဒ် လုပ်မည်"
 
 #: ../../../lib/web/src/components/ui/upload-progress.tsx
 msgid "Upload progress"
@@ -2560,7 +2572,7 @@ msgstr "ဗားရှင်း တင်ပါ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
-msgstr "သင်၏ ပထမဆုံး build ကို upload လုပ်ပါ"
+msgstr "သင်၏ ပထမဆုံး တည်ဆောက်မှု ကို အပ်လုဒ် လုပ်ပါ"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"
@@ -2608,7 +2620,7 @@ msgstr "ဗားရှင်းများ"
 
 #: ../../../lib/web/src/components/attachment-gallery.tsx
 msgid "Video thumbnail"
-msgstr "ဗီဒီယို thumbnail"
+msgstr "ဗီဒီယို ပုံငယ်"
 
 #. placeholder {0}: currentMedia.name
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx

@@ -239,7 +239,7 @@ msgstr "An samu kuskuren da ba a zata ba"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Android push"
+msgstr "Tura ta Android"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -257,7 +257,7 @@ msgstr "Duk abin da ya biyan kuɗin wannan ciyarwar zai daina karɓarta. Za ka i
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "App"
-msgstr "App"
+msgstr "Manhaja"
 
 #: src/features/apps/index.tsx
 msgid "App created"
@@ -272,7 +272,7 @@ msgstr "Ba a sami app ba"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Application ID"
-msgstr "Application ID"
+msgstr "ID na manhaja"
 
 #. placeholder {0}: deleteTarget?.name
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx
@@ -338,7 +338,7 @@ msgstr "Sigogin da ake da su"
 
 #: ../../../lib/web/src/components/entity-avatar.tsx
 msgid "Avatar"
-msgstr "Avatar"
+msgstr "Hoton bayanin martaba"
 
 #: ../../../lib/web/src/components/entity-avatar.tsx
 msgid "Avatar for {name}"
@@ -365,7 +365,7 @@ msgstr "Komawa gida"
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/entity-banner.tsx
 msgid "Banner"
-msgstr "Banner"
+msgstr "Tuta"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Banner removed"
@@ -490,11 +490,11 @@ msgstr "Maimaicin da aka canza"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
-msgstr "Checkbox"
+msgstr "Akwatin zaɓi"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checklist"
-msgstr "Checklist"
+msgstr "Jerin dubawa"
 
 #: ../../../lib/web/src/components/ui/date-picker.tsx
 msgid "Choose a date"
@@ -727,11 +727,11 @@ msgstr "Ƙirƙira sabon abu"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Ƙirƙira track"
+msgstr "Ƙirƙira tasha"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Ƙirƙiri track ɗin sakin ka na farko"
+msgstr "Ƙirƙiri tasharka ta farko ta saki"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -771,7 +771,7 @@ msgstr "Ƙi"
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default"
-msgstr "Default"
+msgstr "Tsoho"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx
 msgid "Default AI account"
@@ -783,7 +783,7 @@ msgstr "Jeri na tsoho"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "An saita default track zuwa \"{track}\""
+msgstr "An saita tashar tsoho zuwa \"{track}\""
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Goge zaɓi {0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Goge track"
+msgstr "Goge tasha"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "An gaza ƙirƙirar link"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "An gaza ƙirƙirar track"
+msgstr "An gaza ƙirƙirar tasha"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "An gaza share link"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "An gaza share track"
+msgstr "An gaza share tasha"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "An gaza ajiye prompt"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "An gaza saita default track"
+msgstr "An gaza saita tashar tsoho"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "An gaza sabunta distribution"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "An gaza sabunta track"
+msgstr "An gaza sabunta tasha"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1217,7 +1217,7 @@ msgstr "Komawa baya"
 
 #: ../../../lib/web/src/features/access/access-dialog.tsx
 msgid "Group"
-msgstr "Group"
+msgstr "Ƙungiya"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Group by"
@@ -1258,7 +1258,7 @@ msgstr "Mai duba hoto: {0}"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "Tsarin Birtaniya"
 
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
@@ -1290,7 +1290,7 @@ msgstr "Sha'awa {weight}"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Interests"
-msgstr "Interests"
+msgstr "Abubuwan sha'awa"
 
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Invalid date"
@@ -1319,7 +1319,7 @@ msgstr "Babba"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Layout"
-msgstr "Layout"
+msgstr "Tsari"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Leave empty"
@@ -1335,15 +1335,15 @@ msgstr "Haske"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Link"
-msgstr "Hanya"
+msgstr "Hanyar haɗi"
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 msgid "Links"
-msgstr "Links"
+msgstr "Hanyoyin haɗi"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "List"
-msgstr "List"
+msgstr "Jeri"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx
 msgid "Load more"
@@ -1429,7 +1429,7 @@ msgstr "Saƙo"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Metric"
-msgstr "Metric"
+msgstr "Tsarin metrik"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Microphone permission denied"
@@ -1441,7 +1441,7 @@ msgstr "Mafi ƙarancin tsawo"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
-msgstr "Mochi web"
+msgstr "Yanar gizon Mochi"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Moderation"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Kuskuren hanyar sadarwa"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Sabon"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Mafi sabo"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Babu rikodin topic tukuna — sake gwadawa bayan sanarwa ta gaba."
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Babu tracks"
+msgstr "Babu tashoshi"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "Ba a sami komai ba"
 msgid "Notifications: {0}"
 msgstr "Sanarwa: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Lamba"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Lamba"
 
@@ -1699,7 +1707,7 @@ msgstr "Buɗe zaɓaɓɓen kati"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Buɗe ayyukan track"
+msgstr "Buɗe ayyukan tasha"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1843,7 +1851,7 @@ msgstr "An buga"
 #: src/features/apps/index.tsx
 #: src/features/apps/index.tsx
 msgid "Publisher"
-msgstr "Publisher"
+msgstr "Mai bugawa"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
@@ -1900,7 +1908,7 @@ msgstr "Relative cikin sa'o'i 24, in ba haka ba absolute"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Tracks na saki"
+msgstr "Tashoshin saki"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2234,7 +2242,7 @@ msgstr "Ana nuna {totalShown} daga {total}"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr "Sandar gefe"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 msgid "Sign in with an account that has access <0/> to this resource."
@@ -2282,7 +2290,7 @@ msgstr "Daina kallo"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Batu"
+msgstr "Mai amfani ko ƙungiya"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,11 +2314,15 @@ msgstr "Lahadi"
 msgid "Switch to view 1-9"
 msgstr "Sauya zuwa ra'ayi 1-9"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "System"
-msgstr "System"
+msgstr "Tsari"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx
+msgctxt "actor"
+msgid "System"
+msgstr "Tsarin"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
@@ -2421,27 +2433,27 @@ msgstr "Buƙatu sun yi yawa"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Sama"
+msgstr "Mafi kyau"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "An share track \"{track}\""
+msgstr "An share tashar \"{track}\""
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "An sabunta track \"{track}\" zuwa {version}"
+msgstr "An sabunta tashar \"{track}\" zuwa {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "An ƙirƙira track"
+msgstr "An ƙirƙira tasha"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Sunan track"
+msgstr "Sunan tasha"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Tracks"
+msgstr "Tashoshi"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Ba shi da suna"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Sabunta tracks"
+msgstr "Sabunta tashoshi"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2626,7 +2638,7 @@ msgstr "Kalla kuma gyara cikakkun bayanan abu"
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "View controls"
-msgstr "View controls"
+msgstr "Sarrafa kallo"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Voice recording is not supported in this browser"

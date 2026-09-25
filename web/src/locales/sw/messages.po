@@ -338,7 +338,7 @@ msgstr "Matoleo yanayopatikana"
 
 #: ../../../lib/web/src/components/entity-avatar.tsx
 msgid "Avatar"
-msgstr "Avatar"
+msgstr "Picha ya wasifu"
 
 #: ../../../lib/web/src/components/entity-avatar.tsx
 msgid "Avatar for {name}"
@@ -727,11 +727,11 @@ msgstr "Unda kipengee kipya"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Unda track"
+msgstr "Unda chaneli"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Unda track yako ya kwanza ya utoaji"
+msgstr "Unda chaneli yako ya kwanza ya matoleo"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Mpangilio chaguo-msingi"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Track chaguo-msingi imewekwa kuwa \"{track}\""
+msgstr "Chaneli chaguo-msingi imewekwa kuwa \"{track}\""
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Futa chaguo {0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Futa track"
+msgstr "Futa chaneli"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "Imeshindwa kuunda kiungo"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Imeshindwa kuunda wimbo"
+msgstr "Imeshindwa kuunda chaneli"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Imeshindwa kufuta kiungo"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Imeshindwa kufuta wimbo"
+msgstr "Imeshindwa kufuta chaneli"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Imeshindwa kuhifadhi kichocheo"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Imeshindwa kuweka wimbo chaguo-msingi"
+msgstr "Imeshindwa kuweka chaneli chaguo-msingi"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Imeshindwa kusasisha usambazaji"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Imeshindwa kusasisha wimbo"
+msgstr "Imeshindwa kusasisha chaneli"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1258,7 +1258,7 @@ msgstr "Kitazamaji picha: {0}"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "Kiimperia"
 
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
@@ -1396,7 +1396,7 @@ msgstr "Dhibiti kategoria"
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "Manual"
-msgstr "Mwongozo"
+msgstr "Kwa mkono"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Hitilafu ya mtandao"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Mpya"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Mpya zaidi"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Hakuna rekodi ya mada bado — jaribu tena baada ya arifa inayofuata."
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Hakuna njia"
+msgstr "Hakuna chaneli"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "Hakuna kilichopatikana"
 msgid "Notifications: {0}"
 msgstr "Arifa: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Nambari"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Nambari"
 
@@ -1699,7 +1707,7 @@ msgstr "Fungua kadi iliyochaguliwa"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Fungua vitendo vya njia"
+msgstr "Fungua vitendo vya chaneli"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "Linganifu ndani ya saa 24, vinginevyo kamili"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Track za utoaji"
+msgstr "Chaneli za matoleo"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "Inatafuta..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Chagua"
+msgstr "Chaguo"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "Acha kufuatilia"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Mada"
+msgstr "Mtumiaji au kikundi"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Jumapili"
 msgid "Switch to view 1-9"
 msgstr "Badilisha kwa mwonekano 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Mfumo"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Mfumo"
 
@@ -2421,27 +2433,27 @@ msgstr "Maombi mengi mno"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Juu"
+msgstr "Bora zaidi"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track \"{track}\" imefutwa"
+msgstr "Chaneli \"{track}\" imefutwa"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track \"{track}\" imesasishwa kwa {version}"
+msgstr "Chaneli \"{track}\" imesasishwa hadi {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track imeundwa"
+msgstr "Chaneli imeundwa"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Jina la track"
+msgstr "Jina la chaneli"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Track"
+msgstr "Chaneli"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Bila kichwa"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Sasisha track"
+msgstr "Sasisha chaneli"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

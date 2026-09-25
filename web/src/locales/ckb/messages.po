@@ -727,11 +727,11 @@ msgstr "دروستکردنی بڕگەی نوێ"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "دروستکردنی Track"
+msgstr "دروستکردنی کەناڵ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "یەکەم ڕێچکەی بڵاوکردنەوەت دروست بکە"
+msgstr "یەکەم کەناڵی بڵاوکردنەوەت دروست بکە"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "ڕیزکردنی بنەڕەت"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Track بنەڕەت دانرا بۆ \"{track}\""
+msgstr "کەناڵی بنەڕەت دانرا بۆ \"{track}\""
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "سڕینەوەی هەڵبژاردەی {0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "سڕینەوەی Track"
+msgstr "سڕینەوەی کەناڵ"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "دروستکردنی بەستەر سەرکەوتوو نەبوو"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "دروستکردنی Track سەرکەوتوو نەبوو"
+msgstr "دروستکردنی کەناڵ سەرکەوتوو نەبوو"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,11 +1076,11 @@ msgstr "سڕینەوەی بەستەر سەرکەوتوو نەبوو"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "سڕینەوەی Track سەرکەوتوو نەبوو"
+msgstr "سڕینەوەی کەناڵ سەرکەوتوو نەبوو"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
-msgstr "وەرگرتنی Token ـی RSS سەرکەوتوو نەبوو"
+msgstr "وەرگرتنی تۆکنی RSS سەرکەوتوو نەبوو"
 
 #: ../../../lib/web/src/hooks/use-load-more.ts
 msgid "Failed to load"
@@ -1121,7 +1121,7 @@ msgstr "ناردنی بۆچوون سەرکەوتوو نەبوو"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Failed to reset prompt"
-msgstr "ڕێکخستنەوەی Prompt سەرکەوتوو نەبوو"
+msgstr "ڕێکخستنەوەی پرۆمپت سەرکەوتوو نەبوو"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to revoke RSS access"
@@ -1133,11 +1133,11 @@ msgstr "پاشەکەوتکردن سەرکەوتوو نەبوو"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Failed to save prompt"
-msgstr "پاشەکەوتکردنی Prompt سەرکەوتوو نەبوو"
+msgstr "پاشەکەوتکردنی پرۆمپت سەرکەوتوو نەبوو"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "دانانی Trackـی بنەڕەتی سەرکەوتوو نەبوو"
+msgstr "دانانی کەناڵی بنەڕەت سەرکەوتوو نەبوو"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "نوێکردنەوەی دابەشکردن سەرکەوتوو نەبوو"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "نوێکردنەوەی Track سەرکەوتوو نەبوو"
+msgstr "نوێکردنەوەی کەناڵ سەرکەوتوو نەبوو"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1176,7 +1176,7 @@ msgstr "فایلەکان"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Fingerprint"
-msgstr "Fingerprint"
+msgstr "پەنجەمۆر"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Finish moving your account"
@@ -1429,7 +1429,7 @@ msgstr "پەیام"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Metric"
-msgstr "Metric"
+msgstr "مەتری"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Microphone permission denied"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "هەڵەی تۆڕ"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "نوێ"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "نوێترین"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "هێشتا هیچ تۆمارێکی بابەت نییە — دوای ئا
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "هیچ ڕێچکەیەک نییە"
+msgstr "هیچ کەناڵێک نییە"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "هیچ نەدۆزرایەوە"
 msgid "Notifications: {0}"
 msgstr "ئاگادارکردنەوەکان: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "ژمارە"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "ژمارە"
 
@@ -1699,7 +1707,7 @@ msgstr "کردنەوەی کارتی هەڵبژێردراو"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "کردنەوەی کردارەکانی ڕێچکە"
+msgstr "کردنەوەی کردارەکانی کەناڵ"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "ڕێژەیی لە ماوەی ٢٤ کاتژمێر، ئەگەرنا تەو
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "ڕێچکەکانی بڵاوکردنەوە"
+msgstr "کەناڵەکانی بڵاوکردنەوە"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2282,7 +2290,7 @@ msgstr "وازبهێنە لە چاودێری"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "بابەت"
+msgstr "بەکارهێنەر یان گرووپ"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "یەکشەممە"
 msgid "Switch to view 1-9"
 msgstr "بگۆڕە بۆ پیشاندانی ١-٩"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "سیستەم"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "سیستەم"
 
@@ -2421,27 +2433,27 @@ msgstr "داواکاری زۆر زیاد"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "سەرەوە"
+msgstr "باشترین"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "تڕاکی \"{track}\" سڕایەوە"
+msgstr "کەناڵی \"{track}\" سڕایەوە"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "تڕاکی \"{track}\" نوێکرایەوە بۆ {version}"
+msgstr "کەناڵی \"{track}\" نوێکرایەوە بۆ {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "تڕاک دروستکرا"
+msgstr "کەناڵ دروستکرا"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "ناوی ڕێچکە"
+msgstr "ناوی کەناڵ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "ڕێچکەکان"
+msgstr "کەناڵەکان"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "بێ ناونیشان"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "نوێکردنەوەی ڕێچکەکان"
+msgstr "نوێکردنەوەی کەناڵەکان"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

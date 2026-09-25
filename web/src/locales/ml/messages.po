@@ -326,7 +326,7 @@ msgstr "പ്രാമാണീകരിച്ച ഉപയോക്താക�
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Authenticator code"
-msgstr "Authenticator കോഡ്"
+msgstr "ഓതന്റിക്കേറ്റർ കോഡ്"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Available keyboard shortcuts"
@@ -727,11 +727,11 @@ msgstr "പുതിയ ഇനം സൃഷ്ടിക്കുക"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Track സൃഷ്ടിക്കുക"
+msgstr "ചാനൽ സൃഷ്ടിക്കുക"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "നിങ്ങളുടെ ആദ്യ റിലീസ് ട്രാക്ക് സൃഷ്ടിക്കുക"
+msgstr "നിങ്ങളുടെ ആദ്യ റിലീസ് ചാനൽ സൃഷ്ടിക്കുക"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "ഡിഫോൾട്ട് സോർട്ട്"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "ഡിഫോൾട്ട് track \"{track}\" ആയി സജ്ജമാക്കി"
+msgstr "ഡിഫോൾട്ട് ചാനൽ \"{track}\" ആയി സജ്ജമാക്കി"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "ഓപ്ഷൻ {0} ഇല്ലാതാക്കുക"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Track ഇല്ലാതാക്കുക"
+msgstr "ചാനൽ ഇല്ലാതാക്കുക"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -931,7 +931,7 @@ msgstr "പൂർത്തിയായി"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Download"
-msgstr "ഡൗൺലോഡ്"
+msgstr "ഡൗൺലോഡ് ചെയ്യുക"
 
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
@@ -1056,7 +1056,7 @@ msgstr "ലിങ്ക് സൃഷ്ടിക്കുന്നതിൽ പ�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "ട്രാക്ക് സൃഷ്ടിക്കുന്നതിൽ പരാജയപ്പെട്ടു"
+msgstr "ചാനൽ സൃഷ്ടിക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "ലിങ്ക് ഇല്ലാതാക്കുന്നതിൽ �
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "ട്രാക്ക് ഇല്ലാതാക്കുന്നതിൽ പരാജയപ്പെട്ടു"
+msgstr "ചാനൽ ഇല്ലാതാക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "പ്രോംപ്റ്റ് സംരക്ഷിക്കുന�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "ഡിഫോൾട്ട് ട്രാക്ക് സജ്ജമാക്കുന്നതിൽ പരാജയപ്പെട്ടു"
+msgstr "ഡിഫോൾട്ട് ചാനൽ സജ്ജമാക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "വിതരണം പുതുക്കുന്നതിൽ പരാ�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "ട്രാക്ക് പുതുക്കുന്നതിൽ പരാജയപ്പെട്ടു"
+msgstr "ചാനൽ പുതുക്കുന്നതിൽ പരാജയപ്പെട്ടു"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "നെറ്റ്‌വർക്ക് പിശക്"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "പുതിയത്"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "ഏറ്റവും പുതിയത്"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1558,7 +1562,7 @@ msgstr "ഗ്രൂപ്പുകളൊന്നും ലഭ്യമല്�
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 msgid "No item types can be created yet. Create the required parent items first."
-msgstr "ഇതുവരെ ഒരു item type-ഉം സൃഷ്ടിക്കാൻ കഴിയില്ല. ആവശ്യമായ parent items ആദ്യം സൃഷ്ടിക്കുക."
+msgstr "ഇതുവരെ ഒരു ഇന തരവും സൃഷ്ടിക്കാൻ കഴിയില്ല. ആവശ്യമായ പാരന്റ് ഇനങ്ങൾ ആദ്യം സൃഷ്ടിക്കുക."
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 msgid "No matching objects"
@@ -1598,7 +1602,7 @@ msgstr "വിഷയ റെക്കോർഡ് ഇതുവരെയില്�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "ട്രാക്കുകളൊന്നുമില്ല"
+msgstr "ചാനലുകളൊന്നുമില്ല"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,11 +1666,15 @@ msgstr "ഒന്നും കണ്ടെത്തിയില്ല"
 msgid "Notifications: {0}"
 msgstr "അറിയിപ്പുകൾ: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "സംഖ്യ"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "നമ്പർ"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -1687,7 +1695,7 @@ msgstr "മെനു തുറക്കുക"
 #: ../../../lib/web/src/components/layout/top-bar.tsx
 #: ../../../lib/web/src/components/layout/top-bar.tsx
 msgid "Open navigation"
-msgstr "navigation തുറക്കുക"
+msgstr "നാവിഗേഷൻ തുറക്കുക"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
 msgid "Open option actions"
@@ -1699,7 +1707,7 @@ msgstr "തിരഞ്ഞെടുത്ത കാർഡ് തുറക്ക�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "ട്രാക്ക് പ്രവർത്തനങ്ങൾ തുറക്കുക"
+msgstr "ചാനൽ പ്രവർത്തനങ്ങൾ തുറക്കുക"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "24 മണിക്കൂറിനുള്ളിൽ ആപേക്ഷ�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "റിലീസ് ട്രാക്കുകൾ"
+msgstr "റിലീസ് ചാനലുകൾ"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "തിരയുന്നു..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "തിരഞ്ഞെടുക്കുക"
+msgstr "തിരഞ്ഞെടുപ്പ്"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "നിരീക്ഷണം നിർത്തുക"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "വിഷയം"
+msgstr "ഉപയോക്താവ് അല്ലെങ്കിൽ ഗ്രൂപ്പ്"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "ഞായറാഴ്ച"
 msgid "Switch to view 1-9"
 msgstr "കാഴ്ച 1-9 ലേക്ക് മാറുക"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "സിസ്റ്റം"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "സിസ്റ്റം"
 
@@ -2421,27 +2433,27 @@ msgstr "വളരെയധികം അഭ്യർത്ഥനകൾ"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "മുകളിൽ"
+msgstr "മികച്ചവ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "\"{track}\" ട്രാക്ക് ഇല്ലാതാക്കി"
+msgstr "\"{track}\" ചാനൽ ഇല്ലാതാക്കി"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "\"{track}\" ട്രാക്ക് {version}-ലേക്ക് അപ്ഡേറ്റ് ചെയ്തു"
+msgstr "\"{track}\" ചാനൽ {version}-ലേക്ക് അപ്ഡേറ്റ് ചെയ്തു"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "ട്രാക്ക് സൃഷ്ടിച്ചു"
+msgstr "ചാനൽ സൃഷ്ടിച്ചു"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "ട്രാക്കിന്റെ പേര്"
+msgstr "ചാനലിന്റെ പേര്"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "ട്രാക്കുകൾ"
+msgstr "ചാനലുകൾ"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "ശീർഷകമില്ലാത്തത്"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "ട്രാക്കുകൾ അപ്ഡേറ്റ് ചെയ്യുക"
+msgstr "ചാനലുകൾ അപ്ഡേറ്റ് ചെയ്യുക"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

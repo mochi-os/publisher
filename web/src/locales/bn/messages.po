@@ -727,11 +727,11 @@ msgstr "নতুন আইটেম তৈরি করুন"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "ট্র্যাক তৈরি করুন"
+msgstr "চ্যানেল তৈরি করুন"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "আপনার প্রথম রিলিজ ট্র্যাক তৈরি করুন"
+msgstr "আপনার প্রথম রিলিজ চ্যানেল তৈরি করুন"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "ডিফল্ট সাজানো"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "ডিফল্ট ট্র্যাক \"{track}\"-এ সেট করা হয়েছে"
+msgstr "ডিফল্ট চ্যানেল \"{track}\"-এ সেট করা হয়েছে"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "অপশন {0} মুছুন"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "ট্র্যাক মুছুন"
+msgstr "চ্যানেল মুছুন"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -931,7 +931,7 @@ msgstr "সম্পন্ন"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Download"
-msgstr "ডাউনলোড"
+msgstr "ডাউনলোড করুন"
 
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
@@ -1056,7 +1056,7 @@ msgstr "লিঙ্ক তৈরি করতে ব্যর্থ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "ট্র্যাক তৈরি করতে ব্যর্থ"
+msgstr "চ্যানেল তৈরি করতে ব্যর্থ"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "লিঙ্ক মুছতে ব্যর্থ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "ট্র্যাক মুছতে ব্যর্থ"
+msgstr "চ্যানেল মুছতে ব্যর্থ"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "প্রম্পট সংরক্ষণ করতে ব্যর্
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "ডিফল্ট ট্র্যাক সেট করতে ব্যর্থ"
+msgstr "ডিফল্ট চ্যানেল সেট করতে ব্যর্থ"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "বিতরণ আপডেট করতে ব্যর্থ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "ট্র্যাক আপডেট করতে ব্যর্থ"
+msgstr "চ্যানেল আপডেট করতে ব্যর্থ"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "নেটওয়ার্ক ত্রুটি"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "নতুন"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "নতুনতম"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "এখনও কোনো বিষয়ের রেকর্ড ন�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "কোনো ট্র্যাক নেই"
+msgstr "কোনো চ্যানেল নেই"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,11 +1666,15 @@ msgstr "কিছুই পাওয়া যায়নি"
 msgid "Notifications: {0}"
 msgstr "বিজ্ঞপ্তি: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "সংখ্যা"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "নম্বর"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -1699,7 +1707,7 @@ msgstr "নির্বাচিত কার্ড খুলুন"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "ট্র্যাক অ্যাকশন খুলুন"
+msgstr "চ্যানেল অ্যাকশন খুলুন"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "২৪ ঘণ্টার মধ্যে আপেক্ষিক, অ�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "রিলিজ ট্র্যাক"
+msgstr "রিলিজ চ্যানেল"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "অনুসন্ধান করা হচ্ছে..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "নির্বাচন করুন"
+msgstr "নির্বাচন"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "দেখা বন্ধ করুন"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "বিষয়"
+msgstr "ব্যবহারকারী বা গ্রুপ"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "রবিবার"
 msgid "Switch to view 1-9"
 msgstr "ভিউ 1-9 এ স্যুইচ করুন"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "সিস্টেম"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "সিস্টেম"
 
@@ -2413,7 +2425,7 @@ msgstr "ভিউ বিকল্প টগল করুন"
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "Toggle watched filter"
-msgstr "watched ফিল্টার টগল করুন"
+msgstr "দেখা হচ্ছে ফিল্টার টগল করুন"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 msgid "Too many requests"
@@ -2421,27 +2433,27 @@ msgstr "অনেক বেশি অনুরোধ"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "উপরে"
+msgstr "সেরা"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track \"{track}\" মুছে ফেলা হয়েছে"
+msgstr "চ্যানেল \"{track}\" মুছে ফেলা হয়েছে"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track \"{track}\" {version}-এ আপডেট হয়েছে"
+msgstr "চ্যানেল \"{track}\" {version}-এ আপডেট হয়েছে"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track তৈরি হয়েছে"
+msgstr "চ্যানেল তৈরি হয়েছে"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "ট্র্যাকের নাম"
+msgstr "চ্যানেলের নাম"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "ট্র্যাক"
+msgstr "চ্যানেল"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "শিরোনামহীন"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "ট্র্যাক আপডেট করুন"
+msgstr "চ্যানেল আপডেট করুন"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

@@ -257,7 +257,7 @@ msgstr "Bydd unrhyw beth sydd wedi tanysgrifio i'r porthiant hwn yn peidio â'i 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "App"
-msgstr "App"
+msgstr "Ap"
 
 #: src/features/apps/index.tsx
 msgid "App created"
@@ -727,11 +727,11 @@ msgstr "Creu eitem newydd"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Creu trac"
+msgstr "Creu sianel"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Crëwch eich trac rhyddhau cyntaf"
+msgstr "Crëwch eich sianel ryddhau gyntaf"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Trefnu diofyn"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Trac diofyn wedi'i osod i \"{track}\""
+msgstr "Sianel ddiofyn wedi'i gosod i \"{track}\""
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Dileu opsiwn {0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Dileu trac"
+msgstr "Dileu sianel"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "Methwyd creu dolen"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Methwyd creu trac"
+msgstr "Methwyd creu sianel"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Methwyd dileu'r ddolen"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Methwyd dileu'r trac"
+msgstr "Methwyd dileu'r sianel"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Methwyd cadw'r anogiad"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Methwyd gosod y trac diofyn"
+msgstr "Methwyd gosod y sianel ddiofyn"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Methwyd diweddaru'r dosbarthiad"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Methwyd diweddaru'r trac"
+msgstr "Methwyd diweddaru'r sianel"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1258,7 +1258,7 @@ msgstr "Gwyliwr delweddau: {0}"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "Imperialaidd"
 
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
@@ -1396,7 +1396,7 @@ msgstr "Rheoli categorïau"
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "Manual"
-msgstr "Llawlyfr"
+msgstr "Â llaw"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Gwall rhwydwaith"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Newydd"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Diweddaraf"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Dim cofnod pwnc eto — rhowch gynnig arall arni ar ôl yr hysbysiad nes
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Dim traciau"
+msgstr "Dim sianeli"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "Heb ddod o hyd i ddim"
 msgid "Notifications: {0}"
 msgstr "Hysbysiadau: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Rhif"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Rhif"
 
@@ -1699,7 +1707,7 @@ msgstr "Agor cerdyn dethol"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Agor camau gweithredu trac"
+msgstr "Agor camau gweithredu sianel"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "Cymharol o fewn 24 awr, fel arall yn absoliwt"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Traciau rhyddhau"
+msgstr "Sianeli rhyddhau"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2182,7 +2190,7 @@ msgstr "Anfon neges"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Serif"
-msgstr "Serif"
+msgstr "Seriff"
 
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -2282,7 +2290,7 @@ msgstr "Stopio gwylio"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Pwnc"
+msgstr "Defnyddiwr neu grŵp"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Dydd Sul"
 msgid "Switch to view 1-9"
 msgstr "Newid i olwg 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "System"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "System"
 
@@ -2421,27 +2433,27 @@ msgstr "Gormod o geisiadau"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Brig"
+msgstr "Gorau"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Trac \"{track}\" wedi'i ddileu"
+msgstr "Sianel \"{track}\" wedi'i dileu"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Trac \"{track}\" wedi'i ddiweddaru i {version}"
+msgstr "Sianel \"{track}\" wedi'i diweddaru i {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Trac wedi'i greu"
+msgstr "Sianel wedi'i chreu"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Enw'r trac"
+msgstr "Enw'r sianel"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Traciau"
+msgstr "Sianeli"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Heb deitl"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Diweddaru traciau"
+msgstr "Diweddaru sianeli"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

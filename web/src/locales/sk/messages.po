@@ -239,7 +239,7 @@ msgstr "Vyskytla sa neočakávaná chyba"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Android push"
+msgstr "Push oznámenia pre Android"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -396,7 +396,7 @@ msgstr "Bloky"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Board"
-msgstr "Doska"
+msgstr "Tabuľa"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 #: ../../../lib/web/src/components/post-tags.tsx
@@ -727,11 +727,11 @@ msgstr "Vytvoriť novú položku"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Vytvoriť track"
+msgstr "Vytvoriť kanál"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Vytvorte svoj prvý release track"
+msgstr "Vytvorte svoj prvý kanál vydaní"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Predvolené triedenie"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Predvolený track nastavený na „{track}“"
+msgstr "Predvolený kanál nastavený na „{track}“"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Odstrániť možnosť {0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Odstrániť track"
+msgstr "Odstrániť kanál"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "Nepodarilo sa vytvoriť odkaz"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Nepodarilo sa vytvoriť stopu"
+msgstr "Nepodarilo sa vytvoriť kanál"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Nepodarilo sa zmazať odkaz"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Nepodarilo sa zmazať stopu"
+msgstr "Nepodarilo sa odstrániť kanál"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Nepodarilo sa uložiť výzvu"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Nepodarilo sa nastaviť predvolenú stopu"
+msgstr "Nepodarilo sa nastaviť predvolený kanál"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Nepodarilo sa aktualizovať distribúciu"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Nepodarilo sa aktualizovať stopu"
+msgstr "Nepodarilo sa aktualizovať kanál"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1441,7 +1441,7 @@ msgstr "Min. dĺžka"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
-msgstr "Mochi web"
+msgstr "Mochi v prehliadači"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Moderation"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Chyba siete"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Nový"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Najnovšie"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1662,9 +1666,13 @@ msgstr "Nič sa nenašlo"
 msgid "Notifications: {0}"
 msgstr "Oznámenia: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Číslo"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Číslo"
 
@@ -1900,7 +1908,7 @@ msgstr "Relatívne do 24 hodín, inak absolútne"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Release tracky"
+msgstr "Kanály vydaní"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "Hľadám..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Vybrať"
+msgstr "Výber"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "Prestať sledovať"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Predmet"
+msgstr "Používateľ alebo skupina"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Nedeľa"
 msgid "Switch to view 1-9"
 msgstr "Prepnúť na zobrazenie 1 – 9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Systém"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Systém"
 
@@ -2421,27 +2433,27 @@ msgstr "Príliš veľa požiadaviek"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Hore"
+msgstr "Najlepšie"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Stopa „{track}“ odstránená"
+msgstr "Kanál „{track}“ odstránený"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Stopa „{track}“ aktualizovaná na {version}"
+msgstr "Kanál „{track}“ aktualizovaný na {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Stopa vytvorená"
+msgstr "Kanál vytvorený"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Názov tracku"
+msgstr "Názov kanála"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Tracky"
+msgstr "Kanály"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Bez názvu"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Aktualizovať tracky"
+msgstr "Aktualizovať kanály"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

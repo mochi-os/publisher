@@ -396,7 +396,7 @@ msgstr "بلوک‌ها"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Board"
-msgstr "تخته"
+msgstr "تابلو"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 #: ../../../lib/web/src/components/post-tags.tsx
@@ -413,7 +413,7 @@ msgstr "اعلان‌های مرورگر"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Build file"
-msgstr "فایل build"
+msgstr "فایل بیلد"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Calendar server"
@@ -727,11 +727,11 @@ msgstr "ساخت مورد جدید"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "ساخت track"
+msgstr "ساخت کانال"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "اولین track انتشار خود را بسازید"
+msgstr "اولین کانال انتشار خود را بسازید"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "مرتب‌سازی پیش‌فرض"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Track پیش‌فرض روی «{track}» تنظیم شد"
+msgstr "کانال پیش‌فرض روی «{track}» تنظیم شد"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "حذف گزینهٔ {0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "حذف track"
+msgstr "حذف کانال"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -948,7 +948,7 @@ msgstr "مناسب برای دیسلکسی"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "e.g. Staging"
-msgstr "مثلاً Staging"
+msgstr "مثلاً استیجینگ"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -1056,7 +1056,7 @@ msgstr "ایجاد لینک ناموفق بود"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "ایجاد ترک ناموفق بود"
+msgstr "ایجاد کانال ناموفق بود"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "حذف لینک ناموفق بود"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "حذف ترک ناموفق بود"
+msgstr "حذف کانال ناموفق بود"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1121,7 +1121,7 @@ msgstr "ارسال دیدگاه ناموفق بود"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Failed to reset prompt"
-msgstr "بازنشانی prompt ناموفق بود"
+msgstr "بازنشانی پرامپت ناموفق بود"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to revoke RSS access"
@@ -1133,11 +1133,11 @@ msgstr "ذخیره ناموفق بود"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Failed to save prompt"
-msgstr "ذخیره prompt ناموفق بود"
+msgstr "ذخیره پرامپت ناموفق بود"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "تنظیم ترک پیش‌فرض ناموفق بود"
+msgstr "تنظیم کانال پیش‌فرض ناموفق بود"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "به‌روزرسانی توزیع ناموفق بود"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "به‌روزرسانی ترک ناموفق بود"
+msgstr "به‌روزرسانی کانال ناموفق بود"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "خطای شبکه"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "جدید"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "جدیدترین"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "هنوز هیچ رکوردی برای موضوع وجود ندارد —
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "هیچ Trackی وجود ندارد"
+msgstr "هیچ کانالی وجود ندارد"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "چیزی یافت نشد"
 msgid "Notifications: {0}"
 msgstr "اعلان‌ها: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "شماره"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "شماره"
 
@@ -1699,7 +1707,7 @@ msgstr "باز کردن کارت انتخاب‌شده"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "باز کردن اقدامات Track"
+msgstr "باز کردن اقدامات کانال"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1822,7 +1830,7 @@ msgstr "در حال پردازش…"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Prompt saved"
-msgstr "Prompt ذخیره شد"
+msgstr "پرامپت ذخیره شد"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Properties"
@@ -1900,7 +1908,7 @@ msgstr "در ۲۴ ساعت نسبی، در غیر این صورت مطلق"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "trackهای انتشار"
+msgstr "کانال‌های انتشار"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2282,7 +2290,7 @@ msgstr "توقف تماشا"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "موضوع"
+msgstr "کاربر یا گروه"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "یکشنبه"
 msgid "Switch to view 1-9"
 msgstr "تغییر به نمای ۱ تا ۹"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "سیستم"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "سیستم"
 
@@ -2421,27 +2433,27 @@ msgstr "درخواست‌های بیش از حد"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "بالا"
+msgstr "برترین"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track «{track}» حذف شد"
+msgstr "کانال «{track}» حذف شد"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track «{track}» به نسخه {version} به‌روزرسانی شد"
+msgstr "کانال «{track}» به نسخه {version} به‌روزرسانی شد"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track ایجاد شد"
+msgstr "کانال ایجاد شد"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "نام track"
+msgstr "نام کانال"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "trackها"
+msgstr "کانال‌ها"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "بدون عنوان"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "به‌روزرسانی trackها"
+msgstr "به‌روزرسانی کانال‌ها"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2560,7 +2572,7 @@ msgstr "بارگذاری نسخه"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
-msgstr "اولین build خود را بارگذاری کنید"
+msgstr "اولین بیلد خود را بارگذاری کنید"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"

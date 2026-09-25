@@ -727,11 +727,11 @@ msgstr "Cruthaich nì ùr"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Cruthaich slighe"
+msgstr "Cruthaich seanail"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Cruthaich a' chiad slighe sgaoilidh agad"
+msgstr "Cruthaich a' chiad seanail sgaoilidh agad"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Seòrsachadh bunaiteach"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Slighe bhunaiteach air a suidheachadh gu \"{track}\""
+msgstr "Seanail bhunaiteach air a suidheachadh gu \"{track}\""
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Sguab às roghainn {0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Sguab às slighe"
+msgstr "Sguab às seanail"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "Cha b' urrainn ceangal a chruthachadh"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Cha b' urrainn slighe a chruthachadh"
+msgstr "Cha b' urrainn seanail a chruthachadh"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Cha b' urrainn ceangal a sguabadh às"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Cha b' urrainn slighe a sguabadh às"
+msgstr "Cha b' urrainn seanail a sguabadh às"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Cha b' urrainn am brodadh a shàbhaladh"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Cha b' urrainn an t-slighe bhunaiteach a shuidheachadh"
+msgstr "Cha b' urrainn an t-seanail bhunaiteach a shuidheachadh"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Cha b' urrainn an sgaoileadh ùrachadh"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Cha b' urrainn an t-slighe ùrachadh"
+msgstr "Cha b' urrainn an t-seanail ùrachadh"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Mearachd lìonraidh"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Ùr"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "As ùire"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Chan eil clàradh cuspair ann fhathast — feuch a-rithist às dèidh an
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Chan eil slighean ann"
+msgstr "Chan eil seanailean ann"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "Cha deach dad a lorg"
 msgid "Notifications: {0}"
 msgstr "Brathan: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Àireamh"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Àireamh"
 
@@ -1699,7 +1707,7 @@ msgstr "Fosgail a' chairt thaghte"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Fosgail gnìomhan na slighe"
+msgstr "Fosgail gnìomhan na seanail"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "Coimeasach taobh a-staigh 24 uair, no fuirich absoluteach"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Slighean sgaoilidh"
+msgstr "Seanailean sgaoilidh"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "A' lorg..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Tagh"
+msgstr "Taghadh"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "Sguir a' coimhead"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Cuspair"
+msgstr "Cleachdaiche no buidheann"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Didòmhnaich"
 msgid "Switch to view 1-9"
 msgstr "Atharraich gu sealladh 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Siostam"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Siostam"
 
@@ -2421,27 +2433,27 @@ msgstr "Cus iarrtasan"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Mullach"
+msgstr "As fheàrr"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Slighe \"{track}\" sguabte às"
+msgstr "Chaidh an t-seanail \"{track}\" a sguabadh às"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Slighe \"{track}\" ùraichte gu {version}"
+msgstr "Chaidh an t-seanail \"{track}\" ùrachadh gu {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Slighe cruthaichte"
+msgstr "Chaidh an t-seanail a chruthachadh"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Ainm na slighe"
+msgstr "Ainm na seanail"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Slighean"
+msgstr "Seanailean"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Gun tiotal"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Ùraich na slighean"
+msgstr "Ùraich na seanailean"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

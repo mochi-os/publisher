@@ -727,11 +727,11 @@ msgstr "새 항목 생성"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "트랙 생성"
+msgstr "채널 생성"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "첫 릴리스 트랙을 만들어 보세요"
+msgstr "첫 릴리스 채널을 만들어 보세요"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "기본 정렬"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "기본 트랙이 \"{track}\"(으)로 설정되었어요"
+msgstr "기본 채널이 \"{track}\"(으)로 설정되었어요"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "옵션 {0} 삭제"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "트랙 삭제"
+msgstr "채널 삭제"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "링크 생성에 실패했어요"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "트랙 생성에 실패했어요"
+msgstr "채널 생성에 실패했어요"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "링크 삭제에 실패했어요"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "트랙 삭제에 실패했어요"
+msgstr "채널 삭제에 실패했어요"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "프롬프트 저장에 실패했어요"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "기본 트랙 설정에 실패했어요"
+msgstr "기본 채널 설정에 실패했어요"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "배포 업데이트에 실패했어요"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "트랙 업데이트에 실패했어요"
+msgstr "채널 업데이트에 실패했어요"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "네트워크 오류"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "새로 만들기"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "최신순"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "아직 토픽 기록이 없어요 — 다음 알림 후에 다시 시도
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "트랙이 없어요"
+msgstr "채널이 없어요"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,11 +1666,15 @@ msgstr "찾은 것이 없어요"
 msgid "Notifications: {0}"
 msgstr "알림: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "숫자"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "번호"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -1699,7 +1707,7 @@ msgstr "선택한 카드 열기"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "트랙 작업 열기"
+msgstr "채널 작업 열기"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "24시간 이내는 상대적, 그 외는 절대적"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "릴리스 트랙"
+msgstr "릴리스 채널"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2282,7 +2290,7 @@ msgstr "관찰 중지"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "제목"
+msgstr "대상"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "일요일"
 msgid "Switch to view 1-9"
 msgstr "보기 1-9로 전환"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "시스템"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "시스템"
 
@@ -2421,27 +2433,27 @@ msgstr "요청이 너무 많음"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "위"
+msgstr "최고"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "트랙 \"{track}\"이(가) 삭제되었어요"
+msgstr "채널 \"{track}\"이(가) 삭제되었어요"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "트랙 \"{track}\"이(가) {version}으로 수정되었어요"
+msgstr "채널 \"{track}\"이(가) {version}(으)로 업데이트되었어요"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "트랙이 생성되었어요"
+msgstr "채널이 생성되었어요"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "트랙 이름"
+msgstr "채널 이름"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "트랙"
+msgstr "채널"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "제목 없음"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "트랙 업데이트"
+msgstr "채널 업데이트"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

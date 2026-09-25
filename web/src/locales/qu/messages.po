@@ -239,7 +239,7 @@ msgstr "Mana suyasqa pantay rikurirqan"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Android push"
+msgstr "Android push willakuy"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -257,7 +257,7 @@ msgstr "Kay feed-ta suscribisqa tukuy imapas manaña chaskinqachu. Chaymanta mus
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "App"
-msgstr "App"
+msgstr "Aplicación"
 
 #: src/features/apps/index.tsx
 msgid "App created"
@@ -490,7 +490,7 @@ msgstr "Hukchasqa ruwana"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
-msgstr "Checkbox"
+msgstr "Casilla"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checklist"
@@ -727,11 +727,11 @@ msgstr "Musuq item kamariy"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Track kamariy"
+msgstr "Canal kamariy"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Ñawpaq release trackniykita kamariy"
+msgstr "Ñawpaq publicacion canalniykita kamariy"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -771,7 +771,7 @@ msgstr "Mana chaskiy"
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default"
-msgstr "Default"
+msgstr "Predeterminado"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx
 msgid "Default AI account"
@@ -783,7 +783,7 @@ msgstr "Allichay predeterminado"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Default track \"{track}\"-pi churasqa"
+msgstr "Canal predeterminado \"{track}\"-pi churasqa"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "{0} akllana wischuy"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Track wischuy"
+msgstr "Canal wischuy"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "Mana enlaceta paqarichiyta atinchu"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Mana trackta paqarichiyta atinchu"
+msgstr "Mana canalta paqarichiyta atinchu"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Mana enlaceta pichayta atinchu"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Mana trackta pichayta atinchu"
+msgstr "Mana canalta pichayta atinchu"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Mana promptta waqaychayta atinchu"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Mana ñawpaq trackta churayta atinchu"
+msgstr "Mana canal predeterminadota churayta atinchu"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Mana distribucionta musuqyachiyta atinchu"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Mana trackta musuqyachiyta atinchu"
+msgstr "Mana canalta musuqyachiyta atinchu"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1176,7 +1176,7 @@ msgstr "Archivokuna"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Fingerprint"
-msgstr "Fingerprint"
+msgstr "Ruk'ana unancha"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Finish moving your account"
@@ -1249,7 +1249,7 @@ msgstr "ID"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Identity"
-msgstr "Identity"
+msgstr "Kikinchakuy"
 
 #. placeholder {0}: currentMedia.name
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
@@ -1319,7 +1319,7 @@ msgstr "Hatun"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Layout"
-msgstr "Layout"
+msgstr "Churana"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Leave empty"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Redpi pantay"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Musuq"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Aswan musuq"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Manaraq topic registro — qatiqnin notificacionmanta watiqmanta ruway."
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Mana trackkuna"
+msgstr "Mana canalkuna kanchu"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "Mana imapas tarisqachu"
 msgid "Notifications: {0}"
 msgstr "Willakuykuna: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Yupay"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Yupay"
 
@@ -1699,7 +1707,7 @@ msgstr "Akllasqa cardta kichay"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Track ruwaykunata kichay"
+msgstr "Canal ruwaykunata kichay"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1843,7 +1851,7 @@ msgstr "Publishasqa"
 #: src/features/apps/index.tsx
 #: src/features/apps/index.tsx
 msgid "Publisher"
-msgstr "Publisher"
+msgstr "Publicador"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
@@ -1900,7 +1908,7 @@ msgstr "24 horas ukhupi relativo, mana chayqa absoluto"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Release trackkuna"
+msgstr "Publicacion canalkuna"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "Maskashan..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Akllay"
+msgstr "Akllana"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2234,7 +2242,7 @@ msgstr "{total}manta {totalShown} rikuchichkan"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr "Waqta barra"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 msgid "Sign in with an account that has access <0/> to this resource."
@@ -2282,7 +2290,7 @@ msgstr "Qhaway saqiy"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Tema"
+msgstr "Apaykachaq utaq huñu"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Intichaw"
 msgid "Switch to view 1-9"
 msgstr "1-9 vistaman tikray"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Sistema"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Sistema"
 
@@ -2421,27 +2433,27 @@ msgstr "Ancha achka mañakuykuna"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Hawan"
+msgstr "Aswan allin"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "\"{track}\" track qulluchisqa"
+msgstr "\"{track}\" canal qulluchisqa"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "\"{track}\" track {version}man musuqchasqa"
+msgstr "\"{track}\" canal {version}man musuqchasqa"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track ruwasqa"
+msgstr "Canal ruwasqa"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Trackpa sutin"
+msgstr "Canalpa sutin"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Trackkuna"
+msgstr "Canalkuna"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2505,7 +2517,7 @@ msgstr "Mana suyasqa API pantay"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "United States"
-msgstr "United States"
+msgstr "Hukllachasqa Suyukuna"
 
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
@@ -2527,7 +2539,7 @@ msgstr "Mana sutinchayniyuq"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Trackkunata musuqchay"
+msgstr "Canalkunata musuqchay"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2542,7 +2554,7 @@ msgstr "{field} musuqchasqa"
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx
 msgid "Upload"
-msgstr "Upload"
+msgstr "Wichachiy"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx

@@ -326,7 +326,7 @@ msgstr "تصدیق شوي کارنان"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Authenticator code"
-msgstr "د Authenticator کوډ"
+msgstr "د تصدیق کوونکي کوډ"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Available keyboard shortcuts"
@@ -727,11 +727,11 @@ msgstr "نوی توکی جوړ کړئ"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Track جوړ کړئ"
+msgstr "کانال جوړ کړئ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "خپله لومړۍ د خپرونې لار جوړه کړئ"
+msgstr "خپل لومړی د خپرونې کانال جوړ کړئ"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "ډیفالټ ترتیب"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "ډیفالټ Track ته \"{track}\" وټاکل شو"
+msgstr "ډیفالټ کانال \"{track}\" ته وټاکل شو"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "اختیار {0} ړنګ کړئ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Track ړنګ کړئ"
+msgstr "کانال ړنګ کړئ"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -903,7 +903,7 @@ msgstr "پرېکړل شوی"
 #: ../../../lib/web/src/components/restore-banner.tsx
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Dismiss"
-msgstr "وردکړه"
+msgstr "وتړئ"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx
 msgid "Displays the mobile sidebar."
@@ -1056,7 +1056,7 @@ msgstr "د لینک جوړولو پاتې راغلل"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "د لارې جوړولو پاتې راغلل"
+msgstr "د کانال جوړول ناکام شول"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "د لینک حذف کولو پاتې راغلل"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "د لارې حذف کولو پاتې راغلل"
+msgstr "د کانال ړنګول ناکام شول"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1121,7 +1121,7 @@ msgstr "د تبصرې پوسټ کولو پاتې راغلل"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Failed to reset prompt"
-msgstr "د prompt د بیا تنظیم پاتې راغلل"
+msgstr "د پرامپټ د بیا تنظیم پاتې راغلل"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to revoke RSS access"
@@ -1133,11 +1133,11 @@ msgstr "د خوندي کولو پاتې راغلل"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Failed to save prompt"
-msgstr "د prompt د خوندي کولو پاتې راغلل"
+msgstr "د پرامپټ د خوندي کولو پاتې راغلل"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "د ډیفالټ لارې ټاکلو پاتې راغلل"
+msgstr "د ډیفالټ کانال ټاکل ناکام شول"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "د توزیع تازه کولو پاتې راغلل"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "د لارې تازه کولو پاتې راغلل"
+msgstr "د کانال تازه کول ناکام شول"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1176,7 +1176,7 @@ msgstr "فایلونه"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Fingerprint"
-msgstr "Fingerprint"
+msgstr "د ګوتو نښه"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Finish moving your account"
@@ -1258,7 +1258,7 @@ msgstr "د انځور کتونکی: {0}"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "امپریال"
 
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "د شبکې تېروتنه"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "نوی"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "تر ټولو نوي"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "تر اوسه د موضوع هیڅ ریکارډ نشته — د راتل
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "هیڅ لارې نشته"
+msgstr "هیڅ کانال نشته"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "هیڅ نه موندل شو"
 msgid "Notifications: {0}"
 msgstr "خبرتیاوې: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "شمیره"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "شمیره"
 
@@ -1699,7 +1707,7 @@ msgstr "ټاکل شوی کارت خلاص کړئ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "د لارې کړنې خلاصې کړئ"
+msgstr "د کانال کړنې خلاصې کړئ"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1742,15 +1750,15 @@ msgstr "پاسکي"
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkey verification failed. Please try again."
-msgstr "د پاس کیلۍ تایید ناکام شو. مهرباني وکړئ بیا هڅه وکړئ."
+msgstr "د پاسکي تایید ناکام شو. مهرباني وکړئ بیا هڅه وکړئ."
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Passkeys"
-msgstr "د لاسرسي کيلۍ"
+msgstr "پاسکي ګانې"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkeys are not available in this browser"
-msgstr "Passkeys په دې براوزر کې شتون نلري"
+msgstr "پاسکي په دې براوزر کې شتون نلري"
 
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Pattern (regex)"
@@ -1859,7 +1867,7 @@ msgstr "پر دې سرور خپل حسابونه بیا وصل کړئ"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Re-register your passkeys on this server"
-msgstr "خپل د لاسرسي کيلۍ پدې سرور کې بیا ثبت کړئ"
+msgstr "خپل پاسکي ګانې پدې سرور کې بیا ثبت کړئ"
 
 #: ../../../lib/web/src/components/search-entity-page.tsx
 msgid "Recommended"
@@ -1900,7 +1908,7 @@ msgstr "په 24 ساعتونو کې نسبي، که نه نو مطلق"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "د خپرونې لارې"
+msgstr "د خپرونې کانالونه"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "د لټون په حال کې..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "وټاکئ"
+msgstr "ټاکنه"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "کتل بند کړئ"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "موضوع"
+msgstr "کاروونکی یا ګروپ"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "یکشنبه"
 msgid "Switch to view 1-9"
 msgstr "د 1-9 لیدلو ته بدل کړئ"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "سیسټم"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "سیسټم"
 
@@ -2361,7 +2373,7 @@ msgstr "د مایکروفون غوښتنې ته ځواب ورنکړل شو"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "د passkey غوښتنې ته ځواب ورنکړل شو"
+msgstr "د پاسکي غوښتنې ته ځواب ورنکړل شو"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2378,7 +2390,7 @@ msgstr "سرور د معلوماتو پر ځای یوه ویب پاڼه راست
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "دې اپ ته اجازه نشته چې ستاسو passkey وکاروي. په تنظیماتو کې، د اجازو لاندې یې اجازه ورکړئ."
+msgstr "دې اپ ته اجازه نشته چې ستاسو پاسکي وکاروي. په تنظیماتو کې، د اجازو لاندې یې اجازه ورکړئ."
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2421,27 +2433,27 @@ msgstr "ډېرې زیاتې غوښتنې"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "بره"
+msgstr "غوره"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track \"{track}\" حذف شو"
+msgstr "کانال \"{track}\" ړنګ شو"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track \"{track}\" {version} ته نوی شو"
+msgstr "کانال \"{track}\" {version} ته تازه شو"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track جوړ شو"
+msgstr "کانال جوړ شو"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "د لارې نوم"
+msgstr "د کانال نوم"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "لارې"
+msgstr "کانالونه"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "بې سرلیکه"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "لارې تازه کړئ"
+msgstr "کانالونه تازه کړئ"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2564,7 +2576,7 @@ msgstr "خپل لومړی بیلډ اپلوډ کړئ"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"
-msgstr "خپله پاس کیلۍ وکاروئ"
+msgstr "خپل پاسکي وکاروئ"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 #: ../../../lib/web/src/features/access/access-dialog.tsx
@@ -2608,7 +2620,7 @@ msgstr "نسخې"
 
 #: ../../../lib/web/src/components/attachment-gallery.tsx
 msgid "Video thumbnail"
-msgstr "د ویډیو thumbnail"
+msgstr "د ویډیو کوچنی انځور"
 
 #. placeholder {0}: currentMedia.name
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx

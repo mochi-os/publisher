@@ -727,11 +727,11 @@ msgstr "नवीन आयटम तयार करा"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "ट्रॅक तयार करा"
+msgstr "चॅनेल तयार करा"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "तुमचा पहिला रिलीझ ट्रॅक तयार करा"
+msgstr "तुमचे पहिले रिलीझ चॅनेल तयार करा"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "डीफॉल्ट क्रमवारी"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "डीफॉल्ट ट्रॅक \"{track}\" वर सेट केला"
+msgstr "डीफॉल्ट चॅनेल \"{track}\" वर सेट केले"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "पर्याय {0} हटवा"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "ट्रॅक हटवा"
+msgstr "चॅनेल हटवा"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "लिंक तयार करण्यात अयशस्वी"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "ट्रॅक तयार करण्यात अयशस्वी"
+msgstr "चॅनेल तयार करण्यात अयशस्वी"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "लिंक हटवण्यात अयशस्वी"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "ट्रॅक हटवण्यात अयशस्वी"
+msgstr "चॅनेल हटवण्यात अयशस्वी"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "प्रॉम्प्ट सेव्ह करण्यात अय
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "डीफॉल्ट ट्रॅक सेट करण्यात अयशस्वी"
+msgstr "डीफॉल्ट चॅनेल सेट करण्यात अयशस्वी"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "वितरण अद्यतनित करण्यात अयश
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "ट्रॅक अद्यतनित करण्यात अयशस्वी"
+msgstr "चॅनेल अद्यतनित करण्यात अयशस्वी"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "नेटवर्क त्रुटी"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "नवीन"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "नवीनतम"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "अद्याप टॉपिक रेकॉर्ड नाही �
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "ट्रॅक्स नाहीत"
+msgstr "कोणतेही चॅनेल नाहीत"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "काहीही सापडले नाही"
 msgid "Notifications: {0}"
 msgstr "सूचना: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "क्रमांक"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "क्रमांक"
 
@@ -1699,7 +1707,7 @@ msgstr "निवडलेले कार्ड उघडा"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "ट्रॅक क्रिया उघडा"
+msgstr "चॅनेल क्रिया उघडा"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "24 तासांच्या आत सापेक्ष, अन्�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "रिलीझ ट्रॅक्स"
+msgstr "रिलीझ चॅनेल"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "शोधत आहे..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "निवडा"
+msgstr "निवड"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "पाहणे थांबवा"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "विषय"
+msgstr "वापरकर्ता किंवा गट"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "रविवार"
 msgid "Switch to view 1-9"
 msgstr "दृश्य 1-9 वर स्विच करा"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "सिस्टम"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "सिस्टम"
 
@@ -2421,27 +2433,27 @@ msgstr "खूप जास्त विनंत्या"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "वर"
+msgstr "सर्वोत्तम"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "ट्रॅक \"{track}\" हटवला"
+msgstr "चॅनेल \"{track}\" हटवले"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "ट्रॅक \"{track}\" {version} वर अद्ययावत केला"
+msgstr "चॅनेल \"{track}\" {version} वर अद्ययावत केले"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "ट्रॅक तयार केला"
+msgstr "चॅनेल तयार केले"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "ट्रॅकचे नाव"
+msgstr "चॅनेलचे नाव"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "ट्रॅक्स"
+msgstr "चॅनेल"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "शीर्षकविरहित"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "ट्रॅक्स अपडेट करा"
+msgstr "चॅनेल अपडेट करा"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

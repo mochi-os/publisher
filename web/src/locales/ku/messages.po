@@ -365,7 +365,7 @@ msgstr "Vegere ser malê"
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/entity-banner.tsx
 msgid "Banner"
-msgstr "Banner"
+msgstr "Pankart"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Banner removed"
@@ -396,7 +396,7 @@ msgstr "Blok"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Board"
-msgstr "Tabloya"
+msgstr "Tablo"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 #: ../../../lib/web/src/components/post-tags.tsx
@@ -727,11 +727,11 @@ msgstr "Hêmana nû çêbike"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Track çêbike"
+msgstr "Kanal çêbike"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Tracka weşanê ya yekem çêbike"
+msgstr "Kanala weşanê ya yekem çêbike"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Rêzkirina standard"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Tracka standard bo \"{track}\" hat danîn"
+msgstr "Kanala standard bo \"{track}\" hat danîn"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Vebijêrka {0} jê bibe"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Trackê jê bibe"
+msgstr "Kanalê jê bibe"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "Çêkirina lînkê neserkeftî bû"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Çêkirina rêçê neserkeftî bû"
+msgstr "Çêkirina kanalê neserkeftî bû"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Jêbirina lînkê neserkeftî bû"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Jêbirina rêçê neserkeftî bû"
+msgstr "Jêbirina kanalê neserkeftî bû"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Tomarkirina prompt neserkeftî bû"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Danîna rêça pêşfaravabûn neserkeftî bû"
+msgstr "Danîna kanala standard neserkeftî bû"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Rojanekirina belavkirinê neserkeftî bû"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Rojanekirina rêçê neserkeftî bû"
+msgstr "Rojanekirina kanalê neserkeftî bû"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1258,7 +1258,7 @@ msgstr "Nêrîna wêneyan: {0}"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "Împeryal"
 
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
@@ -1339,7 +1339,7 @@ msgstr "Girêdan"
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 msgid "Links"
-msgstr "Lînka"
+msgstr "Girêdan"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "List"
@@ -1441,7 +1441,7 @@ msgstr "Dirêjahiya kêmtirîn"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
-msgstr "Mochi web"
+msgstr "Mochi di gerokê de"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Moderation"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Çewtiya torê"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Nû"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Herî nû"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Hêj tu tomarê mijarê tune — piştî agahdariya pêştir dîsa bicer
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Tu trakt tune"
+msgstr "Tu kanal tune"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "Tiştek nehat dîtin"
 msgid "Notifications: {0}"
 msgstr "Agahdarî: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Hejmar"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Hejmar"
 
@@ -1699,7 +1707,7 @@ msgstr "Karta hilbijartî veke"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Çalakiyên traktê veke"
+msgstr "Çalakiyên kanalê veke"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "Goreyî di nav 24 saetan de, ne wisa be mutleq"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Trackên weşanê"
+msgstr "Kanalên weşanê"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "Tê gerîn..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Hilbijêre"
+msgstr "Hilbijartin"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "Temaşekirinê rawestîne"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Mijar"
+msgstr "Bikarhêner an kom"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Yekşem"
 msgid "Switch to view 1-9"
 msgstr "Veguherîne dîtina 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Pergal"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Pergal"
 
@@ -2323,7 +2335,7 @@ msgstr "Etîket divê 50 tîp an kêmtir be"
 #: ../../../lib/web/src/components/post-tags.tsx
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tags"
-msgstr "Tag"
+msgstr "Nîşan"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -2421,27 +2433,27 @@ msgstr "Daxwazên pir zêde"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Jor"
+msgstr "Çêtirîn"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track \"{track}\" hat jêbirin"
+msgstr "Kanala \"{track}\" hat jêbirin"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track \"{track}\" hat nûkirin bo {version}"
+msgstr "Kanala \"{track}\" hat nûkirin bo {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track hat afirandin"
+msgstr "Kanal hat afirandin"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Navê trackê"
+msgstr "Navê kanalê"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Track"
+msgstr "Kanal"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Bê sernav"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Trackan nûve bike"
+msgstr "Kanalan nûve bike"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

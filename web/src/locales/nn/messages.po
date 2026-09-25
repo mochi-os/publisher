@@ -396,7 +396,7 @@ msgstr "Blokker"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Board"
-msgstr "Brett"
+msgstr "Tavle"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 #: ../../../lib/web/src/components/post-tags.tsx
@@ -1056,7 +1056,7 @@ msgstr "Klarte ikkje oppretta lenke"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Klarte ikkje oppretta spor"
+msgstr "Klarte ikkje å oppretta spor"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Klarte ikkje sletta lenke"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Klarte ikkje sletta spor"
+msgstr "Klarte ikkje å sletta spor"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Klarte ikkje lagra forespurnad"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Klarte ikkje setja standardspor"
+msgstr "Klarte ikkje å setja standardspor"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Klarte ikkje oppdatera distribusjon"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Klarte ikkje oppdatera spor"
+msgstr "Klarte ikkje å oppdatera spor"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1258,7 +1258,7 @@ msgstr "Biletvisar: {0}"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "Imperialsk"
 
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
@@ -1319,7 +1319,7 @@ msgstr "Stor"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Layout"
-msgstr "Layout"
+msgstr "Oppsett"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Leave empty"
@@ -1413,7 +1413,7 @@ msgstr "MCP-tenar"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Medium"
-msgstr "Medium"
+msgstr "Middels"
 
 #: ../../../lib/web/src/components/entity/entity-field-editor.tsx
 msgid "Members"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Nettverksfeil"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Ny"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Nyaste"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1662,11 +1666,15 @@ msgstr "Ingenting funne"
 msgid "Notifications: {0}"
 msgstr "Varsel: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "Tal"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "Nummer"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -2115,7 +2123,7 @@ msgstr "Søkjer..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Vel"
+msgstr "Val"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2182,7 +2190,7 @@ msgstr "Send melding"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Serif"
-msgstr "Serif"
+msgstr "Antikva"
 
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -2282,7 +2290,7 @@ msgstr "Slutt å sjå på"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Emne"
+msgstr "Brukar eller gruppe"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Sundag"
 msgid "Switch to view 1-9"
 msgstr "Byt til vising 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "System"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "System"
 

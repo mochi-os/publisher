@@ -272,7 +272,7 @@ msgstr "એપ્લિકેશન મળી નહીં"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Application ID"
-msgstr "Application ID"
+msgstr "ઍપ્લિકેશન ID"
 
 #. placeholder {0}: deleteTarget?.name
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx
@@ -326,7 +326,7 @@ msgstr "પ્રમાણિત વપરાશકર્તાઓ"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Authenticator code"
-msgstr "Authenticator કોડ"
+msgstr "ઑથેન્ટિકેટર કોડ"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Available keyboard shortcuts"
@@ -727,7 +727,7 @@ msgstr "નવી આઇટમ બનાવો"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "track બનાવો"
+msgstr "ટ્રેક બનાવો"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
@@ -783,7 +783,7 @@ msgstr "ડિફૉલ્ટ સૉર્ટ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "ડિફૉલ્ટ track \"{track}\" પર સેટ કર્યું"
+msgstr "ડિફોલ્ટ ટ્રેક \"{track}\" પર સેટ કર્યો"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "વિકલ્પ {0} કાઢી નાખો"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "track કાઢી નાખો"
+msgstr "ટ્રેક કાઢી નાખો"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "નેટવર્ક ભૂલ"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "નવું"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "નવીનતમ"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "હજુ સુધી કોઈ ટોપિક રેકોર્ડ �
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "કોઈ ટ્રેક્સ નથી"
+msgstr "કોઈ ટ્રેક નથી"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,11 +1666,15 @@ msgstr "કંઈ મળ્યું નથી"
 msgid "Notifications: {0}"
 msgstr "સૂચનાઓ: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "સંખ્યા"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "ક્રમાંક"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -2115,7 +2123,7 @@ msgstr "શોધી રહ્યું છે..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "પસંદ કરો"
+msgstr "પસંદગી"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "જોવાનું બંધ કરો"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "વિષય"
+msgstr "વપરાશકર્તા અથવા ગ્રુપ"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "રવિવાર"
 msgid "Switch to view 1-9"
 msgstr "દૃશ્ય 1-9 પર સ્વિચ કરો"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "સિસ્ટમ"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "સિસ્ટમ"
 
@@ -2421,19 +2433,19 @@ msgstr "ઘણી બધી વિનંતીઓ"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "ટોચ"
+msgstr "શ્રેષ્ઠ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "ટ્રૅક \"{track}\" કાઢી નાખ્યો"
+msgstr "ટ્રેક \"{track}\" કાઢી નાખ્યો"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "ટ્રૅક \"{track}\" {version} પર અપડેટ થયો"
+msgstr "ટ્રેક \"{track}\" {version} પર અપડેટ થયો"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "ટ્રૅક બનાવ્યો"
+msgstr "ટ્રેક બનાવ્યો"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"

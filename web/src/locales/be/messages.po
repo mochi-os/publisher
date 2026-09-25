@@ -239,7 +239,7 @@ msgstr "Адбылася нечаканая памылка"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Push для Android"
+msgstr "Пуш-апавяшчэнні для Android"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -727,11 +727,11 @@ msgstr "Стварыць новы элемент"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Стварыць трэк"
+msgstr "Стварыць канал"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Стварыце свой першы трэк выпуску"
+msgstr "Стварыце свой першы канал выпуску"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Сартаванне па змаўчанні"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Трэк па змаўчанні ўсталяваны \"{track}\""
+msgstr "Канал па змаўчанні ўсталяваны: «{track}»"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Выдаліць опцыю {0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Выдаліць трэк"
+msgstr "Выдаліць канал"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -903,7 +903,7 @@ msgstr "Адключана"
 #: ../../../lib/web/src/components/restore-banner.tsx
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Dismiss"
-msgstr "Адхіліць"
+msgstr "Закрыць"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx
 msgid "Displays the mobile sidebar."
@@ -1056,7 +1056,7 @@ msgstr "Не ўдалося стварыць спасылку"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Не ўдалося стварыць трэк"
+msgstr "Не ўдалося стварыць канал"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Не ўдалося выдаліць спасылку"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Не ўдалося выдаліць трэк"
+msgstr "Не ўдалося выдаліць канал"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Не ўдалося захаваць запыт"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Не ўдалося ўсталяваць трэк па змаўчанні"
+msgstr "Не ўдалося ўсталяваць канал па змаўчанні"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Не ўдалося абнавіць размеркаванне"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Не ўдалося абнавіць трэк"
+msgstr "Не ўдалося абнавіць канал"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Памылка сеткі"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Новы"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Новае"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Запісу тэмы яшчэ няма — паспрабуйце па�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Трэкаў няма"
+msgstr "Каналаў няма"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,11 +1666,15 @@ msgstr "Нічога не знойдзена"
 msgid "Notifications: {0}"
 msgstr "Апавяшчэнні: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "Лік"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "Нумар"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -1699,7 +1707,7 @@ msgstr "Адкрыць абраную картку"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Адкрыць дзеянні трэка"
+msgstr "Адкрыць дзеянні канала"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1750,7 +1758,7 @@ msgstr "Ключы доступу"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkeys are not available in this browser"
-msgstr "Passkeys недаступныя ў гэтым браўзеры"
+msgstr "Ключы доступу недаступныя ў гэтым браўзеры"
 
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Pattern (regex)"
@@ -1847,7 +1855,7 @@ msgstr "Выдавец"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
-msgstr "Push-апавяшчэнне"
+msgstr "Пуш-апавяшчэнне"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Raised"
@@ -1900,7 +1908,7 @@ msgstr "Адносна ў межах 24 гадзін, інакш абсалют�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Трэкі выпуску"
+msgstr "Каналы выпуску"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "Пошук..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Абраць"
+msgstr "Выбар"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "Спыніць сачэнне"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Тэма"
+msgstr "Карыстальнік або група"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Нядзеля"
 msgid "Switch to view 1-9"
 msgstr "Пераключыцца на выгляд 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Сістэма"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Сістэма"
 
@@ -2361,7 +2373,7 @@ msgstr "Запыт мікрафона застаўся без адказу"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "Запыт passkey застаўся без адказу"
+msgstr "Запыт ключа доступу застаўся без адказу"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2378,7 +2390,7 @@ msgstr "Сервер вярнуў вэб-старонку замест даны�
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "Гэтай праграме не дазволена выкарыстоўваць ваш passkey. Дазвольце гэта ў Наладах, у раздзеле Дазволы."
+msgstr "Гэтай праграме не дазволена выкарыстоўваць ваш ключ доступу. Дазвольце гэта ў Наладах, у раздзеле Дазволы."
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2421,27 +2433,27 @@ msgstr "Занадта шмат запытаў"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Верх"
+msgstr "Лепшае"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track «{track}» выдалены"
+msgstr "Канал «{track}» выдалены"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track «{track}» абноўлены да {version}"
+msgstr "Канал «{track}» абноўлены да {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track створаны"
+msgstr "Канал створаны"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Назва трэка"
+msgstr "Назва канала"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Трэкі"
+msgstr "Каналы"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Без назвы"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Абнавіць трэкі"
+msgstr "Абнавіць каналы"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

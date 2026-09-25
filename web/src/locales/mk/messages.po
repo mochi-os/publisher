@@ -239,7 +239,7 @@ msgstr "Се појави неочекувана грешка"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Push за Android"
+msgstr "Пуш за Android"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -413,7 +413,7 @@ msgstr "Известувања во прелистувач"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Build file"
-msgstr "Build датотека"
+msgstr "Датотека на билдот"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Calendar server"
@@ -727,11 +727,11 @@ msgstr "Создај нова ставка"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Создај track"
+msgstr "Создај канал"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Создајте го вашиот прв track за издание"
+msgstr "Создајте го вашиот прв канал за изданија"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Стандардно подредување"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Стандардниот track е поставен на „{track}“"
+msgstr "Стандардниот канал е поставен на „{track}“"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Избриши опција {0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Избриши track"
+msgstr "Избриши канал"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1011,7 +1011,7 @@ msgstr "Внесете го кодот од вашата е-пошта"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
-msgstr "Внесете го кодот од authenticator"
+msgstr "Внесете го кодот од автентикаторот"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
@@ -1056,7 +1056,7 @@ msgstr "Неуспешно креирање на врска"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Неуспешно креирање на трага"
+msgstr "Неуспешно креирање на канал"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Неуспешно бришење на врска"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Неуспешно бришење на трага"
+msgstr "Неуспешно бришење на канал"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Неуспешно зачувување на промпт"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Неуспешно поставување на стандардна трага"
+msgstr "Неуспешно поставување на стандарден канал"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Неуспешно ажурирање на дистрибуција"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Неуспешно ажурирање на трага"
+msgstr "Неуспешно ажурирање на канал"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1237,7 +1237,7 @@ msgstr "Историја"
 #: ../../../lib/web/src/components/layout/top-bar.tsx
 #: ../../../lib/web/src/components/layout/top-bar.tsx
 msgid "Home"
-msgstr "Дома"
+msgstr "Почетна"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Hot"
@@ -1258,7 +1258,7 @@ msgstr "Прегледувач на слики: {0}"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "Имперски"
 
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
@@ -1339,7 +1339,7 @@ msgstr "Врска"
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 msgid "Links"
-msgstr "Линкови"
+msgstr "Врски"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "List"
@@ -1429,7 +1429,7 @@ msgstr "Порака"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Metric"
-msgstr "Metric"
+msgstr "Метрички"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Microphone permission denied"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Грешка во мрежата"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Ново"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Најново"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Сè уште нема запис за темата — обидете �
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Нема tracks"
+msgstr "Нема канали"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "Ништо не е пронајдено"
 msgid "Notifications: {0}"
 msgstr "Известувања: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Број"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Број"
 
@@ -1699,7 +1707,7 @@ msgstr "Отвори ја избраната картичка"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Отвори акции на track"
+msgstr "Отвори акции на каналот"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1737,12 +1745,12 @@ msgstr "Родител"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Passkey"
-msgstr "Криптографски клуч"
+msgstr "Клуч за пристап"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkey verification failed. Please try again."
-msgstr "Потврдата на passkey не успеа. Обидете се повторно."
+msgstr "Потврдата на клучот за пристап не успеа. Обидете се повторно."
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Passkeys"
@@ -1847,7 +1855,7 @@ msgstr "Издавач"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
-msgstr "Push известување"
+msgstr "Пуш известување"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Raised"
@@ -1900,7 +1908,7 @@ msgstr "Релативно во рок од 24 часа, инаку апсолу
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Tracks за изданија"
+msgstr "Канали за изданија"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "Пребарување..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Избери"
+msgstr "Избор"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "Престани со следење"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Предмет"
+msgstr "Корисник или група"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Недела"
 msgid "Switch to view 1-9"
 msgstr "Префрли на приказ 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Систем"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Систем"
 
@@ -2361,7 +2373,7 @@ msgstr "Барањето за микрофон не доби одговор"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "Барањето за passkey не доби одговор"
+msgstr "Барањето за клуч за пристап не доби одговор"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2378,7 +2390,7 @@ msgstr "Серверот врати веб-страница наместо по�
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "Оваа апликација нема дозвола да го користи вашиот passkey. Дозволете го во Поставки, под Дозволи."
+msgstr "Оваа апликација нема дозвола да го користи вашиот клуч за пристап. Дозволете го во Поставки, под Дозволи."
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2421,27 +2433,27 @@ msgstr "Премногу барања"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Врв"
+msgstr "Најдобри"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track „{track}“ е избришан"
+msgstr "Каналот „{track}“ е избришан"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track „{track}“ е ажуриран на {version}"
+msgstr "Каналот „{track}“ е ажуриран на {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track е создаден"
+msgstr "Каналот е создаден"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Име на track"
+msgstr "Име на канал"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Tracks"
+msgstr "Канали"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Без наслов"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Ажурирај tracks"
+msgstr "Ажурирај канали"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2560,11 +2572,11 @@ msgstr "Прикачи верзија"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
-msgstr "Прикачете го вашиот прв build"
+msgstr "Прикачете го вашиот прв билд"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"
-msgstr "Користете го вашиот passkey"
+msgstr "Користете го вашиот клуч за пристап"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 #: ../../../lib/web/src/features/access/access-dialog.tsx

@@ -239,7 +239,7 @@ msgstr "Күтүлбөгөн ката кетти"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Android push билдирүүсү"
+msgstr "Android пуш билдирүүсү"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -326,7 +326,7 @@ msgstr "Аутентификацияланган колдонуучулар"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Authenticator code"
-msgstr "Authenticator коду"
+msgstr "Аутентификатор коду"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Available keyboard shortcuts"
@@ -396,7 +396,7 @@ msgstr "Блоктор"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Board"
-msgstr "Тактай"
+msgstr "Такта"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 #: ../../../lib/web/src/components/post-tags.tsx
@@ -413,7 +413,7 @@ msgstr "Браузер эскертүүлөрү"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Build file"
-msgstr "Build файлы"
+msgstr "Жыйнак файлы"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Calendar server"
@@ -727,11 +727,11 @@ msgstr "Жаңы нерсе түзүү"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Track түзүү"
+msgstr "Канал түзүү"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Биринчи релиз трегиңизди түзүңүз"
+msgstr "Биринчи релиз каналыңызды түзүңүз"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Демейки иргөө"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Демейки трек \"{track}\" катары коюлду"
+msgstr "Демейки канал \"{track}\" катары коюлду"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "{0} тандоосун жок кылуу"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Тректи жок кылуу"
+msgstr "Каналды жок кылуу"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1011,7 +1011,7 @@ msgstr "Электрондук почтаңыздагы кодду киргиз�
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
-msgstr "Authenticator кодун киргизиңиз"
+msgstr "Аутентификатор кодун киргизиңиз"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
@@ -1056,7 +1056,7 @@ msgstr "Шилтеме түзүү ишке ашкан жок"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Жол түзүү ишке ашкан жок"
+msgstr "Канал түзүү ишке ашкан жок"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Шилтемени өчүрүү ишке ашкан жок"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Жолду өчүрүү ишке ашкан жок"
+msgstr "Каналды өчүрүү ишке ашкан жок"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Сурамжылоону сактоо ишке ашкан жок"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Демейки жолду коюу ишке ашкан жок"
+msgstr "Демейки каналды коюу ишке ашкан жок"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Бөлүштүрүүнү жаңылоо ишке ашкан жок"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Жолду жаңылоо ишке ашкан жок"
+msgstr "Каналды жаңыртуу ишке ашкан жок"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Тармак катасы"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Жаңы"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Эң жаңы"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Тема жазуусу азырынча жок — кийинки би�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Трек жок"
+msgstr "Канал жок"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,11 +1666,15 @@ msgstr "Эч нерсе табылган жок"
 msgid "Notifications: {0}"
 msgstr "Билдирүүлөр: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "Сан"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "Номер"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -1699,7 +1707,7 @@ msgstr "Тандалган картаны ачуу"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Трек аракеттерин ачуу"
+msgstr "Канал аракеттерин ачуу"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1742,7 +1750,7 @@ msgstr "Мүмкүндүк ачкычы"
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkey verification failed. Please try again."
-msgstr "Passkey текшерүүсү ишке ашкан жок. Кайра аракет кылыңыз."
+msgstr "Кирүү ачкычын текшерүү ишке ашкан жок. Кайра аракет кылыңыз."
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Passkeys"
@@ -1750,7 +1758,7 @@ msgstr "Кирүү ачкычтары"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkeys are not available in this browser"
-msgstr "Passkeys бул браузерде жеткиликсиз"
+msgstr "Кирүү ачкычтары бул браузерде жеткиликсиз"
 
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Pattern (regex)"
@@ -1822,7 +1830,7 @@ msgstr "Иштетилүүдө…"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Prompt saved"
-msgstr "Prompt сакталды"
+msgstr "Промпт сакталды"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Properties"
@@ -1847,7 +1855,7 @@ msgstr "Жарыялоочу"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
-msgstr "Push билдирүүсү"
+msgstr "Пуш билдирүүсү"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Raised"
@@ -1900,7 +1908,7 @@ msgstr "24 саат ичинде салыштырмалуу, антпесе аб
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Релиз тректери"
+msgstr "Релиз каналдары"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2282,7 +2290,7 @@ msgstr "Көрүүнү токтотуу"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Тема"
+msgstr "Колдонуучу же топ"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,11 +2314,15 @@ msgstr "Жекшемби"
 msgid "Switch to view 1-9"
 msgstr "1-9 көрүнүшкө которулуу"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "System"
 msgstr "Системалык"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx
+msgctxt "actor"
+msgid "System"
+msgstr "Система"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
@@ -2361,7 +2373,7 @@ msgstr "Микрофон сурамына жооп берилген жок"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "Passkey сурамына жооп берилген жок"
+msgstr "Кирүү ачкычы сурамына жооп берилген жок"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2378,7 +2390,7 @@ msgstr "Сервер маалыматтын ордуна веб-баракты �
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "Бул колдонмого сиздин passkey'иңизди колдонууга уруксат жок. Жөндөөлөрдөгү Уруксаттар бөлүмүнөн уруксат бериңиз."
+msgstr "Бул колдонмого сиздин кирүү ачкычыңызды колдонууга уруксат жок. Жөндөөлөрдөгү Уруксаттар бөлүмүнөн уруксат бериңиз."
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2421,27 +2433,27 @@ msgstr "Суроо-талаптар өтө көп"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Жогорку"
+msgstr "Эң мыктылар"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "\"{track}\" Жолу өчүрүлдү"
+msgstr "\"{track}\" каналы өчүрүлдү"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "\"{track}\" Жолу {version} ге жаңыртылды"
+msgstr "\"{track}\" каналы {version} версиясына жаңыртылды"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Жол түзүлдү"
+msgstr "Канал түзүлдү"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Трек аталышы"
+msgstr "Канал аталышы"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Тректер"
+msgstr "Каналдар"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Аталышсыз"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Тректерди жаңыртуу"
+msgstr "Каналдарды жаңыртуу"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2560,11 +2572,11 @@ msgstr "Версияны жүктөө"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
-msgstr "Биринчи build'иңизди жүктөңүз"
+msgstr "Биринчи жыйнагыңызды жүктөңүз"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"
-msgstr "Passkey колдонуңуз"
+msgstr "Кирүү ачкычыңызды колдонуңуз"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 #: ../../../lib/web/src/features/access/access-dialog.tsx

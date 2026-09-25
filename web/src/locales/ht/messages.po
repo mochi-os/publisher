@@ -257,7 +257,7 @@ msgstr "Tout sa ki abòne nan fil sa a ap sispann resevwa l. Ou ka kopye yon nou
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "App"
-msgstr "App"
+msgstr "Aplikasyon"
 
 #: src/features/apps/index.tsx
 msgid "App created"
@@ -727,11 +727,11 @@ msgstr "Kreye nouvo eleman"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Kreye track"
+msgstr "Kreye kanal"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Kreye premye track piblikasyon ou"
+msgstr "Kreye premye kanal piblikasyon ou"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Klasman defo"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Track defo defini sou \"{track}\""
+msgstr "Kanal defo defini sou \"{track}\""
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Efase opsyon {0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Efase track"
+msgstr "Efase kanal"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -903,7 +903,7 @@ msgstr "Dekonekte"
 #: ../../../lib/web/src/components/restore-banner.tsx
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Dismiss"
-msgstr "Rejte"
+msgstr "Fèmen"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx
 msgid "Displays the mobile sidebar."
@@ -1056,7 +1056,7 @@ msgstr "Echwe pou kreye lyen"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Echwe pou kreye track"
+msgstr "Echwe pou kreye kanal"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Echwe pou efase lyen"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Echwe pou efase track"
+msgstr "Echwe pou efase kanal"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Echwe pou sove prompt"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Echwe pou mete track default"
+msgstr "Echwe pou mete kanal defo"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Echwe pou mete ajou distribisyon"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Echwe pou mete ajou track"
+msgstr "Echwe pou mete kanal ajou"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1319,7 +1319,7 @@ msgstr "Gwo"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Layout"
-msgstr "Layout"
+msgstr "Disposisyon"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Leave empty"
@@ -1441,7 +1441,7 @@ msgstr "Longè minimòm"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
-msgstr "Mochi web"
+msgstr "Mochi wèb"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Moderation"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Erè rezo"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Nouvo"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Pi nouvo"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Poko gen anrejistreman sijè — eseye ankò apre pwochèn notifikasyon 
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Pa gen tracks"
+msgstr "Pa gen kanal"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "Pa gen anyen ki jwenn"
 msgid "Notifications: {0}"
 msgstr "Notifikasyon: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Nimewo"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Nimewo"
 
@@ -1699,7 +1707,7 @@ msgstr "Ouvri kat ki chwazi"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Ouvri aksyon track yo"
+msgstr "Ouvri aksyon kanal la"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "Relatif nan 24 èdtan, sinon absoli"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Track piblikasyon yo"
+msgstr "Kanal piblikasyon yo"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "Ap chèche..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Chwazi"
+msgstr "Chwa"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2234,7 +2242,7 @@ msgstr "Ap montre {totalShown} nan {total}"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx
 msgid "Sidebar"
-msgstr "Sidebar"
+msgstr "Ba sou kote"
 
 #: ../../../lib/web/src/features/errors/access-denied-error.tsx
 msgid "Sign in with an account that has access <0/> to this resource."
@@ -2282,7 +2290,7 @@ msgstr "Sispann gade"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Sijè"
+msgstr "Itilizatè oswa gwoup"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Dimanch"
 msgid "Switch to view 1-9"
 msgstr "Chanje pou wè 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Sistèm"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Sistèm"
 
@@ -2421,27 +2433,27 @@ msgstr "Twòp demann"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Anwo"
+msgstr "Pi bon"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track \"{track}\" efase"
+msgstr "Kanal \"{track}\" efase"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track \"{track}\" mete ajou nan {version}"
+msgstr "Kanal \"{track}\" mete ajou nan {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track kreye"
+msgstr "Kanal kreye"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Non track la"
+msgstr "Non kanal la"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Track yo"
+msgstr "Kanal yo"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "San tit"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Mete track yo ajou"
+msgstr "Mete kanal yo ajou"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

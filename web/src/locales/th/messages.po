@@ -326,7 +326,7 @@ msgstr "ผู้ใช้ที่ยืนยันตัวตนแล้ว
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Authenticator code"
-msgstr "รหัส Authenticator"
+msgstr "รหัสยืนยันตัวตน"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Available keyboard shortcuts"
@@ -727,11 +727,11 @@ msgstr "สร้างรายการใหม่"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "สร้าง track"
+msgstr "สร้างช่องทาง"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "สร้างแทร็กการเผยแพร่แรกของคุณ"
+msgstr "สร้างช่องทางการเผยแพร่แรกของคุณ"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "การเรียงลำดับเริ่มต้น"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "ตั้ง track เริ่มต้นเป็น\"{track}\"แล้ว"
+msgstr "ตั้งช่องทางเริ่มต้นเป็น \"{track}\" แล้ว"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "ลบตัวเลือก{0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "ลบ track"
+msgstr "ลบช่องทาง"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "ไม่สามารถสร้างลิงก์ได้"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "ไม่สามารถสร้างแทร็กได้"
+msgstr "ไม่สามารถสร้างช่องทางได้"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,11 +1076,11 @@ msgstr "ไม่สามารถลบลิงก์ได้"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "ไม่สามารถลบแทร็กได้"
+msgstr "ไม่สามารถลบช่องทางได้"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
-msgstr "ไม่สามารถรับ RSS token ได้"
+msgstr "ไม่สามารถรับโทเคน RSS ได้"
 
 #: ../../../lib/web/src/hooks/use-load-more.ts
 msgid "Failed to load"
@@ -1121,7 +1121,7 @@ msgstr "ไม่สามารถโพสต์ความคิดเห็
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Failed to reset prompt"
-msgstr "ไม่สามารถรีเซ็ต prompt ได้"
+msgstr "ไม่สามารถรีเซ็ตพรอมต์ได้"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to revoke RSS access"
@@ -1133,11 +1133,11 @@ msgstr "ไม่สามารถบันทึกได้"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Failed to save prompt"
-msgstr "ไม่สามารถบันทึก prompt ได้"
+msgstr "ไม่สามารถบันทึกพรอมต์ได้"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "ไม่สามารถตั้งแทร็กเริ่มต้นได้"
+msgstr "ไม่สามารถตั้งช่องทางเริ่มต้นได้"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "ไม่สามารถอัปเดตการจัดจำห
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "ไม่สามารถอัปเดตแทร็กได้"
+msgstr "ไม่สามารถอัปเดตช่องทางได้"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1176,7 +1176,7 @@ msgstr "ไฟล์"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Fingerprint"
-msgstr "Fingerprint"
+msgstr "ลายนิ้วมือ"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Finish moving your account"
@@ -1184,7 +1184,7 @@ msgstr "เสร็จสิ้นการย้ายบัญชี"
 
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Flags"
-msgstr "Flags"
+msgstr "แฟล็ก"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Flat"
@@ -1249,7 +1249,7 @@ msgstr "รหัส"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Identity"
-msgstr "Identity"
+msgstr "ตัวตน"
 
 #. placeholder {0}: currentMedia.name
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
@@ -1258,7 +1258,7 @@ msgstr "โปรแกรมดูรูปภาพ: {0}"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "อิมพีเรียล"
 
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "ข้อผิดพลาดของเครือข่าย"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "ใหม่"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "ใหม่ล่าสุด"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "ยังไม่มีบันทึกหัวข้อ — ลอ�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "ไม่มีแทร็ก"
+msgstr "ไม่มีช่องทาง"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,11 +1666,15 @@ msgstr "ไม่พบสิ่งใด"
 msgid "Notifications: {0}"
 msgstr "การแจ้งเตือน: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "ตัวเลข"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "หมายเลข"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -1699,7 +1707,7 @@ msgstr "เปิดการ์ดที่เลือก"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "เปิดการดำเนินการของแทร็ก"
+msgstr "เปิดการดำเนินการของช่องทาง"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1750,7 +1758,7 @@ msgstr "พาสคีย์"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkeys are not available in this browser"
-msgstr "Passkeys ไม่พร้อมใช้งานในเบราว์เซอร์นี้"
+msgstr "พาสคีย์ไม่พร้อมใช้งานในเบราว์เซอร์นี้"
 
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Pattern (regex)"
@@ -1822,7 +1830,7 @@ msgstr "กำลังประมวลผล…"
 
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 msgid "Prompt saved"
-msgstr "บันทึก prompt แล้ว"
+msgstr "บันทึกพรอมต์แล้ว"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Properties"
@@ -1900,7 +1908,7 @@ msgstr "สัมพัทธ์ภายใน 24 ชั่วโมง นอ�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "แทร็กการเผยแพร่"
+msgstr "ช่องทางการเผยแพร่"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "กำลังค้นหา..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "เลือก"
+msgstr "ตัวเลือก"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "หยุดติดตาม"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "หัวเรื่อง"
+msgstr "ผู้ใช้หรือกลุ่ม"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "วันอาทิตย์"
 msgid "Switch to view 1-9"
 msgstr "เปลี่ยนเป็นมุมมอง 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "ระบบ"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "ระบบ"
 
@@ -2361,7 +2373,7 @@ msgstr "คำขอไมโครโฟนไม่ได้รับการ
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "คำขอ passkey ไม่ได้รับการตอบกลับ"
+msgstr "คำขอพาสคีย์ไม่ได้รับการตอบกลับ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2378,7 +2390,7 @@ msgstr "เซิร์ฟเวอร์ส่งคืนหน้าเว็
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "แอปนี้ไม่ได้รับอนุญาตให้ใช้ passkey ของคุณ อนุญาตได้ในการตั้งค่า ภายใต้สิทธิ์"
+msgstr "แอปนี้ไม่ได้รับอนุญาตให้ใช้พาสคีย์ของคุณ อนุญาตได้ในการตั้งค่า ภายใต้สิทธิ์"
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2421,27 +2433,27 @@ msgstr "คำขอมากเกินไป"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "บนสุด"
+msgstr "คะแนนสูงสุด"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "ลบแทร็ก \"{track}\" แล้ว"
+msgstr "ลบช่องทาง \"{track}\" แล้ว"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "อัปเดตแทร็ก \"{track}\" เป็น {version} แล้ว"
+msgstr "อัปเดตช่องทาง \"{track}\" เป็น {version} แล้ว"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "สร้างแทร็กแล้ว"
+msgstr "สร้างช่องทางแล้ว"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "ชื่อแทร็ก"
+msgstr "ชื่อช่องทาง"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "แทร็ก"
+msgstr "ช่องทาง"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "ไม่มีชื่อ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "อัปเดตแทร็ก"
+msgstr "อัปเดตช่องทาง"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

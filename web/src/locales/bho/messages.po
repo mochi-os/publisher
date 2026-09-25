@@ -326,7 +326,7 @@ msgstr "प्रमाणित प्रयोगकर्ता"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Authenticator code"
-msgstr "Authenticator कोड"
+msgstr "ऑथेंटिकेटर कोड"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Available keyboard shortcuts"
@@ -369,11 +369,11 @@ msgstr "बैनर"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Banner removed"
-msgstr "Banner हटा दिहल गइल"
+msgstr "बैनर हटा दिहल गइल"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Banner updated"
-msgstr "Banner अद्यतन कइल गइल"
+msgstr "बैनर अद्यतन कइल गइल"
 
 #: ../../../lib/web/src/components/member-list.tsx
 #: ../../../lib/web/src/components/member-list.tsx
@@ -409,7 +409,7 @@ msgstr "किनारा रंग"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Browser notifications"
-msgstr "Browser सूचना"
+msgstr "ब्राउज़र सूचना"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Build file"
@@ -490,11 +490,11 @@ msgstr "बदलल गइल दोहराव"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
-msgstr "Checkbox"
+msgstr "चेकबॉक्स"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checklist"
-msgstr "Checklist"
+msgstr "चेकलिस्ट"
 
 #: ../../../lib/web/src/components/ui/date-picker.tsx
 msgid "Choose a date"
@@ -727,11 +727,11 @@ msgstr "नया आइटम बनाईं"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Track बनाईं"
+msgstr "चैनल बनाईं"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "आपन पहिला रिलीज ट्रैक बनाईं"
+msgstr "आपन पहिला रिलीज चैनल बनाईं"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "डिफ़ॉल्ट छंटाई"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "डिफ़ॉल्ट Track \"{track}\" प सेट कइल गइल"
+msgstr "डिफ़ॉल्ट चैनल \"{track}\" पर सेट कइल गइल"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "विकल्प {0} मेटाईं"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Track मेटाईं"
+msgstr "चैनल मेटाईं"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -881,7 +881,7 @@ msgstr "विवरण पैनल"
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Detect from web browser"
-msgstr "Web browser से पता लगाईं"
+msgstr "वेब ब्राउज़र से पता लगाईं"
 
 #: ../../../lib/web/src/components/person-picker.tsx
 msgid "Directory"
@@ -931,7 +931,7 @@ msgstr "हो गइल"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Download"
-msgstr "डाउनलोड"
+msgstr "डाउनलोड करीं"
 
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
@@ -1056,7 +1056,7 @@ msgstr "लिंक बनावे में विफल"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "ट्रैक बनावे में विफल"
+msgstr "चैनल बनावे में विफल"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "लिंक मेटावे में विफल"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "ट्रैक मेटावे में विफल"
+msgstr "चैनल मेटावे में विफल"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "प्रॉम्प्ट सहेजे में विफल"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "डिफॉल्ट ट्रैक सेट करे में विफल"
+msgstr "डिफ़ॉल्ट चैनल सेट करे में विफल"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "वितरण अपडेट करे में विफल"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "ट्रैक अपडेट करे में विफल"
+msgstr "चैनल अपडेट करे में विफल"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "नेटवर्क त्रुटि"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "नया"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "सबसे नया"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "अबहीं तक कौनो विषय रिकॉर्ड �
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "कौनो ट्रैक नइखे"
+msgstr "कवनो चैनल नइखे"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,11 +1666,15 @@ msgstr "कुछुओ ना मिलल"
 msgid "Notifications: {0}"
 msgstr "सूचना: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "संख्या"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "क्रमांक"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -1699,7 +1707,7 @@ msgstr "चुनल कार्ड खोलीं"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "ट्रैक क्रिया खोलीं"
+msgstr "चैनल क्रिया खोलीं"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1746,7 +1754,7 @@ msgstr "पासकी सत्यापन विफल हो गइल। �
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Passkeys"
-msgstr "Passkey"
+msgstr "पासकी सब"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkeys are not available in this browser"
@@ -1768,7 +1776,7 @@ msgstr "कृपया आपन इंटरनेट कनेक्शन �
 
 #: src/features/apps/index.tsx
 msgid "Please enter an app name"
-msgstr "app नाम डालीं"
+msgstr "ऐप नाम डालीं"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Please select a file"
@@ -1900,7 +1908,7 @@ msgstr "24 घंटा के भीतर सापेक्ष, ना त �
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "रिलीज ट्रैक"
+msgstr "रिलीज चैनल"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "खोज रहल बा..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "चुनीं"
+msgstr "चयन"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "देखल बंद करीं"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "विषय"
+msgstr "उपयोगकर्ता भा समूह"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "रविवार"
 msgid "Switch to view 1-9"
 msgstr "1-9 दृश्य पर स्विच करीं"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "सिस्टम"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "सिस्टम"
 
@@ -2361,7 +2373,7 @@ msgstr "माइक्रोफोन अनुरोध के जवाब �
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "Passkey अनुरोध के जवाब ना मिलल"
+msgstr "पासकी अनुरोध के जवाब ना मिलल"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2378,7 +2390,7 @@ msgstr "सर्वर डेटा के बजाय एगो वेब प
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "ई ऐप के रउआ passkey इस्तेमाल करे के अनुमति नइखे। सेटिंग में, अनुमति के नीचे एकरा के अनुमति दीं।"
+msgstr "ई ऐप के रउआ पासकी इस्तेमाल करे के अनुमति नइखे। सेटिंग में, अनुमति के नीचे एकरा के अनुमति दीं।"
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2421,27 +2433,27 @@ msgstr "बहुते जादा अनुरोध"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "ऊपर"
+msgstr "टॉप"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "ट्रैक \"{track}\" हटावल गइल"
+msgstr "चैनल \"{track}\" मेटावल गइल"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "ट्रैक \"{track}\" {version} पर अपडेट भइल"
+msgstr "चैनल \"{track}\" {version} पर अपडेट भइल"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "ट्रैक बनल"
+msgstr "चैनल बनल"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "ट्रैक के नाम"
+msgstr "चैनल के नाम"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "ट्रैक"
+msgstr "चैनल"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "बेशीर्षक"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "ट्रैक अपडेट करीं"
+msgstr "चैनल अपडेट करीं"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx

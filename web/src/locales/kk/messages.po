@@ -326,7 +326,7 @@ msgstr "Аутентификацияланған пайдаланушылар"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Authenticator code"
-msgstr "Authenticator коды"
+msgstr "Аутентификатор коды"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Available keyboard shortcuts"
@@ -392,7 +392,7 @@ msgstr "Сенімсіз сілтемеге өту бөгелді"
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 msgid "Blocks"
-msgstr "Bloks"
+msgstr "Бөгейді"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Board"
@@ -413,7 +413,7 @@ msgstr "Браузер хабарландырулары"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Build file"
-msgstr "Build файлы"
+msgstr "Құрастырма файлы"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Calendar server"
@@ -727,11 +727,11 @@ msgstr "Жаңа тармақ құру"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Track құру"
+msgstr "Арна құру"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Алғашқы шығарылым track-іңізді жасаңыз"
+msgstr "Алғашқы шығарылым арнаңызды жасаңыз"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Әдепкі сұрыптау"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Әдепкі track \"{track}\" болып орнатылды"
+msgstr "Әдепкі арна \"{track}\" болып орнатылды"
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "{0} опциясын жою"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Track жою"
+msgstr "Арнаны жою"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1011,7 +1011,7 @@ msgstr "Электрондық поштаңыздағы кодты енгізі�
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Enter your authenticator code"
-msgstr "Authenticator кодын енгізіңіз"
+msgstr "Аутентификатор кодын енгізіңіз"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Error"
@@ -1056,7 +1056,7 @@ msgstr "Сілтеме жасау сәтсіз аяқталды"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Жолды жасау сәтсіз аяқталды"
+msgstr "Арнаны жасау сәтсіз аяқталды"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Сілтемені жою сәтсіз аяқталды"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Жолды жою сәтсіз аяқталды"
+msgstr "Арнаны жою сәтсіз аяқталды"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Жолдамасын сақтау сәтсіз аяқталды"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Әдепкі жолды орнату сәтсіз аяқталды"
+msgstr "Әдепкі арнаны орнату сәтсіз аяқталды"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Таратуды жаңарту сәтсіз аяқталды"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Жолды жаңарту сәтсіз аяқталды"
+msgstr "Арнаны жаңарту сәтсіз аяқталды"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Желі қатесі"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Жаңа"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Ең жаңа"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Тақырып жазбасы әлі жоқ — келесі хабар�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Track-тер жоқ"
+msgstr "Арналар жоқ"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,11 +1666,15 @@ msgstr "Ештеңе табылмады"
 msgid "Notifications: {0}"
 msgstr "Хабарландырулар: {0}"
 
-#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
-#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Number"
 msgstr "Сан"
+
+#: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
+#: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
+msgctxt "item number"
+msgid "Number"
+msgstr "Нөмір"
 
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "On"
@@ -1699,7 +1707,7 @@ msgstr "Таңдалған картаны ашу"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Track әрекеттерін ашу"
+msgstr "Арна әрекеттерін ашу"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1742,7 +1750,7 @@ msgstr "Кіру кілті"
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkey verification failed. Please try again."
-msgstr "Passkey тексеруі сәтсіз аяқталды. Қайталап көріңіз."
+msgstr "Кіру кілтін тексеру сәтсіз аяқталды. Қайталап көріңіз."
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Passkeys"
@@ -1843,7 +1851,7 @@ msgstr "Жарияланды"
 #: src/features/apps/index.tsx
 #: src/features/apps/index.tsx
 msgid "Publisher"
-msgstr "Publisher"
+msgstr "Жариялаушы"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
@@ -1900,7 +1908,7 @@ msgstr "24 сағат ішінде салыстырмалы, әйтпесе аб
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Шығарылым track-тері"
+msgstr "Шығарылым арналары"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2282,7 +2290,7 @@ msgstr "Қарауды тоқтату"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Тақырып"
+msgstr "Пайдаланушы немесе топ"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Жексенбі"
 msgid "Switch to view 1-9"
 msgstr "1-9 көрінісіне ауысу"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Жүйе"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Жүйе"
 
@@ -2361,7 +2373,7 @@ msgstr "Микрофон сұрауына жауап берілмеді"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "Passkey сұрауына жауап берілмеді"
+msgstr "Кіру кілті сұрауына жауап берілмеді"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2378,7 +2390,7 @@ msgstr "Сервер деректердің орнына веб-бетті қа�
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "Бұл қолданбаға сіздің passkey-іңізді пайдалануға рұқсат жоқ. Параметрлердегі Рұқсаттар бөлімінде рұқсат беріңіз."
+msgstr "Бұл қолданбаға сіздің кіру кілтіңізді пайдалануға рұқсат жоқ. Параметрлердегі Рұқсаттар бөлімінде рұқсат беріңіз."
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2421,27 +2433,27 @@ msgstr "Сұраулар тым көп"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Жоғары"
+msgstr "Үздіктер"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "\"{track}\" жолы жойылды"
+msgstr "\"{track}\" арнасы жойылды"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "\"{track}\" жолы {version}-ге жаңартылды"
+msgstr "\"{track}\" арнасы {version} нұсқасына жаңартылды"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Жол жасалды"
+msgstr "Арна жасалды"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Track атауы"
+msgstr "Арна атауы"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Track-тер"
+msgstr "Арналар"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Атаусыз"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Track-терді жаңарту"
+msgstr "Арналарды жаңарту"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2560,11 +2572,11 @@ msgstr "Нұсқаны жүктеу"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload your first build"
-msgstr "Алғашқы build-іңізді жүктеп салыңыз"
+msgstr "Алғашқы құрастырмаңызды жүктеп салыңыз"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"
-msgstr "Passkey пайдаланыңыз"
+msgstr "Кіру кілтін пайдаланыңыз"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 #: ../../../lib/web/src/features/access/access-dialog.tsx

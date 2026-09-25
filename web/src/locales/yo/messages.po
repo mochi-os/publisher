@@ -239,7 +239,7 @@ msgstr "Àṣìṣe àìròtẹ́lẹ̀ kan wáyé"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Android push"
+msgstr "Ìfitónilétí push Android"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -365,7 +365,7 @@ msgstr "Pada si ile"
 #: ../../../lib/web/src/components/banner-section.tsx
 #: ../../../lib/web/src/components/entity-banner.tsx
 msgid "Banner"
-msgstr "Banner"
+msgstr "Àsíá"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Banner removed"
@@ -727,11 +727,11 @@ msgstr "Dá ohun tuntun"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Dá track"
+msgstr "Dá ìkànnì"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Dá track ìtẹ̀jáde àkọ́kọ́ rẹ"
+msgstr "Dá ìkànnì ìtẹ̀jáde àkọ́kọ́ rẹ"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -783,7 +783,7 @@ msgstr "Ìtò àìpé"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "A ti ṣètò track àìpé sí \"{track}\""
+msgstr "A ti ṣètò ìkànnì àìyípadà sí \"{track}\""
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Pa àṣàyàn {0} rẹ́"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Pa track rẹ́"
+msgstr "Pa ìkànnì rẹ́"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -1056,7 +1056,7 @@ msgstr "Kò lè dá ìjápọ̀"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Kò lè dá track"
+msgstr "Kò lè dá ìkànnì"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Kò lè pa ìjápọ̀ rẹ́"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Kò lè pa track rẹ́"
+msgstr "Kò lè pa ìkànnì rẹ́"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Kò lè fi prompt pamọ́"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Kò lè gbé track àbáwọlé kalẹ̀"
+msgstr "Kò lè ṣètò ìkànnì àìyípadà"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Kò lè mú pípín dòde"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Kò lè mú track dòde"
+msgstr "Kò lè mú ìkànnì dòde"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1258,7 +1258,7 @@ msgstr "Ẹ̀rọ ìwo àwòrán: {0}"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Imperial"
-msgstr "Imperial"
+msgstr "Òṣùwọ̀n Gẹ̀ẹ́sì"
 
 #: ../../../lib/web/src/features/access/types.ts
 msgid "Including anonymous users"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Àṣìṣe nẹ́tíwọ́kì"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Tuntun"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Tuntun jùlọ"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Kò sí àkọsílẹ̀ kókó síbẹ̀ — gbìyànjú lẹ́ẹ̀kan 
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Kò sí track"
+msgstr "Kò sí ìkànnì"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "A kò rí ohunkóhun"
 msgid "Notifications: {0}"
 msgstr "Àwọn ìfitónilétí: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Nọ́mbà"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Nọ́mbà"
 
@@ -1699,7 +1707,7 @@ msgstr "Ṣí káàdì tó yàn"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Ṣí àwọn iṣẹ́ track"
+msgstr "Ṣí àwọn iṣẹ́ ìkànnì"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1900,7 +1908,7 @@ msgstr "Pẹ̀lú ìbáṣepọ̀ nínú wákàtí 24, bí ó ṣíkù absolute"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Àwọn track ìtẹ̀jáde"
+msgstr "Àwọn ìkànnì ìtẹ̀jáde"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2115,7 +2123,7 @@ msgstr "Ń wá..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Yan"
+msgstr "Àṣàyàn"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "Dáwọ́ ìríran dúró"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Àkòrí"
+msgstr "Olùmúlò tàbí ẹgbẹ́"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,11 +2314,15 @@ msgstr "Ọjọ́ Àìkú"
 msgid "Switch to view 1-9"
 msgstr "Yí padà sí ìwòye 1-9"
 
-#: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/lib/preference-utils.ts
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "System"
-msgstr "System"
+msgstr "Sístẹ́mù"
+
+#: ../../../lib/web/src/components/audit-timeline.tsx
+msgctxt "actor"
+msgid "System"
+msgstr "Sístẹ́mù"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tag already exists"
@@ -2323,7 +2335,7 @@ msgstr "Àmì gbọ́dọ̀ jẹ́ àwọn lẹ́tà 50 tàbí kéré sí"
 #: ../../../lib/web/src/components/post-tags.tsx
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tags"
-msgstr "Àwọn tag"
+msgstr "Àwọn àmì"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -2421,27 +2433,27 @@ msgstr "Àwọn ìbéèrè ti pọ̀ jù"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Òkè"
+msgstr "Tó dára jùlọ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track \"{track}\" ti pa rẹ́"
+msgstr "A ti pa ìkànnì \"{track}\" rẹ́"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track \"{track}\" ti ṣe imudojúìwọ̀n sí {version}"
+msgstr "A ti ṣe ìmúdójúìwọ̀n ìkànnì \"{track}\" sí {version}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track ti dá"
+msgstr "A ti dá ìkànnì"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Orúkọ track"
+msgstr "Orúkọ ìkànnì"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Àwọn track"
+msgstr "Àwọn ìkànnì"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2505,7 +2517,7 @@ msgstr "Àṣìṣe API tí a kò retí"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "United States"
-msgstr "United States"
+msgstr "Amẹrikà"
 
 #: ../../../lib/web/src/components/audit-timeline.tsx
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
@@ -2527,7 +2539,7 @@ msgstr "Aláìlórúkọ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Ṣe ìmúdójúìwọ̀n àwọn track"
+msgstr "Ṣe ìmúdójúìwọ̀n àwọn ìkànnì"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -2570,7 +2582,7 @@ msgstr "Lo passkey rẹ"
 #: ../../../lib/web/src/features/access/access-dialog.tsx
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "User"
-msgstr "User"
+msgstr "Olùmúlò"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Users can install this application by pasting this link into their Apps page."

@@ -239,7 +239,7 @@ msgstr "Oĩ peteĩ jejavy ñeha'ãrõ'ỹva"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Android push"
-msgstr "Android push"
+msgstr "Android momarandu"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 #: ../../../lib/web/src/features/access/types.ts
@@ -257,7 +257,7 @@ msgstr "Opa mba'e osuscribíva ko feed-pe ndohupytyvéima. Upéi ikatu embokopia
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "App"
-msgstr "App"
+msgstr "Tembiporu'i"
 
 #: src/features/apps/index.tsx
 msgid "App created"
@@ -272,7 +272,7 @@ msgstr "App ndojejuhúi"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Application ID"
-msgstr "Application ID"
+msgstr "Tembiporu'i ID"
 
 #. placeholder {0}: deleteTarget?.name
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx
@@ -490,11 +490,11 @@ msgstr "Evento oñemoambuéva"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
-msgstr "Checkbox"
+msgstr "Casilla"
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checklist"
-msgstr "Checklist"
+msgstr "Lista jehechajey"
 
 #: ../../../lib/web/src/components/ui/date-picker.tsx
 msgid "Choose a date"
@@ -609,7 +609,7 @@ msgstr "Comentariokuéra ({0})"
 
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Compact"
-msgstr "Compact"
+msgstr "Mbyky"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
 msgid "Configure option settings"
@@ -727,11 +727,11 @@ msgstr "Embojeguáva mba'e pyahu"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create track"
-msgstr "Embojeguáva track"
+msgstr "Ejapo canal"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Create your first release track"
-msgstr "Ejapo ne release track peteĩha"
+msgstr "Ejapo ne ñemoherakuã canal peteĩha"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
@@ -771,7 +771,7 @@ msgstr "Joha"
 #: ../../../lib/web/src/components/ai-prompts-editor.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default"
-msgstr "Default"
+msgstr "Ypygua"
 
 #: ../../../lib/web/src/features/accounts/account-add.tsx
 msgid "Default AI account"
@@ -783,7 +783,7 @@ msgstr "Embojo'a ypygua"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Default track set to \"{track}\""
-msgstr "Default track oñemoĩma \"{track}\""
+msgstr "Canal ypygua oñemoĩma: \"{track}\""
 
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -837,7 +837,7 @@ msgstr "Hundi opción {0}"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
-msgstr "Hundi track"
+msgstr "Embogue canal"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Delete view"
@@ -903,7 +903,7 @@ msgstr "Ndojuajúi"
 #: ../../../lib/web/src/components/restore-banner.tsx
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Dismiss"
-msgstr "Mbohovái"
+msgstr "Emokañy"
 
 #: ../../../lib/web/src/components/ui/sidebar.tsx
 msgid "Displays the mobile sidebar."
@@ -1056,7 +1056,7 @@ msgstr "Ndaikatúi oñembojuaju link"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to create track"
-msgstr "Ndaikatúi oñembojuaju Track"
+msgstr "Ndaikatúi ojejapo canal"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to delete"
@@ -1076,7 +1076,7 @@ msgstr "Ndaikatúi ojejuka link"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to delete track"
-msgstr "Ndaikatúi ojejuka Track"
+msgstr "Ndaikatúi oñembogue canal"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to get RSS token"
@@ -1137,7 +1137,7 @@ msgstr "Ndaikatúi oñongatu prompt"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to set default track"
-msgstr "Ndaikatúi oñemboheko default Track"
+msgstr "Ndaikatúi oñemoĩ canal ypygua"
 
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Failed to update banner"
@@ -1153,7 +1153,7 @@ msgstr "Ndaikatúi oñembohera'ã pyahu distribución"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to update track"
-msgstr "Ndaikatúi oñembohera'ã pyahu Track"
+msgstr "Ndaikatúi oñembohekopyahu canal"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to update watching"
@@ -1176,7 +1176,7 @@ msgstr "Archivos"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Fingerprint"
-msgstr "Fingerprint"
+msgstr "Kuãhũ"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Finish moving your account"
@@ -1319,7 +1319,7 @@ msgstr "Tuicha"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Layout"
-msgstr "Layout"
+msgstr "Ñemohenda"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Leave empty"
@@ -1335,11 +1335,11 @@ msgstr "Hesakã"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Link"
-msgstr "Ñeꞌẽ"
+msgstr "Juajuha"
 
 #: ../../../lib/web/src/components/entity/entity-object-links.tsx
 msgid "Links"
-msgstr "Linkkuéra"
+msgstr "Joajukuéra"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "List"
@@ -1441,7 +1441,7 @@ msgstr "Pukuvevéva"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Mochi web"
-msgstr "Mochi web"
+msgstr "Mochi ñanduti"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Moderation"
@@ -1501,9 +1501,13 @@ msgid "Network error"
 msgstr "Jejavy ñanduti rehegua"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
-#: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "New"
 msgstr "Pyahu"
+
+#: ../../../lib/web/src/components/ui/sort-selector.tsx
+msgctxt "sort order"
+msgid "New"
+msgstr "Ipyahuvéva"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
@@ -1598,7 +1602,7 @@ msgstr "Ndaipóri tópico marandu gueteri — eha'ã jey notificación pyahu rir
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No tracks"
-msgstr "Ndaipóri tracks"
+msgstr "Ndaipóri canal"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "No unread notifications"
@@ -1662,9 +1666,13 @@ msgstr "Ndojejuhúi mba'eve"
 msgid "Notifications: {0}"
 msgstr "Marandu: {0}"
 
+#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgid "Number"
+msgstr "Papapy"
+
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
-#: ../../../lib/web/src/hooks/use-field-type-labels.ts
+msgctxt "item number"
 msgid "Number"
 msgstr "Papapy"
 
@@ -1699,7 +1707,7 @@ msgstr "Eipe'a card oñeporavóva"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Open track actions"
-msgstr "Eipe'a track tembiapo"
+msgstr "Eipe'a canal tembiapo"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Open view actions"
@@ -1843,7 +1851,7 @@ msgstr "Oñemoherakuãma"
 #: src/features/apps/index.tsx
 #: src/features/apps/index.tsx
 msgid "Publisher"
-msgstr "Publisher"
+msgstr "Omoherakuãva"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Push notification"
@@ -1900,7 +1908,7 @@ msgstr "Mbytetégua 24 hora ndive, ambue tiempo absoluto"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Release tracks"
-msgstr "Release tracks"
+msgstr "Ñemoherakuã canalkuéra"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Relevance {relevance}"
@@ -2025,7 +2033,7 @@ msgstr "¿Emboyke RSS jeike?"
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Rows"
-msgstr "Rows"
+msgstr "Tysýikuéra"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Rows group by"
@@ -2115,7 +2123,7 @@ msgstr "Ohekahína..."
 
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Select"
-msgstr "Eporavo"
+msgstr "Jeporavo"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Select a field"
@@ -2282,7 +2290,7 @@ msgstr "Ñehapykuere'ỹ"
 
 #: ../../../lib/web/src/features/access/access-list.tsx
 msgid "Subject"
-msgstr "Mba'erã"
+msgstr "Mboapurevahára térã atypy"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Submit comment"
@@ -2306,9 +2314,13 @@ msgstr "Arateĩ"
 msgid "Switch to view 1-9"
 msgstr "Eike vista 1-9"
 
+#: ../../../lib/web/src/lib/preference-utils.ts
+#: ../../../lib/web/src/lib/preference-utils.ts
+msgid "System"
+msgstr "Sistema"
+
 #: ../../../lib/web/src/components/audit-timeline.tsx
-#: ../../../lib/web/src/lib/preference-utils.ts
-#: ../../../lib/web/src/lib/preference-utils.ts
+msgctxt "actor"
 msgid "System"
 msgstr "Sistema"
 
@@ -2323,7 +2335,7 @@ msgstr "Etiqueta oguereko va'erã 50 tai térã sa'ive"
 #: ../../../lib/web/src/components/post-tags.tsx
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Tags"
-msgstr "Tagskuéra"
+msgstr "Etiquetakuéra"
 
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
@@ -2421,27 +2433,27 @@ msgstr "Hetaiterei mba'ejerure"
 
 #: ../../../lib/web/src/components/ui/sort-selector.tsx
 msgid "Top"
-msgstr "Yvate"
+msgstr "Iporãvéva"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" deleted"
-msgstr "Track \"{track}\" oñembogue"
+msgstr "Canal \"{track}\" oñembogue"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track \"{track}\" updated to {version}"
-msgstr "Track \"{track}\" oñembohekopyahu {version}-pe"
+msgstr "Canal \"{track}\" oñembohekopyahu {version}-pe"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "Track ojejapo"
+msgstr "Canal ojejapóma"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
-msgstr "Track réra"
+msgstr "Canal réra"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Tracks"
-msgstr "Tracks"
+msgstr "Canalkuéra"
 
 #: ../../../lib/web/src/components/travelling-picker.tsx
 msgid "Travelling"
@@ -2527,7 +2539,7 @@ msgstr "Téra'ỹva"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Update tracks"
-msgstr "Embohekopyahu tracks"
+msgstr "Embohekopyahu canalkuéra"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
