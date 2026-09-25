@@ -65,9 +65,23 @@ msgstr "{count, plural, one {#ਮਿ} other {#ਮਿ}}"
 msgid "{count, plural, one {#w} other {#w}}"
 msgstr "{count, plural, one {#ਹ} other {#ਹ}}"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/tooltip.ts
+msgid "{day}, {from} to {to}"
+msgstr "{day}, {from} ਤੋਂ {to} ਤੱਕ"
+
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "{entityLabel} name"
 msgstr "{entityLabel} ਨਾਮ"
+
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/tooltip.ts
+msgid "{from} to {to}"
+msgstr "{from} ਤੋਂ {to} ਤੱਕ"
+
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+msgid "{hidden, plural, one {+# more} other {+# more}}"
+msgstr "{hidden, plural, one {+# ਹੋਰ} other {+# ਹੋਰ}}"
 
 #: ../../../lib/web/src/components/game/game-draw-offer-banner.tsx
 msgid "{opponentName} offered a draw"
@@ -201,6 +215,11 @@ msgstr "ਦ੍ਰਿਸ਼ ਜੋੜੋ"
 msgid "AI"
 msgstr "AI"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "All day"
+msgstr "ਪੂਰਾ ਦਿਨ"
+
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Allow anyone to search for {entityLabel}"
 msgstr "ਕਿਸੇ ਨੂੰ ਵੀ {entityLabel} ਖੋਜਣ ਦੀ ਆਗਿਆ ਦਿਓ"
@@ -287,6 +306,10 @@ msgstr "ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ ਤੇ ਅਸਤੀਫ�
 #: ../../../lib/web/src/components/ui/sort-direction-button.tsx
 msgid "Ascending"
 msgstr "ਵਧਦੇ ਕ੍ਰਮ ਵਿੱਚ"
+
+#: ../../../lib/web/src/components/timezone-select.tsx
+msgid "At sea"
+msgstr "ਸਮੁੰਦਰ ਵਿੱਚ"
 
 #: ../../../lib/web/src/components/comment-composer.tsx
 msgid "Attach comment files"
@@ -392,6 +415,10 @@ msgstr "ਬ੍ਰਾਊਜ਼ਰ ਨੋਟੀਫਿਕੇਸ਼ਨਾਂ"
 msgid "Build file"
 msgstr "ਬਿਲਡ ਫਾਈਲ"
 
+#: ../../../lib/web/src/features/accounts/types.ts
+msgid "Calendar server"
+msgstr "ਕੈਲੰਡਰ ਸਰਵਰ"
+
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"
 msgstr "ਕੈਮਰਾ ਇਜਾਜ਼ਤ ਅਸਵੀਕਾਰ ਕੀਤੀ ਗਈ"
@@ -456,6 +483,11 @@ msgstr "ਬਦਲਿਆ ਗਿਆ"
 msgid "Changed {field}"
 msgstr "{field} ਬਦਲਿਆ ਗਿਆ"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Changed occurrence"
+msgstr "ਬਦਲਿਆ ਦੁਹਰਾਓ"
+
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checkbox"
 msgstr "ਚੈੱਕਬਾਕਸ"
@@ -463,6 +495,10 @@ msgstr "ਚੈੱਕਬਾਕਸ"
 #: ../../../lib/web/src/hooks/use-field-type-labels.ts
 msgid "Checklist"
 msgstr "ਚੈੱਕਲਿਸਟ"
+
+#: ../../../lib/web/src/components/ui/date-picker.tsx
+msgid "Choose a date"
+msgstr "ਮਿਤੀ ਚੁਣੋ"
 
 #: ../../../lib/web/src/components/game/game-empty-state.tsx
 msgid "Choose a game from the sidebar or start a new one."
@@ -530,6 +566,7 @@ msgid "Collapse sidebar"
 msgstr "ਸਾਈਡਬਾਰ ਸੰਕੁਚਿਤ ਕਰੋ"
 
 #: ../../../lib/web/src/components/entity/entity-option-dialog.tsx
+#: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Colour"
 msgstr "ਰੰਗ"
 
@@ -608,6 +645,10 @@ msgstr "ਜਾਰੀ ਰੱਖੋ"
 msgid "Continue with {label}"
 msgstr "{label} ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 
+#: ../../../lib/web/src/features/accounts/account-add.tsx
+msgid "Continue with {providerLabel}"
+msgstr "{providerLabel} ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
+
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Copied"
 msgstr "ਕਾਪੀ ਕੀਤਾ ਗਿਆ"
@@ -616,6 +657,10 @@ msgstr "ਕਾਪੀ ਕੀਤਾ ਗਿਆ"
 msgid "Copied to clipboard"
 msgstr "ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਕਾਪੀ ਹੋਇਆ"
 
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copy"
 msgstr "ਕਾਪੀ ਕਰੋ"
@@ -944,6 +989,10 @@ msgstr "ਈਮੇਲ"
 msgid "Email code"
 msgstr "ਈਮੇਲ ਕੋਡ"
 
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Ends before it starts"
+msgstr "ਸ਼ੁਰੂ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਹੀ ਖ਼ਤਮ ਹੋ ਜਾਂਦਾ ਹੈ"
+
 #: ../../../lib/web/src/components/banner-section.tsx
 msgid "Enter banner text (markdown supported)..."
 msgstr "ਬੈਨਰ ਟੈਕਸਟ ਦਰਜ ਕਰੋ (ਮਾਰਕਡਾਊਨ ਸਮਰਥਿਤ)..."
@@ -1119,7 +1168,7 @@ msgstr "ਫਾਈਲਾਂ"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Fingerprint"
-msgstr "ਉਂਗਲੀ ਦਾ ਨਿਸ਼ਾਨ"
+msgstr "ਫਿੰਗਰਪ੍ਰਿੰਟ"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Finish moving your account"
@@ -1262,11 +1311,11 @@ msgstr "ਵੱਡਾ"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Layout"
-msgstr "ਚੈਟ ਛੱਡ ਦਿੱਤੀ"
+msgstr "ਲੇਆਉਟ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Leave empty"
-msgstr "ਸੂਚੀ ਵਿਊ"
+msgstr "ਖਾਲੀ ਛੱਡੋ"
 
 #: ../../../lib/web/src/components/post-tags.tsx
 msgid "Letters, numbers, spaces, hyphens, and slashes only"
@@ -1290,11 +1339,11 @@ msgstr "ਸੂਚੀ"
 
 #: ../../../lib/web/src/components/ui/load-more.tsx
 msgid "Load more"
-msgstr "ਲਾਕ"
+msgstr "ਹੋਰ ਲੋਡ ਕਰੋ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Loading app..."
-msgstr "ਲਾਕ ਕੀਤਾ"
+msgstr "ਐਪ ਲੋਡ ਹੋ ਰਹੀ ਹੈ..."
 
 #: ../../../lib/web/src/components/ui/loading-content.tsx
 msgid "Loading content…"
@@ -1302,7 +1351,7 @@ msgstr "ਸਮੱਗਰੀ ਲੋਡ ਹੋ ਰਹੀ ਹੈ…"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Loading item"
-msgstr "ਪਾਸਕੀ ਨਾਲ ਲਾਗਇਨ ਕਰੋ"
+msgstr "ਆਈਟਮ ਲੋਡ ਹੋ ਰਹੀ ਹੈ"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Loading item details"
@@ -1394,6 +1443,10 @@ msgstr "ਸੰਚਾਲਨ"
 msgid "Monday"
 msgstr "ਸੋਮਵਾਰ"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Month"
+msgstr "ਮਹੀਨਾ"
+
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "More options"
 msgstr "ਹੋਰ ਵਿਕਲਪ"
@@ -1405,6 +1458,13 @@ msgstr "ਮੂਵ ਕੀਤਾ ਗਿਆ"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Moved {field}"
 msgstr "{field} ਮੂਵ ਕੀਤਾ ਗਿਆ"
+
+#. placeholder {0}: dayName(current.day)
+#. placeholder {0}: dayName(dragging.day)
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Moving to {0}"
+msgstr "{0} ਉੱਤੇ ਲਿਜਾਇਆ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: ../../../lib/web/src/components/entity/add-field-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
@@ -1446,6 +1506,14 @@ msgstr "ਨਵੀਂ ਗੇਮ"
 #: ../../../lib/web/src/components/ui/image-lightbox.tsx
 msgid "Next image"
 msgstr "ਅਗਲੀ ਤਸਵੀਰ"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next month"
+msgstr "ਅਗਲਾ ਮਹੀਨਾ"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Next year"
+msgstr "ਅਗਲਾ ਸਾਲ"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -1719,6 +1787,14 @@ msgstr "ਪੋਸਟਾਂ ਅਤੇ ਟਿੱਪਣੀਆਂ"
 msgid "Previous image"
 msgstr "ਪਿਛਲੀ ਤਸਵੀਰ"
 
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous month"
+msgstr "ਪਿਛਲਾ ਮਹੀਨਾ"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Previous year"
+msgstr "ਪਿਛਲਾ ਸਾਲ"
+
 #: ../../../lib/web/src/components/server-documents-footer.tsx
 #: ../../../lib/web/src/features/document/document-page.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -1885,6 +1961,11 @@ msgstr "ਕਾਲਮ ਦਾ ਨਾਮ ਬਦਲੋ"
 #: ../../../lib/web/src/components/entity/entity-board-column.tsx
 msgid "Rename this board column"
 msgstr "ਇਸ ਬੋਰਡ ਕਾਲਮ ਦਾ ਨਾਮ ਬਦਲੋ"
+
+#: ../../../lib/web/src/components/calendar/month-grid.tsx
+#: ../../../lib/web/src/components/calendar/time-grid.tsx
+msgid "Repeats"
+msgstr "ਦੁਹਰਾਇਆ ਜਾਂਦਾ ਹੈ"
 
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
 #: ../../../lib/web/src/components/entity/entity-comment-thread.tsx
@@ -2130,7 +2211,7 @@ msgstr "ਸਾਂਝਾਕਰਨ"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Show classes"
-msgstr "classes ਦਿਖਾਓ"
+msgstr "ਕਲਾਸਾਂ ਦਿਖਾਓ"
 
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 msgid "Show fields"
@@ -2345,7 +2426,7 @@ msgstr "track \"{track}\" ਨੂੰ {version} 'ਤੇ ਅੱਪਡੇਟ ਕੀ�
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track created"
-msgstr "track ਬਣਾਇਆ ਗਿਆ"
+msgstr "ਟਰੈਕ ਬਣਾਇਆ ਗਿਆ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Track name"
@@ -2552,11 +2633,11 @@ msgstr "ਦੇਖੋ"
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 #: ../../../lib/web/src/components/filter-bar.tsx
 msgid "Watched"
-msgstr "watched"
+msgstr "ਨਿਗਰਾਨੀ ਅਧੀਨ"
 
 #: ../../../lib/web/src/components/entity/entity-view-options-bar.tsx
 msgid "Watched only"
-msgstr "ਸਿਰਫ਼ watched"
+msgstr "ਸਿਰਫ਼ ਨਿਗਰਾਨੀ ਅਧੀਨ"
 
 #. placeholder {0}: account.identifier
 #: ../../../lib/web/src/features/accounts/account-verify.tsx
@@ -2566,6 +2647,10 @@ msgstr "ਅਸੀਂ <0>{0}</0> 'ਤੇ ਇੱਕ ਤਸਦੀਕ ਕੋਡ ਭ�
 #: ../../../lib/web/src/lib/preference-utils.ts
 msgid "Wednesday"
 msgstr "ਬੁੱਧਵਾਰ"
+
+#: ../../../lib/web/src/components/calendar/date-header.tsx
+msgid "Year"
+msgstr "ਸਾਲ"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
