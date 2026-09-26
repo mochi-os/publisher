@@ -421,7 +421,7 @@ msgstr "የግንባታ ፋይል"
 
 #: ../../../lib/web/src/features/accounts/types.ts
 msgid "Calendar server"
-msgstr "የቀን መቁጠሪያ ሰርቨር"
+msgstr "የቀን መቁጠሪያ አገልጋይ"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Camera permission denied"

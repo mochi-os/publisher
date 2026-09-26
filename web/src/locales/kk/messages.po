@@ -1173,7 +1173,7 @@ msgstr "Файлдар"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Fingerprint"
-msgstr "Саусақ ізі"
+msgstr "Қысқа идентификатор"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Finish moving your account"
@@ -1478,7 +1478,7 @@ msgstr "{0} күніне жылжытылуда"
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: src/features/apps/index.tsx
 msgid "Name"
-msgstr "Аты"
+msgstr "Атау"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name cannot contain < or > characters"
@@ -1486,7 +1486,7 @@ msgstr "Атта < немесе > таңбалары болмауы керек"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name is required"
-msgstr "Аты міндетті"
+msgstr "Атау міндетті"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"

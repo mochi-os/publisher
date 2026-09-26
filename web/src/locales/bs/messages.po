@@ -1478,19 +1478,19 @@ msgstr "Premještanje na {0}"
 #: ../../../lib/web/src/components/entity/entity-view-sheet.tsx
 #: src/features/apps/index.tsx
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name cannot contain < or > characters"
-msgstr "Ime ne smije sadržavati znakove < ili >"
+msgstr "Naziv ne smije sadržavati znakove < ili >"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name is required"
-msgstr "Ime je obavezno"
+msgstr "Naziv je obavezan"
 
 #: ../../../lib/web/src/components/ui/create-entity-dialog.tsx
 msgid "Name must be 1000 characters or less"
-msgstr "Ime mora imati 1000 ili manje znakova"
+msgstr "Naziv mora imati 1000 ili manje znakova"
 
 #: ../../../lib/web/src/features/errors/general-error.tsx
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
@@ -1773,7 +1773,7 @@ msgstr "Provjerite svoju internetsku vezu i pokušajte ponovo."
 
 #: src/features/apps/index.tsx
 msgid "Please enter an app name"
-msgstr "Molimo unesite ime aplikacije"
+msgstr "Molimo unesite naziv aplikacije"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Please select a file"

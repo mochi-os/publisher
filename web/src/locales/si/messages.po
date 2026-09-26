@@ -1242,7 +1242,7 @@ msgstr "උණුසුම්"
 
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "ID"
-msgstr "හැඳුනුම්පත"
+msgstr "හැඳුනුම"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Identity"

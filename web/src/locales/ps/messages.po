@@ -2217,7 +2217,7 @@ msgstr "سرچینه او منزل وټاکئ"
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Settings"
-msgstr "ترتیبات"
+msgstr "تنظیمات"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"
