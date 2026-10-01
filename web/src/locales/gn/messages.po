@@ -1761,7 +1761,7 @@ msgstr "Jeike rape"
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkey verification failed. Please try again."
-msgstr "Passkey ñemyatã ndoikói. Eñehaʼã jey."
+msgstr "Jeike rape ñemoañete ndoikói. Eñehaʼã jey."
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Passkeys"
@@ -1769,7 +1769,7 @@ msgstr "Jeike rape kuéra"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkeys are not available in this browser"
-msgstr "Passkeys ndaipóri ko navegador-pe"
+msgstr "Jeike rape kuéra ndaipóri ko navegador-pe"
 
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Pattern (regex)"
@@ -1878,7 +1878,7 @@ msgstr "Embojoja jey nde mba'ete ko servidor-pe"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Re-register your passkeys on this server"
-msgstr "Emoinge jey nde passkeys ko servidor-pe"
+msgstr "Emboheraguapy jey nde jeike rape kuéra ko servidor-pe"
 
 #: ../../../lib/web/src/components/search-entity-page.tsx
 msgid "Recommended"
@@ -2396,7 +2396,7 @@ msgstr "Micrófono jerure ndojehechái mbohovái"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "Passkey jerure ndojehechái mbohovái"
+msgstr "Jeike rape jerure ndojembohovái"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2413,7 +2413,7 @@ msgstr "Servidor ombohovái peteĩ web rogue, datos rangue."
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "Ko aplicación ndaikatúi oiporu nde passkey. Emoneĩ Ajustes-pe, Permisos guýpe."
+msgstr "Ko aplicación ndaikatúi oiporu nde jeike rape. Emoneĩ Ajustes-pe, Permisos guýpe."
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2599,7 +2599,7 @@ msgstr "Ehupi ne build peteĩha"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"
-msgstr "Eipuru nde passkey"
+msgstr "Eipuru nde jeike rape"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 #: ../../../lib/web/src/features/access/access-dialog.tsx

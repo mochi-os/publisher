@@ -1761,7 +1761,7 @@ msgstr "Pasluiche"
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "Passkey verification failed. Please try again."
-msgstr "Theip ar fhíorú na heochrach rochtana. Bain triail eile as."
+msgstr "Theip ar fhíorú an phasluiche. Bain triail eile as."
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Passkeys"
@@ -1878,7 +1878,7 @@ msgstr "Athnasc do chuntais ar an bhfreastalaí seo"
 
 #: ../../../lib/web/src/components/restore-banner.tsx
 msgid "Re-register your passkeys on this server"
-msgstr "Athchláraigh do heochracha rochtana ar an bhfreastalaí seo"
+msgstr "Athchláraigh do phasluichí ar an bhfreastalaí seo"
 
 #: ../../../lib/web/src/components/search-entity-page.tsx
 msgid "Recommended"
@@ -2396,7 +2396,7 @@ msgstr "Níor freagraíodh an t-iarratas micreafóin"
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "The passkey request was not answered"
-msgstr "Níor freagraíodh an t-iarratas pasluí"
+msgstr "Níor freagraíodh an t-iarratas pasluiche"
 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2413,7 +2413,7 @@ msgstr "Sheol an freastalaí leathanach gréasáin ar ais in ionad sonraí."
 
 #: ../../../lib/web/src/lib/shell-errors.ts
 msgid "This app is not allowed to use your passkey. Allow it in Settings, under Permissions."
-msgstr "Níl cead ag an aip seo do phasluí a úsáid. Ceadaigh é i Socruithe, faoi Ceadanna."
+msgstr "Níl cead ag an aip seo do phasluiche a úsáid. Ceadaigh é i Socruithe, faoi Ceadanna."
 
 #: ../../../lib/web/src/components/game/game-end-dialogs.tsx
 msgid "This permanently deletes the game and its chat. This cannot be undone."
@@ -2599,7 +2599,7 @@ msgstr "Uaslódáil do chéad tógáil"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Use your passkey"
-msgstr "Úsáid d'eochair rochtana"
+msgstr "Úsáid do phasluiche"
 
 #: ../../../lib/web/src/components/layout/mochi-menu.tsx
 #: ../../../lib/web/src/features/access/access-dialog.tsx
