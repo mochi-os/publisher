@@ -1176,7 +1176,7 @@ msgstr "Nabigong mag-upload ng attachment"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Failed to upload version"
-msgstr "Nabigong mag-upload ng version"
+msgstr "Nabigong mag-upload ng bersyon"
 
 #: ../../../lib/web/src/components/entity/entity-create-object-dialog.tsx
 #: ../../../lib/web/src/components/entity/entity-object-attachments.tsx

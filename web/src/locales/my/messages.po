@@ -1625,11 +1625,11 @@ msgstr "သုံးစွဲသူများ မတွေ့ပါ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No version"
-msgstr "version မရှိ"
+msgstr "ဗားရှင်း မရှိ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "No versions"
-msgstr "version များ မရှိ"
+msgstr "ဗားရှင်းများ မရှိ"
 
 #: ../../../lib/web/src/components/entity/entity-design-preview.tsx
 msgid "No views"

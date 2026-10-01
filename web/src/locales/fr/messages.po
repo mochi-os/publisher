@@ -263,7 +263,7 @@ msgstr "Tout ce qui est abonné à ce flux cessera de le recevoir. Vous pourrez 
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "App"
-msgstr "Apparence"
+msgstr "Application"
 
 #: src/features/apps/index.tsx
 msgid "App created"

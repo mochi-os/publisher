@@ -1136,7 +1136,7 @@ msgstr "Görkezme täzeden düzülmedi"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Failed to revoke RSS access"
-msgstr "RSS elýeterliligini ýatyrmak başartmady"
+msgstr "RSS elýeterliligini yzyna almak başartmady"
 
 #: ../../../lib/web/src/components/entity/entity-object-detail-panel.tsx
 msgid "Failed to save"
@@ -2059,7 +2059,7 @@ msgstr "Hatarlary toparlamak"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "RSS access revoked"
-msgstr "RSS elýeterliligi ýatyryldy"
+msgstr "RSS elýeterliligi yzyna alyndy"
 
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "RSS feed"
@@ -2583,7 +2583,7 @@ msgstr "Ýükle"
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Upload new version"
-msgstr "Täze görnüş ýükle"
+msgstr "Täze wersiýa ýükle"
 
 #: ../../../lib/web/src/components/ui/upload-progress.tsx
 msgid "Upload progress"
