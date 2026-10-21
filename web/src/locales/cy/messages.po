@@ -47,6 +47,11 @@ msgstr "(chi)"
 msgid "[not set]"
 msgstr "[heb ei osod]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, zero {# copi} one {# copi} two {# gopi} few {# chopi} many {# chopi} other {# copi}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Copïwyd"
 msgid "Copied to clipboard"
 msgstr "Wedi'i gopïo i'r clipfwrdd"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Copïau a gyhoeddwyd yno: {0}. Byddant yn aros oni bai eich bod yn eu dileu."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Copïo"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Copïwch y ddolen hon a'i gludo i dudalen Apiau eich gweinydd Mochi i'w gosod."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Methu dileu'r copïau"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Methwyd llwytho'r ddogfen hon. Rhowch gynnig arni eto yn nes ymlaen."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Methu cadw'r cyfrifon"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Dileu colofn"
 msgid "Delete comment"
 msgstr "Dileu sylw"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Dileu copïau"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Dileu maes"
@@ -875,6 +897,11 @@ msgstr "Dileu opsiwn"
 msgid "Delete option {0}"
 msgstr "Dileu opsiwn {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Dileu'r copïau ar {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Dileu sianel"
@@ -890,6 +917,11 @@ msgstr "Dilëwch eich cyfrif ar yr hen weinydd"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Dilëwyd"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Dilëwyd {0} copi"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Manylion yr eitem"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Nawr"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Cadw"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Priodweddau"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Cyhoeddus"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Cyhoeddi i"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Cyhoeddi i {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

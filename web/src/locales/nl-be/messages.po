@@ -47,6 +47,11 @@ msgstr "(jij)"
 msgid "[not set]"
 msgstr "[niet ingesteld]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# kopie} other {# kopieën}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Gekopieerd"
 msgid "Copied to clipboard"
 msgstr "Gekopieerd naar klembord"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Daar gepubliceerde kopieën: {0}. Ze blijven staan tenzij u ze verwijdert."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Kopiëren"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kopieer deze link en plak hem op de Apps-pagina van je Mochi-server om te installeren."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Kon de kopieën niet verwijderen"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Kon dit document niet laden. Probeer het later opnieuw."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Kon de accounts niet opslaan"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Kolom verwijderen"
 msgid "Delete comment"
 msgstr "Reactie verwijderen"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Kopieën verwijderen"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Veld verwijderen"
@@ -875,6 +897,11 @@ msgstr "Optie verwijderen"
 msgid "Delete option {0}"
 msgstr "Optie {0} verwijderen"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Kopieën op {0} verwijderen?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Kanaal verwijderen"
@@ -890,6 +917,11 @@ msgstr "Verwijder uw account op de oude server"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Verwijderd"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} kopieën verwijderd"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Itemdetails"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Zojuist"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Behouden"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Eigenschappen"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Publiek"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Publiceren naar"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Publiceren naar {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

@@ -47,6 +47,11 @@ msgstr "(sen)"
 msgid "[not set]"
 msgstr "[ayarlanmamış]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# kopya} other {# kopya}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Kopyalandı"
 msgid "Copied to clipboard"
 msgstr "Panoya kopyalandı"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Orada yayımlanan kopyalar: {0}. Siz silmedikçe orada kalırlar."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Kopyala"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Yüklemek için bu bağlantıyı kopyalayın ve Mochi sunucunuzun Uygulamalar sayfasına yapıştırın."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Kopyalar silinemedi"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Bu belge yüklenemedi. Lütfen daha sonra tekrar deneyin."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Hesaplar kaydedilemedi"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Sütunu sil"
 msgid "Delete comment"
 msgstr "Yorumu sil"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Kopyaları sil"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Alanı sil"
@@ -875,6 +897,11 @@ msgstr "Seçeneği sil"
 msgid "Delete option {0}"
 msgstr "{0} seçeneğini sil"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "{0} üzerindeki kopyalar silinsin mi?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Kanalı sil"
@@ -890,6 +917,11 @@ msgstr "Eski sunucudaki hesabınızı silin"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Silindi"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} kopya silindi"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Öğe ayrıntıları"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Az önce"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Koru"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Özellikler"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Herkese açık"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Yayımlanacak yerler"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "{0} hesabında yayımla"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

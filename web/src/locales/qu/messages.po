@@ -47,6 +47,11 @@ msgstr "(qam)"
 msgid "[not set]"
 msgstr "[mana churasqa]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# copia} other {# copiakuna}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Copiasqa"
 msgid "Copied to clipboard"
 msgstr "Clipboard-man copiasqa"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Chaypi churasqa copiakuna: {0}. Mana wischunki chayqa, chaypi qhepanqa."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Copiay"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kay t'inkita copiay hinaspa Mochi servidorniykipa Apps páginanpi pegay instalanaykipaq."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Mana copiakunata wischuyta atinchu"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Kay documentota mana cargayta atikurqanchu. Qhipaman kutimanta ruway."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Mana cuentakunata waqaychayta atinchu"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Columna wischuy"
 msgid "Delete comment"
 msgstr "Comentario wischuy"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Copiakunata wischuy"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Campo wischuy"
@@ -875,6 +897,11 @@ msgstr "Akllana wischuy"
 msgid "Delete option {0}"
 msgstr "{0} akllana wischuy"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "¿{0}-pi copiakunata wischunkichu?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Canal wischuy"
@@ -890,6 +917,11 @@ msgstr "Ñawpaq servidorpi cuentaykita wischuy"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Wischusqa"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} copiakuna wischusqa"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Item detallekuna"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Kunanlla"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Waqaychay"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Kayninkuna"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Público"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Maypi churana"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "{0}-pi churay"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

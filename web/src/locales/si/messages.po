@@ -47,6 +47,11 @@ msgstr "(ඔබ)"
 msgid "[not set]"
 msgstr "[සකසා නැත]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {පිටපත් #ක්} other {පිටපත් #ක්}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "පිටපත් කළා"
 msgid "Copied to clipboard"
 msgstr "ක්ලිප්බෝඩ් වෙත පිටපත් කරන ලදී"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "එහි පළ කළ පිටපත්: {0}. ඔබ ඒවා මකන්නේ නම් මිස ඒවා එහි පවතී."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "පිටපත් කරන්න"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "මෙම සබැඳිය පිටපත් කර ස්ථාපනය කිරීමට ඔබේ Mochi සේවාදායකයේ යෙදුම් පිටුවට අලවන්න."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "පිටපත් මැකිය නොහැකි විය"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "මෙම ලේඛනය පූරණය කළ නොහැකි විය. කරුණාකර පසුව නැවත උත්සාහ කරන්න."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "ගිණුම් සුරැකිය නොහැකි විය"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "තීරුව මකන්න"
 msgid "Delete comment"
 msgstr "අදහස මකන්න"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "පිටපත් මකන්න"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "ක්ෂේත්‍රය මකන්න"
@@ -875,6 +897,11 @@ msgstr "විකල්පය මකන්න"
 msgid "Delete option {0}"
 msgstr "විකල්පය {0} මකන්න"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "{0} හි පිටපත් මකන්නද?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "නාලිකාව මකන්න"
@@ -890,6 +917,11 @@ msgstr "පැරණි සේවාදායකයේ ඔබේ ගිණුම
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "මකා දමන ලදී"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "පිටපත් {0}ක් මකන ලදී"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "අයිතම විස්තර"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "මේ දැන්"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "තබා ගන්න"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "ගුණාංග"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "ප්‍රසිද්ධ"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "පළ කරන ස්ථාන"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "{0} වෙත පළ කරන්න"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

@@ -60,6 +60,7 @@ import {
   useSetDefaultTrackMutation,
   useSetDistributionMutation,
 } from '@/hooks/useApps'
+import { PublishSwitches, PublishingSection } from '@/features/apps/publishing'
 
 type TabId = 'details' | 'versions' | 'tracks'
 
@@ -315,6 +316,8 @@ function AppPage() {
                   <DataChip value={shareString} copyButtonMode='always' />
                 </div>
               </Section>
+
+              <PublishingSection appId={appId} />
             </div>
           )}
 
@@ -730,6 +733,11 @@ function UploadVersionDialog({
   // The app's default track is what an upload updates unless the owner picks
   // otherwise; a fixed name here re-created a track the owner had removed.
   const [selectedTracks, setSelectedTracks] = useState<string[]>([defaultTrack])
+  // The accounts on other networks this release goes to, once the uploader
+  // has changed them from the app's list.
+  const [publishing, setPublishing] = useState<string[] | null>(null)
+  // Only a version on the default track is a release, announced at all.
+  const releasing = selectedTracks.includes(defaultTrack)
   const fileInputRef = useRef<HTMLInputElement>(null)
   const uploadMutation = useUploadVersionMutation()
   const { progress, upload } = useUploadProgress()
@@ -759,12 +767,14 @@ function UploadVersionDialog({
           force,
           tracks: selectedTracks,
           onProgress,
+          accounts: releasing && publishing ? publishing : undefined,
         })
       )
       toast.success(t`Version ${data.version} uploaded`)
       setFile(null)
       setInstallOption('yes')
       setSelectedTracks([defaultTrack])
+      setPublishing(null)
       if (fileInputRef.current) {
         fileInputRef.current.value = ''
       }
@@ -842,6 +852,13 @@ function UploadVersionDialog({
                   ))}
                 </div>
               </div>
+            )}
+            {releasing && (
+              <PublishSwitches
+                appId={appId}
+                chosen={publishing}
+                onChange={setPublishing}
+              />
             )}
           </div>
           <UploadProgress progress={progress} className='pt-2' />

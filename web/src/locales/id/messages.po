@@ -47,6 +47,11 @@ msgstr "(Anda)"
 msgid "[not set]"
 msgstr "[tidak diatur]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# salinan} other {# salinan}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Disalin"
 msgid "Copied to clipboard"
 msgstr "Disalin ke clipboard"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Salinan yang diterbitkan di sana: {0}. Salinan tersebut tetap ada kecuali Anda menghapusnya."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Salin"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Salin tautan ini dan tempelkan di halaman Aplikasi server Mochi Anda untuk memasangnya."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Tidak dapat menghapus salinan"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Tidak dapat memuat dokumen ini. Silakan coba lagi nanti."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Tidak dapat menyimpan akun"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Hapus kolom"
 msgid "Delete comment"
 msgstr "Hapus komentar"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Hapus salinan"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Hapus field"
@@ -875,6 +897,11 @@ msgstr "Hapus opsi"
 msgid "Delete option {0}"
 msgstr "Hapus opsi {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Hapus salinan di {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Hapus saluran"
@@ -890,6 +917,11 @@ msgstr "Hapus akun Anda di server lama"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Dihapus"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} salinan dihapus"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Detail item"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Baru saja"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Pertahankan"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Properti"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Publik"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Terbitkan ke"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Terbitkan ke {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

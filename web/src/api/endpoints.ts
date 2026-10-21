@@ -20,6 +20,10 @@ const endpoints = {
     trackDelete: (id: string) => `${id}/-/track/delete`,
     defaultTrackSet: (id: string) => `${id}/-/default-track/set`,
     distributionSet: (id: string) => `${id}/-/distribution/set`,
+    // Where the app's releases are announced on other networks
+    publish: (id: string) => `${id}/-/publish`,
+    publishSet: (id: string) => `${id}/-/publish/set`,
+    publishForget: (id: string) => `${id}/-/publish/forget`,
   },
 } as const
 

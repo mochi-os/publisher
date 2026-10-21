@@ -47,6 +47,11 @@ msgstr "(דו)"
 msgid "[not set]"
 msgstr "[נישט געשטעלט]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# קאָפּיע} other {# קאָפּיעס}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "קאָפּירט"
 msgid "Copied to clipboard"
 msgstr "קאָפּירט צו קליפּברעט"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "קאָפּיעס פּובליקירט דאָרט: {0}. זיי בלײַבן סײַדן איר מעקט זיי אויס."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "קאָפּירן"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "קאָפּי דעם לינק און צושטעלן עס אין אַפּן בלאַט פֿון אייער Mochi סערווער צו אינסטאַלירן."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "ניט געלונגען אויסצומעקן די קאָפּיעס"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "האָט נישט געקאָנט לאָדן דעם דאָקומענט. פּרובירט שפּעטער ווידער."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "ניט געלונגען אָפּצוהיטן די קאָנטעס"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "אויסמעקן זײַל"
 msgid "Delete comment"
 msgstr "אויסמעקן קאָמענטאַר"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "אויסמעקן קאָפּיעס"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "אויסמעקן פֿעלד"
@@ -875,6 +897,11 @@ msgstr "אויסמעקן אָפּציע"
 msgid "Delete option {0}"
 msgstr "אויסמעקן אָפּציע {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "אויסמעקן די קאָפּיעס אויף {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "אויסמעקן קאַנאַל"
@@ -890,6 +917,11 @@ msgstr "לעש אויס דיין קאנטע אויפן אלטן סערווער"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "אויסגעמעקט"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} קאָפּיעס אויסגעמעקט"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "פּונקט־דעטאַלן"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "פּונקט אַצינד"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "האַלטן"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "אייגנשאַפֿטן"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "עפֿנטלעך"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "פּובליקירן אויף"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "פּובליקירן אויף {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

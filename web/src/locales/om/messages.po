@@ -47,6 +47,11 @@ msgstr "(ati)"
 msgid "[not set]"
 msgstr "[hin qindoofne]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {garagalcha #} other {garagalchoota #}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Garagalfame"
 msgid "Copied to clipboard"
 msgstr "Garagalfamee gara saanduqa garagalchaa"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Garagalchoota achitti maxxanfaman: {0}. Yoo ati hin haqiin achuma turu."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Garagalchi"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Hidhata kana koppii godhi, hidhuuf fuula Appiilee sarvarii Mochi keetiitti maxxansi."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Garagalchoota haquu hin dandeenye"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Galmee kana fe'uu hin dandeenye. Booda yaali."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Akkaawuntiiwwan olkaa'uu hin dandeenye"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Tarjaa haqi"
 msgid "Delete comment"
 msgstr "Yaada haqi"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Garagalchoota haqi"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Dirree haqi"
@@ -875,6 +897,11 @@ msgstr "Filannoo haqi"
 msgid "Delete option {0}"
 msgstr "Filannoo {0} haqi"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Garagalchoota {0} irra jiran haqxaa?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Chaanaalii haqi"
@@ -890,6 +917,11 @@ msgstr "Akkaawuntii kee sarvaraa durii irraa haqi"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Haqameera"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Garagalchoonni {0} haqamaniiru"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Bal'ina wantichaa"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Amma"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Qabadhu"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Qabeenyaalee"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Ifa"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Bakka maxxansaa"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "{0} irratti maxxansi"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

@@ -47,6 +47,11 @@ msgstr "(wena)"
 msgid "[not set]"
 msgstr "[akusethiwe]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {ikhophi engu-#} other {amakhophi angu-#}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Kukopishiwe"
 msgid "Copied to clipboard"
 msgstr "Kukopishelwe kwi-clipboard"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Amakhophi ashicilelwe lapho: {0}. Azohlala khona ngaphandle uma uwasusa."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Kopisha"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kopisha lesi sixhumanisi futhi usinamathisele kukhasi Lwama-app leseva yakho ye-Mochi ukuze ukufake."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Akukwazekanga ukususa amakhophi"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Akukwazanga ukulayisha le dokhumenti. Sicela uzame futhi kamuva."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Akukwazekanga ukulondoloza ama-akhawunti"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Susa ikholomu"
 msgid "Delete comment"
 msgstr "Susa umbono"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Susa amakhophi"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Susa inkambu"
@@ -875,6 +897,11 @@ msgstr "Susa inketho"
 msgid "Delete option {0}"
 msgstr "Susa inketho {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Susa amakhophi ku-{0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Susa isiteshi"
@@ -890,6 +917,11 @@ msgstr "Susa i-akhawunti yakho eservereni endala"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Kususiwe"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Kususwe amakhophi angu-{0}"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Imininingwane yento"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Manje nje"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Gcina"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Izici"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Emphakathini"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Shicilela ku"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Shicilela ku-{0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

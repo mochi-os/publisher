@@ -47,6 +47,11 @@ msgstr "(sampeyan)"
 msgid "[not set]"
 msgstr "[ora disetel]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# salinan} other {# salinan}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Wis disalin"
 msgid "Copied to clipboard"
 msgstr "Disalin menyang clipboard"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Salinan sing diterbitaké ing kana: {0}. Salinan kuwi tetep ana kajaba sampeyan mbusak."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Salin"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Salin tautan iki lan tempelake ing kaca Aplikasi server Mochi sampeyan kanggo nginstal."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Ora bisa mbusak salinan"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Ora bisa muat dokumen iki. Coba manèh mengko."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Ora bisa nyimpen akun"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Busak kolom"
 msgid "Delete comment"
 msgstr "Busak komentar"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Busak salinan"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Busak field"
@@ -875,6 +897,11 @@ msgstr "Busak pilihan"
 msgid "Delete option {0}"
 msgstr "Busak pilihan {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Busak salinan ing {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Busak saluran"
@@ -890,6 +917,11 @@ msgstr "Busak akun sampeyan ing server lawas"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Dibusak"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} salinan dibusak"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Detail item"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Lagi wae"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Tetep simpen"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Properti"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Publik"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Terbitaké menyang"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Terbitaké menyang {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

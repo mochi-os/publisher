@@ -47,6 +47,11 @@ msgstr "(तपाईं)"
 msgid "[not set]"
 msgstr "[सेट छैन]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# प्रतिलिपि} other {# प्रतिलिपिहरू}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "कपी गरियो"
 msgid "Copied to clipboard"
 msgstr "क्लिपबोर्डमा प्रतिलिपि गरियो"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "त्यहाँ प्रकाशित प्रतिलिपिहरू: {0}। तपाईंले नमेटाएसम्म ती रहिरहन्छन्।"
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "प्रतिलिपि"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "यो लिङ्क प्रतिलिपि गर्नुहोस् र स्थापना गर्न आफ्नो Mochi सर्भरको एप पृष्ठमा टाँस्नुहोस्।"
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "प्रतिलिपिहरू मेटाउन सकिएन"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "यो कागजात लोड गर्न सकिएन। कृपया पछि फेरि प्रयास गर्नुहोस्।"
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "खाताहरू सुरक्षित गर्न सकिएन"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "स्तम्भ मेटाउनुहोस्"
 msgid "Delete comment"
 msgstr "टिप्पणी मेटाउनुहोस्"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "प्रतिलिपिहरू मेटाउनुहोस्"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "फिल्ड मेटाउनुहोस्"
@@ -875,6 +897,11 @@ msgstr "विकल्प मेटाउनुहोस्"
 msgid "Delete option {0}"
 msgstr "विकल्प {0} मेटाउनुहोस्"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "{0} मा भएका प्रतिलिपिहरू मेटाउने?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "ट्र्याक मेटाउनुहोस्"
@@ -890,6 +917,11 @@ msgstr "पुरानो सर्भरमा आफ्नो खाता �
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "मेटाइयो"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} प्रतिलिपिहरू मेटाइए"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "वस्तुको विवरण"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "भर्खरै"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "राख्नुहोस्"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "गुणहरू"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "सार्वजनिक"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "यहाँ प्रकाशित गर्नुहोस्"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "{0} मा प्रकाशित गर्नुहोस्"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

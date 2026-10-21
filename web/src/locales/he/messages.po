@@ -47,6 +47,11 @@ msgstr "(אתה)"
 msgid "[not set]"
 msgstr "[לא מוגדר]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {עותק אחד} two {# עותקים} many {# עותקים} other {# עותקים}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "הועתק"
 msgid "Copied to clipboard"
 msgstr "הועתק ללוח"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "עותקים שפורסמו שם: {0}. הם יישארו אלא אם תמחק אותם."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "העתק"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "העתיקו את הקישור הזה והדביקו אותו בעמוד האפליקציות של שרת Mochi שלכם כדי להתקין."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "לא ניתן למחוק את העותקים"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "לא ניתן היה לטעון מסמך זה. אנא נסה שוב מאוחר יותר."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "לא ניתן לשמור את החשבונות"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "מחק עמודה"
 msgid "Delete comment"
 msgstr "מחק תגובה"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "מחק עותקים"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "מחק שדה"
@@ -875,6 +897,11 @@ msgstr "מחק אפשרות"
 msgid "Delete option {0}"
 msgstr "מחק אפשרות {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "למחוק את העותקים ב-{0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "מחיקת ערוץ"
@@ -890,6 +917,11 @@ msgstr "מחק את חשבונך בשרת הישן"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "נמחק"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "נמחקו {0} עותקים"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "פרטי פריט"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "הרגע"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "השאר"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "מאפיינים"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "ציבורי"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "פרסום אל"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "פרסום אל {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

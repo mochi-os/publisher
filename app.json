@@ -5,7 +5,7 @@
 // Mochi Application Interface Exception - see license.txt and license-exception.md.
 
 {
-	"version": "2.76",
+	"version": "3.0",
 	"label": "app.name",
 	"paths": ["publisher"],
 	"services": ["publisher"],
@@ -16,7 +16,7 @@
 	"execute": ["publisher.star"],
 
 	"database": {
-		"schema": 2,
+		"schema": 3,
 		"file": "publisher.db",
 		"create": {"function": "database_create"},
 		"upgrade": {"function": "database_upgrade"},
@@ -41,7 +41,16 @@
 		":app/-/track/set": {"function": "action_track_set"},
 		":app/-/track/delete": {"function": "action_track_delete"},
 		":app/-/default-track/set": {"function": "action_default_track_set"},
-		":app/-/distribution/set": {"function": "action_distribution_set"}
+		":app/-/distribution/set": {"function": "action_distribution_set"},
+		":app/-/publish": {"function": "action_publish"},
+		":app/-/publish/set": {"function": "action_publish_set"},
+		":app/-/publish/forget": {"function": "action_publish_forget"}
+	},
+
+	// A release a hosted fediverse account announced, for core's engine (the
+	// federation plan, phase 30).
+	"functions": {
+		"activitypub/object": {"function": "function_activitypub_object"}
 	},
 
 	"events": {

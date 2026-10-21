@@ -47,6 +47,11 @@ msgstr "(你)"
 msgid "[not set]"
 msgstr "[未設定]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# 個副本} other {# 個副本}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "已複製"
 msgid "Copied to clipboard"
 msgstr "已複製到剪貼簿"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "在該處發布的副本：{0} 份。除非你刪除，否則它們會保留。"
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "複製"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "複製此連結並貼到您的 Mochi 伺服器的應用程式頁面進行安裝。"
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "無法刪除副本"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "無法載入此文件,請稍後再試。"
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "無法儲存帳號"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "刪除欄位"
 msgid "Delete comment"
 msgstr "刪除留言"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "刪除副本"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "刪除欄位"
@@ -875,6 +897,11 @@ msgstr "刪除選項"
 msgid "Delete option {0}"
 msgstr "刪除選項 {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "要刪除 {0} 上的副本嗎？"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "刪除通道"
@@ -890,6 +917,11 @@ msgstr "刪除您在舊伺服器上的帳號"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "已刪除"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "已刪除 {0} 個副本"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "項目詳情"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "剛剛"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "保留"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "屬性"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "公開"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "發布到"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "發布到 {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

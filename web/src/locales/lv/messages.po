@@ -47,6 +47,11 @@ msgstr "(jūs)"
 msgid "[not set]"
 msgstr "[nav iestatīts]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, zero {# kopijas} one {# kopija} other {# kopijas}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Nokopēts"
 msgid "Copied to clipboard"
 msgstr "Nokopēts starpliktuvē"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Tur publicētās kopijas: {0}. Tās paliks, ja vien jūs tās neizdzēsīsiet."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Kopēt"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kopējiet šo saiti un ielīmējiet to sava Mochi servera Lietotņu lapā, lai instalētu."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Nevarēja dzēst kopijas"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Nevarēja ielādēt šo dokumentu. Lūdzu, mēģini vēlāk vēlreiz."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Nevarēja saglabāt kontus"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Dzēst kolonnu"
 msgid "Delete comment"
 msgstr "Dzēst komentāru"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Dzēst kopijas"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Dzēst lauku"
@@ -875,6 +897,11 @@ msgstr "Dzēst opciju"
 msgid "Delete option {0}"
 msgstr "Dzēst opciju {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Dzēst kopijas no {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Dzēst kanālu"
@@ -890,6 +917,11 @@ msgstr "Dzēsiet savu kontu vecajā serverī"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Dzēsts"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Dzēstas kopijas: {0}"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Vienuma informācija"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Tikko"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Paturēt"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Īpašības"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Publisks"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Kur publicēt"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Publicēt kontā {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

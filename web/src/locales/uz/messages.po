@@ -47,6 +47,11 @@ msgstr "(siz)"
 msgid "[not set]"
 msgstr "[oʻrnatilmagan]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# nusxa} other {# nusxa}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Nusxalandi"
 msgid "Copied to clipboard"
 msgstr "Buferga nusxalandi"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "U yerda nashr qilingan nusxalar: {0}. Siz oʻchirmaguningizcha ular qoladi."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Nusxalash"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Oʻrnatish uchun ushbu havolani nusxalang va Mochi serveringizning Ilovalar sahifasiga joylashtiring."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Nusxalarni oʻchirib boʻlmadi"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Bu hujjatni yuklab boʻlmadi. Iltimos, keyinroq qayta urinib koʻring."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Hisoblarni saqlab boʻlmadi"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Ustunni oʻchirish"
 msgid "Delete comment"
 msgstr "Izohni oʻchirish"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Nusxalarni oʻchirish"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Maydonni oʻchirish"
@@ -875,6 +897,11 @@ msgstr "Variantni oʻchirish"
 msgid "Delete option {0}"
 msgstr "{0} variantni oʻchirish"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "{0} hisobidagi nusxalar oʻchirilsinmi?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Kanalni oʻchirish"
@@ -890,6 +917,11 @@ msgstr "Eski serverdagi hisobingizni o'chiring"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Oʻchirildi"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} ta nusxa oʻchirildi"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Element tafsilotlari"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Hozirgina"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Saqlab qolish"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Xususiyatlar"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Ommaviy"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Nashr qilinadigan joylar"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Nashr qilish: {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

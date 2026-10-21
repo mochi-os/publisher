@@ -47,6 +47,11 @@ msgstr "(bạn)"
 msgid "[not set]"
 msgstr "[chưa đặt]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# bản sao} other {# bản sao}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Đã sao chép"
 msgid "Copied to clipboard"
 msgstr "Đã sao chép vào bộ nhớ tạm"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Bản sao đã đăng ở đó: {0}. Chúng sẽ được giữ lại trừ khi bạn xóa."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Sao chép"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Sao chép liên kết này và dán nó vào trang Ứng dụng của máy chủ Mochi của bạn để cài đặt."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Không thể xóa các bản sao"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Không thể tải tài liệu này. Vui lòng thử lại sau."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Không thể lưu các tài khoản"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Xóa cột"
 msgid "Delete comment"
 msgstr "Xóa bình luận"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Xóa bản sao"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Xóa trường"
@@ -875,6 +897,11 @@ msgstr "Xóa tùy chọn"
 msgid "Delete option {0}"
 msgstr "Xóa tùy chọn {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Xóa các bản sao trên {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Xóa kênh"
@@ -890,6 +917,11 @@ msgstr "Xóa tài khoản của bạn trên máy chủ cũ"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Đã xóa"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Đã xóa {0} bản sao"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Chi tiết mục"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Vừa xong"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Giữ lại"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Thuộc tính"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Công khai"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Đăng lên"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Đăng lên {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

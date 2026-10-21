@@ -47,6 +47,11 @@ msgstr "(kai)"
 msgid "[not set]"
 msgstr "[ba a saita ba]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {kwafi #} other {kwafi #}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "An kwafi"
 msgid "Copied to clipboard"
 msgstr "An kwafi zuwa clipboard"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Kwafin da aka wallafa a can: {0}. Za su kasance sai dai idan ka goge su."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Kwafi"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kwafa wannan hanyar haɗi kuma a liƙa shi a shafin Apps na uwar garken Mochi ɗinka don shigarwa."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Ba a iya goge kwafin ba"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Ba a iya loda wannan takarda ba. Da fatan a sake gwadawa daga baya."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Ba a iya ajiye asusun ba"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Goge column"
 msgid "Delete comment"
 msgstr "Goge sharhi"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Goge kwafi"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Goge fili"
@@ -875,6 +897,11 @@ msgstr "Goge zaɓi"
 msgid "Delete option {0}"
 msgstr "Goge zaɓi {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "A goge kwafin da ke {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Goge tasha"
@@ -890,6 +917,11 @@ msgstr "Goge asusu ka akan tsohon uwar garken"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "An share"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "An goge kwafi {0}"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Bayanan abu"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Yanzu"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Ajiye"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Halaye"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Na jama'a"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Wallafa zuwa"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Wallafa zuwa {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

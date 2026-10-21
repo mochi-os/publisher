@@ -47,6 +47,11 @@ msgstr "(ti)"
 msgid "[not set]"
 msgstr "[non establecido]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# copia} other {# copias}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Copiado"
 msgid "Copied to clipboard"
 msgstr "Copiado ao portapapeis"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Copias publicadas alí: {0}. Mantéñense a menos que as elimines."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Copiar"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Copia esta ligazón e pégaa na páxina de Aplicacións do teu servidor Mochi para instalala."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Non se puideron eliminar as copias"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Non se puido cargar este documento. Téntao máis tarde."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Non se puideron gardar as contas"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Eliminar columna"
 msgid "Delete comment"
 msgstr "Eliminar comentario"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Eliminar copias"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Eliminar campo"
@@ -875,6 +897,11 @@ msgstr "Eliminar opción"
 msgid "Delete option {0}"
 msgstr "Eliminar opción {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Eliminar as copias en {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Eliminar canle"
@@ -890,6 +917,11 @@ msgstr "Elimina a túa conta no servidor antigo"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Eliminado"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Elimináronse {0} copias"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Detalles do elemento"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Agora mesmo"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Conservar"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Propiedades"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Público"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Publicar en"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Publicar en {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx

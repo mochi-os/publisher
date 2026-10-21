@@ -47,6 +47,11 @@ msgstr "(vos)"
 msgid "[not set]"
 msgstr ""
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr ""
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr ""
 msgid "Copied to clipboard"
 msgstr ""
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr ""
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,8 +726,16 @@ msgstr ""
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Copiá este enlace y pegalo en la página de Aplicaciones de tu servidor Mochi para instalarla."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr ""
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
+msgstr ""
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
 msgstr ""
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
@@ -851,6 +869,10 @@ msgstr ""
 msgid "Delete comment"
 msgstr ""
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr ""
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr ""
@@ -875,6 +897,11 @@ msgstr ""
 msgid "Delete option {0}"
 msgstr ""
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr ""
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Eliminá el canal"
@@ -889,6 +916,11 @@ msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
+msgstr ""
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
 msgstr ""
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
@@ -1358,6 +1390,10 @@ msgstr ""
 
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
+msgstr ""
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
 msgstr ""
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
@@ -1899,6 +1935,16 @@ msgstr ""
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
+msgstr ""
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr ""
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
 msgstr ""
 
 #: src/features/apps/index.tsx

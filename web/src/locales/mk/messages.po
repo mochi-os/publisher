@@ -47,6 +47,11 @@ msgstr "(вие)"
 msgid "[not set]"
 msgstr "[не е поставено]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# копија} other {# копии}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -701,6 +706,11 @@ msgstr "Копирано"
 msgid "Copied to clipboard"
 msgstr "Копирано во клипборд"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Копии објавени таму: {0}. Тие остануваат освен ако не ги избришете."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -716,9 +726,17 @@ msgstr "Копирај"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Копирајте ја оваа врска и залепете ја на страницата Апликации на вашиот Mochi сервер за да ја инсталирате."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Копиите не можеа да се избришат"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Овој документ не може да се вчита. Обиди се повторно подоцна."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Сметките не можеа да се зачуваат"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -851,6 +869,10 @@ msgstr "Избриши колона"
 msgid "Delete comment"
 msgstr "Избриши коментар"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Избриши копии"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Избриши поле"
@@ -875,6 +897,11 @@ msgstr "Избриши опција"
 msgid "Delete option {0}"
 msgstr "Избриши опција {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Да се избришат копиите на {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Избриши канал"
@@ -890,6 +917,11 @@ msgstr "Избришете го профилот на старата серве�
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Избришано"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Избришани копии: {0}"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1359,6 +1391,10 @@ msgstr "Детали за ставка"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Штотуку"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Задржи"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1900,6 +1936,16 @@ msgstr "Својства"
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Public"
 msgstr "Јавно"
+
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Објавувај на"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Објавувај на {0}"
 
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
