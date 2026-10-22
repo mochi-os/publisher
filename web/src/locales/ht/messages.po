@@ -247,6 +247,10 @@ msgstr "Ajoute vi"
 msgid "AI"
 msgstr "AI"
 
+#: ../../../lib/web/src/components/comment-thread-context.tsx
+msgid "All comments"
+msgstr ""
+
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 msgid "All day"
@@ -690,6 +694,10 @@ msgstr "Enfòmasyon ak detay kontèks."
 msgid "Continue"
 msgstr "Kontinye"
 
+#: ../../../lib/web/src/components/comment-thread-context.tsx
+msgid "Continue this thread"
+msgstr ""
+
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
 msgstr "Kontinye ak {label}"
@@ -702,6 +710,7 @@ msgstr "Kontinye ak {providerLabel}"
 msgid "Copied"
 msgstr "Kopye"
 
+#: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 msgid "Copied to clipboard"
 msgstr "Kopye nan clipboard"
@@ -1115,6 +1124,7 @@ msgstr "Trè gwo"
 msgid "Failed to add account"
 msgstr "Echwe pou ajoute kont"
 
+#: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/ui/copy-button.tsx
 #: ../../../lib/web/src/lib/toast-utils.ts
 msgid "Failed to copy"
@@ -2332,6 +2342,11 @@ msgstr "Mete orijin ak destinasyon"
 #: ../../../lib/web/src/components/options-menu.tsx
 msgid "Settings"
 msgstr "Paramèt"
+
+#: ../../../lib/web/src/components/comment-share-button.tsx
+#: ../../../lib/web/src/components/comment-share-button.tsx
+msgid "Share"
+msgstr ""
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"
