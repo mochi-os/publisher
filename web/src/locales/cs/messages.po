@@ -47,6 +47,11 @@ msgstr "(vy)"
 msgid "[not set]"
 msgstr "[neuvedeno]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# kopie} few {# kopie} many {# kopie} other {# kopií}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "Všechny komentáře"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "Pokračovat"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "Pokračovat v tomto vláknu"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "Zkopírováno"
 msgid "Copied to clipboard"
 msgstr "Zkopírováno do schránky"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Počet kopií zveřejněných tam: {0}. Zůstanou tam, dokud je nesmažete."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "Kopírovat"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Zkopírujte tento odkaz a vložte jej na stránku Aplikace svého serveru Mochi pro instalaci."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Kopie se nepodařilo smazat"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Tento dokument nelze načíst. Zkuste to prosím později."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Účty se nepodařilo uložit"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "Smazat sloupec"
 msgid "Delete comment"
 msgstr "Smazat komentář"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Smazat kopie"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Smazat pole"
@@ -884,6 +906,11 @@ msgstr "Smazat možnost"
 msgid "Delete option {0}"
 msgstr "Smazat možnost {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Smazat kopie na {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Smazat kanál"
@@ -899,6 +926,11 @@ msgstr "Smazat účet na starém serveru"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Smazáno"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Smazané kopie: {0}"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "Podrobnosti položky"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Právě teď"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Ponechat"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "Vlastnosti"
 msgid "Public"
 msgstr "Veřejné"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Publikovat do"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Publikovat do {0}"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "Nastavení"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "Sdílet"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

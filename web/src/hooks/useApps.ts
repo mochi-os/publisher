@@ -47,6 +47,7 @@ export const useUploadVersionMutation = () => {
       force,
       tracks,
       onProgress,
+      accounts,
     }: {
       appId: string
       file: File
@@ -54,8 +55,17 @@ export const useUploadVersionMutation = () => {
       force: boolean
       tracks?: string[]
       onProgress?: (event: AxiosProgressEvent) => void
+      accounts?: string[]
     }) =>
-      appsApi.uploadVersion(appId, file, install, force, tracks, onProgress),
+      appsApi.uploadVersion(
+        appId,
+        file,
+        install,
+        force,
+        tracks,
+        onProgress,
+        accounts
+      ),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: appKeys.all() })
     },

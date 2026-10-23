@@ -47,6 +47,11 @@ msgstr "(сиз)"
 msgid "[not set]"
 msgstr "[орнотулган эмес]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# көчүрмө} other {# көчүрмө}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "Бардык комментарийлер"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "Улантуу"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "Бул талкууну улантуу"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "Көчүрүлдү"
 msgid "Copied to clipboard"
 msgstr "Алмашуу буферине көчүрүлдү"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Ал жерде жарыяланган көчүрмөлөр: {0}. Аларды жок кылмайынча, алар сакталып калат."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "Көчүрүү"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Орнотуу үчүн бул шилтемени көчүрүп, Mochi сервериңиздин Колдонмолор бетине чаптаңыз."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Көчүрмөлөрдү жок кылуу мүмкүн болбоду"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Бул документти жүктөө мүмкүн болбоду. Кийинчерээк кайра аракет кылыңыз."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Аккаунттарды сактоо мүмкүн болбоду"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "Тилкени жок кылуу"
 msgid "Delete comment"
 msgstr "Комментарийди жок кылуу"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Көчүрмөлөрдү жок кылуу"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Талааны жок кылуу"
@@ -884,6 +906,11 @@ msgstr "Тандоону жок кылуу"
 msgid "Delete option {0}"
 msgstr "{0} тандоосун жок кылуу"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "{0} ичиндеги көчүрмөлөр жок кылынсынбы?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Каналды жок кылуу"
@@ -899,6 +926,11 @@ msgstr "Эски серверден аккаунтуңузду жок кылың
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Өчүрүлдү"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} көчүрмө жок кылынды"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "Нерсе чоо-жайы"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Азыр эле"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Калтыруу"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "Касиеттер"
 msgid "Public"
 msgstr "Ачык"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Жарыялоо орду"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Жарыялоо: {0}"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "Жөндөөлөр"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "Бөлүшүү"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

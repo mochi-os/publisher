@@ -9,6 +9,8 @@ import type {
   AppsListResponse,
   AppDetailsResponse,
   CreateAppResponse,
+  PublishResponse,
+  PublishSetResponse,
   UploadVersionResponse,
   App,
   Track,
@@ -61,7 +63,8 @@ const uploadVersion = async (
   install: boolean,
   force: boolean,
   tracks?: string[],
-  onProgress?: (event: AxiosProgressEvent) => void
+  onProgress?: (event: AxiosProgressEvent) => void,
+  accounts?: string[]
 ): Promise<{ version: string; app: App; tracks: string[] }> => {
   const formData = new FormData()
   formData.append('file', file)
@@ -71,6 +74,11 @@ const uploadVersion = async (
   }
   if (tracks && tracks.length > 0) {
     formData.append('tracks', tracks.join(','))
+  }
+  // The accounts on other networks the release goes to, where the uploader
+  // changed them from the app's list.
+  if (accounts) {
+    formData.append('accounts', JSON.stringify(accounts))
   }
 
   const response = await requestHelpers.post<UploadVersionResponse>(
@@ -143,6 +151,29 @@ const setDistribution = async (
   return response
 }
 
+const getPublish = (appId: string): Promise<PublishResponse> =>
+  requestHelpers.post<PublishResponse>(endpoints.apps.publish(appId), {
+    app: appId,
+  })
+
+const setPublish = (
+  appId: string,
+  accounts: string[]
+): Promise<PublishSetResponse> =>
+  requestHelpers.post<PublishSetResponse>(endpoints.apps.publishSet(appId), {
+    app: appId,
+    accounts: JSON.stringify(accounts),
+  })
+
+const forgetCopies = (
+  appId: string,
+  account: string
+): Promise<{ deleted: number }> =>
+  requestHelpers.post<{ deleted: number }>(
+    endpoints.apps.publishForget(appId),
+    { app: appId, account }
+  )
+
 const appsApi = {
   list: listApps,
   get: getApp,
@@ -153,6 +184,9 @@ const appsApi = {
   deleteTrack,
   setDefaultTrack,
   setDistribution,
+  getPublish,
+  setPublish,
+  forgetCopies,
 }
 
 export default appsApi

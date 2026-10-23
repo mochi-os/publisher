@@ -47,6 +47,11 @@ msgstr "(вы)"
 msgid "[not set]"
 msgstr "[не зададзена]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# копія} few {# копіі} many {# копій} other {# копіі}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "Усе каментарыі"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "Працягнуць"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "Працягнуць гэтую гутарку"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "Скапіявана"
 msgid "Copied to clipboard"
 msgstr "Скапіравана ў буфер абмену"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Копій, апублікаваных там: {0}. Яны застануцца, калі вы іх не выдаліце."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "Капіраваць"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Скапіюйце гэту спасылку і ўстаўце яе на старонку Дадаткі вашага сервера Mochi для ўсталявання."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Не ўдалося выдаліць копіі"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Не атрымалася загрузіць гэты дакумент. Калі ласка, паспрабуйце пазней."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Не ўдалося захаваць уліковыя запісы"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "Выдаліць слупок"
 msgid "Delete comment"
 msgstr "Выдаліць каментарый"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Выдаліць копіі"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Выдаліць поле"
@@ -884,6 +906,11 @@ msgstr "Выдаліць опцыю"
 msgid "Delete option {0}"
 msgstr "Выдаліць опцыю {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Выдаліць копіі ў {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Выдаліць канал"
@@ -899,6 +926,11 @@ msgstr "Выдаліце свой акаўнт на старым серверы"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Выдалена"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Выдалена копій: {0}"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "Дэталі элемента"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Толькі што"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Пакінуць"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "Уласцівасці"
 msgid "Public"
 msgstr "Публічны"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Публікаваць у"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Публікаваць у {0}"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "Налады"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "Падзяліцца"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

@@ -47,6 +47,11 @@ msgstr "(나)"
 msgid "[not set]"
 msgstr "[설정 안 됨]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {사본 #개} other {사본 #개}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "모든 댓글"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "계속"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "이 스레드 계속 보기"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "복사됨"
 msgid "Copied to clipboard"
 msgstr "클립보드에 복사되었어요"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "그곳에 게시된 사본: {0}개. 삭제하지 않으면 그대로 남아요."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "복사"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "이 링크를 복사하여 설치하려면 Mochi 서버의 앱 페이지에 붙여넣으세요."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "사본을 삭제할 수 없었어요"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "이 문서를 불러올 수 없었습니다. 잠시 후 다시 시도해 주세요."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "계정을 저장할 수 없었어요"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "컬럼 삭제"
 msgid "Delete comment"
 msgstr "댓글 삭제"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "사본 삭제"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "필드 삭제"
@@ -884,6 +906,11 @@ msgstr "옵션 삭제"
 msgid "Delete option {0}"
 msgstr "옵션 {0} 삭제"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "{0}의 사본을 삭제할까요?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "채널 삭제"
@@ -899,6 +926,11 @@ msgstr "이전 서버에서 계정 삭제"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "삭제됨"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "사본 {0}개를 삭제했어요"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "항목 세부 정보"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "방금"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "유지"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "속성"
 msgid "Public"
 msgstr "공개"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "게시 대상"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "{0}에 게시"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "설정"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "공유"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

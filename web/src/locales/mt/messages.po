@@ -47,6 +47,11 @@ msgstr "(int)"
 msgid "[not set]"
 msgstr "[mhux issettjat]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# kopja} two {# kopji} few {# kopji} many {# kopja} other {# kopja}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "Il-kummenti kollha"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "Kompli"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "Kompli din id-diskussjoni"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "Ikkupjat"
 msgid "Copied to clipboard"
 msgstr "Ikkupjat fil-clipboard"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Kopji ppubblikati hemmhekk: {0}. Jibqgħu sakemm ma tħassarhomx."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "Ikkupja"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Ikkopja dan il-link u ppejstjah fil-paġna Apps tas-server Mochi tiegħek biex tinstallaha."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Il-kopji ma setgħux jitħassru"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Ma setax itella' dan id-dokument. Jekk jogħġbok ipprova mill-ġdid iktar tard."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Il-kontijiet ma setgħux jiġu ssejvjati"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "Ħassar kolonna"
 msgid "Delete comment"
 msgstr "Ħassar kumment"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Ħassar il-kopji"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Ħassar kamp"
@@ -884,6 +906,11 @@ msgstr "Ħassar għażla"
 msgid "Delete option {0}"
 msgstr "Ħassar għażla {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Tħassar il-kopji fuq {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Ħassar kanal"
@@ -899,6 +926,11 @@ msgstr "Ħassar il-kont tiegħek fuq is-server il-qadim"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Tħassar"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Kopji mħassra: {0}"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "Dettalji tal-oġġett"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Issa"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Żomm"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "Proprjetajiet"
 msgid "Public"
 msgstr "Pubbliku"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Ippubblika fuq"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Ippubblika fuq {0}"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "Issettjar"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "Aqsam"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

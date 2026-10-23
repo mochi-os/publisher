@@ -47,6 +47,11 @@ msgstr "(ikaw)"
 msgid "[not set]"
 msgstr "[hindi naitakda]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# kopya} other {# na kopya}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "Lahat ng komento"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "Magpatuloy"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "Ituloy ang usapang ito"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "Nakopya"
 msgid "Copied to clipboard"
 msgstr "Nakopya sa clipboard"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Mga kopyang nailathala roon: {0}. Mananatili ang mga ito maliban kung i-delete mo."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "Kopyahin"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Kopyahin ang link na ito at i-paste sa pahina ng Mga app ng iyong Mochi server upang i-install."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Hindi ma-delete ang mga kopya"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Hindi ma-load ang document na ito. Subukan muli mamaya."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Hindi ma-save ang mga account"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "I-delete ang column"
 msgid "Delete comment"
 msgstr "I-delete ang komento"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "I-delete ang mga kopya"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "I-delete ang field"
@@ -884,6 +906,11 @@ msgstr "I-delete ang option"
 msgid "Delete option {0}"
 msgstr "I-delete ang option {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "I-delete ang mga kopya sa {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "I-delete ang track"
@@ -899,6 +926,11 @@ msgstr "Burahin ang iyong account sa lumang server"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Tinanggal"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Na-delete ang {0} kopya"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "Detalye ng item"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Ngayon lang"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Panatilihin"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "Mga katangian"
 msgid "Public"
 msgstr "Pampubliko"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Ilathala sa"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Ilathala sa {0}"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "Mga setting"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "Ibahagi"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

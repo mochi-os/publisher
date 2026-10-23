@@ -47,6 +47,11 @@ msgstr "(أنت)"
 msgid "[not set]"
 msgstr "[غير محدد]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, zero {# نسخة} one {نسخة واحدة} two {نسختان} few {# نسخ} many {# نسخة} other {# نسخة}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "الذكاء الاصطناعي"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "جميع التعليقات"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "متابعة"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "متابعة هذا النقاش"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "تم النسخ"
 msgid "Copied to clipboard"
 msgstr "تم النسخ إلى الحافظة"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "النسخ المنشورة هناك: {0}. وتبقى ما لم تحذفها."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "نسخ"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "انسخ هذا الرابط والصقه في صفحة التطبيقات على خادم Mochi الخاص بك للتثبيت."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "تعذّر حذف النسخ"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "تعذّر تحميل هذا المستند. يرجى المحاولة مرة أخرى لاحقاً."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "تعذّر حفظ الحسابات"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "حذف العمود"
 msgid "Delete comment"
 msgstr "حذف التعليق"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "حذف النسخ"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "حذف الحقل"
@@ -884,6 +906,11 @@ msgstr "حذف الخيار"
 msgid "Delete option {0}"
 msgstr "حذف الخيار {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "حذف النسخ على {0}؟"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "حذف المسار"
@@ -899,6 +926,11 @@ msgstr "احذف حسابك من الخادم القديم"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "تم الحذف"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "تم حذف {0} من النسخ"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "تفاصيل العنصر"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "الآن"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "إبقاء"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "الخصائص"
 msgid "Public"
 msgstr "عام"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "النشر إلى"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "النشر إلى {0}"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "الإعدادات"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "مشاركة"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

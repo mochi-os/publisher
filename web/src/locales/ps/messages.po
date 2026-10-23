@@ -47,6 +47,11 @@ msgstr "(تاسو)"
 msgid "[not set]"
 msgstr "[نه دی ټاکل شوی]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# کاپي} other {# کاپيانې}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "ټولې تبصرې"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "دوام ورکړئ"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "دې بحث ته دوام ورکړئ"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "کاپي شو"
 msgid "Copied to clipboard"
 msgstr "په کلیپ بورډ کاپي شو"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "هلته خپرې شوې کاپيانې: {0}. هغه به پاتې وي، مګر دا چې تاسو یې ړنګې کړئ."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "کاپي کړئ"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "د نصبولو لپاره دا لینک کاپي کړئ او د خپل Mochi سرور د اپلیکیشنونه پاڼې کې یې پیسټ کړئ."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "کاپيانې ړنګې نه شوې"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "دا سند نشي پورته کیدلی. مهرباني وکړئ وروسته بیا هڅه وکړئ."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "حسابونه خوندي نه شول"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "کالم ړنګ کړئ"
 msgid "Delete comment"
 msgstr "تبصره ړنګه کړئ"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "کاپيانې ړنګې کړئ"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "ساحه ړنګه کړئ"
@@ -884,6 +906,11 @@ msgstr "اختیار ړنګ کړئ"
 msgid "Delete option {0}"
 msgstr "اختیار {0} ړنګ کړئ"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "په {0} کې کاپيانې ړنګې کړئ؟"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "کانال ړنګ کړئ"
@@ -899,6 +926,11 @@ msgstr "د پخوانی سرور پر سر خپل حساب ړنګ کړئ"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "ړنګ شو"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} کاپيانې ړنګې شوې"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "د توکي جزئیات"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "همدا اوس"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "وساتئ"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "ځانګړتیاوې"
 msgid "Public"
 msgstr "عامه"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "د خپرولو ځایونه"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "په {0} کې خپرول"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "تنظیمات"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "شریکه کړئ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

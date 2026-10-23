@@ -47,6 +47,11 @@ msgstr "(te)"
 msgid "[not set]"
 msgstr "[nincs beállítva]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# másolat} other {# másolat}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "MI"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "Összes megjegyzés"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "Folytatás"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "A szál folytatása"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "Másolva"
 msgid "Copied to clipboard"
 msgstr "A vágólapra másolva"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Ott közzétett másolatok: {0}. Megmaradnak, hacsak nem törli őket."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "Másolás"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Másold ezt a linket, és illeszd be a Mochi-szervered Alkalmazások oldalára a telepítéshez."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Nem sikerült törölni a másolatokat"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Nem sikerült betölteni ezt a dokumentumot. Kérjük, próbáld meg később."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Nem sikerült menteni a fiókokat"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "Oszlop törlése"
 msgid "Delete comment"
 msgstr "Megjegyzés törlése"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Másolatok törlése"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Mező törlése"
@@ -884,6 +906,11 @@ msgstr "Beállítás törlése"
 msgid "Delete option {0}"
 msgstr "{0} beállítás törlése"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Törli a másolatokat innen: {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Csatorna törlése"
@@ -899,6 +926,11 @@ msgstr "Törölje fiókját a régi szerveren"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Törölve"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} másolat törölve"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "Elem részletei"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Épp most"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Megtartás"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "Tulajdonságok"
 msgid "Public"
 msgstr "Nyilvános"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Közzététel ide"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Közzététel ide: {0}"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "Beállítások"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "Megosztás"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

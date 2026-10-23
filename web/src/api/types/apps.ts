@@ -48,3 +48,28 @@ export interface UploadVersionResponse {
   app: App
   tracks: string[]
 }
+
+/** One of the user's accounts on another network an app's releases may be announced to. */
+export interface PublishAccount {
+  id: string
+  /** `mastodon`, `bluesky` or `fediverse`. */
+  type: string
+  /** The account's address on its network. */
+  identifier: string
+  name: string
+  hosted: boolean
+}
+
+/** `publish`: the accounts, those the app announces to, its copies on each, and whether it announces at all. */
+export interface PublishResponse {
+  accounts: PublishAccount[]
+  publish: string[]
+  copies: Record<string, number>
+  public: boolean
+}
+
+/** `publish/set`: the new list, and the copies left on each account that left it. */
+export interface PublishSetResponse {
+  publish: string[]
+  kept: Record<string, number>
+}

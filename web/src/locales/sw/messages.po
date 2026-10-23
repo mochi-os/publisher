@@ -47,6 +47,11 @@ msgstr "(wewe)"
 msgid "[not set]"
 msgstr "[haijawekwa]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {nakala #} other {nakala #}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "Maoni yote"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "Endelea"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "Endelea na mjadala huu"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "Imenakiliwa"
 msgid "Copied to clipboard"
 msgstr "Imenakiliwa kwenye ubao wa kunakili"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Nakala zilizochapishwa huko: {0}. Zitabaki isipokuwa uzifute."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "Nakili"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Nakili kiungo hiki na ubandike kwenye ukurasa wa Programu wa seva yako ya Mochi ili kusakinisha."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Imeshindwa kufuta nakala"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Haikuweza kupakia hati hii. Tafadhali jaribu tena baadaye."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Imeshindwa kuhifadhi akaunti"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "Futa safu"
 msgid "Delete comment"
 msgstr "Futa maoni"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Futa nakala"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Futa uga"
@@ -884,6 +906,11 @@ msgstr "Futa chaguo"
 msgid "Delete option {0}"
 msgstr "Futa chaguo {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Futa nakala kwenye {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Futa chaneli"
@@ -899,6 +926,11 @@ msgstr "Futa akaunti yako kwenye seva ya zamani"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Imefutwa"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Nakala {0} zimefutwa"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "Maelezo ya kipengee"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Sasa hivi"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Ziache"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "Sifa"
 msgid "Public"
 msgstr "Ya umma"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Chapisha kwenye"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Chapisha kwenye {0}"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "Mipangilio"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "Shiriki"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

@@ -47,6 +47,11 @@ msgstr "(ನೀವು)"
 msgid "[not set]"
 msgstr "[ಸಜ್ಜುಗೊಳಿಸಿಲ್ಲ]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# ಪ್ರತಿ} other {# ಪ್ರತಿಗಳು}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "ಎಲ್ಲಾ ಕಾಮೆಂಟ್‌ಗಳು"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "ಮುಂದುವರಿಸಿ"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "ಈ ಥ್ರೆಡ್ ಮುಂದುವರಿಸಿ"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "ನಕಲಿಸಲಾಗಿದೆ"
 msgid "Copied to clipboard"
 msgstr "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "ಅಲ್ಲಿ ಪ್ರಕಟಿಸಲಾದ ಪ್ರತಿಗಳು: {0}. ನೀವು ಅಳಿಸದ ಹೊರತು ಅವು ಉಳಿಯುತ್ತವೆ."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "ನಕಲಿಸಿ"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "ಈ ಲಿಂಕ್ ಅನ್ನು ನಕಲಿಸಿ ಮತ್ತು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲು ನಿಮ್ಮ Mochi ಸರ್ವರ್‌ನ ಆ್ಯಪ್‌ಗಳು ಪುಟದಲ್ಲಿ ಅಂಟಿಸಿ."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "ಪ್ರತಿಗಳನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "ಈ ಡಾಕ್ಯುಮೆಂಟ್ ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಂತರ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "ಖಾತೆಗಳನ್ನು ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "ಕಾಲಮ್ ಅಳಿಸಿ"
 msgid "Delete comment"
 msgstr "ಕಾಮೆಂಟ್ ಅಳಿಸಿ"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "ಪ್ರತಿಗಳನ್ನು ಅಳಿಸಿ"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "ಫೀಲ್ಡ್ ಅಳಿಸಿ"
@@ -884,6 +906,11 @@ msgstr "ಆಯ್ಕೆ ಅಳಿಸಿ"
 msgid "Delete option {0}"
 msgstr "ಆಯ್ಕೆ {0} ಅಳಿಸಿ"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "{0} ನಲ್ಲಿರುವ ಪ್ರತಿಗಳನ್ನು ಅಳಿಸಬೇಕೆ?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "ಚಾನೆಲ್ ಅಳಿಸಿ"
@@ -899,6 +926,11 @@ msgstr "ಹಳೆಯ ಸರ್ವರ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಖಾ
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "ಅಳಿಸಲಾಗಿದೆ"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "{0} ಪ್ರತಿಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "ಐಟಂ ವಿವರಗಳು"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "ಈಗಷ್ಟೇ"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "ಇರಿಸಿಕೊಳ್ಳಿ"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "ಗುಣಲಕ್ಷಣಗಳು"
 msgid "Public"
 msgstr "ಸಾರ್ವಜನಿಕ"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "ಪ್ರಕಟಿಸುವ ಸ್ಥಳ"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "{0} ಗೆ ಪ್ರಕಟಿಸಿ"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "ಹಂಚಿಕೊಳ್ಳಿ"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

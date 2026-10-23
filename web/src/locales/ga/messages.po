@@ -47,6 +47,11 @@ msgstr "(tusa)"
 msgid "[not set]"
 msgstr "[gan socrú]"
 
+#. placeholder {0}: data.copies[account.id]
+#: src/features/apps/publishing.tsx
+msgid "{0, plural, one {# copy} other {# copies}}"
+msgstr "{0, plural, one {# chóip} two {# chóip} few {# chóip} many {# gcóip} other {# cóip}}"
+
 #. placeholder {0}: files.length
 #: ../../../lib/web/src/components/diff-viewer.tsx
 msgid "{0, plural, one {# file changed} other {# files changed}}"
@@ -244,7 +249,7 @@ msgstr "AI"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "All comments"
-msgstr ""
+msgstr "Gach nóta tráchta"
 
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -691,7 +696,7 @@ msgstr "Lean ar aghaidh"
 
 #: ../../../lib/web/src/components/comment-thread-context.tsx
 msgid "Continue this thread"
-msgstr ""
+msgstr "Lean ar aghaidh leis an snáithe seo"
 
 #: ../../../lib/web/src/components/step-up-dialog.tsx
 msgid "Continue with {label}"
@@ -710,6 +715,11 @@ msgstr "Cóipeáilte"
 msgid "Copied to clipboard"
 msgstr "Cóipeáilte chuig an ngearrthaisce"
 
+#. placeholder {0}: kept.count
+#: src/features/apps/publishing.tsx
+msgid "Copies published there: {0}. They stay unless you delete them."
+msgstr "Cóipeanna a foilsíodh ansin: {0}. Fanann siad mura scriosann tú iad."
+
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/month-grid.tsx
 #: ../../../lib/web/src/components/calendar/time-grid.tsx
@@ -725,9 +735,17 @@ msgstr "Cóipeáil"
 msgid "Copy this link and paste it in your Mochi server's Apps page to install."
 msgstr "Cóipeáil an nasc seo agus greamaigh é ar leathanach Aipeanna do fhreastalaí Mochi chun é a shuiteáil."
 
+#: src/features/apps/publishing.tsx
+msgid "Could not delete the copies"
+msgstr "Níorbh fhéidir na cóipeanna a scriosadh"
+
 #: ../../../lib/web/src/features/document/document-page.tsx
 msgid "Could not load this document. Please try again later."
 msgstr "Níorbh fhéidir an cháipéis seo a luchtú. Bain triail eile as ar ball."
+
+#: src/features/apps/publishing.tsx
+msgid "Could not save the accounts"
+msgstr "Níorbh fhéidir na cuntais a shábháil"
 
 #: ../../../lib/web/src/components/layout/notification-menu.tsx
 msgid "Couldn't load notifications"
@@ -860,6 +878,10 @@ msgstr "Scrios colún"
 msgid "Delete comment"
 msgstr "Scrios nóta tráchta"
 
+#: src/features/apps/publishing.tsx
+msgid "Delete copies"
+msgstr "Scrios cóipeanna"
+
 #: ../../../lib/web/src/components/entity/entity-field-dialog.tsx
 msgid "Delete field"
 msgstr "Scrios réimse"
@@ -884,6 +906,11 @@ msgstr "Scrios rogha"
 msgid "Delete option {0}"
 msgstr "Scrios rogha {0}"
 
+#. placeholder {0}: kept.account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Delete the copies on {0}?"
+msgstr "Scrios na cóipeanna ar {0}?"
+
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Delete track"
 msgstr "Scrios cainéal"
@@ -899,6 +926,11 @@ msgstr "Scrios do chuntas ar an sean-fhreastalaí"
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted"
 msgstr "Scriosta"
+
+#. placeholder {0}: answer.deleted
+#: src/features/apps/publishing.tsx
+msgid "Deleted {0} copies"
+msgstr "Cóipeanna scriosta: {0}"
 
 #: ../../../lib/web/src/components/entity/entity-activity-list.tsx
 msgid "Deleted {field}"
@@ -1369,6 +1401,10 @@ msgstr "Sonraí na míre"
 #: ../../../lib/web/src/lib/locale-format.ts
 msgid "Just now"
 msgstr "Anois beag"
+
+#: src/features/apps/publishing.tsx
+msgid "Keep"
+msgstr "Coinnigh"
 
 #: ../../../lib/web/src/components/entity/keyboard-shortcuts-help.tsx
 msgid "Keyboard shortcuts"
@@ -1911,6 +1947,16 @@ msgstr "Airíonna"
 msgid "Public"
 msgstr "Poiblí"
 
+#: src/features/apps/publishing.tsx
+#: src/features/apps/publishing.tsx
+msgid "Publish to"
+msgstr "Foilsigh chuig"
+
+#. placeholder {0}: account.identifier
+#: src/features/apps/publishing.tsx
+msgid "Publish to {0}"
+msgstr "Foilsigh chuig {0}"
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
@@ -2300,7 +2346,7 @@ msgstr "Socruithe"
 #: ../../../lib/web/src/components/comment-share-button.tsx
 #: ../../../lib/web/src/components/comment-share-button.tsx
 msgid "Share"
-msgstr ""
+msgstr "Comhroinn"
 
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Sharing"

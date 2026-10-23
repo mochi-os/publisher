@@ -112,6 +112,10 @@ def database_upgrade(version):
 		# to the per-app system DB - stale copies mislead diagnosis.
 		for table in ["sequence", "log", "acknowledged", "received"]:
 			mochi.db.execute("drop table if exists " + table)
+	if version == 3:
+		# Where each app's releases are announced on other networks, and the
+		# copy of each announcement there (the federation plan, phase 30).
+		publish_schema_create()
 
 # Create database
 def database_create():
@@ -119,6 +123,7 @@ def database_create():
 	mochi.db.execute("create table versions ( app references apps( id ), version text not null, file text not null, primary key ( app, version ) )")
 	mochi.db.execute("create index versions_file on versions( file )")
 	mochi.db.execute("create table tracks ( app references apps( id ), track text not null, version text not null, updated integer not null default 0, primary key ( app, track ) )")
+	publish_schema_create()
 
 # Resolve the "app" input for a write action or set an error and return None: id
 # format (400 - mochi.entity.get raises on an ill-formed id), ownership (403),
@@ -341,6 +346,13 @@ def action_version_create(a):
 		a.error.label(403, "errors.app_installation_restricted_to_administrators")
 		return
 
+	# The accounts on other networks this release names for itself, refused
+	# before the package is installed like any other bad input.
+	accounts, ok = publish_ids(a.input("accounts"))
+	if not ok:
+		a.error.label(400, "errors.invalid_accounts")
+		return
+
 	# The archive is stored under a server-derived name once the version is
 	# known; the client filename is never used for storage, since client-named
 	# archives let two versions or two apps share one file (overwritten bytes,
@@ -442,6 +454,11 @@ def action_version_create(a):
 	if install:
 		mochi.app.version.set(app["id"], version, "")
 
+	# A version on the app's default track is a release, announced where the
+	# app publishes; one on another track alone is not.
+	if app.get("default_track", "Production") in tracks:
+		publish_release(app, version, accounts)
+
 	return {"data": {"version": version, "app": app, "tracks": tracks}}
 
 # Apply the retention policy across every app in one pass (admin one-off for the
@@ -519,6 +536,9 @@ def action_track_set(a):
 
 	now = mochi.time.now()
 	mochi.db.execute("update tracks set version=?, updated=? where app=? and track=?", version, now, id, track)
+	# A version moved onto the default track is released now.
+	if track == app["default_track"]:
+		publish_release(app, version)
 	return {"data": {"track": track, "version": version}}
 
 # Delete a track
@@ -563,6 +583,10 @@ def action_default_track_set(a):
 		return
 
 	mochi.db.execute("update apps set default_track=? where id=?", track, id)
+	# The new default track's version is the release now.
+	current = mochi.db.row("select version from tracks where app=? and track=?", id, track)
+	if current and current["version"]:
+		publish_release(mochi.db.row("select * from apps where id=?", id), current["version"])
 	return {"data": {"default_track": track}}
 
 # The "message" strings in these event handlers are P2P diagnostics, not
@@ -684,3 +708,199 @@ def action_distribution_set(a):
 	now = mochi.time.now()
 	mochi.db.execute("update apps set distribution=?, updated=? where id=?", distribution, now, id)
 	return {"data": {"distribution": distribution}}
+
+# === Publishing (the federation plan, phase 30) ===
+# A public app announces each release to a list of its publisher's accounts on
+# other networks, empty by default, as a feed does its posts: linked Mastodon
+# and Bluesky accounts, and hosted fediverse and Bluesky ones. A release is a
+# version reaching the app's default track, by an upload or by a track moving
+# to it; a version on another track alone announces nothing. The announcement
+# names the app and the version and links to the app's page here. The copy's
+# id is kept per version and account, so the same version is never announced
+# twice to one account, and the user can withdraw the copies on an account it
+# no longer publishes to. An upload may name its own accounts, overriding the
+# list. A restricted or private app announces nothing.
+
+PUBLISH_TYPES = ["mastodon", "bluesky"]
+HOSTED_TYPES = ["fediverse", "bluesky"]
+
+# What a Mastodon server takes when its limits were not read at the link, and
+# what Bluesky's post record takes.
+MASTODON_CHARACTERS = 500
+BLUESKY_CHARACTERS = 300
+
+def publish_schema_create():
+	mochi.db.execute("create table if not exists publish ( app text not null, account text not null, created integer not null, primary key ( app, account ) )")
+	mochi.db.execute("create table if not exists copies ( app text not null, version text not null, account text not null, address text not null, network text not null, remote text not null, url text not null default '', created integer not null, primary key ( app, version, account ) )")
+	mochi.db.execute("create index if not exists copies_remote on copies( account, remote )")
+
+def publishable(acc):
+	"""Whether an app may announce to an account: a linked account on a network
+	that takes posts, or a hosted fediverse or Bluesky account."""
+	if acc.get("hosted"):
+		return acc.get("type") in HOSTED_TYPES
+	return acc.get("type") in PUBLISH_TYPES
+
+def publish_accounts():
+	return [acc for acc in (mochi.account.list() or []) if publishable(acc)]
+
+def publish_account(id):
+	if not id or type(id) != "string":
+		return None
+	acc = mochi.account.get(id)
+	if not acc or not publishable(acc):
+		return None
+	return acc
+
+def account_present(acc):
+	return {"id": acc["id"], "type": acc["type"], "identifier": acc.get("identifier", ""), "name": acc.get("name") or acc.get("label") or "", "hosted": bool(acc.get("hosted"))}
+
+def publish_list(app):
+	return [row["account"] for row in mochi.db.rows("select account from publish where app=? order by created", app)]
+
+def publish_counts(app):
+	counts = {}
+	for row in mochi.db.rows("select account, count(*) as n from copies where app=? group by account", app):
+		counts[row["account"]] = row["n"]
+	return counts
+
+# publish_ids(value) -> (list or None, ok): the accounts an upload names for
+# itself, as JSON text; None where it leaves them to the app's list.
+def publish_ids(value):
+	if value == None or value == "":
+		return (None, True)
+	decoded = json.decode(value, None) if type(value) == "string" else value
+	if type(decoded) not in ("list", "tuple") or len(decoded) > 20:
+		return (None, False)
+	ids = []
+	for id in decoded:
+		if not publish_account(id):
+			return (None, False)
+		if id not in ids:
+			ids.append(id)
+	return (ids, True)
+
+def app_publishes(app):
+	"""Whether an app's releases may be announced: public, and published for
+	anyone to install (decision 27)."""
+	return bool(app) and app.get("privacy", "public") == "public" and app.get("distribution", "published") != "restricted"
+
+# === What a release becomes ===
+
+def release_link(app):
+	"""The app's page here, or "" where the server has no address."""
+	base = mochi.server.url()
+	if not base:
+		return ""
+	return base + "/publisher/app/" + app["id"]
+
+def release_text(app, version):
+	return mochi.app.label("release.published", app=app["name"], version=version)
+
+def fediverse_plain(text):
+	"""Plain text as markdown that renders to the same text."""
+	for mark in ["\\", "*", "_", "[", "]", "`", "#", ">", "~"]:
+		text = text.replace(mark, "\\" + mark)
+	return text.replace("<", "&lt;")
+
+def release_object(acc, app, version):
+	"""The announcement in the form of the account's network: a Note on the
+	fediverse, a post on Bluesky with its link as a facet, a status on
+	Mastodon."""
+	text = release_text(app, version)
+	link = release_link(app)
+	full = text + ("\n\n" + link if link else "")
+	if acc.get("hosted") and acc["type"] == "fediverse":
+		note = {"type": "Note", "content": mochi.text.fediverse(fediverse_plain(text) + ("\n\n" + link if link else ""))["html"]}
+		if link:
+			note["url"] = link
+		return note
+	if acc["type"] == "bluesky":
+		post = {"$type": "app.bsky.feed.post", "text": full}
+		if link:
+			# Byte offsets, as the network counts them.
+			post["facets"] = [{"index": {"byteStart": len(full) - len(link), "byteEnd": len(full)}, "features": [{"$type": "app.bsky.richtext.facet#link", "uri": link}]}]
+		return post
+	return {"status": full, "visibility": "public"}
+
+# === The copies ===
+
+def publish_release(app, version, accounts=None):
+	"""Announce a release to the accounts the upload names, else to the app's
+	list; from a public app only, and once per version and account."""
+	if not app_publishes(app) or not version:
+		return
+	for id in (accounts if accounts != None else publish_list(app["id"])):
+		acc = publish_account(id)
+		if not acc or mochi.db.exists("select 1 from copies where app=? and version=? and account=?", app["id"], version, acc["id"]):
+			continue
+		result = mochi.account.object.create(acc["id"], release_object(acc, app, version), key=app["id"] + "|" + version + "|" + acc["id"])
+		if not result or not result.get("id"):
+			mochi.log.warn("Publisher could not announce %s %s to %s", app["id"], version, acc.get("identifier", acc["id"]))
+			continue
+		mochi.db.execute("insert or replace into copies ( app, version, account, address, network, remote, url, created ) values ( ?, ?, ?, ?, ?, ?, ?, ? )",
+			app["id"], version, acc["id"], acc.get("identifier", ""), acc["type"], str(result["id"]), str(result.get("url", "") or ""), mochi.time.now())
+
+def function_activitypub_object(context, account, id):
+	"""An announcement a hosted fediverse account made, as it stands now: core's
+	engine asks when another server fetches it or reads the account's outbox.
+	None where the copy is gone or the app no longer public."""
+	copy = mochi.db.row("select app, version from copies where account=? and remote=?", account, id)
+	if not copy:
+		return None
+	app = mochi.db.row("select * from apps where id=?", copy["app"])
+	if not app_publishes(app):
+		return None
+	acc = mochi.account.get(account)
+	if not acc:
+		return None
+	return release_object(acc, app, copy["version"])
+
+# === Actions ===
+
+def action_publish(a):
+	"""The accounts an app may announce to, those it does, how many copies each
+	holds, and whether the app is one that announces."""
+	app = require_owned_app(a)
+	if app == None:
+		return
+	return {"data": {"accounts": [account_present(acc) for acc in publish_accounts()], "publish": publish_list(app["id"]), "copies": publish_counts(app["id"]), "public": app_publishes(app)}}
+
+def action_publish_set(a):
+	"""Set where an app announces. The copies on an account that leaves the
+	list stay, counted in the answer so the client can offer to delete them."""
+	app = require_owned_app(a)
+	if app == None:
+		return
+	accounts, ok = publish_ids(a.input("accounts", ""))
+	if not ok:
+		a.error.label(400, "errors.invalid_accounts")
+		return
+	accounts = accounts or []
+	before = publish_list(app["id"])
+	now = mochi.time.now()
+	for id in accounts:
+		mochi.db.execute("insert or ignore into publish ( app, account, created ) values ( ?, ?, ? )", app["id"], id, now)
+	for id in before:
+		if id not in accounts:
+			mochi.db.execute("delete from publish where app=? and account=?", app["id"], id)
+	counts = publish_counts(app["id"])
+	return {"data": {"publish": accounts, "kept": {id: counts[id] for id in before if id not in accounts and counts.get(id, 0)}}}
+
+def action_publish_forget(a):
+	"""Delete an app's announcements on one account, as offered when it leaves
+	the list."""
+	app = require_owned_app(a)
+	if app == None:
+		return
+	account = a.input("account", "")
+	if not account or len(account) > 64:
+		a.error.label(400, "errors.invalid_accounts")
+		return
+	rows = mochi.db.rows("select version, remote from copies where app=? and account=?", app["id"], account)
+	acc = publish_account(account)
+	for row in rows:
+		if acc:
+			mochi.account.object.delete(acc["id"], row["remote"])
+	mochi.db.execute("delete from copies where app=? and account=?", app["id"], account)
+	return {"data": {"deleted": len(rows)}}
