@@ -3,7 +3,7 @@
 // This file is part of Mochi, licensed under the GNU AGPL v3 with the
 // Mochi Application Interface Exception - see license.txt and license-exception.md.
 import { createRootRoute, Outlet } from '@tanstack/react-router'
-import { NotificationTitle, Toaster } from '@mochi/web'
+import { GeneralError, NotificationTitle, Toaster } from '@mochi/web'
 
 export const Route = createRootRoute({
   component: () => (
@@ -13,4 +13,5 @@ export const Route = createRootRoute({
       <Toaster duration={5000} />
     </>
   ),
+  errorComponent: GeneralError,
 })
