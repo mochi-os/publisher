@@ -110,7 +110,7 @@ export function PublishingSection({ appId }: { appId: string }) {
               </div>
               <Switch
                 checked={publish.includes(account.id)}
-                disabled={busy === account.id}
+                loading={busy === account.id}
                 aria-label={t`Publish to ${account.identifier}`}
                 onCheckedChange={(on) => void toggle(account, on)}
               />
