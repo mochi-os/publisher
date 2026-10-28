@@ -60,9 +60,13 @@ import {
   useSetDefaultTrackMutation,
   useSetDistributionMutation,
 } from '@/hooks/useApps'
-import { PublishSwitches, PublishingSection } from '@/features/apps/publishing'
+import {
+  PublishSwitches,
+  PublishingSection,
+  usePublishOffered,
+} from '@/features/apps/publishing'
 
-type TabId = 'details' | 'versions' | 'tracks'
+type TabId = 'details' | 'versions' | 'tracks' | 'publish'
 
 type AppSearch = {
   tab?: TabId
@@ -73,12 +77,29 @@ export const Route = createFileRoute('/_authenticated/app/$appId')({
     tab:
       search.tab === 'details' ||
       search.tab === 'versions' ||
-      search.tab === 'tracks'
+      search.tab === 'tracks' ||
+      search.tab === 'publish'
         ? search.tab
         : undefined,
   }),
   component: AppPage,
 })
+
+// The app's tabs, with Publish to last where the app has somewhere to
+// announce, and the tab the address opens: a link to Publish to holds it
+// while that is asked, and opens the details once it is not so.
+export function appTabs(
+  tab: TabId | undefined,
+  publishable: boolean | undefined
+): { tabs: TabId[]; active: TabId } {
+  const active =
+    tab === 'publish' && publishable === false ? 'details' : (tab ?? 'details')
+  const tabs: TabId[] =
+    publishable || active === 'publish'
+      ? ['details', 'versions', 'tracks', 'publish']
+      : ['details', 'versions', 'tracks']
+  return { tabs, active }
+}
 
 function AppPage() {
   const { t } = useLingui()
@@ -107,11 +128,15 @@ function AppPage() {
   }
   const navigateApp = Route.useNavigate()
   const { tab } = Route.useSearch()
-  const activeTab = tab ?? 'details'
+  // The share page has no tabs, so only the management page asks.
+  const managed = !!data?.app && !data.share
+  const shown = appTabs(tab, usePublishOffered(appId, managed))
+  const activeTab = shown.active
   const tabLabels: Record<TabId, string> = {
     details: t`Details`,
     versions: t`Versions`,
     tracks: t`Tracks`,
+    publish: t`Publish to`,
   }
 
   const setActiveTab = (newTab: TabId) => {
@@ -216,7 +241,7 @@ function AppPage() {
       <Main className='space-y-6 pt-2'>
         <div className='flex items-center justify-between border-b'>
           <div className='flex gap-1'>
-            {(['details', 'versions', 'tracks'] as const).map((tab) => (
+            {shown.tabs.map((tab) => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
@@ -316,10 +341,10 @@ function AppPage() {
                   <DataChip value={shareString} copyButtonMode='always' />
                 </div>
               </Section>
-
-              <PublishingSection appId={appId} />
             </div>
           )}
+
+          {activeTab === 'publish' && <PublishingSection appId={appId} />}
 
           {activeTab === 'versions' && (
             <Section title={t`Version history`}>

@@ -6,9 +6,19 @@ import type { ReactNode } from 'react'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { i18n } from '@lingui/core'
 import { I18nProvider } from '@lingui/react'
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import {
+  fireEvent,
+  render,
+  renderHook,
+  screen,
+  waitFor,
+} from '@testing-library/react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
-import { PublishSwitches, PublishingSection } from './publishing'
+import {
+  PublishSwitches,
+  PublishingSection,
+  usePublishOffered,
+} from './publishing'
 
 const state = vi.hoisted(() => ({
   getPublish: vi.fn(),
@@ -137,5 +147,64 @@ describe('Publisher publish switches', () => {
       screen.getByRole('switch', { name: '@dev@mastodon.social' })
     )
     expect(changed).toHaveBeenCalledWith(['b1', 'm1'])
+  })
+})
+
+describe('usePublishOffered', () => {
+  const offered = (enabled: boolean) => {
+    const client = new QueryClient({
+      defaultOptions: { queries: { retry: false } },
+    })
+    return renderHook(() => usePublishOffered('app-1', enabled), {
+      wrapper: ({ children }) => (
+        <QueryClientProvider client={client}>{children}</QueryClientProvider>
+      ),
+    }).result
+  }
+
+  beforeEach(() => {
+    state.getPublish.mockReset()
+  })
+
+  it('offers the tab for a public app with an account, once that is known', async () => {
+    state.getPublish.mockResolvedValue({
+      accounts,
+      publish: [],
+      copies: {},
+      public: true,
+    })
+    const result = offered(true)
+    expect(result.current).toBeUndefined()
+    await waitFor(() => expect(result.current).toBe(true))
+  })
+
+  it('offers no tab for a private app or one with no account', async () => {
+    state.getPublish.mockResolvedValue({
+      accounts,
+      publish: [],
+      copies: {},
+      public: false,
+    })
+    const hidden = offered(true)
+    await waitFor(() => expect(hidden.current).toBe(false))
+    state.getPublish.mockResolvedValue({
+      accounts: [],
+      publish: [],
+      copies: {},
+      public: true,
+    })
+    const empty = offered(true)
+    await waitFor(() => expect(empty.current).toBe(false))
+  })
+
+  it('offers the tab where the answer failed, so the error shows', async () => {
+    state.getPublish.mockRejectedValue(new Error('no'))
+    const result = offered(true)
+    await waitFor(() => expect(result.current).toBe(true))
+  })
+
+  it('asks nothing for the share page', () => {
+    expect(offered(false).current).toBe(false)
+    expect(state.getPublish).not.toHaveBeenCalled()
   })
 })

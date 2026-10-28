@@ -28,6 +28,24 @@ import type { PublishAccount } from '@/api/types/apps'
 
 const publishKey = (appId: string) => ['apps', 'publish', appId]
 
+// Whether an app's Publish to tab is offered: a public app with an account to
+// announce on, or whose answer failed and shows why. Undefined while it is
+// asked; false where it is not enabled, as for the share page.
+export function usePublishOffered(
+  appId: string,
+  enabled: boolean
+): boolean | undefined {
+  const { data, isLoading, error } = useQuery({
+    queryKey: publishKey(appId),
+    queryFn: () => appsApi.getPublish(appId),
+    retry: false,
+    enabled,
+  })
+  if (!enabled) return false
+  if (isLoading) return undefined
+  return !!error || ((data?.accounts ?? []).length > 0 && !!data?.public)
+}
+
 export function PublishingSection({ appId }: { appId: string }) {
   const { t } = useLingui()
   const queryClient = useQueryClient()

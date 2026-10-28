@@ -1961,6 +1961,7 @@ msgstr "Herkese açık"
 
 #: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
+#: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"
 msgstr "Yayımlanacak yerler"
 

@@ -1961,6 +1961,7 @@ msgstr "Ya umma"
 
 #: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
+#: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"
 msgstr "Chapisha kwenye"
 
