@@ -264,6 +264,10 @@ msgstr "Bar kowa ya nemi {entityLabel}"
 msgid "Allow sort by"
 msgstr "Ba da damar tsara ta"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Haka kuma wallafa zuwa"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "An samu kuskure"
@@ -1960,7 +1964,6 @@ msgstr "Halaye"
 msgid "Public"
 msgstr "Na jama'a"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

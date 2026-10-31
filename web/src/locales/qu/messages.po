@@ -264,6 +264,10 @@ msgstr "Pillapas {entityLabel} maskananpaq saqiy"
 msgid "Allow sort by"
 msgstr "Ordenayta saqiy"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Kaykunapipas churana"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Huk pantay rikurirqan"
@@ -1960,7 +1964,6 @@ msgstr "Kayninkuna"
 msgid "Public"
 msgstr "Público"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

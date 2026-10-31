@@ -264,6 +264,10 @@ msgstr "Povolit komukoli vyhledávat {entityLabel}"
 msgid "Allow sort by"
 msgstr "Povolit řazení podle"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Publikovat také do"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Došlo k chybě"
@@ -1960,7 +1964,6 @@ msgstr "Vlastnosti"
 msgid "Public"
 msgstr "Veřejné"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

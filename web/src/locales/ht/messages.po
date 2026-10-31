@@ -264,6 +264,10 @@ msgstr "Pèmèt tout moun chèche {entityLabel}"
 msgid "Allow sort by"
 msgstr "Pèmèt klasman pa"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Pibliye tou sou"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Yon erè te rive"
@@ -1960,7 +1964,6 @@ msgstr "Pwopriyete"
 msgid "Public"
 msgstr "Piblik"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

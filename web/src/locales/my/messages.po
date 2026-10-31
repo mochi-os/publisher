@@ -264,6 +264,10 @@ msgstr "{entityLabel} ကို မည်သူမဆို ရှာဖွေ�
 msgid "Allow sort by"
 msgstr "စီစဉ်ခွင့်ပြုသည်"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "ထပ်မံ ထုတ်ဝေရန် နေရာ"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်"
@@ -1960,7 +1964,6 @@ msgstr "ဂုဏ်သတ္တိများ"
 msgid "Public"
 msgstr "အများသုံး"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

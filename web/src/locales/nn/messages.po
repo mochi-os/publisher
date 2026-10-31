@@ -264,6 +264,10 @@ msgstr "La kven som helst søkja etter {entityLabel}"
 msgid "Allow sort by"
 msgstr "Tillat sortering etter"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Publiser òg til"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Det oppstod ein feil"
@@ -1960,7 +1964,6 @@ msgstr "Eigenskapar"
 msgid "Public"
 msgstr "Offentleg"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

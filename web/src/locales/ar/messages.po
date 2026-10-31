@@ -264,6 +264,10 @@ msgstr "السماح لأي شخص بالبحث عن {entityLabel}"
 msgid "Allow sort by"
 msgstr "السماح بالترتيب حسب"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "انشر أيضًا على"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "حدث خطأ"
@@ -1960,7 +1964,6 @@ msgstr "الخصائص"
 msgid "Public"
 msgstr "عام"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

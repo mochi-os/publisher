@@ -264,6 +264,10 @@ msgstr "ማንኛውም ሰው {entityLabel} እንዲፈልግ ፍቀድ"
 msgid "Allow sort by"
 msgstr "ደርድር በ ፍቀድ"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "በተጨማሪ የሚታተምበት"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "ስህተት ተከስቷል"
@@ -1960,7 +1964,6 @@ msgstr "ባህሪያት"
 msgid "Public"
 msgstr "ሕዝባዊ"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

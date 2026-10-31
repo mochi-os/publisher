@@ -264,6 +264,10 @@ msgstr "누구나 {entityLabel} 검색을 허용"
 msgid "Allow sort by"
 msgstr "정렬 허용"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "함께 게시할 곳"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "오류가 발생했습니다"
@@ -1960,7 +1964,6 @@ msgstr "속성"
 msgid "Public"
 msgstr "공개"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

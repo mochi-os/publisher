@@ -264,6 +264,10 @@ msgstr "Ħalli lil kulħadd ifittex {entityLabel}"
 msgid "Allow sort by"
 msgstr "Ippermetti ssortjar bi"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Ippubblika wkoll fuq"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Seħħet żball"
@@ -1960,7 +1964,6 @@ msgstr "Proprjetajiet"
 msgid "Public"
 msgstr "Pubbliku"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

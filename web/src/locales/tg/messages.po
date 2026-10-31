@@ -264,6 +264,10 @@ msgstr "Ба ҳама иҷозат диҳед, ки {entityLabel}-ро ҷуст�
 msgid "Allow sort by"
 msgstr "Иҷозати ҷобаҷогузорӣ аз рӯи"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Инчунин нашр дар"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Хатогӣ рух дод"
@@ -1960,7 +1964,6 @@ msgstr "Хусусиятҳо"
 msgid "Public"
 msgstr "Ҷамъиятӣ"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

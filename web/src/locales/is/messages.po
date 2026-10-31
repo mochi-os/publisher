@@ -264,6 +264,10 @@ msgstr "Leyfa öllum að leita að {entityLabel}"
 msgid "Allow sort by"
 msgstr "Leyfa röðun eftir"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Birta líka á"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Villa kom upp"
@@ -1960,7 +1964,6 @@ msgstr "Eiginleikar"
 msgid "Public"
 msgstr "Opinbert"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

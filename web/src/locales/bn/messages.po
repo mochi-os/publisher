@@ -264,6 +264,10 @@ msgstr "যে কাউকে {entityLabel} খোঁজার অনুমত�
 msgid "Allow sort by"
 msgstr "অনুসারে সাজানো অনুমতি দিন"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "আরও যেখানে প্রকাশ করবে"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "একটি ত্রুটি ঘটেছে"
@@ -1960,7 +1964,6 @@ msgstr "বৈশিষ্ট্য"
 msgid "Public"
 msgstr "সর্বজনীন"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

@@ -264,6 +264,10 @@ msgstr "به همه اجازه بده {entityLabel} را جستجو کنند"
 msgid "Allow sort by"
 msgstr "اجازهٔ مرتب‌سازی بر اساس"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "همچنین انتشار در"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "خطایی رخ داد"
@@ -1960,7 +1964,6 @@ msgstr "ویژگی‌ها"
 msgid "Public"
 msgstr "عمومی"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

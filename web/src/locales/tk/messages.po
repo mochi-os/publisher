@@ -264,6 +264,10 @@ msgstr "Islendik adama {entityLabel} gözlemäge rugsat ber"
 msgid "Allow sort by"
 msgstr "Tertipleşdirmäge rugsat bermek"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Şeýle hem neşir et"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Ýalňyşlyk ýüze çykdy"
@@ -1960,7 +1964,6 @@ msgstr "Häsiýetler"
 msgid "Public"
 msgstr "Köpçülige açyk"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

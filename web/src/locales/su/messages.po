@@ -264,6 +264,10 @@ msgstr "Idinan saha waé néangan {entityLabel}"
 msgid "Allow sort by"
 msgstr "Idinkeun urutkeun ku"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Medalkeun ogé ka"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Aya kasalahan"
@@ -1960,7 +1964,6 @@ msgstr "Sipat"
 msgid "Public"
 msgstr "Publik"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

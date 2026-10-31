@@ -264,6 +264,10 @@ msgstr "Luba kõigil otsida {entityLabel}"
 msgid "Allow sort by"
 msgstr "Luba sortimine"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Avalda ka"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Tekkis viga"
@@ -1960,7 +1964,6 @@ msgstr "Atribuudid"
 msgid "Public"
 msgstr "Avalik"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

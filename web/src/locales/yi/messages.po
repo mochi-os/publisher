@@ -264,6 +264,10 @@ msgstr "דערלויב יעדן צו זוכן {entityLabel}"
 msgid "Allow sort by"
 msgstr "דערלויבן סאָרטירן לויט"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "אויך פּובליקירן אויף"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "אַ פֿעלער איז פֿאָרגעקומען"
@@ -1960,7 +1964,6 @@ msgstr "אייגנשאַפֿטן"
 msgid "Public"
 msgstr "עפֿנטלעך"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

@@ -264,6 +264,10 @@ msgstr "允许任何人搜索{entityLabel}"
 msgid "Allow sort by"
 msgstr "允许排序方式"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "同时发布到"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "发生错误"
@@ -1960,7 +1964,6 @@ msgstr "属性"
 msgid "Public"
 msgstr "公开"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

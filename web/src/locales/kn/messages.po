@@ -264,6 +264,10 @@ msgstr "{entityLabel} ಅನ್ನು ಯಾರಾದರೂ ಹುಡುಕಲ�
 msgid "Allow sort by"
 msgstr "ಇದರ ಮೂಲಕ ವಿಂಗಡಣೆ ಅನುಮತಿಸಿ"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "ಇಲ್ಲಿಯೂ ಪ್ರಕಟಿಸಿ"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "ದೋಷ ಸಂಭವಿಸಿದೆ"
@@ -1960,7 +1964,6 @@ msgstr "ಗುಣಲಕ್ಷಣಗಳು"
 msgid "Public"
 msgstr "ಸಾರ್ವಜನಿಕ"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

@@ -264,6 +264,10 @@ msgstr "Дазволіць усім шукаць {entityLabel}"
 msgid "Allow sort by"
 msgstr "Дазволіць сартаваць па"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Таксама публікаваць у"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Адбылася памылка"
@@ -1960,7 +1964,6 @@ msgstr "Уласцівасці"
 msgid "Public"
 msgstr "Публічны"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

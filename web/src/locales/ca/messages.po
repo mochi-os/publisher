@@ -264,6 +264,10 @@ msgstr "Permet que qualsevol persona cerqui {entityLabel}"
 msgid "Allow sort by"
 msgstr "Permet ordenar per"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Publica també a"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "S'ha produït un error"
@@ -1960,7 +1964,6 @@ msgstr "Propietats"
 msgid "Public"
 msgstr "Públic"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

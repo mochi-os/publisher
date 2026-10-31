@@ -264,6 +264,10 @@ msgstr ""
 msgid "Allow sort by"
 msgstr ""
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr ""
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr ""
@@ -1960,7 +1964,6 @@ msgstr ""
 msgid "Public"
 msgstr ""
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

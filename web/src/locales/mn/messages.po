@@ -264,6 +264,10 @@ msgstr "Хүн бүр {entityLabel} хайж болохыг зөвшөөрөх"
 msgid "Allow sort by"
 msgstr "Дараах байдлаар эрэмбэлэхийг зөвшөөрөх"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Мөн нийтлэх"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Алдаа гарлаа"
@@ -1960,7 +1964,6 @@ msgstr "Шинж чанарууд"
 msgid "Public"
 msgstr "Нийтийн"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

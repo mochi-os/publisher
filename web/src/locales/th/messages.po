@@ -264,6 +264,10 @@ msgstr "อนุญาตให้ทุกคนค้นหา{entityLabel}"
 msgid "Allow sort by"
 msgstr "อนุญาตให้เรียงตาม"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "เผยแพร่เพิ่มเติมไปยัง"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "เกิดข้อผิดพลาด"
@@ -1960,7 +1964,6 @@ msgstr "คุณสมบัติ"
 msgid "Public"
 msgstr "สาธารณะ"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

@@ -264,6 +264,10 @@ msgstr "Cho phép mọi người tìm kiếm {entityLabel}"
 msgid "Allow sort by"
 msgstr "Cho phép sắp xếp theo"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Đăng cả lên"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Đã xảy ra lỗi"
@@ -1960,7 +1964,6 @@ msgstr "Thuộc tính"
 msgid "Public"
 msgstr "Công khai"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

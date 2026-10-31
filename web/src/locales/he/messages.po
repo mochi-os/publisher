@@ -264,6 +264,10 @@ msgstr "לאפשר לכל אחד לחפש {entityLabel}"
 msgid "Allow sort by"
 msgstr "אפשר מיון לפי"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "פרסום גם אל"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "אירעה שגיאה"
@@ -1960,7 +1964,6 @@ msgstr "מאפיינים"
 msgid "Public"
 msgstr "ציבורי"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

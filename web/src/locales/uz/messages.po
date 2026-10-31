@@ -264,6 +264,10 @@ msgstr "Hammaga {entityLabel} qidirishga ruxsat berish"
 msgid "Allow sort by"
 msgstr "Saralashga ruxsat berish"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Shuningdek nashr qilinadigan joylar"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Xatolik yuz berdi"
@@ -1960,7 +1964,6 @@ msgstr "Xususiyatlar"
 msgid "Public"
 msgstr "Ommaviy"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

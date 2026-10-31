@@ -264,6 +264,10 @@ msgstr "Ngidini sapa waé nggolèki {entityLabel}"
 msgid "Allow sort by"
 msgstr "Idini diurutaké miturut"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Uga terbitaké menyang"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Ana kaluputan"
@@ -1960,7 +1964,6 @@ msgstr "Properti"
 msgid "Public"
 msgstr "Publik"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

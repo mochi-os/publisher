@@ -264,6 +264,10 @@ msgstr "केहू के भी {entityLabel} खोजे के अनु�
 msgid "Allow sort by"
 msgstr "एकर अनुसार छांटे के अनुमति दीं"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "एहू पर प्रकाशित करीं"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "एगो त्रुटि भइल"
@@ -1960,7 +1964,6 @@ msgstr "गुण"
 msgid "Public"
 msgstr "सार्वजनिक"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

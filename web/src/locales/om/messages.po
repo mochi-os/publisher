@@ -264,6 +264,10 @@ msgstr "Namni kamiyyuu {entityLabel} akka barbaadu hayyami"
 msgid "Allow sort by"
 msgstr "Akkaataa kana taasifachuu hayyami"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Akkasumas maxxansi"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Dogoggorri uumame"
@@ -1960,7 +1964,6 @@ msgstr "Qabeenyaalee"
 msgid "Public"
 msgstr "Ifa"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

@@ -264,6 +264,10 @@ msgstr "هر چا ته اجازه ورکړئ چې {entityLabel} ولټوي"
 msgid "Allow sort by"
 msgstr "د ترتیب اجازه"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "همدارنګه خپرول په"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "یوه تېروتنه رامنځته شوه"
@@ -1960,7 +1964,6 @@ msgstr "ځانګړتیاوې"
 msgid "Public"
 msgstr "عامه"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

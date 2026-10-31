@@ -264,6 +264,10 @@ msgstr "سڀ ڪنهن کي {entityLabel} ڳولڻ جي اجازت ڏيو"
 msgid "Allow sort by"
 msgstr "ترتيب جي اجازت ڏيو"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "هتي به شايع ڪريو"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "هڪ خرابي پيش آئي"
@@ -1960,7 +1964,6 @@ msgstr "خاصيتون"
 msgid "Public"
 msgstr "عوامي"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

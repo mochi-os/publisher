@@ -264,6 +264,10 @@ msgstr "Gba ẹnikẹ́ni láàyè láti wá {entityLabel}"
 msgid "Allow sort by"
 msgstr "Jẹ́ kí a tò nípa"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Tún tẹ̀jáde sí"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Àṣìṣe kan wáyé"
@@ -1960,7 +1964,6 @@ msgstr "Àwọn àmì"
 msgid "Public"
 msgstr "Gbangba"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

@@ -264,6 +264,10 @@ msgstr "ყველას შეეძლოს მოძებნოს {entit
 msgid "Allow sort by"
 msgstr "დახარისხების დაშვება"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "ასევე გამოქვეყნდეს"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "მოხდა შეცდომა"
@@ -1960,7 +1964,6 @@ msgstr "თვისებები"
 msgid "Public"
 msgstr "საჯარო"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

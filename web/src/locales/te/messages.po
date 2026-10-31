@@ -264,6 +264,10 @@ msgstr "{entityLabel} కోసం వెతకడానికి ఎవరి�
 msgid "Allow sort by"
 msgstr "వీటి ద్వారా క్రమబద్ధీకరణను అనుమతించండి"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "ఇక్కడ కూడా ప్రచురించు"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "లోపం సంభవించింది"
@@ -1960,7 +1964,6 @@ msgstr "లక్షణాలు"
 msgid "Public"
 msgstr "పబ్లిక్"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

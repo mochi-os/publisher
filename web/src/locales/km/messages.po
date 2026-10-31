@@ -264,6 +264,10 @@ msgstr "អនុញ្ញាតឱ្យអ្នកណាក៏ដោយស្
 msgid "Allow sort by"
 msgstr "អនុញ្ញាតការតម្រៀបតាម"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "បោះផ្សាយទៅផងដែរ"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "មានកំហុសកើតឡើង"
@@ -1960,7 +1964,6 @@ msgstr "លក្ខណៈសម្បត្តិ"
 msgid "Public"
 msgstr "សាធារណៈ"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

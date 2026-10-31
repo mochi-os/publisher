@@ -264,6 +264,10 @@ msgstr "Ceadaich do dhuine sam bith {entityLabel} a lorg"
 msgid "Allow sort by"
 msgstr "Ceadaich seòrsachadh a rèir"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Foillsich cuideachd gu"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Thachair mearachd"
@@ -1960,7 +1964,6 @@ msgstr "Feartan"
 msgid "Public"
 msgstr "Poblach"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

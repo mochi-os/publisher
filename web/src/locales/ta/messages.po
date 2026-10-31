@@ -264,6 +264,10 @@ msgstr "{entityLabel} தேட அனைவரையும் அனுமத�
 msgid "Allow sort by"
 msgstr "வரிசைப்படுத்துதலை அனுமதி"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "இங்கும் வெளியிடு"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "பிழை ஏற்பட்டது"
@@ -1960,7 +1964,6 @@ msgstr "பண்புகள்"
 msgid "Public"
 msgstr "பொது"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

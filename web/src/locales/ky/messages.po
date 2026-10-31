@@ -264,6 +264,10 @@ msgstr "Бардыгы {entityLabel} издей алсын"
 msgid "Allow sort by"
 msgstr "Иргөөгө уруксат"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Ошондой эле жарыялоо"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Ката кетти"
@@ -1960,7 +1964,6 @@ msgstr "Касиеттер"
 msgid "Public"
 msgstr "Ачык"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

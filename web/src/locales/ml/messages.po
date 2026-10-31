@@ -264,6 +264,10 @@ msgstr "{entityLabel} ആർക്കും തിരയാൻ അനുവദ�
 msgid "Allow sort by"
 msgstr "സോർട്ട് ചെയ്യാൻ അനുവദിക്കുക"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "ഇവിടെയും പ്രസിദ്ധീകരിക്കുക"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "ഒരു പിശക് സംഭവിച്ചു"
@@ -1960,7 +1964,6 @@ msgstr "സവിശേഷതകൾ"
 msgid "Public"
 msgstr "പൊതു"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

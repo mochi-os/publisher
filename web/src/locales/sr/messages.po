@@ -264,6 +264,10 @@ msgstr "Дозволи свима да траже {entityLabel}"
 msgid "Allow sort by"
 msgstr "Дозволи сортирање по"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Објави и на"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Дошло је до грешке"
@@ -1960,7 +1964,6 @@ msgstr "Својства"
 msgid "Public"
 msgstr "Јавно"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

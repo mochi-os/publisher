@@ -264,6 +264,10 @@ msgstr "Hər kəsə {entityLabel} axtarmağa icazə ver"
 msgid "Allow sort by"
 msgstr "Sıralamağa icazə ver"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Həmçinin dərc et"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Xəta baş verdi"
@@ -1960,7 +1964,6 @@ msgstr "Xüsusiyyətlər"
 msgid "Public"
 msgstr "Açıq"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

@@ -264,6 +264,10 @@ msgstr "Laat enigiemand toe om na {entityLabel} te soek"
 msgid "Allow sort by"
 msgstr "Laat sortering toe volgens"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Plaas ook op"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Daar het 'n fout voorgekom"
@@ -1960,7 +1964,6 @@ msgstr "Eienskappe"
 msgid "Public"
 msgstr "Publiek"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

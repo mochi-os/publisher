@@ -264,6 +264,10 @@ msgstr "किसी को भी {entityLabel} खोजने की अन�
 msgid "Allow sort by"
 msgstr "इसके अनुसार सॉर्ट करने की अनुमति दें"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "यहाँ भी प्रकाशित करें"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "एक त्रुटि हुई"
@@ -1960,7 +1964,6 @@ msgstr "गुण"
 msgid "Public"
 msgstr "सार्वजनिक"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

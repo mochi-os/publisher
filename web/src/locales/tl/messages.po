@@ -264,6 +264,10 @@ msgstr "Payagan ang sinuman na maghanap ng {entityLabel}"
 msgid "Allow sort by"
 msgstr "Payagan ang pag-sort ayon sa"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Ilathala rin sa"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "May naganap na error"
@@ -1960,7 +1964,6 @@ msgstr "Mga katangian"
 msgid "Public"
 msgstr "Pampubliko"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

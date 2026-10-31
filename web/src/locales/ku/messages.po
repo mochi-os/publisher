@@ -264,6 +264,10 @@ msgstr "Destûrê bide her kesî ku li {entityLabel} bigere"
 msgid "Allow sort by"
 msgstr "Destûrê bide rêzkirinê li gor"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Herwiha biweşîne li"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Çewtiyek çêbû"
@@ -1960,7 +1964,6 @@ msgstr "Taybetmendî"
 msgid "Public"
 msgstr "Giştî"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

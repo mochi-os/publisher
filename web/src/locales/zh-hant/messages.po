@@ -264,6 +264,10 @@ msgstr "允許任何人搜尋{entityLabel}"
 msgid "Allow sort by"
 msgstr "允許排序依據"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "同時發布到"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "發生錯誤"
@@ -1960,7 +1964,6 @@ msgstr "屬性"
 msgid "Public"
 msgstr "公開"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

@@ -264,6 +264,10 @@ msgstr "Allow anyone to search for {entityLabel}"
 msgid "Allow sort by"
 msgstr "Allow sort by"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Also post to"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "An error occurred"
@@ -1960,7 +1964,6 @@ msgstr "Properties"
 msgid "Public"
 msgstr "Public"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

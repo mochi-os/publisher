@@ -264,6 +264,10 @@ msgstr "Atļaut ikvienam meklēt: {entityLabel}"
 msgid "Allow sort by"
 msgstr "Atļaut kārtot pēc"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Publicēt arī"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Radās kļūda"
@@ -1960,7 +1964,6 @@ msgstr "Īpašības"
 msgid "Public"
 msgstr "Publisks"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"

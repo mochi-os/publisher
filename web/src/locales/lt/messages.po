@@ -264,6 +264,10 @@ msgstr "Leisti visiems ieškoti: {entityLabel}"
 msgid "Allow sort by"
 msgstr "Leisti rūšiuoti pagal"
 
+#: src/features/apps/publishing.tsx
+msgid "Also post to"
+msgstr "Taip pat skelbti į"
+
 #: ../../../lib/web/src/lib/api-response-interceptors.ts
 msgid "An error occurred"
 msgstr "Įvyko klaida"
@@ -1960,7 +1964,6 @@ msgstr "Savybės"
 msgid "Public"
 msgstr "Viešas"
 
-#: src/features/apps/publishing.tsx
 #: src/features/apps/publishing.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 msgid "Publish to"
