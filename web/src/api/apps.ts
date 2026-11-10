@@ -2,8 +2,7 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // This file is part of Mochi, licensed under the GNU AGPL v3 with the
 // Mochi Application Interface Exception - see license.txt and license-exception.md.
-import type { AxiosProgressEvent } from 'axios'
-import { requestHelpers } from '@mochi/web'
+import { requestHelpers, type TransferProgress } from '@mochi/web'
 import endpoints from '@/api/endpoints'
 import type {
   AppsListResponse,
@@ -63,7 +62,7 @@ const uploadVersion = async (
   install: boolean,
   force: boolean,
   tracks?: string[],
-  onProgress?: (event: AxiosProgressEvent) => void,
+  onProgress?: (event: TransferProgress) => void,
   accounts?: string[]
 ): Promise<{ version: string; app: App; tracks: string[] }> => {
   const formData = new FormData()
