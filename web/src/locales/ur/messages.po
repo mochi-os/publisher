@@ -2136,6 +2136,10 @@ msgstr "ہار مانیں"
 msgid "Resign game?"
 msgstr "گیم میں ہار مانیں؟"
 
+#: ../../../lib/web/src/components/ui/sidebar.tsx
+msgid "Resize sidebar"
+msgstr ""
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx

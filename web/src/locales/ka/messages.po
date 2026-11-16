@@ -2136,6 +2136,10 @@ msgstr "ჩაბარება"
 msgid "Resign game?"
 msgstr "თამაშის ჩაბარება?"
 
+#: ../../../lib/web/src/components/ui/sidebar.tsx
+msgid "Resize sidebar"
+msgstr ""
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx

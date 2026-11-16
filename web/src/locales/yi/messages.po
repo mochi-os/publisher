@@ -2136,6 +2136,10 @@ msgstr "רעזיגנירן"
 msgid "Resign game?"
 msgstr "רעזיגנירן שפּיל?"
 
+#: ../../../lib/web/src/components/ui/sidebar.tsx
+msgid "Resize sidebar"
+msgstr ""
+
 #: src/features/apps/index.tsx
 #: src/routes/_authenticated/app/$appId.tsx
 #: src/routes/_authenticated/app/$appId.tsx
