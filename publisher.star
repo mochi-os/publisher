@@ -649,7 +649,27 @@ def event_get(e):
 	if not mochi.file.exists(v["file"]):
 		return e.write({"status": "404", "message": "App version file not found"})
 
-	e.write({"status": "200"})
+	# A requester resuming an interrupted download names the size of its
+	# surviving partial as offset, an integer. It is honoured only when the
+	# file can continue from it exactly, and confirmed by echoing it: the
+	# requester appends only on the echo, so any other answer is the whole
+	# file and the requester starts over. A peer chooses the value's type, so
+	# anything but an integer is taken as no offset rather than compared.
+	# Either answer carries the whole file's size: a send that fails part way
+	# ends the stream as cleanly as one that finishes, so the requester keeps
+	# what it got only when its partial and the body add up to that.
+	offset = e.content("offset")
+	size = mochi.file.size(v["file"]) if hasattr(mochi.file, "size") else None
+	answer = {"status": "200"}
+	if type(size) == "int":
+		answer["size"] = size
+	if type(offset) == "int" and offset > 0 and type(size) == "int" and offset < size:
+		answer["offset"] = offset
+		e.write(answer)
+		e.write.file(v["file"], offset=offset)
+		return
+
+	e.write(answer)
 	e.write.file(v["file"])
 
 # Receive a request to get version for requested track
