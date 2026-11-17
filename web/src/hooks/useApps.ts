@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 // This file is part of Mochi, licensed under the GNU AGPL v3 with the
 // Mochi Application Interface Exception - see license.txt and license-exception.md.
-import type { AxiosProgressEvent } from 'axios'
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
+import type { TransferProgress } from '@mochi/web'
 import appsApi from '@/api/apps'
 import type { App } from '@/api/types/apps'
 
@@ -54,7 +54,7 @@ export const useUploadVersionMutation = () => {
       install: boolean
       force: boolean
       tracks?: string[]
-      onProgress?: (event: AxiosProgressEvent) => void
+      onProgress?: (event: TransferProgress) => void
       accounts?: string[]
     }) =>
       appsApi.uploadVersion(
