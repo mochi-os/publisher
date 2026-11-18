@@ -9,14 +9,17 @@ import type { ReactNode } from 'react'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { i18n } from '@lingui/core'
 import { I18nProvider } from '@lingui/react'
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { act, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
-import { PublishSwitches } from './publishing'
+import { PublishSwitches, PublishingSection } from './publishing'
 
-const state = vi.hoisted(() => ({ get: vi.fn() }))
+const state = vi.hoisted(() => ({ get: vi.fn(), set: vi.fn() }))
 
 vi.mock('@/api/apps', () => ({
-  default: { getPublish: (appId: string) => state.get(appId) },
+  default: {
+    getPublish: (appId: string) => state.get(appId),
+    setPublish: (appId: string, next: string[]) => state.set(appId, next),
+  },
 }))
 
 const accounts = [
@@ -88,5 +91,37 @@ describe('Release publish switches', () => {
       )
     )
     expect(screen.queryByText('Also post to')).toBeNull()
+  })
+})
+
+describe('Release publishing section', () => {
+  beforeEach(() => {
+    i18n.load('en', {})
+    i18n.activate('en')
+    state.get.mockReset().mockResolvedValue({
+      accounts,
+      publish: ['m1'],
+      copies: {},
+      public: true,
+    })
+    state.set.mockReset()
+  })
+
+  // A switch moves when clicked, not once the server has answered and the
+  // list has been read again, and goes back when the change is refused.
+  it('moves a switch at once, and back when the change is refused', async () => {
+    let refuse: (error: Error) => void = () => {}
+    state.set.mockImplementation(
+      () => new Promise((_, reject) => (refuse = reject))
+    )
+    wrap(<PublishingSection appId='a1' />)
+    const toggle = await screen.findByRole('switch', {
+      name: 'Publish to alice.example.org',
+    })
+    expect(toggle).toHaveAttribute('aria-checked', 'false')
+    fireEvent.click(toggle)
+    expect(toggle).toHaveAttribute('aria-checked', 'true')
+    await act(async () => refuse(new Error('refused')))
+    await waitFor(() => expect(toggle).toHaveAttribute('aria-checked', 'false'))
   })
 })
